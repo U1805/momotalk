@@ -8,14 +8,8 @@ import data from '../assets/student.json'
     <div id="listcard">
         <ListHeader></ListHeader>
         <dev id="list" v-for="(item, key, index) in data">
-            <span @click="changeItem(index)" 
-                :class="{active_item:categoryIndex==index}" class="t12" 
-            >
-                <ListItem 
-                    :avatar="item.avatar" 
-                    :name="item.name" 
-                    :bio="item.bio" 
-                />
+            <span @click="changeItem(index)" :class="{ active_item: categoryIndex == index }" class="t12">
+                <ListItem :avatar="item.avatar" :name="item.name" :bio="item.bio" />
             </span>
         </dev>
     </div>
@@ -29,8 +23,8 @@ export default {
             data: data
         }
     },
-    methods:{
-        changeItem(index){
+    methods: {
+        changeItem(index) {
             this.categoryIndex = index
         }
     }
@@ -38,17 +32,20 @@ export default {
 </script>
 
 <style scoped>
-#listcard{
+#listcard {
     background-color: #f3f7f8;
 }
-#list{
+
+#list {
     display: flex;
     flex-direction: column;
 }
-.t12{
+
+.t12 {
     width: 100%;
 }
-.active_item{
+
+.active_item {
     background-color: #dce5ec;
 }
 </style>
