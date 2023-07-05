@@ -1,15 +1,26 @@
 <template>
     <div class="student-chat">
         <div class="avatar">
-            <img src="https://schale.gg/images/student/collection/Student_Portrait_Aru_Collection.webp" />
+            <img :src="avatar" />
         </div>
-        <div class="name"> aru </div>
+        <div class="name"> {{ student }} </div>
         <div class="container">
-            <div class="box" contenteditable>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
-            <div class="box" contenteditable>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
+            <div class="box" contenteditable v-for="talk in talklist">{{ talk }}</div>
         </div>
     </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  props:{
+    student: null,
+    avatar: null,
+    talklist: null
+  },
+})
+</script>
 
 <style scoped>
 .student-chat {

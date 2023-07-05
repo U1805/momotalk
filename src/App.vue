@@ -57,7 +57,7 @@ import data from './assets/student.json'
         <hr />
       </div>
     </div>
-    <RouterView id="chatcard" :student="student"/>
+    <RouterView id="chatcard" :student="student" :studentId="currentStudent"/>
   </div>
 </template>
 

@@ -1,10 +1,19 @@
 <template>
     <div class="teacher-chat">
-            <div class="box" contenteditable>测试文字测试</div>
-            <div class="box" contenteditable>测试文字测试</div>
+      <div class="box" contenteditable v-for="talk in talklist">{{ talk }}</div>
     </div>
 </template>
-    
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  props:{
+    talklist: null
+  },
+})
+</script>
+
 <style scoped>
 .teacher-chat {
     padding: 10px 25px 10px 50px;
