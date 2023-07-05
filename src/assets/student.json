@@ -1,4 +1,878 @@
 {
-    "1001": {"avatar":"Aru", "name":"aru", "bio":"one day one evil"},
-    "1002": {"avatar":"Hina", "name":"hina","bio":"test"}
+    "10000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aru_Collection.webp",
+        "name": "阿露",
+        "bio": "一日一恶",
+        "birthday": "3月12日"
+    },
+    "10001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Eimi_Collection.webp",
+        "name": "艾米",
+        "bio": "在此输入状态信息",
+        "birthday": "5月1日"
+    },
+    "10002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Haruna_Collection.webp",
+        "name": "晴奈",
+        "bio": "EAT OR DIE",
+        "birthday": "3月1日"
+    },
+    "10003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hihumi_Collection.webp",
+        "name": "日富美",
+        "bio": "有人要一起去佩洛洛庆典吗？",
+        "birthday": "11月27日"
+    },
+    "10004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hina_Collection.webp",
+        "name": "日奈",
+        "bio": "",
+        "birthday": "2月19日"
+    },
+    "10005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hoshino_Collection.webp",
+        "name": "星野",
+        "bio": "午睡中 别吵醒我",
+        "birthday": "1月2日"
+    },
+    "10006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Iori_Collection.webp",
+        "name": "伊织",
+        "bio": "",
+        "birthday": "11月8日"
+    },
+    "10007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Maki_Collection.webp",
+        "name": "真纪",
+        "bio": "",
+        "birthday": "8月1日"
+    },
+    "10008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Neru_Collection.webp",
+        "name": "尼禄",
+        "bio": "",
+        "birthday": "8月17日"
+    },
+    "10009": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izumi_Collection.webp",
+        "name": "泉",
+        "bio": "肚子饿了~",
+        "birthday": "5月11日"
+    },
+    "10010": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shiroko_Collection.webp",
+        "name": "白子",
+        "bio": "自行车伙伴招募中……(1/5)",
+        "birthday": "5月16日"
+    },
+    "10011": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shun_Collection.webp",
+        "name": "瞬",
+        "bio": "",
+        "birthday": "2月5日"
+    },
+    "10012": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sumire_Collection.webp",
+        "name": "堇",
+        "bio": "健全的精神寓于健康的身体",
+        "birthday": "8月20日"
+    },
+    "10013": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tsurugi_Collection.webp",
+        "name": "鹤城",
+        "bio": "……",
+        "birthday": "6月24日"
+    },
+    "13000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Akane_Collection.webp",
+        "name": "茜",
+        "bio": "",
+        "birthday": "4月1日"
+    },
+    "13001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Chise_Collection.webp",
+        "name": "千世",
+        "bio": "找到云的话告诉我",
+        "birthday": "7月13日"
+    },
+    "13002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Akari_Collection.webp",
+        "name": "明里",
+        "bio": "",
+        "birthday": "12月9日"
+    },
+    "13003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hasumi_Collection.webp",
+        "name": "莲见",
+        "bio": "减肥中……",
+        "birthday": "12月12日"
+    },
+    "13004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nonomi_Collection.webp",
+        "name": "野宫",
+        "bio": "希望会是快乐的一天",
+        "birthday": "9月1日"
+    },
+    "13005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kayoko_Collection.webp",
+        "name": "佳代子",
+        "bio": "不常用MomoTalk",
+        "birthday": "3月17日"
+    },
+    "13006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_Collection.webp",
+        "name": "睦月",
+        "bio": "",
+        "birthday": "7月29日"
+    },
+    "13007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Zunko_Collection.webp",
+        "name": "淳子",
+        "bio": "谢绝骚扰 (╬⊙益⊙)",
+        "birthday": "12月27日"
+    },
+    "13008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serika_Collection.webp",
+        "name": "芹香",
+        "bio": "对策委员会黑见芹香",
+        "birthday": "6月25日"
+    },
+    "13009": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tsubaki_Collection.webp",
+        "name": "椿",
+        "bio": "好困……",
+        "birthday": "2月3日"
+    },
+    "13010": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yuuka_Collection.webp",
+        "name": "优香",
+        "bio": "",
+        "birthday": "3月14日"
+    },
+    "16000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Haruka_Collection.webp",
+        "name": "遥香",
+        "bio": "请多多指教",
+        "birthday": "5月13日"
+    },
+    "16001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Asuna_Collection.webp",
+        "name": "明日奈",
+        "bio": "为主人提供最好的服务！",
+        "birthday": "3月24日"
+    },
+    "16002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kotori_Collection.webp",
+        "name": "柯托莉",
+        "bio": "",
+        "birthday": "12月31日"
+    },
+    "16003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Suzumi_Collection.webp",
+        "name": "铃美",
+        "bio": "",
+        "birthday": "8月31日"
+    },
+    "16004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Pina_Collection.webp",
+        "name": "菲娜",
+        "bio": "CHUCIJIANMIAN！",
+        "birthday": "11月3日"
+    },
+    "20000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hibiki_Collection.webp",
+        "name": "响",
+        "bio": "虚争空言，不如思而试之",
+        "birthday": "4月2日"
+    },
+    "20001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Karin_Collection.webp",
+        "name": "花凛",
+        "bio": "",
+        "birthday": "2月2日"
+    },
+    "20002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saya_Collection.webp",
+        "name": "纱绫",
+        "bio": "",
+        "birthday": "1月3日"
+    },
+    "23000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Airi_Collection.webp",
+        "name": "爱莉",
+        "bio": "薄荷巧克力最棒了！",
+        "birthday": "1月30日"
+    },
+    "23001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Fuuka_Collection.webp",
+        "name": "枫香",
+        "bio": "希望至少能过平静的一天(T_T)",
+        "birthday": "4月30日"
+    },
+    "23002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hanae_Collection.webp",
+        "name": "花江",
+        "bio": "",
+        "birthday": "5月12日"
+    },
+    "23003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hare_Collection.webp",
+        "name": "晴",
+        "bio": "",
+        "birthday": "4月19日"
+    },
+    "23004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Utaha_Collection.webp",
+        "name": "歌原",
+        "bio": "",
+        "birthday": "11月13日"
+    },
+    "23005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Ayane_Collection.webp",
+        "name": "绫音",
+        "bio": "玩的时候就要好好玩！",
+        "birthday": "11月12日"
+    },
+    "26000": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Chinatsu_Collection.webp",
+        "name": "千夏",
+        "bio": "丧失的前方",
+        "birthday": "8月22日"
+    },
+    "26001": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kotama_Collection.webp",
+        "name": "小玉",
+        "bio": "我一直守望着你",
+        "birthday": "1月5日"
+    },
+    "26002": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Juri_Collection.webp",
+        "name": "茱莉",
+        "bio": "",
+        "birthday": "10月20日"
+    },
+    "26003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serina_Collection.webp",
+        "name": "芹娜",
+        "bio": "身体不舒服的人请随时联系我",
+        "birthday": "1月6日"
+    },
+    "26004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shimiko_Collection.webp",
+        "name": "志美子",
+        "bio": "请在借阅期间内还书",
+        "birthday": "11月30日"
+    },
+    "26005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yoshimi_Collection.webp",
+        "name": "好美",
+        "bio": "",
+        "birthday": "8月29日"
+    },
+    "20003": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mashiro_Collection.webp",
+        "name": "真白",
+        "bio": "聚沙成塔",
+        "birthday": "6月5日"
+    },
+    "10014": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izuna_Collection.webp",
+        "name": "泉奈",
+        "bio": "泉奈会加油的！忍忍！",
+        "birthday": "12月16日"
+    },
+    "23006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shizuko_Collection.webp",
+        "name": "静子",
+        "bio": "",
+        "birthday": "7月7日"
+    },
+    "10015": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aris_Collection.webp",
+        "name": "爱丽丝",
+        "bio": "千年游戏开发部的爱丽丝",
+        "birthday": "3月25日"
+    },
+    "10016": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Midori_Collection.webp",
+        "name": "绿",
+        "bio": "请向我推荐游戏",
+        "birthday": "12月8日"
+    },
+    "13011": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Momoi_Collection.webp",
+        "name": "桃井",
+        "bio": "致力于游戏！",
+        "birthday": "12月8日"
+    },
+    "10017": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Cherino_Collection.webp",
+        "name": "切里诺",
+        "bio": "看看我的胡子吧！！",
+        "birthday": "10月27日"
+    },
+    "26006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nodoka_Collection.webp",
+        "name": "和香",
+        "bio": "一起去看星星吧！★彡",
+        "birthday": "02月20日"
+    },
+    "10018": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yuzu_Collection.webp",
+        "name": "柚子",
+        "bio": "404 Not Found",
+        "birthday": "08月12日"
+    },
+    "10019": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Azusa_Collection.webp",
+        "name": "梓",
+        "bio": "et omnia vanitas",
+        "birthday": "12月26日"
+    },
+    "23007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hanako_Collection.webp",
+        "name": "花子",
+        "bio": "我也喜欢那种事哦♪",
+        "birthday": "1月3日"
+    },
+    "10020": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Koharu_Collection.webp",
+        "name": "小春",
+        "bio": "",
+        "birthday": "4月16日"
+    },
+    "10021": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_azusa_swimsuit_Collection.webp",
+        "name": "梓(泳装)",
+        "bio": "A brevis paradisum",
+        "birthday": "12月26日"
+    },
+    "20004": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_mashiro_swimsuit_Collection.webp",
+        "name": "真白(泳装)",
+        "bio": "",
+        "birthday": "6月5日"
+    },
+    "16005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0060_Collection.webp",
+        "name": "鹤城(泳装)",
+        "bio": "夏日、青春、大海",
+        "birthday": "6月24日"
+    },
+    "20005": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0058_Collection.webp",
+        "name": "日富美(泳装)",
+        "bio": "",
+        "birthday": "11月27日"
+    },
+    "10022": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0063_Collection.webp",
+        "name": "日奈(泳装)",
+        "bio": "",
+        "birthday": "2月19日"
+    },
+    "10023": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0064_Collection.webp",
+        "name": "伊织(泳装)",
+        "bio": "",
+        "birthday": "11月8日"
+    },
+    "16006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izumi_swimsuit_Collection.webp",
+        "name": "泉(泳装)",
+        "bio": "",
+        "birthday": "5月11日"
+    },
+    "10024": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shiroko_ridingsuit_Collection.webp",
+        "name": "白子(单车)",
+        "bio": "",
+        "birthday": "5月16日"
+    },
+    "10025": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0066_Collection.webp",
+        "name": "瞬(幼女)",
+        "bio": "",
+        "birthday": "2月5日"
+    },
+    "13012": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kirino_Collection.webp",
+        "name": "桐乃",
+        "bio": "",
+        "birthday": "10月22日"
+    },
+    "20006": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saya_Casual_Collection.webp",
+        "name": "纱绫(私服)",
+        "bio": "我什么都知道！",
+        "birthday": "1月3日"
+    },
+    "10026": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0101_Collection.webp",
+        "name": "尼禄(兔女郎)",
+        "bio": "",
+        "birthday": "8月17日"
+    },
+    "10027": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0100_Collection.webp",
+        "name": "花凛(兔女郎)",
+        "bio": "",
+        "birthday": "2月2日"
+    },
+    "10028": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0098_Collection.webp",
+        "name": "明日奈(兔女郎)",
+        "bio": "带给主人最棒的快乐！",
+        "birthday": "3月24日"
+    },
+    "10029": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0155_Collection.webp",
+        "name": "夏",
+        "bio": "人生是巧克力蝴蝶饼",
+        "birthday": "12月4日"
+    },
+    "23008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mari_Collection.webp",
+        "name": "玛丽",
+        "bio": "愿大家的心得到安宁",
+        "birthday": "9月12日"
+    },
+    "20007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH9999_Collection.webp",
+        "name": "初音未来",
+        "bio": "",
+        "birthday": "8月31日"
+    },
+    "20008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_ako_Collection.webp",
+        "name": "亚子",
+        "bio": "",
+        "birthday": "12月22日"
+    },
+    "20009": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0164_Collection.webp",
+        "name": "切里诺(温泉)",
+        "bio": "世界上没有不好的胡子！",
+        "birthday": "10月27日"
+    },
+    "10030": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0163_Collection.webp",
+        "name": "千夏(温泉)",
+        "bio": "",
+        "birthday": "8月22日"
+    },
+    "16007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tomoe_Collection.webp",
+        "name": "智惠",
+        "bio": "",
+        "birthday": "11月10日"
+    },
+    "20010": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0165_Collection.webp",
+        "name": "和香(温泉)",
+        "bio": "",
+        "birthday": "2月20日"
+    },
+    "10031": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aru_newyear_Collection.webp",
+        "name": "阿露(正月)",
+        "bio": "今年也请多多指教",
+        "birthday": "3月12日"
+    },
+    "10032": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_newyear_Collection.webp",
+        "name": "睦月(正月)",
+        "bio": "让今年变成快乐的一年吧♪",
+        "birthday": "7月29日"
+    },
+    "20011": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serika_newyear_Collection.webp",
+        "name": "芹香(正月)",
+        "bio": "谨贺新年",
+        "birthday": "6月25日"
+    },
+    "10033": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Wakamo_Collection.webp",
+        "name": "若藻",
+        "bio": "",
+        "birthday": "4月3日"
+    },
+    "16008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0141_Collection.webp",
+        "name": "吹雪",
+        "bio": "",
+        "birthday": "10月21日"
+    },
+    "20012": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sena_Collection.webp",
+        "name": "濑名",
+        "bio": "请把我设为紧急联络人",
+        "birthday": "4月7日"
+    },
+    "20013": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0160_Collection.webp",
+        "name": "千寻",
+        "bio": "安全性检查从日常做起",
+        "birthday": "4月26日"
+    },
+    "10034": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mimori_Collection.webp",
+        "name": "三森",
+        "bio": "每天踏实，一步一步",
+        "birthday": "3月15日"
+    },
+    "10035": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0169_Collection.webp",
+        "name": "忧",
+        "bio": "正在办其他事",
+        "birthday": "4月23日"
+    },
+    "10036": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hinata_Collection.webp",
+        "name": "日向",
+        "bio": "有困难时，请随时联系我",
+        "birthday": "5月17日"
+    },
+    "10037": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Marina_Collection.webp",
+        "name": "玛利娜",
+        "bio": "",
+        "birthday": "11月4日"
+    },
+    "10038": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Miyako_Collection.webp",
+        "name": "宫子",
+        "bio": "为了鸡窝托斯的和平",
+        "birthday": "1月7日"
+    },
+    "20014": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0144_Collection.webp",
+        "name": "咲",
+        "bio": "",
+        "birthday": "4月9日"
+    },
+    "10039": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0145_Collection.webp",
+        "name": "美游",
+        "bio": "",
+        "birthday": "7月12日"
+    },
+    "20015": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kaede_Collection.webp",
+        "name": "枫",
+        "bio": "今天要玩什么呢！？",
+        "birthday": "7月9日"
+    },
+    "20016": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0156_Collection.webp",
+        "name": "伊吕波",
+        "bio": "",
+        "birthday": "11月16日"
+    },
+    "16009": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0113_Collection.webp",
+        "name": "满",
+        "bio": "",
+        "birthday": "2月22日"
+    },
+    "10040": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0114_Collection.webp",
+        "name": "月咏",
+        "bio": "",
+        "birthday": "4月5日"
+    },
+    "10041": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Misaki_Collection.webp",
+        "name": "美咲",
+        "bio": "",
+        "birthday": "1月13日"
+    },
+    "20017": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hiyori_Collection.webp",
+        "name": "日和",
+        "bio": "人生是痛苦的连续……",
+        "birthday": "1月8日"
+    },
+    "10042": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Atsuko_Collection.webp",
+        "name": "亚津子",
+        "bio": "",
+        "birthday": "1月20日"
+    },
+    "10043": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0175_Collection.webp",
+        "name": "若藻(泳装)",
+        "bio": "比夏日还热情的心意♡",
+        "birthday": "4月3日"
+    },
+    "10044": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0092_Collection.webp",
+        "name": "野宫(泳装)",
+        "bio": "",
+        "birthday": "9月1日"
+    },
+    "26007": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0176_Collection.webp",
+        "name": "绫音(泳装)",
+        "bio": "",
+        "birthday": "11月12日"
+    },
+    "10045": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hoshino_Swimsuit_Collection.webp",
+        "name": "星野(泳装)",
+        "bio": "",
+        "birthday": "1月2日"
+    },
+    "26008": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0180_Collection.webp",
+        "name": "静子(泳装)",
+        "bio": "百夜堂连锁店热烈营业中！",
+        "birthday": "7月7日"
+    },
+    "10046": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0179_Collection.webp",
+        "name": "泉奈(泳装)",
+        "bio": "这次要在海边修行咯！忍忍！",
+        "birthday": "12月16日"
+    },
+    "10047": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0178_Collection.webp",
+        "name": "千世(泳装)",
+        "bio": "光芒~会在哪里呢？",
+        "birthday": "7月13日"
+    },
+    "10048": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saori_Collection.webp",
+        "name": "纱织",
+        "bio": "",
+        "birthday": "9月3日"
+    },
+    "20018": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Moe_Collection.webp",
+        "name": "萌绘",
+        "bio": "",
+        "birthday": "9月13日"
+    },
+    "10049": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kazusa_Collection.webp",
+        "name": "和纱",
+        "bio": "",
+        "birthday": "8月5日"
+    },
+    "10050": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0137_Collection.webp",
+        "name": "心奈",
+        "bio": "",
+        "birthday": "6月1日"
+    },
+    "10051": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0182_Collection.webp",
+        "name": "歌原(应援团)",
+        "bio": "",
+        "birthday": "11月13日"
+    },
+    "10052": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0095_Collection.webp",
+        "name": "诺亚",
+        "bio": "",
+        "birthday": "4月13日"
+    },
+    "16010": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0181_Collection.webp",
+        "name": "响(应援团)",
+        "bio": "",
+        "birthday": "4月2日"
+    },
+    "20019": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0099_Collection.webp",
+        "name": "茜(兔女郎)",
+        "bio": "",
+        "birthday": "4月1日"
+    },
+    "10053": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0184_Collection.webp",
+        "name": "优香(运动服)",
+        "bio": "",
+        "birthday": "3月14日"
+    },
+    "10054": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0186_Collection.webp",
+        "name": "玛丽(运动服)",
+        "bio": "",
+        "birthday": "9月12日"
+    },
+    "16011": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0190_Collection.webp",
+        "name": "莲见(运动服)",
+        "bio": "",
+        "birthday": "12月12日"
+    },
+    "20020": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0159_Collection.webp",
+        "name": "日鞠",
+        "bio": "",
+        "birthday": "12月10日"
+    },
+    "10055": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shigure_Collection.webp",
+        "name": "时雨",
+        "bio": "",
+        "birthday": "1月22日"
+    },
+    "10056": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0194_Collection.webp",
+        "name": "芹娜(圣诞)",
+        "bio": "",
+        "birthday": "1月6日"
+    },
+    "20021": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0195_Collection.webp",
+        "name": "花江(圣诞)",
+        "bio": "",
+        "birthday": "5月12日"
+    },
+    "10057": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0191_Collection.webp",
+        "name": "晴奈(正月)",
+        "bio": "",
+        "birthday": "3月1日"
+    },
+    "20022": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0177_Collection.webp",
+        "name": "枫香(正月)",
+        "bio": "",
+        "birthday": "4月30日"
+    },
+    "16012": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0192_Collection.webp",
+        "name": "淳子(正月)",
+        "bio": "",
+        "birthday": "12月27日"
+    },
+    "10058": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0152_Collection.webp",
+        "name": "美弥",
+        "bio": "",
+        "birthday": "11月23日"
+    },
+    "10059": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0069_Collection.webp",
+        "name": "未花",
+        "bio": "能一起说话的同伴招募中",
+        "birthday": "5月8日"
+    },
+    "10060": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0088_Collection.webp",
+        "name": "惠",
+        "bio": "",
+        "birthday": "4月25日"
+    },
+    "20023": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0170_Collection.webp",
+        "name": "叶渚",
+        "bio": "",
+        "birthday": "9月7日"
+    },
+    "10061": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sakurako_Collection.webp",
+        "name": "樱子",
+        "bio": "",
+        "birthday": "10月4日"
+    },
+    "10062": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0187_Collection.webp",
+        "name": "时",
+        "bio": "",
+        "birthday": "8月16日"
+    },
+    "20024": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nagisa_Collection.webp",
+        "name": "渚",
+        "bio": "",
+        "birthday": "7月4日"
+    },
+    "10063": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0198_Collection.webp",
+        "name": "小雪",
+        "bio": "",
+        "birthday": "2月14日"
+    },
+    "10064": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0086_Collection.webp",
+        "name": "佳代子(正月)",
+        "bio": "",
+        "birthday": "3月17日"
+    },
+    "20025": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0087_Collection.webp",
+        "name": "遥香(正月)",
+        "bio": "",
+        "birthday": "5月13日"
+    },
+    "10065": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0107_Collection.webp",
+        "name": "果穗",
+        "bio": "",
+        "birthday": "10月9日"
+    },
+    "10066": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0200_Collection.webp",
+        "name": "爱丽丝(女仆)",
+        "bio": "",
+        "birthday": "3月25日"
+    },
+    "10067": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0211_Collection.webp",
+        "name": "时(兔女郎)",
+        "bio": "",
+        "birthday": "8月16日"
+    },
+    "26009": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0203_Collection.webp",
+        "name": "柚子(女仆)",
+        "bio": "",
+        "birthday": "8月12日"
+    },
+    "10068": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0167_Collection.webp",
+        "name": "玲纱",
+        "bio": "",
+        "birthday": "5月31日"
+    },
+    "10069": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0135_Collection.webp",
+        "name": "瑠美",
+        "bio": "",
+        "birthday": "3月5日"
+    },
+    "10070": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0138_Collection.webp",
+        "name": "弥奈",
+        "bio": "",
+        "birthday": "9月9日"
+    },
+    "20026": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0214_Collection.webp",
+        "name": "实里",
+        "bio": "",
+        "birthday": "7月14日"
+    },
+    "10071": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0215_Collection.webp",
+        "name": "宫子(泳装)",
+        "bio": "",
+        "birthday": "1月7日"
+    },
+    "10072": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0217_Collection.webp",
+        "name": "咲(泳装)",
+        "bio": "",
+        "birthday": "4月9日"
+    },
+    "26010": {
+        "avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0218_Collection.webp",
+        "name": "美游(泳装)",
+        "bio": "",
+        "birthday": "7月12日"
+    }
 }

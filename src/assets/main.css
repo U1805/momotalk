@@ -3,9 +3,10 @@
 #app {
   max-width: 1280px;
   max-height: 720px;
+  width: 80vw;
+  height: 70vh;
   margin: 0 auto;
-  /* padding: 2rem; */
-  
+
   font-weight: normal;
 }
 
@@ -16,27 +17,15 @@ a,
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
 @media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
   }
-
-  #app{
-    width: 80vw;
-    height: 70vh;
-    /* background-color: red; */
 }
 
 body{
   background-image: url("/BG_MainOffice.jpg");
   backdrop-filter: blur(5px) brightness(60%);
   background-size: cover;
-}
 }

@@ -1,9 +1,7 @@
 <template>
     <div class="teacher-chat">
-        <div class="container">
-            <div class="box">测试文字测试</div>
-            <div class="box">测试文字测试</div>
-        </div>
+            <div class="box" contenteditable>测试文字测试</div>
+            <div class="box" contenteditable>测试文字测试</div>
     </div>
 </template>
     
@@ -11,7 +9,8 @@
 .teacher-chat {
     padding: 10px 25px 10px 50px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
 }
 
 .box {
@@ -22,7 +21,6 @@
     color: #ecf2fb;
     font-family: sans-serif;
     font-size: 20px;
-    font-weight: 1000;
     border-radius: 10px;
     background: #4a8ac6;
     margin-bottom: 5px;

@@ -5,8 +5,8 @@
         </div>
         <div class="name"> aru </div>
         <div class="container">
-            <div class="box">测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
-            <div class="box">测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
+            <div class="box" contenteditable>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
+            <div class="box" contenteditable>测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字</div>
         </div>
     </div>
 </template>
@@ -38,7 +38,7 @@ img {
     grid-area: 1 / 3 / 2 / 3;
     font-family: sans-serif;
     font-size: 25px;
-    font-weight: 1000;
+    font-weight: 700;
     color: #2a323e;
 }
 
@@ -54,7 +54,6 @@ img {
     color: #ecf2fb;
     font-family: sans-serif;
     font-size: 20px;
-    font-weight: 1000;
     border-radius: 10px;
     background: #4b5a6d;
     margin-bottom: 5px;
