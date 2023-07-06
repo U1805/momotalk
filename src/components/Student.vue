@@ -1,11 +1,14 @@
 <template>
     <div class="student-chat">
         <div class="avatar">
-            <img :src="avatar" />
+            <img :src="talks.avatar" />
         </div>
-        <div class="name"> {{ student }} </div>
+        <div class="name"> {{ talks.name }} </div>
         <div class="container">
-            <div class="box" contenteditable v-for="talk in talklist">{{ talk }}</div>
+            <div v-for="(talk, index) in talks.talks" style="display: flex; flex-direction:row;">
+                <div class="box" contenteditable>{{ talk }}</div>
+                <span class="del" @click="deleteTalk(index)">×</span>
+            </div>
         </div>
     </div>
 </template>
@@ -14,11 +17,23 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  props:{
-    student: null,
-    avatar: null,
-    talklist: null
-  },
+    props: {
+        talks: null
+    },
+    data() {
+        return {
+            showButton: false as boolean,
+            showButtonIndex: 0
+        }
+    },
+    methods: {
+        deleteTalk(index: number) {
+            this.talks.talks.splice(index, 1)
+            if (this.talks.talks.length == 0) {
+                this.$emit('deleteTalk', this.talks.id)
+            }
+        }
+    }
 })
 </script>
 
@@ -38,7 +53,7 @@ export default defineComponent({
 }
 
 img {
-    margin-top: 13px;
+    margin-top: 5px;
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -48,9 +63,10 @@ img {
 .name {
     grid-area: 1 / 3 / 2 / 3;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #2a323e;
+    user-select: none;
 }
 
 .container {
@@ -71,7 +87,7 @@ img {
 }
 
 
-.box:first-child::after {
+.container>div:first-child>div::after {
     content: '';
     position: absolute;
     width: 0;
@@ -82,4 +98,21 @@ img {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid #4b5a6d;
-}</style>
+}
+
+.del {
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    line-height: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: opacity .2s;
+    opacity: 0;
+}
+
+.box:hover+.del,
+.del:hover {
+    opacity: 1;
+}
+</style>

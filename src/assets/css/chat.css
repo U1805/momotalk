@@ -1,0 +1,115 @@
+.talk-wrapper {
+  height: 100%;
+}
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(70vh - 190px);
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE 和 Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
+.talk-list::-webkit-scrollbar {
+  display: none;
+}
+
+.add {
+  height: 120px;
+  width: 100%;
+}
+.input-bar {
+  height: 60px;
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sticker,
+.send,
+.photo {
+  padding: 8px;
+  display: inline-flex;
+  border: 0px;
+}
+.sticker > div,
+.item-sensei > div,
+.item-heart > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(189, 189, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-heart > div {
+  background-color: #fed4de;
+}
+.text {
+  font-size: 20px;
+  color: #666;
+  padding: 5px 10px;
+  margin: 0 8px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.selected-student {
+  height: 60px;
+  width: 100%;
+  background-color: #f6fbff;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE 和 Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
+.selected-student::-webkit-scrollbar {
+  display: none;
+}
+.item,
+.item-sensei,
+.item-heart {
+  position: relative;
+  height: 50px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 10px 15px 10px 10px;
+  margin: 5px;
+  user-select: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+.item:hover, .item-heart:hover, .item-sensei:hover{
+  background-color: rgba(0, 0, 0, 0.06);
+  transition: 0.4s;
+}
+.item > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.item > svg,
+.item-heart > svg {
+  height: 1em;
+  width: 1em;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0px -5px 0px 10px;
+  fill: currentColor;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.delete-button:hover{
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}

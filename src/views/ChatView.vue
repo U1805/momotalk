@@ -13,11 +13,10 @@ import Sensei from '../components/Sensei.vue'
   <main class="talk-wrapper">
     <div class="talk-list">
       <div v-for="talk in talkHistory">
-        <Sensei v-if="talk.name=='sensei'" :talklist="talk.talks"></Sensei>
-        <Story v-else-if="talk.name=='story'" :talklist="talk.talks"></Story>
-        <Student v-else :student="talk.name" :talklist="talk.talks" :avatar="talk.avatar"></Student>
+        <Sensei v-if="talk.name=='sensei'" :talks="talk" @deleteTalk="deleteTalkId"></Sensei>
+        <Story v-else-if="talk.name=='story'" :talks="talk" @deleteTalk="deleteTalkId"></Story>
+        <Student v-else :talks="talk" @deleteTalk="deleteTalkId"></Student>
       </div>
-      <Story></Story>
     </div>
 
     <div class="add">
@@ -38,15 +37,15 @@ import Sensei from '../components/Sensei.vue'
         </div>
       </div>
       <div class="selected-student">
-        <div class="item-sensei">
-          <div><ProfileIcon @click="selectStudent(0)" style="fill: currentColor;color:#fff; width: 75%;height: 75%;"/></div>
+        <div class="item-sensei"  @click="selectStudent(0)">
+          <div><ProfileIcon style="fill: currentColor;color:#fff; width: 75%;height: 75%;"/></div>
         </div>
-        <div class="item-heart">
-          <div><HeartIcon @click="selectStudent(1)" style="fill: currentColor;color:#fff; width: 75%;height: 75%;"/></div>
+        <div class="item-heart" @click="selectStudent(1)">
+          <div><HeartIcon style="fill: currentColor;color:#fff; width: 75%;height: 75%;"/></div>
         </div>
-        <div class="item" v-for="student in selectList">
-          <img :src="student.avatar" @click="selectStudent(student)">
-          <CloseIcon @click="deleteStudent(student.name);"/>
+        <div class="item" v-for="(student,index) in selectList"  @click="selectStudent(student)">
+          <img :src="student.avatar">
+          <CloseIcon class="delete-button" @click="deleteStudent(index);"/>
         </div>
       </div>
     </div>
@@ -55,18 +54,7 @@ import Sensei from '../components/Sensei.vue'
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
-interface myStudent{
-  'avatar': string,
-  'name': string,
-  'bio': string
-}
-
-interface Talk{
-  'name': string,
-  'avatar': string|null,
-  'talks': string[]
-}
+import { myStudent, Talk } from 'src/interface'
 
 export default defineComponent({
   props:{
@@ -78,6 +66,7 @@ export default defineComponent({
       selectList:[] as myStudent[],
       selected: 0 as myStudent|number,
       talkHistory: [] as Talk[],
+      talkId: 0,
       text: "" as string
     }
   },
@@ -90,8 +79,7 @@ export default defineComponent({
     }
   },
   methods:{
-    deleteStudent(name:string){
-      var index = this.selectList.findIndex((student:myStudent)=>{return student.name==name})
+    deleteStudent(index:number){
       this.selectList.splice(index, 1)
     },
     selectStudent(student:myStudent|number){
@@ -116,6 +104,7 @@ export default defineComponent({
         name = "story";
       }
       var newTalk:Talk = {
+        'id': this.talkId++,
         'name': name,
         'avatar': avatar,
         'talks': [this.text]
@@ -131,113 +120,15 @@ export default defineComponent({
       }
       console.log(this.talkHistory)
       this.text = ''
+    },
+    deleteTalkId(id:number){
+      var index = this.talkHistory.findIndex((talk:Talk)=>{return talk.id==id})
+      this.talkHistory.splice(index, 1)
     }
   }
 })
 </script>
 
 <style scoped>
-.talk-wrapper{
-  height: 100%;
-}
-.talk-list {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: calc(70vh - 190px);
-  overflow-y: scroll;
-  -ms-overflow-style: none;  /* IE 和 Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-/* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
-.talk-list::-webkit-scrollbar {
-    display: none;
-}
-
-
-
-
-.add{
-  height: 120px;
-  width: 100%;
-}
-.input-bar{
-  height: 60px;
-  width: 100%;
-  background-color: #eeeeee;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.sticker, .send, .photo {
-    padding: 8px;
-    display: inline-flex;
-    border: 0px;
-}
-.sticker>div, .item-sensei>div, .item-heart>div{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgb(189, 189, 189);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.item-heart>div{
-  background-color: #fed4de;
-}
-.text{
-    font-size: 20px;
-    color: #666;
-    padding: 5px 10px;
-    margin: 0 8px;
-    height: 40px;
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #aaa;
-}
-
-
-
-.selected-student{
-  height: 60px;
-  width: 100%;
-  background-color: #f6fbff;
-  display: flex;
-  align-items: center;
-  overflow-x: scroll;
--ms-overflow-style: none;  /* IE 和 Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-/* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
-.selected-student::-webkit-scrollbar {
-    display: none;
-}
-.item, .item-sensei, .item-heart{
-    position: relative;
-    height: 50px;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    padding: 10px 15px 10px 10px;
-    margin: 5px;
-    user-select: none;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background: #fff;
-}
-.item>img{
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-.item>svg, .item-heart>svg{
-  height: 1em;
-  width: 1em;
-  font-size: 22px;
-  cursor: pointer;
-  margin: 0px -5px 0px 10px;
-  fill: currentColor;
-  color: rgba(0, 0, 0, 0.26);;
-}
+@import '../assets/css/chat.css';
 </style>
