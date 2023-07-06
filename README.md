@@ -3,8 +3,8 @@
 Momotalk Editor
 
 Now it looks like
-![](./assets/img3.png)
-![](./assets/img4.png)
+![](./assets/img5.png)
+![](./assets/img6.png)
 
 ## Quick start
 

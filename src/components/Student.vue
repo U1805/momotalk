@@ -37,14 +37,15 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .student-chat {
     display: grid;
-    grid-template-columns: 75px 15px 1fr;
-    grid-template-rows: 35px 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-
+    grid: {
+        template-columns: 75px 15px 1fr;
+        template-rows: 35px 1fr;
+        column-gap: 0px;
+        row-gap: 0px;
+    }
     padding: 10px 50px 10px 25px;
 }
 

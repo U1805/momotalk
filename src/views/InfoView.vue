@@ -39,7 +39,7 @@ export default defineComponent({
   
   >div {
     display: grid;
-    gird: {
+    grid: {
       template-columns: 1fr 1fr 1fr;
       template-rows: 160px repeat(3, 40px);
       column-gap: 0px;

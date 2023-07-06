@@ -28,21 +28,52 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .story-chat {
-    margin: 5px 25px 5px 125px;
+    margin: 5px 25px 5px 85px;
     display: flex;
     flex-direction: column;
+
+    >div {
+        display: grid;
+        grid: {
+            template-columns: 40px 1fr;
+            template-rows: 1fr;
+            column-gap: 0px;
+            row-gap: 0px;
+        }
+    }
+
+    &>div:hover span {
+        opacity: 1;
+    }
+}
+
+.del {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    line-height: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: opacity .2s;
+    opacity: 0;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .box {
+    grid-area: 1 / 2 / 2 / 3;
     position: relative;
     margin: 5px;
     display: flex;
     flex-direction: column;
     background-color: #ffedf1;
     border-radius: 10px;
-    border: 1px solid rgba(131, 131, 131, 0.568);
+    border: 1px solid $font-grey;
     height: 130px;
 }
 
@@ -50,7 +81,7 @@ export default defineComponent({
     height: 50px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(131, 131, 131, 0.568);
+    border-bottom: 1px solid $font-grey;
     font-family: sans-serif;
     font-size: 20px;
 }
@@ -65,14 +96,12 @@ export default defineComponent({
 
 .content {
     height: 80px;
-    display: flex;
+    @include center;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 button {
-    background-color: #fc8c9d;
+    background-color: $pink;
     border: none;
     color: white;
     padding: 15px;
@@ -83,21 +112,4 @@ button {
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 20px;
-}
-.del {
-  padding: 10px;
-  color: #000;
-  font-size: 20px;
-  line-height: 20px;
-  user-select: none;
-  cursor: pointer;
-  transition: opacity .2s;
-  opacity: 0;
-}
-
-
-.del:hover,.box:hover+.del {
-  opacity: 1;
-}
-
-</style>
+}</style>
