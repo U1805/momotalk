@@ -1,0 +1,209 @@
+#root {
+  display: grid;
+  grid: {
+    template-columns: $sider-width repeat(2, 1fr);
+    template-rows: $header-height calc($view-height - $header-height);
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 3px 6px;
+}
+
+#header {
+  grid-area: 1 / 1 / 2 / 6;
+  background-color: $pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  @include center;
+  padding: 9px;
+}
+
+.right {
+  @include center;
+  padding: 25px;
+}
+
+.header-title {
+  color: white;
+  padding: 10px;
+  user-select: none;
+  @include font-heavy(32px);
+}
+
+.help {
+  @include center;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+  color: $pink;
+  @include font-light(24px);
+}
+
+#sidebar {
+  grid-area: 2 / 1 / 6 / 2;
+  background-color: $grey;
+}
+
+#sidebar,
+.up,
+.down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.up > a,
+.down > div {
+  @include center;
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1 !important;
+    background-color: $grey-active;
+    transition: 0.4s;
+  }
+}
+
+.router-link-active {
+  opacity: 1 !important;
+  background-color: $grey-active;
+  transition: 0.4s;
+}
+
+#listcard {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: $list-color;
+}
+
+#listheader {
+  display: grid;
+  grid: {
+    template-columns: repeat(10, 1fr);
+    template-rows: $listheader-height;
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+  border-bottom: 2px solid $list-active-color;
+}
+
+.listheader1 {
+  @include center;
+  padding-left: 20px;
+  grid-area: 1 / 1 / 2 / 6;
+
+  @include font-heavy(25px);
+  color: $font-black;
+}
+
+.listheader2 {
+  @include center;
+  grid-area: 1 / 6 / 2 / 9;
+  > p {
+    background: $grey;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    right: -15px;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  > span {
+    display: inline-block;
+    transform: skew(15deg);
+    @include font-heavy(20px);
+    color: $font-black;
+  }
+}
+
+.listheader3 {
+  @include center;
+  grid-area: 1 / 9 / 2 / 11;
+}
+
+.listheader2,
+.listheader3 {
+  background: white;
+  border: {
+    width: 7px;
+    color: white;
+    style: solid;
+    radius: 5px;
+  }
+  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+  margin: 15px -10px;
+  width: 90%;
+  @include font-regular(15px);
+  cursor: pointer;
+  transform: skew(-15deg);
+  overflow: hidden;
+}
+
+#listbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc($view-height - $header-height - $listheader-height);
+  @include hide-scrollbar;
+}
+
+.active {
+  background-color: $list-active-color;
+  transition: 0.4s;
+}
+
+.list-item {
+  display: grid;
+  border: 1px $list-active-color solid;
+  grid: {
+    template-columns: 75px 15px 1fr 15px 75px;
+    template-rows: repeat(2, 35px);
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+  width: 100%;
+  padding: 15px 25px;
+  &:hover {
+    @extend .active;
+  }
+}
+
+.avatar {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.name {
+  grid-area: 1 / 3 / 2 / 4;
+  @include font-heavy(25px);
+  color: $font-black;
+  user-select: none;
+}
+.bio {
+  grid-area: 2 / 3 / 3 / 4;
+  @include font-heavy(20px);
+  color: $font-grey;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: none;
+}
+.mark {
+  grid-area: 1 / 5 / 3 / 6;
+}
+img {
+  @include circle(75px);
+}
+
+#chatcard {
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: white;
+}

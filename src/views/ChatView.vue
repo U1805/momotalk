@@ -54,7 +54,7 @@ import Sensei from '../components/Sensei.vue'
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { myStudent, Talk } from 'src/interface'
+import { myStudent, Talk } from '../interface'
 
 export default defineComponent({
   props:{
@@ -124,11 +124,11 @@ export default defineComponent({
     deleteTalkId(id:number){
       var index = this.talkHistory.findIndex((talk:Talk)=>{return talk.id==id})
       this.talkHistory.splice(index, 1)
-    }
+    },
   }
 })
 </script>
 
-<style scoped>
-@import '../assets/css/chat.css';
+<style scoped lang="scss">
+@import '../assets/css/chat.scss';
 </style>

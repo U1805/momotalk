@@ -1,0 +1,78 @@
+$view-height: 70vh;
+$view-width: 80vw;
+$header-height: 70px;
+$sider-width: 100px;
+$listheader-height: 75px;
+$chatfooter-height: 120px;
+
+$background: '/BG_MainOffice.jpg';
+
+$font-black: #2a323e;
+$font-grey: #6e7782;
+$pink: rgb(252, 150, 171);
+$pink-pale: #fed4de;
+$grey: #4b5a6f;
+$grey-active: #68788f;
+$list-color: #f3f7f8;
+$list-active-color: #e1e7ec;
+$inputbar-color: #eeeeee;
+$chaticon-color: rgb(189, 189, 189);
+
+@mixin font-heavy($size) {
+  font-size: $size;
+  font-family: sans-serif;
+  font-weight: 1000;
+}
+@mixin font-regular($size) {
+  font-size: $size;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+@mixin font-light($size) {
+  font-size: $size;
+  font-family: sans-serif;
+  font-weight: 300px;
+}
+
+@mixin center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin circle($size) {
+  height: $size;
+  width: $size;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@mixin hide-scrollbar {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE 和 Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin hide-scrollbar-x {
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE 和 Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin chat-svg {
+  height: 1em;
+  width: 1em;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0px -5px 0px 10px;
+  fill: currentColor;
+  color: rgba(0, 0, 0, 0.26);
+}

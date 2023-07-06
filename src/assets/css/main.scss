@@ -3,8 +3,8 @@
 #app {
   max-width: 1280px;
   max-height: 720px;
-  width: 80vw;
-  height: 70vh;
+  width: $view-width;
+  height: $view-height;
   margin: 0 auto;
 
   font-weight: normal;
@@ -25,7 +25,7 @@ a,
 }
 
 body{
-  background-image: url("/BG_MainOffice.jpg");
+  background-image: url($background);
   backdrop-filter: blur(5px) brightness(60%);
   background-size: cover;
 }

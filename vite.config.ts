@@ -18,5 +18,13 @@ export default defineConfig({
   base: '/momotalk/',
   build: {
     outDir: 'docs'
+  },
+  css: {
+    // css预处理器
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/assets/css/mixin.scss";'
+      }
+    }
   }
 })

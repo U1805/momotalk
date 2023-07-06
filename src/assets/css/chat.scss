@@ -1,0 +1,101 @@
+.talk-wrapper {
+  height: 100%;
+  width: calc(($view-width - $sider-width)/2);
+}
+
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc($view-height - $header-height - $chatfooter-height);
+  background-color: white;
+  @include hide-scrollbar;
+}
+
+.add {
+  height: $chatfooter-height;
+  width: 100%;
+}
+
+.input-bar {
+  height: 60px;
+  width: 100%;
+  background-color: $inputbar-color;
+  @include center;
+}
+
+.sticker,
+.send,
+.photo {
+  padding: 8px;
+  display: inline-flex;
+  border: 0px;
+}
+
+.text {
+  font-size: 20px;
+  color: #666;
+  padding: 5px 10px;
+  margin: 0 8px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.selected-student {
+  @include center;
+  justify-content: flex-start;
+  height: 60px;
+  width: 100%;
+  background-color: #f6fbff;
+  overflow-y: hidden;
+  @include hide-scrollbar-x;
+}
+
+.item,
+.item-sensei,
+.item-heart {
+  @include center;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px 15px 10px 10px;
+  margin: 5px;
+  user-select: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    transition: 0.4s;
+  }
+}
+.sticker > div,
+.item-sensei > div,
+.item-heart > div {
+  @include circle(40px);
+  @include center;
+  background-color: $chaticon-color;
+}
+.item {
+  > img {
+    @include circle(40px);
+  }
+  > svg {
+    @include chat-svg;
+  }
+}
+.item-heart {
+  > svg {
+    @include chat-svg;
+  }
+  > div {
+    background-color: $pink-pale;
+  }
+}
+
+.delete-button:hover {
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}

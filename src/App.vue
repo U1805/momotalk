@@ -87,7 +87,7 @@ export default defineComponent({
 </script>
 
 
-<style scoped>
-@import './assets/css/app.css'
+<style scoped lang="scss">
+@import './assets/css/app.scss';
 
 </style>
