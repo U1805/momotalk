@@ -36,8 +36,10 @@ import Sensei from '../components/Sensei.vue'
           <SendIcon @click="sendText()" style="fill: currentColor;color:rgb(189, 189, 189); width: 40px;height: 40px;"/>
         </div>
       </div>
-      <div class="selected-student">
-        <div class="item-sensei"  @click="selectStudent(0)">
+      <div class="g-wrap">
+        <div class="g-scroll">
+            <div class="g-content selected-student">
+              <div class="item-sensei"  @click="selectStudent(0)">
           <div><ProfileIcon style="fill: currentColor;color:#fff; width: 75%;height: 75%;"/></div>
         </div>
         <div class="item-heart" @click="selectStudent(1)">
@@ -47,7 +49,9 @@ import Sensei from '../components/Sensei.vue'
           <img :src="student.avatar">
           <CloseIcon class="delete-button" @click="deleteStudent(index);"/>
         </div>
-      </div>
+            </div>
+        </div>
+    </div>
     </div>
   </main>
 </template>
@@ -131,4 +135,46 @@ export default defineComponent({
 
 <style scoped lang="scss">
 @import '../assets/css/chat.scss';
+
+// 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO
+.g-wrap {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: calc($chatfooter-height/2);
+    cursor: pointer;
+}
+
+.g-scroll {
+    position: absolute;
+    left: -60px;
+    width: 60px;
+    height: calc(($view-width - $sider-width)/2);
+    transform-origin: 100% 0;
+    transform: rotate(-90deg);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.g-content {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: fit-content;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+}
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
 </style>
