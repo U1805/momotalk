@@ -28,7 +28,7 @@ import data from './assets/student.json'
         <RouterLink to="/chat"> <MessageIcon /> </RouterLink>
       </div>
       <div class="down">
-        <div> <DownloadIcon /> </div>
+        <div> <DownloadIcon @click="download"/> </div>
       </div>
     </div>
 
@@ -60,6 +60,7 @@ import data from './assets/student.json'
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import { domtoimage } from '@/assets/utils/dom-to-image'
 
 export default defineComponent({
   props:{
@@ -81,6 +82,19 @@ export default defineComponent({
     selectSidebar(key:number){
       this.currentSidebar = key
       // console.log(this.currentSidebar)
+    },
+    download(){
+      var node = document.getElementsByClassName("talk-list")[0];
+      domtoimage.toJpeg(node, { quality: 0.95 })
+        .then(function (dataUrl:string) {
+            var link = document.createElement('a');
+            link.download = 'download.jpeg';
+            link.href = dataUrl;
+            link.click();
+        })
+        .catch(function (error:Error) {
+              console.error("oops, something went wrong!", error);
+          });;
     }
   },
 })

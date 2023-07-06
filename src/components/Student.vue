@@ -1,12 +1,13 @@
 <template>
     <div class="student-chat">
         <div class="avatar">
-            <img :src="talks.avatar" />
+            <img :src="talks.avatar" class="avatar"/>
         </div>
         <div class="name"> {{ talks.name }} </div>
         <div class="container">
             <div v-for="(talk, index) in talks.talks" style="display: flex; flex-direction:row;">
-                <div class="box" contenteditable>{{ talk }}</div>
+                <div class="box" v-if="talk.substr(0, 10)=='data:image'"><img :src="talk" class="chat-img"></div>
+                <div class="box" v-else contenteditable>{{ talk }}</div>
                 <span class="del" @click="deleteTalk(index)">×</span>
             </div>
         </div>
@@ -40,25 +41,29 @@ export default defineComponent({
 <style scoped lang="scss">
 .student-chat {
     display: grid;
+
     grid: {
         template-columns: 75px 15px 1fr;
         template-rows: 35px 1fr;
         column-gap: 0px;
         row-gap: 0px;
     }
+
     padding: 10px 50px 10px 25px;
 }
 
 .avatar {
     grid-area: 1 / 1 / 3 / 2;
+    > img {
+    margin-top: 5px;
+    @include circle(75px);
+}
 }
 
-img {
-    margin-top: 5px;
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    overflow: hidden;
+.chat-img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .name {
@@ -76,7 +81,7 @@ img {
 
 .box {
     position: relative;
-    padding: 5px 10px;
+    padding: 10px 10px 5px 10px;
     width: fit-content;
     height: fit-content;
     color: #ecf2fb;

@@ -36,6 +36,7 @@ export default defineComponent({
 
     >div {
         display: grid;
+
         grid: {
             template-columns: 40px 1fr;
             template-rows: 1fr;
@@ -112,4 +113,5 @@ button {
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 20px;
-}</style>
+}
+</style>

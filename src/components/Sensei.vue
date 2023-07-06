@@ -2,7 +2,8 @@
   <div class="teacher-chat">
     <div v-for="(talk, index) in talks.talks" style="display: flex; flex-direction:row;">
       <span class="del" @click="deleteTalk(index)">×</span>
-      <div class="box" contenteditable>{{ talk }}</div>
+      <div class="box" v-if="talk.substr(0, 10)=='data:image'"><img :src="talk" class="chat-img"></div>
+      <div class="box" v-else contenteditable>{{ talk }}</div>
     </div>
   </div>
 </template>
@@ -35,7 +36,7 @@ export default defineComponent({
 
 .box {
   position: relative;
-  padding: 5px 10px;
+  padding: 10px 10px 5px 10px;
   width: fit-content;
   height: fit-content;
   color: #ecf2fb;
@@ -44,6 +45,12 @@ export default defineComponent({
   border-radius: 10px;
   background: #4a8ac6;
   margin-bottom: 5px;
+}
+
+.chat-img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .teacher-chat>div:first-child>div::after {
