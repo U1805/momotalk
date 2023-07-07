@@ -10,6 +10,7 @@
   height: calc($view-height - $header-height - $chatfooter-height);
   background-color: white;
   @include hide-scrollbar;
+  overflow-x: hidden;
 }
 
 .add {

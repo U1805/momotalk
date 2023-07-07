@@ -4,7 +4,7 @@ Momotalk Editor
 
 Now it looks like
 ![](./assets/img5.png)
-![](./assets/img6.png)
+![](./assets/img7.png)
 
 ## Quick start
 

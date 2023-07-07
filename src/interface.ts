@@ -1,7 +1,9 @@
 interface myStudent {
-  'avatar': string,
-  'name': string,
-  'bio': string
+  'Id': number,
+  'Avatar': string,
+  'Birthday': string,
+  'Bio': string,
+  'Name': string,
 }
 
 interface Talk {

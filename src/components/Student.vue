@@ -1,12 +1,12 @@
 <template>
     <div class="student-chat">
         <div class="avatar">
-            <img :src="talks.avatar" class="avatar"/>
+            <img :src="talks.avatar" class="avatar" />
         </div>
         <div class="name"> {{ talks.name }} </div>
         <div class="container">
             <div v-for="(talk, index) in talks.talks" style="display: flex; flex-direction:row;">
-                <div class="box" v-if="talk.substr(0, 10)=='data:image'"><img :src="talk" class="chat-img"></div>
+                <div class="box" v-if="talk.substr(0, 10) == 'data:image'"><img :src="talk" class="chat-img"></div>
                 <div class="box" v-else contenteditable>{{ talk }}</div>
                 <span class="del" @click="deleteTalk(index)">×</span>
             </div>
@@ -54,13 +54,14 @@ export default defineComponent({
 
 .avatar {
     grid-area: 1 / 1 / 3 / 2;
-    > img {
-    margin-top: 5px;
-    @include circle(75px);
-}
+
+    >img {
+        margin-top: 5px;
+        @include circle(75px);
+    }
 }
 
-.chat-img{
+.chat-img {
     height: 200px;
     width: auto;
     border-radius: 10px;
@@ -81,7 +82,7 @@ export default defineComponent({
 
 .box {
     position: relative;
-    padding: 10px 10px 5px 10px;
+    padding: 10px;
     width: fit-content;
     height: fit-content;
     color: #ecf2fb;

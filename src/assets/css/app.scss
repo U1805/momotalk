@@ -87,52 +87,22 @@
 }
 
 #listheader {
-  display: grid;
-  grid: {
-    template-columns: repeat(10, 1fr);
-    template-rows: $listheader-height;
-    column-gap: 0px;
-    row-gap: 0px;
-  }
+  @include center;
   border-bottom: 2px solid $list-active-color;
 }
 
-.listheader1 {
-  @include center;
-  padding-left: 20px;
-  grid-area: 1 / 1 / 2 / 6;
-
-  @include font-heavy(25px);
-  color: $font-black;
+.search-text{
+  font-size: 30px;
+  color: #666;
+  padding: 5px 10px;
+  margin: 0px 16px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #aaa;
 }
 
-.listheader2 {
+.search-button {
   @include center;
-  grid-area: 1 / 6 / 2 / 9;
-  > p {
-    background: $grey;
-    width: 30px;
-    height: 30px;
-    top: -15px;
-    right: -15px;
-    position: absolute;
-    transform: rotate(45deg);
-  }
-  > span {
-    display: inline-block;
-    transform: skew(15deg);
-    @include font-heavy(20px);
-    color: $font-black;
-  }
-}
-
-.listheader3 {
-  @include center;
-  grid-area: 1 / 9 / 2 / 11;
-}
-
-.listheader2,
-.listheader3 {
   background: white;
   border: {
     width: 7px;
@@ -141,8 +111,8 @@
     radius: 5px;
   }
   box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
-  margin: 15px -10px;
-  width: 90%;
+  margin: 15px 20px;
+  width: 20%;
   @include font-regular(15px);
   cursor: pointer;
   transform: skew(-15deg);
