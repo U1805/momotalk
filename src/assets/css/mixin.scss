@@ -43,6 +43,7 @@ $chaticon-color: rgb(189, 189, 189);
 }
 
 @mixin circle($size) {
+  object-fit: cover; // 截取中间正方形
   height: $size;
   width: $size;
   border-radius: 50%;

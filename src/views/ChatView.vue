@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import ProfileIcon from '../components/icons/IconProfile.vue'
-import SendIcon from '../components/icons/IconSend.vue'
-import ImageIcon from '../components/icons/IconImage.vue'
-import CloseIcon from '../components/icons/IconClose2.vue'
-import HeartIcon from '../components/icons/IconHeart.vue'
-import Student from '../components/Student.vue'
-import Story from '../components/Story.vue'
-import Sensei from '../components/Sensei.vue'
+import ProfileIcon from '@/components/icons/IconProfile.vue'
+import SendIcon from '@/components/icons/IconSend.vue'
+import ImageIcon from '@/components/icons/IconImage.vue'
+import CloseIcon from '@/components/icons/IconClose2.vue'
+import HeartIcon from '@/components/icons/IconHeart.vue'
+import AddIcon from '@/components/icons/IconAdd.vue'
+import Student from '@/components/Student.vue'
+import Story from '@/components/Story.vue'
+import Sensei from '@/components/Sensei.vue'
 </script>
 
 <template>
@@ -28,7 +29,7 @@ import Sensei from '../components/Sensei.vue'
                     <div v-else-if="selected == 1" @click="showSticker()" style="background-color: #fed5de;"> <HeartIcon class="heart-icon" /> </div>
                     <div v-else-if="typeof selected != 'number'" @click="showSticker()" style="padding: 0px;margin:0px;" class="item"> <img :src="selected.Avatar" /> </div>
                 </div>
-                <input class="text" placeholder="Aa" v-model="text">
+                <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText">
                 <div class="photo">
                     <ImageIcon onclick="document.querySelector('#upload-btn').click()" class="image-icon" />
                     <input id="upload-btn" type="file" @change="File" accept="image/*" />
@@ -50,6 +51,10 @@ import Sensei from '../components/Sensei.vue'
                         <div class="item" v-for="(student, index) in selectList" @click="selectStudent(student)">
                             <img :src="student.Avatar">
                             <CloseIcon class="delete-button" @click="deleteStudent(index);" />
+                        </div>
+                        <div class="item-sensei" onclick="document.querySelector('#add-btn').click()">
+                            <AddIcon class="image-icon" />
+                            <input id="add-btn" type="file" @change="addStudent" accept="image/*" />
                         </div>
                     </div>
                 </div>
@@ -80,15 +85,23 @@ export default defineComponent({
         student(newStudent) {
             if (this.selectList.indexOf(newStudent) == -1) {
                 this.selectList.push(newStudent);
+                this.selectStudent(newStudent);
                 // console.log(this.selectList)
             }
         }
     },
     methods: {
+        deleteTalkId(id: number) {
+            // 删除对话中的一个头像
+            var index:number = this.talkHistory.findIndex((talk: Talk) => { return talk.id == id })
+            this.talkHistory.splice(index, 1)
+        },
         deleteStudent(index: number) {
+            // 从列表中删除学生
             this.selectList.splice(index, 1)
         },
         selectStudent(student: myStudent | number) {
+            // 选择学生添加到列表
             this.selected = student
         },
         showSticker() {
@@ -126,10 +139,6 @@ export default defineComponent({
             console.log(this.talkHistory)
             this.text = ''
         },
-        deleteTalkId(id: number) {
-            var index:number = this.talkHistory.findIndex((talk: Talk) => { return talk.id == id })
-            this.talkHistory.splice(index, 1)
-        },
         File(evt: Event) {
             if (this.selected == 1) return; // story card 不能插入图片
             var btn: HTMLInputElement = (evt.target as HTMLInputElement)!;
@@ -149,6 +158,37 @@ export default defineComponent({
                 reader.readAsDataURL(file);
             }
         },
+        addStudent(evt: Event) {
+            // TODO 解耦出返回图片的功能
+            // 添加自定义学生到列表
+            if (this.selected == 1) return;
+            var btn: HTMLInputElement = (evt.target as HTMLInputElement)!;
+            var file = btn.files![0];
+
+            if (file.size > 1048576) { // 太大容易卡
+                alert("目前不建议上传大于 1MB 的图片哦！");
+                return;
+            }
+            const reader = new FileReader();
+            var that = this;
+            reader.addEventListener("load", () => {
+                var image = reader.result as string;
+                var name = prompt("请输入自定义角色名")!;
+                if(name == null) return;
+                while(name.length == 0) name = prompt("请输入自定义角色名")!;
+                var student:myStudent = {
+                    'Id': 0,
+                    'Avatar': image,
+                    'Birthday': "",
+                    'Bio': "",
+                    'Name': name,
+                    }
+                that.selectList.push(student);
+            });
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        },
     }
 })
 </script>
@@ -156,7 +196,7 @@ export default defineComponent({
 <style scoped lang="scss">
 @import '../assets/css/chat.scss';
 
-#upload-btn {
+#upload-btn, #add-btn {
     display: none;
 }
 
