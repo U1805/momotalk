@@ -4,1021 +4,1167 @@
     "Name": "阿露",
     "Birthday": "3月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aru_Collection.webp",
-    "Bio": "一日一恶"
+    "Bio": "一日一恶",
+    "Nickname": ["Aru", "社长", "亚瑠", "阿鲁"]
   },
   {
     "Id": 10001,
     "Name": "艾米",
     "Birthday": "5月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Eimi_Collection.webp",
-    "Bio": "在此输入状态信息"
+    "Bio": "在此输入状态信息",
+    "Nickname": ["Eimi", "英美"]
   },
   {
     "Id": 10002,
     "Name": "晴奈",
     "Birthday": "3月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Haruna_Collection.webp",
-    "Bio": "EAT OR DIE"
+    "Bio": "EAT OR DIE",
+    "Nickname": ["Haruna", "神秘狙"]
   },
   {
     "Id": 10003,
     "Name": "日富美",
     "Birthday": "11月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hihumi_Collection.webp",
-    "Bio": "有人要一起去佩洛洛庆典吗？"
+    "Bio": "有人要一起去佩洛洛庆典吗？",
+    "Nickname": ["Hifumi", "一二三", "123", "鸡妹", "浮士德"]
   },
   {
     "Id": 10004,
     "Name": "日奈",
     "Birthday": "2月19日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hina_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hina", "阳奈", "魔王"]
   },
   {
     "Id": 10005,
     "Name": "星野",
     "Birthday": "1月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hoshino_Collection.webp",
-    "Bio": "午睡中 别吵醒我"
+    "Bio": "午睡中 别吵醒我",
+    "Nickname": ["Hoshino", "大叔"]
   },
   {
     "Id": 10006,
     "Name": "伊织",
     "Birthday": "11月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Iori_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Iori", "佐仓", "左三枪"]
   },
   {
     "Id": 10007,
     "Name": "真纪",
     "Birthday": "8月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Maki_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Maki", "彩蛋"]
   },
   {
     "Id": 10008,
     "Name": "尼禄",
     "Birthday": "8月17日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Neru_Collection.webp",
-    "Bio": ""
+    "Bio": "看什么看",
+    "Nickname": ["Neru", "宁瑠"]
   },
   {
     "Id": 10009,
     "Name": "泉",
     "Birthday": "5月11日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izumi_Collection.webp",
-    "Bio": "肚子饿了~"
+    "Bio": "肚子饿了~",
+    "Nickname": ["Izumi", "老八", "汉堡妹"]
   },
   {
     "Id": 10010,
     "Name": "白子",
     "Birthday": "5月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shiroko_Collection.webp",
-    "Bio": "自行车伙伴招募中……(1/5)"
+    "Bio": "自行车伙伴招募中……(1/5)",
+    "Nickname": ["Shiroko", "xcw", "小仓唯"]
   },
   {
     "Id": 10011,
     "Name": "瞬",
     "Birthday": "2月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shun_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Shun", "旬", "梅花狙"]
   },
   {
     "Id": 10012,
     "Name": "堇",
     "Birthday": "8月20日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sumire_Collection.webp",
-    "Bio": "健全的精神寓于健康的身体"
+    "Bio": "健全的精神寓于健康的身体",
+    "Nickname": ["Sumire"]
   },
   {
     "Id": 10013,
     "Name": "鹤城",
     "Birthday": "6月24日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tsurugi_Collection.webp",
-    "Bio": "……"
+    "Bio": "……",
+    "Nickname": ["Tsurugi"]
   },
   {
     "Id": 10014,
     "Name": "泉奈",
     "Birthday": "12月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izuna_Collection.webp",
-    "Bio": "泉奈会加油的！忍忍！"
+    "Bio": "泉奈会加油的！忍忍！",
+    "Nickname": ["Izuna"]
   },
   {
     "Id": 10015,
     "Name": "爱丽丝",
     "Birthday": "3月25日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aris_Collection.webp",
-    "Bio": "千年游戏开发部的爱丽丝"
+    "Bio": "千年游戏开发部的爱丽丝",
+    "Nickname": ["Aris"]
   },
   {
     "Id": 10016,
     "Name": "绿",
     "Birthday": "12月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Midori_Collection.webp",
-    "Bio": "请向我推荐游戏"
+    "Bio": "请向我推荐游戏",
+    "Nickname": ["Midori"]
   },
   {
     "Id": 10017,
     "Name": "切里诺",
     "Birthday": "10月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Cherino_Collection.webp",
-    "Bio": "看看我的胡子吧！！"
+    "Bio": "看看我的胡子吧！！",
+    "Nickname": ["Cherino"]
   },
   {
     "Id": 10018,
     "Name": "柚子",
     "Birthday": "08月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yuzu_Collection.webp",
-    "Bio": "404 Not Found"
+    "Bio": "404 Not Found",
+    "Nickname": ["Yuzu"]
   },
   {
     "Id": 10019,
     "Name": "梓",
     "Birthday": "12月26日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Azusa_Collection.webp",
-    "Bio": "et omnia vanitas"
+    "Bio": "et omnia vanitas",
+    "Nickname": ["Azusa"]
   },
   {
     "Id": 10020,
     "Name": "小春",
     "Birthday": "4月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Koharu_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Koharu"]
   },
   {
     "Id": 10021,
     "Name": "梓(泳装)",
     "Birthday": "12月26日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_azusa_swimsuit_Collection.webp",
-    "Bio": "A brevis paradisum"
+    "Bio": "A brevis paradisum",
+    "Nickname": ["Azusa_Swimsuit"]
   },
   {
     "Id": 10022,
     "Name": "日奈(泳装)",
     "Birthday": "2月19日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0063_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hina_Swimsuit"]
   },
   {
     "Id": 10023,
     "Name": "伊织(泳装)",
     "Birthday": "11月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0064_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Iori_Swimsuit"]
   },
   {
     "Id": 10024,
     "Name": "白子(单车)",
     "Birthday": "5月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shiroko_ridingsuit_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Shiroko_Cycling"]
   },
   {
     "Id": 10025,
     "Name": "瞬(幼女)",
     "Birthday": "2月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0066_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Shun_Small"]
   },
   {
     "Id": 10026,
     "Name": "尼禄(兔女郎)",
     "Birthday": "8月17日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0101_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Neru_Bunny"]
   },
   {
     "Id": 10027,
     "Name": "花凛(兔女郎)",
     "Birthday": "2月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0100_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Karin_Bunny"]
   },
   {
     "Id": 10028,
     "Name": "明日奈(兔女郎)",
     "Birthday": "3月24日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0098_Collection.webp",
-    "Bio": "带给主人最棒的快乐！"
+    "Bio": "带给主人最棒的快乐！",
+    "Nickname": ["Asuna_Bunny"]
   },
   {
     "Id": 10029,
     "Name": "夏",
     "Birthday": "12月4日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0155_Collection.webp",
-    "Bio": "人生是巧克力蝴蝶饼"
+    "Bio": "人生是巧克力蝴蝶饼",
+    "Nickname": ["Natsu"]
   },
   {
     "Id": 10030,
     "Name": "千夏(温泉)",
     "Birthday": "8月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0163_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Chinatsu_HotSpring"]
   },
   {
     "Id": 10031,
     "Name": "阿露(正月)",
     "Birthday": "3月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Aru_newyear_Collection.webp",
-    "Bio": "今年也请多多指教"
+    "Bio": "今年也请多多指教",
+    "Nickname": ["Aru_NewYear"]
   },
   {
     "Id": 10032,
     "Name": "睦月(正月)",
     "Birthday": "7月29日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_newyear_Collection.webp",
-    "Bio": "让今年变成快乐的一年吧♪"
+    "Bio": "让今年变成快乐的一年吧♪",
+    "Nickname": ["Mutsuki_NewYear"]
   },
   {
     "Id": 10033,
     "Name": "若藻",
     "Birthday": "4月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Wakamo_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Wakamo"]
   },
   {
     "Id": 10034,
     "Name": "三森",
     "Birthday": "3月15日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mimori_Collection.webp",
-    "Bio": "每天踏实，一步一步"
+    "Bio": "每天踏实，一步一步",
+    "Nickname": ["Mimori"]
   },
   {
     "Id": 10035,
     "Name": "忧",
     "Birthday": "4月23日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0169_Collection.webp",
-    "Bio": "正在办其他事"
+    "Bio": "正在办其他事",
+    "Nickname": ["Ui"]
   },
   {
     "Id": 10036,
     "Name": "日向",
     "Birthday": "5月17日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hinata_Collection.webp",
-    "Bio": "有困难时，请随时联系我"
+    "Bio": "有困难时，请随时联系我",
+    "Nickname": ["Hinata"]
   },
   {
     "Id": 10037,
     "Name": "玛利娜",
     "Birthday": "11月4日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Marina_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Marina"]
   },
   {
     "Id": 10038,
     "Name": "宫子",
     "Birthday": "1月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Miyako_Collection.webp",
-    "Bio": "为了鸡窝托斯的和平"
+    "Bio": "为了鸡窝托斯的和平",
+    "Nickname": ["Miyako"]
   },
   {
     "Id": 10039,
     "Name": "美游",
     "Birthday": "7月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0145_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Miyu"]
   },
   {
     "Id": 10040,
     "Name": "月咏",
     "Birthday": "4月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0114_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Tsukuyo"]
   },
   {
     "Id": 10041,
     "Name": "美咲",
     "Birthday": "1月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Misaki_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Misaki"]
   },
   {
     "Id": 10042,
     "Name": "亚津子",
     "Birthday": "1月20日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Atsuko_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Atsuko"]
   },
   {
     "Id": 10043,
     "Name": "若藻(泳装)",
     "Birthday": "4月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0175_Collection.webp",
-    "Bio": "比夏日还热情的心意♡"
+    "Bio": "比夏日还热情的心意♡",
+    "Nickname": ["Wakamo_Swimsuit"]
   },
   {
     "Id": 10044,
     "Name": "野宫(泳装)",
     "Birthday": "9月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0092_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Nonomi_Swimsuit"]
   },
   {
     "Id": 10045,
     "Name": "星野(泳装)",
     "Birthday": "1月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hoshino_Swimsuit_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hoshino_Swimsuit"]
   },
   {
     "Id": 10046,
     "Name": "泉奈(泳装)",
     "Birthday": "12月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0179_Collection.webp",
-    "Bio": "这次要在海边修行咯！忍忍！"
+    "Bio": "这次要在海边修行咯！忍忍！",
+    "Nickname": ["Izuna_Swimsuit"]
   },
   {
     "Id": 10047,
     "Name": "千世(泳装)",
     "Birthday": "7月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0178_Collection.webp",
-    "Bio": "光芒~会在哪里呢？"
+    "Bio": "光芒~会在哪里呢？",
+    "Nickname": ["Chise_Swimsuit"]
   },
   {
     "Id": 10048,
     "Name": "纱织",
     "Birthday": "9月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saori_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Saori"]
   },
   {
     "Id": 10049,
     "Name": "和纱",
     "Birthday": "8月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kazusa_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kazusa"]
   },
   {
     "Id": 10050,
     "Name": "心奈",
     "Birthday": "6月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0137_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kokona"]
   },
   {
     "Id": 10051,
     "Name": "歌原(应援团)",
     "Birthday": "11月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0182_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Utaha_Cheerleader"]
   },
   {
     "Id": 10052,
     "Name": "诺亚",
     "Birthday": "4月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0095_Collection.webp",
-    "Bio": ""
+    "Bio": "奇普托斯的忧郁",
+    "Nickname": ["Noa"]
   },
   {
     "Id": 10053,
     "Name": "优香(运动服)",
     "Birthday": "3月14日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0184_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Yuuka_Track"]
   },
   {
     "Id": 10054,
     "Name": "玛丽(运动服)",
     "Birthday": "9月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0186_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Mari_Track"]
   },
   {
     "Id": 10055,
     "Name": "时雨",
     "Birthday": "1月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shigure_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Shigure"]
   },
   {
     "Id": 10056,
     "Name": "芹娜(圣诞)",
     "Birthday": "1月6日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0194_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Serina_Christmas"]
   },
   {
     "Id": 10057,
     "Name": "晴奈(正月)",
     "Birthday": "3月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0191_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Haruna_NewYear"]
   },
   {
     "Id": 10058,
     "Name": "美弥",
     "Birthday": "11月23日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0152_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Mine"]
   },
   {
     "Id": 10059,
     "Name": "未花",
     "Birthday": "5月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0069_Collection.webp",
-    "Bio": "能一起说话的同伴招募中"
+    "Bio": "能一起说话的同伴招募中",
+    "Nickname": ["Mika"]
   },
   {
     "Id": 10060,
     "Name": "惠",
     "Birthday": "4月25日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0088_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Megu"]
   },
   {
     "Id": 10061,
     "Name": "樱子",
     "Birthday": "10月4日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sakurako_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Sakurako"]
   },
   {
     "Id": 10062,
     "Name": "时",
     "Birthday": "8月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0187_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Toki"]
   },
   {
     "Id": 10063,
     "Name": "小雪",
     "Birthday": "2月14日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0198_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Koyuki"]
   },
   {
     "Id": 10064,
     "Name": "佳代子(正月)",
     "Birthday": "3月17日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0086_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kayoko_NewYear"]
   },
   {
     "Id": 10065,
     "Name": "果穗",
     "Birthday": "10月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0107_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kaho"]
   },
   {
     "Id": 10066,
     "Name": "爱丽丝(女仆)",
     "Birthday": "3月25日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0200_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Aris_Maid"]
   },
   {
     "Id": 10067,
     "Name": "时(兔女郎)",
     "Birthday": "8月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0211_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Toki_Bunny"]
   },
   {
     "Id": 10068,
     "Name": "玲纱",
     "Birthday": "5月31日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0167_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Reisa"]
   },
   {
     "Id": 10069,
     "Name": "瑠美",
     "Birthday": "3月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0135_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Rumi"]
   },
   {
     "Id": 10070,
     "Name": "弥奈",
     "Birthday": "9月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0138_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Mina"]
   },
   {
     "Id": 10071,
     "Name": "宫子(泳装)",
     "Birthday": "1月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0215_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Miyako_Swimsuit"]
   },
   {
     "Id": 10072,
     "Name": "咲(泳装)",
     "Birthday": "4月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0217_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Saki_Swimsuit"]
   },
   {
     "Id": 13000,
     "Name": "茜",
     "Birthday": "4月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Akane_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Akane"]
   },
   {
     "Id": 13001,
     "Name": "千世",
     "Birthday": "7月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Chise_Collection.webp",
-    "Bio": "找到云的话告诉我"
+    "Bio": "找到云的话告诉我",
+    "Nickname": ["Chise"]
   },
   {
     "Id": 13002,
     "Name": "明里",
     "Birthday": "12月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Akari_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Akari"]
   },
   {
     "Id": 13003,
     "Name": "莲见",
     "Birthday": "12月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hasumi_Collection.webp",
-    "Bio": "减肥中……"
+    "Bio": "减肥中……",
+    "Nickname": ["Hasumi"]
   },
   {
     "Id": 13004,
     "Name": "野宫",
     "Birthday": "9月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nonomi_Collection.webp",
-    "Bio": "希望会是快乐的一天"
+    "Bio": "希望会是快乐的一天",
+    "Nickname": ["Nonomi"]
   },
   {
     "Id": 13005,
     "Name": "佳代子",
     "Birthday": "3月17日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kayoko_Collection.webp",
-    "Bio": "不常用MomoTalk"
+    "Bio": "不常用MomoTalk",
+    "Nickname": ["Kayoko"]
   },
   {
     "Id": 13006,
     "Name": "睦月",
     "Birthday": "7月29日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Mutsuki"]
   },
   {
     "Id": 13007,
     "Name": "淳子",
     "Birthday": "12月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Zunko_Collection.webp",
-    "Bio": "谢绝骚扰 (╬⊙益⊙)"
+    "Bio": "谢绝骚扰 (╬⊙益⊙)",
+    "Nickname": ["Junko"]
   },
   {
     "Id": 13008,
     "Name": "芹香",
     "Birthday": "6月25日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serika_Collection.webp",
-    "Bio": "对策委员会黑见芹香"
+    "Bio": "对策委员会黑见芹香",
+    "Nickname": ["Serika"]
   },
   {
     "Id": 13009,
     "Name": "椿",
     "Birthday": "2月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tsubaki_Collection.webp",
-    "Bio": "好困……"
+    "Bio": "好困……",
+    "Nickname": ["Tsubaki"]
   },
   {
     "Id": 13010,
     "Name": "优香",
     "Birthday": "3月14日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yuuka_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Yuuka"]
   },
   {
     "Id": 13011,
     "Name": "桃井",
     "Birthday": "12月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Momoi_Collection.webp",
-    "Bio": "致力于游戏！"
+    "Bio": "致力于游戏！",
+    "Nickname": ["Momoi"]
   },
   {
     "Id": 13012,
     "Name": "桐乃",
     "Birthday": "10月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kirino_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kirino"]
   },
   {
     "Id": 16000,
     "Name": "遥香",
     "Birthday": "5月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Haruka_Collection.webp",
-    "Bio": "请多多指教"
+    "Bio": "请多多指教",
+    "Nickname": ["Haruka"]
   },
   {
     "Id": 16001,
     "Name": "明日奈",
     "Birthday": "3月24日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Asuna_Collection.webp",
-    "Bio": "为主人提供最好的服务！"
+    "Bio": "为主人提供最好的服务！",
+    "Nickname": ["Asuna"]
   },
   {
     "Id": 16002,
     "Name": "柯托莉",
     "Birthday": "12月31日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kotori_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kotori"]
   },
   {
     "Id": 16003,
     "Name": "铃美",
     "Birthday": "8月31日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Suzumi_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Suzumi"]
   },
   {
     "Id": 16004,
     "Name": "菲娜",
     "Birthday": "11月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Pina_Collection.webp",
-    "Bio": "CHUCIJIANMIAN！"
+    "Bio": "CHUCIJIANMIAN！",
+    "Nickname": ["Pina"]
   },
   {
     "Id": 16005,
     "Name": "鹤城(泳装)",
     "Birthday": "6月24日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0060_Collection.webp",
-    "Bio": "夏日、青春、大海"
+    "Bio": "夏日、青春、大海",
+    "Nickname": ["Tsurugi_Swimsuit"]
   },
   {
     "Id": 16006,
     "Name": "泉(泳装)",
     "Birthday": "5月11日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Izumi_swimsuit_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Izumi_Swimsuit"]
   },
   {
     "Id": 16007,
     "Name": "智惠",
     "Birthday": "11月10日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tomoe_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Tomoe"]
   },
   {
     "Id": 16008,
     "Name": "吹雪",
     "Birthday": "10月21日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0141_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Fubuki"]
   },
   {
     "Id": 16009,
     "Name": "满",
     "Birthday": "2月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0113_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Michiru"]
   },
   {
     "Id": 16010,
     "Name": "响(应援团)",
     "Birthday": "4月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0181_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hibiki_Cheerleader"]
   },
   {
     "Id": 16011,
     "Name": "莲见(运动服)",
     "Birthday": "12月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0190_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hasumi_Track"]
   },
   {
     "Id": 16012,
     "Name": "淳子(正月)",
     "Birthday": "12月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0192_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Junko_NewYear"]
   },
   {
     "Id": 20000,
     "Name": "响",
     "Birthday": "4月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hibiki_Collection.webp",
-    "Bio": "虚争空言，不如思而试之"
+    "Bio": "虚争空言，不如思而试之",
+    "Nickname": ["Hibiki"]
   },
   {
     "Id": 20001,
     "Name": "花凛",
     "Birthday": "2月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Karin_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Karin"]
   },
   {
     "Id": 20002,
     "Name": "纱绫",
     "Birthday": "1月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saya_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Saya"]
   },
   {
     "Id": 20003,
     "Name": "真白",
     "Birthday": "6月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mashiro_Collection.webp",
-    "Bio": "聚沙成塔"
+    "Bio": "聚沙成塔",
+    "Nickname": ["Mashiro"]
   },
   {
     "Id": 20004,
     "Name": "真白(泳装)",
     "Birthday": "6月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_mashiro_swimsuit_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Mashiro_Swimsuit"]
   },
   {
     "Id": 20005,
     "Name": "日富美(泳装)",
     "Birthday": "11月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0058_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hifumi_Swimsuit"]
   },
   {
     "Id": 20006,
     "Name": "纱绫(私服)",
     "Birthday": "1月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Saya_Casual_Collection.webp",
-    "Bio": "我什么都知道！"
+    "Bio": "我什么都知道！",
+    "Nickname": ["Saya_Casual"]
   },
   {
     "Id": 20007,
     "Name": "初音未来",
     "Birthday": "8月31日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH9999_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hatsune_Miku"]
   },
   {
     "Id": 20008,
     "Name": "亚子",
     "Birthday": "12月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_ako_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Ako"]
   },
   {
     "Id": 20009,
     "Name": "切里诺(温泉)",
     "Birthday": "10月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0164_Collection.webp",
-    "Bio": "世界上没有不好的胡子！"
+    "Bio": "世界上没有不好的胡子！",
+    "Nickname": ["Cherino_HotSpring"]
   },
   {
     "Id": 20010,
     "Name": "和香(温泉)",
     "Birthday": "2月20日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0165_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Nodoka_HotSpring"]
   },
   {
     "Id": 20011,
     "Name": "芹香(正月)",
     "Birthday": "6月25日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serika_newyear_Collection.webp",
-    "Bio": "谨贺新年"
+    "Bio": "谨贺新年",
+    "Nickname": ["Serika_NewYear"]
   },
   {
     "Id": 20012,
     "Name": "濑名",
     "Birthday": "4月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Sena_Collection.webp",
-    "Bio": "请把我设为紧急联络人"
+    "Bio": "请把我设为紧急联络人",
+    "Nickname": ["Sena"]
   },
   {
     "Id": 20013,
     "Name": "千寻",
     "Birthday": "4月26日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0160_Collection.webp",
-    "Bio": "安全性检查从日常做起"
+    "Bio": "安全性检查从日常做起",
+    "Nickname": ["Chihiro"]
   },
   {
     "Id": 20014,
     "Name": "咲",
     "Birthday": "4月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0144_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Saki"]
   },
   {
     "Id": 20015,
     "Name": "枫",
     "Birthday": "7月9日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kaede_Collection.webp",
-    "Bio": "今天要玩什么呢！？"
+    "Bio": "今天要玩什么呢！？",
+    "Nickname": ["Kaede"]
   },
   {
     "Id": 20016,
     "Name": "伊吕波",
     "Birthday": "11月16日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0156_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Iroha"]
   },
   {
     "Id": 20017,
     "Name": "日和",
     "Birthday": "1月8日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hiyori_Collection.webp",
-    "Bio": "人生是痛苦的连续……"
+    "Bio": "人生是痛苦的连续……",
+    "Nickname": ["Hiyori"]
   },
   {
     "Id": 20018,
     "Name": "萌绘",
     "Birthday": "9月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Moe_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Moe"]
   },
   {
     "Id": 20019,
     "Name": "茜(兔女郎)",
     "Birthday": "4月1日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0099_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Akane_Bunny"]
   },
   {
     "Id": 20020,
     "Name": "日鞠",
     "Birthday": "12月10日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0159_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Himari"]
   },
   {
     "Id": 20021,
     "Name": "花江(圣诞)",
     "Birthday": "5月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0195_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hanae_Christmas"]
   },
   {
     "Id": 20022,
     "Name": "枫香(正月)",
     "Birthday": "4月30日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0177_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Fuuka_NewYear"]
   },
   {
     "Id": 20023,
     "Name": "叶渚",
     "Birthday": "9月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0170_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Kanna"]
   },
   {
     "Id": 20024,
     "Name": "渚",
     "Birthday": "7月4日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nagisa_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Nagisa"]
   },
   {
     "Id": 20025,
     "Name": "遥香(正月)",
     "Birthday": "5月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0087_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Haruka_NewYear"]
   },
   {
     "Id": 20026,
     "Name": "实里",
     "Birthday": "7月14日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0214_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Minori"]
   },
   {
     "Id": 23000,
     "Name": "爱莉",
     "Birthday": "1月30日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Airi_Collection.webp",
-    "Bio": "薄荷巧克力最棒了！"
+    "Bio": "薄荷巧克力最棒了！",
+    "Nickname": ["Airi"]
   },
   {
     "Id": 23001,
     "Name": "枫香",
     "Birthday": "4月30日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Fuuka_Collection.webp",
-    "Bio": "希望至少能过平静的一天(T_T)"
+    "Bio": "希望至少能过平静的一天(T_T)",
+    "Nickname": ["Fuuka"]
   },
   {
     "Id": 23002,
     "Name": "花江",
     "Birthday": "5月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hanae_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hanae"]
   },
   {
     "Id": 23003,
     "Name": "晴",
     "Birthday": "4月19日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hare_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Hare"]
   },
   {
     "Id": 23004,
     "Name": "歌原",
     "Birthday": "11月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Utaha_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Utaha"]
   },
   {
     "Id": 23005,
     "Name": "绫音",
     "Birthday": "11月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Ayane_Collection.webp",
-    "Bio": "玩的时候就要好好玩！"
+    "Bio": "玩的时候就要好好玩！",
+    "Nickname": ["Ayane"]
   },
   {
     "Id": 23006,
     "Name": "静子",
     "Birthday": "7月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shizuko_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Shizuko"]
   },
   {
     "Id": 23007,
     "Name": "花子",
     "Birthday": "1月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hanako_Collection.webp",
-    "Bio": "我也喜欢那种事哦♪"
+    "Bio": "我也喜欢那种事哦♪",
+    "Nickname": ["Hanako"]
   },
   {
     "Id": 23008,
     "Name": "玛丽",
     "Birthday": "9月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mari_Collection.webp",
-    "Bio": "愿大家的心得到安宁"
+    "Bio": "愿大家的心得到安宁",
+    "Nickname": ["Mari"]
   },
   {
     "Id": 26000,
     "Name": "千夏",
     "Birthday": "8月22日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Chinatsu_Collection.webp",
-    "Bio": "丧失的前方"
+    "Bio": "丧失的前方",
+    "Nickname": ["Chinatsu"]
   },
   {
     "Id": 26001,
     "Name": "小玉",
     "Birthday": "1月5日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Kotama_Collection.webp",
-    "Bio": "我一直守望着你"
+    "Bio": "我一直守望着你",
+    "Nickname": ["Kotama"]
   },
   {
     "Id": 26002,
     "Name": "茱莉",
     "Birthday": "10月20日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Juri_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Juri"]
   },
   {
     "Id": 26003,
     "Name": "芹娜",
     "Birthday": "1月6日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Serina_Collection.webp",
-    "Bio": "身体不舒服的人请随时联系我"
+    "Bio": "身体不舒服的人请随时联系我",
+    "Nickname": ["Serina"]
   },
   {
     "Id": 26004,
     "Name": "志美子",
     "Birthday": "11月30日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Shimiko_Collection.webp",
-    "Bio": "请在借阅期间内还书"
+    "Bio": "请在借阅期间内还书",
+    "Nickname": ["Shimiko"]
   },
   {
     "Id": 26005,
     "Name": "好美",
     "Birthday": "8月29日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yoshimi_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Yoshimi"]
   },
   {
     "Id": 26006,
     "Name": "和香",
     "Birthday": "02月20日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Nodoka_Collection.webp",
-    "Bio": "一起去看星星吧！★彡"
+    "Bio": "一起去看星星吧！★彡",
+    "Nickname": ["Nodoka"]
   },
   {
     "Id": 26007,
     "Name": "绫音(泳装)",
     "Birthday": "11月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0176_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Ayane_Swimsuit"]
   },
   {
     "Id": 26008,
     "Name": "静子(泳装)",
     "Birthday": "7月7日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0180_Collection.webp",
-    "Bio": "百夜堂连锁店热烈营业中！"
+    "Bio": "百夜堂连锁店热烈营业中！",
+    "Nickname": ["Shizuko_Swimsuit"]
   },
   {
     "Id": 26009,
     "Name": "柚子(女仆)",
     "Birthday": "8月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0203_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Yuzu_Maid"]
   },
   {
     "Id": 26010,
     "Name": "美游(泳装)",
     "Birthday": "7月12日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0218_Collection.webp",
-    "Bio": ""
+    "Bio": "",
+    "Nickname": ["Miyu_Swimsuit"]
   }
 ]

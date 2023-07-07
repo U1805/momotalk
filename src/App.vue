@@ -6,7 +6,6 @@ import StudentIcon from './components/icons/IconStudent.vue'
 import MessageIcon from './components/icons/IconMessage.vue'
 import DownloadIcon from './components/icons/IconDownload.vue'
 import ListIcon from './components/icons/IconList.vue'
-import data from './assets/student.json'
 </script>
 
 <template>
@@ -62,6 +61,7 @@ import data from './assets/student.json'
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { domtoimage } from '@/assets/utils/dom-to-image'
+import data from './assets/student.json'
 
 export default defineComponent({
     props: {
@@ -110,9 +110,16 @@ export default defineComponent({
 
         },
         search() { // https://www.cnblogs.com/caozhenfei/p/14882122.html
-            let text = this.searchText
+            let text = this.searchText.toLowerCase()
             let reg = new RegExp(text)
-            this.database = data.filter(item => reg.test(item.Name))
+            this.database = data.filter((item) => {
+                if(reg.test(item.Name))
+                    return item
+                else if (item.Nickname) // 遍历别名
+                    for(let nickname of item.Nickname)
+                        if (reg.test(nickname.toLowerCase()))
+                            return item
+            })
         }
     },
 })

@@ -7,6 +7,7 @@ with open('./students.min.json', 'r', encoding='utf-8') as f:
         student = {attr:item[attr] for attr in ['Id', 'Name', 'Birthday']}
         student['Avatar'] = f"https://schale.gg/images/student/collection/{item['CollectionTexture']}.webp"
         student['Bio'] = ''
+        student['Alias'] = [item['PathName']]
         result.append(student)
 
 def takeId(elem):

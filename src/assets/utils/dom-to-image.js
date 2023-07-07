@@ -166,7 +166,7 @@
             ctx.webkitImageSmoothingEnabled = false;
             ctx.msImageSmoothingEnabled = false;
             ctx.imageSmoothingEnabled = false;
-            var scale = options.scale || 1;
+            var scale = options.scale || 2; // 默然两倍大小
             canvas.width = (options.width * scale) || util.width(domNode);
             canvas.height = (options.height * scale) || util.height(domNode);
             ctx.scale(scale, scale);
