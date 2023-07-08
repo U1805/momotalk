@@ -41,8 +41,6 @@ export default defineComponent({
         grid: {
             template-columns: 1fr 1fr 1fr;
             template-rows: 160px repeat(3, 40px);
-            column-gap: 0px;
-            row-gap: 0px;
         }
     }
 }
@@ -51,7 +49,7 @@ export default defineComponent({
     grid-area: 1 / 2 / 2 / 3;
     @include center;
 
-    >img {
+    img {
         @include circle(150px);
     }
 }

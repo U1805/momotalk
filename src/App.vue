@@ -33,7 +33,9 @@ import ListIcon from './components/icons/IconList.vue'
 
         <div id="listcard">
             <div id="listheader">
-                <input class="search-text" type="text" v-model="searchText"  @keyup.enter="search" placeholder="搜索">
+                <input class="search-text" type="text" placeholder="搜索"
+                    v-model="searchText"  
+                    @keyup.enter="search">
                 <div class="search-button" @click="search">
                     <ListIcon />
                 </div>

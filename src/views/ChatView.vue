@@ -5,20 +5,15 @@ import ImageIcon from '@/components/icons/IconImage.vue'
 import CloseIcon from '@/components/icons/IconClose2.vue'
 import HeartIcon from '@/components/icons/IconHeart.vue'
 import AddIcon from '@/components/icons/IconAdd.vue'
-import Student from '@/components/Student.vue'
-import Story from '@/components/Story.vue'
-import Sensei from '@/components/Sensei.vue'
+
+import draggable from "@/components/draggable.vue";
 </script>
 
 <template>
     <main class="talk-wrapper">
         <!-- 主界面 -->
-        <div class="talk-list" ref="talkRef">
-            <div v-for="talk in talkHistory">
-                <Sensei v-if="talk.name == 'sensei'" :talks="talk" @deleteTalk="deleteTalkId"></Sensei>
-                <Story v-else-if="talk.name == 'story'" :talks="talk" @deleteTalk="deleteTalkId"></Story>
-                <Student v-else :talks="talk" @deleteTalk="deleteTalkId"></Student>
-            </div>
+        <div class="talk-list">
+            <draggable :tasks="talkHistory" @deleteTalk="deleteTalkId"/>
         </div>
 
         <div class="add">
@@ -31,43 +26,42 @@ import Sensei from '@/components/Sensei.vue'
                 </div>
                 <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText">
                 <div class="photo">
-                    <ImageIcon onclick="document.querySelector('#upload-btn').click()" class="image-icon" />
-                    <input id="upload-btn" type="file" @change="File" accept="image/*" />
+                    <ImageIcon @click="sendImage" class="image-icon" />
                 </div>
                 <div class="send">
-                    <SendIcon @click="sendText()" class="send-icon" />
+                    <SendIcon @click="sendText" class="send-icon" />
                 </div>
             </div>
-            <div class="g-wrap">
+            <div class="g-wrap"> <div class="g-scroll"> <div class="g-content selected-student">
                 <!-- 身份选择 -->
-                <div class="g-scroll">
-                    <div class="g-content selected-student">
-                        <div class="item-sensei" @click="selectStudent(0)">
-                            <div> <ProfileIcon class="profile-icon" /> </div>
-                        </div>
-                        <div class="item-heart" @click="selectStudent(1)">
-                            <div> <HeartIcon class="heart-icon" /> </div>
-                        </div>
-                        <div class="item" v-for="(student, index) in selectList" @click="selectStudent(student)">
-                            <img :src="student.Avatar">
-                            <CloseIcon class="delete-button" @click="deleteStudent(index);" />
-                        </div>
-                        <div class="item-sensei" onclick="document.querySelector('#add-btn').click()">
-                            <AddIcon class="image-icon" />
-                            <input id="add-btn" type="file" @change="addStudent" accept="image/*" />
-                        </div>
-                    </div>
+                <div class="item-sensei" @click="selectStudent(0)">
+                    <div> <ProfileIcon class="profile-icon" /> </div>
                 </div>
-            </div>
+                <div class="item-heart" @click="selectStudent(1)">
+                    <div> <HeartIcon class="heart-icon" /> </div>
+                </div>
+                <div class="item" v-for="(student, index) in selectList" @click="selectStudent(student)">
+                    <img :src="student.Avatar">
+                    <CloseIcon class="delete-button" @click="deleteStudent(index);" />
+                </div>
+                <div class="item-sensei" @click="addStudent">
+                    <AddIcon class="image-icon" />
+                </div>
+            </div> </div> </div>
         </div>
     </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { myStudent, Talk } from '../interface'
+import { myStudent, Talk } from '@/assets/utils/interface'
+import { readFile } from '@/assets/utils/readFile'
+
 
 export default defineComponent({
+    components: {
+        draggable
+    },
     props: {
         student: null,
         studentId: null
@@ -78,7 +72,8 @@ export default defineComponent({
             selected: 0 as myStudent | number,
             talkHistory: [] as Talk[],
             talkId: 0,
-            text: "" as string
+            text: "" as string,
+            image: "" as string
         }
     },
     watch: {
@@ -86,14 +81,13 @@ export default defineComponent({
             if (this.selectList.indexOf(newStudent) == -1) {
                 this.selectList.push(newStudent);
                 this.selectStudent(newStudent);
-                // console.log(this.selectList)
             }
         }
     },
     methods: {
         deleteTalkId(id: number) {
             // 删除对话中的一个头像
-            var index:number = this.talkHistory.findIndex((talk: Talk) => { return talk.id == id })
+            var index: number = this.talkHistory.findIndex((talk: Talk) => { return talk.id == id })
             this.talkHistory.splice(index, 1)
         },
         deleteStudent(index: number) {
@@ -109,115 +103,84 @@ export default defineComponent({
         },
         sendText() {
             if (this.text.length == 0) return;
-
             // 新建对话
-            var name: string = "sensei";
-            var avatar: string | null = null;
+            var name: string = "";
+            var avatar: string = "";
+            var type: number = 0;
 
-            if (typeof this.selected != 'number') { // 学生说话
+            if (this.selected == 0) { // sensei
+                type = 0;
+                name = "sensei";
+            }
+            else if (this.selected == 1) {
+                type = 2;
+                name = "story";
+            }
+            else if (typeof this.selected != 'number') {
+                type = 1;
                 name = this.selected.Name;
                 avatar = this.selected.Avatar;
             }
-            else if (this.selected == 1) { // 羁绊剧情
-                name = "story";
-            }
+
             var newTalk: Talk = {
-                'id': this.talkId++,
+                'id': this.talkId,
+                'type': type,
                 'name': name,
                 'avatar': avatar,
-                'talks': [this.text]
+                'talks': [{ "id": this.talkId++, "content": this.text }]
             }
 
-            if (this.talkHistory.length == 0) // 聊天记录为空
+            var len = this.talkHistory.length;
+            if (len == 0)                                   // 聊天记录为空
                 this.talkHistory.push(newTalk);
-            else {
-                if (name == this.talkHistory[this.talkHistory.length - 1].name) // 和上一条同一说话人
-                    this.talkHistory[this.talkHistory.length - 1].talks.push(this.text);
-                else // 不同说话人
-                    this.talkHistory.push(newTalk);
-            }
+            else if (name == this.talkHistory[len - 1].name) // 和上一条同一说话人
+                this.talkHistory[len - 1].talks
+                    .push(newTalk.talks[0]);
+            else                                            // 不同说话人
+                this.talkHistory.push(newTalk);
+
             console.log(this.talkHistory)
             this.text = ''
         },
-        File(evt: Event) {
-            if (this.selected == 1) return; // story card 不能插入图片
-            var btn: HTMLInputElement = (evt.target as HTMLInputElement)!;
-            var file = btn.files![0];
 
-            if (file.size > 1048576) { // 太大容易卡
-                alert("目前不建议上传大于 1MB 的图片哦！");
-                return;
-            }
-            const reader = new FileReader();
+        sendImage() {
+            if (this.selected == 1) return; // story card 不能插入图片
             var that = this;
+            var reader = new FileReader();
             reader.addEventListener("load", () => {
                 that.text = reader.result as string; // 将图像文件转换为 base64 字符串
                 that.sendText();
             });
-            if (file) {
-                reader.readAsDataURL(file);
-            }
+            readFile(reader);
         },
-        addStudent(evt: Event) {
-            // TODO 解耦出返回图片的功能
+        addStudent() {
             // 添加自定义学生到列表
             if (this.selected == 1) return;
-            var btn: HTMLInputElement = (evt.target as HTMLInputElement)!;
-            var file = btn.files![0];
-
-            if (file.size > 1048576) { // 太大容易卡
-                alert("目前不建议上传大于 1MB 的图片哦！");
-                return;
-            }
-            const reader = new FileReader();
             var that = this;
+            var reader = new FileReader();
             reader.addEventListener("load", () => {
-                var image = reader.result as string;
-                var name = prompt("请输入自定义角色名")!;
-                if(name == null) return;
-                while(name.length == 0) name = prompt("请输入自定义角色名")!;
-                var student:myStudent = {
+                var name = "";
+                while (name.length == 0) {
+                    name = prompt("请输入自定义角色名")!;
+                    if (name == null) return;
+                }
+                var student: myStudent = {
                     'Id': 0,
-                    'Avatar': image,
+                    'Avatar': reader.result as string,
                     'Birthday': "",
                     'Bio': "",
                     'Name': name,
-                    }
+                }
                 that.selectList.push(student);
             });
-            if (file) {
-                reader.readAsDataURL(file);
-            }
+            readFile(reader);
         },
     }
 })
 </script>
 
 <style scoped lang="scss">
-@import '../assets/css/chat.scss';
-
-#upload-btn, #add-btn {
-    display: none;
-}
-
-.profile-icon,
-.heart-icon {
-    fill: currentColor;
-    color: #fff;
-    width: 75%;
-    height: 75%;
-    cursor: pointer;
-}
-
-.image-icon,
-.send-icon {
-    fill: currentColor;
-    color: rgb(189, 189, 189);
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
+@import '@/assets/css/chat.scss';
 // 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO
 .g-wrap {
     position: relative;

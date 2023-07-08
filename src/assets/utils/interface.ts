@@ -8,9 +8,10 @@ interface myStudent {
 
 interface Talk {
   'id': number,
+  'type': number, // 0: sensei| 1: student| 2: story
   'name': string,
-  'avatar': string | null,
-  'talks': string[]
+  'avatar': string,
+  'talks': { "id": number, "content": string }[]
 }
 
 export { myStudent, Talk }
