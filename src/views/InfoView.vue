@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import BirhdayIcon from '../components/icons/IconBirhday.vue'
+import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 </script>
 
 <template>

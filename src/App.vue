@@ -132,3 +132,4 @@ export default defineComponent({
 @import './assets/css/app.scss';
 
 </style>
+@/components/utils/dom-to-image

@@ -27,7 +27,7 @@
   .container {
     grid-area: 2 / 3 / 3 / 3;
 
-    > div:first-child > div::after {
+    > div > div:first-child > div::after {
       left: -10px;
       border-right: 10px solid $grey;
     }
@@ -52,7 +52,7 @@
     display: none;
   }
 
-  .container {
+  .container > div {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -81,7 +81,7 @@
     display: none;
   }
 
-  .container > div {
+  .container > div > div {
     display: grid;
 
     grid: {
@@ -172,7 +172,7 @@
   margin-bottom: 5px;
 }
 
-.container > div:first-child > div::after {
+.container > div > div:first-child > div::after {
   content: '';
   position: absolute;
   width: 0;

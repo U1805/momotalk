@@ -6,14 +6,14 @@ import CloseIcon from '@/components/icons/IconClose2.vue'
 import HeartIcon from '@/components/icons/IconHeart.vue'
 import AddIcon from '@/components/icons/IconAdd.vue'
 
-import draggable from "@/components/draggable.vue";
+import draggable from "@/components/Draggable.vue";
 </script>
 
 <template>
     <main class="talk-wrapper">
         <!-- 主界面 -->
         <div class="talk-list">
-            <draggable :tasks="talkHistory" @deleteTalk="deleteTalkId"/>
+            <draggable :tasks="talkHistory" :typing="typing" :maxId="talkId-1" @deleteTalk="deleteTalkId"/>
         </div>
 
         <div class="add">
@@ -73,7 +73,8 @@ export default defineComponent({
             talkHistory: [] as Talk[],
             talkId: 0,
             text: "" as string,
-            image: "" as string
+            image: "" as string,
+            typing: 0 as number
         }
     },
     watch: {
@@ -141,6 +142,12 @@ export default defineComponent({
 
             console.log(this.talkHistory)
             this.text = ''
+            this.typing = 1
+            var that = this
+            var timer = setInterval(()=>{
+                that.typing--;
+                if(that.typing==0) clearInterval(timer);
+            }, 1000);
         },
 
         sendImage() {
@@ -222,4 +229,4 @@ export default defineComponent({
 ::-webkit-scrollbar-button {
     display: none;
 }
-</style>
+</style>@/components/utils/interface@/components/utils/readFile
