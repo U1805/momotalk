@@ -261,7 +261,7 @@
     "Birthday": "7月29日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_newyear_Collection.webp",
     "Bio": "让今年变成快乐的一年吧♪",
-    "Nickname": ["Mutsuki_NewYear", "春睦月","春雷","春月"]
+    "Nickname": ["Mutsuki_NewYear", "春睦月", "春雷", "春月"]
   },
   {
     "Id": 10033,
@@ -365,7 +365,7 @@
     "Birthday": "1月2日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Hoshino_Swimsuit_Collection.webp",
     "Bio": "午睡中~欢迎同道中人",
-    "Nickname": ["Hoshino_Swimsuit", "水大叔","一动不动也好热阿"]
+    "Nickname": ["Hoshino_Swimsuit", "水大叔", "一动不动也好热阿"]
   },
   {
     "Id": 10046,
@@ -453,7 +453,7 @@
     "Birthday": "1月6日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0194_Collection.webp",
     "Bio": "在这圣夜里，希望大家都有幸福来敲门",
-    "Nickname": ["Serina_Christmas", "小护士","没裤裆"]
+    "Nickname": ["Serina_Christmas", "小护士", "没裤裆"]
   },
   {
     "Id": 10057,
@@ -637,7 +637,7 @@
     "Birthday": "7月29日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Mutsuki_Collection.webp",
     "Bio": "没有什么有趣的事吗~",
-    "Nickname": ["Mutsuki","地雷妹", "大头"]
+    "Nickname": ["Mutsuki", "地雷妹", "大头"]
   },
   {
     "Id": 13007,
@@ -645,7 +645,7 @@
     "Birthday": "12月27日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Zunko_Collection.webp",
     "Bio": "谢绝骚扰 (╬⊙益⊙)",
-    "Nickname": ["Junko","丸子","小火龙"]
+    "Nickname": ["Junko", "丸子", "小火龙"]
   },
   {
     "Id": 13008,
@@ -661,7 +661,7 @@
     "Birthday": "2月3日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Tsubaki_Collection.webp",
     "Bio": "好困……",
-    "Nickname": ["Tsubaki","狗盾", "神秘T"]
+    "Nickname": ["Tsubaki", "狗盾", "神秘T"]
   },
   {
     "Id": 13010,
@@ -669,7 +669,7 @@
     "Birthday": "3月14日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Yuuka_Collection.webp",
     "Bio": "如我所算",
-    "Nickname": ["Yuuka", "邮箱", "没包人","半包人", "管账婆", "妈", "阻冲之", "祖冲之"]
+    "Nickname": ["Yuuka", "邮箱", "没包人", "半包人", "管账婆", "妈", "阻冲之", "祖冲之"]
   },
   {
     "Id": 13011,
@@ -957,7 +957,7 @@
     "Birthday": "12月10日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0159_Collection.webp",
     "Bio": "",
-    "Nickname": ["Himari", "轮椅拐", "天才病弱美少女","otto"]
+    "Nickname": ["Himari", "轮椅拐", "天才病弱美少女", "otto"]
   },
   {
     "Id": 20021,
@@ -1013,7 +1013,7 @@
     "Birthday": "1月30日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Airi_Collection.webp",
     "Bio": "薄荷巧克力最棒了！",
-    "Nickname": ["Airi", "冰淇淋" ,"冰激凌"]
+    "Nickname": ["Airi", "冰淇淋", "冰激凌"]
   },
   {
     "Id": 23001,
@@ -1045,7 +1045,7 @@
     "Birthday": "11月13日",
     "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_Utaha_Collection.webp",
     "Bio": "",
-    "Nickname": ["Utaha","炮台"]
+    "Nickname": ["Utaha", "炮台"]
   },
   {
     "Id": 23005,
@@ -1181,7 +1181,7 @@
     "Birthday": "???",
     "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/1/27/874146.png",
     "Bio": "前辈，该起床了。",
-    "Nickname": ["Purana","A.R.O.N.A"]
+    "Nickname": ["Purana", "A.R.O.N.A"]
   },
   {
     "Id": 902,
@@ -1189,7 +1189,7 @@
     "Birthday": "???",
     "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/527182.png",
     "Bio": "欢、欢迎光临！…老师！",
-    "Nickname": ["Sora","额头", "天使24","便利店"]
+    "Nickname": ["Sora", "额头", "天使24", "便利店"]
   },
   {
     "Id": 903,

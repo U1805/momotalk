@@ -1,8 +1,6 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  max-height: 720px;
   width: $view-width;
   height: $view-height;
   margin: 0 auto;
@@ -17,15 +15,11 @@ a,
   transition: 0.4s;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-}
-
-body{
+body {
   background-image: url($background);
   backdrop-filter: blur(5px) brightness(60%);
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@types/vue-router": "^2.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2",
     "vuedraggable": "^4.1.0"
