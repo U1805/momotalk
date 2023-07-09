@@ -1,1 +1,1 @@
-export {domtoimage};
+export { domtoimage }

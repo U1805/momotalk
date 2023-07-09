@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -13,8 +13,10 @@
   },
   "dependencies": {
     "@types/vue-router": "^2.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2",
+    "vue3-popper": "^1.5.0",
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {

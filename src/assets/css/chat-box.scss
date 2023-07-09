@@ -27,7 +27,7 @@
   .container {
     grid-area: 2 / 3 / 3 / 3;
 
-    > div:first-child > div::after {
+    > div > div:first-child > div::after {
       left: -10px;
       border-right: 10px solid $grey;
     }
@@ -35,6 +35,7 @@
 
   .box {
     background: $grey;
+    border: 2px solid $grey;
   }
 }
 
@@ -44,15 +45,16 @@
   flex-direction: column;
   align-items: flex-end;
 
-  .avatar {
-    display: none;
-  }
+  // display: none 时 domtoimage 会报错
+  // .avatar {
+  //   display: none;
+  // }
 
-  .name {
-    display: none;
-  }
+  // .name {
+  //   display: none;
+  // }
 
-  .container {
+  .container > div {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -65,6 +67,7 @@
 
   .box {
     background: #4a8ac6;
+    border: 2px solid #4a8ac6;
   }
 }
 
@@ -73,15 +76,15 @@
   display: flex;
   flex-direction: column;
 
-  .avatar {
-    display: none;
-  }
+  // .avatar {
+  //   display: none;
+  // }
 
-  .name {
-    display: none;
-  }
+  // .name {
+  //   display: none;
+  // }
 
-  .container > div {
+  .container > div > div {
     display: grid;
 
     grid: {
@@ -172,7 +175,7 @@
   margin-bottom: 5px;
 }
 
-.container > div:first-child > div::after {
+.container > div > div:first-child > div::after {
   content: '';
   position: absolute;
   width: 0;
