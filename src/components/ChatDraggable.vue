@@ -38,7 +38,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                 <div
                   class="box"
                   v-else-if="
-                    talk.content.startsWith('data:image') || talk.content.startsWith('/Stickers/')
+                    talk.content.startsWith('data:image') || talk.content.startsWith('./Stickers/')
                   "
                 >
                   <typing-animation

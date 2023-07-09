@@ -20,7 +20,7 @@
 
 - **Searchable**: search students by names, romajis, and even nicknames. 🔍️
 - **Custom role**: chat as Students, Sensei, and Custom roles. 🎅
-- **Story Event**: send Images/Story Event during the chat. ❤️
+- **Story Event**: send Images/Stickers/Story Event during the chat. ❤️
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 
@@ -30,6 +30,8 @@
 
 ![img9](./assets/img9.png)
 ![img8](./assets/img8.png)
+![img10](./assets/img10.png)
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=U1805/momotalk)](https://star-history.com/#U1805/momotalk)
