@@ -35,7 +35,12 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     </button>
                   </div>
                 </div>
-                <div class="box" v-else-if="talk.content.substr(0, 10) == 'data:image'">
+                <div
+                  class="box"
+                  v-else-if="
+                    talk.content.startsWith('data:image') || talk.content.startsWith('/Stickers/')
+                  "
+                >
                   <typing-animation
                     class="loading"
                     v-if="typing > 0 && talk.id == maxId"

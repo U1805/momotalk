@@ -7,11 +7,12 @@ import HeartIcon from '@/components/icons/IconHeart.vue'
 import AddIcon from '@/components/icons/IconAdd.vue'
 
 import ChatDraggable from '@/components/ChatDraggable.vue'
+import Popper from 'vue3-popper'
 </script>
 
 <template>
   <main class="talk-wrapper">
-    <!-- 主界面 -->
+    <!-- 聊天主界面 -->
     <div class="talk-list">
       <chat-draggable
         :tasks="talkHistory"
@@ -20,33 +21,39 @@ import ChatDraggable from '@/components/ChatDraggable.vue'
         @deleteTalk="deleteTalkId"
       />
     </div>
+    <!-- 聊天主界面 -->
 
     <div class="add">
       <div class="input-bar">
-        <!-- 输入 -->
-        <div class="sticker">
-          <div v-if="selected == 0" @click="showSticker()">
-            <ProfileIcon class="profile-icon" />
+        <!-- 贴图 -->
+        <Popper placement="top">
+          <div class="sticker">
+            <div v-if="selected == 0"><ProfileIcon class="profile-icon" /></div>
+            <div v-else-if="selected == 1" style="background-color: #fed5de">
+              <HeartIcon class="heart-icon" />
+            </div>
+            <div
+              v-else-if="typeof selected != 'number'"
+              style="padding: 0px; margin: 0px"
+              class="item"
+            >
+              <img :src="selected.Avatar" />
+            </div>
           </div>
-          <div v-else-if="selected == 1" @click="showSticker()" style="background-color: #fed5de">
-            <HeartIcon class="heart-icon" />
-          </div>
-          <div
-            v-else-if="typeof selected != 'number'"
-            @click="showSticker()"
-            style="padding: 0px; margin: 0px"
-            class="item"
-          >
-            <img :src="selected.Avatar" />
-          </div>
-        </div>
+          <template #content>
+            <div class="sticker-wrapper">
+              <div v-for="(sticker, index) in stickers" :key="index">
+                <img :src="sticker" @click="sendSticker(sticker)" />
+              </div>
+            </div>
+          </template>
+        </Popper>
+        <!-- 贴图 -->
+        <!-- 发送 -->
         <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText" />
-        <div class="photo">
-          <ImageIcon @click="sendImage" class="image-icon" />
-        </div>
-        <div class="send">
-          <SendIcon @click="sendText" class="send-icon" />
-        </div>
+        <div class="photo"><ImageIcon @click="sendImage" class="image-icon" /></div>
+        <div class="send"><SendIcon @click="sendText" class="send-icon" /></div>
+        <!-- 发送 -->
       </div>
       <div class="g-wrap">
         <div class="g-scroll">
@@ -81,10 +88,12 @@ import ChatDraggable from '@/components/ChatDraggable.vue'
 import { defineComponent } from 'vue'
 import { myStudent, Talk } from '@/assets/utils/interface'
 import { readFile } from '@/assets/utils/readFile'
+import { stickers } from '@/assets/utils/stickers'
 
 export default defineComponent({
   components: {
-    ChatDraggable
+    ChatDraggable,
+    Popper
   },
   props: {
     student: null,
@@ -98,7 +107,8 @@ export default defineComponent({
       talkId: 0,
       text: '' as string,
       image: '' as string,
-      typing: 0 as number
+      typing: 0 as number,
+      stickers: stickers as string[]
     }
   },
   watch: {
@@ -124,9 +134,6 @@ export default defineComponent({
     selectStudent(student: myStudent | number) {
       // 选择学生添加到列表
       this.selected = student
-    },
-    showSticker() {
-      console.log('now show the stickers')
     },
     sendText() {
       if (this.text.length == 0) return
@@ -169,13 +176,19 @@ export default defineComponent({
       console.log(this.talkHistory)
       this.text = ''
       this.typing = 1
+      var scroll_to_bottom = document.getElementsByClassName('talk-list')[0]
       var that = this
       var timer = setInterval(() => {
-        that.typing--
-        if (that.typing == 0) clearInterval(timer)
-      }, 1000)
+        that.typing -= 0.01
+        if (that.typing < 0.9) {
+          scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
+        }
+        if (that.typing < -1) {
+          that.typing = 0
+          clearInterval(timer)
+        }
+      }, 10)
     },
-
     sendImage() {
       if (this.selected == 1) return // story card 不能插入图片
       var that = this
@@ -185,6 +198,11 @@ export default defineComponent({
         that.sendText()
       })
       readFile(reader)
+    },
+    sendSticker(url: string) {
+      if (this.selected == 1) return // story card 不能插入图片
+      this.text = url
+      this.sendText()
     },
     addStudent() {
       // 添加自定义学生到列表
@@ -214,6 +232,7 @@ export default defineComponent({
 
 <style scoped lang="scss">
 @import '@/assets/css/chat.scss';
+
 // 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO
 .g-wrap {
   position: relative;

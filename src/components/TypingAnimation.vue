@@ -8,6 +8,7 @@
 
 <style lang="scss">
 .loading {
+  //https://juejin.cn/post/7037036742985121800
   display: flex;
   flex-direction: row;
   > div {
