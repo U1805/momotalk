@@ -23,14 +23,15 @@
 - **Story Event**: send Images/Stickers/Story Event during the chat. ❤️
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
+- **Fast restart**: your conversation won't be lost the next time you open browser. 📌
 
 [Try it!](https://u1805.github.io/momotalk)
 
 ## Preview
 
-![img9](./assets/img9.png)
-![img8](./assets/img8.png)
-![img10](./assets/img10.png)
+![img11](./assets/img11.png)
+![img12](./assets/img12.png)
+![img13](./assets/img13.png)
 
 ## Star History
 
