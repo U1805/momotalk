@@ -1,197 +1,197 @@
 .student {
-  display: grid;
+    display: grid;
 
-  grid: {
-    template-columns: 75px 15px 1fr;
-    template-rows: 35px 1fr;
-  }
-
-  padding: 10px 50px 10px 25px;
-
-  .avatar {
-    grid-area: 1 / 1 / 3 / 2;
-
-    img {
-      margin-top: 5px;
-      @include circle(75px);
+    grid: {
+        template-columns: 75px 15px 1fr;
+        template-rows: 35px 1fr;
     }
-  }
 
-  .name {
-    grid-area: 1 / 3 / 2 / 3;
-    @include font-regular(20px);
-    color: $font-black;
-    user-select: none;
-  }
+    padding: 10px 50px 10px 25px;
 
-  .container {
-    grid-area: 2 / 3 / 3 / 3;
+    .avatar {
+        grid-area: 1 / 1 / 3 / 2;
 
-    > div > div:first-child > div::after {
-      left: -10px;
-      border-right: 10px solid $grey;
+        img {
+            margin-top: 5px;
+            @include circle(75px);
+        }
     }
-  }
 
-  .box {
-    background: $grey;
-    border: 2px solid $grey;
-  }
+    .name {
+        grid-area: 1 / 3 / 2 / 3;
+        @include font-regular(20px);
+        color: $font-black;
+        user-select: none;
+    }
+
+    .container {
+        grid-area: 2 / 3 / 3 / 3;
+
+        > div > div:first-child > div::after {
+            left: -10px;
+            border-right: 10px solid $grey;
+        }
+    }
+
+    .box {
+        background: $grey;
+        border: 2px solid $grey;
+    }
 }
 
 .sensei {
-  padding: 10px 25px 10px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-
-  // display: none 时 domtoimage 会报错
-  // .avatar {
-  //   display: none;
-  // }
-
-  // .name {
-  //   display: none;
-  // }
-
-  .container > div {
+    padding: 10px 25px 10px 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 
-    > div:first-child > div::after {
-      right: -10px;
-      border-left: 10px solid #4a8ac6;
-    }
-  }
+    // display: none 时 domtoimage 会报错
+    // .avatar {
+    //   display: none;
+    // }
 
-  .box {
-    background: #4a8ac6;
-    border: 2px solid #4a8ac6;
-  }
+    // .name {
+    //   display: none;
+    // }
+
+    .container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        > div:first-child > div::after {
+            right: -10px;
+            border-left: 10px solid #4a8ac6;
+        }
+    }
+
+    .box {
+        background: #4a8ac6;
+        border: 2px solid #4a8ac6;
+    }
 }
 
 .story {
-  margin: 5px 25px 5px 85px;
-  display: flex;
-  flex-direction: column;
-
-  // .avatar {
-  //   display: none;
-  // }
-
-  // .name {
-  //   display: none;
-  // }
-
-  .container > div > div {
-    display: grid;
-
-    grid: {
-      template-columns: 40px 1fr;
-      template-rows: 1fr;
-    }
-  }
-
-  &:hover span {
-    opacity: 1;
-  }
-
-  .box-story {
-    grid-area: 1 / 2 / 2 / 3;
-    position: relative;
-    margin: 5px;
+    margin: 5px 25px 5px 85px;
     display: flex;
     flex-direction: column;
-    background-color: #ffedf1;
-    border-radius: 10px;
-    border: 1px solid $font-grey;
-    height: 130px;
-  }
 
-  .title {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid $font-grey;
-    font-family: sans-serif;
-    font-size: 20px;
+    // .avatar {
+    //   display: none;
+    // }
 
-    span {
-      height: 20px;
-      width: 2px;
-      background-color: $pink;
-      margin: 0px 5px 0px 10px;
-      display: inline;
+    // .name {
+    //   display: none;
+    // }
+
+    .container > div > div {
+        display: grid;
+
+        grid: {
+            template-columns: 40px 1fr;
+            template-rows: 1fr;
+        }
     }
-  }
 
-  .content {
-    height: 80px;
-    @include center;
-    flex-direction: column;
-  }
+    &:hover span {
+        opacity: 1;
+    }
 
-  button {
-    background-color: $pink;
-    border: none;
-    color: white;
-    padding: 15px;
-    width: 90%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 10px;
-    font-family: sans-serif;
-    font-size: 20px;
-  }
+    .box-story {
+        grid-area: 1 / 2 / 2 / 3;
+        position: relative;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffedf1;
+        border-radius: 10px;
+        border: 1px solid $font-grey;
+        height: 130px;
+    }
+
+    .title {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $font-grey;
+        font-family: sans-serif;
+        font-size: 20px;
+
+        span {
+            height: 20px;
+            width: 2px;
+            background-color: $pink;
+            margin: 0px 5px 0px 10px;
+            display: inline;
+        }
+    }
+
+    .content {
+        height: 80px;
+        @include center;
+        flex-direction: column;
+    }
+
+    button {
+        background-color: $pink;
+        border: none;
+        color: white;
+        padding: 15px;
+        width: 90%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
 }
 
 .horizontal {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
 
-  &:hover span {
-    opacity: 1;
-  }
+    &:hover span {
+        opacity: 1;
+    }
 }
 
 .chat-img {
-  height: 200px;
-  width: auto;
-  border-radius: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .box {
-  position: relative;
-  padding: 10px;
-  width: fit-content;
-  height: fit-content;
-  color: #ecf2fb;
-  font-family: sans-serif;
-  font-size: 20px;
-  border-radius: 10px;
-  margin-bottom: 5px;
+    position: relative;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    color: #ecf2fb;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .container > div > div:first-child > div::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 10px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }
 
 .del {
-  padding: 10px;
-  color: #000;
-  font-size: 20px;
-  line-height: 20px;
-  user-select: none;
-  cursor: pointer;
-  transition: opacity 0.2s;
-  opacity: 0;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    line-height: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    opacity: 0;
 }

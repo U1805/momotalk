@@ -1,179 +1,193 @@
 #root {
-  display: grid;
-  grid: {
-    template-columns: $sider-width repeat(2, 1fr);
-    template-rows: $header-height calc($view-height - $header-height);
-    column-gap: 0px;
-    row-gap: 0px;
-  }
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: rgba(45, 35, 66, 0.2) 0 3px 6px;
+    display: grid;
+    grid: {
+        template-columns: $sider-width repeat(2, 1fr);
+        template-rows: $header-height calc($view-height - $header-height);
+        column-gap: 0px;
+        row-gap: 0px;
+    }
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(45, 35, 66, 0.2) 0 3px 6px;
 }
 
 #header {
-  grid-area: 1 / 1 / 2 / 6;
-  background-color: $pink;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    grid-area: 1 / 1 / 2 / 6;
+    background-color: $pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .left {
-  @include center;
-  padding: 9px;
+    @include center;
+    padding: 9px;
 }
 
 .right {
-  @include center;
-  padding: 25px;
+    @include center;
+    padding: 25px;
 }
 
 .header-title {
-  color: white;
-  padding: 10px;
-  user-select: none;
-  @include font-heavy(32px);
+    color: white;
+    padding: 10px;
+    user-select: none;
+    @include font-heavy(32px);
 }
 
 .help {
-  @include center;
-  background-color: white;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  height: 28px;
-  width: 28px;
-  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
-  color: $pink;
-  @include font-light(24px);
+    @include center;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+    color: $pink;
+    @include font-light(24px);
 }
 
 #sidebar {
-  grid-area: 2 / 1 / 6 / 2;
-  background-color: $grey;
+    grid-area: 2 / 1 / 6 / 2;
+    background-color: $grey;
 }
 
 #sidebar,
 .up,
 .down {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .up > a,
 .down > div {
-  @include center;
-  width: 100px;
-  height: 100px;
-  opacity: 0.5;
-  &:hover {
-    opacity: 1 !important;
-    background-color: $grey-active;
-    transition: 0.4s;
-  }
+    @include center;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    &:hover {
+        opacity: 1 !important;
+        background-color: $grey-active;
+        transition: 0.4s;
+    }
 }
 
 .router-link-active {
-  opacity: 1 !important;
-  background-color: $grey-active;
-  transition: 0.4s;
+    opacity: 1 !important;
+    background-color: $grey-active;
+    transition: 0.4s;
 }
 
 #listcard {
-  grid-area: 2 / 2 / 3 / 3;
-  background-color: $list-color;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: $list-color;
 }
 
 #listheader {
-  @include center;
-  border-bottom: 2px solid $list-active-color;
+    @include center;
+    border-bottom: 2px solid $list-active-color;
+}
+.group {
+    font-size: 25px;
+    height: 40px;
+    color: #9e9ea7;
+    margin: 10px 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: white;
+    @include center;
 }
 
 .search-text {
-  font-size: 25px;
-  color: #666;
-  padding: 5px 10px;
-  margin: 0px 16px;
-  width: 80%;
-  border-radius: 5px;
-  border: 1px solid #aaa;
+    width: 100%;
+    margin: 0;
+    border: transparent;
+    @include font-light(18px);
+    &::placeholder {
+        color: #9e9ea7;
+    }
+    &:focus {
+        outline: none;
+    }
 }
 
-.search-button {
-  @include center;
-  background: white;
-  border: {
-    width: 7px;
-    color: white;
-    style: solid;
-    radius: 5px;
-  }
-  box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
-  margin: 15px 20px;
-  width: 20%;
-  @include font-regular(15px);
-  cursor: pointer;
-  transform: skew(-15deg);
-  overflow: hidden;
-}
+// .search-button {
+//     @include center;
+//     background: white;
+//     border: {
+//         width: 7px;
+//         color: white;
+//         style: solid;
+//         radius: 5px;
+//     }
+//     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+//     margin: 15px 20px;
+//     width: 20%;
+//     @include font-regular(15px);
+//     cursor: pointer;
+//     transform: skew(-15deg);
+//     overflow: hidden;
+// }
 
 #listbody {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: calc($view-height - $header-height - $listheader-height);
-  @include hide-scrollbar;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc($view-height - $header-height - $listheader-height);
+    @include hide-scrollbar;
 }
 
 .active {
-  background-color: $list-active-color;
-  transition: 0.4s;
+    background-color: $list-active-color;
+    transition: 0.4s;
 }
 
 .list-item {
-  display: grid;
-  border: 1px $list-active-color solid;
-  grid: {
-    template-columns: 75px 15px 1fr 15px 75px;
-    template-rows: repeat(2, 35px);
-    column-gap: 0px;
-    row-gap: 0px;
-  }
-  width: 100%;
-  padding: 15px 25px;
-  &:hover {
-    @extend .active;
-  }
+    display: grid;
+    border: 1px $list-active-color solid;
+    grid: {
+        template-columns: 75px 15px 1fr 15px 75px;
+        template-rows: repeat(2, 35px);
+        column-gap: 0px;
+        row-gap: 0px;
+    }
+    width: 100%;
+    padding: 15px 25px;
+    &:hover {
+        @extend .active;
+    }
 }
 
 .avatar {
-  grid-area: 1 / 1 / 3 / 2;
+    grid-area: 1 / 1 / 3 / 2;
 }
 .name {
-  grid-area: 1 / 3 / 2 / 4;
-  @include font-heavy(25px);
-  color: $font-black;
-  user-select: none;
+    grid-area: 1 / 3 / 2 / 4;
+    @include font-heavy(25px);
+    color: $font-black;
+    user-select: none;
 }
 .bio {
-  grid-area: 2 / 3 / 3 / 4;
-  @include font-heavy(20px);
-  color: $font-grey;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  user-select: none;
+    grid-area: 2 / 3 / 3 / 4;
+    @include font-heavy(20px);
+    color: $font-grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    user-select: none;
 }
 .mark {
-  grid-area: 1 / 5 / 3 / 6;
+    grid-area: 1 / 5 / 3 / 6;
 }
 img {
-  @include circle(75px);
+    @include circle(75px);
 }
 
 #chatcard {
-  grid-area: 2 / 3 / 3 / 4;
-  background-color: white;
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: white;
 }

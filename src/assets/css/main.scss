@@ -1,25 +1,25 @@
 @import './base.css';
 
 #app {
-  width: $view-width;
-  height: $view-height;
-  margin: 0 auto;
+    width: $view-width;
+    height: $view-height;
+    margin: 0 auto;
 
-  font-weight: normal;
+    font-weight: normal;
 }
 
 a,
 .green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
 }
 
 body {
-  background-image: url($background);
-  backdrop-filter: blur(5px) brightness(60%);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-image: url($background);
+    backdrop-filter: blur(5px) brightness(60%);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

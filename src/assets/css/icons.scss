@@ -1,0 +1,48 @@
+@mixin setColor($color) {
+    fill: currentColor;
+    color: $color;
+}
+
+.icon {
+    &.momo {
+        height: 25px;
+        padding-left: 20px;
+    }
+    &.reset {
+        height: 35px;
+        @include setColor(#fff);
+    }
+    &.close,
+    &.download,
+    &.info,
+    &.message {
+        height: 40px;
+    }
+    &.list {
+        height: 35px;
+    }
+    &.profile,
+    &.heart {
+        height: 30px;
+        @include setColor(#fff);
+        width: 75%;
+        height: 75%;
+        cursor: pointer;
+    }
+    &.image,
+    &.send {
+        @include setColor(rgb(189, 189, 189));
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    &.search {
+        height: 30px;
+        @include setColor(#9e9ea7);
+        margin: 10px;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}

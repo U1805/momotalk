@@ -19,61 +19,61 @@ $inputbar-color: #eeeeee;
 $chaticon-color: rgb(189, 189, 189);
 
 @mixin font-heavy($size) {
-  font-size: $size;
-  font-family: sans-serif;
-  font-weight: 1000;
+    font-size: $size;
+    font-family: sans-serif;
+    font-weight: 1000;
 }
 @mixin font-regular($size) {
-  font-size: $size;
-  font-family: sans-serif;
-  font-weight: 600;
+    font-size: $size;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 @mixin font-light($size) {
-  font-size: $size;
-  font-family: sans-serif;
-  font-weight: 300px;
+    font-size: $size;
+    font-family: sans-serif;
+    font-weight: 300px;
 }
 
 @mixin center {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 @mixin circle($size) {
-  object-fit: cover; // 截取中间正方形
-  height: $size;
-  width: $size;
-  border-radius: 50%;
-  overflow: hidden;
+    object-fit: cover; // 截取中间正方形
+    height: $size;
+    width: $size;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 @mixin hide-scrollbar {
-  overflow-y: scroll;
-  -ms-overflow-style: none; /* IE 和 Edge */
-  scrollbar-width: none; /* Firefox */
-  &::-webkit-scrollbar {
-    display: none;
-  }
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* IE 和 Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @mixin hide-scrollbar-x {
-  overflow-x: scroll;
-  -ms-overflow-style: none; /* IE 和 Edge */
-  scrollbar-width: none; /* Firefox */
-  &::-webkit-scrollbar {
-    display: none;
-  }
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE 和 Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @mixin chat-svg {
-  height: 1em;
-  width: 1em;
-  font-size: 22px;
-  cursor: pointer;
-  margin: 0px -5px 0px 10px;
-  fill: currentColor;
-  color: rgba(0, 0, 0, 0.26);
+    height: 1em;
+    width: 1em;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0px -5px 0px 10px;
+    fill: currentColor;
+    color: rgba(0, 0, 0, 0.26);
 }

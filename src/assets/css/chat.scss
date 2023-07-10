@@ -1,151 +1,133 @@
 .talk-wrapper {
-  height: 100%;
-  // width: calc(($view-width - $sider-width)/2);
+    height: 100%;
+    // width: calc(($view-width - $sider-width)/2);
 }
 
 .talk-list {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: calc($view-height - $header-height - $chatfooter-height);
-  background-color: white;
-  @include hide-scrollbar;
-  overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc($view-height - $header-height - $chatfooter-height);
+    background-color: white;
+    @include hide-scrollbar;
+    overflow-x: hidden;
 }
 
 .add {
-  height: $chatfooter-height;
-  width: 100%;
+    height: $chatfooter-height;
+    width: 100%;
 }
 
 .input-bar {
-  height: 60px;
-  width: 100%;
-  background-color: $inputbar-color;
-  @include center;
+    height: 60px;
+    width: 100%;
+    background-color: $inputbar-color;
+    @include center;
 }
 
 .sticker,
-.send,
+.message,
 .photo {
-  padding: 8px;
-  display: inline-flex;
-  border: 0px;
+    padding: 8px;
+    display: inline-flex;
+    border: 0px;
 }
 
 .text {
-  font-size: 20px;
-  color: #666;
-  padding: 5px 10px;
-  margin: 0 8px;
-  height: 40px;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #aaa;
+    font-size: 20px;
+    color: #666;
+    padding: 5px 10px;
+    margin: 0 8px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
 }
 
 .selected-student {
-  @include center;
-  justify-content: flex-start;
-  height: 60px;
-  width: 100%;
-  background-color: #f6fbff;
+    @include center;
+    justify-content: flex-start;
+    height: 60px;
+    width: 100%;
+    background-color: #f6fbff;
 }
 
 .item,
 .item-sensei,
 .item-heart {
-  @include center;
-  height: 50px;
-  box-sizing: border-box;
-  padding: 10px 15px 10px 10px;
-  margin: 5px;
-  user-select: none;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background: white;
-  cursor: pointer;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.06);
-    transition: 0.4s;
-  }
+    @include center;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 10px;
+    margin: 5px;
+    user-select: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.06);
+        transition: 0.4s;
+    }
 }
 .sticker > div,
 .item-sensei > div,
 .item-heart > div {
-  @include circle(40px);
-  @include center;
-  background-color: $chaticon-color;
+    @include circle(40px);
+    @include center;
+    background-color: $chaticon-color;
 }
 .item {
-  > img {
-    @include circle(40px);
-  }
-  > svg {
-    @include chat-svg;
-  }
+    > img {
+        @include circle(40px);
+    }
+    > svg {
+        @include chat-svg;
+    }
 }
 .item-heart {
-  > svg {
-    @include chat-svg;
-  }
-  > div {
-    background-color: $pink-pale;
-  }
+    > svg {
+        @include chat-svg;
+    }
+    > div {
+        background-color: $pink-pale;
+    }
 }
 
 .delete-button:hover {
-  color: rgba(0, 0, 0, 0.4);
-  transition: 0.4s;
-}
-
-.profile-icon,
-.heart-icon {
-  fill: currentColor;
-  color: #fff;
-  width: 75%;
-  height: 75%;
-  cursor: pointer;
-}
-
-.image-icon,
-.send-icon {
-  fill: currentColor;
-  color: rgb(189, 189, 189);
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
+    color: rgba(0, 0, 0, 0.4);
+    transition: 0.4s;
 }
 
 .sticker-wrapper {
-  @include center;
-  display: flex;
-  flex-wrap: wrap;
-  width: 600px;
-  transition: background 250ms ease-in-out;
-  background: white;
-  padding: 20px;
-  border-radius: 6px;
-  border: 1px #dadada solid;
-  box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
-  z-index: 9999;
-  margin: 0px;
-  &::after {
-    border-top: 12px white solid;
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    bottom: -10px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-  }
-  div {
     @include center;
-  }
-  img {
-    @include circle(75px);
-    margin: 10px;
-    cursor: pointer;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    transition: background 250ms ease-in-out;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px #dadada solid;
+    box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    margin: 0px;
+    &::after {
+        border-top: 12px white solid;
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    div {
+        @include center;
+    }
+    img {
+        @include circle(75px);
+        margin: 10px;
+        cursor: pointer;
+    }
 }

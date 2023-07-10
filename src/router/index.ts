@@ -4,24 +4,24 @@ import Chat from '../views/ChatView.vue'
 import Help from '../views/HelpView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'info',
-      component: Info
-    },
-    {
-      path: '/chat',
-      name: 'chat',
-      component: Chat
-    },
-    {
-      path: '/help',
-      name: 'help',
-      component: Help
-    }
-  ]
+    history: createWebHistory(import.meta.env.BASE_URL),
+    routes: [
+        {
+            path: '/',
+            name: 'info',
+            component: Info
+        },
+        {
+            path: '/chat',
+            name: 'chat',
+            component: Chat
+        },
+        {
+            path: '/help',
+            name: 'help',
+            component: Help
+        }
+    ]
 })
 
 export default router
