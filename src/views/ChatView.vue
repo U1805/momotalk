@@ -5,6 +5,7 @@ import ImageIcon from '@/components/icons/IconImage.vue'
 import CloseIcon from '@/components/icons/IconClose2.vue'
 import HeartIcon from '@/components/icons/IconHeart.vue'
 import AddIcon from '@/components/icons/IconAdd.vue'
+import BellIcon from '@/components/icons/IconBell.vue'
 
 import ChatDraggable from '@/components/ChatDraggable.vue'
 import Popper from 'vue3-popper'
@@ -22,12 +23,15 @@ import Popper from 'vue3-popper'
             <div class="input-bar">
                 <!-- 贴图 -->
                 <Popper placement="top">
-                    <div class="sticker">
+                    <div class="sticker" ref="sticker">
                         <div v-if="selected == 0">
                             <ProfileIcon class="icon profile" />
                         </div>
-                        <div v-else-if="selected == 1" style="background-color: #fed5de">
+                        <div v-else-if="selected == 1">
                             <HeartIcon class="heart icon" />
+                        </div>
+                        <div v-else-if="selected == 2">
+                            <BellIcon class="heart bell" />
                         </div>
                         <div
                             v-else-if="typeof selected != 'number'"
@@ -62,10 +66,19 @@ import Popper from 'vue3-popper'
                     <div class="g-content selected-student">
                         <!-- 身份选择 -->
                         <div class="item-sensei" @click="selectStudent(0)">
-                            <div><ProfileIcon class="icon profile" /></div>
+                            <div>
+                                <ProfileIcon class="icon profile" />
+                            </div>
                         </div>
-                        <div class="item-heart" @click="selectStudent(1)">
-                            <div><HeartIcon class="heart icon" /></div>
+                        <div class="item-sensei" @click="selectStudent(1)">
+                            <div>
+                                <HeartIcon class="heart icon" />
+                            </div>
+                        </div>
+                        <div class="item-sensei" @click="selectStudent(2)">
+                            <div>
+                                <BellIcon class="heart bell" />
+                            </div>
                         </div>
                         <div
                             class="item"
@@ -130,12 +143,14 @@ export default defineComponent({
             var type: number = 0
 
             if (this.selected == 0) {
-                // sensei
                 type = 0
-                name = 'sensei'
+                name = 'sensei' // 老师
             } else if (this.selected == 1) {
                 type = 2
-                name = 'story'
+                name = 'story' // 羁绊剧情
+            } else if (this.selected == 2) {
+                type = 3
+                name = 'message' // 系统信息
             } else if (typeof this.selected != 'number') {
                 type = 1
                 name = this.selected.Name
@@ -170,7 +185,7 @@ export default defineComponent({
             }, 10)
         },
         sendImage() {
-            if (this.selected == 1) return // story card 不能插入图片
+            if (this.selected == 1 || this.selected == 2) return // story card 不能插入图片
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
@@ -180,13 +195,14 @@ export default defineComponent({
             readFile(reader)
         },
         sendSticker(url: string) {
-            if (this.selected == 1) return // story card 不能插入图片
+            if (this.selected == 1 || this.selected == 2) return
             this.text = url
-            this.sendText()
+            this.sendText() as void
+            ;(this.$refs.sticker as HTMLElement).click() // 发送后收回 popover
         },
         addStudent() {
             // 添加自定义学生到列表
-            if (this.selected == 1) return
+            if (this.selected == 1 || this.selected == 2) return
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
