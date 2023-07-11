@@ -78,10 +78,13 @@
     background-color: $chaticon-color;
 }
 .item {
-    > img {
+    > div {
+        @include center;
+    }
+    img {
         @include circle(40px);
     }
-    > svg {
+    svg {
         @include chat-svg;
     }
 }

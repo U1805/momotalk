@@ -38,7 +38,9 @@ import Popper from 'vue3-popper'
                             style="padding: 0px; margin: 0px"
                             class="item"
                         >
-                            <img :src="selected.Avatar" />
+                            <div v-for="(avatar, idx) in selected.Avatar">
+                                <img :src="avatar" v-if="idx == selected.cnt" />
+                            </div>
                         </div>
                     </div>
                     <template #content>
@@ -86,7 +88,9 @@ import Popper from 'vue3-popper'
                             :key="index"
                             @click="selectStudent(student)"
                         >
-                            <img :src="student.Avatar" />
+                            <div v-for="(avatar, idx) in student.Avatar">
+                                <img :src="avatar" v-if="idx == student.cnt" />
+                            </div>
                             <CloseIcon class="delete-button" @click="store.deleteStudent(index)" />
                         </div>
                         <div class="item-sensei" @click="addStudent">
@@ -154,7 +158,7 @@ export default defineComponent({
             } else if (typeof this.selected != 'number') {
                 type = 1
                 name = this.selected.Name
-                avatar = this.selected.Avatar
+                avatar = this.selected.Avatar[this.selected.cnt]
             }
 
             var newTalk: Talk = {
@@ -213,10 +217,11 @@ export default defineComponent({
                 }
                 var student: myStudent = {
                     Id: 0,
-                    Avatar: reader.result as string,
+                    Avatar: [reader.result as string],
                     Birthday: '',
                     Bio: '',
-                    Name: name
+                    Name: name,
+                    cnt: 0
                 }
                 that.store.pushStudent(student)
             })

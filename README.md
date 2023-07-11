@@ -46,9 +46,10 @@ This project is inspired by:
 - [blacktunes/juus-maker](https://github.com/blacktunes/juus-maker)
 - [ClosureTalk/closure-talk](https://github.com/ClosureTalk/closure-talk)
 
-Character metadate from:
+Character metadata from:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
+- [Bluearchive.Fandom](https://bluearchive.fandom.com)
 - [Ba.Gamekee](https://ba.gamekee.com/)
 
 ## Copyrights
