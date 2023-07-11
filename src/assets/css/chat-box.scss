@@ -28,14 +28,13 @@
         grid-area: 2 / 3 / 3 / 3;
 
         > div > div:first-child > div::after {
-            left: -10px;
+            left: -5px;
             border-right: 10px solid $grey;
         }
     }
 
     .box {
         background: $grey;
-        border: 2px solid $grey;
     }
 }
 
@@ -45,29 +44,19 @@
     flex-direction: column;
     align-items: flex-end;
 
-    // display: none 时 domtoimage 会报错
-    // .avatar {
-    //   display: none;
-    // }
-
-    // .name {
-    //   display: none;
-    // }
-
     .container > div {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
 
         > div:first-child > div::after {
-            right: -10px;
+            right: -5px;
             border-left: 10px solid #4a8ac6;
         }
     }
 
     .box {
         background: #4a8ac6;
-        border: 2px solid #4a8ac6;
     }
 }
 
@@ -76,14 +65,6 @@
     display: flex;
     flex-direction: column;
 
-    // .avatar {
-    //   display: none;
-    // }
-
-    // .name {
-    //   display: none;
-    // }
-
     .container > div > div {
         display: grid;
 
@@ -91,10 +72,10 @@
             template-columns: 40px 1fr;
             template-rows: 1fr;
         }
-    }
 
-    &:hover span {
-        opacity: 1;
+        &:hover span {
+            opacity: 1;
+        }
     }
 
     .box-story {
@@ -105,7 +86,7 @@
         flex-direction: column;
         background-color: #ffedf1;
         border-radius: 10px;
-        border: 1px solid $font-grey;
+        border: 1px solid $chatborder-color;
         height: 130px;
     }
 
@@ -147,6 +128,29 @@
     }
 }
 
+.message {
+    @include center;
+    width: 100%;
+
+    div {
+        width: 100%;
+        height: fit-content;
+    }
+    .box-message {
+        margin: 5px 10px 5px 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: $list-active-color;
+        border-radius: 10px;
+
+        .content {
+            @include center;
+            font-size: 20px;
+            color: $font-black;
+        }
+    }
+}
+
 .horizontal {
     display: flex;
     flex-direction: row;
@@ -160,19 +164,26 @@
 .chat-img {
     height: 200px;
     width: auto;
-    border-radius: 10px;
+    // border-radius: 10px;
 }
 
 .box {
     position: relative;
-    padding: 10px;
-    width: fit-content;
-    height: fit-content;
+    padding: 5px;
     color: #ecf2fb;
     font-family: sans-serif;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 5px;
+    @include center;
+    &.img {
+        background-color: white;
+        border: 2px solid $chatborder-color;
+        &::after {
+            border-right: 10px solid transparent !important;
+            border-left: 10px solid transparent !important;
+        }
+    }
 }
 
 .container > div > div:first-child > div::after {

@@ -29,6 +29,13 @@
         height: 75%;
         cursor: pointer;
     }
+    &.bell {
+        height: 30px;
+        @include setColor(#fff);
+        width: 70%;
+        height: 70%;
+        cursor: pointer;
+    }
     &.image,
     &.send {
         @include setColor(rgb(189, 189, 189));
@@ -45,4 +52,8 @@
     &:active {
         transform: scale(0.9);
     }
+}
+
+img:active {
+    transform: scale(0.95);
 }

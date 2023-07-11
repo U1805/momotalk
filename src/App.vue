@@ -5,7 +5,7 @@ import CloseIcon from './components/icons/IconClose.vue'
 import StudentIcon from './components/icons/IconStudent.vue'
 import MessageIcon from './components/icons/IconMessage.vue'
 import DownloadIcon from './components/icons/IconDownload.vue'
-// import ListIcon from './components/icons/IconList.vue'
+import ListIcon from './components/icons/IconList.vue'
 import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 </script>
@@ -57,9 +57,9 @@ import SearchIcon from './components/icons/IconSearch.vue'
                         ref="searchBox"
                     />
                 </div>
-                <!-- <div class="search-button" >
+                <div class="search-button" @click="exchangeList">
                     <ListIcon class="icon list" />
-                </div> -->
+                </div>
             </div>
             <div id="listbody">
                 <div
@@ -87,6 +87,7 @@ import SearchIcon from './components/icons/IconSearch.vue'
 import { defineComponent } from 'vue'
 import { domtoimage } from '@/assets/utils/dom-to-image'
 import data from '@/assets/student.json'
+import data_ from '@/assets/student2.json'
 import { store } from '@/assets/utils/store'
 
 export default defineComponent({
@@ -143,6 +144,9 @@ export default defineComponent({
                     // 遍历别名
                     for (let nickname of item.Nickname) if (reg.test(nickname.toLowerCase())) return item
             })
+        },
+        exchangeList() {
+            this.database = this.database[0].Id == 10000 ? data_ : data
         }
     },
     watch: {

@@ -18,7 +18,27 @@ const stickers = [
     './Stickers/17.webp',
     './Stickers/18.webp',
     './Stickers/19.webp',
-    './Stickers/20.webp'
+    './Stickers/20.webp',
+    './Stickers/21.webp',
+    './Stickers/22.webp',
+    './Stickers/23.webp',
+    './Stickers/24.webp',
+    './Stickers/25.webp',
+    './Stickers/26.webp',
+    './Stickers/27.webp',
+    './Stickers/28.webp',
+    './Stickers/29.webp',
+    './Stickers/30.webp',
+    './Stickers/31.webp',
+    './Stickers/32.webp',
+    './Stickers/33.webp',
+    './Stickers/34.webp',
+    './Stickers/35.webp',
+    './Stickers/36.webp',
+    './Stickers/37.webp',
+    './Stickers/38.webp',
+    './Stickers/39.webp',
+    './Stickers/40.webp'
 ]
 
 export { stickers }

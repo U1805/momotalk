@@ -1166,37 +1166,5 @@
         "Avatar": "https://schale.gg/images/student/collection/Student_Portrait_CH0218_Collection.webp",
         "Bio": "",
         "Nickname": ["Miyu_Swimsuit"]
-    },
-    {
-        "Id": 900,
-        "Name": "阿罗娜",
-        "Birthday": "???",
-        "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/3/915515.png",
-        "Bio": "吃不下这么多了……",
-        "Nickname": ["Arona", "彩奈"]
-    },
-    {
-        "Id": 901,
-        "Name": "普拉娜",
-        "Birthday": "???",
-        "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/1/27/874146.png",
-        "Bio": "前辈，该起床了。",
-        "Nickname": ["Purana", "A.R.O.N.A"]
-    },
-    {
-        "Id": 902,
-        "Name": "空",
-        "Birthday": "???",
-        "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/527182.png",
-        "Bio": "欢、欢迎光临！",
-        "Nickname": ["Sora", "额头", "天使24", "便利店"]
-    },
-    {
-        "Id": 907,
-        "Name": "黑服",
-        "Birthday": "???",
-        "Avatar": "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/313925.png",
-        "Bio": "",
-        "Nickname": ["Kurofuku"]
     }
 ]
