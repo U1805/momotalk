@@ -29,7 +29,6 @@ export const store = reactive({
                 talks.talks.splice(index, 1)
             }
         }
-        console.log(this.talkHistory)
         this.setData()
     },
     pushTalk(talk: Talk) {
@@ -44,13 +43,15 @@ export const store = reactive({
         if (len == 0)
             // 聊天记录为空
             this.talkHistory.push(talk)
-        else if (talk.name == this.talkHistory[len - 1].name)
+        else if (
+            talk.name == this.talkHistory[len - 1].name &&
+            talk.avatar == this.talkHistory[len - 1].avatar
+        )
             // 和上一条同一说话人
             this.talkHistory[len - 1].talks.push(talk.talks[0])
         // 不同说话人
         else this.talkHistory.push(talk)
 
-        console.log(this.talkHistory)
         this.setData()
     },
 
@@ -60,9 +61,12 @@ export const store = reactive({
         this.setData()
     },
     pushStudent(student: myStudent) {
-        if (this.selectList.indexOf(student) == -1) {
-            this.selectList.push(student)
+        for (var item of this.selectList) {
+            if (item.Id == student.Id) return
         }
+
+        this.selectList.push(student)
+
         this.setData()
     },
 

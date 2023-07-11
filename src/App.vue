@@ -69,8 +69,10 @@ import SearchIcon from './components/icons/IconSearch.vue'
                     :class="{ active: index == currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div class="avatar">
-                        <img :src="item.Avatar" />
+                    <div>
+                        <div class="avatar" v-for="(avatar, idx) in item.Avatar" @click="update(item)">
+                            <img :src="avatar" v-if="idx == item.cnt" />
+                        </div>
                     </div>
                     <span class="name">{{ item.Name }}</span>
                     <span class="bio">{{ item.Bio }}</span>
@@ -89,6 +91,7 @@ import { domtoimage } from '@/assets/utils/dom-to-image'
 import data from '@/assets/student.json'
 import data_ from '@/assets/student2.json'
 import { store } from '@/assets/utils/store'
+import { myStudent } from './assets/utils/interface'
 
 export default defineComponent({
     props: {},
@@ -97,7 +100,6 @@ export default defineComponent({
             store,
             student: {},
             currentStudent: -1,
-            currentSidebar: 0,
             database: data,
             searchText: ''
         }
@@ -105,12 +107,8 @@ export default defineComponent({
     methods: {
         selectStudent(item: any, index: number) {
             this.student = item
+            // this.store.pushStudent(item)
             this.currentStudent = index
-            // console.log(this.student)
-        },
-        selectSidebar(key: number) {
-            this.currentSidebar = key
-            // console.log(this.currentSidebar)
         },
         download() {
             var node = document.getElementsByClassName('talk-list')[0]
@@ -146,7 +144,14 @@ export default defineComponent({
             })
         },
         exchangeList() {
-            this.database = this.database[0].Id == 10000 ? data_ : data
+            ;(this.database as any) = this.database[0].Id == 10000 ? data_ : data
+        },
+        update(item: myStudent) {
+            item.cnt = (item.cnt + 1) % item.Avatar.length
+            for (var selectItem of this.store.selectList) {
+                if (selectItem.Id == item.Id) selectItem.cnt = item.cnt
+            }
+            this.store.setData()
         }
     },
     watch: {
