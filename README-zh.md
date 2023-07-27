@@ -27,9 +27,30 @@
 
 ## 预览
 
-![img11](./assets/img11.png)
-![img12](./assets/img12.png)
-![img13](./assets/img13.png)
+![img11](./assets/演示1.webp)
+![img12](./assets/演示2.webp)
+<details style="border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;">
+    <summary style="font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;">支持的样式一览</summary>
+    <ul>
+    <li>学生</li>
+    <li>学生差分</li>
+    <li>自定义角色</li>
+    <li>老师</li>
+    <li>羁绊剧情</li>
+    <li>系统通知</li>
+    <li>贴图(表情包)</li>
+    <li>图片</li>
+    </ul>
+    <img src="./assets/支持样式预览.webp">
+</details>
+
+## 使用
+
+![guide](./assets/功能说明.png)
 
 ## Star
 
