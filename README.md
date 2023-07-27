@@ -29,9 +29,30 @@
 
 ## Preview
 
-![img11](./assets/img11.png)
-![img12](./assets/img12.png)
-![img13](./assets/img13.png)
+![img11](./assets/演示1.webp)
+![img12](./assets/演示2.webp)
+<details style="border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;">
+    <summary style="font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;">What you can send</summary>
+    <ul>
+    <li>Student</li>
+    <li>Student (More Appearance)</li>
+    <li>Custom Character</li>
+    <li>Sensei</li>
+    <li>Story Box</li>
+    <li>Message Box</li>
+    <li>Sticker</li>
+    <li>Photo</li>
+    </ul>
+    <img src="./assets/支持样式预览.webp">
+</details>
+
+## How to use
+
+![guide](./assets/功能说明-en.png)
 
 ## Star History
 
