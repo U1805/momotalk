@@ -84,10 +84,11 @@
         margin: 5px;
         display: flex;
         flex-direction: column;
-        background-color: #ffedf1;
         border-radius: 10px;
         border: 1px solid $chatborder-color;
-        height: 130px;
+        height: 110px;
+        background: url('/story.png') no-repeat right top, #ffedf1;
+        background-size: 140px;
     }
 
     .title {
@@ -95,8 +96,7 @@
         display: flex;
         align-items: center;
         border-bottom: 1px solid $font-grey;
-        font-family: sans-serif;
-        font-size: 20px;
+        @include font-regular(20px);
 
         span {
             height: 20px;
@@ -108,7 +108,7 @@
     }
 
     .content {
-        height: 80px;
+        height: 60px;
         @include center;
         flex-direction: column;
     }
@@ -117,14 +117,13 @@
         background-color: $pink;
         border: none;
         color: white;
-        padding: 15px;
+        padding: 0px;
         width: 90%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         border-radius: 10px;
-        font-family: sans-serif;
-        font-size: 20px;
+        @include font-regular(20px);
     }
 }
 
@@ -145,7 +144,7 @@
 
         .content {
             @include center;
-            font-size: 20px;
+            @include font-regular(20px);
             color: $font-black;
         }
     }
@@ -171,8 +170,7 @@
     position: relative;
     padding: 5px 10px;
     color: #ecf2fb;
-    font-family: sans-serif;
-    font-size: 20px;
+    @include font-regular(20px);
     border-radius: 8px;
     margin-bottom: 5px;
     @include center;

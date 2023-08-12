@@ -37,7 +37,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                                 >
 
                                 <div class="box-story" v-if="element.type === 2">
-                                    <div class="title"><span></span>羁绊剧情</div>
+                                    <div class="title" contenteditable><span></span>羁绊剧情</div>
                                     <div class="content">
                                         <button>
                                             <span contenteditable>{{ talk.content }}</span>

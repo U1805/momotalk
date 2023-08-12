@@ -213,10 +213,11 @@ export default defineComponent({
                 }
                 var student: myStudent = {
                     Id: 0,
+                    Name: name,
                     Avatar: [reader.result as string],
                     Birthday: '',
                     Bio: '',
-                    Name: name,
+                    Nickname: [''],
                     cnt: 0
                 }
                 that.store.pushStudent(student)

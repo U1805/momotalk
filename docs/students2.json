@@ -1,0 +1,524 @@
+[
+    {
+        "Id": 100,
+        "Name": "阿罗娜",
+        "Birthday": "???",
+        "Avatar": [
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/909433.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/e/e0/Arona_Icon.png"
+        ],
+        "Bio": "吃不下这么多了……",
+        "Nickname": ["Arona", "彩奈"],
+        "cnt": 0
+    },
+    {
+        "Id": 101,
+        "Name": "普拉娜",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/2/24/A.R.O.N.A_Icon.png"],
+        "Bio": "前辈，该起床了。",
+        "Nickname": ["Purana", "A.R.O.N.A"],
+        "cnt": 0
+    },
+    {
+        "Id": 102,
+        "Name": "空",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/b/b4/Sora_Icon.png"],
+        "Bio": "欢、欢迎光临！",
+        "Nickname": ["Sora", "额头", "天使24", "便利店"],
+        "cnt": 0
+    },
+    {
+        "Id": 110,
+        "Name": "会长",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/f/f9/GSC_President_Icon.png"],
+        "Bio": "找到引导我们走向新现实的选择",
+        "Nickname": ["GSC President"],
+        "cnt": 0
+    },
+    {
+        "Id": 111,
+        "Name": "凛",
+        "Birthday": "11月1日",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/4/43/Rin_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/0/09/Rin_Ark_Uniform_Icon.png"
+        ],
+        "Bio": "从现在开始，全靠你了，老师",
+        "Nickname": ["Rin"],
+        "cnt": 0
+    },
+    {
+        "Id": 112,
+        "Name": "桃香",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/3/3c/Momoka_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/5/5f/Momoka_Ark_Uniform_Icon.png"
+        ],
+        "Bio": "我的午餐外卖到了，我再联系你！",
+        "Nickname": ["Momoka "],
+        "cnt": 0
+    },
+    {
+        "Id": 113,
+        "Name": "卡娅",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/b/bd/Kaya_Icon.png"],
+        "Bio": "谁在乎规则，对吧！?",
+        "Nickname": ["Kaya"],
+        "cnt": 0
+    },
+    {
+        "Id": 114,
+        "Name": "步美",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/b/b2/Ayumu_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/3/32/Ayumu_Ark_Uniform_Icon.png"
+        ],
+        "Bio": "我希望能够像老师一样工作……",
+        "Nickname": [" Ayumu"],
+        "cnt": 0
+    },
+    {
+        "Id": 115,
+        "Name": "葵",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/5/56/Aoi_Icon.png"],
+        "Bio": "但你不是她，凛。你永远不会。",
+        "Nickname": ["Aoi"],
+        "cnt": 0
+    },
+    {
+        "Id": 116,
+        "Name": "灰音",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/b/b7/Haine_Icon.png"],
+        "Bio": "那只狐狸真是冷酷无情！",
+        "Nickname": ["Haine"],
+        "cnt": 0
+    },
+    {
+        "Id": 117,
+        "Name": "李",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/4/4a/Sumomo_Icon.png"],
+        "Bio": "哈啊~... 我困得吃不下饭团了~",
+        "Nickname": ["Sumomo"],
+        "cnt": 0
+    },
+    {
+        "Id": 120,
+        "Name": "梦",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/9/97/Hoshino_Past_2.png"],
+        "Bio": "...与你共度时光感觉像是一个奇迹。",
+        "Nickname": ["Yume"],
+        "cnt": 0
+    },
+    {
+        "Id": 121,
+        "Name": "柴大将",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/b/b2/Master_Shiba_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Shiba", "柴田"],
+        "cnt": 0
+    },
+    {
+        "Id": 122,
+        "Name": "喵天丸",
+        "Birthday": "???",
+        "Avatar": ["https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/544764.png"],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    },
+    {
+        "Id": 130,
+        "Name": "真琴",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/a/ac/Makoto_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Makoto"],
+        "cnt": 0
+    },
+    {
+        "Id": 131,
+        "Name": "皐月",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/4/4e/Satsuki_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Satsuki"],
+        "cnt": 0
+    },
+    {
+        "Id": 132,
+        "Name": "伊吹",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/3/36/Ibuki_Icon.png"],
+        "Bio": "伊吹会尽全力的！",
+        "Nickname": ["Ibuki"],
+        "cnt": 0
+    },
+    {
+        "Id": 133,
+        "Name": "霞",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/1e/Kasumi_Icon.png"],
+        "Bio": "有温泉就是好日子！",
+        "Nickname": ["Kasumi"],
+        "cnt": 0
+    },
+    {
+        "Id": 134,
+        "Name": "绘梨香",
+        "Birthday": "2月1日",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/d/d3/Erika_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Erika"],
+        "cnt": 0
+    },
+    {
+        "Id": 135,
+        "Name": "绮良",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/b/b6/Kirara_Icon.png"],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    },
+    {
+        "Id": 140,
+        "Name": "理绪",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/c/ca/Rio_Icon.png"],
+        "Bio": "我不是在说喜欢或不喜欢...只有事实。",
+        "Nickname": ["Rio"],
+        "cnt": 0
+    },
+    {
+        "Id": 150,
+        "Name": "圣娅",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/10/Seia_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Seia"],
+        "cnt": 0
+    },
+    {
+        "Id": 151,
+        "Name": "一花",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/2/2f/Ichika_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Ichika"],
+        "cnt": 0
+    },
+    {
+        "Id": 160,
+        "Name": "妮娅",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/c/c5/Niya_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Niya "],
+        "cnt": 0
+    },
+    {
+        "Id": 161,
+        "Name": "名草",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/c/ce/Nagusa_Icon.png"],
+        "Bio": "一个真正的cosplayer会为了完美的镜头去天涯海角",
+        "Nickname": ["Nagusa "],
+        "cnt": 0
+    },
+    {
+        "Id": 162,
+        "Name": "海香",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/2/2d/Umika_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Umika"],
+        "cnt": 0
+    },
+    {
+        "Id": 163,
+        "Name": "葛叶",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/5/57/Kuzunoha_Icon.png"],
+        "Bio": "但你的运气远非一般。因为你已经遇见了我",
+        "Nickname": ["Kuzunoha"],
+        "cnt": 0
+    },
+    {
+        "Id": 170,
+        "Name": "妃咲",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/d/da/Kisaki_Icon.png"],
+        "Bio": "如果说我不高兴见到你，那是骗人的……",
+        "Nickname": ["Kisaki"],
+        "cnt": 0
+    },
+    {
+        "Id": 171,
+        "Name": "丽情",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/a/ad/Reijo_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Reijo"],
+        "cnt": 0
+    },
+    {
+        "Id": 172,
+        "Name": "廻",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/7/79/Kai_Icon.png"],
+        "Bio": "期待当我们相遇时会发生什么样的化学反应",
+        "Nickname": ["Kai"],
+        "cnt": 0
+    },
+    {
+        "Id": 180,
+        "Name": "红叶",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/a/a9/Momiji_Icon.png"],
+        "Bio": "捍卫开放知识的权利和图书馆的神圣性……",
+        "Nickname": ["Momiji"],
+        "cnt": 0
+    },
+    {
+        "Id": 181,
+        "Name": "梅露",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/2/2b/Meru_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/2/2c/Meru_Hot_Spring_Icon.png"
+        ],
+        "Bio": "我是“知识解放阵线”的梅露★",
+        "Nickname": ["Meru"],
+        "cnt": 0
+    },
+    {
+        "Id": 190,
+        "Name": "雪乃",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/1c/Yukino_Icon.png"],
+        "Bio": "武器不能决定对错——这正是它们的价值",
+        "Nickname": ["Yukino"],
+        "cnt": 0
+    },
+    {
+        "Id": 191,
+        "Name": "妮可",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/c/cd/Niko_Icon.png"],
+        "Bio": "这里有好吃的稻荷寿司哦，这里~",
+        "Nickname": ["Niko"],
+        "cnt": 0
+    },
+    {
+        "Id": 192,
+        "Name": "音葵",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/6/66/Otogi_Icon.png"],
+        "Bio": "这就像可爱的狙击手因为敌人太多而犯的错",
+        "Nickname": ["Otogi"],
+        "cnt": 0
+    },
+    {
+        "Id": 193,
+        "Name": "胡桃",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/5/51/Kurumi_Icon.png"],
+        "Bio": "I don't want your egg inarizushi! Salmon roe is better!",
+        "Nickname": ["Kurumi"],
+        "cnt": 0
+    },
+    {
+        "Id": 200,
+        "Name": "麦",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/17/Mai_Icon.png"],
+        "Bio": "假新闻？再想想。Kivotos月刊只坚持事实！",
+        "Nickname": ["Mai"],
+        "cnt": 0
+    },
+    {
+        "Id": 201,
+        "Name": "志乃",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/6/66/Shinon_Icon.png"],
+        "Bio": "克罗诺斯学校的新闻俱乐部的偶像记者，志乃！",
+        "Nickname": ["Shinon"],
+        "cnt": 0
+    },
+    {
+        "Id": 210,
+        "Name": "兰舞",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/1a/Rabu_Icon.png"],
+        "Bio": "毕竟我是兰舞，钢盔团的领队！",
+        "Nickname": ["Rabu"],
+        "cnt": 0
+    },
+    {
+        "Id": 211,
+        "Name": "白子（色彩）",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/2/2d/Shiroko_Terror_Icon.png"],
+        "Bio": "正如预定的命运，基沃托斯将走向灭亡。",
+        "Nickname": ["Shiroko_Terror"],
+        "cnt": 0
+    },
+    {
+        "Id": 212,
+        "Name": "晶",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/8/8e/Akira_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Akira"],
+        "cnt": 0
+    },
+    {
+        "Id": 220,
+        "Name": "贝阿朵莉切",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/7/7a/Beatrice_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/8/8c/Beatrice_Ascended_Icon.png"
+        ],
+        "Bio": "贝阿朵莉切，所有朝圣者的幻影",
+        "Nickname": ["Beatrice"],
+        "cnt": 0
+    },
+    {
+        "Id": 221,
+        "Name": "黑服",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/3/39/Black_Suit_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/2/2b/Black_Suit_Icon_2.png"
+        ],
+        "Bio": "这也是一个有趣的问题.",
+        "Nickname": ["Kurofuku", "Black Suit"],
+        "cnt": 0
+    },
+    {
+        "Id": 222,
+        "Name": "Golconde & Decalcomanie",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/a/a1/Golconde_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/f/f0/Decalcomanie_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/9/94/Francis_Icon.png"
+        ],
+        "Bio": "我很期待看到你会从中读出什么",
+        "Nickname": ["Golconde & Decalcomanie"],
+        "cnt": 0
+    },
+    {
+        "Id": 223,
+        "Name": "巨匠",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/2/2a/Maestro_Icon.png",
+            "https://static.wikia.nocookie.net/blue-archive/images/8/80/Maestro_Icon_2.png"
+        ],
+        "Bio": "现在，老师。请准备鼓掌。",
+        "Nickname": ["Maestro"],
+        "cnt": 0
+    },
+    {
+        "Id": 224,
+        "Name": "普雷纳帕特斯",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/0/08/Phrenapates_Icon.png"],
+        "Bio": "请...照顾好学生。",
+        "Nickname": ["Phrenapates"],
+        "cnt": 0
+    },
+    {
+        "Id": 225,
+        "Name": "无名的祭司",
+        "Birthday": "???",
+        "Avatar": ["https://cdnimg.gamekee.com/wiki2.0/images/w_184/h_184/829/43637/2023/2/17/264731.png"],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    },
+    {
+        "Id": 226,
+        "Name": "凯撒PMC理事",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/5/5f/Kaiser_PMC_Director_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Kaiser PMC Director"],
+        "cnt": 0
+    },
+    {
+        "Id": 227,
+        "Name": "凯撒PMC总管",
+        "Birthday": "???",
+        "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/1/18/Kaiser_PMC_General_Icon.png"],
+        "Bio": "",
+        "Nickname": ["Kaiser PMC Director"],
+        "cnt": 0
+    },
+    {
+        "Id": 228,
+        "Name": "凯撒PMC总裁",
+        "Birthday": "???",
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/d/de/Kaiser_PMC_President_Icon.png"
+        ],
+        "Bio": "",
+        "Nickname": ["Kaiser PMC President"],
+        "cnt": 0
+    },
+    {
+        "Id": 230,
+        "Name": "寿司人",
+        "Birthday": "???",
+        "Avatar": [
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/23158.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/36893.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/228429.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/31089.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/597851.png"
+        ],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    },
+    {
+        "Id": 231,
+        "Name": "女混混",
+        "Birthday": "???",
+        "Avatar": [
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/703523.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/785318.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/940419.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/518070.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/285541.png"
+        ],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    },
+    {
+        "Id": 232,
+        "Name": "钢盔团干部",
+        "Birthday": "???",
+        "Avatar": [
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/354264.png",
+            "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/101340.png"
+        ],
+        "Bio": "",
+        "Nickname": [""],
+        "cnt": 0
+    }
+]

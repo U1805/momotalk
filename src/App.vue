@@ -8,6 +8,7 @@ import DownloadIcon from './components/icons/IconDownload.vue'
 import ListIcon from './components/icons/IconList.vue'
 import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
+import AddIcon from './components/icons/IconAdd.vue'
 </script>
 
 <template>
@@ -69,7 +70,16 @@ import SearchIcon from './components/icons/IconSearch.vue'
                     :class="{ active: index === currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div class="avatar" @click="update(item)"><img :src="item.Avatar[item.cnt]" /></div>
+                    <div class="avatar" @click="update(item)">
+                        <img :src="item.Avatar[item.cnt]" />
+                        <AddIcon
+                            class="icon multi"
+                            v-if="
+                                (dataDisplayIndex === 0 && item.Avatar.length > 2) ||
+                                (dataDisplayIndex === 1 && item.Avatar.length > 1)
+                            "
+                        />
+                    </div>
                     <span class="name">{{ item.Name }}</span>
                     <span class="bio">{{ item.Bio }}</span>
                     <div class="mark"></div>

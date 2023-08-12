@@ -48,6 +48,16 @@
         @include setColor(#9e9ea7);
         margin: 10px;
     }
+    &.multi {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        left: 55px;
+        bottom: 80px;
+        border-radius: 50%;
+        @include setColor(white);
+        background: $grey;
+    }
 
     &:active {
         transform: scale(0.9);
