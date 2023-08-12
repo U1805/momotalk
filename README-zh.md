@@ -29,12 +29,7 @@
 
 ![img11](./assets/演示1.webp)
 ![img12](./assets/演示2.webp)
-<details style="border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 0.5em 0.5em 0;">
-    <summary style="font-weight: bold;
-    margin: -0.5em -0.5em 0;
-    padding: 0.5em;">支持的样式一览</summary>
+<details>支持的样式一览</summary>
     <ul>
     <li>学生</li>
     <li>学生差分</li>
@@ -53,8 +48,6 @@
 ![guide](./assets/功能说明.png)
 
 ## Star
-
-喜欢的话请点点Star，谢谢喵=\^ω\^=
 
 [![Star History Chart](https://api.star-history.com/svg?repos=U1805/momotalk)](https://star-history.com/#U1805/momotalk)
 

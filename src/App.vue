@@ -64,7 +64,7 @@ import SearchIcon from './components/icons/IconSearch.vue'
             <div id="listbody">
                 <div
                     class="list-item"
-                    v-for="(item, index) in database"
+                    v-for="(item, index) in dataDisplay"
                     :key="index"
                     :class="{ active: index == currentStudent }"
                     @click="selectStudent(item, index)"
@@ -100,8 +100,10 @@ export default defineComponent({
             store,
             student: {},
             currentStudent: -1,
-            database: data,
-            searchText: ''
+            database: [data, data_],
+            searchText: '',
+            dataDisplay: data,
+            dataFlag: 0
         }
     },
     methods: {
@@ -136,7 +138,7 @@ export default defineComponent({
             // https://www.cnblogs.com/caozhenfei/p/14882122.html
             let text = this.searchText.toLowerCase()
             let reg = new RegExp(text)
-            this.database = data.filter((item) => {
+            this.dataDisplay = this.database[this.dataFlag].filter((item) => {
                 if (reg.test(item.Name)) return item
                 else if (item.Nickname)
                     // 遍历别名
@@ -144,7 +146,8 @@ export default defineComponent({
             })
         },
         exchangeList() {
-            ;(this.database as any) = this.database[0].Id == 10000 ? data_ : data
+            this.dataFlag = (this.dataFlag + 1) % this.database.length
+            this.dataDisplay = this.database[this.dataFlag]
         },
         update(item: myStudent) {
             item.cnt = (item.cnt + 1) % item.Avatar.length

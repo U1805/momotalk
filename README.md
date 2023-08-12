@@ -31,12 +31,7 @@
 
 ![img11](./assets/演示1.webp)
 ![img12](./assets/演示2.webp)
-<details style="border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 0.5em 0.5em 0;">
-    <summary style="font-weight: bold;
-    margin: -0.5em -0.5em 0;
-    padding: 0.5em;">What you can send</summary>
+<details>What you can send</summary>
     <ul>
     <li>Student</li>
     <li>Student (More Appearance)</li>
