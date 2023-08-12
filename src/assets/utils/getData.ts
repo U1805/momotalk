@@ -12,7 +12,7 @@ const getData = async (file: string) => {
 }
 
 const getSchale = async () => {
-    const local = await getData('/students.json')
+    const local = await getData('/momotalk/students.json')
     const schale = await getData(
         'https://fastly.jsdelivr.net/gh/lonqie/SchaleDB@main/data/cn/students.min.json'
     )
@@ -40,7 +40,7 @@ const getSchale = async () => {
 
 const getStudents = async () => {
     const data1: myStudent[] = await getSchale()
-    const data2: myStudent[] = await getData('/students2.json')
+    const data2: myStudent[] = await getData('/momotalk/students2.json')
     return [data1, data2]
 }
 
