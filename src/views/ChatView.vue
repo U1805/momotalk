@@ -24,13 +24,13 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
                 <Popper placement="top">
                     <div class="sticker" ref="sticker">
-                        <div v-if="selected == 0">
+                        <div v-if="selected === 0">
                             <ProfileIcon class="icon profile" />
                         </div>
-                        <div v-else-if="selected == 1">
+                        <div v-else-if="selected === 1">
                             <HeartIcon class="heart icon" />
                         </div>
-                        <div v-else-if="selected == 2">
+                        <div v-else-if="selected === 2">
                             <BellIcon class="heart bell" />
                         </div>
                         <div
@@ -38,9 +38,7 @@ import Popper from 'vue3-popper'
                             style="padding: 0px; margin: 0px"
                             class="item"
                         >
-                            <div v-for="(avatar, idx) in selected.Avatar">
-                                <img :src="avatar" v-if="idx == selected.cnt" />
-                            </div>
+                            <img :src="selected.Avatar[selected.cnt]" />
                         </div>
                     </div>
                     <template #content>
@@ -88,9 +86,7 @@ import Popper from 'vue3-popper'
                             :key="index"
                             @click="selectStudent(student)"
                         >
-                            <div v-for="(avatar, idx) in student.Avatar">
-                                <img :src="avatar" v-if="idx == student.cnt" />
-                            </div>
+                            <img :src="student.Avatar[student.cnt]" />
                             <CloseIcon class="delete-button" @click="store.deleteStudent(index)" />
                         </div>
                         <div class="item-sensei" @click="addStudent">
@@ -140,19 +136,19 @@ export default defineComponent({
             this.selected = student
         },
         sendText() {
-            if (this.text.length == 0) return
+            if (this.text.length === 0) return
             // 新建对话
             var name: string = ''
             var avatar: string = ''
             var type: number = 0
 
-            if (this.selected == 0) {
+            if (this.selected === 0) {
                 type = 0
                 name = 'sensei' // 老师
-            } else if (this.selected == 1) {
+            } else if (this.selected === 1) {
                 type = 2
                 name = 'story' // 羁绊剧情
-            } else if (this.selected == 2) {
+            } else if (this.selected === 2) {
                 type = 3
                 name = 'message' // 系统信息
             } else if (typeof this.selected != 'number') {
@@ -189,7 +185,7 @@ export default defineComponent({
             }, 10)
         },
         sendImage() {
-            if (this.selected == 1 || this.selected == 2) return // story card 不能插入图片
+            if (this.selected === 1 || this.selected === 2) return // story card 不能插入图片
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
@@ -199,21 +195,21 @@ export default defineComponent({
             readFile(reader)
         },
         sendSticker(url: string) {
-            if (this.selected == 1 || this.selected == 2) return
+            if (this.selected === 1 || this.selected === 2) return
             this.text = url
             this.sendText() as void
             ;(this.$refs.sticker as HTMLElement).click() // 发送后收回 popover
         },
         addStudent() {
             // 添加自定义学生到列表
-            if (this.selected == 1 || this.selected == 2) return
+            if (this.selected === 1 || this.selected === 2) return
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
                 var name = ''
-                while (name.length == 0) {
+                while (name.length === 0) {
                     name = prompt('请输入自定义角色名')!
-                    if (name == null) return
+                    if (name === null) return
                 }
                 var student: myStudent = {
                     Id: 0,

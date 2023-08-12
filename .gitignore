@@ -26,3 +26,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+/src/assets/fetchData/
+/.vscode/
+/public/Stickers/temp/

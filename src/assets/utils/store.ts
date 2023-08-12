@@ -8,11 +8,11 @@ export const store = reactive({
 
     // talkHistory 操作
     getTalksById(id: number): number {
-        const index: number = this.talkHistory.findIndex((item: Talk) => item.id == id)
+        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
         return index
     },
     getTalkById(id: number, talks: Talk) {
-        const index: number = talks.talks.findIndex((item: { id: number; content: string }) => item.id == id)
+        const index: number = talks.talks.findIndex((item: { id: number; content: string }) => item.id === id)
         return index
     },
     deleteTalksById(id: number) {
@@ -36,16 +36,16 @@ export const store = reactive({
 
         // 先清理之前的空记录
         for (const talks of this.talkHistory) {
-            if (talks.talks.length == 0) this.deleteTalksById(talks.id)
+            if (talks.talks.length === 0) this.deleteTalksById(talks.id)
         }
 
         const len = this.talkHistory.length
-        if (len == 0)
+        if (len === 0)
             // 聊天记录为空
             this.talkHistory.push(talk)
         else if (
-            talk.name == this.talkHistory[len - 1].name &&
-            talk.avatar == this.talkHistory[len - 1].avatar
+            talk.name === this.talkHistory[len - 1].name &&
+            talk.avatar === this.talkHistory[len - 1].avatar
         )
             // 和上一条同一说话人
             this.talkHistory[len - 1].talks.push(talk.talks[0])
@@ -61,8 +61,8 @@ export const store = reactive({
         this.setData()
     },
     pushStudent(student: myStudent) {
-        for (var item of this.selectList) {
-            if (item.Id == student.Id) return
+        for (const item of this.selectList) {
+            if (item.Id === student.Id) return
         }
 
         this.selectList.push(student)

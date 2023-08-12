@@ -66,14 +66,10 @@ import SearchIcon from './components/icons/IconSearch.vue'
                     class="list-item"
                     v-for="(item, index) in dataDisplay"
                     :key="index"
-                    :class="{ active: index == currentStudent }"
+                    :class="{ active: index === currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div>
-                        <div class="avatar" v-for="(avatar, idx) in item.Avatar" @click="update(item)">
-                            <img :src="avatar" v-if="idx == item.cnt" />
-                        </div>
-                    </div>
+                    <div class="avatar" @click="update(item)"><img :src="item.Avatar[item.cnt]" /></div>
                     <span class="name">{{ item.Name }}</span>
                     <span class="bio">{{ item.Bio }}</span>
                     <div class="mark"></div>
@@ -88,10 +84,9 @@ import SearchIcon from './components/icons/IconSearch.vue'
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { domtoimage } from '@/assets/utils/dom-to-image'
-import data from '@/assets/student.json'
-import data_ from '@/assets/student2.json'
 import { store } from '@/assets/utils/store'
-import { myStudent } from './assets/utils/interface'
+import { myStudent } from '@/assets/utils/interface'
+import { getStudents } from '@/assets/utils/getData'
 
 export default defineComponent({
     props: {},
@@ -100,10 +95,10 @@ export default defineComponent({
             store,
             student: {},
             currentStudent: -1,
-            database: [data, data_],
             searchText: '',
-            dataDisplay: data,
-            dataFlag: 0
+            database: [] as myStudent[][], // [data1, data2]
+            dataDisplay: [] as myStudent[], // data1
+            dataDisplayIndex: -1
         }
     },
     methods: {
@@ -114,7 +109,8 @@ export default defineComponent({
         },
         download() {
             var node = document.getElementsByClassName('talk-list')[0]
-            node.setAttribute('style', 'overflow-y:hidden') // 隐藏截图的滚动条
+            // 隐藏截图的滚动条
+            node.setAttribute('style', 'overflow-y:hidden')
             var width = node.clientWidth
             var height = node.scrollHeight
             if (width && height) {
@@ -130,44 +126,48 @@ export default defineComponent({
                         console.error('oops, screenshot went wrong!', error)
                     })
                     .finally(function () {
-                        node.setAttribute('style', 'overflow-y:scroll') // 恢复滚动功能
+                        // 恢复滚动功能
+                        node.setAttribute('style', 'overflow-y:scroll')
                     })
             }
         },
-        search() {
+        exchangeList() {
+            this.dataDisplayIndex = (this.dataDisplayIndex + 1) % this.database.length
+        },
+        update(item: myStudent) {
+            item.cnt = (item.cnt + 1) % item.Avatar.length
+            var index = this.store.selectList.findIndex((ele) => ele.Id === item.Id)
+            this.store.selectList[index].cnt = item.cnt
+            this.store.setData()
+        }
+    },
+    watch: {
+        searchText() {
             // https://www.cnblogs.com/caozhenfei/p/14882122.html
             let text = this.searchText.toLowerCase()
             let reg = new RegExp(text)
-            this.dataDisplay = this.database[this.dataFlag].filter((item) => {
+            this.dataDisplay = this.database[this.dataDisplayIndex].filter((item) => {
                 if (reg.test(item.Name)) return item
                 else if (item.Nickname)
                     // 遍历别名
                     for (let nickname of item.Nickname) if (reg.test(nickname.toLowerCase())) return item
             })
         },
-        exchangeList() {
-            this.dataFlag = (this.dataFlag + 1) % this.database.length
-            this.dataDisplay = this.database[this.dataFlag]
-        },
-        update(item: myStudent) {
-            item.cnt = (item.cnt + 1) % item.Avatar.length
-            for (var selectItem of this.store.selectList) {
-                if (selectItem.Id == item.Id) selectItem.cnt = item.cnt
-            }
-            this.store.setData()
-        }
-    },
-    watch: {
-        searchText() {
-            this.search()
+        dataDisplayIndex(flag) {
+            this.dataDisplay = this.database[flag]
         }
     },
     mounted() {
-        document.onkeyup = (e) => {
-            if (e.key == '/') {
-                ;(this.$refs.searchBox as HTMLInputElement).focus()
+        ;(document.onkeyup = (e) => {
+            if (e.key === '/') {
+                var box = this.$refs.searchBox as HTMLInputElement
+                box.focus()
             }
-        }
+        }),
+            this.$nextTick(async () => {
+                this.database = await getStudents()
+                this.dataDisplayIndex = 0
+            })
     }
 })
 </script>

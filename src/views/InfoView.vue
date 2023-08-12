@@ -5,9 +5,7 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 <template>
     <main class="parent">
         <div v-if="student.Avatar">
-            <div class="avatar" v-for="(avatar, idx) in student.Avatar">
-                <img :src="avatar" v-if="idx == student.cnt" />
-            </div>
+            <div class="avatar"><img :src="student.Avatar[student.cnt]" /></div>
             <div class="div2">{{ student.Name }}</div>
             <div class="div3">{{ student.Bio }}</div>
             <div class="div4">

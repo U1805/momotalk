@@ -5,29 +5,38 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
 <template>
     <draggable :list="tasks" :group="{ name: 'g1' }" item-key="id">
         <template #item="{ element }">
-            <div :class="{
-                student: element.type == 1,
-                sensei: element.type == 0,
-                story: element.type == 2,
-                message: element.type == 3
-            }" v-if="element.talks.length != 0">
-                <div class="avatar" v-if="element.type == 1">
+            <div
+                :class="{
+                    student: element.type === 1,
+                    sensei: element.type === 0,
+                    story: element.type === 2,
+                    message: element.type === 3
+                }"
+                v-if="element.talks.length != 0"
+            >
+                <div class="avatar" v-if="element.type === 1">
                     <img :src="element.avatar" />
                 </div>
-                <div class="name" v-if="element.type == 1" contenteditable>
+                <div class="name" v-if="element.type === 1" contenteditable>
                     {{ element.name }}
                 </div>
 
                 <div class="container">
                     <draggable :list="element.talks" item-key="id" :group="{ name: 'g2' }">
                         <template #item="{ element: talk }">
-                            <div :class="{
-                                horizontal: element.type != 2 /*避免影响 story box*/
-                            }">
-                                <span class="del" @click="store.deleteTalkById(talk.id)"
-                                    v-if="element.type == 0 || element.type == 2">×</span>
+                            <div
+                                :class="{
+                                    horizontal: element.type != 2 /*避免影响 story box*/
+                                }"
+                            >
+                                <span
+                                    class="del"
+                                    @click="store.deleteTalkById(talk.id)"
+                                    v-if="element.type === 0 || element.type === 2"
+                                    >×</span
+                                >
 
-                                <div class="box-story" v-if="element.type == 2">
+                                <div class="box-story" v-if="element.type === 2">
                                     <div class="title"><span></span>羁绊剧情</div>
                                     <div class="content">
                                         <button>
@@ -35,26 +44,38 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                                         </button>
                                     </div>
                                 </div>
-                                <div class="box-message" v-else-if="element.type == 3">
+                                <div class="box-message" v-else-if="element.type === 3">
                                     <div class="content">
                                         <span contenteditable>{{ talk.content }}</span>
                                     </div>
                                 </div>
-                                <div class="box img" v-else-if="talk.content.startsWith('data:image') ||
-                                    talk.content.startsWith('./Stickers/')
-                                    ">
-                                    <typing-animation class="loading"
-                                        v-if="typing > 0 && talk.id == store.talkId - 1"></typing-animation>
+                                <div
+                                    class="box img"
+                                    v-else-if="
+                                        talk.content.startsWith('data:image') ||
+                                        talk.content.startsWith('./Stickers/')
+                                    "
+                                >
+                                    <typing-animation
+                                        class="loading"
+                                        v-if="typing > 0 && talk.id === store.talkId - 1"
+                                    ></typing-animation>
                                     <img v-else :src="talk.content" class="chat-img" @click="changeImage" />
                                 </div>
                                 <div class="box" v-else>
-                                    <typing-animation class="loading"
-                                        v-if="typing > 0 && talk.id == store.talkId - 1"></typing-animation>
+                                    <typing-animation
+                                        class="loading"
+                                        v-if="typing > 0 && talk.id === store.talkId - 1"
+                                    ></typing-animation>
                                     <span v-else contenteditable>{{ talk.content }}</span>
                                 </div>
 
-                                <span class="del" @click="store.deleteTalkById(talk.id)"
-                                    v-if="element.type == 1 || element.type == 3">×</span>
+                                <span
+                                    class="del"
+                                    @click="store.deleteTalkById(talk.id)"
+                                    v-if="element.type === 1 || element.type === 3"
+                                    >×</span
+                                >
                             </div>
                         </template>
                     </draggable>
@@ -85,7 +106,7 @@ export default {
         changeImage(evt: Event) {
             var reader = new FileReader()
             reader.addEventListener('load', () => {
-                ; (evt.target! as HTMLImageElement).src = reader.result as string
+                ;(evt.target! as HTMLImageElement).src = reader.result as string
             })
             readFile(reader)
         }
