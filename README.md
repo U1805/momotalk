@@ -65,8 +65,9 @@ This project is inspired by:
 Character metadata from:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
-- [Bluearchive.Fandom](https://bluearchive.fandom.com)
-- [Ba.Gamekee](https://ba.gamekee.com/)
+- [bluearchive.fandom](https://bluearchive.fandom.com)
+- [kivo.wiki](https://kivo.wiki/)
+- [ba.gamekee](https://ba.gamekee.com/)
 
 ## Copyrights
 

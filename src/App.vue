@@ -74,10 +74,7 @@ import AddIcon from './components/icons/IconAdd.vue'
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon
                             class="icon multi"
-                            v-if="
-                                (dataDisplayIndex === 0 && item.Avatar.length > 2) ||
-                                (dataDisplayIndex === 1 && item.Avatar.length > 1)
-                            "
+                            v-if="item.Avatar.length > 2"
                         />
                     </div>
                     <span class="name">{{ item.Name }}</span>

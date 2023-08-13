@@ -63,8 +63,9 @@
 角色数据来源:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
-- [Bluearchive.Fandom](https://bluearchive.fandom.com)
-- [Ba.Gamekee](https://ba.gamekee.com/)
+- [bluearchive.fandom](https://bluearchive.fandom.com)
+- [kivo.wiki](https://kivo.wiki/)
+- [ba.gamekee](https://ba.gamekee.com/)
 
 ## 版权
 
