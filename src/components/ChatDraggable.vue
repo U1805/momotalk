@@ -114,5 +114,5 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '@/assets/css/chat-box.scss';
+@import '@/assets/css/chat-draggable.scss';
 </style>

@@ -43,12 +43,12 @@
         height: 40px;
         cursor: pointer;
     }
-    &.search {
+    &.search-group__icon {
         height: 30px;
         @include setColor(#9e9ea7);
         margin: 10px;
     }
-    &.multi {
+    &.list-item__avatar--multi {
         position: relative;
         width: 25px;
         height: 25px;

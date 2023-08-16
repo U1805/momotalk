@@ -14,21 +14,21 @@ import AddIcon from './components/icons/IconAdd.vue'
 <template>
     <div id="root">
         <div id="header">
-            <div class="left">
+            <div id="header__left">
                 <MomoIcon class="icon momo" />
-                <span class="header-title">MomoTalk</span>
+                <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
                 <a href="https://github.com/U1805/momotalk/blob/main/README-zh.md"
                     ><button class="help">?</button></a
                 >
             </div>
-            <div class="right">
+            <div id="header__right">
                 <CloseIcon class="icon close" />
             </div>
         </div>
 
         <div id="sidebar">
-            <div class="up">
+            <div id="sidebar__up">
                 <RouterLink to="/">
                     <StudentIcon class="icon info" />
                 </RouterLink>
@@ -36,7 +36,7 @@ import AddIcon from './components/icons/IconAdd.vue'
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
-            <div class="down">
+            <div id="sidebar__down">
                 <div style="cursor: pointer" @click="store.resetData()">
                     <ResetIcon class="icon reset" />
                 </div>
@@ -47,18 +47,18 @@ import AddIcon from './components/icons/IconAdd.vue'
         </div>
 
         <div id="listcard">
-            <div id="listheader">
-                <div class="group">
-                    <SearchIcon class="icon search" />
+            <div id="listcard__header">
+                <div class="search-group">
+                    <SearchIcon class="icon search-group__icon" />
                     <input
-                        placeholder="Type / to search"
                         type="text"
-                        class="search-text"
+                        placeholder="Type / to search"
+                        class="search-group__text"
                         v-model="searchText"
                         ref="searchBox"
                     />
                 </div>
-                <div class="search-button" @click="exchangeList">
+                <div class="student-list__button" @click="exchangeList">
                     <ListIcon class="icon list" />
                 </div>
             </div>
@@ -70,18 +70,18 @@ import AddIcon from './components/icons/IconAdd.vue'
                     :class="{ active: index === currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div class="avatar" @click="update(item)">
+                    <div class="list-item__avatar" @click="update(item)">
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon
-                            class="icon multi"
+                            class="icon list-item__avatar--multi"
                             v-if="item.Avatar.length > 2"
                         />
                     </div>
-                    <span class="name">{{ item.Name }}</span>
-                    <span class="bio">{{ item.Bio }}</span>
-                    <div class="mark"></div>
+                    <span class="list-item__name">{{ item.Name }}</span>
+                    <span class="list-item__bio">{{ item.Bio }}</span>
+                    <div class="list-item__mark"></div>
                 </div>
-                <hr />
+                
             </div>
         </div>
         <RouterView id="chatcard" :student="student" :studentId="currentStudent" />
@@ -159,6 +159,10 @@ export default defineComponent({
                     // 遍历别名
                     for (let nickname of item.Nickname) if (reg.test(nickname.toLowerCase())) return item
             })
+
+            // 刷新选中状态
+            this.student = {}
+            this.currentStudent = -1
         },
         dataDisplayIndex(flag) {
             this.dataDisplay = this.database[flag]

@@ -126,8 +126,10 @@ export default defineComponent({
     },
     watch: {
         student(newStudent) {
-            this.store.pushStudent(newStudent)
-            this.selectStudent(newStudent)
+            if(Object.values(newStudent).length){
+                this.store.pushStudent(newStudent)
+                this.selectStudent(newStudent)
+            }
         }
     },
     methods: {
@@ -233,7 +235,7 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
-@import '@/assets/css/chat.scss';
+@import '@/assets/css/chat-view.scss';
 @import '@/assets/css/icons.scss';
 
 // 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO

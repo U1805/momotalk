@@ -17,24 +17,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
 
-.left {
-    @include center;
-    padding: 9px;
-}
+    &__left {
+        @include center;
+        padding: 9px;
+    }
+    
+    &__right {
+        @include center;
+        padding: 25px;
+    }
 
-.right {
-    @include center;
-    padding: 25px;
-}
-
-.header-title {
-    color: white;
-    padding: 10px;
-    user-select: none;
-    @include font-heavy(32px);
-    font-family: 'Nunito', sans-serif;
+    &__title {
+        color: white;
+        padding: 10px;
+        user-select: none;
+        @include font-heavy(32px);
+        font-family: 'Nunito', sans-serif;
+    }
 }
 
 .help {
@@ -53,28 +53,24 @@
 #sidebar {
     grid-area: 2 / 1 / 6 / 2;
     background-color: $grey;
-}
-
-#sidebar,
-.up,
-.down {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.up > a,
-.down > div {
-    @include center;
-    width: 100px;
-    height: 100px;
-    opacity: 0.5;
-    &:hover {
-        opacity: 1 !important;
-        background-color: $grey-active;
-        transition: 0.4s;
+    &__up > a,
+    &__down > div {
+        @include center;
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1 !important;
+            background-color: $grey-active;
+            transition: 0.4s;
+        }
     }
 }
+
+
 
 .router-link-active {
     opacity: 1 !important;
@@ -85,13 +81,13 @@
 #listcard {
     grid-area: 2 / 2 / 3 / 3;
     background-color: $list-color;
+    &__header {
+        @include center;
+        border-bottom: 2px solid $list-active-color;
+    }
 }
 
-#listheader {
-    @include center;
-    border-bottom: 2px solid $list-active-color;
-}
-.group {
+.search-group {
     font-size: 25px;
     height: 40px;
     color: #9e9ea7;
@@ -101,22 +97,23 @@
     border: 1px solid #aaa;
     background-color: white;
     @include center;
+
+    &__text {
+        width: 100%;
+        margin: 0;
+        border: transparent;
+        @include font-light(18px);
+        font-family: sans-serif;
+        &::placeholder {
+            color: #9e9ea7;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
 }
 
-.search-text {
-    width: 100%;
-    margin: 0;
-    border: transparent;
-    @include font-light(18px);
-    &::placeholder {
-        color: #9e9ea7;
-    }
-    &:focus {
-        outline: none;
-    }
-}
-
-.search-button {
+.student-list__button {
     @include center;
     background: white;
     border: {
@@ -162,30 +159,32 @@
     &:hover {
         @extend .active;
     }
+
+    &__avatar {
+        grid-area: 1 / 1 / 3 / 2;
+        cursor: pointer;
+    }
+    &__name {
+        grid-area: 1 / 3 / 2 / 4;
+        @include font-heavy(25px);
+        color: $font-black;
+        user-select: none;
+    }
+    &__bio {
+        grid-area: 2 / 3 / 3 / 4;
+        @include font-heavy(20px);
+        color: $font-grey;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        user-select: none;
+    }
+    &__mark {
+        grid-area: 1 / 5 / 3 / 6;
+    }
 }
 
-.avatar {
-    grid-area: 1 / 1 / 3 / 2;
-    cursor: pointer;
-}
-.name {
-    grid-area: 1 / 3 / 2 / 4;
-    @include font-heavy(25px);
-    color: $font-black;
-    user-select: none;
-}
-.bio {
-    grid-area: 2 / 3 / 3 / 4;
-    @include font-heavy(20px);
-    color: $font-grey;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    user-select: none;
-}
-.mark {
-    grid-area: 1 / 5 / 3 / 6;
-}
+
 img {
     @include circle(75px);
 }
