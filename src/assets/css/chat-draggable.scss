@@ -60,7 +60,7 @@
     }
 }
 
-.story {
+.choice {
     margin: 5px 25px 5px 85px;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@
         }
     }
 
-    .box-story {
+    .box-choice {
         grid-area: 1 / 2 / 2 / 3;
         position: relative;
         margin: 5px;
@@ -86,44 +86,58 @@
         flex-direction: column;
         border-radius: 10px;
         border: 1px solid $chatborder-color;
-        height: 110px;
-        background: url('/story.png') no-repeat right top, #ffedf1;
-        background-size: 140px;
-    }
+        background: #f3f7f8;
 
-    .title {
-        height: 50px;
-        display: flex;
-        align-items: center;
-        border-bottom: 1px solid $font-grey;
-        @include font-regular(20px);
+        .header {
+            border-bottom: 1px solid $font-grey;
+            margin: 10px 20px;
 
-        span {
-            height: 20px;
-            width: 2px;
-            background-color: $pink;
-            margin: 0px 5px 0px 10px;
-            display: inline;
+            .title {
+                @include font-regular(20px);
+                border-left: 4px $blue solid;
+                display: inline;
+                padding: 0 8px;
+            }
+        }
+
+        .content {
+            @include center;
+            flex-direction: column;
+
+            span {
+                background-color: white;
+                border: none;
+                color: $font-black;
+                margin-bottom: 10px;
+                padding: 5px;
+                width: 90%;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 10px;
+                @include font-regular(20px);
+            }
         }
     }
+}
 
-    .content {
-        height: 60px;
-        @include center;
-        flex-direction: column;
-    }
+.story {
+    @extend .choice;
 
-    button {
-        background-color: $pink;
-        border: none;
-        color: white;
-        padding: 0px;
-        width: 90%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 10px;
-        @include font-regular(20px);
+    .box-story {
+        @extend .box-choice;
+        border: 1px solid $chatborder-color;
+        background: url('/story.png') no-repeat right top, #ffedf1;
+        background-size: 140px;
+
+        .header .title {
+            border-left: 4px $pink solid;
+        }
+
+        .content span {
+            background-color: $pink;
+            color: white;
+        }
     }
 }
 

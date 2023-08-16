@@ -10,6 +10,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     student: element.type === 1,
                     sensei: element.type === 0,
                     story: element.type === 2,
+                    choice: element.type == 4,
                     message: element.type === 3
                 }"
                 v-if="element.talks.length != 0"
@@ -26,22 +27,30 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <template #item="{ element: talk }">
                             <div
                                 :class="{
-                                    horizontal: element.type != 2 /*避免影响 story box*/
+                                    horizontal: element.type != 2 && element.type != 4 /*避免影响 story box*/
                                 }"
                             >
                                 <span
                                     class="del"
                                     @click="store.deleteTalkById(talk.id)"
-                                    v-if="element.type === 0 || element.type === 2"
+                                    v-if="element.type === 0 || element.type === 2 || element.type === 4"
                                     >×</span
                                 >
 
                                 <div class="box-story" v-if="element.type === 2">
-                                    <div class="title" contenteditable><span></span>羁绊剧情</div>
+                                    <div class="header" contenteditable>
+                                        <div class="title">羁绊剧情</div>
+                                    </div>
                                     <div class="content">
-                                        <button>
-                                            <span contenteditable>{{ talk.content }}</span>
-                                        </button>
+                                        <span contenteditable>{{ talk.content }}</span>
+                                    </div>
+                                </div>
+                                <div class="box-choice" v-else-if="element.type === 4">
+                                    <div class="header" contenteditable>
+                                        <div class="title">选项</div>
+                                    </div>
+                                    <div class="content">
+                                        <span contenteditable>{{ talk.content }}</span>
                                     </div>
                                 </div>
                                 <div class="box-message" v-else-if="element.type === 3">

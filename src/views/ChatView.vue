@@ -6,6 +6,7 @@ import CloseIcon from '@/components/icons/IconClose2.vue'
 import HeartIcon from '@/components/icons/IconHeart.vue'
 import AddIcon from '@/components/icons/IconAdd.vue'
 import BellIcon from '@/components/icons/IconBell.vue'
+import ChoiceIcon from '@/components/icons/IconChoice.vue'
 
 import ChatDraggable from '@/components/ChatDraggable.vue'
 import Popper from 'vue3-popper'
@@ -32,6 +33,9 @@ import Popper from 'vue3-popper'
                         </div>
                         <div v-else-if="selected === 2">
                             <BellIcon class="heart bell" />
+                        </div>
+                        <div v-else-if="selected === 3">
+                            <ChoiceIcon class="choice icon" />
                         </div>
                         <div
                             v-else-if="typeof selected != 'number'"
@@ -78,6 +82,11 @@ import Popper from 'vue3-popper'
                         <div class="item-sensei" @click="selectStudent(2)">
                             <div>
                                 <BellIcon class="heart bell" />
+                            </div>
+                        </div>
+                        <div class="item-sensei" @click="selectStudent(3)">
+                            <div>
+                                <ChoiceIcon class="choice icon" />
                             </div>
                         </div>
                         <div
@@ -158,6 +167,9 @@ export default defineComponent({
             } else if (this.selected === 2) {
                 type = 3
                 name = 'message' // 系统信息
+            } else if (this.selected === 3){
+                type = 4
+                name = 'choice' // 选项
             } else if (typeof this.selected != 'number') {
                 type = 1
                 name = this.selected.Name

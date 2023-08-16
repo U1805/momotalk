@@ -29,7 +29,8 @@
         height: 75%;
         cursor: pointer;
     }
-    &.bell {
+    &.bell,
+    &.choice {
         height: 30px;
         @include setColor(#fff);
         width: 70%;
