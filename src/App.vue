@@ -84,7 +84,7 @@ import AddIcon from './components/icons/IconAdd.vue'
                 
             </div>
         </div>
-        <RouterView id="chatcard" :student="student" :studentId="currentStudent" />
+        <RouterView id="chatcard" :student="student"  @releaseStudent="releaseStudent"/>
     </div>
 </template>
 
@@ -100,7 +100,7 @@ export default defineComponent({
     data() {
         return {
             store,
-            student: {},
+            student: null,
             currentStudent: -1,
             searchText: '',
             database: [] as myStudent[][], // [data1, data2]
@@ -111,8 +111,10 @@ export default defineComponent({
     methods: {
         selectStudent(item: any, index: number) {
             this.student = item
-            // this.store.pushStudent(item)
             this.currentStudent = index
+        },
+        releaseStudent(){
+            this.student = null
         },
         download() {
             var node = document.getElementsByClassName('talk-list')[0]
@@ -140,6 +142,8 @@ export default defineComponent({
         },
         exchangeList() {
             this.dataDisplayIndex = (this.dataDisplayIndex + 1) % this.database.length
+            // 刷新选中状态
+            this.releaseStudent()
         },
         update(item: myStudent) {
             item.cnt = (item.cnt + 1) % item.Avatar.length
@@ -159,10 +163,8 @@ export default defineComponent({
                     // 遍历别名
                     for (let nickname of item.Nickname) if (reg.test(nickname.toLowerCase())) return item
             })
-
             // 刷新选中状态
-            this.student = {}
-            this.currentStudent = -1
+            this.releaseStudent()
         },
         dataDisplayIndex(flag) {
             this.dataDisplay = this.database[flag]

@@ -4,7 +4,7 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 
 <template>
     <main class="student-info">
-        <div v-if="student.Avatar">
+        <div v-if="student">
             <div class="student-info__avatar"><img :src="student.Avatar[student.cnt]" /></div>
             <div class="student-info__name">{{ student.Name }}</div>
             <div class="student-info__bio">{{ student.Bio }}</div>

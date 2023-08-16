@@ -87,7 +87,7 @@ import Popper from 'vue3-popper'
                             @click="selectStudent(student)"
                         >
                             <img :src="student.Avatar[student.cnt]" />
-                            <CloseIcon class="delete-button" @click="store.deleteStudent(index)" />
+                            <CloseIcon class="delete-button" @click="releaseStudent(index);" />
                         </div>
                         <div class="item-sensei" @click="addStudent">
                             <AddIcon class="image icon" />
@@ -112,8 +112,7 @@ export default defineComponent({
         Popper
     },
     props: {
-        student: null,
-        studentId: null
+        student: null
     },
     data() {
         return {
@@ -126,7 +125,7 @@ export default defineComponent({
     },
     watch: {
         student(newStudent) {
-            if(Object.values(newStudent).length){
+            if(newStudent){
                 this.store.pushStudent(newStudent)
                 this.selectStudent(newStudent)
             }
@@ -136,6 +135,12 @@ export default defineComponent({
         selectStudent(student: myStudent | number) {
             // 选择学生添加到列表
             this.selected = student
+        },
+        releaseStudent(index: number){
+            // 在左侧列表中取消选定状态
+            this.$emit("releaseStudent")
+            // 从下侧列表中删去学生
+            store.deleteStudent(index);
         },
         sendText() {
             if (this.text.length === 0) return
