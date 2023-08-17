@@ -292,4 +292,27 @@ export default defineComponent({
 ::-webkit-scrollbar-button {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .talk-wrapper {
+        width: 100vw;
+    }
+    .talk-list {
+        height: calc(100vh - $header-height - $chatfooter-height);
+    }
+    .g-scroll {
+        height: 100vw;
+    }
+    .sticker-wrapper {
+        width: 100vw;
+        padding: 0;
+        div {
+            width: 20%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
 </style>

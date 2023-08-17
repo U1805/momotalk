@@ -27,7 +27,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                 <div class="name" v-if="element.type === 0 && element.content.flag > 0" contenteditable>
                     {{ element.content.name }}
                 </div>
-                
+
                 <div class="container">
                     <div class="box-story" v-if="element.type === 2">
                         <div class="header" contenteditable>
