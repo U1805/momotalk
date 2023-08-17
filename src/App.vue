@@ -70,13 +70,15 @@ import AddIcon from './components/icons/IconAdd.vue'
                     :class="{ active: index === currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div class="list-item__avatar" @click="update(item)">
+                    <div class="list-item__avatar" @click="update(item)" @click.stop="">
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon class="icon list-item__avatar--multi" v-if="item.Avatar.length > 2" />
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
-                    <div class="list-item__mark"></div>
+                    <div class="list-item__mark" @click="filterScool(item.School)" @click.stop="">
+                        <img :src="getSchaleSchoolIcon(item.School)" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,6 +100,7 @@ export default defineComponent({
             store,
             student: null,
             currentStudent: -1,
+            searchScool: '',
             searchText: '',
             database: [] as myStudent[][], // [data1, data2]
             dataDisplay: [] as myStudent[], // data1
@@ -146,6 +149,18 @@ export default defineComponent({
             var index = this.store.selectList.findIndex((ele) => ele.Id === item.Id)
             this.store.selectList[index].cnt = item.cnt
             this.store.setData()
+        },
+        getSchaleSchoolIcon(school: string) {
+            return `https://schale.gg/images/schoolicon/School_Icon_${school.toUpperCase()}_W.png`
+        },
+        filterScool(school: string) {
+            this.searchScool = this.searchScool === '' ? school : ''
+            let reg = new RegExp(this.searchScool)
+            this.dataDisplay = this.database[this.dataDisplayIndex].filter((item) => {
+                if (reg.test(item.School)) return item
+            })
+            // 刷新选中状态
+            this.releaseStudent()
         }
     },
     watch: {

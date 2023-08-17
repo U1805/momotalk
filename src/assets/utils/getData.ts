@@ -25,6 +25,7 @@ const getSchale = async () => {
             Avatar: [getSchaleImg(schaleItem.CollectionTexture)],
             Bio: '',
             Nickname: [schaleItem.PathName],
+            School: schaleItem.School,
             cnt: 0
         }
         const localItem = local.find((ele) => ele.Id === newStudent.Id)
@@ -38,9 +39,28 @@ const getSchale = async () => {
     return results
 }
 
+const getLocal = async () => {
+    const local = await getData('/momotalk/students2.json')
+    const results: myStudent[] = []
+    for (const localItem of local) {
+        const newStudent: myStudent = {
+            Id: localItem.Id,
+            Name: localItem.Name,
+            Birthday: '???',
+            Avatar: localItem.Avatar,
+            Bio: localItem.Bio,
+            Nickname: localItem.Nickname,
+            School: '',
+            cnt: 0
+        }
+        results.push(newStudent)
+    }
+    return results
+}
+
 const getStudents = async () => {
     const data1: myStudent[] = await getSchale()
-    const data2: myStudent[] = await getData('/momotalk/students2.json')
+    const data2: myStudent[] = await getLocal()
     return [data1, data2]
 }
 

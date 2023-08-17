@@ -70,16 +70,16 @@ import Popper from 'vue3-popper'
                     <div class="g-content selected-student">
                         <!-- 身份选择 -->
                         <div class="item-sensei" @click="selectStudent(1)">
-                            <div> <ProfileIcon class="icon profile" /> </div>
+                            <div><ProfileIcon class="icon profile" /></div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(2)">
-                            <div> <HeartIcon class="heart icon" /> </div>
+                            <div><HeartIcon class="heart icon" /></div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(3)">
-                            <div> <ChoiceIcon class="choice icon" /> </div>
+                            <div><ChoiceIcon class="choice icon" /></div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(4)">
-                            <div> <BellIcon class="heart bell" /> </div>
+                            <div><BellIcon class="heart bell" /></div>
                         </div>
 
                         <div
@@ -232,6 +232,7 @@ export default defineComponent({
                     Birthday: '',
                     Bio: '',
                     Nickname: [''],
+                    School: '',
                     cnt: 0
                 }
                 that.store.pushStudent(student)

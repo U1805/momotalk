@@ -179,6 +179,11 @@
     }
     &__mark {
         grid-area: 1 / 5 / 3 / 6;
+        img {
+            -webkit-filter: brightness(15%);
+            filter: brightness(15%);
+            cursor: pointer;
+        }
     }
 }
 

@@ -5,6 +5,7 @@ interface myStudent {
     Avatar: string[]
     Bio: string
     Nickname: string[]
+    School: string
     cnt: number
 }
 
