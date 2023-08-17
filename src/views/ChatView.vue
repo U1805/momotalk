@@ -25,17 +25,17 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
                 <Popper placement="top">
                     <div class="sticker" ref="sticker">
-                        <div v-if="selected === 0">
+                        <div v-if="selected === 1">
                             <ProfileIcon class="icon profile" />
                         </div>
-                        <div v-else-if="selected === 1">
-                            <HeartIcon class="heart icon" />
-                        </div>
                         <div v-else-if="selected === 2">
-                            <BellIcon class="heart bell" />
+                            <HeartIcon class="heart icon" />
                         </div>
                         <div v-else-if="selected === 3">
                             <ChoiceIcon class="choice icon" />
+                        </div>
+                        <div v-else-if="selected === 4">
+                            <BellIcon class="heart bell" />
                         </div>
                         <div
                             v-else-if="typeof selected != 'number'"
@@ -69,26 +69,19 @@ import Popper from 'vue3-popper'
                 <div class="g-scroll">
                     <div class="g-content selected-student">
                         <!-- 身份选择 -->
-                        <div class="item-sensei" @click="selectStudent(0)">
-                            <div>
-                                <ProfileIcon class="icon profile" />
-                            </div>
-                        </div>
                         <div class="item-sensei" @click="selectStudent(1)">
-                            <div>
-                                <HeartIcon class="heart icon" />
-                            </div>
+                            <div> <ProfileIcon class="icon profile" /> </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(2)">
-                            <div>
-                                <BellIcon class="heart bell" />
-                            </div>
+                            <div> <HeartIcon class="heart icon" /> </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(3)">
-                            <div>
-                                <ChoiceIcon class="choice icon" />
-                            </div>
+                            <div> <ChoiceIcon class="choice icon" /> </div>
                         </div>
+                        <div class="item-sensei" @click="selectStudent(4)">
+                            <div> <BellIcon class="heart bell" /> </div>
+                        </div>
+
                         <div
                             class="item"
                             v-for="(student, index) in store.selectList"
@@ -96,7 +89,7 @@ import Popper from 'vue3-popper'
                             @click="selectStudent(student)"
                         >
                             <img :src="student.Avatar[student.cnt]" />
-                            <CloseIcon class="delete-button" @click="releaseStudent(index);" />
+                            <CloseIcon class="delete-button" @click="releaseStudent(index)" />
                         </div>
                         <div class="item-sensei" @click="addStudent">
                             <AddIcon class="image icon" />
@@ -126,7 +119,7 @@ export default defineComponent({
     data() {
         return {
             store,
-            selected: 0 as myStudent | number,
+            selected: 1 as myStudent | number,
             text: '' as string,
             typing: 0 as number,
             stickers: stickers as string[]
@@ -134,54 +127,57 @@ export default defineComponent({
     },
     watch: {
         student(newStudent) {
-            if(newStudent){
+            if (newStudent) {
                 this.store.pushStudent(newStudent)
                 this.selectStudent(newStudent)
             }
         }
     },
     methods: {
+        isSenseiOrStudent() {
+            return this.selected === 1 || typeof this.selected != 'number'
+        },
         selectStudent(student: myStudent | number) {
             // 选择学生添加到列表
             this.selected = student
         },
-        releaseStudent(index: number){
+        releaseStudent(index: number) {
             // 在左侧列表中取消选定状态
-            this.$emit("releaseStudent")
+            this.$emit('releaseStudent')
             // 从下侧列表中删去学生
-            store.deleteStudent(index);
+            store.deleteStudent(index)
         },
         sendText() {
             if (this.text.length === 0) return
-            // 新建对话
-            var name: string = ''
-            var avatar: string = ''
-            var type: number = 0
+            var newTalk: Talk
 
-            if (this.selected === 0) {
-                type = 0
-                name = 'sensei' // 老师
-            } else if (this.selected === 1) {
-                type = 2
-                name = 'story' // 羁绊剧情
-            } else if (this.selected === 2) {
-                type = 3
-                name = 'message' // 系统信息
-            } else if (this.selected === 3){
-                type = 4
-                name = 'choice' // 选项
-            } else if (typeof this.selected != 'number') {
-                type = 1
-                name = this.selected.Name
-                avatar = this.selected.Avatar[this.selected.cnt]
-            }
-
-            var newTalk: Talk = {
-                id: this.store.talkId,
-                type: type,
-                name: name,
-                avatar: avatar,
-                talks: [{ id: this.store.talkId++, content: this.text }]
+            if (typeof this.selected === 'number') {
+                newTalk = {
+                    id: this.store.talkId++,
+                    type: this.selected,
+                    content: this.text
+                }
+                if (this.selected === 1) {
+                    // sensei
+                    newTalk.content = {
+                        avatar: '',
+                        flag: 2,
+                        name: 'sensei',
+                        text: this.text
+                    }
+                }
+            } else {
+                // student
+                newTalk = {
+                    id: this.store.talkId++,
+                    type: 0,
+                    content: {
+                        avatar: this.selected.Avatar[this.selected.cnt],
+                        flag: 2,
+                        name: this.selected.Name,
+                        text: this.text
+                    }
+                }
             }
 
             this.store.pushTalk(newTalk)
@@ -204,7 +200,7 @@ export default defineComponent({
             }, 10)
         },
         sendImage() {
-            if (this.selected === 1 || this.selected === 2) return // story card 不能插入图片
+            if (!this.isSenseiOrStudent()) return // 非师生不能插入图片
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
@@ -214,14 +210,13 @@ export default defineComponent({
             readFile(reader)
         },
         sendSticker(url: string) {
-            if (this.selected === 1 || this.selected === 2) return
+            if (!this.isSenseiOrStudent()) return
             this.text = url
             this.sendText() as void
             ;(this.$refs.sticker as HTMLElement).click() // 发送后收回 popover
         },
         addStudent() {
             // 添加自定义学生到列表
-            if (this.selected === 1 || this.selected === 2) return
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {

@@ -22,7 +22,7 @@
         @include center;
         padding: 9px;
     }
-    
+
     &__right {
         @include center;
         padding: 25px;
@@ -69,8 +69,6 @@
         }
     }
 }
-
-
 
 .router-link-active {
     opacity: 1 !important;
@@ -183,7 +181,6 @@
         grid-area: 1 / 5 / 3 / 6;
     }
 }
-
 
 img {
     @include circle(75px);

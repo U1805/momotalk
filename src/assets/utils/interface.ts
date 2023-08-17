@@ -18,10 +18,16 @@ interface myStudent {
 
 interface Talk {
     id: number
-    type: number // 0: sensei| 1: student| 2: story| 3: system
-    name: string
-    avatar: string
-    talks: { id: number; content: string }[]
+    type: number // 0: student| 1: sensei| 2: story| 3: choice| 4:system
+    content:
+        | {
+              // student or sensei
+              name: string
+              avatar: string
+              flag: number // 0: 非同类型第一条，不显示头像| 1: 非同类型第一条，显示头像 |2: 同类型第一条
+              text: string
+          }
+        | string // others
 }
 
 export { myStudent, Talk }

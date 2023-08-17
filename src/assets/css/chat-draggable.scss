@@ -1,12 +1,8 @@
 .student {
     display: grid;
+    grid-template-columns: 75px 15px 1fr;
 
-    grid: {
-        template-columns: 75px 15px 1fr;
-        template-rows: 35px 1fr;
-    }
-
-    padding: 10px 50px 10px 25px;
+    padding: 0 50px 0 25px;
 
     .avatar {
         grid-area: 1 / 1 / 3 / 2;
@@ -25,62 +21,70 @@
     }
 
     .container {
-        grid-area: 2 / 3 / 3 / 3;
-
-        > div > div:first-child > div::after {
-            left: -5px;
-            border-right: 10px solid $grey;
+        grid-area: 2 / 3 / 2 / 3;
+        display: flex;
+        .box {
+            background: $grey;
         }
     }
 
-    .box {
-        background: $grey;
+    &.first {
+        grid-template-rows: 35px 1fr;
+        margin-top: 10px;
+        .box:not(.img):before {
+            border-color: transparent $grey transparent transparent;
+            border-style: solid;
+            border-width: 6px;
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 10px;
+        }
+    }
+    .del {
+        grid-area: 2 / 3 / 2 / 3;
     }
 }
 
 .sensei {
-    padding: 10px 25px 10px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    padding: 0 25px 0 50px;
 
-    .container > div {
+    .container {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-
-        > div:first-child > div::after {
-            right: -5px;
-            border-left: 10px solid #4a8ac6;
-        }
+        flex-direction: row-reverse;
+        justify-content: flex-start;
     }
 
+    &.first {
+        margin-top: 10px;
+        .box:not(.img):before {
+            border-color: transparent transparent transparent #4a8ac6;
+            border-style: solid;
+            border-width: 6px;
+            content: '';
+            position: absolute;
+            right: -10px;
+            top: 10px;
+        }
+    }
     .box {
         background: #4a8ac6;
     }
 }
 
 .choice {
-    margin: 5px 25px 5px 85px;
-    display: flex;
-    flex-direction: column;
+    margin: 5px 25px 5px 45px;
 
-    .container > div > div {
-        display: grid;
-
-        grid: {
-            template-columns: 40px 1fr;
-            template-rows: 1fr;
-        }
-
-        &:hover span {
-            opacity: 1;
-        }
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
     }
 
     .box-choice {
         grid-area: 1 / 2 / 2 / 3;
         position: relative;
+        width: 100%;
         margin: 5px;
         display: flex;
         flex-direction: column;
@@ -142,8 +146,10 @@
 }
 
 .message {
-    @include center;
-    width: 100%;
+    .container {
+        width: 100%;
+        @include center;
+    }
 
     div {
         width: 100%;
@@ -164,20 +170,9 @@
     }
 }
 
-.horizontal {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-
-    &:hover span {
-        opacity: 1;
-    }
-}
-
 .chat-img {
     height: 200px;
     width: auto;
-    // border-radius: 10px;
 }
 
 .box {
@@ -189,23 +184,13 @@
     margin-bottom: 5px;
     @include center;
     &.img {
-        background-color: white;
+        background-color: white !important;
         border: 2px solid $chatborder-color;
         &::after {
             border-right: 10px solid transparent !important;
             border-left: 10px solid transparent !important;
         }
     }
-}
-
-.container > div > div:first-child > div::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 10px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
 }
 
 .del {
@@ -217,4 +202,12 @@
     cursor: pointer;
     transition: opacity 0.2s;
     opacity: 0;
+}
+
+.box:hover + .del,
+.box-choice:hover + .del,
+.box-story:hover + .del,
+.box-message:hover + .del,
+.del:hover {
+    opacity: 1;
 }

@@ -7,50 +7,30 @@ export const store = reactive({
     talkId: 0,
 
     // talkHistory 操作
-    getTalksById(id: number): number {
-        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
-        return index
-    },
-    getTalkById(id: number, talks: Talk) {
-        const index: number = talks.talks.findIndex((item: { id: number; content: string }) => item.id === id)
-        return index
-    },
-    deleteTalksById(id: number) {
-        // 删除一段聊天记录
-        const index: number = this.getTalksById(id)
-        this.talkHistory.splice(index, 1)
-        this.setData()
-    },
     deleteTalkById(id: number) {
         // 删除一条聊天记录
-        for (const talks of this.talkHistory) {
-            const index = this.getTalkById(id, talks)
-            if (index != -1) {
-                talks.talks.splice(index, 1)
-            }
-        }
+        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
+
+        const len = this.talkHistory.length
+        if (index < len - 1 && this.talkHistory[index + 1].type <= 1)
+            if (index == 0 || !this.isSameChar(index + 1, index - 1))
+                (this.talkHistory[index + 1].content as any).flag = 2
+
+        this.talkHistory.splice(index, 1)
         this.setData()
     },
     pushTalk(talk: Talk) {
         // 插入一条聊天记录
-
-        // 先清理之前的空记录
-        for (const talks of this.talkHistory) {
-            if (talks.talks.length === 0) this.deleteTalksById(talks.id)
-        }
-
         const len = this.talkHistory.length
-        if (len === 0)
-            // 聊天记录为空
-            this.talkHistory.push(talk)
-        else if (
-            talk.name === this.talkHistory[len - 1].name &&
-            talk.avatar === this.talkHistory[len - 1].avatar
-        )
-            // 和上一条同一说话人
-            this.talkHistory[len - 1].talks.push(talk.talks[0])
-        // 不同说话人
-        else this.talkHistory.push(talk)
+
+        if (len === 0 || talk.type > 1) this.talkHistory.push(talk)
+        else {
+            const lastTalk = this.talkHistory[len - 1]
+            if ((talk.content as any).name === (lastTalk.content as any).name) {
+                ;(talk.content as any).flag = 0
+                this.talkHistory.push(talk)
+            } else this.talkHistory.push(talk)
+        }
 
         this.setData()
     },
@@ -68,6 +48,17 @@ export const store = reactive({
         this.selectList.push(student)
 
         this.setData()
+    },
+
+    // 辅助操作
+    isSameChar(i: number, j: number) {
+        const talk0: Talk = store.talkHistory[i]
+        const talk1: Talk = store.talkHistory[j]
+        if (talk0.type != talk1.type) return false
+        else if (talk0.type === 0) {
+            if ((talk0.content as any).name != (talk1.content as any).name) return false
+            else return true
+        } else return true
     },
 
     setData() {

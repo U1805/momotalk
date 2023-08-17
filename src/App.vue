@@ -32,7 +32,7 @@ import AddIcon from './components/icons/IconAdd.vue'
                 <RouterLink to="/">
                     <StudentIcon class="icon info" />
                 </RouterLink>
-                <RouterLink to="/chat">
+                <RouterLink to="/chat" @click="releaseStudent">
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
@@ -72,19 +72,15 @@ import AddIcon from './components/icons/IconAdd.vue'
                 >
                     <div class="list-item__avatar" @click="update(item)">
                         <img :src="item.Avatar[item.cnt]" />
-                        <AddIcon
-                            class="icon list-item__avatar--multi"
-                            v-if="item.Avatar.length > 2"
-                        />
+                        <AddIcon class="icon list-item__avatar--multi" v-if="item.Avatar.length > 2" />
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
                     <div class="list-item__mark"></div>
                 </div>
-                
             </div>
         </div>
-        <RouterView id="chatcard" :student="student"  @releaseStudent="releaseStudent"/>
+        <RouterView id="chatcard" :student="student" @releaseStudent="releaseStudent" />
     </div>
 </template>
 
@@ -113,7 +109,7 @@ export default defineComponent({
             this.student = item
             this.currentStudent = index
         },
-        releaseStudent(){
+        releaseStudent() {
             this.student = null
         },
         download() {
