@@ -70,7 +70,7 @@ import AddIcon from './components/icons/IconAdd.vue'
                     :class="{ active: index === currentStudent }"
                     @click="selectStudent(item, index)"
                 >
-                    <div class="list-item__avatar" @click="update(item)" @click.stop="">
+                    <div class="list-item__avatar" @click="update(item)">
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon class="icon list-item__avatar--multi" v-if="item.Avatar.length > 2" />
                     </div>

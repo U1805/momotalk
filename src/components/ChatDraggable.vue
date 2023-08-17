@@ -16,8 +16,13 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     first: element.type <= 1 && element.content.flag > 0
                 }"
             >
+                <div
+                    class="student--split"
+                    v-if="element.type == 0 && element.content.flag === 0"
+                    @click="split(element)"
+                ></div>
                 <div class="avatar" v-if="element.type === 0 && element.content.flag > 0">
-                    <img :src="element.content.avatar" />
+                    <img :src="element.content.avatar" @click="split(element)" />
                 </div>
                 <div class="name" v-if="element.type === 0 && element.content.flag > 0" contenteditable>
                     {{ element.content.name }}
@@ -77,6 +82,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
 import draggable from 'vuedraggable'
 import { readFile } from '@/assets/utils/readFile'
 import { store } from '@/assets/utils/store'
+import { Talk } from '@/assets/utils/interface'
 
 export default {
     props: {
@@ -122,6 +128,11 @@ export default {
                 if (store.isSameChar(j, j + 1)) this.setFlag(j + 1, 0)
                 else this.setFlag(j + 1, 2)
             }
+            store.setData()
+        },
+        split(element: Talk) {
+            if ((element.content as any).flag < 2)
+                (element.content as any).flag = 1 - (element.content as any).flag
             store.setData()
         }
     }
