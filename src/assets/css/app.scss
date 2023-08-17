@@ -59,8 +59,8 @@
     &__up > a,
     &__down > div {
         @include center;
-        width: 100px;
-        height: 100px;
+        width: $sider-width;
+        height: $sider-width;
         opacity: 0.5;
         &:hover {
             opacity: 1 !important;

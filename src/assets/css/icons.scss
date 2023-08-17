@@ -9,15 +9,13 @@
         padding-left: 20px;
     }
     &.reset {
-        height: 35px;
+        height: 30px;
         @include setColor(#fff);
     }
     &.close,
     &.download,
     &.info,
-    &.message {
-        height: 40px;
-    }
+    &.message,
     &.list {
         height: 35px;
     }

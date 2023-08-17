@@ -10,7 +10,6 @@
     width: $view-width;
     height: $view-height;
     margin: 0 auto;
-
     font-weight: normal;
 }
 
@@ -32,4 +31,13 @@ body {
 
 img {
     -webkit-user-drag: none;
+}
+
+@media screen and (max-width: 768px) {
+    #app {
+        width: 100vw;
+    }
+    body{
+        display: block;
+    }
 }
