@@ -48,11 +48,6 @@
         margin: 10px;
     }
     &.list-item__avatar--multi {
-        position: relative;
-        width: 25px;
-        height: 25px;
-        left: 55px;
-        bottom: 80px;
         border-radius: 50%;
         @include setColor(white);
         background: $grey;

@@ -252,18 +252,19 @@ export default defineComponent({
 @import '@/assets/css/icons.scss';
 
 // 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO
+$bar-height: calc($chatfooter-height/2);
 .g-wrap {
     position: relative;
     margin: auto;
     width: 100%;
-    height: calc($chatfooter-height/2);
+    height: $bar-height;
     cursor: pointer;
 }
 
 .g-scroll {
     position: absolute;
-    left: -60px;
-    width: 60px;
+    left: - $bar-height;
+    width: $bar-height;
     height: calc(($view-width - $sider-width) / 2);
     transform-origin: 100% 0;
     transform: rotate(-90deg);
@@ -274,9 +275,9 @@ export default defineComponent({
 .g-content {
     position: absolute;
     top: 0;
-    left: 60px;
+    left: $bar-height;
     width: fit-content;
-    height: 60px;
+    height: $bar-height;
     padding: 10px;
     box-sizing: border-box;
     transform-origin: 0 0;

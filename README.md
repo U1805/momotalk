@@ -62,7 +62,7 @@ This project is inspired by:
 - [blacktunes/juus-maker](https://github.com/blacktunes/juus-maker)
 - [ClosureTalk/closure-talk](https://github.com/ClosureTalk/closure-talk)
 
-Character metadata from:
+Character metadata and assets from:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
 - [bluearchive.fandom](https://bluearchive.fandom.com)
@@ -71,4 +71,6 @@ Character metadata from:
 
 ## Copyrights
 
-Blue Archive avatar and stamp copyrights belong to Yostar & NEXON Games
+This application is not affiliated with Yostar & NEXON Games. 
+
+All information and assets used are the property and copyright of the respective authors.

@@ -18,8 +18,11 @@
     width: 100%;
 }
 
+$bar-height: calc($chatfooter-height / 2);
+$bar-icon-height: calc($bar-height * 0.67);
+
 .input-bar {
-    height: 60px;
+    height: $bar-height;
     width: 100%;
     background-color: $inputbar-color;
     @include center;
@@ -38,7 +41,7 @@
     color: #666;
     padding: 5px 10px;
     margin: 0 8px;
-    height: 40px;
+    height: $bar-icon-height;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #aaa;
@@ -56,7 +59,7 @@
 .item-sensei,
 .item-heart {
     @include center;
-    height: 50px;
+    height: calc($bar-height * 0.83);
     box-sizing: border-box;
     padding: 10px 15px 10px 10px;
     margin: 5px;
@@ -73,7 +76,7 @@
 .sticker > div,
 .item-sensei > div,
 .item-heart > div {
-    @include circle(40px);
+    @include circle($bar-icon-height);
     @include center;
     background-color: $chaticon-color;
 }
@@ -82,7 +85,7 @@
         @include center;
     }
     img {
-        @include circle(40px);
+        @include circle($bar-icon-height);
     }
     svg {
         @include chat-svg;

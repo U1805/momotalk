@@ -14,7 +14,7 @@ const getData = async (file: string) => {
 const getSchale = async () => {
     const local = await getData('/momotalk/students.json')
     const schale = await getData(
-        'https://fastly.jsdelivr.net/gh/lonqie/SchaleDB@main/data/cn/students.min.json'
+        'https://schale.gg/data/cn/students.min.json'
     )
     const results: myStudent[] = []
     for (const schaleItem of schale) {
@@ -47,12 +47,13 @@ const getLocal = async () => {
             Id: localItem.Id,
             Name: localItem.Name,
             Birthday: '???',
-            Avatar: localItem.Avatar,
+            Avatar: ['/momotalk/Avatars/'+localItem.Nickname[0]+'.webp'],
             Bio: localItem.Bio,
             Nickname: localItem.Nickname,
             School: '',
             cnt: 0
         }
+        newStudent.Avatar = newStudent.Avatar.concat(localItem.Avatar)
         results.push(newStudent)
     }
     return results

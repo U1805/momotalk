@@ -45,7 +45,7 @@
 
 ## 使用
 
-[How-to-use](./How-to-use.md)
+[How To Use](./How-to-use.md)
 
 ## Star
 
@@ -69,4 +69,6 @@
 
 ## 版权
 
-项目中角色、素材版权均属于 Yostar & NEXON Games
+本项目 与 Yostar & NEXON Games 没有关联。
+
+项目中使用的所有角色信息和素材版权均属于各自作者。
