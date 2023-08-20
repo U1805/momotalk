@@ -228,7 +228,7 @@ export default defineComponent({
                     if (name === null) return
                 }
                 var student: myStudent = {
-                    Id: 0,
+                    Id: store.customRole++,
                     Name: name,
                     Avatar: [reader.result as string],
                     Birthday: '',
