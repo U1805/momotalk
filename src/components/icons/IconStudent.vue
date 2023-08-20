@@ -26,7 +26,12 @@
             />
             <g id="Oval-2">
                 <g clip-path="url(#clip_1)">
-                    <use xlink:href="#path_1" fill="none" stroke="#ff899e" stroke-width="4" />
+                    <use
+                        xlink:href="#path_1"
+                        fill="none"
+                        stroke="#ff899e"
+                        stroke-width="4"
+                    />
                 </g>
             </g>
             <path

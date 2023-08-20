@@ -13,9 +13,7 @@ const getData = async (file: string) => {
 
 const getSchale = async () => {
     const local = await getData('/momotalk/students.json')
-    const schale = await getData(
-        'https://schale.gg/data/cn/students.min.json'
-    )
+    const schale = await getData('https://schale.gg/data/cn/students.min.json')
     const results: myStudent[] = []
     for (const schaleItem of schale) {
         const newStudent: myStudent = {
@@ -47,7 +45,7 @@ const getLocal = async () => {
             Id: localItem.Id,
             Name: localItem.Name,
             Birthday: '???',
-            Avatar: ['/momotalk/Avatars/'+localItem.Nickname[0]+'.webp'],
+            Avatar: ['/momotalk/Avatars/' + localItem.Nickname[0] + '.webp'],
             Bio: localItem.Bio,
             Nickname: localItem.Nickname,
             School: '',

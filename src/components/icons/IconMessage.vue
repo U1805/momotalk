@@ -15,7 +15,13 @@
                 fill-rule="evenodd"
                 stroke="none"
             />
-            <path d="M11 26L11 31L18 26L11 26Z" id="Line" fill="#fff" fill-rule="evenodd" stroke="none" />
+            <path
+                d="M11 26L11 31L18 26L11 26Z"
+                id="Line"
+                fill="#fff"
+                fill-rule="evenodd"
+                stroke="none"
+            />
         </g>
     </svg>
 </template>

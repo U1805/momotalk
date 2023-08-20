@@ -56,7 +56,12 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
 
                 <!-- 发送 -->
-                <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText" />
+                <input
+                    class="text"
+                    placeholder="Aa"
+                    v-model="text"
+                    @keyup.enter="sendText"
+                />
                 <div class="photo">
                     <ImageIcon @click="sendImage" class="image icon" />
                 </div>
@@ -89,7 +94,10 @@ import Popper from 'vue3-popper'
                             @click="selectStudent(student)"
                         >
                             <img :src="student.Avatar[student.cnt]" />
-                            <CloseIcon class="delete-button" @click="releaseStudent(index)" />
+                            <CloseIcon
+                                class="delete-button"
+                                @click="releaseStudent(index)"
+                            />
                         </div>
                         <div class="item-sensei" @click="addStudent">
                             <AddIcon class="image icon" />
@@ -149,37 +157,31 @@ export default defineComponent({
         },
         sendText() {
             if (this.text.length === 0) return
-            var newTalk: Talk
+            var name = ''
+            var type = 0
+            var avatar = ''
 
             if (typeof this.selected === 'number') {
-                newTalk = {
-                    id: this.store.talkId++,
-                    type: this.selected,
-                    content: this.text
-                }
-                if (this.selected === 1) {
-                    // sensei
-                    newTalk.content = {
-                        avatar: '',
-                        flag: 2,
-                        name: 'sensei',
-                        text: this.text
-                    }
-                }
+                if (this.selected == 1) name = 'sensei'
+                else if (this.selected == 2) name = '羁绊剧情'
+                else if (this.selected == 3) name = '回复'
+                else if (this.selected == 4) name = '系统通知'
+                type = this.selected
             } else {
                 // student
-                newTalk = {
-                    id: this.store.talkId++,
-                    type: 0,
-                    content: {
-                        avatar: this.selected.Avatar[this.selected.cnt],
-                        flag: 2,
-                        name: this.selected.Name,
-                        text: this.text
-                    }
-                }
+                name = this.selected.Name
+                avatar = this.selected.Avatar[this.selected.cnt]
+                type = 0
             }
 
+            var newTalk: Talk = {
+                id: this.store.talkId++,
+                name: name,
+                type: type,
+                avatar: avatar,
+                flag: 2,
+                content: this.text
+            }
             this.store.pushTalk(newTalk)
 
             // console.log(this.store.talkHistory)
@@ -263,7 +265,7 @@ $bar-height: calc($chatfooter-height/2);
 
 .g-scroll {
     position: absolute;
-    left: - $bar-height;
+    left: -$bar-height;
     width: $bar-height;
     height: calc(($view-width - $sider-width) / 2);
     transform-origin: 100% 0;

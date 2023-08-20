@@ -6,15 +6,19 @@ export const store = reactive({
     talkHistory: [] as Talk[],
     talkId: 0,
 
+    getIndexById(id: number) {
+        return this.talkHistory.findIndex((item: Talk) => item.id === id)
+    },
+
     // talkHistory 操作
     deleteTalkById(id: number) {
         // 删除一条聊天记录
-        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
+        const index: number = this.getIndexById(id)
 
         const len = this.talkHistory.length
         if (index < len - 1 && this.talkHistory[index + 1].type <= 1)
             if (index == 0 || !this.isSameChar(index + 1, index - 1))
-                (this.talkHistory[index + 1].content as any).flag = 2
+                this.setTalkFlag(index + 1, 2)
 
         this.talkHistory.splice(index, 1)
         this.setData()
@@ -22,28 +26,30 @@ export const store = reactive({
     pushTalk(talk: Talk) {
         // 插入一条聊天记录
         const len = this.talkHistory.length
+        const lastTalk = this.talkHistory[len - 1]
 
-        if (len === 0 || talk.type > 1) this.talkHistory.push(talk)
+        if (len === 0 || !this.isSameChar_(talk, lastTalk)) this.talkHistory.push(talk)
         else {
-            const lastTalk = this.talkHistory[len - 1]
-            if ((talk.content as any).name === (lastTalk.content as any).name) {
-                ;(talk.content as any).flag = 0
-                this.talkHistory.push(talk)
-            } else this.talkHistory.push(talk)
+            talk.flag = 0
+            this.talkHistory.push(talk)
         }
 
         this.setData()
     },
-    setTalkContent(id: number, content:string){
+    setTalkContent(id: number, content: string) {
         // 修改一条记录内容
-        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
-        if(this.talkHistory[index].type <= 1){
-            (this.talkHistory[index].content as any).text = content
-        }
-        else{
-            this.talkHistory[index].content = content
-        }
-
+        const index: number = this.getIndexById(id)
+        this.talkHistory[index].content = content
+        this.setData()
+    },
+    setTalkName(id: number, name: string) {
+        // 修改一条记录内容
+        const index: number = this.getIndexById(id)
+        this.talkHistory[index].name = name
+        this.setData()
+    },
+    setTalkFlag(index: number, flag: number) {
+        this.talkHistory[index].flag = flag
         this.setData()
     },
 
@@ -56,21 +62,19 @@ export const store = reactive({
         for (const item of this.selectList) {
             if (item.Id === student.Id) return
         }
-
         this.selectList.push(student)
-
         this.setData()
     },
 
     // 辅助操作
+    isSameChar_(talk0: Talk, talk1: Talk) {
+        if (talk0.type != talk1.type) return false
+        return talk0.name == talk1.name
+    },
     isSameChar(i: number, j: number) {
         const talk0: Talk = store.talkHistory[i]
         const talk1: Talk = store.talkHistory[j]
-        if (talk0.type != talk1.type) return false
-        else if (talk0.type === 0) {
-            if ((talk0.content as any).name != (talk1.content as any).name) return false
-            else return true
-        } else return true
+        return this.isSameChar_(talk0, talk1)
     },
 
     setData() {

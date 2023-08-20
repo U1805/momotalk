@@ -5,7 +5,9 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 <template>
     <main class="student-info">
         <div v-if="student">
-            <div class="student-info__avatar"><img :src="student.Avatar[student.cnt]" /></div>
+            <div class="student-info__avatar">
+                <img :src="student.Avatar[student.cnt]" />
+            </div>
             <div class="student-info__name">{{ student.Name }}</div>
             <div class="student-info__bio">{{ student.Bio }}</div>
             <div class="student-info__birthday">
@@ -13,7 +15,9 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
                 <p style="margin-right: 10px">{{ student.Birthday }}</p>
             </div>
         </div>
-        <div v-else style="display: flex; align-items: center; justify-content: center">请选择学生</div>
+        <div v-else style="display: flex; align-items: center; justify-content: center">
+            请选择学生
+        </div>
     </main>
 </template>
 

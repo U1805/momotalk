@@ -88,7 +88,9 @@ function toSvg(node, options) {
  * */
 function toPixelData(node, options) {
     return draw(node, options || {}).then(function (canvas) {
-        return canvas.getContext('2d').getImageData(0, 0, util.width(node), util.height(node)).data
+        return canvas
+            .getContext('2d')
+            .getImageData(0, 0, util.width(node), util.height(node)).data
     })
 }
 
@@ -190,9 +192,11 @@ function cloneNode(node, filter, root) {
         var children = original.childNodes
         if (children.length === 0) return Promise.resolve(clone)
 
-        return cloneChildrenInOrder(clone, util.asArray(children), filter).then(function () {
-            return clone
-        })
+        return cloneChildrenInOrder(clone, util.asArray(children), filter).then(
+            function () {
+                return clone
+            }
+        )
 
         function cloneChildrenInOrder(parent, children, filter) {
             var done = Promise.resolve()
@@ -254,12 +258,16 @@ function cloneNode(node, filter, root) {
                 var className = util.uid()
                 clone.className = clone.className + ' ' + className
                 var styleElement = document.createElement('style')
-                styleElement.appendChild(formatPseudoElementStyle(className, element, style))
+                styleElement.appendChild(
+                    formatPseudoElementStyle(className, element, style)
+                )
                 clone.appendChild(styleElement)
 
                 function formatPseudoElementStyle(className, element, style) {
                     var selector = '.' + className + ':' + element
-                    var cssText = style.cssText ? formatCssText(style) : formatCssProperties(style)
+                    var cssText = style.cssText
+                        ? formatCssText(style)
+                        : formatCssProperties(style)
                     return document.createTextNode(selector + '{' + cssText + '}')
 
                     function formatCssText(style) {
@@ -285,7 +293,8 @@ function cloneNode(node, filter, root) {
 
         function copyUserInput() {
             if (original instanceof HTMLTextAreaElement) clone.innerHTML = original.value
-            if (original instanceof HTMLInputElement) clone.setAttribute('value', original.value)
+            if (original instanceof HTMLInputElement)
+                clone.setAttribute('value', original.value)
         }
 
         function fixSvg() {
@@ -326,7 +335,11 @@ function makeSvgDataUri(node, width, height) {
         })
         .then(util.escapeXhtml)
         .then(function (xhtml) {
-            return '<foreignObject x="0" y="0" width="100%" height="100%">' + xhtml + '</foreignObject>'
+            return (
+                '<foreignObject x="0" y="0" width="100%" height="100%">' +
+                xhtml +
+                '</foreignObject>'
+            )
         })
         .then(function (foreignObject) {
             return (
@@ -444,7 +457,9 @@ function newUtil() {
 
             function fourRandomChars() {
                 /* see http://stackoverflow.com/a/6248722/2519373 */
-                return ('0000' + ((Math.random() * Math.pow(36, 4)) << 0).toString(36)).slice(-4)
+                return (
+                    '0000' + ((Math.random() * Math.pow(36, 4)) << 0).toString(36)
+                ).slice(-4)
             }
         }
     }
@@ -493,7 +508,12 @@ function newUtil() {
                     if (placeholder) {
                         resolve(placeholder)
                     } else {
-                        fail('cannot fetch resource: ' + url + ', status: ' + request.status)
+                        fail(
+                            'cannot fetch resource: ' +
+                                url +
+                                ', status: ' +
+                                request.status
+                        )
                     }
 
                     return
@@ -511,7 +531,12 @@ function newUtil() {
                 if (placeholder) {
                     resolve(placeholder)
                 } else {
-                    fail('timeout of ' + TIMEOUT + 'ms occured while fetching resource: ' + url)
+                    fail(
+                        'timeout of ' +
+                            TIMEOUT +
+                            'ms occured while fetching resource: ' +
+                            url
+                    )
                 }
             }
 
@@ -679,9 +704,14 @@ function newFontFaces() {
             var cssRules = []
             styleSheets.forEach(function (sheet) {
                 try {
-                    util.asArray(sheet.cssRules || []).forEach(cssRules.push.bind(cssRules))
+                    util.asArray(sheet.cssRules || []).forEach(
+                        cssRules.push.bind(cssRules)
+                    )
                 } catch (e) {
-                    console.log('Error while reading CSS rules from ' + sheet.href, e.toString())
+                    console.log(
+                        'Error while reading CSS rules from ' + sheet.href,
+                        e.toString()
+                    )
                 }
             })
             return cssRules

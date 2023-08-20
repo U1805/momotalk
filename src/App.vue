@@ -72,7 +72,10 @@ import AddIcon from './components/icons/IconAdd.vue'
                 >
                     <div class="list-item__avatar" @click="update(item)">
                         <img :src="item.Avatar[item.cnt]" />
-                        <AddIcon class="icon list-item__avatar--multi" v-if="item.Avatar.length > 2" />
+                        <AddIcon
+                            class="icon list-item__avatar--multi"
+                            v-if="item.Avatar.length > 2"
+                        />
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
@@ -177,7 +180,8 @@ export default defineComponent({
                 if (reg.test(item.Name)) return item
                 else if (item.Nickname)
                     // 遍历别名
-                    for (let nickname of item.Nickname) if (reg.test(nickname.toLowerCase())) return item
+                    for (let nickname of item.Nickname)
+                        if (reg.test(nickname.toLowerCase())) return item
             })
             // 刷新选中状态
             this.releaseStudent()
