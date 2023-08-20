@@ -19,10 +19,10 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                 <div
                     class="student--split"
                     v-if="element.type == 0 && element.content.flag === 0"
-                    @click="split(element)"
+                    @click="splitTalks(element)"
                 ></div>
                 <div class="avatar" v-if="element.type === 0 && element.content.flag > 0">
-                    <img :src="element.content.avatar" @click="split(element)" />
+                    <img :src="element.content.avatar" @click="splitTalks(element)" />
                 </div>
                 <div class="name" v-if="element.type === 0 && element.content.flag > 0" contenteditable>
                     {{ element.content.name }}
@@ -34,20 +34,20 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             <div class="title">羁绊剧情</div>
                         </div>
                         <div class="content">
-                            <span contenteditable>{{ element.content }}</span>
+                            <span contenteditable @input="saveEdit($event ,element.id)">{{ element.content }}</span>
                         </div>
                     </div>
                     <div class="box-choice" v-else-if="element.type === 3">
                         <div class="header" contenteditable>
-                            <div class="title">选项</div>
+                            <div class="title">回复</div>
                         </div>
                         <div class="content">
-                            <span contenteditable>{{ element.content }}</span>
+                            <span contenteditable @input="saveEdit($event ,element.id)"><div>{{ element.content }}</div></span>
                         </div>
                     </div>
                     <div class="box-message" v-else-if="element.type === 4">
                         <div class="content">
-                            <span contenteditable>{{ element.content }}</span>
+                            <span contenteditable @input="saveEdit($event ,element.id)">{{ element.content }}</span>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             class="loading"
                             v-if="typing > 0 && element.id === store.talkId - 1"
                         ></typing-animation>
-                        <span v-else contenteditable>{{ element.content.text }}</span>
+                        <span v-else contenteditable @input="saveEdit($event ,element.id)">{{ element.content.text }}</span>
                     </div>
 
                     <span class="del" @click="store.deleteTalkById(element.id)">×</span>
@@ -110,6 +110,7 @@ export default {
             ;(store.talkHistory[i].content as any).flag = flag
         },
         checkMove(e: any) {
+            // 拖动后设置 flag => 样式
             var i = e.newIndex
             var j = e.oldIndex
             var len = store.talkHistory.length
@@ -131,10 +132,16 @@ export default {
             }
             store.setData()
         },
-        split(element: Talk) {
+        splitTalks(element: Talk) {
+            // 分段消息流
+            // flag: 0 <-> 1,  2不可改
             if ((element.content as any).flag < 2)
                 (element.content as any).flag = 1 - (element.content as any).flag
             store.setData()
+        },
+        saveEdit(event: Event, id: number){
+            var span = event.target as HTMLElement
+            store.setTalkContent(id, span.innerText)
         }
     }
 }

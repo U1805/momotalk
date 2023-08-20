@@ -34,6 +34,18 @@ export const store = reactive({
 
         this.setData()
     },
+    setTalkContent(id: number, content:string){
+        // 修改一条记录内容
+        const index: number = this.talkHistory.findIndex((item: Talk) => item.id === id)
+        if(this.talkHistory[index].type <= 1){
+            (this.talkHistory[index].content as any).text = content
+        }
+        else{
+            this.talkHistory[index].content = content
+        }
+
+        this.setData()
+    },
 
     // selectList 操作
     deleteStudent(index: number) {
