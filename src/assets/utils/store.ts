@@ -9,6 +9,9 @@ export const store = reactive({
     getIndexById(id: number) {
         return this.talkHistory.findIndex((item: Talk) => item.id === id)
     },
+    getTalkById(id: number) {
+        return this.talkHistory[this.getIndexById(id)]
+    },
 
     // talkHistory 操作
     deleteTalkById(id: number) {

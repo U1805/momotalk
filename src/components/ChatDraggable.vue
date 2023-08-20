@@ -62,10 +62,14 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         </div>
                         <div class="content">
                             <span
-                                contenteditable
-                                @input="saveEdit($event, element.id, 'content')"
-                                ><div>{{ element.content }}</div></span
-                            >
+                                ><div
+                                    v-for="(con, index) of element.content.split('\n')"
+                                    contenteditable
+                                    @input="saveReplyEdit($event, element.id, index)"
+                                >
+                                    {{ con.replace('\n', '') }}
+                                </div>
+                            </span>
                         </div>
                     </div>
                     <!-- 系统通知 -->
@@ -180,6 +184,30 @@ export default {
             var span = event.target as HTMLElement
             if (type === 'name') store.setTalkName(id, span.innerText)
             if (type === 'content') store.setTalkContent(id, span.innerText)
+        },
+        saveReplyEdit(event: Event, id: number, index: number) {
+            // 特殊处理 reply
+            var div = event.target as HTMLElement
+            var split = store.getTalkById(id).content.split('\n')
+
+            if (
+                (event as InputEvent).inputType === 'insertParagraph' ||
+                (event as InputEvent).inputType === 'insertLineBreak' ||
+                ((event as InputEvent).inputType === 'insertText' &&
+                    (event as InputEvent).data === null)
+            ) {
+                split = [...split.slice(0, index + 1), '', ...split.slice(index + 1)]
+                for (let s of ['\n', '<br>', '<br/>', '<p>', '</p>'])
+                    div.innerText = div.innerText.replaceAll(s, '')
+                div.blur()
+            } else if (
+                (event as InputEvent).inputType === 'deleteContentBackward' &&
+                div.innerText == ''
+            )
+                split.splice(index, 1)
+            else split[index] = div.innerText
+
+            store.setTalkContent(id, split.join('\n'))
         }
     }
 }
