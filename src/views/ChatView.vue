@@ -15,7 +15,7 @@ import Popper from 'vue3-popper'
 <template>
     <main class="talk-wrapper">
         <!-- 聊天主界面 -->
-        <div class="talk-list">
+        <div class="talk-list" ref="talkList">
             <chat-draggable :tasks="store.talkHistory" :typing="typing" />
         </div>
         <!-- 聊天主界面 -->
@@ -75,16 +75,24 @@ import Popper from 'vue3-popper'
                     <div class="g-content selected-student">
                         <!-- 身份选择 -->
                         <div class="item-sensei" @click="selectStudent(1)">
-                            <div><ProfileIcon class="icon profile" /></div>
+                            <div>
+                                <ProfileIcon class="icon profile" />
+                            </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(2)">
-                            <div><HeartIcon class="heart icon" /></div>
+                            <div>
+                                <HeartIcon class="heart icon" />
+                            </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(3)">
-                            <div><ChoiceIcon class="choice icon" /></div>
+                            <div>
+                                <ChoiceIcon class="choice icon" />
+                            </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(4)">
-                            <div><BellIcon class="heart bell" /></div>
+                            <div>
+                                <BellIcon class="heart bell" />
+                            </div>
                         </div>
 
                         <div
@@ -115,6 +123,7 @@ import { myStudent, Talk } from '@/assets/utils/interface'
 import { readFile } from '@/assets/utils/readFile'
 import { stickers } from '@/assets/utils/stickers'
 import { store } from '@/assets/utils/store'
+import { getRole } from '@/assets/utils/getCustomRole'
 import i18n from '@/assets/locales/i18n'
 
 export default defineComponent({
@@ -189,7 +198,7 @@ export default defineComponent({
             // 打字效果 & 自动 ScrollToBottom
             this.text = ''
             this.typing = 1
-            var scroll_to_bottom = document.getElementsByClassName('talk-list')[0]
+            var scroll_to_bottom = this.$refs.talkList as HTMLElement
             var that = this
             var timer = setInterval(() => {
                 that.typing -= 0.01
@@ -223,21 +232,8 @@ export default defineComponent({
             var that = this
             var reader = new FileReader()
             reader.addEventListener('load', () => {
-                var name = ''
-                while (name.length === 0) {
-                    name = prompt(i18n.global.t('customRoleInfo'))!
-                    if (name === null) return
-                }
-                var student: myStudent = {
-                    Id: store.customRole++,
-                    Name: name,
-                    Avatar: [reader.result as string],
-                    Birthday: '',
-                    Bio: '',
-                    Nickname: [''],
-                    School: '',
-                    cnt: 0
-                }
+                var student: myStudent | undefined = getRole(reader.result as string)
+                if (student === undefined) return
                 that.store.pushStudent(student)
             })
             readFile(reader)
@@ -246,6 +242,8 @@ export default defineComponent({
     mounted: function () {
         //自动触发写入的函数
         this.store.getData()
+        var scroll_to_bottom = this.$refs.talkList as HTMLElement
+        scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
     }
 })
 </script>
@@ -256,6 +254,7 @@ export default defineComponent({
 
 // 横向滚动 https://codepen.io/Chokcoco/pen/PoRLpGO
 $bar-height: calc($chatfooter-height/2);
+
 .g-wrap {
     position: relative;
     margin: auto;
@@ -304,8 +303,13 @@ $bar-height: calc($chatfooter-height/2);
     .talk-list {
         height: calc(100vh - $header-height - $chatfooter-height);
     }
-    .g-scroll {
-        height: 100vw;
+    .g-scroll, .g-wrap, .g-content {
+        all: initial;
+    }
+    .g-content{
+        all: initial;
+        display: flex;
+        overflow: scroll;
     }
     .sticker-wrapper {
         width: 100vw;

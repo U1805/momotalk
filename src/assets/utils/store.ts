@@ -5,7 +5,6 @@ export const store = reactive({
     selectList: [] as myStudent[],
     talkHistory: [] as Talk[],
     talkId: 0,
-    customRole: 0,
 
     getIndexById(id: number) {
         return this.talkHistory.findIndex((item: Talk) => item.id === id)
@@ -84,7 +83,7 @@ export const store = reactive({
     setData() {
         localStorage.setItem('talkHistory', JSON.stringify(this.talkHistory))
         localStorage.setItem('selectHistory', JSON.stringify(this.selectList))
-        localStorage.setItem('id', JSON.stringify([this.talkId, this.customRole]))
+        localStorage.setItem('talkId', JSON.stringify(this.talkId))
     },
     getData() {
         const data = [
@@ -94,15 +93,12 @@ export const store = reactive({
         ]
         this.talkHistory = data[0] != null ? JSON.parse(data[0]) : ([] as Talk[])
         this.selectList = data[1] != null ? JSON.parse(data[1]) : ([] as myStudent[])
-        const id = data[2] != null ? JSON.parse(data[2]) : ([0, 0] as number[])
-        this.talkId = id[0]
-        this.customRole = id[1]
+        this.talkId = data[2] != null ? JSON.parse(data[2]) : (0 as number)
     },
     resetData() {
         this.talkHistory = [] as Talk[]
         this.selectList = [] as myStudent[]
         this.talkId = 0 as number
-        this.customRole = 0 as number
         this.setData()
     }
 })

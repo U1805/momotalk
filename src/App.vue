@@ -183,6 +183,7 @@ export default defineComponent({
             i18n.global.locale = this.currentLng as any
             this.database = await getStudents(this.currentLng)
             this.dataDisplay = this.database[this.dataDisplayIndex]
+            this.releaseStudent()
         }
     },
     watch: {
@@ -197,24 +198,23 @@ export default defineComponent({
                     for (let nickname of item.Nickname)
                         if (reg.test(nickname.toLowerCase())) return item
             })
-            // 刷新选中状态
             this.releaseStudent()
         },
         dataDisplayIndex(flag) {
             this.dataDisplay = this.database[flag]
         }
     },
-    mounted() {
-        ;(document.onkeyup = (e) => {
+    mounted: function () {
+        document.onkeyup = (e) => {
             if (e.key === '/') {
                 var box = this.$refs.searchBox as HTMLInputElement
                 box.focus()
             }
-        }),
-            this.$nextTick(async () => {
-                this.database = await getStudents('cn')
-                this.dataDisplayIndex = 0
-            })
+        }
+        this.$nextTick(async () => {
+            this.database = await getStudents('cn')
+            this.dataDisplayIndex = 0
+        })
     }
 })
 </script>
