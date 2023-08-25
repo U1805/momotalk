@@ -16,7 +16,7 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
             </div>
         </div>
         <div v-else style="display: flex; align-items: center; justify-content: center">
-            请选择学生
+            {{ $t('selectInfo') }}
         </div>
     </main>
 </template>

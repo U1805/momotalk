@@ -11,9 +11,9 @@ const getData = async (file: string) => {
     return data
 }
 
-const getSchale = async () => {
+const getSchale = async (lng: string) => {
     const local = await getData('/momotalk/students.json')
-    const schale = await getData('https://schale.gg/data/cn/students.min.json')
+    const schale = await getData(`https://schale.gg/data/${lng}/students.min.json`)
     const results: myStudent[] = []
     for (const schaleItem of schale) {
         const newStudent: myStudent = {
@@ -29,7 +29,7 @@ const getSchale = async () => {
         const localItem = local.find((ele) => ele.Id === newStudent.Id)
         if (localItem) {
             newStudent.Avatar = newStudent.Avatar.concat(localItem.Avatar)
-            newStudent.Bio = localItem.Bio
+            newStudent.Bio = localItem.Bio[lng]
             newStudent.Nickname = newStudent.Nickname.concat(localItem.Nickname)
         }
         results.push(newStudent)
@@ -37,16 +37,16 @@ const getSchale = async () => {
     return results
 }
 
-const getLocal = async () => {
+const getLocal = async (lng: string) => {
     const local = await getData('/momotalk/students2.json')
     const results: myStudent[] = []
     for (const localItem of local) {
         const newStudent: myStudent = {
             Id: localItem.Id,
-            Name: localItem.Name,
+            Name: localItem.Name[lng],
             Birthday: '???',
             Avatar: ['/momotalk/Avatars/' + localItem.Nickname[0] + '.webp'],
-            Bio: localItem.Bio,
+            Bio: localItem.Bio[lng],
             Nickname: localItem.Nickname,
             School: '',
             cnt: 0
@@ -57,9 +57,9 @@ const getLocal = async () => {
     return results
 }
 
-const getStudents = async () => {
-    const data1: myStudent[] = await getSchale()
-    const data2: myStudent[] = await getLocal()
+const getStudents = async (lng: string) => {
+    const data1: myStudent[] = await getSchale(lng)
+    const data2: myStudent[] = await getLocal(lng)
     return [data1, data2]
 }
 

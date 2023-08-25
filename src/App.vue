@@ -9,6 +9,7 @@ import ListIcon from './components/icons/IconList.vue'
 import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
+import LanguageIcon from './components/icons/IconLanguage.vue'
 </script>
 
 <template>
@@ -36,12 +37,15 @@ import AddIcon from './components/icons/IconAdd.vue'
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
-            <div id="sidebar__down">
-                <div style="cursor: pointer" @click="store.resetData()">
+            <div id="sidebar__down" style="cursor: pointer">
+                <div @click="store.resetData()">
                     <ResetIcon class="icon reset" />
                 </div>
-                <div style="cursor: pointer" @click="download">
+                <div @click="download">
                     <DownloadIcon class="icon download" />
+                </div>
+                <div @click="changeLanguage">
+                    <LanguageIcon class="icon language" />
                 </div>
             </div>
         </div>
@@ -100,6 +104,7 @@ import { domtoimage } from '@/assets/utils/dom-to-image'
 import { store } from '@/assets/utils/store'
 import { myStudent } from '@/assets/utils/interface'
 import { getStudents } from '@/assets/utils/getData'
+import i18n from '@/assets/locales/i18n'
 
 export default defineComponent({
     props: {},
@@ -112,7 +117,8 @@ export default defineComponent({
             searchText: '',
             database: [] as myStudent[][], // [data1, data2]
             dataDisplay: [] as myStudent[], // data1
-            dataDisplayIndex: -1
+            dataDisplayIndex: -1,
+            currentLng: 'cn'
         }
     },
     methods: {
@@ -169,6 +175,14 @@ export default defineComponent({
             })
             // 刷新选中状态
             this.releaseStudent()
+        },
+        async changeLanguage() {
+            const languageList = i18n.global.availableLocales
+            const currentLngIdx = languageList.findIndex((ele) => ele === this.currentLng)
+            this.currentLng = languageList[(currentLngIdx + 1) % languageList.length]
+            i18n.global.locale = this.currentLng as any
+            this.database = await getStudents(this.currentLng)
+            this.dataDisplay = this.database[this.dataDisplayIndex]
         }
     },
     watch: {
@@ -198,7 +212,7 @@ export default defineComponent({
             }
         }),
             this.$nextTick(async () => {
-                this.database = await getStudents()
+                this.database = await getStudents('cn')
                 this.dataDisplayIndex = 0
             })
     }
@@ -209,7 +223,7 @@ export default defineComponent({
 @import './assets/css/app.scss';
 @import './assets/css/icons.scss';
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
     #root {
         grid-template-columns: 100vw 100vw;
         grid-template-rows: $header-height 1fr $sider-width;

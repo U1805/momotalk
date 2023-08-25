@@ -1,3 +1,5 @@
+import i18n from '@/assets/locales/i18n'
+
 const readFile = (reader: FileReader) => {
     const input = document.createElement('input')
     input.type = 'file'
@@ -7,7 +9,7 @@ const readFile = (reader: FileReader) => {
         if (file) {
             if (file.size > 1048576) {
                 // 太大容易卡
-                alert('目前不建议上传大于 1MB 的图片哦！')
+                alert(i18n.global.t('imageUploadAlert'))
                 return
             }
             if (file) {

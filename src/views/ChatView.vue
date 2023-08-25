@@ -115,6 +115,7 @@ import { myStudent, Talk } from '@/assets/utils/interface'
 import { readFile } from '@/assets/utils/readFile'
 import { stickers } from '@/assets/utils/stickers'
 import { store } from '@/assets/utils/store'
+import i18n from '@/assets/locales/i18n'
 
 export default defineComponent({
     components: {
@@ -163,9 +164,9 @@ export default defineComponent({
 
             if (typeof this.selected === 'number') {
                 if (this.selected == 1) name = 'sensei'
-                else if (this.selected == 2) name = '羁绊剧情'
-                else if (this.selected == 3) name = '回复'
-                else if (this.selected == 4) name = '系统通知'
+                else if (this.selected == 2) name = i18n.global.t('storyEvent')
+                else if (this.selected == 3) name = i18n.global.t('reply')
+                else if (this.selected == 4) name = 'systemInfo'
                 type = this.selected
             } else {
                 // student
@@ -224,7 +225,7 @@ export default defineComponent({
             reader.addEventListener('load', () => {
                 var name = ''
                 while (name.length === 0) {
-                    name = prompt('请输入自定义角色名')!
+                    name = prompt(i18n.global.t('customRoleInfo'))!
                     if (name === null) return
                 }
                 var student: myStudent = {
@@ -296,7 +297,7 @@ $bar-height: calc($chatfooter-height/2);
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
     .talk-wrapper {
         width: 100vw;
     }
