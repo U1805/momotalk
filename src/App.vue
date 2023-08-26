@@ -19,7 +19,7 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
                 <MomoIcon class="icon momo" />
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
-                <a href="https://github.com/U1805/momotalk/blob/main/README-zh.md"
+                <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
                     ><button class="help">?</button></a
                 >
             </div>
@@ -37,14 +37,14 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
-            <div id="sidebar__down" style="cursor: pointer">
-                <div @click="store.resetData()">
+            <div id="sidebar__down">
+                <div style="cursor: pointer" @click="store.resetData()">
                     <ResetIcon class="icon reset" />
                 </div>
-                <div @click="download">
+                <div style="cursor: pointer" @click="download">
                     <DownloadIcon class="icon download" />
                 </div>
-                <div @click="changeLanguage">
+                <div style="cursor: pointer" @click="changeLanguage">
                     <LanguageIcon class="icon language" />
                 </div>
             </div>

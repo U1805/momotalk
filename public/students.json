@@ -1605,7 +1605,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bc/Rumi_Icon.png"
         ],
         "Bio": {
-            "cn": "玄武商会开始营业中",
+            "cn": "玄武商会，正在营业中",
             "jp": "玄武商会、営業中だよ"
         },
         "Nickname": ["厨子", "厨师", "大厨"]
@@ -1616,7 +1616,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8f/Mina_Icon.png"
         ],
         "Bio": {
-            "cn": "我能听到风声",
+            "cn": "能听到风声啊……",
             "jp": "風の声が聞こえるな……"
         },
         "Nickname": ["墨镜"]
@@ -1638,8 +1638,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8e/Miyako_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "用结果来证明",
+            "jp": "結果で証明します"
         },
         "Nickname": ["水宫子"]
     },
@@ -1649,8 +1649,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e5/Saki_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "让不可能化为可能",
+            "jp": "不可能を可能に"
         },
         "Nickname": ["水咲"]
     },
@@ -1660,8 +1660,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9b/Miyu_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "船到桥头自然直",
+            "jp": "明日は明日の風が吹く"
         },
         "Nickname": ["水美游"]
     },
@@ -1671,7 +1671,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c8/Shiroko_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "cn": "嗯，需要食物请联络我",
             "jp": ""
         },
         "Nickname": ["水白子"]
@@ -1682,8 +1682,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/5/53/Ui_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "出差中",
+            "jp": "出張中"
         },
         "Nickname": ["水忧"]
     },
@@ -1693,8 +1693,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/cd/Hinata_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "出差中，有事请留言！",
+            "jp": "出張中です、なにかありましたらメッセージをどうぞ！"
         },
         "Nickname": ["水日向"]
     },
@@ -1704,8 +1704,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/03/Koharu_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "泳装才不是涩涩呢！",
+            "jp": "水着はエッチじゃないんだからね！"
         },
         "Nickname": ["水小春"]
     },
@@ -1715,8 +1715,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/96/Hanako_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "展露肌肤就变得坦率，这样好吗？",
+            "jp": "さらけ出した肌のぶんだけ、素直になっていいですか？"
         },
         "Nickname": ["水花子", "紫攻花子"]
     },
@@ -1726,7 +1726,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Mimori_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "cn": "总觉得，会有什么好事发生",
             "jp": ""
         },
         "Nickname": ["水三森"]
