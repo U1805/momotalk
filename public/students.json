@@ -328,8 +328,7 @@
         "Id": 16002,
         "Avatar": [
             "/momotalk/Avatars/Kotori_Cheerleader.webp",
-            "https://static.wikia.nocookie.net/blue-archive/images/9/93/Kotori_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/b/bb/Kotori_Cheerleader_Icon.png"
+            "https://static.wikia.nocookie.net/blue-archive/images/9/93/Kotori_Icon.png"
         ],
         "Bio": {
             "cn": "赞叹微波吧！",
@@ -1789,5 +1788,17 @@
             "jp": ""
         },
         "Nickname": []
+    },
+    {
+        "Id": 10076,
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/b/bb/Kotori_Cheerleader_Icon.png"
+        ],
+        "Bio": {
+            "cn": "",
+            "jp": ""
+        },
+        "Nickname": ["小鸟", "琴里"]
     }
+
 ]
