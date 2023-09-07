@@ -20,7 +20,7 @@ const getSchale = async (lng: string) => {
             Id: schaleItem.Id,
             Name: schaleItem.Name,
             Birthday: schaleItem.Birthday,
-            Avatar: [getSchaleImg(schaleItem.CollectionTexture)],
+            Avatar: [getSchaleImg(schaleItem.Id)],
             Bio: '',
             Nickname: [schaleItem.PathName],
             School: schaleItem.School,
