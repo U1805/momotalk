@@ -47,7 +47,9 @@
     width: 28px;
     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
     color: $pink;
+    user-select: none;
     @include font-light(24px);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #sidebar {

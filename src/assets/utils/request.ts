@@ -63,8 +63,8 @@ const getStudents = async (lng: string) => {
     return [data1, data2]
 }
 
-const getMessage = async (studentName:string, storyId:string) => {
-    const res = await getData(`/momotalk/Stories/${studentName}${storyId}.json`)
+const getMessage = async (story:string) => {
+    const res = await getData(`/momotalk/Stories/${story}.json`)
     return res
 }
 

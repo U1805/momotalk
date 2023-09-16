@@ -6,6 +6,11 @@ export const store = reactive({
     talkHistory: [] as Talk[],
     talkId: 0,
 
+    // momotalk player mode var
+    showDialog: false,
+    storyFile: "Shiroko01",
+    storyLng: "MessageTW",
+
     getIndexById(id: number) {
         return this.talkHistory.findIndex((item: Talk) => item.id === id)
     },

@@ -6,10 +6,10 @@
     "MessageType": "Text",
     "ImagePath": "",
     "MessageKR": "",
-    "MessageJP": "",
+    "MessageJP": "既読",
     "MessageTH": "",
     "MessageTW": "已读",
-    "MessageEN": ""
+    "MessageEN": "Message read"
   },
   {
     "MessageId": 100100010,
@@ -227,10 +227,10 @@
     "MessageType": "Text",
     "ImagePath": "",
     "MessageKR": "",
-    "MessageJP": "",
+    "MessageJP": "シロコの絆イベントへ",
     "MessageTH": "",
     "MessageTW": "前往白子的羁绊剧情",
-    "MessageEN": ""
+    "MessageEN": "Go to Shiroko's Event"
   },
   {
     "MessageId": 100100101,

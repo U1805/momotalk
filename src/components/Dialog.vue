@@ -1,18 +1,29 @@
 <script setup lang="ts">
+import { store } from '@/assets/utils/store';
 defineProps({
     show: Boolean,
     title: String,
     message: String
 })
 
-const emit = defineEmits(["resp"]); 
+const emit = defineEmits(["resp"]);
 </script>
 
 <template>
     <div v-if="show" class="dialog-mask flex-center">
         <div class="dialog-box">
-            <div class="dialog-header">{{title}}</div>
-            <p class="dialog-content">{{message}}</p>
+            <div class="dialog-header">🎈这里是实验性功能</div>
+            <p class="dialog-content">点击`确定`开启Momotalk播放功能<br/>💥此功能会清空对话记录</p>
+            <p class="dialog-content">
+                <select v-model="store.storyFile">
+                    <option selected>Shiroko01</option>
+                </select><br/>
+                <select v-model="store.storyLng">
+                    <option selected>MessageTW</option>
+                    <option>MessageEN</option>
+                    <option>MessageJP</option>
+                </select>
+            </p>
             <div class="dialog-footer">
                 <button class="button dialog-confirm" @click="emit('resp',true)">确定</button>
                 <button class="button dialog-confirm" @click="emit('resp',false)">取消</button>

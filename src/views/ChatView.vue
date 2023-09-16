@@ -107,7 +107,7 @@ import { myStudent, Talk } from '@/assets/utils/interface'
 import { readFile } from '@/assets/utils/readFile'
 import { stickers } from '@/assets/utils/stickers'
 import { store } from '@/assets/utils/store'
-import { getRole } from '@/assets/utils/getCustomRole'
+import { getRole } from '@/assets/utils/customRole'
 import i18n from '@/assets/locales/i18n'
 import { getMessage } from '@/assets/utils/request'
 import { waitClick, waitTime } from '@/assets/utils/wait'
@@ -120,7 +120,7 @@ export default defineComponent({
     },
     props: {
         student: null,
-        mode: Number
+        mode: Boolean
     },
     data() {
         return {
@@ -138,23 +138,24 @@ export default defineComponent({
                 this.selectStudent(newStudent)
             }
         },
-        async mode(newMode) {
+        async mode() {
             // clean the container
             var sendbar = this.$refs.sendBar as HTMLDivElement
             var talklist = this.$refs.talkList as HTMLDivElement
             var student = getTestRole()
-            this.store.resetData()
             sendbar.hidden = true
             talklist.setAttribute("style","height:100%")
-            
-            var data = (await getMessage("Shiroko", "01"))
+
+            if(!this.store.storyFile || !this.store.storyLng) return
+            var lng = this.store.storyLng
+            var data = (await getMessage(this.store.storyFile))
             var item = data[0]
             do {
                 if (item.Type === 3){
                     // choice
                     this.selected = item.Type
                     var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
-                    this.text = choices.map(choice => choice.MessageTW).join('\n');
+                    this.text = choices.map(choice => choice[lng]).join('\n');
                     this.sendText()
                     await waitTime(100)
                     // reply
@@ -168,7 +169,7 @@ export default defineComponent({
 
                 this.selected = (item.Type > 0)?item.Type:student
                 if (item.MessageType === "Text") {
-                    this.text = item.MessageTW
+                    this.text = item[lng]
                     this.sendText(item.Flag)
                 }
                 else if(item.MessageType == "Image"){
@@ -334,3 +335,4 @@ $bar-height: calc($chatfooter-height/2);
 
 @import '@/assets/css/mobile.scss';
 </style>
+@/assets/utils/customRole
