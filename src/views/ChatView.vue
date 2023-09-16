@@ -139,55 +139,50 @@ export default defineComponent({
             }
         },
         async mode(newMode) {
+            // clean the container
             var sendbar = this.$refs.sendBar as HTMLDivElement
             var talklist = this.$refs.talkList as HTMLDivElement
             var student = getTestRole()
-            store.resetData()
+            this.store.resetData()
+            sendbar.hidden = true
+            talklist.setAttribute("style","height:100%")
             
-            if (newMode == 1) {
-                sendbar.hidden = true
-                talklist.setAttribute("style","height:100%")
-                var data = (await getMessage("Shiroko", "01"))
-                var item = data[0]
-                do {
-                    if (item.Type === 3){
-                        // choice
-                        this.selected = item.Type
-                        var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
-                        this.text = choices.map(choice => choice.MessageTW).join('\n');
-                        this.sendText()
-                        await waitTime(100)
-                        // reply
-                        var buttons = document.querySelectorAll('div.choice span > div')
-                        this.text = await waitClick(buttons) as string
-                        this.store.talkHistory.splice(-1, 1)
-                        this.selected = 1
-                        this.sendText()
-                        continue
-                    }
+            var data = (await getMessage("Shiroko", "01"))
+            var item = data[0]
+            do {
+                if (item.Type === 3){
+                    // choice
+                    this.selected = item.Type
+                    var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
+                    this.text = choices.map(choice => choice.MessageTW).join('\n');
+                    this.sendText()
+                    await waitTime(100)
+                    // reply
+                    var buttons = document.querySelectorAll('div.choice span > div')
+                    this.text = await waitClick(buttons) as string
+                    this.store.talkHistory.splice(-1, 1)
+                    this.selected = 1
+                    this.sendText()
+                    continue
+                }
 
-                    this.selected = (item.Type > 0)?item.Type:student
-                    if (item.MessageType === "Text") {
-                        this.text = item.MessageTW
-                        this.sendText(item.Flag)
-                    }
-                    else if(item.MessageType == "Image"){
-                        this.text = item.ImagePath
-                        this.sendImage()
-                    }
-                    await waitTime(1500)
+                this.selected = (item.Type > 0)?item.Type:student
+                if (item.MessageType === "Text") {
+                    this.text = item.MessageTW
+                    this.sendText(item.Flag)
+                }
+                else if(item.MessageType == "Image"){
+                    this.text = item.ImagePath
+                    this.sendImage()
+                }
+                await waitTime(1500)
 
-                    if (item.Type === 2){
-                        // momotalk story
-                        var buttons = document.querySelectorAll('div.story .content > span')
-                        await waitClick(buttons)
-                    }
-                }while(item=data.find(ele=>ele.MessageId === item.NextId))
-            }
-            else{
-                sendbar.hidden = false
-                talklist.setAttribute("style","")
-            }
+                if (item.Type === 2){
+                    // momotalk story
+                    var buttons = document.querySelectorAll('div.story .content > span')
+                    await waitClick(buttons)
+                }
+            }while(item=data.find(ele=>ele.MessageId === item.NextId))
         }
     },
     methods: {

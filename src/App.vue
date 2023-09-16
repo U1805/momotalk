@@ -10,13 +10,16 @@ import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
+import Dialog from '@/components/Dialog.vue'
 </script>
 
 <template>
+    <Dialog :show="showDialog" message="点击`确定`开启Momotalk播放功能
+    💥此功能会清空对话记录" title="🎈这里是实验性功能" @resp="play"></Dialog>
     <div id="root">
         <div id="header">
             <div id="header__left">
-                <MomoIcon class="icon momo" @dblclick="mode = 1"/>
+                <MomoIcon class="icon momo" @dblclick="showDialog=true"/>
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
                 <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
@@ -119,7 +122,9 @@ export default defineComponent({
             dataDisplay: [] as myStudent[], // data1
             dataDisplayIndex: -1,
             currentLng: 'cn',
-            mode: 0 // view mode when 1 
+
+            mode: false, // momotalk player mode when true
+            showDialog: false 
         }
     },
     methods: {
@@ -185,6 +190,10 @@ export default defineComponent({
             this.database = await getStudents(this.currentLng)
             this.dataDisplay = this.database[this.dataDisplayIndex]
             this.releaseStudent()
+        },
+        play(confirm:boolean){
+            if (confirm) this.mode = true
+            this.showDialog = false
         }
     },
     watch: {
