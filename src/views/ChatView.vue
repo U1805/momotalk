@@ -337,31 +337,5 @@ $bar-height: calc($chatfooter-height/2);
     display: none;
 }
 
-@media screen and (max-width: 1150px) {
-    .talk-wrapper {
-        width: 100vw;
-    }
-    .talk-list {
-        height: calc(100vh - $header-height - $chatfooter-height);
-    }
-    .g-scroll, .g-wrap, .g-content {
-        all: initial;
-    }
-    .g-content{
-        all: initial;
-        display: flex;
-        overflow: scroll;
-    }
-    .sticker-wrapper {
-        width: 100vw;
-        padding: 0;
-        div {
-            width: 20%;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
+@import '@/assets/css/mobile.scss';
 </style>

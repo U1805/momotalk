@@ -16,7 +16,7 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
     <div id="root">
         <div id="header">
             <div id="header__left">
-                <MomoIcon class="icon momo" />
+                <MomoIcon class="icon momo" @dblclick="mode = 1"/>
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
                 <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
@@ -24,7 +24,6 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
                 >
             </div>
             <div id="header__right">
-                <button @click="mode = 1 - mode">test feat</button>
                 <CloseIcon class="icon close" />
             </div>
         </div>
@@ -225,45 +224,5 @@ export default defineComponent({
 @import './assets/css/app.scss';
 @import './assets/css/icons.scss';
 
-@media screen and (max-width: 1150px) {
-    #root {
-        grid-template-columns: 100vw 100vw;
-        grid-template-rows: $header-height 1fr $sider-width;
-        height: 100vh;
-        scroll-snap-type: x mandatory;
-        overflow-x: scroll;
-    }
-
-    #header {
-        grid-area: 1/1/1/1;
-        position: sticky;
-        left: 0;
-    }
-
-    #sidebar {
-        grid-area: 3/1/3/1;
-        background-color: $grey;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        &__up,
-        &__down {
-            display: flex;
-        }
-    }
-
-    #listcard {
-        grid-area: 2/1/2/2;
-        #listbody {
-            height: calc(100vh - $header-height - $listheader-height - $sider-width);
-        }
-        scroll-snap-align: center;
-    }
-
-    #chatcard {
-        grid-area: 2/2/4/3;
-        background-color: white;
-        scroll-snap-align: center;
-    }
-}
+@import './assets/css/mobile.scss';
 </style>
