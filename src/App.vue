@@ -24,6 +24,7 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
                 >
             </div>
             <div id="header__right">
+                <button @click="mode = 1 - mode">test feat</button>
                 <CloseIcon class="icon close" />
             </div>
         </div>
@@ -94,7 +95,7 @@ import LanguageIcon from './components/icons/IconLanguage.vue'
                 </div>
             </div>
         </div>
-        <RouterView id="chatcard" :student="student" @releaseStudent="releaseStudent" />
+        <RouterView id="chatcard" :student="student" :mode="mode" @releaseStudent="releaseStudent"/>
     </div>
 </template>
 
@@ -103,7 +104,7 @@ import { defineComponent } from 'vue'
 import { domtoimage } from '@/assets/utils/dom-to-image'
 import { store } from '@/assets/utils/store'
 import { myStudent } from '@/assets/utils/interface'
-import { getStudents } from '@/assets/utils/getData'
+import { getStudents } from '@/assets/utils/request'
 import i18n from '@/assets/locales/i18n'
 
 export default defineComponent({
@@ -118,7 +119,8 @@ export default defineComponent({
             database: [] as myStudent[][], // [data1, data2]
             dataDisplay: [] as myStudent[], // data1
             dataDisplayIndex: -1,
-            currentLng: 'cn'
+            currentLng: 'cn',
+            mode: 0 // view mode when 1 
         }
     },
     methods: {

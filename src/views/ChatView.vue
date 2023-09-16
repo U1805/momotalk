@@ -20,7 +20,7 @@ import Popper from 'vue3-popper'
         </div>
         <!-- 聊天主界面 -->
 
-        <div class="add">
+        <div class="add" ref="sendBar">
             <div class="input-bar">
                 <!-- 贴图 -->
                 <Popper placement="top">
@@ -37,11 +37,7 @@ import Popper from 'vue3-popper'
                         <div v-else-if="selected === 4">
                             <BellIcon class="heart bell" />
                         </div>
-                        <div
-                            v-else-if="typeof selected != 'number'"
-                            style="padding: 0px; margin: 0px"
-                            class="item"
-                        >
+                        <div v-else-if="typeof selected != 'number'" style="padding: 0px; margin: 0px" class="item">
                             <img :src="selected.Avatar[selected.cnt]" />
                         </div>
                     </div>
@@ -56,12 +52,7 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
 
                 <!-- 发送 -->
-                <input
-                    class="text"
-                    placeholder="Aa"
-                    v-model="text"
-                    @keyup.enter="sendText"
-                />
+                <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText()" />
                 <div class="photo">
                     <ImageIcon @click="sendImage" class="image icon" />
                 </div>
@@ -95,17 +86,10 @@ import Popper from 'vue3-popper'
                             </div>
                         </div>
 
-                        <div
-                            class="item"
-                            v-for="(student, index) in store.selectList"
-                            :key="index"
-                            @click="selectStudent(student)"
-                        >
+                        <div class="item" v-for="(student, index) in store.selectList" :key="index"
+                            @click="selectStudent(student)">
                             <img :src="student.Avatar[student.cnt]" />
-                            <CloseIcon
-                                class="delete-button"
-                                @click="releaseStudent(index)"
-                            />
+                            <CloseIcon class="delete-button" @click="releaseStudent(index)" />
                         </div>
                         <div class="item-sensei" @click="addStudent">
                             <AddIcon class="image icon" />
@@ -125,6 +109,9 @@ import { stickers } from '@/assets/utils/stickers'
 import { store } from '@/assets/utils/store'
 import { getRole } from '@/assets/utils/getCustomRole'
 import i18n from '@/assets/locales/i18n'
+import { getMessage } from '@/assets/utils/request'
+import { waitClick, waitTime } from '@/assets/utils/wait'
+import { getTestRole } from '@/assets/utils/temp'
 
 export default defineComponent({
     components: {
@@ -132,7 +119,8 @@ export default defineComponent({
         Popper
     },
     props: {
-        student: null
+        student: null,
+        mode: Number
     },
     data() {
         return {
@@ -148,6 +136,57 @@ export default defineComponent({
             if (newStudent) {
                 this.store.pushStudent(newStudent)
                 this.selectStudent(newStudent)
+            }
+        },
+        async mode(newMode) {
+            var sendbar = this.$refs.sendBar as HTMLDivElement
+            var talklist = this.$refs.talkList as HTMLDivElement
+            var student = getTestRole()
+            store.resetData()
+            
+            if (newMode == 1) {
+                sendbar.hidden = true
+                talklist.setAttribute("style","height:100%")
+                var data = (await getMessage("Shiroko", "01"))
+                var item = data[0]
+                do {
+                    if (item.Type === 3){
+                        // choice
+                        this.selected = item.Type
+                        var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
+                        this.text = choices.map(choice => choice.MessageTW).join('\n');
+                        this.sendText()
+                        await waitTime(100)
+                        // reply
+                        var buttons = document.querySelectorAll('div.choice span > div')
+                        this.text = await waitClick(buttons) as string
+                        this.store.talkHistory.splice(-1, 1)
+                        this.selected = 1
+                        this.sendText()
+                        continue
+                    }
+
+                    this.selected = (item.Type > 0)?item.Type:student
+                    if (item.MessageType === "Text") {
+                        this.text = item.MessageTW
+                        this.sendText(item.Flag)
+                    }
+                    else if(item.MessageType == "Image"){
+                        this.text = item.ImagePath
+                        this.sendImage()
+                    }
+                    await waitTime(1500)
+
+                    if (item.Type === 2){
+                        // momotalk story
+                        var buttons = document.querySelectorAll('div.story .content > span')
+                        await waitClick(buttons)
+                    }
+                }while(item=data.find(ele=>ele.MessageId === item.NextId))
+            }
+            else{
+                sendbar.hidden = false
+                talklist.setAttribute("style","")
             }
         }
     },
@@ -165,7 +204,7 @@ export default defineComponent({
             // 从下侧列表中删去学生
             store.deleteStudent(index)
         },
-        sendText() {
+        sendText(flag = 2) {
             if (this.text.length === 0) return
             var name = ''
             var type = 0
@@ -189,7 +228,7 @@ export default defineComponent({
                 name: name,
                 type: type,
                 avatar: avatar,
-                flag: 2,
+                flag: flag,
                 content: this.text
             }
             this.store.pushTalk(newTalk)
@@ -224,8 +263,10 @@ export default defineComponent({
         sendSticker(url: string) {
             if (!this.isSenseiOrStudent()) return
             this.text = url
-            this.sendText() as void
-            ;(this.$refs.sticker as HTMLElement).click() // 发送后收回 popover
+            this.sendText()
+            // 发送后收回 popover
+            var sticker = this.$refs.sticker as HTMLElement
+            sticker.click() 
         },
         addStudent() {
             // 添加自定义学生到列表
