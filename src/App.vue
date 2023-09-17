@@ -96,7 +96,7 @@ import Dialog from '@/components/Dialog.vue'
                 </div>
             </div>
         </div>
-        <RouterView id="chatcard" :student="student" :mode="mode" @releaseStudent="releaseStudent"/>
+        <RouterView id="chatcard" :student="student" @releaseStudent="releaseStudent"/>
     </div>
 </template>
 
@@ -107,6 +107,7 @@ import { store } from '@/assets/utils/store'
 import { myStudent } from '@/assets/utils/interface'
 import { getStudents } from '@/assets/utils/request'
 import i18n from '@/assets/locales/i18n'
+import Bus from '@/assets/utils/bus';
 
 export default defineComponent({
     props: {},
@@ -120,8 +121,7 @@ export default defineComponent({
             database: [] as myStudent[][], // [data1, data2]
             dataDisplay: [] as myStudent[], // data1
             dataDisplayIndex: -1,
-            currentLng: 'cn',
-            mode: false, // momotalk player mode when true
+            currentLng: 'cn'
         }
     },
     methods: {
@@ -189,10 +189,7 @@ export default defineComponent({
             this.releaseStudent()
         },
         play(confirm:boolean){
-            if (confirm) {
-                this.mode = true
-                this.store.resetData()
-            }
+            if (confirm) Bus.$emit('On_Play',true);
             this.store.showDialog = false
         }
     },

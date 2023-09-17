@@ -107,11 +107,11 @@ import { myStudent, Talk } from '@/assets/utils/interface'
 import { readFile } from '@/assets/utils/readFile'
 import { stickers } from '@/assets/utils/stickers'
 import { store } from '@/assets/utils/store'
-import { getRole } from '@/assets/utils/customRole'
-import i18n from '@/assets/locales/i18n'
+import { getRole, getTestRole } from '@/assets/utils/customRole'
 import { getMessage } from '@/assets/utils/request'
 import { waitClick, waitTime } from '@/assets/utils/wait'
-import { getTestRole } from '@/assets/utils/temp'
+import i18n from '@/assets/locales/i18n'
+import Bus from '@/assets/utils/bus';
 
 export default defineComponent({
     components: {
@@ -119,8 +119,7 @@ export default defineComponent({
         Popper
     },
     props: {
-        student: null,
-        mode: Boolean
+        student: null
     },
     data() {
         return {
@@ -137,53 +136,6 @@ export default defineComponent({
                 this.store.pushStudent(newStudent)
                 this.selectStudent(newStudent)
             }
-        },
-        async mode() {
-            // clean the container
-            var sendbar = this.$refs.sendBar as HTMLDivElement
-            var talklist = this.$refs.talkList as HTMLDivElement
-            var student = getTestRole()
-            sendbar.hidden = true
-            talklist.setAttribute("style","height:100%")
-
-            if(!this.store.storyFile || !this.store.storyLng) return
-            var lng = this.store.storyLng
-            var data = (await getMessage(this.store.storyFile))
-            var item = data[0]
-            do {
-                if (item.Type === 3){
-                    // choice
-                    this.selected = item.Type
-                    var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
-                    this.text = choices.map(choice => choice[lng]).join('\n');
-                    this.sendText()
-                    await waitTime(100)
-                    // reply
-                    var buttons = document.querySelectorAll('div.choice span > div')
-                    this.text = await waitClick(buttons) as string
-                    this.store.talkHistory.splice(-1, 1)
-                    this.selected = 1
-                    this.sendText()
-                    continue
-                }
-
-                this.selected = (item.Type > 0)?item.Type:student
-                if (item.MessageType === "Text") {
-                    this.text = item[lng]
-                    this.sendText(item.Flag)
-                }
-                else if(item.MessageType == "Image"){
-                    this.text = item.ImagePath
-                    this.sendImage()
-                }
-                await waitTime(1500)
-
-                if (item.Type === 2){
-                    // momotalk story
-                    var buttons = document.querySelectorAll('div.story .content > span')
-                    await waitClick(buttons)
-                }
-            }while(item=data.find(ele=>ele.MessageId === item.NextId))
         }
     },
     methods: {
@@ -274,6 +226,59 @@ export default defineComponent({
                 that.store.pushStudent(student)
             })
             readFile(reader)
+        },
+        async play() {
+            // momotalk player
+            // clean the container
+            var sendbar = this.$refs.sendBar as HTMLDivElement
+            var talklist = this.$refs.talkList as HTMLDivElement
+            
+            sendbar.hidden = true
+            talklist.setAttribute("style","height:100%")
+
+            if(!this.store.storyFile || !this.store.storyLng) return
+            var lng = this.store.storyLng
+            var data = (await getMessage(this.store.storyFile))
+            var student = getTestRole(data[0][lng], data[0]["ImagePath"])
+            var item = data[1]
+            this.store.resetData()
+            do {
+                if (item.Type === 3){
+                    // choice
+                    this.selected = item.Type
+                    var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
+                    this.text = choices.map(choice => choice[lng]).join('\n');
+                    this.sendText()
+                    await waitTime(100)
+                    // reply
+                    var buttons = document.querySelectorAll('div.choice span > div')
+                    this.text = await waitClick(buttons) as string
+                    this.store.talkHistory.splice(-1, 1)
+                    this.selected = 1
+                    this.sendText()
+                    continue
+                }
+
+                this.selected = (item.Type > 0)?item.Type:student
+                if (item.MessageType === "Text") {
+                    this.text = item[lng]
+                    this.sendText(item.Flag)
+                }
+                else if(item.MessageType == "Image"){
+                    this.text = item.ImagePath
+                    this.sendImage()
+                }
+                await waitTime(1500)
+
+                if (item.Type === 2){
+                    // momotalk story
+                    var buttons = document.querySelectorAll('div.story .content > span')
+                    await waitClick(buttons)
+                }
+            }while(item=data.find(ele=>ele.MessageId === item.NextId))
+            
+            sendbar.hidden = false
+            talklist.setAttribute("style","")
         }
     },
     mounted: function () {
@@ -281,6 +286,8 @@ export default defineComponent({
         this.store.getData()
         var scroll_to_bottom = this.$refs.talkList as HTMLElement
         scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
+        var that = this;
+        Bus.$on('On_Play',() => that.play())
     }
 })
 </script>
@@ -335,4 +342,3 @@ $bar-height: calc($chatfooter-height/2);
 
 @import '@/assets/css/mobile.scss';
 </style>
-@/assets/utils/customRole
