@@ -24,10 +24,7 @@
     {
         "Id": 10002,
         "Avatar": [
-            "/momotalk/Avatars/Haruna_Gym.webp",
-            "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Haruna_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/0/0b/Haruna_Gym_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/5/59/Haruna_Icon_2.png"
+            "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Haruna_Icon.png"
         ],
         "Bio": {
             "cn": "EAT OR DIE",
@@ -327,7 +324,6 @@
     {
         "Id": 16002,
         "Avatar": [
-            "/momotalk/Avatars/Kotori_Cheerleader.webp",
             "https://static.wikia.nocookie.net/blue-archive/images/9/93/Kotori_Icon.png"
         ],
         "Bio": {
@@ -1798,7 +1794,17 @@
             "cn": "",
             "jp": ""
         },
-        "Nickname": ["小鸟", "琴里"]
+        "Nickname": ["应援小鸟", "应援琴里"]
+    },
+    {
+        "Id": 20030,
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/0/0b/Haruna_Gym_Icon.png"
+        ],
+        "Bio": {
+            "cn": "",
+            "jp": ""
+        },
+        "Nickname": []
     }
-
 ]
