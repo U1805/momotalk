@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { store } from '@/assets/utils/store';
+import { momotalks } from '@/assets/utils/momotalks';
 defineProps({
     show: Boolean,
     title: String,
@@ -16,7 +17,7 @@ const emit = defineEmits(["resp"]);
             <p class="dialog-content">点击`确定`开启Momotalk播放功能<br/>💥此功能会清空对话记录</p>
             <p class="dialog-content">
                 <select v-model="store.storyFile">
-                    <option selected>Shiroko01</option>
+                    <option v-for="momotalk in momotalks" :selected="momotalk.selected">{{momotalk.value}}</option>
                 </select><br/>
                 <select v-model="store.storyLng">
                     <option selected>MessageTW</option>

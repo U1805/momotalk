@@ -253,6 +253,7 @@ export default defineComponent({
                     // reply
                     var buttons = document.querySelectorAll('div.choice span > div')
                     this.text = await waitClick(buttons) as string
+                    item = data.find((ele)=>ele[lng] == this.text)
                     this.store.talkHistory.splice(-1, 1)
                     this.selected = 1
                     this.sendText()
