@@ -6,6 +6,11 @@ export const store = reactive({
     talkHistory: [] as Talk[],
     talkId: 0,
 
+    // momotalk player mode var
+    showDialog: false,
+    storyFile: "Shiroko01",
+    storyLng: "MessageTW",
+
     getIndexById(id: number) {
         return this.talkHistory.findIndex((item: Talk) => item.id === id)
     },
@@ -32,8 +37,10 @@ export const store = reactive({
         const lastTalk = this.talkHistory[len - 1]
 
         if (len === 0 || !this.isSameChar_(talk, lastTalk)) this.talkHistory.push(talk)
-        else {
+        else if (talk.flag == 2){
             talk.flag = 0
+            this.talkHistory.push(talk)
+        }else{
             this.talkHistory.push(talk)
         }
 

@@ -42,4 +42,18 @@ function getRole(avatar: string) {
     return student
 }
 
-export { getRole }
+function getTestRole(name: string, avatar: string){
+    var student: myStudent = {
+        Id: 1,
+        Name: name,
+        Avatar: [avatar],
+        Birthday: '',
+        Bio: '',
+        Nickname: [''],
+        School: '',
+        cnt: 0
+    }
+    return student
+}
+
+export { getRole, getTestRole }

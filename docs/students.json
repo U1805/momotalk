@@ -24,10 +24,7 @@
     {
         "Id": 10002,
         "Avatar": [
-            "/momotalk/Avatars/Haruna_Gym.webp",
-            "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Haruna_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/0/0b/Haruna_Gym_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/5/59/Haruna_Icon_2.png"
+            "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Haruna_Icon.png"
         ],
         "Bio": {
             "cn": "EAT OR DIE",
@@ -327,7 +324,6 @@
     {
         "Id": 16002,
         "Avatar": [
-            "/momotalk/Avatars/Kotori_Cheerleader.webp",
             "https://static.wikia.nocookie.net/blue-archive/images/9/93/Kotori_Icon.png"
         ],
         "Bio": {
@@ -1706,7 +1702,7 @@
         ],
         "Bio": {
             "cn": "嗯，需要食物请联络我",
-            "jp": ""
+            "jp": "ん、食糧が必要な人は連絡して"
         },
         "Nickname": ["水白子", "水仓唯", "xcw"]
     },
@@ -1761,7 +1757,7 @@
         ],
         "Bio": {
             "cn": "总觉得，会有什么好事发生",
-            "jp": ""
+            "jp": "なんだか、いいことが起きそう"
         },
         "Nickname": ["水三森"]
     },
@@ -1773,8 +1769,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2c/Meru_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "画画时独自言自语的次数会变多呢～",
+            "jp": "お絵かきしてると、独り言が増えるんだよね～"
         },
         "Nickname": ["梅露", "爱瑠"]
     },
@@ -1784,8 +1780,8 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a9/Momiji_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "知识就是力量。我会好好保护它的！",
+            "jp": "知識は力。ちゃんと守っていきます！"
         },
         "Nickname": []
     },
@@ -1795,10 +1791,20 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bb/Kotori_Cheerleader_Icon.png"
         ],
         "Bio": {
-            "cn": "",
-            "jp": ""
+            "cn": "健全的知识寓于健康的身体！",
+            "jp": "健全な知識は健全な肉体に宿ります！"
         },
-        "Nickname": ["小鸟", "琴里"]
+        "Nickname": ["应援小鸟", "应援琴里"]
+    },
+    {
+        "Id": 20030,
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/0/0b/Haruna_Gym_Icon.png"
+        ],
+        "Bio": {
+            "cn": "一起来探寻运动和美事之间的关系吧",
+            "jp": "運動と美食の相関関係を探してみましょうか"
+        },
+        "Nickname": []
     }
-
 ]

@@ -19,9 +19,11 @@
     &.close,
     &.download,
     &.info,
-    &.message,
     &.list {
         height: 35px;
+    }
+    &.message{
+        height: 30px;
     }
     &.profile,
     &.heart {
