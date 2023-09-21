@@ -1,0 +1,272 @@
+[
+    {
+        "ImagePath": "https://schale.gg/images/student/collection/13008.webp",
+        "MessageJP": "セリカ",
+        "MessageTW": "茜香",
+        "MessageEN": "Serika"
+    },
+    {
+        "MessageId": 130070080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130080082,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130080082,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次のバイトが決まったよ！先生も来るよね？",
+        "MessageTW": "下次的打工決定了唷！老師也會來吧？",
+        "MessageEN": "Another part-time job confirmed! Are you coming, Sensei?"
+    },
+    {
+        "MessageId": 130080090,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080091,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次の休日の午前中、公園に来てね！",
+        "MessageTW": "下個休息日的上午，來公園吧！",
+        "MessageEN": "I'll see you at the park on the next morning you have off!"
+    },
+    {
+        "MessageId": 130080091,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130070100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "りょうかーい",
+        "MessageTW": "了解～",
+        "MessageEN": "Ugh. All right."
+    },
+    {
+        "MessageId": 130070100,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 130080103,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "セリカの絆イベントへ",
+        "MessageTW": "前往茜香的羈絆劇情",
+        "MessageEN": "Go to Serika's Event"
+    },
+    {
+        "MessageId": 130080103,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うう、腰が痛い……",
+        "MessageTW": "嗚嗚，腰痛……",
+        "MessageEN": "I've been bending over all day. I feel like my back is about to break..."
+    },
+    {
+        "MessageId": 130080100,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は大丈夫なの？",
+        "MessageTW": "老師還好嗎？",
+        "MessageEN": "How's your back, Sensei? "
+    },
+    {
+        "MessageId": 130080117,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080114,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お風呂に浸かったらちょっとは良くなるかな思って、今",
+        "MessageTW": "我想泡個澡會好一點，現在",
+        "MessageEN": "I thought soaking in the bathtub might help."
+    },
+    {
+        "MessageId": 130080114,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "！＠＃％％＃＾＊",
+        "MessageTW": "！＠＃％％＃＾＊",
+        "MessageEN": "So, ewiks.xc,z"
+    },
+    {
+        "MessageId": 130080111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080128,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "＠＃＃",
+        "MessageTW": "＠＃＃",
+        "MessageEN": "AAAAAAA"
+    },
+    {
+        "MessageId": 130080128,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080135,
+        "MessageType": "Image",
+        "ImagePath": "./Stickers/Mo_Serika_01.webp",
+        "MessageJP": "",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 130080135,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080132,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "危なかった、スマホをお風呂に落とすとこだった……！！",
+        "MessageTW": "好險，手機差點掉進浴缸裡……！！",
+        "MessageEN": "I almost dropped my phone in the tub!"
+    },
+    {
+        "MessageId": 130080132,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080149,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やっぱりお風呂に入る時にスマホは良くないかも……",
+        "MessageTW": "洗澡的時候果然不能帶著手機……",
+        "MessageEN": "Bringing my phone to the bath was probably a bad idea... "
+    },
+    {
+        "MessageId": 130080149,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一旦外に置いてお風呂入るから、またあとでね",
+        "MessageTW": "我先把它放在外頭並洗個澡，回頭見唷",
+        "MessageEN": "See you later, Sensei."
+    },
+    {
+        "MessageId": 130080150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130080160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その……",
+        "MessageTW": "那個……",
+        "MessageEN": "Oh. Um..."
+    },
+    {
+        "MessageId": 130080150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130080160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "セリカ、写真が……",
+        "MessageTW": "茜香，照片……",
+        "MessageEN": "Serika. I, uh..."
+    },
+    {
+        "MessageId": 130080160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080168,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "写真？",
+        "MessageTW": "照片？",
+        "MessageEN": "Huh?"
+    },
+    {
+        "MessageId": 130080168,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080165,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うああああああ？！なんでこんなのが撮れてるの！？",
+        "MessageTW": "哇啊啊啊啊啊啊？！為什麼會拍到這個！？",
+        "MessageEN": "Ahhhhh! How did you get that photo? "
+    },
+    {
+        "MessageId": 130080165,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080162,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "み、見ないで！見るなぁ！",
+        "MessageTW": "別，別看！別看啊！",
+        "MessageEN": "D-Don't look! Don't look!"
+    },
+    {
+        "MessageId": 130080162,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080169,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "見たら殺す！！！！！！！！！！",
+        "MessageTW": "看了就殺了你！！！！！！！！！！",
+        "MessageEN": "I'll kill you! I'm going to check your phone later!"
+    },
+    {
+        "MessageId": 130080169,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080166,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まさか保存してないよね！？消して！！分かった！？",
+        "MessageTW": "沒有儲存對吧！？刪除！！明白了嗎！？",
+        "MessageEN": "Delete it! All right? "
+    },
+    {
+        "MessageId": 130080166,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130080170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちゃんと消したかどうかあとで確認するからね！！",
+        "MessageTW": "我待會兒會確認有沒有好好刪除掉！！！",
+        "MessageEN": "I'm gonna check it later!"
+    },
+    {
+        "MessageId": 130080170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "見てないです……",
+        "MessageTW": "沒有看……",
+        "MessageEN": "I didn't see anything."
+    },
+    {
+        "MessageId": 130080170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "消しました、はい",
+        "MessageTW": "是，刪除了",
+        "MessageEN": "I didn't see it. I deleted it. It's fine."
+    }
+]

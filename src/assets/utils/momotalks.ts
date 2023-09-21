@@ -6,7 +6,8 @@ const momotalks = [
     {"value": "Hina04", "selected": false},
     {"value": "Hina05", "selected": false},
     {"value": "Yuuka01", "selected": false},
-    {"value": "Yuuka02", "selected": false}
+    {"value": "Yuuka02", "selected": false},
+    {"value": "Serika03", "selected": false}
 ]
 
 export { momotalks }

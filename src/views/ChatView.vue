@@ -267,7 +267,7 @@ export default defineComponent({
                 }
                 else if(item.MessageType == "Image"){
                     this.text = item.ImagePath
-                    this.sendImage()
+                    this.sendText()
                 }
                 await waitTime(1500)
 
