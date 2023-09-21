@@ -23,7 +23,7 @@ import Dialog from '@/components/Dialog.vue'
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
                 <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
-                    ><button class="help">?</button></a
+                    ><button class="help" title="Help">?</button></a
                 >
                 <PlayIcon class="icon play" @click="store.showDialog=true"></PlayIcon>
             </div>
@@ -34,21 +34,21 @@ import Dialog from '@/components/Dialog.vue'
 
         <div id="sidebar">
             <div id="sidebar__up">
-                <RouterLink to="/">
+                <RouterLink to="/" title="Info">
                     <StudentIcon class="icon info" />
                 </RouterLink>
-                <RouterLink to="/chat" @click="releaseStudent">
+                <RouterLink to="/chat" @click="releaseStudent" title="Chat">
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
             <div id="sidebar__down">
-                <div style="cursor: pointer" @click="store.resetData()">
+                <div style="cursor: pointer" @click="store.resetData()" title="Reset">
                     <ResetIcon class="icon reset" />
                 </div>
-                <div style="cursor: pointer" @click="download">
+                <div style="cursor: pointer" @click="download" title="Download">
                     <DownloadIcon class="icon download" />
                 </div>
-                <div style="cursor: pointer" @click="changeLanguage">
+                <div style="cursor: pointer" @click="changeLanguage" title="Switch Language">
                     <LanguageIcon class="icon language" />
                 </div>
             </div>
@@ -66,7 +66,7 @@ import Dialog from '@/components/Dialog.vue'
                         ref="searchBox"
                     />
                 </div>
-                <div class="student-list__button" @click="exchangeList">
+                <div class="student-list__button" @click="exchangeList" title="Switch Student List">
                     <ListIcon class="icon list" />
                 </div>
             </div>

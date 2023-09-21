@@ -25,7 +25,7 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
                 <Popper placement="top">
                     <div class="sticker" ref="sticker">
-                        <div v-if="selected === 1">
+                        <div v-if="selected === 1" title="Send a Sticker">
                             <ProfileIcon class="icon profile" />
                         </div>
                         <div v-else-if="selected === 2">
@@ -37,7 +37,8 @@ import Popper from 'vue3-popper'
                         <div v-else-if="selected === 4">
                             <BellIcon class="heart bell" />
                         </div>
-                        <div v-else-if="typeof selected != 'number'" style="padding: 0px; margin: 0px" class="item">
+                        <div v-else-if="typeof selected != 'number'" style="padding: 0px; margin: 0px" 
+                            class="item" title="Send a Sticker">
                             <img :src="selected.Avatar[selected.cnt]" />
                         </div>
                     </div>
@@ -53,10 +54,10 @@ import Popper from 'vue3-popper'
 
                 <!-- 发送 -->
                 <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText()" />
-                <div class="photo">
+                <div class="photo" title="Send an Image">
                     <ImageIcon @click="sendImage" class="image icon" />
                 </div>
-                <div class="message">
+                <div class="message" title="Send the Message">
                     <SendIcon @click="sendText" class="send icon" />
                 </div>
                 <!-- 发送 -->
@@ -66,32 +67,32 @@ import Popper from 'vue3-popper'
                     <div class="g-content selected-student">
                         <!-- 身份选择 -->
                         <div class="item-sensei" @click="selectStudent(1)">
-                            <div>
+                            <div title="send Sensei message">
                                 <ProfileIcon class="icon profile" />
                             </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(2)">
-                            <div>
+                            <div title="send Event message">
                                 <HeartIcon class="heart icon" />
                             </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(3)">
-                            <div>
+                            <div title="send Reply message">
                                 <ChoiceIcon class="choice icon" />
                             </div>
                         </div>
                         <div class="item-sensei" @click="selectStudent(4)">
-                            <div>
+                            <div title="send System message">
                                 <BellIcon class="heart bell" />
                             </div>
                         </div>
 
                         <div class="item" v-for="(student, index) in store.selectList" :key="index"
-                            @click="selectStudent(student)">
+                            @click="selectStudent(student)" title="Remove from list">
                             <img :src="student.Avatar[student.cnt]" />
                             <CloseIcon class="delete-button" @click="releaseStudent(index)" />
                         </div>
-                        <div class="item-sensei" @click="addStudent">
+                        <div class="item-sensei" @click="addStudent" title="Add a customed student">
                             <AddIcon class="image icon" />
                         </div>
                     </div>
