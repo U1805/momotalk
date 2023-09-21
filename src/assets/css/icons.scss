@@ -58,6 +58,13 @@
         @include setColor(white);
         background: $grey;
     }
+    &.play{
+        height: 35px;
+        @include setColor(#fff);
+        cursor: pointer;
+        filter: drop-shadow(rgba(45, 35, 66, 0.15) 0 2px 4px);
+        margin-left: 10px;
+    }
 
     &:active {
         transform: scale(0.9);

@@ -10,6 +10,7 @@ import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
+import PlayIcon from './components/icons/IconPlay.vue'
 import Dialog from '@/components/Dialog.vue'
 </script>
 
@@ -18,12 +19,13 @@ import Dialog from '@/components/Dialog.vue'
     <div id="root">
         <div id="header">
             <div id="header__left">
-                <MomoIcon class="icon momo" @dblclick="store.showDialog=true"/>
+                <MomoIcon class="icon momo"/>
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
                 <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
                     ><button class="help">?</button></a
                 >
+                <PlayIcon class="icon play" @click="store.showDialog=true"></PlayIcon>
             </div>
             <div id="header__right">
                 <CloseIcon class="icon close" />
