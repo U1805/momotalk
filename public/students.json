@@ -5,7 +5,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/de/Aru_Icon.png"
         ],
         "Bio": {
-            "cn": "什么都能解决哦！",
+            "zh": "什么都能解决哦！",
             "jp": "なんでも解決するわよ！"
         },
         "Nickname": ["啊露", "社长", "亚瑠", "阿鲁", "啊鲁", "爱露", "亚琉"]
@@ -16,7 +16,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e3/Eimi_Icon.png"
         ],
         "Bio": {
-            "cn": "在此输入状态信息",
+            "zh": "在此输入状态信息",
             "jp": "ここにステータスメッセージを入力"
         },
         "Nickname": ["英美", "拉链", "大奶奶", "咏美"]
@@ -27,7 +27,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e7/Haruna_Icon.png"
         ],
         "Bio": {
-            "cn": "EAT OR DIE",
+            "zh": "EAT OR DIE",
             "jp": "EAT OR DIE"
         },
         "Nickname": ["神秘狙", "春奈", "羽榴奈", "美食狙"]
@@ -39,7 +39,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/29/Hifumi_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "有人要一起去佩洛洛庆典吗？",
+            "zh": "有人要一起去佩洛洛庆典吗？",
             "jp": "ペロロフェスに一緒に行ってくれる人いますか？"
         },
         "Nickname": ["一二三", "123", "鸡妹", "浮士德", "日步美", "啊哈哈"]
@@ -51,7 +51,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9e/Hina_Pajamas_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["阳奈", "魔王", "雏", "老婆"]
@@ -63,7 +63,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8e/Hoshino_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "午睡中 别吵醒我",
+            "zh": "午睡中 别吵醒我",
             "jp": "昼寝中 起こさないで"
         },
         "Nickname": ["大叔", "粉毛"]
@@ -74,7 +74,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/16/Iori_Icon.png"
         ],
         "Bio": {
-            "cn": "看到可疑的人请立刻联络",
+            "zh": "看到可疑的人请立刻联络",
             "jp": "怪しい人を見たらすぐに連絡"
         },
         "Nickname": ["佐仓", "佐三枪"]
@@ -85,7 +85,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e9/Maki_Icon.png"
         ],
         "Bio": {
-            "cn": "最爱街头涂鸦！",
+            "zh": "最爱街头涂鸦！",
             "jp": "グラフィティ大好き！"
         },
         "Nickname": ["彩蛋", "涂鸦", "真姬"]
@@ -96,7 +96,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/0f/Neru_Icon.png"
         ],
         "Bio": {
-            "cn": "啊啊！？",
+            "zh": "啊啊！？",
             "jp": "あぁん！？"
         },
         "Nickname": ["宁瑠", "妮露", "不良"]
@@ -109,7 +109,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/6f/Izumi_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "肚子饿了~",
+            "zh": "肚子饿了~",
             "jp": "お腹へったぁあ～"
         },
         "Nickname": ["老八", "汉堡妹"]
@@ -121,7 +121,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/08/Shiroko_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "自行车伙伴招募中……(1/5)",
+            "zh": "自行车伙伴招募中……(1/5)",
             "jp": "ライディング仲間募集中……（まだ１/５）"
         },
         "Nickname": ["xcw", "小仓唯"]
@@ -132,7 +132,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/fa/Shun_Icon.png"
         ],
         "Bio": {
-            "cn": "和天使们一起",
+            "zh": "和天使们一起",
             "jp": "天使たちと一緒に"
         },
         "Nickname": ["旬", "梅花狙", "教官", "舜"]
@@ -143,7 +143,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e5/Sumire_Icon.png"
         ],
         "Bio": {
-            "cn": "健全的精神寓于健康的身体",
+            "zh": "健全的精神寓于健康的身体",
             "jp": "健康な身体は健全な精神が宿る"
         },
         "Nickname": ["运动部长", "运动妹"]
@@ -154,7 +154,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/fb/Tsurugi_Icon.png"
         ],
         "Bio": {
-            "cn": "……",
+            "zh": "……",
             "jp": "……"
         },
         "Nickname": ["颜艺"]
@@ -165,7 +165,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/47/Akane_Icon.png"
         ],
         "Bio": {
-            "cn": "一杯热红茶的余裕",
+            "zh": "一杯热红茶的余裕",
             "jp": "温かい紅茶一杯分の余裕を"
         },
         "Nickname": ["破甲女仆", "朱音"]
@@ -176,7 +176,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c2/Chise_Icon.png"
         ],
         "Bio": {
-            "cn": "找到云的话告诉我",
+            "zh": "找到云的话告诉我",
             "jp": "雲を見つけたら教えて"
         },
         "Nickname": ["巫女", "千世", "知世"]
@@ -189,7 +189,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c3/Akari_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "请推荐吃到饱餐厅",
+            "zh": "请推荐吃到饱餐厅",
             "jp": "おすすめの食べ放題を教えてください"
         },
         "Nickname": ["牛牛", "吃货", "WTM", "朱里", "亚伽里"]
@@ -200,7 +200,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a3/Hasumi_Icon.png"
         ],
         "Bio": {
-            "cn": "减肥中……",
+            "zh": "减肥中……",
             "jp": "ダイエット中……"
         },
         "Nickname": ["莲实"]
@@ -212,7 +212,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/6b/Nonomi_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "希望会是快乐的一天",
+            "zh": "希望会是快乐的一天",
             "jp": "楽しい一日になりますように"
         },
         "Nickname": ["富婆", "机枪妹", "nnm"]
@@ -224,7 +224,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/7a/Kayoko_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "不常用MomoTalk",
+            "zh": "不常用MomoTalk",
             "jp": "モモトークはあんまり使わない"
         },
         "Nickname": ["恐惧姐"]
@@ -235,7 +235,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/83/Mutsuki_Icon.png"
         ],
         "Bio": {
-            "cn": "没有什么有趣的事吗~",
+            "zh": "没有什么有趣的事吗~",
             "jp": "何か面白いことないかな～"
         },
         "Nickname": ["地雷妹", "大头", "小恶魔", "无月"]
@@ -246,7 +246,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/97/Junko_Icon.png"
         ],
         "Bio": {
-            "cn": "谢绝骚扰 (╬⊙益⊙)",
+            "zh": "谢绝骚扰 (╬⊙益⊙)",
             "jp": "スパムお断り(╬☉益☉)"
         },
         "Nickname": ["丸子", "小火龙"]
@@ -261,7 +261,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/25/Serika_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "对策委员会黑见芹香",
+            "zh": "对策委员会黑见芹香",
             "jp": "対策委員会、黒見セリカです"
         },
         "Nickname": ["黑猫", "猫猫"]
@@ -272,7 +272,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/1b/Tsubaki_Icon.png"
         ],
         "Bio": {
-            "cn": "好困……",
+            "zh": "好困……",
             "jp": "眠い……"
         },
         "Nickname": ["狗盾", "神秘T", "神秘坦"]
@@ -284,7 +284,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/b8/Yuuka_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "如我所算",
+            "zh": "如我所算",
             "jp": "計算通り"
         },
         "Nickname": [
@@ -304,7 +304,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Haruka_Icon.png"
         ],
         "Bio": {
-            "cn": "请多多指教",
+            "zh": "请多多指教",
             "jp": "よろしくお願いいたします"
         },
         "Nickname": ["春香", "德棍"]
@@ -316,7 +316,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/aa/Asuna_Schoolgirl_Icon.png"
         ],
         "Bio": {
-            "cn": "为主人提供最好的服务！",
+            "zh": "为主人提供最好的服务！",
             "jp": "最高の奉仕をご主人様に！"
         },
         "Nickname": ["亚丝娜"]
@@ -327,7 +327,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/93/Kotori_Icon.png"
         ],
         "Bio": {
-            "cn": "赞叹微波吧！",
+            "zh": "赞叹微波吧！",
             "jp": "マイクロ波を讃えましょう！"
         },
         "Nickname": ["亚都梨", "小鸟"]
@@ -338,7 +338,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/d8/Suzumi_Icon.png"
         ],
         "Bio": {
-            "cn": "希望今天也是平安的一天",
+            "zh": "希望今天也是平安的一天",
             "jp": "今日も平穏な一日を"
         },
         "Nickname": ["闪光弹"]
@@ -349,7 +349,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8e/Pina_Icon.png"
         ],
         "Bio": {
-            "cn": "CHUCIJIANMIAN！",
+            "zh": "CHUCIJIANMIAN！",
             "jp": "ハジメマシテ！"
         },
         "Nickname": ["歌舞伎", "不死鸟"]
@@ -360,7 +360,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/88/Hibiki_Icon.png"
         ],
         "Bio": {
-            "cn": "虚争空言，不如思而试之",
+            "zh": "虚争空言，不如思而试之",
             "jp": "言葉より行動で"
         },
         "Nickname": ["迫击炮"]
@@ -372,7 +372,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a8/Karin_Schoolgirl_Icon.png"
         ],
         "Bio": {
-            "cn": "绝不让目标逃跑",
+            "zh": "绝不让目标逃跑",
             "jp": "ターゲットは逃がさない"
         },
         "Nickname": ["黑皮女仆", "花梨"]
@@ -383,7 +383,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a3/Saya_Icon.png"
         ],
         "Bio": {
-            "cn": "赞扬我吧！",
+            "zh": "赞扬我吧！",
             "jp": "ぼく様を讃えよ！"
         },
         "Nickname": ["沙耶", "老鼠", "鼠鼠"]
@@ -394,7 +394,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/23/Airi_Icon.png"
         ],
         "Bio": {
-            "cn": "薄荷巧克力最棒了！",
+            "zh": "薄荷巧克力最棒了！",
             "jp": "チョコミントは最高！"
         },
         "Nickname": ["冰淇淋", "冰激凌"]
@@ -405,7 +405,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/77/Fuuka_Icon.png"
         ],
         "Bio": {
-            "cn": "希望至少能过平静的一天(T_T)",
+            "zh": "希望至少能过平静的一天(T_T)",
             "jp": "一日くらい平穏な日が欲しいです(T_T)"
         },
         "Nickname": ["煮饭婆", "料理妹", "风香"]
@@ -417,7 +417,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/08/Hanae_Cheerleader_Icon.png"
         ],
         "Bio": {
-            "cn": "发生什么事的话，不管是谁都请到救护骑士团来！",
+            "zh": "发生什么事的话，不管是谁都请到救护骑士团来！",
             "jp": "何かあったら、どなたでも救護騎士団へ！"
         },
         "Nickname": ["大护士", "花绘"]
@@ -428,7 +428,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/7b/Hare_Icon.png"
         ],
         "Bio": {
-            "cn": "有急事请DM",
+            "zh": "有急事请DM",
             "jp": "急な用件はDMで"
         },
         "Nickname": ["小勾八", "EMP"]
@@ -439,7 +439,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8b/Utaha_Icon.png"
         ],
         "Bio": {
-            "cn": "随时接受改造、维修的委托",
+            "zh": "随时接受改造、维修的委托",
             "jp": "改造・修理の依頼ならいつでも"
         },
         "Nickname": ["炮台", "咏叶"]
@@ -452,7 +452,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/3f/Ayane_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "珍惜常识的对策委员会",
+            "zh": "珍惜常识的对策委员会",
             "jp": "常識を大切にする対策委員会です"
         },
         "Nickname": ["眼镜娘"]
@@ -463,7 +463,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a7/Chinatsu_Icon.png"
         ],
         "Bio": {
-            "cn": "丧失的前方",
+            "zh": "丧失的前方",
             "jp": "喪失の先に"
         },
         "Nickname": ["红裤袜"]
@@ -474,7 +474,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/41/Kotama_Icon.png"
         ],
         "Bio": {
-            "cn": "我一直守望着你",
+            "zh": "我一直守望着你",
             "jp": "あなたを見守っています"
         },
         "Nickname": ["窃听器"]
@@ -485,7 +485,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/15/Juri_Icon.png"
         ],
         "Bio": {
-            "cn": "今天也要全力以赴进行料理的练习！",
+            "zh": "今天也要全力以赴进行料理的练习！",
             "jp": "今日も一生懸命、料理の練習！"
         },
         "Nickname": ["朱莉"]
@@ -497,7 +497,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/87/Serina_Nurse_Icon.png"
         ],
         "Bio": {
-            "cn": "身体不舒服的人请随时联系我",
+            "zh": "身体不舒服的人请随时联系我",
             "jp": "体調が悪い方はいつでもご連絡を"
         },
         "Nickname": ["小护士", "没裤裆", "芹奈", "瀬里奈"]
@@ -508,7 +508,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c6/Shimiko_Icon.png"
         ],
         "Bio": {
-            "cn": "请在借阅期间内还书",
+            "zh": "请在借阅期间内还书",
             "jp": "本は期限内に返却してください"
         },
         "Nickname": ["眼镜娘"]
@@ -519,7 +519,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/84/Yoshimi_Icon.png"
         ],
         "Bio": {
-            "cn": "#还在成长期",
+            "zh": "#还在成长期",
             "jp": "#まだ成長期"
         },
         "Nickname": ["喜美", "长身体"]
@@ -530,7 +530,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/0e/Mashiro_Icon.png"
         ],
         "Bio": {
-            "cn": "聚沙成塔",
+            "zh": "聚沙成塔",
             "jp": "塵も積もれば山となる"
         },
         "Nickname": ["麻白"]
@@ -541,7 +541,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9b/Izuna_Icon.png"
         ],
         "Bio": {
-            "cn": "泉奈会加油的！忍忍！",
+            "zh": "泉奈会加油的！忍忍！",
             "jp": "イズナ、頑張ります！ ニンニン！"
         },
         "Nickname": ["小狐狸", "忍忍", "伊树菜"]
@@ -552,7 +552,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/04/Shizuko_Icon.png"
         ],
         "Bio": {
-            "cn": "百夜堂，今天也绝赞营业中！",
+            "zh": "百夜堂，今天也绝赞营业中！",
             "jp": "百夜堂、今日も元気に営業中！"
         },
         "Nickname": ["餐车"]
@@ -564,7 +564,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/3/26/749329.png"
         ],
         "Bio": {
-            "cn": "千年游戏开发部的爱丽丝",
+            "zh": "千年游戏开发部的爱丽丝",
             "jp": "ミレニアムのゲーム開発部、アリスです"
         },
         "Nickname": ["Alice", "Arisu", "Aris"]
@@ -577,7 +577,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/4/5/824530.png"
         ],
         "Bio": {
-            "cn": "请向我推荐游戏",
+            "zh": "请向我推荐游戏",
             "jp": "おすすめのゲーム教えてください"
         },
         "Nickname": ["小绿", "翠"]
@@ -590,7 +590,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/4/5/261764.png"
         ],
         "Bio": {
-            "cn": "致力于游戏！",
+            "zh": "致力于游戏！",
             "jp": "ゲーム一筋！"
         },
         "Nickname": ["小桃"]
@@ -601,7 +601,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/6a/Cherino_Icon.png"
         ],
         "Bio": {
-            "cn": "看看我的胡子吧！！",
+            "zh": "看看我的胡子吧！！",
             "jp": "このヒゲを見よ！！"
         },
         "Nickname": ["洁利诺", "斯大萝", "胡子", "斯大罗"]
@@ -612,7 +612,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2a/Nodoka_Icon.png"
         ],
         "Bio": {
-            "cn": "一起去看星星吧！★彡",
+            "zh": "一起去看星星吧！★彡",
             "jp": "一緒に星を見に行きましょう！★彡"
         },
         "Nickname": ["望远镜", "偷窥狂"]
@@ -623,7 +623,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/09/Yuzu_Icon.png"
         ],
         "Bio": {
-            "cn": "404 Not Found",
+            "zh": "404 Not Found",
             "jp": "404 Not Found"
         },
         "Nickname": ["社恐", "柜子"]
@@ -635,7 +635,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9d/Azusa_Mask_Icon.png"
         ],
         "Bio": {
-            "cn": "et omnia vanitas",
+            "zh": "et omnia vanitas",
             "jp": "et omnia vanitas"
         },
         "Nickname": ["小梓"]
@@ -647,7 +647,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/b7/Hanako_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "喜欢形形「色色」的类型♪",
+            "zh": "喜欢形形「色色」的类型♪",
             "jp": "「色々」と嗜むタイプです♪"
         },
         "Nickname": ["老司机"]
@@ -658,7 +658,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/7a/Koharu_Icon.png"
         ],
         "Bio": {
-            "cn": "色色的东西不行就是不行！",
+            "zh": "色色的东西不行就是不行！",
             "jp": "エッチなのはダメったらダメ！"
         },
         "Nickname": ["涩涩", "色色", "瑟瑟"]
@@ -669,7 +669,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f0/Azusa_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "A brevis paradisum",
+            "zh": "A brevis paradisum",
             "jp": "A brevis paradisum"
         },
         "Nickname": ["水梓"]
@@ -680,7 +680,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/30/Mashiro_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "井底之蛙 不知大海",
+            "zh": "井底之蛙 不知大海",
             "jp": "井の中の蛙 大海を知らず"
         },
         "Nickname": ["水真白", "水麻白"]
@@ -691,7 +691,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/fc/Tsurugi_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "夏日、大海、青春",
+            "zh": "夏日、大海、青春",
             "jp": "夏、海、青春"
         },
         "Nickname": ["水颜艺"]
@@ -702,7 +702,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/d5/Hifumi_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "请看新的佩洛洛大人泳圈！",
+            "zh": "请看新的佩洛洛大人泳圈！",
             "jp": "新しいペロロ様の浮き輪、見てください！"
         },
         "Nickname": [
@@ -722,7 +722,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/3b/Hina_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["水魔王", "水日奈", "水hina", "水阳奈", "水雏", "水老婆"]
@@ -733,7 +733,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/34/Iori_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "夏季合宿训练中",
+            "zh": "夏季合宿训练中",
             "jp": "夏の合宿訓練中"
         },
         "Nickname": ["水佐仓"]
@@ -744,7 +744,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e1/Izumi_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "前往寻找夏天美食之旅！",
+            "zh": "前往寻找夏天美食之旅！",
             "jp": "夏のグルメを求める旅へ！"
         },
         "Nickname": ["水汉堡", "水老八"]
@@ -755,7 +755,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Shiroko_Riding_Icon.png"
         ],
         "Bio": {
-            "cn": "正在纵贯鸡窝托斯中",
+            "zh": "正在纵贯鸡窝托斯中",
             "jp": "今キヴォトス縦断中"
         },
         "Nickname": ["小车唯", "xcw", "车白", "骑白子", "骑行白子"]
@@ -766,7 +766,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/47/Shun_Young_Icon.png"
         ],
         "Bio": {
-            "cn": "想吃糖葫芦的心情！",
+            "zh": "想吃糖葫芦的心情！",
             "jp": "タンフールーが食べたい気分です！"
         },
         "Nickname": [
@@ -786,7 +786,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/fa/Kirino_Icon.png"
         ],
         "Bio": {
-            "cn": "女武神警察学园，转学生募集中！",
+            "zh": "女武神警察学园，转学生募集中！",
             "jp": "ヴァルキューレ警察学校、転入学者募集中！"
         },
         "Nickname": ["陈睿", "cr", "警察坦"]
@@ -797,7 +797,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a7/Saya_Casual_Icon.png"
         ],
         "Bio": {
-            "cn": "我什么都知道！",
+            "zh": "我什么都知道！",
             "jp": "ぼく様は何でも知っているのだ！"
         },
         "Nickname": ["私服沙耶", "私服老鼠", "私服鼠鼠", "滑鼠"]
@@ -808,7 +808,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/1e/Neru_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "看什么看",
+            "zh": "看什么看",
             "jp": "見せもんじゃねぇぞ"
         },
         "Nickname": ["红兔"]
@@ -819,7 +819,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/12/Karin_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "任务中",
+            "zh": "任务中",
             "jp": "任務中"
         },
         "Nickname": ["黑兔"]
@@ -830,7 +830,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/81/Asuna_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "带给主人最棒的快乐！",
+            "zh": "带给主人最棒的快乐！",
             "jp": "最高の楽しさをご主人様に!"
         },
         "Nickname": ["兔丝娜"]
@@ -841,7 +841,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/5/5b/Natsu_Icon.png"
         ],
         "Bio": {
-            "cn": "人生是巧克力蝴蝶饼",
+            "zh": "人生是巧克力蝴蝶饼",
             "jp": "人生はチョコレートプレッツェル"
         },
         "Nickname": ["康娜", "拉菲", "小夏"]
@@ -852,7 +852,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e0/Mari_Icon.png"
         ],
         "Bio": {
-            "cn": "愿大家的心得到安宁",
+            "zh": "愿大家的心得到安宁",
             "jp": "みなさんの心が、安らぎと共にありますように"
         },
         "Nickname": ["修女"]
@@ -863,7 +863,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/39/Miku_Icon.png"
         ],
         "Bio": {
-            "cn": "演唱会，尽情期待哦！",
+            "zh": "演唱会，尽情期待哦！",
             "jp": "ライブ、楽しみにしててくださいね！"
         },
         "Nickname": []
@@ -875,7 +875,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e9/Ako_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "谢绝业务以外的联络",
+            "zh": "谢绝业务以外的联络",
             "jp": "業務以外の連絡はお断りです"
         },
         "Nickname": []
@@ -886,7 +886,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/96/Cherino_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "世界上没有不好的胡子！",
+            "zh": "世界上没有不好的胡子！",
             "jp": "世の中に悪い髭など無い！"
         },
         "Nickname": ["温泉胡子", "温泉罗"]
@@ -897,7 +897,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/34/Chinatsu_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "寻求未知的视野",
+            "zh": "寻求未知的视野",
             "jp": "未知の視界を求めて"
         },
         "Nickname": ["温泉夏"]
@@ -908,7 +908,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/3d/Tomoe_Icon.png"
         ],
         "Bio": {
-            "cn": "想了解切里诺会长的丰功伟业吗？",
+            "zh": "想了解切里诺会长的丰功伟业吗？",
             "jp": "チェリノ会長についてのお話を聞かれませんか？"
         },
         "Nickname": ["巴"]
@@ -919,7 +919,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/d7/Nodoka_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "227号温泉乡，住宿预约接受中！",
+            "zh": "227号温泉乡，住宿预约接受中！",
             "jp": "227号温泉郷、宿泊予約受付中です！"
         },
         "Nickname": ["老板娘"]
@@ -930,7 +930,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/60/Aru_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "今年也请多多指教",
+            "zh": "今年也请多多指教",
             "jp": "本年もどうぞよろしくお願いいたします"
         },
         "Nickname": ["春鲁", "新社", "春露", "新春阿鲁", "春社长", "新春社长", "正月亚瑠"]
@@ -941,7 +941,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bf/Mutsuki_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "让今年变成快乐的一年吧♪",
+            "zh": "让今年变成快乐的一年吧♪",
             "jp": "今年はもっと楽しい一年にしようね♪"
         },
         "Nickname": ["春睦月", "春雷", "春月", "新月", "春大头"]
@@ -952,7 +952,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/be/Serika_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "谨贺新年",
+            "zh": "谨贺新年",
             "jp": "新年明けましておめでとうございます"
         },
         "Nickname": ["新年猫猫", "春黑", "新春黑猫"]
@@ -965,7 +965,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/68/Wakamo_Kimono_Icon.png"
         ],
         "Bio": {
-            "cn": "我会永远陪伴在阁下的身旁……♡",
+            "zh": "我会永远陪伴在阁下的身旁……♡",
             "jp": "私はいつも、あなた様のそばに……♡"
         },
         "Nickname": ["大狐狸", "藻子姐"]
@@ -976,7 +976,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Fubuki_Icon.png"
         ],
         "Bio": {
-            "cn": "咖啡要配甜甜圈！",
+            "zh": "咖啡要配甜甜圈！",
             "jp": "コーヒーにはドーナッツ！"
         },
         "Nickname": ["甜甜圈", "摆烂"]
@@ -987,7 +987,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/37/Sena_Icon.png"
         ],
         "Bio": {
-            "cn": "请把我设为紧急联络人",
+            "zh": "请把我设为紧急联络人",
             "jp": "緊急メッセージの受信設定をお願いします"
         },
         "Nickname": ["救护车", "jo护车", "泥头车"]
@@ -998,7 +998,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/aa/Chihiro_Icon.png"
         ],
         "Bio": {
-            "cn": "安全性检查从日常做起",
+            "zh": "安全性检查从日常做起",
             "jp": "セキュリティチェックは日頃から"
         },
         "Nickname": ["円香", "円"]
@@ -1010,7 +1010,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Mimori_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "每天踏实，一步一步",
+            "zh": "每天踏实，一步一步",
             "jp": "毎日着実に、一歩ずつ"
         },
         "Nickname": ["大和抚子"]
@@ -1021,7 +1021,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f8/Ui_Icon.png"
         ],
         "Bio": {
-            "cn": "正在办其他事",
+            "zh": "正在办其他事",
             "jp": "作業中"
         },
         "Nickname": []
@@ -1032,7 +1032,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/13/Hinata_Icon.png"
         ],
         "Bio": {
-            "cn": "有困难时，请随时联系我",
+            "zh": "有困难时，请随时联系我",
             "jp": "何かお困りの際は、いつでもご連絡ください！"
         },
         "Nickname": ["修女"]
@@ -1043,7 +1043,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/b0/Marina_Icon.png"
         ],
         "Bio": {
-            "cn": "叛逆者统统肃清！",
+            "zh": "叛逆者统统肃清！",
             "jp": "不穏分子は粛清する！"
         },
         "Nickname": ["保洁大妈", "保洁阿姨"]
@@ -1055,7 +1055,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/27/Oil_Drum_Icon.png"
         ],
         "Bio": {
-            "cn": "为了鸡窝托斯的和平",
+            "zh": "为了鸡窝托斯的和平",
             "jp": "キヴォトスの平和のために"
         },
         "Nickname": ["你这样的大人", "兔兔", "兔子", "都子"]
@@ -1067,7 +1067,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/27/Oil_Drum_Icon.png"
         ],
         "Bio": {
-            "cn": "与其张嘴不如行动",
+            "zh": "与其张嘴不如行动",
             "jp": "言葉より行動で"
         },
         "Nickname": ["咲希"]
@@ -1078,7 +1078,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/23/Miyu_Icon.png"
         ],
         "Bio": {
-            "cn": "眼前一片黑……",
+            "zh": "眼前一片黑……",
             "jp": "一寸先は闇……"
         },
         "Nickname": ["垃圾兔", "垃姬兔", "拉姬兔"]
@@ -1089,7 +1089,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c1/Kaede_Icon.png"
         ],
         "Bio": {
-            "cn": "今天要玩什么呢！？",
+            "zh": "今天要玩什么呢！？",
             "jp": "今日は何して遊ぶ！？"
         },
         "Nickname": []
@@ -1100,7 +1100,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/6/6a/Iroha_Icon.png"
         ],
         "Bio": {
-            "cn": "读书时除了紧急状况请不要联络我",
+            "zh": "读书时除了紧急状况请不要联络我",
             "jp": "読書中につき、急用以外は連絡しないでください"
         },
         "Nickname": ["168", "一本好书", "两本好书", "虎式"]
@@ -1111,7 +1111,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/24/Michiru_Icon.png"
         ],
         "Bio": {
-            "cn": "请订阅「少女忍法帖小满」频道！",
+            "zh": "请订阅「少女忍法帖小满」频道！",
             "jp": "「少女忍法帖ミチルっち」チャンネル登録よろしく！"
         },
         "Nickname": ["三千留", "部长", "小满"]
@@ -1122,7 +1122,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/5/54/Tsukuyo_Icon.png"
         ],
         "Bio": {
-            "cn": "未来要成为，独当一面的忍者……",
+            "zh": "未来要成为，独当一面的忍者……",
             "jp": "いつかは、一人前の忍者に……"
         },
         "Nickname": ["大只女", "大野", "巨忍"]
@@ -1134,7 +1134,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8f/Misaki_Icon.png"
         ],
         "Bio": {
-            "cn": "希望可以下点雨……",
+            "zh": "希望可以下点雨……",
             "jp": "雨でも降らないかな……"
         },
         "Nickname": ["円香", "圆香"]
@@ -1145,7 +1145,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/af/Hiyori_Icon.png"
         ],
         "Bio": {
-            "cn": "人生是痛苦的连续……",
+            "zh": "人生是痛苦的连续……",
             "jp": "人生は、苦痛の連続です……"
         },
         "Nickname": []
@@ -1158,7 +1158,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/83/Atsuko_Undersuit_Icon.png"
         ],
         "Bio": {
-            "cn": "最近正在学习花语",
+            "zh": "最近正在学习花语",
             "jp": "最近は花言葉を勉強してる"
         },
         "Nickname": ["敦子", "公主"]
@@ -1171,7 +1171,7 @@
             "https://schale.gg/images/enemy/EnemyInfo_Wakamo_HoverCraft_Original.png"
         ],
         "Bio": {
-            "cn": "比夏日还热情的心意♡",
+            "zh": "比夏日还热情的心意♡",
             "jp": "夏よりもなお熱いこの心で♡"
         },
         "Nickname": ["水若藻", "大狐狸", "水狐狸", "水狐", "水藻"]
@@ -1183,7 +1183,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/41/Nonomi_Swimsuit_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "是大海哦，大海~",
+            "zh": "是大海哦，大海~",
             "jp": "海ですよ、海～！"
         },
         "Nickname": ["水富婆", "水乃美", "水nnm"]
@@ -1194,7 +1194,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/af/Ayane_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "玩的时候就要好好玩！",
+            "zh": "玩的时候就要好好玩！",
             "jp": "遊ぶときはしっかり遊びましょう！"
         },
         "Nickname": ["直升机"]
@@ -1206,7 +1206,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/80/Hoshino_Swimsuit_Robber_Icon.png"
         ],
         "Bio": {
-            "cn": "午睡中~欢迎同道中人",
+            "zh": "午睡中~欢迎同道中人",
             "jp": "お昼寝中～。仲間はいつでも歓迎だよ"
         },
         "Nickname": ["水星野", "水大叔", "一动不动也好热阿"]
@@ -1217,7 +1217,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/4f/Shizuko_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "百夜堂连锁店热烈营业中！",
+            "zh": "百夜堂连锁店热烈营业中！",
             "jp": "百夜堂フランチャイズ絶賛営業中！"
         },
         "Nickname": ["水静子", "水老板娘"]
@@ -1228,7 +1228,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f6/Izuna_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "这次要在海边修行咯！忍忍！",
+            "zh": "这次要在海边修行咯！忍忍！",
             "jp": "今度は海で修行です！ニンニン！"
         },
         "Nickname": ["水狐狸", "水伊树菜", "水忍忍", "水忍狐", "水泉奈", "水小狐狸"]
@@ -1239,7 +1239,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/1/11/Chise_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "光芒~会在哪里呢？",
+            "zh": "光芒~会在哪里呢？",
             "jp": "キラキラ～。どこにあるのかな？"
         },
         "Nickname": ["水千世", "水千"]
@@ -1251,7 +1251,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f1/Saori_Unmask_Icon.png"
         ],
         "Bio": {
-            "cn": "努力在努力",
+            "zh": "努力在努力",
             "jp": "努力あるのみ"
         },
         "Nickname": ["骚梨"]
@@ -1264,7 +1264,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_200/h_200/829/43637/2023/5/27/712489.png"
         ],
         "Bio": {
-            "cn": "正在积极收购没在用的导弹、炮弹！",
+            "zh": "正在积极收购没在用的导弹、炮弹！",
             "jp": "使わないミサイルや砲 弾、積極的に買い取り中！"
         },
         "Nickname": []
@@ -1275,7 +1275,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/cb/Kazusa_Icon.png"
         ],
         "Bio": {
-            "cn": "放学后的甜点部成员",
+            "zh": "放学后的甜点部成员",
             "jp": "放課後スイーツ部のメンバーです"
         },
         "Nickname": ["千纱", "黑猫"]
@@ -1286,7 +1286,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/4a/Kokona_Icon.png"
         ],
         "Bio": {
-            "cn": "我是山海经的教官！",
+            "zh": "我是山海经的教官！",
             "jp": "山海経の教官です！"
         },
         "Nickname": ["心菜"]
@@ -1297,7 +1297,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Utaha_Cheerleader_Icon.png"
         ],
         "Bio": {
-            "cn": "应援委托受理中！",
+            "zh": "应援委托受理中！",
             "jp": "応援依頼受付中！"
         },
         "Nickname": ["应援咏叶"]
@@ -1308,7 +1308,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/31/Noa_Icon.png"
         ],
         "Bio": {
-            "cn": "奇普托斯的忧郁",
+            "zh": "奇普托斯的忧郁",
             "jp": "キヴォトスの憂鬱"
         },
         "Nickname": ["生理盐水"]
@@ -1319,7 +1319,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/ab/Hibiki_Cheerleader_Icon.png"
         ],
         "Bio": {
-            "cn": "如果有更多时间练习的话……",
+            "zh": "如果有更多时间练习的话……",
             "jp": "もう少し練習する時間があれば……"
         },
         "Nickname": ["应援响"]
@@ -1330,7 +1330,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/7f/Akane_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "和有点新鲜的日常生活一起",
+            "zh": "和有点新鲜的日常生活一起",
             "jp": "少しだけ新しい日常と共に"
         },
         "Nickname": ["白兔"]
@@ -1341,7 +1341,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/95/Yuuka_Gym_Icon.png"
         ],
         "Bio": {
-            "cn": "晄轮大祭开催中！",
+            "zh": "晄轮大祭开催中！",
             "jp": "晄輪大祭開催中！"
         },
         "Nickname": ["体香"]
@@ -1352,7 +1352,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/99/Mari_Gym_Icon.png"
         ],
         "Bio": {
-            "cn": "希望运动会平安度过",
+            "zh": "希望运动会平安度过",
             "jp": "平和なお祭りになりますように"
         },
         "Nickname": ["体玛丽", "体马"]
@@ -1363,7 +1363,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9e/Hasumi_Gym_Icon.png"
         ],
         "Bio": {
-            "cn": "运动会运营相关的咨询请到执行委员会",
+            "zh": "运动会运营相关的咨询请到执行委员会",
             "jp": "大会運営に関するお問い合わせは実行委員会まで"
         },
         "Nickname": []
@@ -1375,7 +1375,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/45/Himari_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "千禧最高峰的超天才清纯系病弱美少女",
+            "zh": "千禧最高峰的超天才清纯系病弱美少女",
             "jp": "ミレニアム最高峰の超天才清楚系病弱美少女"
         },
         "Nickname": ["轮椅拐", "天才病弱美少女", "otto"]
@@ -1388,7 +1388,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/91/Shigure_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "调一杯饮料改变人生的时间到啦",
+            "zh": "调一杯饮料改变人生的时间到啦",
             "jp": "飲み物を混ぜて人生を変える時間だね"
         },
         "Nickname": ["酒鬼", "酒蒙子"]
@@ -1399,7 +1399,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/d9/Serina_Christmas_Icon.png"
         ],
         "Bio": {
-            "cn": "在这圣夜里，希望大家都有幸福来敲门",
+            "zh": "在这圣夜里，希望大家都有幸福来敲门",
             "jp": "聖なる夜、みなさんに幸せが訪れますよう"
         },
         "Nickname": ["圣诞小护士", "圣诞芹奈", "圣诞瀬里奈"]
@@ -1410,7 +1410,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/0a/Hanae_Christmas_Icon.png"
         ],
         "Bio": {
-            "cn": "在等圣诞老人！",
+            "zh": "在等圣诞老人！",
             "jp": "サンタさんを待ってます！"
         },
         "Nickname": ["圣诞大护士", "圣诞花绘"]
@@ -1421,7 +1421,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/4b/Haruna_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "今年也要继续去探寻究极的美食",
+            "zh": "今年也要继续去探寻究极的美食",
             "jp": "今年も、究極の美食を探求いたします"
         },
         "Nickname": ["春晴奈", "春羽榴奈", "春美食狙"]
@@ -1432,7 +1432,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f9/Fuuka_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "平稳无事、祈愿中",
+            "zh": "平稳无事、祈愿中",
             "jp": "平穏無事、祈願中"
         },
         "Nickname": [
@@ -1451,7 +1451,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/31/Junko_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "吃东西的时候别来烦我！",
+            "zh": "吃东西的时候别来烦我！",
             "jp": "食べてる時は邪魔しないで！"
         },
         "Nickname": ["春丸子", "春小火龙", "正月春丸子", "正月小火龙"]
@@ -1462,7 +1462,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/b1/Mine_Icon.png"
         ],
         "Bio": {
-            "cn": "我时刻准备着",
+            "zh": "我时刻准备着",
             "jp": "私はいつでも準備できております"
         },
         "Nickname": []
@@ -1475,7 +1475,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/7/73/Mika_School_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "能一起说话的同伴招募中",
+            "zh": "能一起说话的同伴招募中",
             "jp": "一緒にお話してくれる人募集中！"
         },
         "Nickname": ["瑞士卷", "三力", "公主", "粉色大猩猩"]
@@ -1486,7 +1486,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9b/Megu_Icon.png"
         ],
         "Bio": {
-            "cn": "随时欢迎温泉开发的同志哦！",
+            "zh": "随时欢迎温泉开发的同志哦！",
             "jp": "温泉開発の同志はいつでも歓迎だよ！"
         },
         "Nickname": ["喷火器"]
@@ -1497,7 +1497,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/ba/Kanna_Icon.png"
         ],
         "Bio": {
-            "cn": "为了创建安全的基沃托斯，交给瓦尔基里吧",
+            "zh": "为了创建安全的基沃托斯，交给瓦尔基里吧",
             "jp": "安全なキヴォトスを目指して、ヴァルキューレにお任せを"
         },
         "Nickname": ["社畜"]
@@ -1509,7 +1509,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/89/Sakurako_Icon_3.png"
         ],
         "Bio": {
-            "cn": "一直在守望着",
+            "zh": "一直在守望着",
             "jp": "いつも見守っています"
         },
         "Nickname": ["觉悟姐"]
@@ -1522,7 +1522,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/05/Toki_Abi-Eshufu_Icon.png"
         ],
         "Bio": {
-            "cn": "时常待机中",
+            "zh": "时常待机中",
             "jp": "常時待機中"
         },
         "Nickname": ["季"]
@@ -1534,7 +1534,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f8/Nagisa_Icon_3.png"
         ],
         "Bio": {
-            "cn": "永远游刃有余，优雅面对",
+            "zh": "永远游刃有余，优雅面对",
             "jp": "いつでも余裕をもって、優雅に"
         },
         "Nickname": ["渚哥哥", "红茶"]
@@ -1547,7 +1547,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a0/Koyuki_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "哎呀，这算是我的错吗……？",
+            "zh": "哎呀，这算是我的错吗……？",
             "jp": "いや、これって私のせいですか……？"
         },
         "Nickname": []
@@ -1558,7 +1558,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/23/Kayoko_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "谨贺新年",
+            "zh": "谨贺新年",
             "jp": "謹賀新年"
         },
         "Nickname": ["春代"]
@@ -1569,7 +1569,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Haruka_New_Year_Icon.png"
         ],
         "Bio": {
-            "cn": "新年也请一直幸福地度过",
+            "zh": "新年也请一直幸福地度过",
             "jp": "新年も末永くお幸せにお過ごしください"
         },
         "Nickname": ["新年春香", "正月春香", "春遥香"]
@@ -1580,7 +1580,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/be/Kaho_Icon.png"
         ],
         "Bio": {
-            "cn": "业务相关请随时咨询",
+            "zh": "业务相关请随时咨询",
             "jp": "業務に関してはお気軽にご相談ください"
         },
         "Nickname": ["侧乳"]
@@ -1591,7 +1591,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/48/Alice_Maid_Icon.png"
         ],
         "Bio": {
-            "cn": "我是女仆勇者爱丽丝",
+            "zh": "我是女仆勇者爱丽丝",
             "jp": "メイド勇者のアリスです"
         },
         "Nickname": ["Alice", "Arisu", "Aris", "扫地机器人"]
@@ -1602,7 +1602,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/ff/Toki_Bunny_Girl_Icon.png"
         ],
         "Bio": {
-            "cn": "作战待机中",
+            "zh": "作战待机中",
             "jp": "作戦待機中"
         },
         "Nickname": ["兔时", "兔季"]
@@ -1613,7 +1613,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e1/Yuzu_Maid_Icon.png"
         ],
         "Bio": {
-            "cn": "403 Forbidden",
+            "zh": "403 Forbidden",
             "jp": "403 Forbidden"
         },
         "Nickname": ["女仆柚子"]
@@ -1624,7 +1624,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e5/Reisa_Icon.png"
         ],
         "Bio": {
-            "cn": "The ♠ of Vigilante",
+            "zh": "The ♠ of Vigilante",
             "jp": "The ♠ of Vigilante"
         },
         "Nickname": ["甜甜圈", "挑战书"]
@@ -1635,7 +1635,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bc/Rumi_Icon.png"
         ],
         "Bio": {
-            "cn": "玄武商会，正在营业中",
+            "zh": "玄武商会，正在营业中",
             "jp": "玄武商会、営業中だよ"
         },
         "Nickname": ["厨子", "厨师", "大厨"]
@@ -1646,10 +1646,10 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8f/Mina_Icon.png"
         ],
         "Bio": {
-            "cn": "能听到风声啊……",
+            "zh": "能听到风声啊……",
             "jp": "風の声が聞こえるな……"
         },
-        "Nickname": ["墨镜"]
+        "Nickname": ["墨镜", "发哥"]
     },
     {
         "Id": 20026,
@@ -1657,7 +1657,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/4/43/Minori_Icon.png"
         ],
         "Bio": {
-            "cn": "联邦学生会应保证每周休息4天！",
+            "zh": "联邦学生会应保证每周休息4天！",
             "jp": "連邦生徒会は週休4日を保障せよ！"
         },
         "Nickname": ["扩音器", "大喇叭", "游行"]
@@ -1668,7 +1668,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8e/Miyako_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "用结果来证明",
+            "zh": "用结果来证明",
             "jp": "結果で証明します"
         },
         "Nickname": ["水宫子", "水都子"]
@@ -1679,7 +1679,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e5/Saki_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "让不可能化为可能",
+            "zh": "让不可能化为可能",
             "jp": "不可能を可能に"
         },
         "Nickname": ["水咲"]
@@ -1690,7 +1690,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/9b/Miyu_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "船到桥头自然直",
+            "zh": "船到桥头自然直",
             "jp": "明日は明日の風が吹く"
         },
         "Nickname": ["水美游", "水垃圾兔", "水垃姬兔", "水拉姬兔"]
@@ -1701,7 +1701,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/c8/Shiroko_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "嗯，需要食物请联络我",
+            "zh": "嗯，需要食物请联络我",
             "jp": "ん、食糧が必要な人は連絡して"
         },
         "Nickname": ["水白子", "水仓唯", "xcw"]
@@ -1712,7 +1712,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/5/53/Ui_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "出差中",
+            "zh": "出差中",
             "jp": "出張中"
         },
         "Nickname": ["水忧", "水ui"]
@@ -1723,7 +1723,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/c/cd/Hinata_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "出差中，有事请留言！",
+            "zh": "出差中，有事请留言！",
             "jp": "出張中です、なにかありましたらメッセージをどうぞ！"
         },
         "Nickname": ["水日向"]
@@ -1734,7 +1734,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/03/Koharu_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "泳装才不是涩涩呢！",
+            "zh": "泳装才不是涩涩呢！",
             "jp": "水着はエッチじゃないんだからね！"
         },
         "Nickname": ["水小春"]
@@ -1745,7 +1745,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/9/96/Hanako_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "我的真面目，可以随着肌肤一同裸露出来吗？",
+            "zh": "我的真面目，可以随着肌肤一同裸露出来吗？",
             "jp": "さらけ出した肌のぶんだけ、素直になっていいですか？"
         },
         "Nickname": ["水花子", "紫攻花子"]
@@ -1756,7 +1756,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Mimori_Swimsuit_Icon.png"
         ],
         "Bio": {
-            "cn": "总觉得，会有什么好事发生",
+            "zh": "总觉得，会有什么好事发生",
             "jp": "なんだか、いいことが起きそう"
         },
         "Nickname": ["水三森"]
@@ -1769,7 +1769,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2c/Meru_Hot_Spring_Icon.png"
         ],
         "Bio": {
-            "cn": "画画时独自言自语的次数会变多呢～",
+            "zh": "画画时独自言自语的次数会变多呢～",
             "jp": "お絵かきしてると、独り言が増えるんだよね～"
         },
         "Nickname": ["梅露", "爱瑠"]
@@ -1780,7 +1780,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a9/Momiji_Icon.png"
         ],
         "Bio": {
-            "cn": "知识就是力量。我会好好保护它的！",
+            "zh": "知识就是力量。我会好好保护它的！",
             "jp": "知識は力。ちゃんと守っていきます！"
         },
         "Nickname": []
@@ -1791,7 +1791,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/b/bb/Kotori_Cheerleader_Icon.png"
         ],
         "Bio": {
-            "cn": "健全的知识寓于健康的身体！",
+            "zh": "健全的知识寓于健康的身体！",
             "jp": "健全な知識は健全な肉体に宿ります！"
         },
         "Nickname": ["应援小鸟", "应援琴里"]
@@ -1802,7 +1802,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/0b/Haruna_Gym_Icon.png"
         ],
         "Bio": {
-            "cn": "一起来探寻运动和美事之间的关系吧",
+            "zh": "一起来探寻运动和美食之间的关系吧",
             "jp": "運動と美食の相関関係を探してみましょうか"
         },
         "Nickname": []

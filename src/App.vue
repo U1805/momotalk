@@ -221,7 +221,7 @@ export default defineComponent({
             }
         }
         this.$nextTick(async () => {
-            this.database = await getStudents('cn')
+            this.database = await getStudents('zh')
             this.dataDisplayIndex = 0
         })
     }

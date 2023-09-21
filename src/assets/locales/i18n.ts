@@ -1,7 +1,7 @@
 import { createI18n } from 'vue-i18n'
 
 const messages = {
-    cn: {
+    zh: {
         selectInfo: '请选择学生',
         imageUploadAlert: '目前不建议上传大于 1MB 的图片哦！',
         customRoleInfo: '请输入自定义角色名',
@@ -18,8 +18,8 @@ const messages = {
 }
 
 const i18n = createI18n({
-    locale: 'cn',
-    fallbackLocale: 'cn',
+    locale: 'zh',
+    fallbackLocale: 'zh',
     messages
 })
 

@@ -2,7 +2,7 @@
     {
         "Id": 100,
         "Name": {
-            "cn": "阿罗娜",
+            "zh": "阿罗娜",
             "jp": "アロナ"
         },
         "Avatar": [
@@ -10,7 +10,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/e/e0/Arona_Icon.png"
         ],
         "Bio": {
-            "cn": "吃不下这么多了……",
+            "zh": "吃不下这么多了……",
             "jp": "そんなに食べられません…"
         },
         "Nickname": ["Arona", "彩奈"]
@@ -18,14 +18,14 @@
     {
         "Id": 101,
         "Name": {
-            "cn": "普拉娜",
+            "zh": "普拉娜",
             "jp": "プラナ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/2/24/A.R.O.N.A_Icon.png"
         ],
         "Bio": {
-            "cn": "前辈，该起床了",
+            "zh": "前辈，该起床了",
             "jp": "先輩、そろそろ起きないと"
         },
         "Nickname": ["Purana", "A.R.O.N.A"]
@@ -33,14 +33,14 @@
     {
         "Id": 102,
         "Name": {
-            "cn": "空",
+            "zh": "空",
             "jp": "ソラ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/b/b4/Sora_Icon.png"
         ],
         "Bio": {
-            "cn": "欢、欢迎光临！",
+            "zh": "欢、欢迎光临！",
             "jp": "い、い、いっらしゃいませ！"
         },
         "Nickname": ["Sora", "额头", "天使24", "便利店"]
@@ -48,14 +48,14 @@
     {
         "Id": 110,
         "Name": {
-            "cn": "会长",
+            "zh": "会长",
             "jp": "連邦生徒会長"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/f/f9/GSC_President_Icon.png"
         ],
         "Bio": {
-            "cn": "找到引导我们走向新现实的选择",
+            "zh": "找到引导我们走向新现实的选择",
             "jp": "新しい現実に導く選択を見つける"
         },
         "Nickname": ["President", "联邦学生会长"]
@@ -63,7 +63,7 @@
     {
         "Id": 111,
         "Name": {
-            "cn": "凛",
+            "zh": "凛",
             "jp": "リン"
         },
         "Avatar": [
@@ -71,7 +71,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/0/09/Rin_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "从现在开始，全靠你了，老师",
+            "zh": "从现在开始，全靠你了，老师",
             "jp": "今からは、あなたにかかっています、先生"
         },
         "Nickname": ["Rin"]
@@ -79,7 +79,7 @@
     {
         "Id": 112,
         "Name": {
-            "cn": "桃香",
+            "zh": "桃香",
             "jp": "モモカ"
         },
         "Avatar": [
@@ -87,7 +87,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/5/5f/Momoka_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "我的外卖到了，一会儿再联系你！",
+            "zh": "我的外卖到了，一会儿再联系你！",
             "jp": "デリバリーが届きました、後で連絡します！"
         },
         "Nickname": ["Momoka", "明太子"]
@@ -95,14 +95,14 @@
     {
         "Id": 113,
         "Name": {
-            "cn": "花耶",
+            "zh": "花耶",
             "jp": "カヤ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/b/bd/Kaya_Icon.png"
         ],
         "Bio": {
-            "cn": "谁在乎规则，对吧！?",
+            "zh": "谁在乎规则，对吧！?",
             "jp": "ルールなんて気にしないよ"
         },
         "Nickname": ["Kaya", "卡娅"]
@@ -110,7 +110,7 @@
     {
         "Id": 114,
         "Name": {
-            "cn": "步美",
+            "zh": "步美",
             "jp": "アユム"
         },
         "Avatar": [
@@ -118,7 +118,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/3/32/Ayumu_Ark_Uniform_Icon.png"
         ],
         "Bio": {
-            "cn": "我希望能够像老师一样工作……",
+            "zh": "我希望能够像老师一样工作……",
             "jp": "私も先生のように仕事ができる…"
         },
         "Nickname": ["Ayumu"]
@@ -126,14 +126,14 @@
     {
         "Id": 115,
         "Name": {
-            "cn": "葵",
+            "zh": "葵",
             "jp": "アオイ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/5/56/Aoi_Icon.png"
         ],
         "Bio": {
-            "cn": "但你不是她，凛。永远不是",
+            "zh": "但你不是她，凛。永远不是",
             "jp": "君は彼女じゃない、リン。永遠に"
         },
         "Nickname": ["Aoi"]
@@ -141,14 +141,14 @@
     {
         "Id": 116,
         "Name": {
-            "cn": "灰音",
+            "zh": "灰音",
             "jp": "ハイネ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/b/b7/Haine_Icon.png"
         ],
         "Bio": {
-            "cn": "那只狐狸真是冷酷无情！",
+            "zh": "那只狐狸真是冷酷无情！",
             "jp": "あのキツネは容赦がなかった！"
         },
         "Nickname": ["Haine"]
@@ -156,14 +156,14 @@
     {
         "Id": 117,
         "Name": {
-            "cn": "李",
+            "zh": "李",
             "jp": "スモモ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/4/4a/Sumomo_Icon.png"
         ],
         "Bio": {
-            "cn": "哈啊~… 我困得吃不下饭团了~",
+            "zh": "哈啊~… 我困得吃不下饭团了~",
             "jp": "ふわぁ〜…おにぎり食べるのも眠すぎる〜"
         },
         "Nickname": ["Sumomo"]
@@ -171,14 +171,14 @@
     {
         "Id": 120,
         "Name": {
-            "cn": "梦",
+            "zh": "梦",
             "jp": "ユメ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/9/97/Hoshino_Past_2.png"
         ],
         "Bio": {
-            "cn": "…与你共度时光感觉像是一个奇迹",
+            "zh": "…与你共度时光感觉像是一个奇迹",
             "jp": "…君と過ごす時間は奇跡"
         },
         "Nickname": ["Yume"]
@@ -186,14 +186,14 @@
     {
         "Id": 130,
         "Name": {
-            "cn": "真琴",
+            "zh": "真琴",
             "jp": "マコト"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/a/ac/Makoto_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Makoto"]
@@ -201,14 +201,14 @@
     {
         "Id": 131,
         "Name": {
-            "cn": "皐月",
+            "zh": "皐月",
             "jp": "サツキ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/4/4e/Satsuki_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Satsuki"]
@@ -216,14 +216,14 @@
     {
         "Id": 132,
         "Name": {
-            "cn": "伊吹",
+            "zh": "伊吹",
             "jp": "イブキ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/3/36/Ibuki_Icon.png"
         ],
         "Bio": {
-            "cn": "伊吹会尽全力的！",
+            "zh": "伊吹会尽全力的！",
             "jp": "イブキは全力を尽くします！"
         },
         "Nickname": ["Ibuki"]
@@ -231,14 +231,14 @@
     {
         "Id": 133,
         "Name": {
-            "cn": "霞",
+            "zh": "霞",
             "jp": "カスミ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/1e/Kasumi_Icon.png"
         ],
         "Bio": {
-            "cn": "有温泉就是好日子！",
+            "zh": "有温泉就是好日子！",
             "jp": "温泉の生活は素晴らしい人生だ！"
         },
         "Nickname": ["Kasumi"]
@@ -246,14 +246,14 @@
     {
         "Id": 134,
         "Name": {
-            "cn": "绘梨香",
+            "zh": "绘梨香",
             "jp": "エリカ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/d/d3/Erika_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Erika"]
@@ -261,14 +261,14 @@
     {
         "Id": 135,
         "Name": {
-            "cn": "绮良",
+            "zh": "绮良",
             "jp": "キララ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/b/b6/Kirara_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Kirara"]
@@ -276,14 +276,14 @@
     {
         "Id": 140,
         "Name": {
-            "cn": "莉音",
+            "zh": "莉音",
             "jp": "リオ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/c/ca/Rio_Icon.png"
         ],
         "Bio": {
-            "cn": "我不是在说喜欢或不喜欢…只是事实",
+            "zh": "我不是在说喜欢或不喜欢…只是事实",
             "jp": "好き嫌いではない…事実だけ"
         },
         "Nickname": ["Rio", "理绪"]
@@ -291,14 +291,14 @@
     {
         "Id": 150,
         "Name": {
-            "cn": "圣娅",
+            "zh": "圣娅",
             "jp": "セイア"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/10/Seia_Icon.png"
         ],
         "Bio": {
-            "cn": "选择前方的道路",
+            "zh": "选择前方的道路",
             "jp": "進む道を選んで"
         },
         "Nickname": ["Seia"]
@@ -306,14 +306,14 @@
     {
         "Id": 151,
         "Name": {
-            "cn": "一花",
+            "zh": "一花",
             "jp": "イチカ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/2/2f/Ichika_Icon.png"
         ],
         "Bio": {
-            "cn": "鹤城前辈，冷静点…那里不是门…",
+            "zh": "鹤城前辈，冷静点…那里不是门…",
             "jp": "ツルギ先輩、ちょっと落ち着ける?"
         },
         "Nickname": ["Ichika"]
@@ -321,14 +321,14 @@
     {
         "Id": 160,
         "Name": {
-            "cn": "妮娅",
+            "zh": "妮娅",
             "jp": "ニヤ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/c/c5/Niya_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Niya", "尼娅"]
@@ -336,14 +336,14 @@
     {
         "Id": 161,
         "Name": {
-            "cn": "名草",
+            "zh": "名草",
             "jp": "ナグサ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/c/ce/Nagusa_Icon.png"
         ],
         "Bio": {
-            "cn": "cosplayer、为镜头到天涯海角",
+            "zh": "cosplayer、为镜头到天涯海角",
             "jp": "完璧なショットのために"
         },
         "Nickname": ["Nagusa"]
@@ -351,14 +351,14 @@
     {
         "Id": 162,
         "Name": {
-            "cn": "海香",
+            "zh": "海香",
             "jp": "ウミカ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Umika_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Umika", "海夏"]
@@ -366,14 +366,14 @@
     {
         "Id": 163,
         "Name": {
-            "cn": "葛叶",
+            "zh": "葛叶",
             "jp": "クズノハ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/5/57/Kuzunoha_Icon.png"
         ],
         "Bio": {
-            "cn": "但你的运气绝非寻常。因为你遇见了我",
+            "zh": "但你的运气绝非寻常。因为你遇见了我",
             "jp": "君は私に出会ったからだね"
         },
         "Nickname": ["Kuzunoha"]
@@ -381,14 +381,14 @@
     {
         "Id": 170,
         "Name": {
-            "cn": "妃咲",
+            "zh": "妃咲",
             "jp": "キサキ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/d/da/Kisaki_Icon.png"
         ],
         "Bio": {
-            "cn": "如果说不高兴见到你，那是骗人的……",
+            "zh": "如果说不高兴见到你，那是骗人的……",
             "jp": "君に会えて嬉しくないと言うのは嘘だ…"
         },
         "Nickname": ["Kisaki", "ksk"]
@@ -396,14 +396,14 @@
     {
         "Id": 171,
         "Name": {
-            "cn": "丽情",
+            "zh": "丽情",
             "jp": "レイジョ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/a/ad/Reijo_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Reijo"]
@@ -411,14 +411,14 @@
     {
         "Id": 172,
         "Name": {
-            "cn": "廻",
+            "zh": "廻",
             "jp": "カイ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/7/79/Kai_Icon.png"
         ],
         "Bio": {
-            "cn": "期待我们相遇会发生怎样的化学反应",
+            "zh": "期待我们相遇会发生怎样的化学反应",
             "jp": "どのような化学反応が起こるのか、出会った時に"
         },
         "Nickname": ["Kai"]
@@ -426,14 +426,14 @@
     {
         "Id": 180,
         "Name": {
-            "cn": "贵音",
+            "zh": "贵音",
             "jp": "タカネ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/b/b8/Takane_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Takane"]
@@ -441,14 +441,14 @@
     {
         "Id": 181,
         "Name": {
-            "cn": "八云",
+            "zh": "八云",
             "jp": "ヤクモ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/7/75/Yakumo_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Yakumo"]
@@ -456,14 +456,14 @@
     {
         "Id": 190,
         "Name": {
-            "cn": "雪乃",
+            "zh": "雪乃",
             "jp": "ユキノ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/1c/Yukino_Icon.png"
         ],
         "Bio": {
-            "cn": "武器不能决定对错",
+            "zh": "武器不能决定对错",
             "jp": "武器は正しさを決めない"
         },
         "Nickname": ["Yukino"]
@@ -471,14 +471,14 @@
     {
         "Id": 191,
         "Name": {
-            "cn": "妮可",
+            "zh": "妮可",
             "jp": "ニコ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/c/cd/Niko_Icon.png"
         ],
         "Bio": {
-            "cn": "有好吃的稻荷寿司哦，这里~",
+            "zh": "有好吃的稻荷寿司哦，这里~",
             "jp": "おいしい稲荷寿司がありますよ、こちら～"
         },
         "Nickname": ["Niko"]
@@ -486,14 +486,14 @@
     {
         "Id": 192,
         "Name": {
-            "cn": "音葵",
+            "zh": "音葵",
             "jp": "クルミ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/6/66/Otogi_Icon.png"
         ],
         "Bio": {
-            "cn": "这就像可爱的狙击手因为敌人太多而犯的错",
+            "zh": "这就像可爱的狙击手因为敌人太多而犯的错",
             "jp": "可愛いスナイパーが敵が多すぎてミスするような…"
         },
         "Nickname": ["Otogi"]
@@ -501,14 +501,14 @@
     {
         "Id": 193,
         "Name": {
-            "cn": "胡桃",
+            "zh": "胡桃",
             "jp": "オトギ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/5/51/Kurumi_Icon.png"
         ],
         "Bio": {
-            "cn": "不要稻荷寿司！要鲑鱼子寿司！",
+            "zh": "不要稻荷寿司！要鲑鱼子寿司！",
             "jp": "稲荷寿司はいらない！イクラの方がいい！"
         },
         "Nickname": ["Kurumi"]
@@ -516,14 +516,14 @@
     {
         "Id": 200,
         "Name": {
-            "cn": "舞",
+            "zh": "舞",
             "jp": "マイ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/17/Mai_Icon.png"
         ],
         "Bio": {
-            "cn": "鸡窝托斯月刊只坚持事实！",
+            "zh": "鸡窝托斯月刊只坚持事实！",
             "jp": "事実だけを追求します！"
         },
         "Nickname": ["Mai", "麦"]
@@ -531,14 +531,14 @@
     {
         "Id": 201,
         "Name": {
-            "cn": "志乃",
+            "zh": "志乃",
             "jp": "シノン"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/6/66/Shinon_Icon.png"
         ],
         "Bio": {
-            "cn": "克罗诺斯学园新闻部的偶像记者，志乃！",
+            "zh": "克罗诺斯学园新闻部的偶像记者，志乃！",
             "jp": "クロノス学園のアイドル記者、シノンです！"
         },
         "Nickname": ["Shinon", "诗乃"]
@@ -546,14 +546,14 @@
     {
         "Id": 210,
         "Name": {
-            "cn": "兰舞",
+            "zh": "兰舞",
             "jp": "ラブ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/1a/Rabu_Icon.png"
         ],
         "Bio": {
-            "cn": "毕竟我是兰舞，钢盔团的领队！",
+            "zh": "毕竟我是兰舞，钢盔团的领队！",
             "jp": "ヘルメット団のリーダーだからね！"
         },
         "Nickname": ["Rabu"]
@@ -561,7 +561,7 @@
     {
         "Id": 211,
         "Name": {
-            "cn": "白子（色彩）",
+            "zh": "白子（色彩）",
             "jp": "シロコ＊テラー"
         },
         "Avatar": [
@@ -569,7 +569,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2d/Shiroko_Terror_Icon.png"
         ],
         "Bio": {
-            "cn": "正如预定的命运，基沃托斯将走向灭亡",
+            "zh": "正如预定的命运，基沃托斯将走向灭亡",
             "jp": "キヴォトスはその終焉に至るだろう"
         },
         "Nickname": ["Shiroko_Terror"]
@@ -577,14 +577,14 @@
     {
         "Id": 212,
         "Name": {
-            "cn": "晶",
+            "zh": "晶",
             "jp": "アキラ"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/8/8e/Akira_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Akira"]
@@ -592,7 +592,7 @@
     {
         "Id": 220,
         "Name": {
-            "cn": "贝阿朵莉切",
+            "zh": "贝阿朵莉切",
             "jp": "ベアトリーチェ"
         },
         "Avatar": [
@@ -600,7 +600,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/8c/Beatrice_Ascended_Icon.png"
         ],
         "Bio": {
-            "cn": "贝阿朵莉切，所有朝圣者的幻影",
+            "zh": "贝阿朵莉切，所有朝圣者的幻影",
             "jp": "ベアトリス、巡礼者の幻影"
         },
         "Nickname": ["Beatrice"]
@@ -608,7 +608,7 @@
     {
         "Id": 221,
         "Name": {
-            "cn": "黑服",
+            "zh": "黑服",
             "jp": "黒服"
         },
         "Avatar": [
@@ -616,7 +616,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2b/Black_Suit_Icon_2.png"
         ],
         "Bio": {
-            "cn": "观察者·探索者·研究者",
+            "zh": "观察者·探索者·研究者",
             "jp": "観察者·探求者·研究者"
         },
         "Nickname": ["Kurofuku", "Black Suit"]
@@ -624,7 +624,7 @@
     {
         "Id": 222,
         "Name": {
-            "cn": "戈尔孔达&印花釉法",
+            "zh": "戈尔孔达&印花釉法",
             "jp": "ゴルコンダ&デカルコマニー"
         },
         "Avatar": [
@@ -632,7 +632,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/f/f0/Decalcomanie_Icon.png"
         ],
         "Bio": {
-            "cn": "我很期待看到你会从中读出什么",
+            "zh": "我很期待看到你会从中读出什么",
             "jp": "楽しみにしています"
         },
         "Nickname": ["Golconde&Decalcomanie"]
@@ -640,14 +640,14 @@
     {
         "Id": 223,
         "Name": {
-            "cn": "弗朗西斯",
+            "zh": "弗朗西斯",
             "jp": "フランシス"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/9/94/Francis_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Francis"]
@@ -655,7 +655,7 @@
     {
         "Id": 224,
         "Name": {
-            "cn": "巨匠",
+            "zh": "巨匠",
             "jp": "マエストロ"
         },
         "Avatar": [
@@ -663,7 +663,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/8/80/Maestro_Icon_2.png"
         ],
         "Bio": {
-            "cn": "现在，老师。请准备鼓掌",
+            "zh": "现在，老师。请准备鼓掌",
             "jp": "そは先生，拍手を準備してください"
         },
         "Nickname": ["Maestro"]
@@ -671,14 +671,14 @@
     {
         "Id": 225,
         "Name": {
-            "cn": "普雷纳帕特斯",
+            "zh": "普雷纳帕特斯",
             "jp": "プレナパテス"
         },
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/0/08/Phrenapates_Icon.png"
         ],
         "Bio": {
-            "cn": "请…照顾好学生",
+            "zh": "请…照顾好学生",
             "jp": "どうか...生徒たちをお願いします"
         },
         "Nickname": ["Phrenapates"]
@@ -686,14 +686,14 @@
     {
         "Id": 226,
         "Name": {
-            "cn": "无名的祭司",
+            "zh": "无名的祭司",
             "jp": "無名の司祭"
         },
         "Avatar": [
             "https://cdnimg.gamekee.com/wiki2.0/images/w_184/h_184/829/43637/2023/2/17/264731.png"
         ],
         "Bio": {
-            "cn": "「无名神」的追随者们",
+            "zh": "「无名神」的追随者们",
             "jp": "「名もなき神」の信奉者達"
         },
         "Nickname": ["Nameless_Priests"]
@@ -701,7 +701,7 @@
     {
         "Id": 230,
         "Name": {
-            "cn": "寿司人",
+            "zh": "寿司人",
             "jp": "カイテン"
         },
         "Avatar": [
@@ -712,7 +712,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/597851.png"
         ],
         "Bio": {
-            "cn": "不断循环的轨道最终会通向正义的未来！",
+            "zh": "不断循环的轨道最终会通向正义的未来！",
             "jp": "回り続けるレールは正義の未来へ！"
         },
         "Nickname": ["Kaitenger"]
@@ -720,7 +720,7 @@
     {
         "Id": 231,
         "Name": {
-            "cn": "女混混",
+            "zh": "女混混",
             "jp": "スケバン"
         },
         "Avatar": [
@@ -732,7 +732,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/285541.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Sukeban"]
@@ -740,7 +740,7 @@
     {
         "Id": 232,
         "Name": {
-            "cn": "钢盔团",
+            "zh": "钢盔团",
             "jp": "ヘルメット団"
         },
         "Avatar": [
@@ -749,7 +749,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2022/6/2/101340.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Helmet"]
@@ -757,7 +757,7 @@
     {
         "Id": 233,
         "Name": {
-            "cn": "一般学生",
+            "zh": "一般学生",
             "jp": "生徒"
         },
         "Avatar": [
@@ -788,7 +788,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2023/7/8/986530.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Student"]
@@ -796,7 +796,7 @@
     {
         "Id": 234,
         "Name": {
-            "cn": "一般市民",
+            "zh": "一般市民",
             "jp": "市民"
         },
         "Avatar": [
@@ -819,7 +819,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2023/7/8/296416.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Citizen"]
@@ -827,7 +827,7 @@
     {
         "Id": 236,
         "Name": {
-            "cn": "机器人",
+            "zh": "机器人",
             "jp": "ロボ"
         },
         "Avatar": [
@@ -837,7 +837,7 @@
             "https://cdnimg.gamekee.com/wiki2.0/images/w_252/h_204/829/43637/2023/7/9/438385.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Robot"]
@@ -845,7 +845,7 @@
     {
         "Id": 237,
         "Name": {
-            "cn": "凯撒PMC",
+            "zh": "凯撒PMC",
             "jp": "カイザーPMC"
         },
         "Avatar": [
@@ -854,7 +854,7 @@
             "https://static.wikia.nocookie.net/blue-archive/images/d/de/Kaiser_PMC_President_Icon.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Kaiser_PMC"]
@@ -862,7 +862,7 @@
     {
         "Id": 240,
         "Name": {
-            "cn": "比纳",
+            "zh": "比纳",
             "jp": "ビナー"
         },
         "Avatar": [
@@ -870,7 +870,7 @@
             "https://schale.gg/images/raid/icon/Icon_Binah_Colour.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Binah", "大蛇"]
@@ -878,7 +878,7 @@
     {
         "Id": 241,
         "Name": {
-            "cn": "凯赛德",
+            "zh": "凯赛德",
             "jp": "ケセド"
         },
         "Avatar": [
@@ -886,7 +886,7 @@
             "https://schale.gg/images/raid/icon/Icon_Chesed_Colour.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Chesed", "球"]
@@ -894,7 +894,7 @@
     {
         "Id": 242,
         "Name": {
-            "cn": "白&黑",
+            "zh": "白&黑",
             "jp": "シロ＆クロ"
         },
         "Avatar": [
@@ -902,7 +902,7 @@
             "https://schale.gg/images/raid/icon/Icon_ShiroKuro_Colour.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Shirokuro", "黑白"]
@@ -910,12 +910,12 @@
     {
         "Id": 244,
         "Name": {
-            "cn": "KAITEN FX MK.0",
+            "zh": "KAITEN FX MK.0",
             "jp": "KAITEN FX MK.0"
         },
         "Avatar": ["https://schale.gg/images/raid/icon/Icon_KaitenFxMk0.png"],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["KaitenFxMk0"]
@@ -923,7 +923,7 @@
     {
         "Id": 245,
         "Name": {
-            "cn": "佩洛洛基拉",
+            "zh": "佩洛洛基拉",
             "jp": "ペロロジラ"
         },
         "Avatar": [
@@ -931,7 +931,7 @@
             "https://schale.gg/images/raid/icon/Icon_Perorozilla_Colour.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["Perorozilla"]
@@ -939,7 +939,7 @@
     {
         "Id": 246,
         "Name": {
-            "cn": "霍德",
+            "zh": "霍德",
             "jp": "ホド"
         },
         "Avatar": [
@@ -947,7 +947,7 @@
             "https://schale.gg/images/raid/icon/Icon_HOD_Colour.png"
         ],
         "Bio": {
-            "cn": "",
+            "zh": "",
             "jp": ""
         },
         "Nickname": ["HOD"]
