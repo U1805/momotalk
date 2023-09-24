@@ -12,6 +12,8 @@
   <strong>一个网页端的碧蓝档案聊天对话生成器</strong><br>
   <sub>来创造脑洞大开的故事吧！</sub>
 </div>
+
+
 [English](./README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md)
 
 ## 特性

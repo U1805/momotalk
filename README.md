@@ -12,6 +12,7 @@
   <strong>A web chat generator, style from Blue Archive</strong><br>
   <sub>Set your Creative Idea free!</sub>
 </div>
+
 [English](./README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md)
 
 
