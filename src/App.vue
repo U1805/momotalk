@@ -122,8 +122,7 @@ export default defineComponent({
             searchText: '',
             database: [] as myStudent[][], // [data1, data2]
             dataDisplay: [] as myStudent[], // data1
-            dataDisplayIndex: -1,
-            currentLng: 'cn'
+            dataDisplayIndex: -1
         }
     },
     methods: {
@@ -183,11 +182,12 @@ export default defineComponent({
         },
         async changeLanguage() {
             const languageList = i18n.global.availableLocales
-            const currentLngIdx = languageList.findIndex((ele) => ele === this.currentLng)
-            this.currentLng = languageList[(currentLngIdx + 1) % languageList.length]
-            i18n.global.locale = this.currentLng as any
-            this.database = await getStudents(this.currentLng)
+            const currentLngIdx = languageList.findIndex((ele) => ele === this.store.language)
+            this.store.language = languageList[(currentLngIdx + 1) % languageList.length]
+            i18n.global.locale = this.store.language as any
+            this.database = await getStudents(this.store.language)
             this.dataDisplay = this.database[this.dataDisplayIndex]
+            this.store.setData()
             this.releaseStudent()
         },
         play(confirm:boolean){
@@ -221,7 +221,9 @@ export default defineComponent({
             }
         }
         this.$nextTick(async () => {
-            this.database = await getStudents('zh')
+            this.store.getData()
+            i18n.global.locale = this.store.language as any
+            this.database = await getStudents(this.store.language)
             this.dataDisplayIndex = 0
         })
     }

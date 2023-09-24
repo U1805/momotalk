@@ -285,7 +285,6 @@ export default defineComponent({
     },
     mounted: function () {
         //自动触发写入的函数
-        this.store.getData()
         var scroll_to_bottom = this.$refs.talkList as HTMLElement
         scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
         var that = this;

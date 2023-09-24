@@ -5,6 +5,7 @@ export const store = reactive({
     selectList: [] as myStudent[],
     talkHistory: [] as Talk[],
     talkId: 0,
+    language: 'zh',
 
     // momotalk player mode var
     showDialog: false,
@@ -91,16 +92,19 @@ export const store = reactive({
         localStorage.setItem('talkHistory', JSON.stringify(this.talkHistory))
         localStorage.setItem('selectHistory', JSON.stringify(this.selectList))
         localStorage.setItem('talkId', JSON.stringify(this.talkId))
+        localStorage.setItem('language', JSON.stringify(this.language))
     },
     getData() {
         const data = [
             localStorage.getItem('talkHistory'),
             localStorage.getItem('selectHistory'),
-            localStorage.getItem('talkId')
+            localStorage.getItem('talkId'),
+            localStorage.getItem('language'),
         ]
         this.talkHistory = data[0] != null ? JSON.parse(data[0]) : ([] as Talk[])
         this.selectList = data[1] != null ? JSON.parse(data[1]) : ([] as myStudent[])
         this.talkId = data[2] != null ? JSON.parse(data[2]) : (0 as number)
+        this.language = data[3] != null ? JSON.parse(data[3]) : ('zh' as string)
     },
     resetData() {
         this.talkHistory = [] as Talk[]

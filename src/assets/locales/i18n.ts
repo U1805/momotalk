@@ -22,6 +22,28 @@ const messages = {
         dialogContent: "確認ボタンを押して\n生徒の Momotalk イベントを再生します\n💥注意：会話履歴が削除されます",
         confirm: "確認",
         cancel: "キャンセル"
+    },
+    en: {
+        selectInfo: 'Please select a student',
+        imageUploadAlert: 'It is not recommended to upload images larger than 1MB!',
+        customRoleInfo: 'Enter a custom character name',
+        storyEvent: 'Story Event',
+        reply: 'Reply',
+        dialogTitle: "🎈Experimental Feature",
+        dialogContent: "Click 'Confirm' to start playing the student Momotalk event\n💥Note: This will clear the conversation history",
+        confirm: "Confirm",
+        cancel: "Cancel"
+    },
+    tw: {
+        selectInfo: '請選擇學生',
+        imageUploadAlert: '不建議上傳大於1MB的圖片！',
+        customRoleInfo: '輸入自訂角色名稱',
+        storyEvent: '羈絆劇情',
+        reply: '回覆',
+        dialogTitle: "🎈這是實驗性功能",
+        dialogContent: "點選 '確認' 開始播放學生 Momotalk 劇情\n💥注意：此功能將清空對話記錄",
+        confirm: "確認",
+        cancel: "取消"
     }
 }
 
