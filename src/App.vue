@@ -165,7 +165,9 @@ export default defineComponent({
         update(item: myStudent) {
             item.cnt = (item.cnt + 1) % item.Avatar.length
             var index = this.store.selectList.findIndex((ele) => ele.Id === item.Id)
-            this.store.selectList[index].cnt = item.cnt
+            try{
+                this.store.selectList[index].cnt = item.cnt
+            }catch(error){}
             this.store.setData()
         },
         getSchaleSchoolIcon(school: string) {

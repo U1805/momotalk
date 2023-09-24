@@ -40,8 +40,8 @@ export default defineComponent({
     > div {
         display: grid;
         grid: {
-            template-columns: 1fr 1fr 1fr;
-            template-rows: 160px repeat(3, 40px);
+            template-columns: 40px 1fr 40px;
+            template-rows: 160px  40px minmax(40px, 1fr) 40px;
         }
     }
 
@@ -64,8 +64,8 @@ export default defineComponent({
     &__bio {
         grid-area: 3 / 2 / 4 / 3;
         color: $font-grey;
-        white-space: nowrap;
-        @include center;
+        word-wrap: break-word;
+        text-align: center;
         @include font-light(23px);
     }
 
