@@ -12,8 +12,7 @@
   <strong>A web chat generator, style from Blue Archive</strong><br>
   <sub>Set your Creative Idea free!</sub>
 </div>
-
-[中文说明](./README-zh.md)
+[English](./README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md)
 
 
 ## Feature
@@ -24,6 +23,7 @@
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 - **Fast restart**: your conversation won't be lost the next time you open browser. 📌
+- **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, and English. 🌐
 
 [Try it!](https://u1805.github.io/momotalk)
 
