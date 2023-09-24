@@ -175,6 +175,9 @@
         grid-area: 1 / 3 / 2 / 4;
         @include font-heavy(25px);
         color: $font-black;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         user-select: none;
     }
     &__bio {

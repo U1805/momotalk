@@ -7,11 +7,11 @@
       <img src="https://img.shields.io/github/stars/U1805/momotalk" alt="stars"> 
     </a>
 </div>
+
 <div align="center">
   <strong>一個網頁端的蔚藍檔案聊天對話生成器</strong><br>
   <sub>來創造腦洞大開的故事吧！</sub>
 </div>
-
 
 [English](./README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md)
 
@@ -44,6 +44,7 @@
     <li>圖片</li>
     </ul>
 </details>
+
 ## 使用方法
 
 [How TO USE](./How-to-use.md)
