@@ -18,7 +18,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
             >
                 <div
                     class="student--split"
-                    v-if="element.type == 0 && element.flag === 0"
+                    v-if="element.type === 0 && element.flag === 0"
                     @click="splitTalks(element)"
                 ></div>
                 <div class="avatar" v-if="element.type === 0 && element.flag > 0">
@@ -127,6 +127,7 @@ import draggable from 'vuedraggable'
 import { readFile } from '@/assets/utils/readFile'
 import { store } from '@/assets/utils/store'
 import { Talk } from '@/assets/utils/interface'
+import { saveReplyEdit } from '@/assets/utils/saveReplyEdit'
 
 export default {
     props: {
@@ -175,8 +176,7 @@ export default {
             store.setData()
         },
         splitTalks(element: Talk) {
-            // 分段消息流
-            // flag: 0 <-> 1,  2不可改
+            // 分段消息流，0->1，1->0，2不可改
             if (element.flag < 2) element.flag = 1 - element.flag
             store.setData()
         },
@@ -184,30 +184,6 @@ export default {
             var span = event.target as HTMLElement
             if (type === 'name') store.setTalkName(id, span.innerText)
             if (type === 'content') store.setTalkContent(id, span.innerText)
-        },
-        saveReplyEdit(event: Event, id: number, index: number) {
-            // 特殊处理 reply
-            var div = event.target as HTMLElement
-            var split = store.getTalkById(id).content.split('\n')
-
-            if (
-                (event as InputEvent).inputType === 'insertParagraph' ||
-                (event as InputEvent).inputType === 'insertLineBreak' ||
-                ((event as InputEvent).inputType === 'insertText' &&
-                    (event as InputEvent).data === null)
-            ) {
-                split = [...split.slice(0, index + 1), '', ...split.slice(index + 1)]
-                for (let s of ['\n', '<br>', '<br/>', '<p>', '</p>'])
-                    div.innerText = div.innerText.replaceAll(s, '')
-                div.blur()
-            } else if (
-                (event as InputEvent).inputType === 'deleteContentBackward' &&
-                div.innerText == ''
-            )
-                split.splice(index, 1)
-            else split[index] = div.innerText
-
-            store.setTalkContent(id, split.join('\n'))
         }
     }
 }

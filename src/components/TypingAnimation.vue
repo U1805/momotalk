@@ -11,6 +11,8 @@
     //https://juejin.cn/post/7037036742985121800
     display: flex;
     flex-direction: row;
+    height: 32px;
+    align-items: center;
     > div {
         position: relative;
         box-sizing: border-box;

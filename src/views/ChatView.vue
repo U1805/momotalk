@@ -55,10 +55,10 @@ import Popper from 'vue3-popper'
                 <!-- 发送 -->
                 <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText()" />
                 <div class="photo" title="Send an Image">
-                    <ImageIcon @click="sendImage" class="image icon" />
+                    <ImageIcon @click="sendImage()" class="image icon" />
                 </div>
                 <div class="message" title="Send the Message">
-                    <SendIcon @click="sendText" class="send icon" />
+                    <SendIcon @click="sendText()" class="send icon" />
                 </div>
                 <!-- 发送 -->
             </div>
@@ -153,17 +153,17 @@ export default defineComponent({
             // 从下侧列表中删去学生
             store.deleteStudent(index)
         },
-        sendText(flag = 2) {
+        sendText(flag:number = 2) {
             if (this.text.length === 0) return
             var name = ''
             var type = 0
             var avatar = ''
 
             if (typeof this.selected === 'number') {
-                if (this.selected == 1) name = 'sensei'
-                else if (this.selected == 2) name = i18n.global.t('storyEvent')
-                else if (this.selected == 3) name = i18n.global.t('reply')
-                else if (this.selected == 4) name = 'systemInfo'
+                if (this.selected === 1) name = 'sensei'
+                else if (this.selected === 2) name = i18n.global.t('storyEvent')
+                else if (this.selected === 3) name = i18n.global.t('reply')
+                else if (this.selected === 4) name = 'systemInfo'
                 type = this.selected
             } else {
                 // student
@@ -189,14 +189,15 @@ export default defineComponent({
             var scroll_to_bottom = this.$refs.talkList as HTMLElement
             var that = this
             var timer = setInterval(() => {
-                that.typing -= 0.01
-                if (that.typing < 0.9) {
+                if (that.typing === 1) {
                     scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
                 }
-                if (that.typing < -1) {
+                if (that.typing < 0) {
                     that.typing = 0
+                    scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
                     clearInterval(timer)
                 }
+                that.typing -= 0.01
             }, 10)
         },
         sendImage() {
@@ -254,7 +255,7 @@ export default defineComponent({
                     // reply
                     var buttons = document.querySelectorAll('div.choice span > div')
                     this.text = await waitClick(buttons) as string
-                    item = data.find((ele)=>ele[lng] == this.text)
+                    item = data.find((ele)=>ele[lng] === this.text)
                     this.store.talkHistory.splice(-1, 1)
                     this.selected = 1
                     this.sendText()
@@ -266,7 +267,7 @@ export default defineComponent({
                     this.text = item[lng]
                     this.sendText(item.Flag)
                 }
-                else if(item.MessageType == "Image"){
+                else if(item.MessageType === "Image"){
                     this.text = item.ImagePath
                     this.sendText()
                 }

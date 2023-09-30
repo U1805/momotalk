@@ -11,6 +11,7 @@
     background-color: white;
     @include hide-scrollbar;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .add {

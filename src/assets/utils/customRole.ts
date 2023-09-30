@@ -10,7 +10,7 @@ function check(num: number) {
 }
 
 function getId() {
-    var customId = getRandomInt(100)
+    let customId = getRandomInt(100)
     while (!check(customId)) {
         customId = getRandomInt(100)
     }
@@ -18,7 +18,7 @@ function getId() {
 }
 
 function getName() {
-    var name: string | null = ''
+    let name: string | null = ''
     while (name.length === 0) {
         name = prompt(i18n.global.t('customRoleInfo'))
         if (name === null) return
@@ -27,9 +27,9 @@ function getName() {
 }
 
 function getRole(avatar: string) {
-    var name = getName()
+    const name = getName()
     if (name === undefined) return
-    var student: myStudent = {
+    const student: myStudent = {
         Id: getId(),
         Name: name,
         Avatar: [avatar],
@@ -43,7 +43,7 @@ function getRole(avatar: string) {
 }
 
 function getTestRole(name: string, avatar: string){
-    var student: myStudent = {
+    const student: myStudent = {
         Id: 1,
         Name: name,
         Avatar: [avatar],

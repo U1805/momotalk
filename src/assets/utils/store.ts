@@ -26,7 +26,7 @@ export const store = reactive({
 
         const len = this.talkHistory.length
         if (index < len - 1 && this.talkHistory[index + 1].type <= 1)
-            if (index == 0 || !this.isSameChar(index + 1, index - 1))
+            if (index === 0 || !this.isSameChar(index + 1, index - 1))
                 this.setTalkFlag(index + 1, 2)
 
         this.talkHistory.splice(index, 1)
@@ -38,7 +38,7 @@ export const store = reactive({
         const lastTalk = this.talkHistory[len - 1]
 
         if (len === 0 || !this.isSameChar_(talk, lastTalk)) this.talkHistory.push(talk)
-        else if (talk.flag == 2){
+        else if (talk.flag === 2){
             talk.flag = 0
             this.talkHistory.push(talk)
         }else{
@@ -79,8 +79,8 @@ export const store = reactive({
 
     // 辅助操作
     isSameChar_(talk0: Talk, talk1: Talk) {
-        if (talk0.type != talk1.type) return false
-        return talk0.name == talk1.name
+        if (talk0.type !== talk1.type) return false
+        return talk0.name === talk1.name
     },
     isSameChar(i: number, j: number) {
         const talk0: Talk = store.talkHistory[i]
