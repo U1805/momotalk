@@ -221,6 +221,12 @@ export default defineComponent({
                 var box = this.$refs.searchBox as HTMLInputElement
                 box.focus()
             }
+            if (e.ctrlKey && e.key==='z'){
+                store.undo()
+            }
+            if (e.ctrlKey && e.shiftKey && e.key==='Z'){
+                store.redo()
+            }
         }
         this.$nextTick(async () => {
             this.store.getData()

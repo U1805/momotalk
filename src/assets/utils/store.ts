@@ -1,6 +1,30 @@
 import { reactive } from 'vue'
 import { myStudent, Talk } from './interface'
 
+const historyState = {
+    state: [] as Talk[][],
+    top: 0 as number,
+    cur: -1 as number,
+    max_size: 20 as number,
+
+    push(ele:Talk[]) {
+        if(this.state.length >= this.max_size){
+            this.state.splice(0, 1)
+            this.cur--
+        }
+        this.state[++this.cur] = JSON.parse(JSON.stringify(ele))
+        this.top = this.cur + 1
+    },
+    undo() {
+        if(this.cur>0) this.cur -= 1
+        return this.state[this.cur] 
+    },
+    redo() {
+        if(this.cur<this.top-1) this.cur += 1
+        return this.state[this.cur]
+    }
+}
+
 export const store = reactive({
     selectList: [] as myStudent[],
     talkHistory: [] as Talk[],
@@ -38,10 +62,10 @@ export const store = reactive({
         const lastTalk = this.talkHistory[len - 1]
 
         if (len === 0 || !this.isSameChar_(talk, lastTalk)) this.talkHistory.push(talk)
-        else if (talk.flag === 2){
+        else if (talk.flag === 2) {
             talk.flag = 0
             this.talkHistory.push(talk)
-        }else{
+        } else {
             this.talkHistory.push(talk)
         }
 
@@ -89,6 +113,7 @@ export const store = reactive({
     },
 
     setData() {
+        historyState.push(this.talkHistory)
         localStorage.setItem('talkHistory', JSON.stringify(this.talkHistory))
         localStorage.setItem('selectHistory', JSON.stringify(this.selectList))
         localStorage.setItem('talkId', JSON.stringify(this.talkId))
@@ -105,11 +130,18 @@ export const store = reactive({
         this.selectList = data[1] != null ? JSON.parse(data[1]) : ([] as myStudent[])
         this.talkId = data[2] != null ? JSON.parse(data[2]) : (0 as number)
         this.language = data[3] != null ? JSON.parse(data[3]) : ('zh' as string)
+        historyState.push(this.talkHistory)
     },
     resetData() {
         this.talkHistory = [] as Talk[]
         this.selectList = [] as myStudent[]
         this.talkId = 0 as number
         this.setData()
+    },
+    undo() {
+        this.talkHistory = historyState.undo()
+    },
+    redo() {
+        this.talkHistory = historyState.redo()
     }
 })

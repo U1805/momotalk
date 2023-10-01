@@ -16,9 +16,9 @@ Below, there are three buttons: "**Switch languages**", "**Reset**" and "**Downl
 
 ## 🎓学生列表 · Student List 
 
-🔍 学生列表中快速查找学生有两种方式，一种是点击右侧的**学校标志**，这会筛选出相同学校的学生；另一种是在上方的**搜索栏**中搜索，可以使用汉字、罗马音，以及可以尝试使用游戏中的黑话作为关键词 
+🔍 学生列表中快速查找学生有两种方式，一种是点击右侧的**学校标志**，这会筛选出相同学校的学生；另一种是在上方的**搜索栏**中搜索（快捷键 `/`），可以使用汉字、罗马音，以及可以尝试使用游戏中的黑话作为关键词 
 
-There are two ways to quickly find students in the student list. One is to click on the **school icons** on the right side, which filters students from the same school. The other is to use the **search bar** at the top, where you can use Chinese , romaji, and even try using in-game slang as keywords
+There are two ways to quickly find students in the student list. One is to click on the **school icons** on the right side, which filters students from the same school. The other is to use the **search bar** at the top(Shortcut key `/`), where you can use Chinese , romaji, and even try using in-game slang as keywords
 
 <br/>
 
@@ -78,12 +78,14 @@ After selecting a role, you can attempt to **send messages or images** in the me
 - **修改**：点选「 *文本* 」或者「 *角色名字* 」会出现文本框，在其中编辑即可；对于「 *图片* 」消息，点击后会请求重新上传图片；「 *回复* 」类型的消息在文本框中键入回车会出现下一个选项
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序
 - **删除**：当光标 *停留* 在元素上时，元素旁边会出现 `x` 的删除按钮
+- **快捷键**：撤销 `Ctrl+Z`，重做 `Ctrl+Shift+Z`
 
 Following the **WYSIWYG** (What you see is what you get) design philosophy, elements can still be directly edited after sending messages, such as modifying, dragging, deleting, etc. 
 
 - **Modifying**: Clicking on " *Text* " or " *Character Name* " will bring up a text box, where you can edit directly. For " *Image* " messages, clicking will prompt to re-upload the image. For " *Reply* " type messages, pressing Enter in the text box will bring up the next option.
 - **Dragging**: Holding and moving messages up and down can adjust the order between messages.
 - **Deleting**: When the cursor *hovers* over an element, a delete button `x` will appear near the element.
+- **Shortcut key**: undo `Ctrl+Z` and redo `Ctrl+Shift+Z`
 
 <p align="center">
 <img src="./assets/edit.webp" alt="edit" style="width:50%">
