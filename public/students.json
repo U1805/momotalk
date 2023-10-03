@@ -774,7 +774,7 @@
             "en": "A brevis paradisum"
         },
         "Nickname": [],
-        "related": [10019, ["泳装", "水"]]
+        "related": [10019, "swimsuit"]
     },
     {
         "Id": 20004,
@@ -788,7 +788,7 @@
             "en": "The frog in the well knows nothing of the sea"
         },
         "Nickname": [],
-        "related": [20003, ["泳装", "水"]]
+        "related": [20003, "swimsuit"]
     },
     {
         "Id": 16005,
@@ -802,7 +802,7 @@
             "en": "Summer, Youth, Beach"
         },
         "Nickname": [],
-        "related": [10013, ["泳装", "水"]]
+        "related": [10013, "swimsuit"]
     },
     {
         "Id": 20005,
@@ -816,7 +816,7 @@
             "en": "Who wants to see the new Peroro tube?"
         },
         "Nickname": ["水富美"],
-        "related": [10003, ["泳装", "水"]]
+        "related": [10003, "swimsuit"]
     },
     {
         "Id": 10022,
@@ -825,7 +825,7 @@
         ],
         "Bio": { "zh": "", "jp": "", "tw": "", "en": "" },
         "Nickname": [],
-        "related": [10004, ["泳装", "水"]]
+        "related": [10004, "swimsuit"]
     },
     {
         "Id": 10023,
@@ -839,7 +839,7 @@
             "en": "Summer Boot Camp in progress"
         },
         "Nickname": [],
-        "related": [10006, ["泳装", "水"]]
+        "related": [10006, "swimsuit"]
     },
     {
         "Id": 16006,
@@ -853,7 +853,7 @@
             "en": "Summer delicacy road trip!"
         },
         "Nickname": ["水汉堡"],
-        "related": [10009, ["泳装", "水"]]
+        "related": [10009, "swimsuit"]
     },
     {
         "Id": 10024,
@@ -867,7 +867,7 @@
             "en": "Trekking across Kivotos"
         },
         "Nickname": ["小车唯", "xcw", "车白", "骑白子"],
-        "related": [10010, ["单车", "骑行"]]
+        "related": [10010, "riding"]
     },
     {
         "Id": 10025,
@@ -881,7 +881,7 @@
             "en": "I want to eat tanghulu!"
         },
         "Nickname": ["同花顺", "同花瞬", "同花舜", "铜花瞬", "铜花舜"],
-        "related": [10011, "幼", "幼女"]
+        "related": [10011, "young"]
     },
     {
         "Id": 13012,
@@ -908,7 +908,7 @@
             "en": "I know everything!"
         },
         "Nickname": ["滑鼠"],
-        "related": [20002, ["私服", "滑板"]]
+        "related": [20002, "casual"]
     },
     {
         "Id": 10026,
@@ -922,7 +922,7 @@
             "en": "What are you looking at?"
         },
         "Nickname": ["红兔"],
-        "related": [10008, ["兔", "兔女郎"]]
+        "related": [10008, "bunnygirl"]
     },
     {
         "Id": 10027,
@@ -936,7 +936,7 @@
             "en": "Currently undercover."
         },
         "Nickname": ["黑兔"],
-        "related": [20001, ["兔", "兔女郎"]]
+        "related": [20001, "bunnygirl"]
     },
     {
         "Id": 10028,
@@ -950,7 +950,7 @@
             "en": "Only the best for you!"
         },
         "Nickname": ["兔丝娜"],
-        "related": [16001, ["兔", "兔女郎"]]
+        "related": [16001, "bunnygirl"]
     },
     {
         "Id": 10029,
@@ -1017,7 +1017,7 @@
             "en": "There's no such thing as a bad mustache!"
         },
         "Nickname": ["温泉罗"],
-        "related": [10017, ["温泉"]]
+        "related": [10017, "hotspring"]
     },
     {
         "Id": 10030,
@@ -1031,7 +1031,7 @@
             "en": "In search of unfamiliarity."
         },
         "Nickname": ["温泉夏"],
-        "related": [26000, ["温泉"]]
+        "related": [26000, "hotspring"]
     },
     {
         "Id": 16007,
@@ -1058,7 +1058,7 @@
             "en": "Now taking reservations for Hot Springs Resort No. 227!"
         },
         "Nickname": ["老板娘"],
-        "related": [26006, ["温泉"]]
+        "related": [26006, "hotspring"]
     },
     {
         "Id": 10031,
@@ -1072,7 +1072,7 @@
             "en": "Looking forward to the new year."
         },
         "Nickname": ["春鲁", "新社", "春露"],
-        "related": [10000, ["春", "新", "新春", "新年", "正月"]]
+        "related": [10000, "newyear"]
     },
     {
         "Id": 10032,
@@ -1086,7 +1086,7 @@
             "en": "This year is going to be even better!"
         },
         "Nickname": ["春雷", "春月", "新月"],
-        "related": [13006, ["春", "新", "新春", "新年", "正月"]]
+        "related": [13006, "newyear"]
     },
     {
         "Id": 20011,
@@ -1100,7 +1100,7 @@
             "en": "Happy New Year, everyone."
         },
         "Nickname": ["春黑"],
-        "related": [13008, ["春", "新", "新春", "新年", "正月"]]
+        "related": [13008, "newyear"]
     },
     {
         "Id": 10033,
@@ -1357,7 +1357,7 @@
             "en": "My heart is warmer than the summer heat!"
         },
         "Nickname": ["水狐狸", "水狐", "水藻"],
-        "related": [10033, ["水", "泳装"]]
+        "related": [10033, "swimsuit"]
     },
     {
         "Id": 10044,
@@ -1372,7 +1372,7 @@
             "en": "Sensei! It's the ocean!"
         },
         "Nickname": ["水乃美"],
-        "related": [13004, ["水", "泳装"]]
+        "related": [13004, "swimsuit"]
     },
     {
         "Id": 26007,
@@ -1386,7 +1386,7 @@
             "en": "Play like there's no tomorrow."
         },
         "Nickname": ["直升机"],
-        "related": [23005, ["水", "泳装"]]
+        "related": [23005, "swimsuit"]
     },
     {
         "Id": 10045,
@@ -1401,7 +1401,7 @@
             "en": "Taking a nice nap. Friends welcome."
         },
         "Nickname": ["一动不动也好热阿"],
-        "related": [10005, ["水", "泳装"]]
+        "related": [10005, "swimsuit"]
     },
     {
         "Id": 26008,
@@ -1415,7 +1415,7 @@
             "en": "The Momoyodou franchise is now open!"
         },
         "Nickname": ["水老板娘"],
-        "related": [23006, ["水", "泳装"]]
+        "related": [23006, "swimsuit"]
     },
     {
         "Id": 10046,
@@ -1429,7 +1429,7 @@
             "en": "Let's train on the beach this summer! Nin nin!"
         },
         "Nickname": ["水狐狸", "水忍狐"],
-        "related": [10014, ["水", "泳装"]]
+        "related": [10014, "swimsuit"]
     },
     {
         "Id": 10047,
@@ -1443,7 +1443,7 @@
             "en": "Where are the sparkles?"
         },
         "Nickname": ["水千"],
-        "related": [13001, ["水", "泳装"]]
+        "related": [13001, "swimsuit"]
     },
     {
         "Id": 10048,
@@ -1512,7 +1512,7 @@
             "en": "Cheering commishes OPEN"
         },
         "Nickname": [],
-        "related": [23004, ["应援", "啦啦队", "拉拉队"]]
+        "related": [23004, "cheerleader"]
     },
     {
         "Id": 10052,
@@ -1539,7 +1539,7 @@
             "en": "I really wish we had more time to practice..."
         },
         "Nickname": [],
-        "related": [20000, ["应援", "啦啦队", "拉拉队"]]
+        "related": [20000, "cheerleader"]
     },
     {
         "Id": 20019,
@@ -1553,7 +1553,7 @@
             "en": "Trying out a new lifestyle."
         },
         "Nickname": ["白兔"],
-        "related": [13000, ["兔", "兔女郎"]]
+        "related": [13000, "bunnygirl"]
     },
     {
         "Id": 10053,
@@ -1567,7 +1567,7 @@
             "en": "The Kivotos Halo Festival is underway!"
         },
         "Nickname": ["体香"],
-        "related": [13010, ["体", "体操", "运动服", "运动"]]
+        "related": [13010, "gym"]
     },
     {
         "Id": 10054,
@@ -1581,7 +1581,7 @@
             "en": "Wishing for a peaceful festival."
         },
         "Nickname": ["体马"],
-        "related": [23008, ["体", "体操", "运动服", "运动"]]
+        "related": [23008, "gym"]
     },
     {
         "Id": 16011,
@@ -1595,7 +1595,7 @@
             "en": "Ask the Executive Committee if you need help."
         },
         "Nickname": [],
-        "related": [13003, ["体", "体操", "运动服", "运动"]]
+        "related": [13003, "gym"]
     },
     {
         "Id": 20020,
@@ -1638,7 +1638,7 @@
             "en": "Peace and joy to all during the Christmas season."
         },
         "Nickname": [],
-        "related": [26003, ["圣诞"]]
+        "related": [26003, "christmas"]
     },
     {
         "Id": 20021,
@@ -1652,7 +1652,7 @@
             "en": "Waiting up for Santa Claus!"
         },
         "Nickname": [],
-        "related": [23002, ["圣诞"]]
+        "related": [23002, "christmas"]
     },
     {
         "Id": 10057,
@@ -1666,7 +1666,7 @@
             "en": "Exploring the path of a gourmand during New Year's."
         },
         "Nickname": [],
-        "related": [10002, ["春", "新", "新春", "新年", "正月"]]
+        "related": [10002, "newyear"]
     },
     {
         "Id": 20022,
@@ -1680,7 +1680,7 @@
             "en": "Wishing for peace and safety."
         },
         "Nickname": [],
-        "related": [23001, ["春", "新", "新春", "新年", "正月"]]
+        "related": [23001, "newyear"]
     },
     {
         "Id": 16012,
@@ -1694,7 +1694,7 @@
             "en": "Don't bother me while I'm eating!"
         },
         "Nickname": [],
-        "related": [13007, ["春", "新", "新春", "新年", "正月"]]
+        "related": [13007, "newyear"]
     },
     {
         "Id": 10058,
@@ -1820,7 +1820,7 @@
             "en": "Happy New Year"
         },
         "Nickname": ["春代"],
-        "related": [13005, ["春", "新", "新春", "新年", "正月"]]
+        "related": [13005, "newyear"]
     },
     {
         "Id": 20025,
@@ -1834,7 +1834,7 @@
             "en": "H-Have the best New Year...!"
         },
         "Nickname": [],
-        "related": [16000, ["春", "新", "新春", "新年", "正月"]]
+        "related": [16000, "newyear"]
     },
     {
         "Id": 10065,
@@ -1861,7 +1861,7 @@
             "en": "I am Aris, hero maid."
         },
         "Nickname": ["扫地机器人"],
-        "related": [10015, ["女仆"]]
+        "related": [10015, "maid"]
     },
     {
         "Id": 10067,
@@ -1875,7 +1875,7 @@
             "en": "On standby."
         },
         "Nickname": [],
-        "related": [10062, ["兔", "兔女郎"]]
+        "related": [10062, "bunnygirl"]
     },
     {
         "Id": 26009,
@@ -1889,7 +1889,7 @@
             "en": "403 Forbidden"
         },
         "Nickname": ["箱子"],
-        "related": [10018, ["女仆"]]
+        "related": [10018, "maid"]
     },
     {
         "Id": 10068,
@@ -1955,7 +1955,7 @@
             "en": "I'll let my results speak for me."
         },
         "Nickname": [],
-        "related": [10038, ["水", "泳装"]]
+        "related": [10038, "swimsuit"]
     },
     {
         "Id": 10072,
@@ -1969,7 +1969,7 @@
             "en": "If it doesn't work, make it work."
         },
         "Nickname": [],
-        "related": [20014, ["水", "泳装"]]
+        "related": [20014, "swimsuit"]
     },
     {
         "Id": 26010,
@@ -1983,7 +1983,7 @@
             "en": "Tomorrow is just another tomorrow."
         },
         "Nickname": [],
-        "related": [10039, ["水", "泳装"]]
+        "related": [10039, "swimsuit"]
     },
     {
         "Id": 20027,
@@ -1997,7 +1997,7 @@
             "en": "Those who need food, contact me."
         },
         "Nickname": ["水仓唯"],
-        "related": [10010, ["水", "泳装"]]
+        "related": [10010, "swimsuit"]
     },
     {
         "Id": 10073,
@@ -2006,7 +2006,7 @@
         ],
         "Bio": { "zh": "出差中", "jp": "出張中", "tw": "", "en": "" },
         "Nickname": [],
-        "related": [10035, ["水", "泳装"]]
+        "related": [10035, "swimsuit"]
     },
     {
         "Id": 20028,
@@ -2020,7 +2020,7 @@
             "en": ""
         },
         "Nickname": [],
-        "related": [10036, ["水", "泳装"]]
+        "related": [10036, "swimsuit"]
     },
     {
         "Id": 16013,
@@ -2034,7 +2034,7 @@
             "en": ""
         },
         "Nickname": [],
-        "related": [10020, ["水", "泳装"]]
+        "related": [10020, "swimsuit"]
     },
     {
         "Id": 10074,
@@ -2048,7 +2048,7 @@
             "en": ""
         },
         "Nickname": ["紫攻花子"],
-        "related": [23007, ["水", "泳装"]]
+        "related": [23007, "swimsuit"]
     },
     {
         "Id": 20029,
@@ -2062,7 +2062,7 @@
             "en": ""
         },
         "Nickname": [],
-        "related": [10034, ["水", "泳装"]]
+        "related": [10034, "swimsuit"]
     },
     {
         "Id": 10075,
@@ -2104,7 +2104,7 @@
             "en": ""
         },
         "Nickname": [],
-        "related": [16002, ["应援", "啦啦队", "拉拉队"]]
+        "related": [16002, "cheerleader"]
     },
     {
         "Id": 20030,
@@ -2118,7 +2118,7 @@
             "en": ""
         },
         "Nickname": [],
-        "related": [10002, ["运动服", "运动", "体操", "体"]]
+        "related": [10002, "gym"]
     },
     {
         "Id": 10077,

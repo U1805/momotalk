@@ -1,6 +1,20 @@
 import axios from 'axios'
 import { myStudent } from './interface'
 
+const prefixTable: { [key: string]: string[] } = {
+    "bunnygirl": ["兔", "兔女郎"],
+    "casual": ["私服", "滑板"],
+    "cheerleader": ["应援", "啦啦队", "拉拉队"],
+    "christmas": ["圣诞"],
+    "gym": ["体", "体操", "运动服", "运动"],
+    "hotspring": ["温泉"],
+    "maid": ["女仆"],
+    "newyear": ["春", "新", "新春", "新年", "正月"],
+    "riding": ["单车", "骑行"],
+    "swimsuit": ["泳装", "水"],
+    "young": ["幼", "幼女"]
+}
+
 const getSchaleImg = (collection: string) => {
     return `https://schale.gg/images/student/collection/${collection}.webp`
 }
@@ -33,12 +47,13 @@ const getSchale = async (lng: string) => {
             newStudent.Nickname = newStudent.Nickname.concat(localItem.Nickname)
             // add prefix
             if (localItem.related) {
-                const relatedInfo:[number, string[]] = localItem.related
+                const relatedInfo: [number, string] = localItem.related
                 const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])
-                for (let prefix of relatedInfo[1]){
-                    newStudent.Nickname.push(prefix+relatedItem!.Name)
+                const prefixs = prefixTable[relatedInfo[1]]
+                for (let prefix of prefixs) {
+                    newStudent.Nickname.push(prefix + relatedItem!.Name)
                     for (let nickname of relatedItem!.Nickname)
-                        newStudent.Nickname.push(prefix+nickname)
+                        newStudent.Nickname.push(prefix + nickname)
                 }
             }
         }
@@ -53,10 +68,10 @@ const getLocal = async (lng: string) => {
     for (const localItem of local) {
         const newStudent: myStudent = {
             Id: localItem.Id,
-            Name: localItem.Name[lng]?localItem.Name[lng]:"",
+            Name: localItem.Name[lng] ? localItem.Name[lng] : "",
             Birthday: '???',
             Avatar: ['/momotalk/Avatars/' + localItem.Nickname[0] + '.webp'],
-            Bio: localItem.Bio[lng]?localItem.Bio[lng]:"",
+            Bio: localItem.Bio[lng] ? localItem.Bio[lng] : "",
             Nickname: localItem.Nickname,
             School: '',
             cnt: 0
@@ -73,7 +88,7 @@ const getStudents = async (lng: string) => {
     return [data1, data2]
 }
 
-const getMessage = async (story:string) => {
+const getMessage = async (story: string) => {
     const res = await getData(`/momotalk/Stories/${story}.json`)
     return res
 }
