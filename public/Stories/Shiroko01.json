@@ -100,7 +100,7 @@
     },
     {
         "MessageId": 100100050,
-        "Flag": 1,
+        "Flag": 2,
         "Type": 3,
         "NextId": 100100060,
         "MessageType": "Text",
@@ -126,7 +126,7 @@
     },
     {
         "MessageId": 100100060,
-        "Flag": 1,
+        "Flag": 2,
         "Type": 0,
         "NextId": 100100070,
         "MessageType": "Text",

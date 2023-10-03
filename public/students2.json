@@ -279,25 +279,6 @@
         "Nickname": ["Ibuki"]
     },
     {
-        "Id": 133,
-        "Name": {
-            "zh": "霞",
-            "jp": "カスミ",
-            "tw": "霞",
-            "en": "Kasumi"
-        },
-        "Avatar": [
-            "https://static.wikia.nocookie.net/blue-archive/images/1/1e/Kasumi_Icon.png"
-        ],
-        "Bio": {
-            "zh": "有温泉就是好日子！",
-            "jp": "温泉の生活は素晴らしい人生だ！",
-            "tw": "有溫泉真是美好的日子！",
-            "en": "A hot spring life is an awesome life!"
-        },
-        "Nickname": ["Kasumi"]
-    },
-    {
         "Id": 134,
         "Name": {
             "zh": "绘梨香",
@@ -362,25 +343,6 @@
             "en": "Choose the path ahead"
         },
         "Nickname": ["Seia"]
-    },
-    {
-        "Id": 151,
-        "Name": {
-            "zh": "一花",
-            "jp": "イチカ",
-            "tw": "一花",
-            "en": "Ichika"
-        },
-        "Avatar": [
-            "https://static.wikia.nocookie.net/blue-archive/images/2/2f/Ichika_Icon.png"
-        ],
-        "Bio": {
-            "zh": "鹤城前辈，冷静点…那里不是门…",
-            "jp": "ツルギ先輩、ちょっと落ち着ける?",
-            "tw": "鶴城前輩，冷靜一點...那邊不是門...",
-            "en": "Tsurugi senpai, that's not a door, that's a... wall... or not"
-        },
-        "Nickname": ["Ichika"]
     },
     {
         "Id": 160,

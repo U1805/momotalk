@@ -31,6 +31,16 @@ const getSchale = async (lng: string) => {
             newStudent.Avatar = newStudent.Avatar.concat(localItem.Avatar)
             newStudent.Bio = localItem.Bio[lng]
             newStudent.Nickname = newStudent.Nickname.concat(localItem.Nickname)
+            // add prefix
+            if (localItem.related) {
+                const relatedInfo:[number, string[]] = localItem.related
+                const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])
+                for (let prefix of relatedInfo[1]){
+                    newStudent.Nickname.push(prefix+relatedItem!.Name)
+                    for (let nickname of relatedItem!.Nickname)
+                        newStudent.Nickname.push(prefix+nickname)
+                }
+            }
         }
         results.push(newStudent)
     }
