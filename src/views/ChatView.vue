@@ -37,8 +37,12 @@ import Popper from 'vue3-popper'
                         <div v-else-if="selected === 4">
                             <BellIcon class="heart bell" />
                         </div>
-                        <div v-else-if="typeof selected != 'number'" style="padding: 0px; margin: 0px" 
-                            class="item" title="Send a Sticker">
+                        <div
+                            v-else-if="typeof selected != 'number'"
+                            style="padding: 0px; margin: 0px"
+                            class="item"
+                            title="Send a Sticker"
+                        >
                             <img :src="selected.Avatar[selected.cnt]" />
                         </div>
                     </div>
@@ -53,7 +57,12 @@ import Popper from 'vue3-popper'
                 <!-- 贴图 -->
 
                 <!-- 发送 -->
-                <input class="text" placeholder="Aa" v-model="text" @keyup.enter="sendText()" />
+                <input
+                    class="text"
+                    placeholder="Aa"
+                    v-model="text"
+                    @keyup.enter="sendText()"
+                />
                 <div class="photo" title="Send an Image">
                     <ImageIcon @click="sendImage()" class="image icon" />
                 </div>
@@ -87,12 +96,24 @@ import Popper from 'vue3-popper'
                             </div>
                         </div>
 
-                        <div class="item" v-for="(student, index) in store.selectList" :key="index"
-                            @click="selectStudent(student)" title="Remove from list">
+                        <div
+                            class="item"
+                            v-for="(student, index) in store.selectList"
+                            :key="index"
+                            @click="selectStudent(student)"
+                            title="Remove from list"
+                        >
                             <img :src="student.Avatar[student.cnt]" />
-                            <CloseIcon class="delete-button" @click="releaseStudent(index)" />
+                            <CloseIcon
+                                class="delete-button"
+                                @click="releaseStudent(index)"
+                            />
                         </div>
-                        <div class="item-sensei" @click="addStudent" title="Add a customed student">
+                        <div
+                            class="item-sensei"
+                            @click="addStudent"
+                            title="Add a customed student"
+                        >
                             <AddIcon class="image icon" />
                         </div>
                     </div>
@@ -112,7 +133,7 @@ import { getRole, getTestRole } from '@/assets/utils/customRole'
 import { getMessage } from '@/assets/utils/request'
 import { waitClick, waitTime } from '@/assets/utils/wait'
 import i18n from '@/assets/locales/i18n'
-import Bus from '@/assets/utils/bus';
+import Bus from '@/assets/utils/bus'
 
 export default defineComponent({
     components: {
@@ -153,7 +174,7 @@ export default defineComponent({
             // 从下侧列表中删去学生
             store.deleteStudent(index)
         },
-        sendText(flag:number = 2) {
+        sendText(flag: number = 2) {
             if (this.text.length === 0) return
             var name = ''
             var type = 0
@@ -216,7 +237,7 @@ export default defineComponent({
             this.sendText()
             // 发送后收回 popover
             var sticker = this.$refs.sticker as HTMLElement
-            sticker.click() 
+            sticker.click()
         },
         addStudent() {
             // 添加自定义学生到列表
@@ -231,61 +252,55 @@ export default defineComponent({
         },
         async play() {
             // momotalk player
-            // clean the container
-            var sendbar = this.$refs.sendBar as HTMLDivElement
             var talklist = this.$refs.talkList as HTMLDivElement
-            
-            sendbar.hidden = true
-            talklist.setAttribute("style","height:100%")
+            talklist.setAttribute('style', 'height:100%')
 
-            if(!this.store.storyFile || !this.store.storyLng) return
+            if (!this.store.storyKey || !this.store.storyFile || !this.store.storyLng)
+                return
             var lng = this.store.storyLng
-            var data = (await getMessage(this.store.storyKey, this.store.storyFile))
-            var student = getTestRole(data[0][lng], data[0]["ImagePath"])
+            var data = await getMessage(this.store.storyKey, this.store.storyFile)
+            var student = getTestRole(data[0][lng], data[0]['ImagePath'])
             var item = data[1]
             this.store.resetData()
             do {
-                if (item.Type === 3){
+                if (item.Type === 3) {
                     // choice
                     this.selected = item.Type
-                    var choices = data.filter((ele)=>ele.MessageId === item.MessageId)
-                    this.text = choices.map(choice => choice[lng]).join('\n');
+                    var choices = data.filter((ele) => ele.MessageId === item.MessageId)
+                    this.text = choices.map((choice) => choice[lng]).join('\n')
                     this.sendText()
                     await waitTime(100)
                     // reply
                     var buttons = document.querySelectorAll('div.choice span > div')
-                    this.text = await waitClick(buttons) as string
-                    item = data.find((ele)=>ele[lng] === this.text)
+                    this.text = (await waitClick(buttons)) as string
+                    item = data.find((ele) => ele[lng] === this.text)
                     this.store.talkHistory.splice(-1, 1)
                     this.selected = 1
                     this.sendText()
                     continue
                 }
 
-                this.selected = (item.Type > 0)?item.Type:student
-                if (item.MessageType === "Text") {
+                this.selected = item.Type > 0 ? item.Type : student
+                if (item.MessageType === 'Text') {
                     this.text = item[lng]
                     this.sendText(item.Flag)
-                }
-                else if(item.MessageType === "Image"){
+                } else if (item.MessageType === 'Image') {
                     this.text = item.ImagePath
                     this.sendText()
                 }
 
-                if (item.Type === 2){
+                if (item.Type === 2) {
                     // momotalk story
                     await waitTime(100)
                     var buttons = document.querySelectorAll('.box-story')
-                    console.log(buttons)
                     await waitClick(buttons)
-                }else{
+                } else {
                     await waitTime(1500)
                 }
-            }while(item=data.find(ele=>ele.MessageId === item.NextId))
-            
+            } while ((item = data.find((ele) => ele.MessageId === item.NextId)))
+
             // 恢复发送栏 && 清理 URL
-            sendbar.hidden = false
-            talklist.setAttribute("style","")
+            talklist.setAttribute('style', '')
             let newQuery = JSON.parse(JSON.stringify(this.$route.query))
             delete newQuery.id
             this.$router.replace({ query: newQuery })
@@ -295,15 +310,15 @@ export default defineComponent({
         //自动触发写入的函数
         var scroll_to_bottom = this.$refs.talkList as HTMLElement
         scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
-        var that = this;
-        Bus.$on('On_Play',() => that.play())
+        var that = this
+        Bus.$on('On_Play', () => that.play())
         //判断播放
         let id = this.$route.query.id as string
-        if(id) {
+        if (id) {
             store.storyKey = id
-            try{
-                store.storyList = await getMessage(store.storyKey, 'index') as string[]
-            }catch({ name, message }){
+            try {
+                store.storyList = (await getMessage(store.storyKey, 'index')) as string[]
+            } catch ({ name, message }) {
                 return
             }
             store.storyFile = store.storyList[0]

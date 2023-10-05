@@ -20,11 +20,9 @@ import Dialog from '@/components/Dialog.vue'
             <div id="header__left">
                 <MomoIcon class="icon momo"/>
                 <span id="header__title">MomoTalk</span>
-                <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
-                
-                <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
-                    ><button class="help" title="Help">?</button></a
-                >
+                <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md">
+                    <button class="help" title="Help">?</button>
+                </a>
             </div>
             <div id="header__right">
                 <CloseIcon class="icon close" />
