@@ -292,8 +292,8 @@ export default defineComponent({
                 if (item.Type === 2) {
                     // momotalk story
                     await waitTime(100)
-                    var buttons = document.querySelectorAll('.box-story')
-                    await waitClick(buttons)
+                    var buttons2 = document.querySelectorAll('.box-story')
+                    await waitClick(buttons2)
                 } else {
                     await waitTime(1500)
                 }
@@ -318,7 +318,7 @@ export default defineComponent({
             store.storyKey = id
             try {
                 store.storyList = (await getMessage(store.storyKey, 'index')) as string[]
-            } catch ({ name, message }) {
+            } catch(error:any) {
                 return
             }
             store.storyFile = store.storyList[0]

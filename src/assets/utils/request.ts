@@ -50,9 +50,9 @@ const getSchale = async (lng: string) => {
                 const relatedInfo: [number, string] = localItem.related
                 const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])
                 const prefixs = prefixTable[relatedInfo[1]]
-                for (let prefix of prefixs) {
+                for (const prefix of prefixs) {
                     newStudent.Nickname.push(prefix + relatedItem!.Name)
-                    for (let nickname of relatedItem!.Nickname)
+                    for (const nickname of relatedItem!.Nickname)
                         newStudent.Nickname.push(prefix + nickname)
                 }
             }

@@ -18,7 +18,7 @@ const emit = defineEmits(["resp"]);
             <p class="dialog-content">
                 <label>{{ i18n.global.t("selectStory") }}</label>
                 <select v-model="store.storyFile">
-                    <option v-for="momotalk in store.storyList">{{ momotalk }}</option>
+                    <option v-for="(momotalk, index) in store.storyList" :key="index">{{ momotalk }}</option>
                 </select><br />
                 <label>{{ i18n.global.t("selectLanguage") }}</label>
                 <select v-model="store.storyLng">

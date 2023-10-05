@@ -10,7 +10,7 @@ import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
-import Dialog from '@/components/Dialog.vue'
+import Dialog from '@/components/DialogWindow.vue'
 </script>
 
 <template>
@@ -162,9 +162,7 @@ export default defineComponent({
         update(item: myStudent) {
             item.cnt = (item.cnt + 1) % item.Avatar.length
             var index = this.store.selectList.findIndex((ele) => ele.Id === item.Id)
-            try{
-                this.store.selectList[index].cnt = item.cnt
-            }catch(error){}
+            this.store.selectList[index].cnt = item.cnt
             this.store.setData()
         },
         getSchaleSchoolIcon(school: string) {

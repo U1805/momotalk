@@ -66,6 +66,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                                     v-for="(con, index) of element.content.split('\n')"
                                     contenteditable
                                     @input="saveReplyEdit($event, element.id, index)"
+                                    :key="index"
                                 >
                                     {{ con.replace('\n', '') }}
                                 </div>
