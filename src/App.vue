@@ -189,6 +189,7 @@ export default defineComponent({
         },
         play(confirm:boolean){
             if (confirm) Bus.$emit('On_Play',true);
+            else Bus.$emit('On_Play',false);
             this.store.showDialog = false
         }
     },

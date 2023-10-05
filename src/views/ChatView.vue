@@ -250,7 +250,13 @@ export default defineComponent({
             })
             readFile(reader)
         },
-        async play() {
+        async play(confirm: boolean) {
+            if(!confirm){
+                let newQuery = JSON.parse(JSON.stringify(this.$route.query))
+                delete newQuery.id
+                this.$router.replace({ query: newQuery })
+                return
+            }
             // momotalk player
             var talklist = this.$refs.talkList as HTMLDivElement
             talklist.setAttribute('style', 'height:100%')
@@ -311,7 +317,7 @@ export default defineComponent({
         var scroll_to_bottom = this.$refs.talkList as HTMLElement
         scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
         var that = this
-        Bus.$on('On_Play', () => that.play())
+        Bus.$on('On_Play', (confirm:boolean) => that.play(confirm))
         //判断播放
         let id = this.$route.query.id as string
         if (id) {
