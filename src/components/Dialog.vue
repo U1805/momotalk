@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { store } from '@/assets/utils/store';
-import { momotalks } from '@/assets/utils/momotalks';
 import i18n from '@/assets/locales/i18n'
 defineProps({
     show: Boolean,
@@ -17,11 +16,11 @@ const emit = defineEmits(["resp"]);
             <div class="dialog-header">{{ i18n.global.t("dialogTitle") }}</div>
             <p class="dialog-content">{{ i18n.global.t("dialogContent") }}</p>
             <p class="dialog-content">
+                <label>{{ i18n.global.t("selectStory") }}</label>
                 <select v-model="store.storyFile">
-                    <option v-for="momotalk in momotalks" 
-                        :selected="momotalk.selected">{{momotalk.value}}
-                    </option>
-                </select><br/>
+                    <option v-for="momotalk in store.storyList">{{ momotalk }}</option>
+                </select><br />
+                <label>{{ i18n.global.t("selectLanguage") }}</label>
                 <select v-model="store.storyLng">
                     <option selected>MessageTW</option>
                     <option>MessageEN</option>
@@ -29,10 +28,10 @@ const emit = defineEmits(["resp"]);
                 </select>
             </p>
             <div class="dialog-footer">
-                <button class="button dialog-confirm" @click="emit('resp',true)">
+                <button class="button dialog-confirm" @click="emit('resp', true)">
                     {{ i18n.global.t("confirm") }}
                 </button>
-                <button class="button dialog-confirm" @click="emit('resp',false)">
+                <button class="button dialog-confirm" @click="emit('resp', false)">
                     {{ i18n.global.t("cancel") }}
                 </button>
             </div>

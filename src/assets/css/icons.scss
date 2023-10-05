@@ -59,11 +59,14 @@
         background: $grey;
     }
     &.play{
-        height: 35px;
-        @include setColor(#fff);
+        height: 50px;
+        @include setColor($grey);
         cursor: pointer;
         filter: drop-shadow(rgba(45, 35, 66, 0.15) 0 2px 4px);
-        margin-right: 10px;
+        position: relative;
+        left: 60px;
+        top: 110px;
+        z-index: 10;
     }
 
     &:active {

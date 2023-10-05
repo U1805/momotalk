@@ -33,7 +33,9 @@ export const store = reactive({
 
     // momotalk player mode var
     showDialog: false,
-    storyFile: "Shiroko01",
+    storyKey: "10005",
+    storyList: ["1000501", "1000502", "1000503", "1000504", "1000505", "1000506"],
+    storyFile: "1000501",
     storyLng: "MessageTW",
 
     getIndexById(id: number) {

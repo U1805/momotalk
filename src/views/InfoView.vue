@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import BirhdayIcon from '@/components/icons/IconBirhday.vue'
+import PlayIcon from '@/components/icons/IconPlay.vue'
 </script>
 
 <template>
     <main class="student-info">
         <div v-if="student">
+            <RouterLink class="student-info__play" :to="{ path: '/chat', query: { id: student.Id } }">
+                <PlayIcon class="icon play"/>
+            </RouterLink>
             <div class="student-info__avatar">
                 <img :src="student.Avatar[student.cnt]" />
             </div>
@@ -23,6 +27,7 @@ import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import '@/assets/css/icons.scss'
 
 export default defineComponent({
     props: {
@@ -39,14 +44,21 @@ export default defineComponent({
 
     > div {
         display: grid;
+        margin: 20px 40px;
         grid: {
-            template-columns: 40px 1fr 40px;
-            template-rows: 160px  40px minmax(40px, 1fr) 40px;
+            template-rows: 0px 160px  40px minmax(40px, 1fr) 55px;
         }
     }
 
+    &__play{
+        grid-row: 1 / 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     &__avatar {
-        grid-area: 1 / 2 / 2 / 3;
+        grid-row: 2 / 3;
         @include center;
 
         img {
@@ -55,14 +67,14 @@ export default defineComponent({
     }
 
     &__name {
-        grid-area: 2 / 2 / 3 / 3;
+        grid-row: 3 / 4;
         color: $font-black;
         @include center;
         @include font-light(23px);
     }
 
     &__bio {
-        grid-area: 3 / 2 / 4 / 3;
+        grid-row: 4 / 5;
         color: $font-grey;
         word-wrap: break-word;
         text-align: center;
@@ -70,7 +82,7 @@ export default defineComponent({
     }
 
     &__birthday {
-        grid-area: 4 / 2 / 5 / 3;
+        grid-row: 5 / 6;
         @include center;
         @include font-light(20px);
         color: #5d7c8c;

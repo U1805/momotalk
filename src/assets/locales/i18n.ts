@@ -10,7 +10,9 @@ const messages = {
         dialogTitle: "🎈这里是实验性功能",
         dialogContent: "点击 `确定` 开始播放学生 Momotalk 剧情\n💥注意：此功能会清空对话记录",
         confirm: "确定",
-        cancel: "取消"
+        cancel: "取消",
+        selectStory: "选择剧情",
+        selectLanguage: "选择语言"
     },
     jp: {
         selectInfo: '生徒を選択してください',
@@ -21,7 +23,9 @@ const messages = {
         dialogTitle: "🎈実験的な機能です",
         dialogContent: "確認ボタンを押して\n生徒の Momotalk イベントを再生します\n💥注意：会話履歴が削除されます",
         confirm: "確認",
-        cancel: "キャンセル"
+        cancel: "キャンセル",
+        selectStory: "イベントを選択",
+        selectLanguage: "言語を選択"
     },
     en: {
         selectInfo: 'Please select a student',
@@ -32,7 +36,9 @@ const messages = {
         dialogTitle: "🎈Experimental Feature",
         dialogContent: "Click 'Confirm' to start playing the student Momotalk event\n💥Note: This will clear the conversation history",
         confirm: "Confirm",
-        cancel: "Cancel"
+        cancel: "Cancel",
+        selectStory: "Select an episode",
+        selectLanguage: "Select a language"
     },
     tw: {
         selectInfo: '請選擇學生',
@@ -43,7 +49,9 @@ const messages = {
         dialogTitle: "🎈這是實驗性功能",
         dialogContent: "點選 '確認' 開始播放學生 Momotalk 劇情\n💥注意：此功能將清空對話記錄",
         confirm: "確認",
-        cancel: "取消"
+        cancel: "取消",
+        selectStory: "選擇劇集",
+        selectLanguage: "選擇語言"
     }
 }
 

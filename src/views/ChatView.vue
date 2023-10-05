@@ -240,7 +240,7 @@ export default defineComponent({
 
             if(!this.store.storyFile || !this.store.storyLng) return
             var lng = this.store.storyLng
-            var data = (await getMessage(this.store.storyFile))
+            var data = (await getMessage(this.store.storyKey, this.store.storyFile))
             var student = getTestRole(data[0][lng], data[0]["ImagePath"])
             var item = data[1]
             this.store.resetData()
@@ -271,25 +271,44 @@ export default defineComponent({
                     this.text = item.ImagePath
                     this.sendText()
                 }
-                await waitTime(1500)
 
                 if (item.Type === 2){
                     // momotalk story
-                    var buttons = document.querySelectorAll('div.story .content > span')
+                    await waitTime(100)
+                    var buttons = document.querySelectorAll('.box-story')
+                    console.log(buttons)
                     await waitClick(buttons)
+                }else{
+                    await waitTime(1500)
                 }
             }while(item=data.find(ele=>ele.MessageId === item.NextId))
             
+            // 恢复发送栏 && 清理 URL
             sendbar.hidden = false
             talklist.setAttribute("style","")
+            let newQuery = JSON.parse(JSON.stringify(this.$route.query))
+            delete newQuery.id
+            this.$router.replace({ query: newQuery })
         }
     },
-    mounted: function () {
+    mounted: async function () {
         //自动触发写入的函数
         var scroll_to_bottom = this.$refs.talkList as HTMLElement
         scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
         var that = this;
         Bus.$on('On_Play',() => that.play())
+        //判断播放
+        let id = this.$route.query.id as string
+        if(id) {
+            store.storyKey = id
+            try{
+                store.storyList = await getMessage(store.storyKey, 'index') as string[]
+            }catch({ name, message }){
+                return
+            }
+            store.storyFile = store.storyList[0]
+            store.showDialog = true
+        }
     }
 })
 </script>

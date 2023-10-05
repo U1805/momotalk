@@ -10,7 +10,6 @@ import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
-import PlayIcon from './components/icons/IconPlay.vue'
 import Dialog from '@/components/Dialog.vue'
 </script>
 
@@ -22,7 +21,7 @@ import Dialog from '@/components/Dialog.vue'
                 <MomoIcon class="icon momo"/>
                 <span id="header__title">MomoTalk</span>
                 <!-- <RouterLink to="/help"><button class="help">?</button></RouterLink> -->
-                <PlayIcon class="icon play" @click="store.showDialog=true"></PlayIcon>
+                
                 <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md"
                     ><button class="help" title="Help">?</button></a
                 >
@@ -203,7 +202,7 @@ export default defineComponent({
             let text = this.searchText.toLowerCase()
             let reg = new RegExp(text)
             this.dataDisplay = this.database[this.dataDisplayIndex].filter((item) => {
-                if (reg.test(item.Name)) return item
+                if (reg.test(item.Name.toLowerCase())) return item
                 else if (item.Nickname)
                     // 遍历别名
                     for (let nickname of item.Nickname)
@@ -222,9 +221,11 @@ export default defineComponent({
                 box.focus()
             }
             if (e.ctrlKey && e.key==='z'){
+                e.preventDefault()
                 store.undo()
             }
             if (e.ctrlKey && e.shiftKey && e.key==='Z'){
+                e.preventDefault()
                 store.redo()
             }
         }
