@@ -40,7 +40,6 @@
     }
 }
 
-
 @media screen and (max-width: 1150px) {
     .talk-wrapper {
         width: 100vw;
@@ -48,10 +47,12 @@
     .talk-list {
         height: calc(100vh - $header-height - $chatfooter-height);
     }
-    .g-scroll, .g-wrap, .g-content {
+    .g-scroll,
+    .g-wrap,
+    .g-content {
         all: initial;
     }
-    .g-content{
+    .g-content {
         all: initial;
         display: flex;
         overflow: scroll;

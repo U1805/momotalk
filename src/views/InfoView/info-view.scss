@@ -1,0 +1,57 @@
+.student-info {
+    @include center;
+    @include font-heavy(20px);
+    color: $font-grey;
+
+    > div {
+        display: grid;
+        margin: 20px 40px;
+        grid: {
+            template-rows: 0px 160px 40px minmax(40px, 1fr) 55px;
+        }
+    }
+
+    &__play {
+        grid-row: 1 / 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__avatar {
+        grid-row: 2 / 3;
+        @include center;
+
+        img {
+            @include circle(150px);
+        }
+    }
+
+    &__name {
+        grid-row: 3 / 4;
+        color: $font-black;
+        @include center;
+        @include font-light(23px);
+    }
+
+    &__bio {
+        grid-row: 4 / 5;
+        color: $font-grey;
+        word-wrap: break-word;
+        text-align: center;
+        @include font-light(23px);
+    }
+
+    &__birthday {
+        grid-row: 5 / 6;
+        @include center;
+        @include font-light(20px);
+        color: #5d7c8c;
+        border: #c2cfd6 2px solid;
+        border-radius: 20px;
+        place-self: center;
+        width: fit-content;
+        margin: 5px auto auto;
+        padding: 4px;
+    }
+}

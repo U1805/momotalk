@@ -1,38 +1,47 @@
 <script setup lang="ts">
-import { store } from '@/assets/utils/store';
+import { store } from '@/assets/storeUtils/store'
 import i18n from '@/assets/locales/i18n'
-defineProps({
-    show: Boolean,
-    title: String,
-    message: String
-})
+import { play } from '@/assets/chatUtils/play'
+import { useRoute, useRouter } from 'vue-router'
+import { ref } from 'vue'
 
-const emit = defineEmits(["resp"]);
+const route = useRoute()
+const router = useRouter()
+const storyLng = ref<string>('MessageTW')
+
+const playMomotalk = (confirm: boolean) => {
+    play(confirm, store.storyKey, store.storyFile, storyLng.value)
+    let newQuery = JSON.parse(JSON.stringify(route.query))
+    delete newQuery.id
+    router.replace({ query: newQuery })
+}
 </script>
 
 <template>
-    <div v-if="show" class="dialog-mask flex-center">
+    <div v-if="store.showDialog" class="dialog-mask flex-center">
         <div class="dialog-box">
-            <div class="dialog-header">{{ i18n.global.t("dialogTitle") }}</div>
-            <p class="dialog-content">{{ i18n.global.t("dialogContent") }}</p>
+            <div class="dialog-header">{{ i18n.global.t('dialogTitle') }}</div>
+            <p class="dialog-content">{{ i18n.global.t('dialogContent') }}</p>
             <p class="dialog-content">
-                <label>{{ i18n.global.t("selectStory") }}</label>
+                <label>{{ i18n.global.t('selectStory') }}</label>
                 <select v-model="store.storyFile">
-                    <option v-for="(momotalk, index) in store.storyList" :key="index">{{ momotalk }}</option>
-                </select><br />
-                <label>{{ i18n.global.t("selectLanguage") }}</label>
-                <select v-model="store.storyLng">
+                    <option v-for="(momotalk, index) in store.storyList" :key="index">
+                        {{ momotalk }}
+                    </option></select
+                ><br />
+                <label>{{ i18n.global.t('selectLanguage') }}</label>
+                <select v-model="storyLng">
                     <option selected>MessageTW</option>
                     <option>MessageEN</option>
                     <option>MessageJP</option>
                 </select>
             </p>
             <div class="dialog-footer">
-                <button class="button dialog-confirm" @click="emit('resp', true)">
-                    {{ i18n.global.t("confirm") }}
+                <button class="button dialog-confirm" @click="playMomotalk(true)">
+                    {{ i18n.global.t('confirm') }}
                 </button>
-                <button class="button dialog-confirm" @click="emit('resp', false)">
-                    {{ i18n.global.t("cancel") }}
+                <button class="button dialog-confirm" @click="playMomotalk(false)">
+                    {{ i18n.global.t('cancel') }}
                 </button>
             </div>
         </div>
@@ -77,7 +86,7 @@ const emit = defineEmits(["resp"]);
     width: 100%;
     height: 60px;
     background-color: #fff;
-    border: 1px solid #EBEDF0;
+    border: 1px solid #ebedf0;
     color: $pink;
     &:active {
         background-color: #f2f3f5;

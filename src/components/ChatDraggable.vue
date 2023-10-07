@@ -16,6 +16,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     first: element.type <= 1 && element.flag > 0
                 }"
             >
+                <!-- 学生信息 -->
                 <div
                     class="student--split"
                     v-if="element.type === 0 && element.flag === 0"
@@ -93,7 +94,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     >
                         <typing-animation
                             class="loading"
-                            v-if="typing > 0 && element.id === store.talkId - 1"
+                            v-if="store.typing > 0 && element.id === talkHistory.talkId - 1"
                         ></typing-animation>
                         <img
                             v-else
@@ -106,7 +107,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     <div class="box" v-else>
                         <typing-animation
                             class="loading"
-                            v-if="typing > 0 && element.id === store.talkId - 1"
+                            v-if="store.typing > 0 && element.id === talkHistory.talkId - 1"
                         ></typing-animation>
                         <span
                             v-else
@@ -116,7 +117,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         >
                     </div>
 
-                    <span class="del" @click="store.deleteTalkById(element.id)">×</span>
+                    <span class="del" @click="talkHistory.deleteTalkById(element.id)">×</span>
                 </div>
             </div>
         </template>
@@ -125,18 +126,18 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
 
 <script lang="ts">
 import draggable from 'vuedraggable'
-import { readFile } from '@/assets/utils/readFile'
-import { store } from '@/assets/utils/store'
+import { readFile } from '@/assets/imgUtils/readFile'
+import { store } from '@/assets/storeUtils/store'
+import { talkHistory } from '@/assets/storeUtils/talkHistory'
+import { saveReplyEdit } from '@/assets/storeUtils/saveReplyEdit'
 import { Talk } from '@/assets/utils/interface'
-import { saveReplyEdit } from '@/assets/utils/saveReplyEdit'
 
 export default {
     props: {
         tasks: {
             required: true,
             type: Array
-        },
-        typing: null
+        }
     },
     components: {
         draggable,
@@ -148,7 +149,7 @@ export default {
             reader.addEventListener('load', () => {
                 var ele = evt.target! as HTMLImageElement
                 ele.src = reader.result as string
-                store.setTalkContent(id, reader.result as string)
+                talkHistory.setTalkContent(id, reader.result as string)
                 console.log(reader.result as string)
             })
             readFile(reader)
@@ -157,34 +158,17 @@ export default {
             // 拖动后设置 flag => 样式
             var i = e.newIndex
             var j = e.oldIndex
-            var len = store.talkHistory.length
-            if (store.talkHistory[i].type <= 1) {
-                if (i > 0 && store.isSameChar(i - 1, i)) store.setTalkFlag(i, 0)
-                else store.setTalkFlag(i, 2)
-            }
-            if (i < len - 1 && store.talkHistory[i + 1].type <= 1) {
-                if (store.isSameChar(i, i + 1)) store.setTalkFlag(i + 1, 0)
-                else store.setTalkFlag(i + 1, 2)
-            }
-            if (store.talkHistory[j].type <= 1) {
-                if (j > 0 && store.isSameChar(j - 1, j)) store.setTalkFlag(j, 0)
-                else store.setTalkFlag(j, 2)
-            }
-            if (j < len - 1 && store.talkHistory[j + 1].type <= 1) {
-                if (store.isSameChar(j, j + 1)) store.setTalkFlag(j + 1, 0)
-                else store.setTalkFlag(j + 1, 2)
-            }
-            store.setData()
+            talkHistory.checkMove(i, j)
         },
         splitTalks(element: Talk) {
             // 分段消息流，0->1，1->0，2不可改
             if (element.flag < 2) element.flag = 1 - element.flag
-            store.setData()
+            talkHistory.setData()
         },
         saveEdit(event: Event, id: number, type: string) {
             var span = event.target as HTMLElement
-            if (type === 'name') store.setTalkName(id, span.innerText)
-            if (type === 'content') store.setTalkContent(id, span.innerText)
+            if (type === 'name') talkHistory.setTalkName(id, span.innerText)
+            if (type === 'content') talkHistory.setTalkContent(id, span.innerText)
         }
     }
 }

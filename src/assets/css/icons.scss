@@ -22,7 +22,7 @@
     &.list {
         height: 35px;
     }
-    &.message{
+    &.message {
         height: 30px;
     }
     &.profile,
@@ -58,7 +58,7 @@
         @include setColor(white);
         background: $grey;
     }
-    &.play{
+    &.play {
         height: 50px;
         @include setColor($grey);
         cursor: pointer;

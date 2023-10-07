@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
 import MomoIcon from './components/icons/IconMomo.vue'
 import CloseIcon from './components/icons/IconClose.vue'
 import StudentIcon from './components/icons/IconStudent.vue'
@@ -14,15 +13,15 @@ import Dialog from '@/components/DialogWindow.vue'
 </script>
 
 <template>
-    <Dialog :show="store.showDialog" @resp="play"></Dialog>
+    <Dialog></Dialog>
     <div id="root">
         <div id="header">
             <div id="header__left">
-                <MomoIcon class="icon momo"/>
+                <MomoIcon class="icon momo" />
                 <span id="header__title">MomoTalk</span>
-                <a href="https://github.com/U1805/momotalk/blob/main/How-to-use.md">
+                <RouterLink to="/help" title="Info">
                     <button class="help" title="Help">?</button>
-                </a>
+                </RouterLink>
             </div>
             <div id="header__right">
                 <CloseIcon class="icon close" />
@@ -34,7 +33,7 @@ import Dialog from '@/components/DialogWindow.vue'
                 <RouterLink to="/" title="Info">
                     <StudentIcon class="icon info" />
                 </RouterLink>
-                <RouterLink to="/chat" @click="releaseStudent" title="Chat">
+                <RouterLink to="/chat" @click="deactiveStudent" title="Chat">
                     <MessageIcon class="icon message" />
                 </RouterLink>
             </div>
@@ -60,10 +59,14 @@ import Dialog from '@/components/DialogWindow.vue'
                         placeholder="Type / to search"
                         class="search-group__text"
                         v-model="searchText"
-                        ref="searchBox"
+                        id="searchBox"
                     />
                 </div>
-                <div class="student-list__button" @click="exchangeList" title="Switch Student List">
+                <div
+                    class="student-list__button"
+                    @click="switchStudentList"
+                    title="Switch Student List"
+                >
                     <ListIcon class="icon list" />
                 </div>
             </div>
@@ -72,10 +75,10 @@ import Dialog from '@/components/DialogWindow.vue'
                     class="list-item"
                     v-for="(item, index) in dataDisplay"
                     :key="index"
-                    :class="{ active: index === currentStudent }"
-                    @click="selectStudent(item, index)"
+                    :class="{ active: item === student }"
+                    @click="selectStudent(item)"
                 >
-                    <div class="list-item__avatar" @click="update(item)">
+                    <div class="list-item__avatar" @click="updateAvatar(item)">
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon
                             class="icon list-item__avatar--multi"
@@ -87,7 +90,7 @@ import Dialog from '@/components/DialogWindow.vue'
                     <div
                         class="list-item__mark"
                         v-if="item.School"
-                        @click="filterScool(item.School)"
+                        @click="searchSchool = searchSchool === item.School ? '' : item.School"
                         @click.stop=""
                     >
                         <img :src="getSchaleSchoolIcon(item.School)" />
@@ -95,150 +98,104 @@ import Dialog from '@/components/DialogWindow.vue'
                 </div>
             </div>
         </div>
-        <RouterView id="chatcard" :student="student" @releaseStudent="releaseStudent"/>
+        <RouterView id="chatcard" :student="student" @deactive="deactiveStudent()" />
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import { domtoimage } from '@/assets/utils/dom-to-image'
-import { store } from '@/assets/utils/store'
-import { myStudent } from '@/assets/utils/interface'
-import { getStudents } from '@/assets/utils/request'
+import { ref, watch } from 'vue'
+import { RouterLink, RouterView } from 'vue-router'
 import i18n from '@/assets/locales/i18n'
-import Bus from '@/assets/utils/bus';
+import { myStudent } from '@/assets/utils/interface'
+import { getStudents, getSchaleSchoolIcon } from '@/assets/utils/request'
+import { download } from '@/assets/imgUtils/download'
+import { store } from '@/assets/storeUtils/store'
+import { selectList } from '@/assets/storeUtils/selectList'
+import { talkHistory } from '@/assets/storeUtils/talkHistory'
 
-export default defineComponent({
-    props: {},
-    data() {
-        return {
-            store,
-            student: null,
-            currentStudent: -1,
-            searchScool: '',
-            searchText: '',
-            database: [] as myStudent[][], // [data1, data2]
-            dataDisplay: [] as myStudent[], // data1
-            dataDisplayIndex: -1
-        }
-    },
-    methods: {
-        selectStudent(item: any, index: number) {
-            this.student = item
-            this.currentStudent = index
-        },
-        releaseStudent() {
-            this.student = null
-        },
-        download() {
-            var node = document.getElementsByClassName('talk-list')[0]
-            // 隐藏截图的滚动条
-            node.setAttribute('style', 'overflow-y:hidden')
-            var width = node.clientWidth
-            var height = node.scrollHeight
-            if (width && height) {
-                domtoimage
-                    .toPng(node, { width, height })
-                    .then(function (dataUrl: string) {
-                        const link = document.createElement('a')
-                        link.download = `Momotalk-${Date.now()}.png`
-                        link.href = dataUrl
-                        link.click()
-                    })
-                    .catch(function (error: Error) {
-                        console.error('oops, screenshot went wrong!', error)
-                    })
-                    .finally(function () {
-                        // 恢复滚动功能
-                        node.setAttribute('style', 'overflow-y:scroll')
-                    })
-            }
-        },
-        exchangeList() {
-            this.dataDisplayIndex = (this.dataDisplayIndex + 1) % this.database.length
-            // 刷新选中状态
-            this.releaseStudent()
-        },
-        update(item: myStudent) {
-            item.cnt = (item.cnt + 1) % item.Avatar.length
-            var index = this.store.selectList.findIndex((ele) => ele.Id === item.Id)
-            this.store.selectList[index].cnt = item.cnt
-            this.store.setData()
-        },
-        getSchaleSchoolIcon(school: string) {
-            return `https://schale.gg/images/schoolicon/School_Icon_${school.toUpperCase()}_W.png`
-        },
-        filterScool(school: string) {
-            this.searchScool = this.searchScool === '' ? school : ''
-            let reg = new RegExp(this.searchScool)
-            this.dataDisplay = this.database[this.dataDisplayIndex].filter((item) => {
-                if (reg.test(item.School)) return item
-            })
-            // 刷新选中状态
-            this.releaseStudent()
-        },
-        async changeLanguage() {
-            const languageList = i18n.global.availableLocales
-            const currentLngIdx = languageList.findIndex((ele) => ele === this.store.language)
-            this.store.language = languageList[(currentLngIdx + 1) % languageList.length]
-            i18n.global.locale = this.store.language as any
-            this.database = await getStudents(this.store.language)
-            this.dataDisplay = this.database[this.dataDisplayIndex]
-            this.store.setData()
-            this.releaseStudent()
-        },
-        play(confirm:boolean){
-            if (confirm) Bus.$emit('On_Play',true);
-            else Bus.$emit('On_Play',false);
-            this.store.showDialog = false
-        }
-    },
-    watch: {
-        searchText() {
-            // https://www.cnblogs.com/caozhenfei/p/14882122.html
-            let text = this.searchText.toLowerCase()
-            let reg = new RegExp(text)
-            this.dataDisplay = this.database[this.dataDisplayIndex].filter((item) => {
-                if (reg.test(item.Name.toLowerCase())) return item
-                else if (item.Nickname)
-                    // 遍历别名
-                    for (let nickname of item.Nickname)
-                        if (reg.test(nickname.toLowerCase())) return item
-            })
-            this.releaseStudent()
-        },
-        dataDisplayIndex(flag) {
-            this.dataDisplay = this.database[flag]
-        }
-    },
-    mounted: function () {
-        document.onkeyup = (e) => {
-            if (e.key === '/') {
-                var box = this.$refs.searchBox as HTMLInputElement
-                box.focus()
-            }
-            if (e.ctrlKey && e.key==='z'){
-                e.preventDefault()
-                store.undo()
-            }
-            if (e.ctrlKey && e.shiftKey && e.key==='Z'){
-                e.preventDefault()
-                store.redo()
-            }
-        }
-        this.$nextTick(async () => {
-            this.store.getData()
-            i18n.global.locale = this.store.language as any
-            this.database = await getStudents(this.store.language)
-            this.dataDisplayIndex = 0
-        })
-    }
+store.getData()
+
+// student data
+const database = ref<myStudent[][]>(await getStudents(store.language))
+const dataDisplayIndex = ref<number>(0)
+const dataDisplay = ref<myStudent[]>(database.value[dataDisplayIndex.value])
+watch(dataDisplayIndex, async (flag: number) => {
+    dataDisplay.value = database.value[flag]
 })
+const switchStudentList = () => {
+    dataDisplayIndex.value = (dataDisplayIndex.value + 1) % database.value.length
+    deactiveStudent()
+}
+
+// search and filter
+const searchText = ref<string>('')
+const searchSchool = ref<string>('')
+watch(
+    () => [searchText.value, searchSchool.value],
+    () => {
+        // https://www.cnblogs.com/caozhenfei/p/14882122.html
+        let reg_text = new RegExp(searchText.value.toLowerCase())
+        let reg_school = new RegExp(searchSchool.value)
+        dataDisplay.value = database.value[dataDisplayIndex.value].filter((item) => {
+            if (reg_school.test(item.School)) {
+                if (reg_text.test(item.Name.toLowerCase())) return item
+                for (let nickname of item.Nickname) {
+                    if (reg_text.test(nickname.toLowerCase())) return item
+                }
+            }
+        })
+        deactiveStudent()
+    }
+)
+
+// item in list
+const student = ref<myStudent | null>(null)
+const selectStudent = (item: any) => {
+    selectList.pushStudent(item)
+    student.value = item
+}
+const deactiveStudent = () => {
+    student.value = null
+}
+const updateAvatar = (item: myStudent) => {
+    item.cnt = (item.cnt + 1) % item.Avatar.length
+    var index = selectList.getStudentIndexById(item.Id)
+    selectList.selectList[index].cnt = item.cnt
+    selectList.setData()
+}
+
+// languages
+const changeLanguage = async () => {
+    const languageList = i18n.global.availableLocales
+    const currentLngIdx = languageList.findIndex((ele) => ele === store.language)
+    store.language = languageList[(currentLngIdx + 1) % languageList.length]
+    i18n.global.locale = store.language as any
+    database.value = await getStudents(store.language)
+    dataDisplay.value = database.value[dataDisplayIndex.value]
+    store.setData()
+    deactiveStudent()
+}
+
+// shortcuts
+document.onkeyup = (e) => {
+    if (e.key === '/') {
+        var box = document.getElementById('searchBox') as HTMLInputElement
+        box.focus()
+    }
+    if (e.ctrlKey && e.key === 'z') {
+        e.preventDefault()
+        talkHistory.undo()
+    }
+    if (e.ctrlKey && e.shiftKey && e.key === 'Z') {
+        e.preventDefault()
+        talkHistory.redo()
+    }
+}
 </script>
 
 <style scoped lang="scss">
-@import './assets/css/app.scss';
-@import './assets/css/icons.scss';
+@import './app.scss';
+@import '@/assets/css/icons.scss';
 
-@import './assets/css/mobile.scss';
+@import '@/assets/css/mobile.scss';
 </style>

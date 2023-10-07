@@ -1,9 +1,9 @@
-import { store } from "./store"
+import { talkHistory } from './talkHistory'
 
 function saveReplyEdit(event: Event, id: number, index: number) {
     // ChatDraggable 中编辑后保存，需要特殊处理 reply
     const div = event.target as HTMLElement
-    let split = store.getTalkById(id).content.split('\n')
+    let split = talkHistory.getTalkById(id).content.split('\n')
 
     if (
         (event as InputEvent).inputType === 'insertParagraph' ||
@@ -22,7 +22,7 @@ function saveReplyEdit(event: Event, id: number, index: number) {
         split.splice(index, 1)
     else split[index] = div.innerText
 
-    store.setTalkContent(id, split.join('\n'))
+    talkHistory.setTalkContent(id, split.join('\n'))
 }
 
 export { saveReplyEdit }

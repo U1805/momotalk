@@ -1,6 +1,6 @@
 @keyframes box-appear {
     from {
-        transform: scale(.8);
+        transform: scale(0.8);
         opacity: 0;
     }
 
@@ -21,7 +21,7 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: rgba(45, 35, 66, 0.2) 0 3px 6px;
-    
+
     animation-name: box-appear;
     animation-duration: 0.6s;
     animation-timing-function: ease;
@@ -37,6 +37,9 @@
     &__left {
         @include center;
         padding: 9px;
+        .router-link-active {
+            background-color: $pink;
+        }
     }
 
     &__right {
