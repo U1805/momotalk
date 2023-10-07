@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import i18n from '@/assets/locales/i18n'
-import VMdPreview from '@/assets/markdown/markdown.js'
+import VMdPreview from '@/assets/markdown/markdown'
 
 const app = createApp(App)
 
