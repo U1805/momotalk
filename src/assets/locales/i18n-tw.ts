@@ -13,7 +13,7 @@ export default {
     help: `
 # 使用說明 · How to use
 
-[![](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
+[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚側邊欄 · Sidebar
 

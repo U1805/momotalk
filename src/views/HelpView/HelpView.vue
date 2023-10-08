@@ -1,10 +1,6 @@
-<script setup lang="ts">
-import i18n from '@/assets/locales/i18n'
-</script>
-
 <template>
     <main>
-        <v-md-preview :text="i18n.global.t('help')"></v-md-preview>
+        <v-md-preview :text="$t('help')"></v-md-preview>
     </main>
 </template>
 

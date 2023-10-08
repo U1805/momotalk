@@ -14,7 +14,7 @@ export default {
     help: `
 # 使用方法 · How to use
 
-[![](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
+[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚サイドバー · Sidebar
 

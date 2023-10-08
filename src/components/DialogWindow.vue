@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { store } from '@/assets/storeUtils/store'
-import i18n from '@/assets/locales/i18n'
 import { play } from '@/assets/chatUtils/play'
 import { useRoute, useRouter } from 'vue-router'
 import { ref } from 'vue'
@@ -20,16 +19,16 @@ const playMomotalk = (confirm: boolean) => {
 <template>
     <div v-if="store.showDialog" class="dialog-mask flex-center">
         <div class="dialog-box">
-            <div class="dialog-header">{{ i18n.global.t('dialogTitle') }}</div>
-            <p class="dialog-content">{{ i18n.global.t('dialogContent') }}</p>
+            <div class="dialog-header">{{ $t('dialogTitle') }}</div>
+            <p class="dialog-content">{{ $t('dialogContent') }}</p>
             <p class="dialog-content">
-                <label>{{ i18n.global.t('selectStory') }}</label>
+                <label>{{ $t('selectStory') }}</label>
                 <select v-model="store.storyFile">
                     <option v-for="(momotalk, index) in store.storyList" :key="index">
                         {{ momotalk }}
                     </option></select
                 ><br />
-                <label>{{ i18n.global.t('selectLanguage') }}</label>
+                <label>{{ $t('selectLanguage') }}</label>
                 <select v-model="storyLng">
                     <option selected>MessageTW</option>
                     <option>MessageEN</option>
@@ -38,10 +37,10 @@ const playMomotalk = (confirm: boolean) => {
             </p>
             <div class="dialog-footer">
                 <button class="button dialog-confirm" @click="playMomotalk(true)">
-                    {{ i18n.global.t('confirm') }}
+                    {{ $t('confirm') }}
                 </button>
                 <button class="button dialog-confirm" @click="playMomotalk(false)">
-                    {{ i18n.global.t('cancel') }}
+                    {{ $t('cancel') }}
                 </button>
             </div>
         </div>

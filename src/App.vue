@@ -19,8 +19,8 @@ import Dialog from '@/components/DialogWindow.vue'
             <div id="header__left">
                 <MomoIcon class="icon momo" />
                 <span id="header__title">MomoTalk</span>
-                <RouterLink to="/help" title="Info">
-                    <button class="help" title="Help">?</button>
+                <RouterLink to="/help" title="Help">
+                    <button class="help">?</button>
                 </RouterLink>
             </div>
             <div id="header__right">
@@ -151,7 +151,6 @@ watch(
 // item in list
 const student = ref<myStudent | null>(null)
 const selectStudent = (item: any) => {
-    selectList.pushStudent(item)
     student.value = item
 }
 const deactiveStudent = () => {
