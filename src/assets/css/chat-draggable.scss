@@ -21,6 +21,7 @@
         @include font-regular(20px);
         color: $font-black;
         user-select: none;
+        width: fit-content;
     }
 
     .container {
@@ -94,7 +95,8 @@
         flex-direction: column;
         border-radius: 10px;
         border: 1px solid $chatborder-color;
-        background: #f3f7f8;
+        background: url('/reply.png') no-repeat right top, #f3f7f8;
+        background-size: 260px;
 
         .header {
             border-bottom: 1px solid $font-grey;
@@ -125,6 +127,7 @@
                     text-decoration: none;
                     display: inline-block;
                     border-radius: 10px;
+                    box-shadow: 0px 2px 5px #0000003d;
                     @include font-regular(20px);
                 }
             }
@@ -156,6 +159,7 @@
             text-decoration: none;
             display: inline-block;
             border-radius: 10px;
+            box-shadow: 0px 2px 5px #0000003d;
             @include font-regular(20px);
         }
     }
