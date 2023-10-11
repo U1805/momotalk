@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16008.webp", "MessageJP": "フブキ", "MessageTW": "吹雪", "MessageEN": "Fubuki"}, {"MessageId": 160070200, "Flag": 2, "Type": 4, "NextId": 160080200, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160080200, "Flag": 2, "Type": 0, "NextId": 160080210, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、事件だよ！", "MessageTW": "老師，有事件！", "MessageEN": "Big news, Sensei!"}, {"MessageId": 160080210, "Flag": 1, "Type": 0, "NextId": 160080211, "MessageType": "Text", "ImagePath": "", "MessageJP": "警備局からの情報によると、不法な武器の取引に明け暮れる指名手配犯が、今日ブラックマーケットに現れるかもしれないんだって！", "MessageTW": "根據警備局的情報，一直以來都因為交易非法武器而被通緝的犯人，今天據說會出現在黑市！", "MessageEN": "According to intelligence from the Security Bureau, a wanted fugitive for illegal arms trade could show up at the Black Market today!"}, {"MessageId": 160080211, "Flag": 2, "Type": 0, "NextId": 160080212, "MessageType": "Text", "ImagePath": "", "MessageJP": "犯罪者がいつ通るかは分からないから、周辺で張り込みした方が良さそう", "MessageTW": "因為不知道犯人什麼時候會通過，看來先在附近埋伏比較好", "MessageEN": "We don't know when the criminal will show up, so we'll have to work undercover nearby."}, {"MessageId": 160080212, "Flag": 2, "Type": 0, "NextId": 160080220, "MessageType": "Text", "ImagePath": "", "MessageJP": "今すぐ出動しよう！", "MessageTW": "我們立刻出動吧！", "MessageEN": "Let's leave now!"}, {"MessageId": 160080220, "Flag": 2, "Type": 3, "NextId": 160080230, "MessageType": "Text", "ImagePath": "", "MessageJP": "……フブキ？", "MessageTW": "……吹雪？", "MessageEN": "Fubuki? Is that really you?"}, {"MessageId": 160080220, "Flag": 2, "Type": 3, "NextId": 160080230, "MessageType": "Text", "ImagePath": "", "MessageJP": "もしかして、どこか具合でも悪い？", "MessageTW": "是不是哪裡不舒服？", "MessageEN": "Are you okay? You're not acting like yourself."}, {"MessageId": 160080230, "Flag": 2, "Type": 0, "NextId": 160080231, "MessageType": "Text", "ImagePath": "", "MessageJP": "何その反応", "MessageTW": "那是什麼反應", "MessageEN": "What kind of reply is that, Sensei?"}, {"MessageId": 160080231, "Flag": 2, "Type": 0, "NextId": 160080240, "MessageType": "Text", "ImagePath": "", "MessageJP": "警察が事件に意欲的で、何かおかしい？", "MessageTW": "警察對事件很積極是什麼奇怪的事嗎？", "MessageEN": "What's so strange about a cop being enthusiastic about a case?"}, {"MessageId": 160080240, "Flag": 2, "Type": 3, "NextId": 160080250, "MessageType": "Text", "ImagePath": "", "MessageJP": "でもフブキ……", "MessageTW": "可是吹雪……", "MessageEN": "But, you're Fubuki..."}, {"MessageId": 160080240, "Flag": 2, "Type": 3, "NextId": 160080250, "MessageType": "Text", "ImagePath": "", "MessageJP": "外回り、かなり嫌がってなかった？", "MessageTW": "不是很討厭出外勤嗎？", "MessageEN": "I thought you hated extra work..."}, {"MessageId": 160080250, "Flag": 2, "Type": 0, "NextId": 160080251, "MessageType": "Text", "ImagePath": "", "MessageJP": "こうしてる場合じゃない！", "MessageTW": "現在不是說這些的時候了！", "MessageEN": "There's no time to explain!"}, {"MessageId": 160080251, "Flag": 2, "Type": 0, "NextId": 160070250, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、私は先に現場に出動して待ってるから！", "MessageTW": "老師，我先到現場去等你！", "MessageEN": "Sensei, I'll be waiting for you at the scene!"}, {"MessageId": 160070250, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "フブキの絆イベントへ", "MessageTW": "前往吹雪的羈絆劇情", "MessageEN": "Go to Fubuki's Event"}]
+[
+    {
+        "CharacterId": 16008,
+        "MessageJP": "フブキ",
+        "MessageKR": "후부키",
+        "MessageTW": "吹雪",
+        "MessageEN": "Fubuki"
+    },
+    {
+        "MessageId": 160070200,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160080200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160080200,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、事件だよ！",
+        "MessageKR": "선생, 사건이야!",
+        "MessageTW": "老師，有事件！",
+        "MessageEN": "Big news, Sensei!"
+    },
+    {
+        "MessageId": 160080210,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160080211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "警備局からの情報によると、不法な武器の取引に明け暮れる指名手配犯が、今日ブラックマーケットに現れるかもしれないんだって！",
+        "MessageKR": "경비국에서 내려온 첩보에 의하면 불법 무기 거래를 일삼는 지명수배자가 오늘 블랙마켓에 나타날지도 모른대!",
+        "MessageTW": "根據警備局的情報，一直以來都因為交易非法武器而被通緝的犯人，今天據說會出現在黑市！",
+        "MessageEN": "According to intelligence from the Security Bureau, a wanted fugitive for illegal arms trade could show up at the Black Market today!"
+    },
+    {
+        "MessageId": 160080211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "犯罪者がいつ通るかは分からないから、周辺で張り込みした方が良さそう",
+        "MessageKR": "범죄자가 언제 지나갈지는 알 수 없으니까, 아무래도 근처에서 잠복근무를 해야 할 것 같아.",
+        "MessageTW": "因為不知道犯人什麼時候會通過，看來先在附近埋伏比較好",
+        "MessageEN": "We don't know when the criminal will show up, so we'll have to work undercover nearby."
+    },
+    {
+        "MessageId": 160080212,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今すぐ出動しよう！",
+        "MessageKR": "지금 바로 출동하자!",
+        "MessageTW": "我們立刻出動吧！",
+        "MessageEN": "Let's leave now!"
+    },
+    {
+        "MessageId": 160080220,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……フブキ？",
+        "MessageKR": "……후부키?",
+        "MessageTW": "……吹雪？",
+        "MessageEN": "Fubuki? Is that really you?"
+    },
+    {
+        "MessageId": 160080220,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もしかして、どこか具合でも悪い？",
+        "MessageKR": "갑자기 왜 그래? 어디 아파?",
+        "MessageTW": "是不是哪裡不舒服？",
+        "MessageEN": "Are you okay? You're not acting like yourself."
+    },
+    {
+        "MessageId": 160080230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080231,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何その反応",
+        "MessageKR": "그게 무슨 반응이야, 선생.",
+        "MessageTW": "那是什麼反應",
+        "MessageEN": "What kind of reply is that, Sensei?"
+    },
+    {
+        "MessageId": 160080231,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "警察が事件に意欲的で、何かおかしい？",
+        "MessageKR": "경찰이 사건에 의욕적으로 반응하는 게 뭐가 이상해?",
+        "MessageTW": "警察對事件很積極是什麼奇怪的事嗎？",
+        "MessageEN": "What's so strange about a cop being enthusiastic about a case?"
+    },
+    {
+        "MessageId": 160080240,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でもフブキ……",
+        "MessageKR": "하지만, 후부키 너……",
+        "MessageTW": "可是吹雪……",
+        "MessageEN": "But, you're Fubuki..."
+    },
+    {
+        "MessageId": 160080240,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "外回り、かなり嫌がってなかった？",
+        "MessageKR": "외근 업무는 질색하는 거 아니었어?",
+        "MessageTW": "不是很討厭出外勤嗎？",
+        "MessageEN": "I thought you hated extra work..."
+    },
+    {
+        "MessageId": 160080250,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080251,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こうしてる場合じゃない！",
+        "MessageKR": "더 길게 이야기할 시간도 없어!",
+        "MessageTW": "現在不是說這些的時候了！",
+        "MessageEN": "There's no time to explain!"
+    },
+    {
+        "MessageId": 160080251,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070257,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、私は先に現場に出動して待ってるから！",
+        "MessageKR": "선생, 나는 먼저 현장에 출동해서 기다리고 있을게!",
+        "MessageTW": "老師，我先到現場去等你！",
+        "MessageEN": "Sensei, I'll be waiting for you at the scene!"
+    },
+    {
+        "MessageId": 160070257,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フブキの絆イベントへ",
+        "MessageKR": "후부키의 인연스토리로",
+        "MessageTW": "前往吹雪的羈絆劇情",
+        "MessageEN": "Go to Fubuki's Event"
+    }
+]

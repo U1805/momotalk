@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20006.webp", "MessageJP": "サヤ（私服）", "MessageTW": "沙耶(私服)", "MessageEN": "Saya (Casual)"}, {"MessageId": 200050080, "Flag": 2, "Type": 4, "NextId": 200060080, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200060080, "Flag": 2, "Type": 0, "NextId": 200060090, "MessageType": "Text", "ImagePath": "", "MessageJP": "天才は孤独なのだ……", "MessageTW": "天才是孤獨的……", "MessageEN": "Phew... The life of a genius can get pretty lonely."}, {"MessageId": 200060090, "Flag": 1, "Type": 0, "NextId": 200060100, "MessageType": "Text", "ImagePath": "", "MessageJP": "いくら説明しても、理解されない……", "MessageTW": "無論怎麼說明，也不被理解……", "MessageEN": "Average people could never understand, no matter how much I explain..."}, {"MessageId": 200060100, "Flag": 2, "Type": 3, "NextId": 200060110, "MessageType": "Text", "ImagePath": "", "MessageJP": "何かあったの？", "MessageTW": "怎麼了嗎？", "MessageEN": "Is something wrong?"}, {"MessageId": 200060110, "Flag": 2, "Type": 0, "NextId": 200060111, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、そうだ、先生", "MessageTW": "啊，對了，老師", "MessageEN": "Uh, I mean..."}, {"MessageId": 200060111, "Flag": 2, "Type": 0, "NextId": 200060120, "MessageType": "Text", "ImagePath": "", "MessageJP": "い、いや、何でもないのだ！", "MessageTW": "不，沒有，沒事！", "MessageEN": "N-Nothing!"}, {"MessageId": 200060120, "Flag": 1, "Type": 0, "NextId": 200060121, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぼく様だけでも、十分解決できる問題なのだ！", "MessageTW": "這是我自己就能解決的問題！", "MessageEN": "I can take care of it on my own!"}, {"MessageId": 200060121, "Flag": 2, "Type": 0, "NextId": 200060130, "MessageType": "Text", "ImagePath": "", "MessageJP": "この山海経随一の天才であるぼく様に、不可能なんて無いからな！うーはっはっはっ！", "MessageTW": "對我這個山海經首屈一指的天才來說，沒有什麼不可能的！哇哈哈哈！", "MessageEN": "I'm Shanhaijing's genius! There's nothing I can't do! Hahaha!"}, {"MessageId": 200060130, "Flag": 2, "Type": 3, "NextId": 200050130, "MessageType": "Text", "ImagePath": "", "MessageJP": "……？", "MessageTW": "……？", "MessageEN": "Well, THAT isn't suspicious."}, {"MessageId": 200050130, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "サヤ（私服）の絆イベントへ", "MessageTW": "前往沙耶(私服)的羈絆劇情", "MessageEN": "Go to Saya (Casual)'s Event"}]
+[
+    {
+        "CharacterId": 20006,
+        "MessageJP": "サヤ（私服）",
+        "MessageKR": "사야(사복)",
+        "MessageTW": "沙耶(私服)",
+        "MessageEN": "Saya (Casual)"
+    },
+    {
+        "MessageId": 200050080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200060080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200060080,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "天才は孤独なのだ……",
+        "MessageKR": "후우…… 천재의 삶이란 정말 고독한 것이다.",
+        "MessageTW": "天才是孤獨的……",
+        "MessageEN": "Phew... The life of a genius can get pretty lonely."
+    },
+    {
+        "MessageId": 200060090,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200060100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いくら説明しても、理解されない……",
+        "MessageKR": "아무리 설명하려 해도 범인들은 이해해 주질 않으니…….",
+        "MessageTW": "無論怎麼說明，也不被理解……",
+        "MessageEN": "Average people could never understand, no matter how much I explain..."
+    },
+    {
+        "MessageId": 200060100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200060110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何かあったの？",
+        "MessageKR": "무슨 문제라도 있어?",
+        "MessageTW": "怎麼了嗎？",
+        "MessageEN": "Is something wrong?"
+    },
+    {
+        "MessageId": 200060110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、そうだ、先生",
+        "MessageKR": "어, 그러니까…….",
+        "MessageTW": "啊，對了，老師",
+        "MessageEN": "Uh, I mean..."
+    },
+    {
+        "MessageId": 200060111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "い、いや、何でもないのだ！",
+        "MessageKR": "아니, 아무것도 아니다!",
+        "MessageTW": "不，沒有，沒事！",
+        "MessageEN": "N-Nothing!"
+    },
+    {
+        "MessageId": 200060120,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200060121,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぼく様だけでも、十分解決できる問題なのだ！",
+        "MessageKR": "나님 혼자서도 충분히 해결할 수 있는 문제인 것이다!",
+        "MessageTW": "這是我自己就能解決的問題！",
+        "MessageEN": "I can take care of it on my own!"
+    },
+    {
+        "MessageId": 200060121,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この山海経随一の天才であるぼく様に、不可能なんて無いからな！うーはっはっはっ！",
+        "MessageKR": "산해경 제일의 수재인 나님에게 불가능이란 없으니까! 음-하-하-핫!",
+        "MessageTW": "對我這個山海經首屈一指的天才來說，沒有什麼不可能的！哇哈哈哈！",
+        "MessageEN": "I'm Shanhaijing's genius! There's nothing I can't do! Hahaha!"
+    },
+    {
+        "MessageId": 200060130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200050137,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……？",
+        "MessageKR": "……뭔가 수상한데.",
+        "MessageTW": "……？",
+        "MessageEN": "Well, THAT isn't suspicious."
+    },
+    {
+        "MessageId": 200050137,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サヤ（私服）の絆イベントへ",
+        "MessageKR": "사야(사복)의 인연스토리로",
+        "MessageTW": "前往沙耶(私服)的羈絆劇情",
+        "MessageEN": "Go to Saya (Casual)'s Event"
+    }
+]

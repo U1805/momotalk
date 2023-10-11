@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10040.webp", "MessageJP": "ツクヨ", "MessageTW": "月夜", "MessageEN": "Tsukuyo"}, {"MessageId": 100390230, "Flag": 2, "Type": 4, "NextId": 100400230, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100400230, "Flag": 2, "Type": 0, "NextId": 100400240, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今日も修行がしたいのですが……", "MessageTW": "老師，我今天也想修行……", "MessageEN": "Sensei! About today's ninja training! "}, {"MessageId": 100400240, "Flag": 1, "Type": 0, "NextId": 100400250, "MessageType": "Text", "ImagePath": "", "MessageJP": "お願い、できますでしょうか……？", "MessageTW": "請問可以，拜託您嗎……？", "MessageEN": "C-C-Could you help me?"}, {"MessageId": 100400250, "Flag": 2, "Type": 3, "NextId": 100400260, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、それじゃあいつもの場所で良い？", "MessageTW": "嗯，那就平常的地點可以嗎？", "MessageEN": "Yeah, I'll meet you at the usual place."}, {"MessageId": 100400260, "Flag": 2, "Type": 0, "NextId": 100400261, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい！", "MessageTW": "是的！", "MessageEN": "Heeheehee!"}, {"MessageId": 100400261, "Flag": 2, "Type": 0, "NextId": 100390260, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます！", "MessageTW": "謝謝老師！", "MessageEN": "Yes!"}, {"MessageId": 100390260, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ツクヨの絆イベントへ", "MessageTW": "前往月夜的羈絆劇情", "MessageEN": "Go to Tsukuyo's Event"}]
+[
+    {
+        "CharacterId": 10040,
+        "MessageJP": "ツクヨ",
+        "MessageKR": "츠쿠요",
+        "MessageTW": "月夜",
+        "MessageEN": "Tsukuyo"
+    },
+    {
+        "MessageId": 100390230,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100400230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100400230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今日も修行がしたいのですが……",
+        "MessageKR": "선생님! 오늘도 닌자가 되기 위한 수련!",
+        "MessageTW": "老師，我今天也想修行……",
+        "MessageEN": "Sensei! About today's ninja training! "
+    },
+    {
+        "MessageId": 100400240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100400250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お願い、できますでしょうか……？",
+        "MessageKR": "부, 부디 부, 부탁드릴게요!",
+        "MessageTW": "請問可以，拜託您嗎……？",
+        "MessageEN": "C-C-Could you help me?"
+    },
+    {
+        "MessageId": 100400250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100400260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、それじゃあいつもの場所で良い？",
+        "MessageKR": "응, 그럼 언제나 보던 그곳에서 보자.",
+        "MessageTW": "嗯，那就平常的地點可以嗎？",
+        "MessageEN": "Yeah, I'll meet you at the usual place."
+    },
+    {
+        "MessageId": 100400260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400261,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい！",
+        "MessageKR": "에헤헷!",
+        "MessageTW": "是的！",
+        "MessageEN": "Heeheehee!"
+    },
+    {
+        "MessageId": 100400261,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100390267,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます！",
+        "MessageKR": "네!",
+        "MessageTW": "謝謝老師！",
+        "MessageEN": "Yes!"
+    },
+    {
+        "MessageId": 100390267,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ツクヨの絆イベントへ",
+        "MessageKR": "츠쿠요의 인연스토리로",
+        "MessageTW": "前往月夜的羈絆劇情",
+        "MessageEN": "Go to Tsukuyo's Event"
+    }
+]

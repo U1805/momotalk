@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20019.webp", "MessageJP": "アカネ（バニーガール）", "MessageTW": "朱音(兔女郎)", "MessageEN": "Akane (Bunny)"}, {"MessageId": 200180280, "Flag": 2, "Type": 4, "NextId": 200190280, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200190280, "Flag": 2, "Type": 0, "NextId": 200190290, "MessageType": "Text", "ImagePath": "", "MessageJP": "お仕事の調子はどうでしょうか、ご主人様？", "MessageTW": "工作怎麼樣呢，主人？", "MessageEN": "How's work, Master?"}, {"MessageId": 200190290, "Flag": 1, "Type": 0, "NextId": 200190291, "MessageType": "Text", "ImagePath": "", "MessageJP": "私は本日非番を頂きました", "MessageTW": "我今天不用值班", "MessageEN": "Me? It's my first day off in quite a while."}, {"MessageId": 200190291, "Flag": 2, "Type": 0, "NextId": 200190300, "MessageType": "Text", "ImagePath": "", "MessageJP": "こうして時間が空くのは久しぶりです", "MessageTW": "這種空閒的時間真是久違了", "MessageEN": "I can't even recall the last time I had time to myself."}, {"MessageId": 200190300, "Flag": 2, "Type": 3, "NextId": 200190310, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカネは普段のお休みは何をしているの？", "MessageTW": "朱音平常休息的時候都會做什麼呢？", "MessageEN": "What will you do with your rare spare time, Akane?"}, {"MessageId": 200190310, "Flag": 2, "Type": 0, "NextId": 200190311, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうですね", "MessageTW": "這個嘛", "MessageEN": "Hm..."}, {"MessageId": 200190311, "Flag": 2, "Type": 0, "NextId": 200190320, "MessageType": "Text", "ImagePath": "", "MessageJP": "やりたいことはたくさんありますが……", "MessageTW": "雖然有很多想做的事……", "MessageEN": "There's quite an extensive list of things I'd like to do."}, {"MessageId": 200190320, "Flag": 1, "Type": 0, "NextId": 200190321, "MessageType": "Text", "ImagePath": "", "MessageJP": "望むことは、一つだけですね", "MessageTW": "但期望的只有一件事", "MessageEN": "But there IS one thing at the veeery top..."}, {"MessageId": 200190321, "Flag": 2, "Type": 0, "NextId": 200190330, "MessageType": "Text", "ImagePath": "", "MessageJP": "偶然……本当に偶然でいいんです", "MessageTW": "偶然……真的是偶然就好", "MessageEN": "Perhaps...by any chance...could I..."}, {"MessageId": 200190330, "Flag": 1, "Type": 0, "NextId": 200190340, "MessageType": "Text", "ImagePath": "", "MessageJP": "ご主人様にお会いできたら嬉しいなと……", "MessageTW": "能遇到主人的話會很開心……", "MessageEN": "...spend my time with you, Master?"}, {"MessageId": 200190340, "Flag": 1, "Type": 0, "NextId": 200180340, "MessageType": "Text", "ImagePath": "", "MessageJP": "そんなことを考えておりました", "MessageTW": "我一直是這麼想的", "MessageEN": "That's the number one thing on my list."}, {"MessageId": 200180340, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカネ（バニーガール）の絆イベントへ", "MessageTW": "前往朱音(兔女郎)的羈絆劇情", "MessageEN": "Go to Akane (Bunny)'s Event"}]
+[
+    {
+        "CharacterId": 20019,
+        "MessageJP": "アカネ（バニーガール）",
+        "MessageKR": "아카네(바니걸)",
+        "MessageTW": "朱音(兔女郎)",
+        "MessageEN": "Akane (Bunny)"
+    },
+    {
+        "MessageId": 200180280,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200190280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200190280,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200190290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お仕事の調子はどうでしょうか、ご主人様？",
+        "MessageKR": "일은 어떠세요, 주인님?",
+        "MessageTW": "工作怎麼樣呢，主人？",
+        "MessageEN": "How's work, Master?"
+    },
+    {
+        "MessageId": 200190290,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200190291,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私は本日非番を頂きました",
+        "MessageKR": "저는 오늘 간만에 비번이랍니다.",
+        "MessageTW": "我今天不用值班",
+        "MessageEN": "Me? It's my first day off in quite a while."
+    },
+    {
+        "MessageId": 200190291,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200190300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こうして時間が空くのは久しぶりです",
+        "MessageKR": "시간이 비는 것은 오랜만이에요.",
+        "MessageTW": "這種空閒的時間真是久違了",
+        "MessageEN": "I can't even recall the last time I had time to myself."
+    },
+    {
+        "MessageId": 200190300,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200190310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカネは普段のお休みは何をしているの？",
+        "MessageKR": "아카네는 쉬는 날에 주로 뭘 하는 편이야?",
+        "MessageTW": "朱音平常休息的時候都會做什麼呢？",
+        "MessageEN": "What will you do with your rare spare time, Akane?"
+    },
+    {
+        "MessageId": 200190310,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200190311,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうですね",
+        "MessageKR": "글쎄요. ",
+        "MessageTW": "這個嘛",
+        "MessageEN": "Hm..."
+    },
+    {
+        "MessageId": 200190311,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200190320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やりたいことはたくさんありますが……",
+        "MessageKR": "하고 싶은 것은 많이 있습니다만……",
+        "MessageTW": "雖然有很多想做的事……",
+        "MessageEN": "There's quite an extensive list of things I'd like to do."
+    },
+    {
+        "MessageId": 200190320,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200190321,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "望むことは、一つだけですね",
+        "MessageKR": "바라는 건 하나뿐이에요.",
+        "MessageTW": "但期望的只有一件事",
+        "MessageEN": "But there IS one thing at the veeery top..."
+    },
+    {
+        "MessageId": 200190321,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200190330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "偶然……本当に偶然でいいんです",
+        "MessageKR": "그저…… 어쩌다 우연히……",
+        "MessageTW": "偶然……真的是偶然就好",
+        "MessageEN": "Perhaps...by any chance...could I..."
+    },
+    {
+        "MessageId": 200190330,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200190340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご主人様にお会いできたら嬉しいなと……",
+        "MessageKR": "주인님과 만날 수 있으면 좋겠다……",
+        "MessageTW": "能遇到主人的話會很開心……",
+        "MessageEN": "...spend my time with you, Master?"
+    },
+    {
+        "MessageId": 200190340,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200180347,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そんなことを考えておりました",
+        "MessageKR": "그런 생각을 하고 있었답니다.",
+        "MessageTW": "我一直是這麼想的",
+        "MessageEN": "That's the number one thing on my list."
+    },
+    {
+        "MessageId": 200180347,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカネ（バニーガール）の絆イベントへ",
+        "MessageKR": "아카네(바니걸)의 인연스토리로",
+        "MessageTW": "前往朱音(兔女郎)的羈絆劇情",
+        "MessageEN": "Go to Akane (Bunny)'s Event"
+    }
+]

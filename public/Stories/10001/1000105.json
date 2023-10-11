@@ -1,1 +1,105 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10001.webp", "MessageJP": "エイミ", "MessageTW": "英美", "MessageEN": "Eimi"}, {"MessageId": 100000280, "Flag": 2, "Type": 4, "NextId": 100010280, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100010280, "Flag": 2, "Type": 0, "NextId": 100010290, "MessageType": "Text", "ImagePath": "", "MessageJP": "作戦終了、ミッションクリア。お疲れ様、先生", "MessageTW": "作戰結束，任務完成。辛苦了，老師", "MessageEN": "Mission clear. Nice work, Sensei."}, {"MessageId": 100010290, "Flag": 2, "Type": 3, "NextId": 100010304, "MessageType": "Text", "ImagePath": "", "MessageJP": "さっきすれ違った時、腕から血が出てた気がするけど、もう手当てはした？", "MessageTW": "剛才擦肩而過時，你的手臂好像流血了，處理好了嗎？", "MessageEN": "I noticed earlier that your arm was bleeding. Do you need treatment?"}, {"MessageId": 100010304, "Flag": 2, "Type": 0, "NextId": 100010301, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫、ちょっと擦りむいただけだから", "MessageTW": "沒事，只是有點擦傷而已", "MessageEN": "It's okay. It's just a scratch."}, {"MessageId": 100010301, "Flag": 2, "Type": 0, "NextId": 100010310, "MessageType": "Text", "ImagePath": "", "MessageJP": "作戦中に、これぐらいの怪我はよくあること", "MessageTW": "這種程度的傷在作戰時很常見", "MessageEN": "Scratches like this one are pretty common during missions."}, {"MessageId": 100010310, "Flag": 2, "Type": 3, "NextId": 100010325, "MessageType": "Text", "ImagePath": "", "MessageJP": "それはダメ。消毒するから、保健室に来て", "MessageTW": "這可不行。來保健室我幫你消毒", "MessageEN": "That's not good. Come to the infirmary, and I'll disinfect the wound."}, {"MessageId": 100010325, "Flag": 2, "Type": 0, "NextId": 100000320, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫なのに……", "MessageTW": "明明沒事的說……", "MessageEN": "I'm okay. Really..."}, {"MessageId": 100000320, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "エイミの絆イベントへ", "MessageTW": "前往英美的羈絆劇情", "MessageEN": "Go to Eimi's Event"}]
+[
+    {
+        "CharacterId": 10001,
+        "MessageJP": "エイミ",
+        "MessageKR": "에이미",
+        "MessageTW": "英美",
+        "MessageEN": "Eimi"
+    },
+    {
+        "MessageId": 100000280,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100010280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100010280,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100010290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "作戦終了、ミッションクリア。お疲れ様、先生",
+        "MessageKR": "작전 완료, 미션 클리어. 선생님, 수고 많았어.",
+        "MessageTW": "作戰結束，任務完成。辛苦了，老師",
+        "MessageEN": "Mission clear. Nice work, Sensei."
+    },
+    {
+        "MessageId": 100010290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100010304,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "さっきすれ違った時、腕から血が出てた気がするけど、もう手当てはした？",
+        "MessageKR": "아까 보니 팔에서 피가 나던데, 치료하지 않아도 되겠어?",
+        "MessageTW": "剛才擦肩而過時，你的手臂好像流血了，處理好了嗎？",
+        "MessageEN": "I noticed earlier that your arm was bleeding. Do you need treatment?"
+    },
+    {
+        "MessageId": 100010304,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100010301,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫、ちょっと擦りむいただけだから",
+        "MessageKR": "괜찮아, 살짝 긁힌 수준인걸.",
+        "MessageTW": "沒事，只是有點擦傷而已",
+        "MessageEN": "It's okay. It's just a scratch."
+    },
+    {
+        "MessageId": 100010301,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100010310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "作戦中に、これぐらいの怪我はよくあること",
+        "MessageKR": "작전 중에 이 정도의 상처를 입는 건 흔한 일이야.",
+        "MessageTW": "這種程度的傷在作戰時很常見",
+        "MessageEN": "Scratches like this one are pretty common during missions."
+    },
+    {
+        "MessageId": 100010310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100010325,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それはダメ。消毒するから、保健室に来て",
+        "MessageKR": "안 돼. 상처를 소독해 줄 테니 양호실로 와.",
+        "MessageTW": "這可不行。來保健室我幫你消毒",
+        "MessageEN": "That's not good. Come to the infirmary, and I'll disinfect the wound."
+    },
+    {
+        "MessageId": 100010325,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000327,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫なのに……",
+        "MessageKR": "나는 정말 괜찮다니까…….",
+        "MessageTW": "明明沒事的說……",
+        "MessageEN": "I'm okay. Really..."
+    },
+    {
+        "MessageId": 100000327,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "エイミの絆イベントへ",
+        "MessageKR": "에이미의 인연스토리로",
+        "MessageTW": "前往英美的羈絆劇情",
+        "MessageEN": "Go to Eimi's Event"
+    }
+]

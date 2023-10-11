@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 10034,
+        "MessageJP": "ミモリ",
+        "MessageKR": "미모리",
+        "MessageTW": "三森",
+        "MessageEN": "Mimori"
+    },
+    {
+        "MessageId": 100330350,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100340350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100340350,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340355,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんにちは、先生",
+        "MessageKR": "안녕하세요. 선생님.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340355,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100340360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本日、百鬼夜行にいらっしゃっていると伺ったのですが",
+        "MessageKR": "이번에 저희 백귀야행 학원에 오신다고 들었어요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340360,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100340370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、その予定だよ",
+        "MessageKR": "응. 그럴 예정이야.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340370,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340371,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "え、ええと……",
+        "MessageKR": "저, 저기……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340371,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340380,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でしたら",
+        "MessageKR": "그러시다면……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340380,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100340381,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "久しぶりに先生をご招待したいのですが",
+        "MessageKR": "오랜만에…… 선생님을 초대해 드리고 싶은데.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340381,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしい、でしょうか……？",
+        "MessageKR": "괜찮……으실까요?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100340390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100330397,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん！",
+        "MessageKR": "꼭 갈게!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100330397,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミモリの絆イベントへ",
+        "MessageKR": "미모리의 인연스토리로",
+        "MessageTW": "前往三森的羈絆劇情",
+        "MessageEN": "Go to Mimori's Event"
+    }
+]

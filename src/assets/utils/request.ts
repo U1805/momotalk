@@ -30,7 +30,7 @@ const getData = async (file: string) => {
 }
 
 const getSchale = async (lng: string) => {
-    const local = await getData('/momotalk/students.min.json')
+    const local = await getData('/momotalk/students.json')
     const schale = await getData(`https://schale.gg/data/${lng}/students.min.json`)
     const results: myStudent[] = []
     for (const schaleItem of schale) {
@@ -67,7 +67,7 @@ const getSchale = async (lng: string) => {
 }
 
 const getLocal = async (lng: string) => {
-    const local = await getData('/momotalk/students2.min.json')
+    const local = await getData('/momotalk/students2.json')
     const results: myStudent[] = []
     for (const localItem of local) {
         const newStudent: myStudent = {

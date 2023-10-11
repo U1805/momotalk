@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 20029,
+        "MessageJP": "ミモリ（水着）",
+        "MessageKR": "미모리(수영복)",
+        "MessageTW": "ミモリ（水着）",
+        "MessageEN": "Mimori (Swimsuit)"
+    },
+    {
+        "MessageId": 200280180,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200290180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200290180,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200290190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "안녕하세요. 선생님. ",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290190,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200290200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は先生と一緒に、海辺で過ごしたいのですが……",
+        "MessageKR": "오늘은 선생님과 해변에서 함께 시간을 보내고 싶은데",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290200,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200290210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お時間、大丈夫でしょうか？",
+        "MessageKR": "괜찮으신가요?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290210,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200290220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろんだよ",
+        "MessageKR": "얼마든지 좋아.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200290230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでは、よろしくお願いします",
+        "MessageKR": "그러면 잘 부탁드립니다.  ",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290230,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200290240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……とても、楽しみです",
+        "MessageKR": "뭔가…… 엄청나게 기대가 되네요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200290250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんなにも、胸がドキドキするなんて……",
+        "MessageKR": "저, 지금 가슴이 막 뛰고 그러는 거 있죠?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200280257,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "も、もう少し気楽にね……？",
+        "MessageKR": "음, 저기. 살살 부탁합니다……?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200280257,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミモリ（水着）の絆イベントへ",
+        "MessageKR": "미모리(수영복)의 인연스토리로",
+        "MessageTW": "前往ミモリ（水着）的羈絆劇情",
+        "MessageEN": "Go to Mimori (Swimsuit)'s Event"
+    }
+]

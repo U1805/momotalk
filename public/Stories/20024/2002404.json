@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20024.webp", "MessageJP": "ナギサ", "MessageTW": "渚", "MessageEN": "Nagisa"}, {"MessageId": 200230310, "Flag": 2, "Type": 4, "NextId": 200240310, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200240310, "Flag": 2, "Type": 0, "NextId": 200240320, "MessageType": "Text", "ImagePath": "", "MessageJP": "おはようございます、先生", "MessageTW": "早安，老師", "MessageEN": "Good morning, Sensei."}, {"MessageId": 200240320, "Flag": 1, "Type": 0, "NextId": 200240330, "MessageType": "Text", "ImagePath": "", "MessageJP": "一日の始まりは朝食からと言いますが……先生はもうすでに食べられましたか？", "MessageTW": "有句話說早餐是一天的開始……老師已經用過早餐了嗎？", "MessageEN": "Did you eat breakfast before you went to work?"}, {"MessageId": 200240330, "Flag": 2, "Type": 3, "NextId": 200240340, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、ちょうどさっき。ナギサの方は？", "MessageTW": "嗯，我剛吃完。渚呢？", "MessageEN": "Yeah. How about you, Nagisa?"}, {"MessageId": 200240340, "Flag": 2, "Type": 0, "NextId": 200240350, "MessageType": "Text", "ImagePath": "", "MessageJP": "私は先ほど、お味噌汁をいただきました", "MessageTW": "我稍早之前喝過了味噌湯", "MessageEN": "Yes. I had miso soup a while ago."}, {"MessageId": 200240350, "Flag": 2, "Type": 3, "NextId": 200240360, "MessageType": "Text", "ImagePath": "", "MessageJP": "……ちょっと意外かも", "MessageTW": "……有點意外", "MessageEN": "...I didn't expect that."}, {"MessageId": 200240360, "Flag": 2, "Type": 3, "NextId": 200240370, "MessageType": "Text", "ImagePath": "", "MessageJP": "ティーパーティーって何か、スイーツしか食べないみたいなイメージが……", "MessageTW": "茶會好像給人一種只吃甜點的印象……", "MessageEN": "I thought Tea Party students ate pastries three meals a day."}, {"MessageId": 200240370, "Flag": 2, "Type": 0, "NextId": 200240380, "MessageType": "Text", "ImagePath": "", "MessageJP": "何を仰るのですか……", "MessageTW": "您說笑了……", "MessageEN": "That's simply not possible."}, {"MessageId": 200240380, "Flag": 1, "Type": 0, "NextId": 200240381, "MessageType": "Text", "ImagePath": "", "MessageJP": "いくら何でも、甘いものばかり食べていては栄養バランスが良くありません", "MessageTW": "再怎麼說，只吃甜食對營養的平衡會造成不良的影響", "MessageEN": "We may enjoy sweets at our gatherings, but it wouldn't be healthy to eat that and nothing else."}, {"MessageId": 200240381, "Flag": 2, "Type": 0, "NextId": 200230380, "MessageType": "Text", "ImagePath": "", "MessageJP": "私たちだって、いつもケーキやお菓子ばかり食べているわけではないんです", "MessageTW": "即使是我們，也不是一直都在吃蛋糕和點心的", "MessageEN": "I certainly don't eat only cakes and cookies."}, {"MessageId": 200230380, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ナギサの絆イベントへ", "MessageTW": "前往渚的羈絆劇情", "MessageEN": "Go to Nagisa's Event"}]
+[
+    {
+        "CharacterId": 20024,
+        "MessageJP": "ナギサ",
+        "MessageKR": "나기사",
+        "MessageTW": "渚",
+        "MessageEN": "Nagisa"
+    },
+    {
+        "MessageId": 200230310,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200240310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200240310,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おはようございます、先生",
+        "MessageKR": "좋은 아침입니다, 선생님.",
+        "MessageTW": "早安，老師",
+        "MessageEN": "Good morning, Sensei."
+    },
+    {
+        "MessageId": 200240320,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一日の始まりは朝食からと言いますが……先生はもうすでに食べられましたか？",
+        "MessageKR": "아침 식사는 하고 출근하셨나요?",
+        "MessageTW": "有句話說早餐是一天的開始……老師已經用過早餐了嗎？",
+        "MessageEN": "Did you eat breakfast before you went to work?"
+    },
+    {
+        "MessageId": 200240330,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、ちょうどさっき。ナギサの方は？",
+        "MessageKR": "응. 나기사는?",
+        "MessageTW": "嗯，我剛吃完。渚呢？",
+        "MessageEN": "Yeah. How about you, Nagisa?"
+    },
+    {
+        "MessageId": 200240340,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私は先ほど、お味噌汁をいただきました",
+        "MessageKR": "네, 조금 전에 미소시루를 먹었답니다.",
+        "MessageTW": "我稍早之前喝過了味噌湯",
+        "MessageEN": "Yes. I had miso soup a while ago."
+    },
+    {
+        "MessageId": 200240350,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……ちょっと意外かも",
+        "MessageKR": "……의외네.",
+        "MessageTW": "……有點意外",
+        "MessageEN": "...I didn't expect that."
+    },
+    {
+        "MessageId": 200240360,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ティーパーティーって何か、スイーツしか食べないみたいなイメージが……",
+        "MessageKR": "티파티의 학생들은 스위츠만 먹을 것 같은 인상이었는데…….",
+        "MessageTW": "茶會好像給人一種只吃甜點的印象……",
+        "MessageEN": "I thought Tea Party students ate pastries three meals a day."
+    },
+    {
+        "MessageId": 200240370,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240380,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何を仰るのですか……",
+        "MessageKR": "그럴 리가 없잖습니까.",
+        "MessageTW": "您說笑了……",
+        "MessageEN": "That's simply not possible."
+    },
+    {
+        "MessageId": 200240380,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240381,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いくら何でも、甘いものばかり食べていては栄養バランスが良くありません",
+        "MessageKR": "아무리 입에 달다고 해도 한 가지 음식만 먹으면 건강을 해치는 법.",
+        "MessageTW": "再怎麼說，只吃甜食對營養的平衡會造成不良的影響",
+        "MessageEN": "We may enjoy sweets at our gatherings, but it wouldn't be healthy to eat that and nothing else."
+    },
+    {
+        "MessageId": 200240381,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230387,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私たちだって、いつもケーキやお菓子ばかり食べているわけではないんです",
+        "MessageKR": "저라고 해서 언제나 케이크와 과자만 먹는 건 아니랍니다.",
+        "MessageTW": "即使是我們，也不是一直都在吃蛋糕和點心的",
+        "MessageEN": "I certainly don't eat only cakes and cookies."
+    },
+    {
+        "MessageId": 200230387,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ナギサの絆イベントへ",
+        "MessageKR": "나기사의 인연스토리로",
+        "MessageTW": "前往渚的羈絆劇情",
+        "MessageEN": "Go to Nagisa's Event"
+    }
+]

@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10051.webp", "MessageJP": "ウタハ（応援団）", "MessageTW": "詠葉(應援團)", "MessageEN": "Utaha (Cheer Squad)"}, {"MessageId": 100500320, "Flag": 2, "Type": 4, "NextId": 100510320, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100510320, "Flag": 2, "Type": 0, "NextId": 100510330, "MessageType": "Text", "ImagePath": "", "MessageJP": "最近、部員たちの元気がないような気がしてね", "MessageTW": "感覺部員們最近沒什麼精神呢", "MessageEN": "The club members have seemed really low-energy lately."}, {"MessageId": 100510330, "Flag": 1, "Type": 0, "NextId": 100510340, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、何か心当たりはないかい？", "MessageTW": "老師有什麼頭緒嗎？", "MessageEN": "Any guesses why, Sensei?"}, {"MessageId": 100510340, "Flag": 2, "Type": 3, "NextId": 100510350, "MessageType": "Text", "ImagePath": "", "MessageJP": "ほら、この前テストがあったから", "MessageTW": "你瞧，前陣子不是有考試嗎", "MessageEN": "Maybe their moods dropped with their grades?"}, {"MessageId": 100510350, "Flag": 2, "Type": 3, "NextId": 100510360, "MessageType": "Text", "ImagePath": "", "MessageJP": "成績が良くなかったとか？", "MessageTW": "是因為成績不理想吧？", "MessageEN": "Have they mentioned their test scores at all?"}, {"MessageId": 100510360, "Flag": 2, "Type": 0, "NextId": 100510361, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうか……", "MessageTW": "這樣啊……", "MessageEN": "...You think that's it?"}, {"MessageId": 100510361, "Flag": 2, "Type": 0, "NextId": 100510362, "MessageType": "Text", "ImagePath": "", "MessageJP": "みんな結果は悪くなかったはずなんだが", "MessageTW": "我覺得大家的成績應該都不差", "MessageEN": "The grades they've mentioned didn't seem too bad..."}, {"MessageId": 100510362, "Flag": 2, "Type": 0, "NextId": 100510370, "MessageType": "Text", "ImagePath": "", "MessageJP": "いや、満足できるほどではなかったということだね", "MessageTW": "不，對本人來說還不夠滿意吧", "MessageEN": "But just because something isn't bad, doesn't mean it's not disappointing."}, {"MessageId": 100510370, "Flag": 2, "Type": 3, "NextId": 100510380, "MessageType": "Text", "ImagePath": "", "MessageJP": "何か励ます方法があるといいんだけど", "MessageTW": "有什麼能鼓勵他們的方法就好了", "MessageEN": "Can you think of a good way to cheer them up?"}, {"MessageId": 100510380, "Flag": 2, "Type": 0, "NextId": 100510390, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうだな……", "MessageTW": "是啊……", "MessageEN": "Hmm..."}, {"MessageId": 100510390, "Flag": 1, "Type": 0, "NextId": 100500390, "MessageType": "Text", "ImagePath": "", "MessageJP": "ここは部長の私が一肌脱ごうじゃないか", "MessageTW": "這時候就該部長我出面了", "MessageEN": "Times like these are when I need to step up as their club president."}, {"MessageId": 100500390, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハ（応援団）の絆イベントへ", "MessageTW": "前往詠葉(應援團)的羈絆劇情", "MessageEN": "Go to Utaha (Cheer Squad)'s Event"}]
+[
+    {
+        "CharacterId": 10051,
+        "MessageJP": "ウタハ（応援団）",
+        "MessageKR": "우타하(응원단)",
+        "MessageTW": "詠葉(應援團)",
+        "MessageEN": "Utaha (Cheer Squad)"
+    },
+    {
+        "MessageId": 100500320,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100510320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100510320,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最近、部員たちの元気がないような気がしてね",
+        "MessageKR": "최근 부원들이 뭔가 기운이 없어 보이는데.",
+        "MessageTW": "感覺部員們最近沒什麼精神呢",
+        "MessageEN": "The club members have seemed really low-energy lately."
+    },
+    {
+        "MessageId": 100510330,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100510340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、何か心当たりはないかい？",
+        "MessageKR": "선생님, 뭔가 짐작 가는 거 있어?",
+        "MessageTW": "老師有什麼頭緒嗎？",
+        "MessageEN": "Any guesses why, Sensei?"
+    },
+    {
+        "MessageId": 100510340,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100510350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ほら、この前テストがあったから",
+        "MessageKR": "성적이 잘 안 나온 게 아닐까?",
+        "MessageTW": "你瞧，前陣子不是有考試嗎",
+        "MessageEN": "Maybe their moods dropped with their grades?"
+    },
+    {
+        "MessageId": 100510350,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100510360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "成績が良くなかったとか？",
+        "MessageKR": "최근 시험 기간이었으니까.",
+        "MessageTW": "是因為成績不理想吧？",
+        "MessageEN": "Have they mentioned their test scores at all?"
+    },
+    {
+        "MessageId": 100510360,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510361,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうか……",
+        "MessageKR": "……그런가?",
+        "MessageTW": "這樣啊……",
+        "MessageEN": "...You think that's it?"
+    },
+    {
+        "MessageId": 100510361,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510362,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "みんな結果は悪くなかったはずなんだが",
+        "MessageKR": "전에 들었던 성적은 그리 나쁘지 않았던 것 같은데.",
+        "MessageTW": "我覺得大家的成績應該都不差",
+        "MessageEN": "The grades they've mentioned didn't seem too bad..."
+    },
+    {
+        "MessageId": 100510362,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いや、満足できるほどではなかったということだね",
+        "MessageKR": "하긴, 본인 입장에서는 만족스럽지 않을 수도 있겠지.",
+        "MessageTW": "不，對本人來說還不夠滿意吧",
+        "MessageEN": "But just because something isn't bad, doesn't mean it's not disappointing."
+    },
+    {
+        "MessageId": 100510370,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100510380,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何か励ます方法があるといいんだけど",
+        "MessageKR": "뭔가 기운을 북돋아 줄 방법이 없을까?",
+        "MessageTW": "有什麼能鼓勵他們的方法就好了",
+        "MessageEN": "Can you think of a good way to cheer them up?"
+    },
+    {
+        "MessageId": 100510380,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうだな……",
+        "MessageKR": "으음……",
+        "MessageTW": "是啊……",
+        "MessageEN": "Hmm..."
+    },
+    {
+        "MessageId": 100510390,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100500397,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ここは部長の私が一肌脱ごうじゃないか",
+        "MessageKR": "아무래도 부장인 내가 나서야 할 차례인 것 같네.",
+        "MessageTW": "這時候就該部長我出面了",
+        "MessageEN": "Times like these are when I need to step up as their club president."
+    },
+    {
+        "MessageId": 100500397,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハ（応援団）の絆イベントへ",
+        "MessageKR": "우타하(응원단)의 인연스토리로",
+        "MessageTW": "前往詠葉(應援團)的羈絆劇情",
+        "MessageEN": "Go to Utaha (Cheer Squad)'s Event"
+    }
+]

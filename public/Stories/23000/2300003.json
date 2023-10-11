@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23000.webp", "MessageJP": "アイリ", "MessageTW": "愛莉", "MessageEN": "Airi"}, {"MessageId": 229990190, "Flag": 2, "Type": 4, "NextId": 230000199, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230000199, "Flag": 2, "Type": 0, "NextId": 230000206, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、ちょっとお伺いしたいのですが", "MessageTW": "老師，我想問一下", "MessageEN": "Sensei."}, {"MessageId": 230000206, "Flag": 1, "Type": 0, "NextId": 230000210, "MessageType": "Text", "ImagePath": "", "MessageJP": "近々トリニティにいらっしゃる予定ってありますか？", "MessageTW": "最近有打算來三一嗎？", "MessageEN": "Are you coming to the Trinity sometime soon?"}, {"MessageId": 230000210, "Flag": 2, "Type": 3, "NextId": 230000220, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、ちょうど行く予定あるよ", "MessageTW": "嗯，正打算要去", "MessageEN": "I think so."}, {"MessageId": 230000220, "Flag": 2, "Type": 0, "NextId": 230000227, "MessageType": "Text", "ImagePath": "", "MessageJP": "あっ、本当ですか？", "MessageTW": "啊，真的嗎？", "MessageEN": "Oh, really?"}, {"MessageId": 230000227, "Flag": 2, "Type": 0, "NextId": 230000224, "MessageType": "Text", "ImagePath": "", "MessageJP": "よければ来る時に、ご連絡をいただけませんか？ヾ(•ω•`)o", "MessageTW": "如果可以的話，來的時候可以聯絡我嗎？ヾ(•ω•`)o", "MessageEN": "Can you let me know when you do?"}, {"MessageId": 230000224, "Flag": 2, "Type": 0, "NextId": 230000230, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生に相談したいことがありまして", "MessageTW": "有事想跟老師商量", "MessageEN": "I have something to discuss with you."}, {"MessageId": 230000230, "Flag": 2, "Type": 3, "NextId": 230000245, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、じゃあまた連絡するね", "MessageTW": "嗯，那之後再聯絡", "MessageEN": "Sure, I'll see you soon."}, {"MessageId": 230000230, "Flag": 2, "Type": 3, "NextId": 230000245, "MessageType": "Text", "ImagePath": "", "MessageJP": "アイリの相談であれば喜んで", "MessageTW": "我很樂意和愛莉商量", "MessageEN": "Okay... A discussion with Airi. I've penciled you in!"}, {"MessageId": 230000245, "Flag": 2, "Type": 0, "NextId": 230000242, "MessageType": "Text", "ImagePath": "", "MessageJP": "わ、ありがとうございます！", "MessageTW": "哇，非常感謝！", "MessageEN": "Wow! Okay!"}, {"MessageId": 230000242, "Flag": 2, "Type": 0, "NextId": 229990240, "MessageType": "Text", "ImagePath": "", "MessageJP": "お待ちしてますね、先生！(((o(≧∇≦)o)))", "MessageTW": "我等你唷，老師！(((o(≧∇≦)o)))", "MessageEN": "Thanks, Sensei!"}, {"MessageId": 229990240, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アイリの絆イベントへ", "MessageTW": "前往愛莉的羈絆劇情", "MessageEN": "Go to Airi's Event"}]
+[
+    {
+        "CharacterId": 23000,
+        "MessageJP": "アイリ",
+        "MessageKR": "아이리",
+        "MessageTW": "愛莉",
+        "MessageEN": "Airi"
+    },
+    {
+        "MessageId": 229990190,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230000199,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230000199,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000206,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、ちょっとお伺いしたいのですが",
+        "MessageKR": "선생님.",
+        "MessageTW": "老師，我想問一下",
+        "MessageEN": "Sensei."
+    },
+    {
+        "MessageId": 230000206,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230000210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "近々トリニティにいらっしゃる予定ってありますか？",
+        "MessageKR": "혹시 트리니티 학원에는 언제 오세요?",
+        "MessageTW": "最近有打算來三一嗎？",
+        "MessageEN": "Are you coming to the Trinity sometime soon?"
+    },
+    {
+        "MessageId": 230000210,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230000220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、ちょうど行く予定あるよ",
+        "MessageKR": "조만간 한번 들를 것 같은데.",
+        "MessageTW": "嗯，正打算要去",
+        "MessageEN": "I think so."
+    },
+    {
+        "MessageId": 230000220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000227,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あっ、本当ですか？",
+        "MessageKR": "와, 정말요? ヾ(•ω•`)o",
+        "MessageTW": "啊，真的嗎？",
+        "MessageEN": "Oh, really?"
+    },
+    {
+        "MessageId": 230000227,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000224,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よければ来る時に、ご連絡をいただけませんか？ヾ(•ω•`)o",
+        "MessageKR": "그럼 오실 때 연락 한 번만 주시겠어요?",
+        "MessageTW": "如果可以的話，來的時候可以聯絡我嗎？ヾ(•ω•`)o",
+        "MessageEN": "Can you let me know when you do?"
+    },
+    {
+        "MessageId": 230000224,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生に相談したいことがありまして",
+        "MessageKR": "선생님과 상담하고 싶은 일이 있거든요.",
+        "MessageTW": "有事想跟老師商量",
+        "MessageEN": "I have something to discuss with you."
+    },
+    {
+        "MessageId": 230000230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230000245,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、じゃあまた連絡するね",
+        "MessageKR": "그래, 그럼 그때 보자.",
+        "MessageTW": "嗯，那之後再聯絡",
+        "MessageEN": "Sure, I'll see you soon."
+    },
+    {
+        "MessageId": 230000230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230000245,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アイリの相談であれば喜んで",
+        "MessageKR": "아이리와의 상담, 접수 완료.",
+        "MessageTW": "我很樂意和愛莉商量",
+        "MessageEN": "Okay... A discussion with Airi. I've penciled you in!"
+    },
+    {
+        "MessageId": 230000245,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000242,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "わ、ありがとうございます！",
+        "MessageKR": "와아~ 네!",
+        "MessageTW": "哇，非常感謝！",
+        "MessageEN": "Wow! Okay!"
+    },
+    {
+        "MessageId": 230000242,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 229990247,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お待ちしてますね、先生！(((o(≧∇≦)o)))",
+        "MessageKR": "감사합니다! 선생님! (((o(≧∇≦)o)))",
+        "MessageTW": "我等你唷，老師！(((o(≧∇≦)o)))",
+        "MessageEN": "Thanks, Sensei!"
+    },
+    {
+        "MessageId": 229990247,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アイリの絆イベントへ",
+        "MessageKR": "아이리의 인연스토리로",
+        "MessageTW": "前往愛莉的羈絆劇情",
+        "MessageEN": "Go to Airi's Event"
+    }
+]

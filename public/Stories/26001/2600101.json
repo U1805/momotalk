@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/26001.webp", "MessageJP": "コタマ", "MessageTW": "小玉", "MessageEN": "Kotama"}, {"MessageId": 260000010, "Flag": 2, "Type": 4, "NextId": 260010016, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 260010016, "Flag": 2, "Type": 0, "NextId": 260010023, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、先生", "MessageTW": "老師，老師", "MessageEN": "Sensei! Sensei!"}, {"MessageId": 260010023, "Flag": 1, "Type": 0, "NextId": 260010030, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は、何かいつも大事にしているものはありますか？", "MessageTW": "老師有什麼一直都很重視的東西嗎？", "MessageEN": "Is there something that you particularly like?"}, {"MessageId": 260010030, "Flag": 2, "Type": 3, "NextId": 260010047, "MessageType": "Text", "ImagePath": "", "MessageJP": "パッと思いつくものは無いかな……", "MessageTW": "一時之間想不太到……", "MessageEN": "That's a very broad question..."}, {"MessageId": 260010047, "Flag": 2, "Type": 0, "NextId": 260010044, "MessageType": "Text", "ImagePath": "", "MessageJP": "特別に好きで、集めているものは？", "MessageTW": "有沒有特別喜歡、收藏的東西呢？", "MessageEN": "Like something you collect?"}, {"MessageId": 260010044, "Flag": 2, "Type": 0, "NextId": 260010041, "MessageType": "Text", "ImagePath": "", "MessageJP": "お気に入りで、一日中持ち歩いてるものは？", "MessageTW": "或者是很中意、總是帶在身邊的東西呢？", "MessageEN": "Or something you carry around all day long?"}, {"MessageId": 260010041, "Flag": 2, "Type": 0, "NextId": 260010050, "MessageType": "Text", "ImagePath": "", "MessageJP": "肌身離さず持っていて、少し手放すと不安になるもの、何かありませんか？", "MessageTW": "還是說有從不離身，只要一放手就渾身不安的東西呢？", "MessageEN": "Like if you leave it behind, you feel anxious all day?"}, {"MessageId": 260010050, "Flag": 2, "Type": 3, "NextId": 260010065, "MessageType": "Text", "ImagePath": "", "MessageJP": "そこまで執着するようなものは、私にはないかなあ……", "MessageTW": "我好像沒有執著到這種程度的東西……", "MessageEN": "Not really..."}, {"MessageId": 260010065, "Flag": 2, "Type": 0, "NextId": 260010070, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうですか……難しいですね", "MessageTW": "是嗎……這下麻煩了", "MessageEN": "Really? Then that might make things difficult..."}, {"MessageId": 260010070, "Flag": 2, "Type": 3, "NextId": 260010089, "MessageType": "Text", "ImagePath": "", "MessageJP": "何が難しいの？", "MessageTW": "什麼麻煩？", "MessageEN": "What will be difficult?"}, {"MessageId": 260010089, "Flag": 2, "Type": 0, "NextId": 260000080, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ、何でもありません", "MessageTW": "不，沒什麼", "MessageEN": "Never mind."}, {"MessageId": 260000080, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "コタマの絆イベントへ", "MessageTW": "前往小玉的羈絆劇情", "MessageEN": "Go to Kotama's Event"}]
+[
+    {
+        "CharacterId": 26001,
+        "MessageJP": "コタマ",
+        "MessageKR": "코타마",
+        "MessageTW": "小玉",
+        "MessageEN": "Kotama"
+    },
+    {
+        "MessageId": 260000010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 260010016,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 260010016,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010023,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、先生",
+        "MessageKR": "선생님, 선생님.",
+        "MessageTW": "老師，老師",
+        "MessageEN": "Sensei! Sensei!"
+    },
+    {
+        "MessageId": 260010023,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260010030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は、何かいつも大事にしているものはありますか？",
+        "MessageKR": "선생님은 특별히 좋아하는 물건이 있으십니까?",
+        "MessageTW": "老師有什麼一直都很重視的東西嗎？",
+        "MessageEN": "Is there something that you particularly like?"
+    },
+    {
+        "MessageId": 260010030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260010047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "パッと思いつくものは無いかな……",
+        "MessageKR": "갑자기 그렇게 물어봐도 잘 모르겠는데…….",
+        "MessageTW": "一時之間想不太到……",
+        "MessageEN": "That's a very broad question..."
+    },
+    {
+        "MessageId": 260010047,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010044,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特別に好きで、集めているものは？",
+        "MessageKR": "특별히 좋아해서 수집하는 물건은 없으신가요?",
+        "MessageTW": "有沒有特別喜歡、收藏的東西呢？",
+        "MessageEN": "Like something you collect?"
+    },
+    {
+        "MessageId": 260010044,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お気に入りで、一日中持ち歩いてるものは？",
+        "MessageKR": "특별히 좋아해서 하루 종일 들고 다니는 물건은 없으신가요?",
+        "MessageTW": "或者是很中意、總是帶在身邊的東西呢？",
+        "MessageEN": "Or something you carry around all day long?"
+    },
+    {
+        "MessageId": 260010041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "肌身離さず持っていて、少し手放すと不安になるもの、何かありませんか？",
+        "MessageKR": "특별히 좋아해서 몸에서 조금이라도 떨어지면 불안을 느끼는 물건은 없으신가요?",
+        "MessageTW": "還是說有從不離身，只要一放手就渾身不安的東西呢？",
+        "MessageEN": "Like if you leave it behind, you feel anxious all day?"
+    },
+    {
+        "MessageId": 260010050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260010065,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そこまで執着するようなものは、私にはないかなあ……",
+        "MessageKR": "……그런 특별한 취향은 내게 없어.",
+        "MessageTW": "我好像沒有執著到這種程度的東西……",
+        "MessageEN": "Not really..."
+    },
+    {
+        "MessageId": 260010065,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうですか……難しいですね",
+        "MessageKR": "그런가요……. 조금 어렵게 되었군요.",
+        "MessageTW": "是嗎……這下麻煩了",
+        "MessageEN": "Really? Then that might make things difficult..."
+    },
+    {
+        "MessageId": 260010070,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260010089,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何が難しいの？",
+        "MessageKR": "뭐가 어렵다는 말이야?",
+        "MessageTW": "什麼麻煩？",
+        "MessageEN": "What will be difficult?"
+    },
+    {
+        "MessageId": 260010089,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260000087,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ、何でもありません",
+        "MessageKR": "아무것도 아닙니다.",
+        "MessageTW": "不，沒什麼",
+        "MessageEN": "Never mind."
+    },
+    {
+        "MessageId": 260000087,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コタマの絆イベントへ",
+        "MessageKR": "코타마의 인연스토리로",
+        "MessageTW": "前往小玉的羈絆劇情",
+        "MessageEN": "Go to Kotama's Event"
+    }
+]

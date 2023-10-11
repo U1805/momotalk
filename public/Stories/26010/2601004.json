@@ -1,0 +1,153 @@
+[
+    {
+        "CharacterId": 26010,
+        "MessageJP": "ミユ（水着）",
+        "MessageKR": "미유(수영복)",
+        "MessageTW": "美優(泳裝)",
+        "MessageEN": "Miyu (Swimsuit)"
+    },
+    {
+        "MessageId": 260090450,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 260100450,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 260100450,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260100460,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先日、捨てられていたファッション雑誌を読んだところ……",
+        "MessageKR": "얼마 전에 버려진 패션 잡지에서 보았는데",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100460,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260100470,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "服装を変えることで、注目を集められる……とありました",
+        "MessageKR": "의상 코디를 바꾸는 것만으로도 주변의 시선을 크게 끌 수 있대요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100470,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260100480,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あえて、その場にそぐわない格好をすることで、人の目を惹き付けられると……",
+        "MessageKR": "TPO에 적합하지 않은 의상이 가끔은 사람을 휘어잡는 매력이 될 수 있다고……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100480,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260100481,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は、最近買った服を着て",
+        "MessageKR": "그래서 최근에 산 사복을 입고",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100481,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260100490,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "街を歩いてみようと思います",
+        "MessageKR": "거리를 한 번 돌아보려고요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100490,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260100500,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いいアイデアだとは思うけど……",
+        "MessageKR": "새 사복을 시험하는 건 좋긴 하지만……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100500,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260100510,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それって、水着じゃないよね……？",
+        "MessageKR": "최근에 산 사복은 수영복밖에 없지 않았어?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100510,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260100520,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じ、じゃあ……行ってきます",
+        "MessageKR": "일단 다녀올게요",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100520,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260100530,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……ミユ？",
+        "MessageKR": "……미유?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260100530,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260090537,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "…………ミユさん？",
+        "MessageKR": "………미유야?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 260090537,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミユ（水着）の絆イベントへ",
+        "MessageKR": "미유(수영복)의 인연스토리로",
+        "MessageTW": "前往美優(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Miyu (Swimsuit)'s Event"
+    }
+]

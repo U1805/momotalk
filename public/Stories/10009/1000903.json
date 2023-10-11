@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10009.webp", "MessageJP": "イズミ", "MessageTW": "泉", "MessageEN": "Izumi"}, {"MessageId": 100080120, "Flag": 2, "Type": 4, "NextId": 100090125, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100090125, "Flag": 2, "Type": 0, "NextId": 100090132, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生！ゲヘナの商店街に新しいラーメン屋ができたんだって！", "MessageTW": "老師！聽說格黑娜的商店街新開了一家拉麵店！", "MessageEN": "Sensei! There's a new ramen place in the Gehenna shopping district!"}, {"MessageId": 100090132, "Flag": 1, "Type": 0, "NextId": 100090139, "MessageType": "Text", "ImagePath": "", "MessageJP": "一緒に行こう！", "MessageTW": "一起去吧！", "MessageEN": "Let's go together!"}, {"MessageId": 100090139, "Flag": 2, "Type": 0, "NextId": 100090140, "MessageType": "Text", "ImagePath": "", "MessageJP": "下見と、偵察に！", "MessageTW": "調查與偵查！", "MessageEN": "We'll scope it out and do some reconnaissance!"}, {"MessageId": 100090140, "Flag": 2, "Type": 3, "NextId": 100090153, "MessageType": "Text", "ImagePath": "", "MessageJP": "それ、どっちも同じ意味じゃない？", "MessageTW": "這兩個不是一樣的意思嗎？", "MessageEN": "Isn't that redundant...?"}, {"MessageId": 100090153, "Flag": 2, "Type": 0, "NextId": 100080150, "MessageType": "Text", "ImagePath": "", "MessageJP": "あれっ、そうなの？", "MessageTW": "啊咧，是嗎？", "MessageEN": "Oh, is it?"}, {"MessageId": 100080150, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イズミの絆イベントへ", "MessageTW": "前往泉的羈絆劇情", "MessageEN": "Go to Izumi's Event"}]
+[
+    {
+        "CharacterId": 10009,
+        "MessageJP": "イズミ",
+        "MessageKR": "이즈미",
+        "MessageTW": "泉",
+        "MessageEN": "Izumi"
+    },
+    {
+        "MessageId": 100080120,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100090125,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100090125,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100090132,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生！ゲヘナの商店街に新しいラーメン屋ができたんだって！",
+        "MessageKR": "선생님! 게헨나 상점가에 라멘 가게가 새로 생긴 모양이야!",
+        "MessageTW": "老師！聽說格黑娜的商店街新開了一家拉麵店！",
+        "MessageEN": "Sensei! There's a new ramen place in the Gehenna shopping district!"
+    },
+    {
+        "MessageId": 100090132,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100090139,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一緒に行こう！",
+        "MessageKR": "같이 가자!",
+        "MessageTW": "一起去吧！",
+        "MessageEN": "Let's go together!"
+    },
+    {
+        "MessageId": 100090139,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100090140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "下見と、偵察に！",
+        "MessageKR": "사전 조사 및 정찰이야!",
+        "MessageTW": "調查與偵查！",
+        "MessageEN": "We'll scope it out and do some reconnaissance!"
+    },
+    {
+        "MessageId": 100090140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100090153,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それ、どっちも同じ意味じゃない？",
+        "MessageKR": "같은 뜻 아냐……?",
+        "MessageTW": "這兩個不是一樣的意思嗎？",
+        "MessageEN": "Isn't that redundant...?"
+    },
+    {
+        "MessageId": 100090153,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あれっ、そうなの？",
+        "MessageKR": "어, 그런가?",
+        "MessageTW": "啊咧，是嗎？",
+        "MessageEN": "Oh, is it?"
+    },
+    {
+        "MessageId": 100080157,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イズミの絆イベントへ",
+        "MessageKR": "이즈미의 인연스토리로",
+        "MessageTW": "前往泉的羈絆劇情",
+        "MessageEN": "Go to Izumi's Event"
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 10071,
+        "MessageJP": "ミヤコ（水着）",
+        "MessageKR": "미야코(수영복)",
+        "MessageTW": "都子(泳裝)",
+        "MessageEN": "Miyako (Swimsuit)"
+    },
+    {
+        "MessageId": 100700010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100710010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100710010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100710020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、少々お時間よろしいでしょうか",
+        "MessageKR": "선생님. 혹시 오늘 시간 괜찮으신지요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100710021,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もうすぐ夏ですし、段々と暑くなってきましたから",
+        "MessageKR": "점차 날씨도 더워지고, 곧 여름인지라.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710021,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100710030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "SRTの作戦に支障がないよう、季節に合わせた装備を揃えているのですが……",
+        "MessageKR": "바뀐 계절에 맞추어 SRT의 작전에 지장이 없도록 장비를 점검하려 했습니다만……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710030,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100710040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私では判断が難しい部分を、ご相談させていただきたくて",
+        "MessageKR": "확신하기 어려운 부분이 있어 상담을 부탁드리고 싶습니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100710050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミヤコの相談なら、いつでも聞くよ",
+        "MessageKR": "상담이라면 언제든지 괜찮아.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710050,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100710060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご快諾くださり、ありがとうございます",
+        "MessageKR": "흔쾌히 허락해 주셔서 감사합니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710060,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100710061,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "座標を送りますので、こちらでお願いします",
+        "MessageKR": "그럼 곧 좌표를 보내 드리겠습니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710061,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100700067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、ランデブーポイントで待機しています",
+        "MessageKR": "해당 랑데부 포인트에서 기다리고 있겠습니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100700067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミヤコ（水着）の絆イベントへ",
+        "MessageKR": "미야코(수영복)의 인연스토리로",
+        "MessageTW": "前往都子(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Miyako (Swimsuit)'s Event"
+    }
+]

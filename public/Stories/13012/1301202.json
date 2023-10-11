@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13012.webp", "MessageJP": "キリノ", "MessageTW": "桐乃", "MessageEN": "Kirino"}, {"MessageId": 130110070, "Flag": 2, "Type": 4, "NextId": 130120070, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130120070, "Flag": 2, "Type": 0, "NextId": 130120080, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、事件です！", "MessageTW": "老師，有事件！", "MessageEN": "We have a case on our hands, Sensei!"}, {"MessageId": 130120080, "Flag": 1, "Type": 0, "NextId": 130120081, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうやら芝タウンの宝石店で、不良生徒が人質を取って立てこもっているそうです！", "MessageTW": "據說芝町的珠寶店內，有不良學生挾持人質與警方對峙！", "MessageEN": "According to the report, a thug has taken a hostage in front of a jeweler in Shiba Town."}, {"MessageId": 130120081, "Flag": 2, "Type": 0, "NextId": 130120090, "MessageType": "Text", "ImagePath": "", "MessageJP": "そしてどうやら、交通渋滞で交渉人の到着が遅れているらしく……", "MessageTW": "而且似乎因為交通堵塞，談判專家會晚一點到場……", "MessageEN": "But it seems the negotiator is stuck in a traffic jam."}, {"MessageId": 130120090, "Flag": 1, "Type": 0, "NextId": 130120091, "MessageType": "Text", "ImagePath": "", "MessageJP": "……", "MessageTW": "……", "MessageEN": "Um..."}, {"MessageId": 130120091, "Flag": 2, "Type": 0, "NextId": 130120092, "MessageType": "Text", "ImagePath": "", "MessageJP": "本官がこの機に、先に現場へ向かって交渉を成功させたら……", "MessageTW": "如果本官能藉此機會，先到現場並談判成功的話……", "MessageEN": "If I happen to get there first and negotiate successfully..."}, {"MessageId": 130120092, "Flag": 2, "Type": 0, "NextId": 130120100, "MessageType": "Text", "ImagePath": "", "MessageJP": "ヴァルキューレの上層部の方々も、本官の能力を認めてくださるでしょうか？", "MessageTW": "女武神的上層長官們，是不是也會認可本官的能力呢？", "MessageEN": "Wouldn't the VIPs at Valkyrie value my ability?"}, {"MessageId": 130120100, "Flag": 2, "Type": 3, "NextId": 130120110, "MessageType": "Text", "ImagePath": "", "MessageJP": "プロの交渉人を待った方が良いんじゃ……？", "MessageTW": "還是等專業的談判專家來比較好吧……？", "MessageEN": "Wouldn't it be better to wait for a professional negotiator?"}, {"MessageId": 130120110, "Flag": 2, "Type": 0, "NextId": 130120111, "MessageType": "Text", "ImagePath": "", "MessageJP": "……いえ、決めました。今この瞬間も人質は恐怖に震えているはずです", "MessageTW": "……不，我決定了。現在這一刻，人質應該也正害怕地發抖", "MessageEN": "I don't think so. Imagine what must be going through the hostage's mind."}, {"MessageId": 130120111, "Flag": 2, "Type": 0, "NextId": 130120112, "MessageType": "Text", "ImagePath": "", "MessageJP": "まだ正式な警察ではないとはいえ、立ち止まってはいられません", "MessageTW": "雖然還不是正式的警察，但也不能停下腳步", "MessageEN": "I may not be an official officer, but I can't let the negotiation be delayed any longer!"}, {"MessageId": 130120112, "Flag": 2, "Type": 0, "NextId": 130110110, "MessageType": "Text", "ImagePath": "", "MessageJP": "キリノ、出動します！", "MessageTW": "桐乃，出動！", "MessageEN": "Kirino, at your service!"}, {"MessageId": 130110110, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "キリノの絆イベントへ", "MessageTW": "前往桐乃的羈絆劇情", "MessageEN": "Go to Kirino's Event"}]
+[
+    {
+        "CharacterId": 13012,
+        "MessageJP": "キリノ",
+        "MessageKR": "키리노",
+        "MessageTW": "桐乃",
+        "MessageEN": "Kirino"
+    },
+    {
+        "MessageId": 130110070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130120070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130120070,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、事件です！",
+        "MessageKR": "선생님, 사건입니다!",
+        "MessageTW": "老師，有事件！",
+        "MessageEN": "We have a case on our hands, Sensei!"
+    },
+    {
+        "MessageId": 130120080,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130120081,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうやら芝タウンの宝石店で、不良生徒が人質を取って立てこもっているそうです！",
+        "MessageKR": "소식에 따르면 한 불량 학생이 시바타운의 보석상 앞에서 인질을 붙잡고 농성을 하고 있다고 합니다!",
+        "MessageTW": "據說芝町的珠寶店內，有不良學生挾持人質與警方對峙！",
+        "MessageEN": "According to the report, a thug has taken a hostage in front of a jeweler in Shiba Town."
+    },
+    {
+        "MessageId": 130120081,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そしてどうやら、交通渋滞で交渉人の到着が遅れているらしく……",
+        "MessageKR": "그런데 교통 정체 때문에 교섭인의 도착이 늦어지는 모양이네요.",
+        "MessageTW": "而且似乎因為交通堵塞，談判專家會晚一點到場……",
+        "MessageEN": "But it seems the negotiator is stuck in a traffic jam."
+    },
+    {
+        "MessageId": 130120090,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130120091,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……",
+        "MessageKR": "음……",
+        "MessageTW": "……",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 130120091,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120092,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本官がこの機に、先に現場へ向かって交渉を成功させたら……",
+        "MessageKR": "만약 본관이 이 기회에 현장에 먼저 도착해서 교섭을 성공시킨다면……",
+        "MessageTW": "如果本官能藉此機會，先到現場並談判成功的話……",
+        "MessageEN": "If I happen to get there first and negotiate successfully..."
+    },
+    {
+        "MessageId": 130120092,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ヴァルキューレの上層部の方々も、本官の能力を認めてくださるでしょうか？",
+        "MessageKR": "발키리의 높으신 분들도 본관의 능력을 인정해주시지 않을까요?",
+        "MessageTW": "女武神的上層長官們，是不是也會認可本官的能力呢？",
+        "MessageEN": "Wouldn't the VIPs at Valkyrie value my ability?"
+    },
+    {
+        "MessageId": 130120100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130120110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "プロの交渉人を待った方が良いんじゃ……？",
+        "MessageKR": "전문 교섭인이 올 때까지 기다리는 게 좋지 않을까?",
+        "MessageTW": "還是等專業的談判專家來比較好吧……？",
+        "MessageEN": "Wouldn't it be better to wait for a professional negotiator?"
+    },
+    {
+        "MessageId": 130120110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……いえ、決めました。今この瞬間も人質は恐怖に震えているはずです",
+        "MessageKR": "아뇨. 지금 이 순간에도 인질은 두려움에 떨고 있을 거예요.",
+        "MessageTW": "……不，我決定了。現在這一刻，人質應該也正害怕地發抖",
+        "MessageEN": "I don't think so. Imagine what must be going through the hostage's mind."
+    },
+    {
+        "MessageId": 130120111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120112,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まだ正式な警察ではないとはいえ、立ち止まってはいられません",
+        "MessageKR": "아무리 본관이 정식 경찰은 아니라고는 하지만, 교섭은 조금도 지체할 수 없습니다!",
+        "MessageTW": "雖然還不是正式的警察，但也不能停下腳步",
+        "MessageEN": "I may not be an official officer, but I can't let the negotiation be delayed any longer!"
+    },
+    {
+        "MessageId": 130120112,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "キリノ、出動します！",
+        "MessageKR": "키리노, 출동합니다!",
+        "MessageTW": "桐乃，出動！",
+        "MessageEN": "Kirino, at your service!"
+    },
+    {
+        "MessageId": 130110117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "キリノの絆イベントへ",
+        "MessageKR": "키리노의 인연스토리로",
+        "MessageTW": "前往桐乃的羈絆劇情",
+        "MessageEN": "Go to Kirino's Event"
+    }
+]

@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20004.webp", "MessageJP": "マシロ（水着）", "MessageTW": "麻白(泳裝)", "MessageEN": "Mashiro (Swimsuit)"}, {"MessageId": 19994220, "Flag": 2, "Type": 4, "NextId": 20004220, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 20004220, "Flag": 2, "Type": 0, "NextId": 20004230, "MessageType": "Text", "ImagePath": "", "MessageJP": "昨日はお疲れ様でした、先生", "MessageTW": "昨天辛苦了，老師", "MessageEN": "Thank you for what you did yesterday, Sensei."}, {"MessageId": 20004230, "Flag": 2, "Type": 3, "NextId": 20004240, "MessageType": "Text", "ImagePath": "", "MessageJP": "お疲れ様。マシロは今日も訓練？", "MessageTW": "辛苦了。麻白今天也要訓練嗎？", "MessageEN": "Are you going out to train today again, Mashiro?"}, {"MessageId": 20004240, "Flag": 2, "Type": 0, "NextId": 20004250, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ、今日は訓練ではなくボランティア活動をする予定です", "MessageTW": "不，今天不是訓練，而是打算做志工服務", "MessageEN": "No, I plan to do some volunteer work at the beach instead of training."}, {"MessageId": 20004250, "Flag": 2, "Type": 3, "NextId": 20004260, "MessageType": "Text", "ImagePath": "", "MessageJP": "ボランティア活動？", "MessageTW": "志工服務？", "MessageEN": "Volunteer?"}, {"MessageId": 20004260, "Flag": 2, "Type": 0, "NextId": 20004261, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい、色々と助けが必要だと聞きまして", "MessageTW": "是的，聽說很需要人手幫忙", "MessageEN": "Correct. There are several ways to help people at the beach as well."}, {"MessageId": 20004261, "Flag": 2, "Type": 0, "NextId": 20004270, "MessageType": "Text", "ImagePath": "", "MessageJP": "ゴミ拾いや迷子の保護など、海辺にはトラブルがたくさんありますから", "MessageTW": "例如撿垃圾或保護迷路的孩子等等，海邊其實會發生很多狀況", "MessageEN": "Such as picking up trash or helping lost children."}, {"MessageId": 20004270, "Flag": 2, "Type": 3, "NextId": 20004280, "MessageType": "Text", "ImagePath": "", "MessageJP": "マシロは偉いね", "MessageTW": "麻白真了不起", "MessageEN": "You've got a lot going on, even on vacation."}, {"MessageId": 20004280, "Flag": 2, "Type": 0, "NextId": 20004281, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえいえ、大したことでは", "MessageTW": "不，沒什麼大不了的", "MessageEN": "Not really. It's nothing that I can't handle."}, {"MessageId": 20004281, "Flag": 2, "Type": 0, "NextId": 19994280, "MessageType": "Text", "ImagePath": "", "MessageJP": "これもまた、正義のための行いですので！", "MessageTW": "這也是為了正義所做的活動！", "MessageEN": "This is for the sake of justice!"}, {"MessageId": 19994280, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "マシロ（水着）の絆イベントへ", "MessageTW": "前往麻白(泳裝)的羈絆劇情", "MessageEN": "Go to Mashiro (Swimsuit)'s Event"}]
+[
+    {
+        "CharacterId": 20004,
+        "MessageJP": "マシロ（水着）",
+        "MessageKR": "마시로(수영복)",
+        "MessageTW": "麻白(泳裝)",
+        "MessageEN": "Mashiro (Swimsuit)"
+    },
+    {
+        "MessageId": 19994220,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 20004220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 20004220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 20004230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "昨日はお疲れ様でした、先生",
+        "MessageKR": "어제는 수고 많으셨습니다, 선생님.",
+        "MessageTW": "昨天辛苦了，老師",
+        "MessageEN": "Thank you for what you did yesterday, Sensei."
+    },
+    {
+        "MessageId": 20004230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 20004240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お疲れ様。マシロは今日も訓練？",
+        "MessageKR": "마시로는 오늘도 훈련하러 나가는 거야?",
+        "MessageTW": "辛苦了。麻白今天也要訓練嗎？",
+        "MessageEN": "Are you going out to train today again, Mashiro?"
+    },
+    {
+        "MessageId": 20004240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 20004250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ、今日は訓練ではなくボランティア活動をする予定です",
+        "MessageKR": "아뇨, 오늘은 훈련 대신 해변에서 봉사활동을 할 계획입니다.",
+        "MessageTW": "不，今天不是訓練，而是打算做志工服務",
+        "MessageEN": "No, I plan to do some volunteer work at the beach instead of training."
+    },
+    {
+        "MessageId": 20004250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 20004260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ボランティア活動？",
+        "MessageKR": "봉사활동?",
+        "MessageTW": "志工服務？",
+        "MessageEN": "Volunteer?"
+    },
+    {
+        "MessageId": 20004260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 20004261,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、色々と助けが必要だと聞きまして",
+        "MessageKR": "예, 이곳 해변에도 도움의 손길을 기다리고 있는 일은 잔뜩 있으니까요.",
+        "MessageTW": "是的，聽說很需要人手幫忙",
+        "MessageEN": "Correct. There are several ways to help people at the beach as well."
+    },
+    {
+        "MessageId": 20004261,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 20004270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ゴミ拾いや迷子の保護など、海辺にはトラブルがたくさんありますから",
+        "MessageKR": "쓰레기 치우기부터 길 잃은 미아를 보호하는 일까지……",
+        "MessageTW": "例如撿垃圾或保護迷路的孩子等等，海邊其實會發生很多狀況",
+        "MessageEN": "Such as picking up trash or helping lost children."
+    },
+    {
+        "MessageId": 20004270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 20004280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マシロは偉いね",
+        "MessageKR": "휴양지에서까지 고생이 많네.",
+        "MessageTW": "麻白真了不起",
+        "MessageEN": "You've got a lot going on, even on vacation."
+    },
+    {
+        "MessageId": 20004280,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 20004281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえいえ、大したことでは",
+        "MessageKR": "아뇨, 제게는 그다지 수고스러운 일도 아닙니다.",
+        "MessageTW": "不，沒什麼大不了的",
+        "MessageEN": "Not really. It's nothing that I can't handle."
+    },
+    {
+        "MessageId": 20004281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 19994287,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これもまた、正義のための行いですので！",
+        "MessageKR": "이 또한 정의를 위한 일이니까요!",
+        "MessageTW": "這也是為了正義所做的活動！",
+        "MessageEN": "This is for the sake of justice!"
+    },
+    {
+        "MessageId": 19994287,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マシロ（水着）の絆イベントへ",
+        "MessageKR": "마시로(수영복)의 인연스토리로",
+        "MessageTW": "前往麻白(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Mashiro (Swimsuit)'s Event"
+    }
+]

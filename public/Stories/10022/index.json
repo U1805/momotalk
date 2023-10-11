@@ -1,1 +1,24 @@
-["1002201", "1002202", "1002203"]
+{
+    "1002201": [
+        "MessageJP",
+        "MessageKR",
+        "MessageTW",
+        "MessageEN"
+    ],
+    "1002202": [
+        "MessageJP",
+        "MessageKR",
+        "MessageTW",
+        "MessageEN"
+    ],
+    "1002203": [
+        "MessageJP",
+        "MessageKR",
+        "MessageTW",
+        "MessageEN"
+    ],
+    "1002204": [
+        "MessageJP",
+        "MessageKR"
+    ]
+}

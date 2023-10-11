@@ -1,0 +1,117 @@
+[
+    {
+        "CharacterId": 10069,
+        "MessageJP": "ルミ",
+        "MessageKR": "루미",
+        "MessageTW": "瑠美",
+        "MessageEN": "Rumi"
+    },
+    {
+        "MessageId": 100680170,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100690170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100690170,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100690180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、元気にしてる？",
+        "MessageKR": "잘 지내, 선생님?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100690190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "毎食、ちゃんと欠かさずに食べてるよね？",
+        "MessageKR": "또 식사 거르고 다니는 거 아니지?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690190,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100690200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちゃんと食べてるよ……",
+        "MessageKR": "이제 안 그러거든……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100690210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "山海経に用事があって、いま向かってるところなんだ",
+        "MessageKR": "마침 산해경에 들를 일이 좀 있는데 말이야.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100690211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おっ、そうなの？",
+        "MessageKR": "오, 그래?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100690212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "時間があれば、玄武商会に寄ってね",
+        "MessageKR": "괜찮다면 현무상회에도 들러 줘.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100690212,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100680217,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特別にサービスしてあげるよ",
+        "MessageKR": "선생님에게라면 얼마든지 서비스해 줄 수 있으니까.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680217,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ルミの絆イベントへ",
+        "MessageKR": "루미의 인연스토리로",
+        "MessageTW": "前往瑠美的羈絆劇情",
+        "MessageEN": "Go to Rumi's Event"
+    }
+]

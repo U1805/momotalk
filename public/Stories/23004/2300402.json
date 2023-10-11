@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23004.webp", "MessageJP": "ウタハ", "MessageTW": "詠葉", "MessageEN": "Utaha"}, {"MessageId": 230030090, "Flag": 2, "Type": 4, "NextId": 230040097, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230040097, "Flag": 2, "Type": 0, "NextId": 230040104, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、シャーレのトイレの電気が切れたみたいだ", "MessageTW": "老師，夏萊的廁所好像停電了", "MessageEN": "I think the light bulb went out in the bathroom at the Schale office, Sensei."}, {"MessageId": 230040104, "Flag": 1, "Type": 0, "NextId": 230040110, "MessageType": "Text", "ImagePath": "", "MessageJP": "スイッチを押したのに、明かりが点かなかった", "MessageTW": "就算按了開關，燈也不會亮", "MessageEN": "I flipped the switch, but nothing happened."}, {"MessageId": 230040110, "Flag": 2, "Type": 3, "NextId": 230040128, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、そうなんだ、ありがとう。修理業者を呼ばないと……", "MessageTW": "啊，這樣啊，謝謝你。得叫維修人員來才行……", "MessageEN": "Really? I should call a repairman."}, {"MessageId": 230040128, "Flag": 2, "Type": 0, "NextId": 230040125, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫、電線が切れただけみたいだから、簡単に直せるはず", "MessageTW": "沒問題的，好像只是電線斷掉了而已，應該很好修的", "MessageEN": "It's okay. The wires are just disconnected, so it's an easy fix."}, {"MessageId": 230040125, "Flag": 2, "Type": 0, "NextId": 230040130, "MessageType": "Text", "ImagePath": "", "MessageJP": "圧着工具はどこかな？私が直すよ", "MessageTW": "壓接工具放在哪呢？我來修理", "MessageEN": "Where do you keep the wire compression sleeves? I'll fix it."}, {"MessageId": 230040130, "Flag": 2, "Type": 3, "NextId": 230040149, "MessageType": "Text", "ImagePath": "", "MessageJP": "そんな専門的な工具は、シャーレにはないけど……", "MessageTW": "夏萊裡沒有那種專業的工具……", "MessageEN": "We don't have anything like that at Schale..."}, {"MessageId": 230040149, "Flag": 2, "Type": 0, "NextId": 230040146, "MessageType": "Text", "ImagePath": "", "MessageJP": "……無いのかい？ひとつも？", "MessageTW": "……沒有嗎？一個也沒有？", "MessageEN": "Schale doesn't have a single compression sleeve?"}, {"MessageId": 230040146, "Flag": 2, "Type": 0, "NextId": 230030140, "MessageType": "Text", "ImagePath": "", "MessageJP": "……そうか", "MessageTW": "……這樣啊", "MessageEN": "Really?"}, {"MessageId": 230030140, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハの絆イベントへ", "MessageTW": "前往詠葉的羈絆劇情", "MessageEN": "Go to Utaha's Event"}]
+[
+    {
+        "CharacterId": 23004,
+        "MessageJP": "ウタハ",
+        "MessageKR": "우타하",
+        "MessageTW": "詠葉",
+        "MessageEN": "Utaha"
+    },
+    {
+        "MessageId": 230030090,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230040097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230040097,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040104,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、シャーレのトイレの電気が切れたみたいだ",
+        "MessageKR": "선생님, 샬레 하우스의 화장실 불이 나간 것 같아.",
+        "MessageTW": "老師，夏萊的廁所好像停電了",
+        "MessageEN": "I think the light bulb went out in the bathroom at the Schale office, Sensei."
+    },
+    {
+        "MessageId": 230040104,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230040110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スイッチを押したのに、明かりが点かなかった",
+        "MessageKR": "스위치 버튼을 눌러봤는데 불이 들어오지 않더라고.",
+        "MessageTW": "就算按了開關，燈也不會亮",
+        "MessageEN": "I flipped the switch, but nothing happened."
+    },
+    {
+        "MessageId": 230040110,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040128,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、そうなんだ、ありがとう。修理業者を呼ばないと……",
+        "MessageKR": "그래? 수리 기사를 불러야겠네…….",
+        "MessageTW": "啊，這樣啊，謝謝你。得叫維修人員來才行……",
+        "MessageEN": "Really? I should call a repairman."
+    },
+    {
+        "MessageId": 230040128,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040125,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫、電線が切れただけみたいだから、簡単に直せるはず",
+        "MessageKR": "괜찮아. 전선이 끊어진 것뿐이니 간단하게 고칠 수 있어.",
+        "MessageTW": "沒問題的，好像只是電線斷掉了而已，應該很好修的",
+        "MessageEN": "It's okay. The wires are just disconnected, so it's an easy fix."
+    },
+    {
+        "MessageId": 230040125,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "圧着工具はどこかな？私が直すよ",
+        "MessageKR": "전선 슬리브 압착기는 어디에 있어? 내가 수리할게.",
+        "MessageTW": "壓接工具放在哪呢？我來修理",
+        "MessageEN": "Where do you keep the wire compression sleeves? I'll fix it."
+    },
+    {
+        "MessageId": 230040130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040149,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そんな専門的な工具は、シャーレにはないけど……",
+        "MessageKR": "그렇게 전문적인 공구는 샬레에 없는데…….",
+        "MessageTW": "夏萊裡沒有那種專業的工具……",
+        "MessageEN": "We don't have anything like that at Schale..."
+    },
+    {
+        "MessageId": 230040149,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040146,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……無いのかい？ひとつも？",
+        "MessageKR": "……샬레에 압착기가 한 자루도 없다고?",
+        "MessageTW": "……沒有嗎？一個也沒有？",
+        "MessageEN": "Schale doesn't have a single compression sleeve?"
+    },
+    {
+        "MessageId": 230040146,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030147,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……そうか",
+        "MessageKR": "……정말?",
+        "MessageTW": "……這樣啊",
+        "MessageEN": "Really?"
+    },
+    {
+        "MessageId": 230030147,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハの絆イベントへ",
+        "MessageKR": "우타하의 인연스토리로",
+        "MessageTW": "前往詠葉的羈絆劇情",
+        "MessageEN": "Go to Utaha's Event"
+    }
+]

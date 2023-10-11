@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23002.webp", "MessageJP": "ハナエ", "MessageTW": "花繪", "MessageEN": "Hanae"}, {"MessageId": 230010070, "Flag": 2, "Type": 4, "NextId": 230020074, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230020074, "Flag": 2, "Type": 0, "NextId": 230020081, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、最近きちんと眠れてますか？", "MessageTW": "老師，最近睡得還好嗎？", "MessageEN": "Have you been sleeping well, Sensei?"}, {"MessageId": 230020081, "Flag": 1, "Type": 0, "NextId": 230020090, "MessageType": "Text", "ImagePath": "", "MessageJP": "目の下のクマもひどかったですし、すごく疲れた顔をしていましたが", "MessageTW": "我看你的黑眼圈很重，也總是很累的樣子", "MessageEN": "Those dark circles look pretty bad, and your skin is looking pretty rough..."}, {"MessageId": 230020090, "Flag": 2, "Type": 3, "NextId": 230020102, "MessageType": "Text", "ImagePath": "", "MessageJP": "最近ちょっと不眠症っぽくてね……", "MessageTW": "最近好像有點失眠……", "MessageEN": "My insomnia has gotten pretty bad..."}, {"MessageId": 230020090, "Flag": 2, "Type": 3, "NextId": 230020102, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんだか夜眠れなくって……", "MessageTW": "晚上總是睡不著……", "MessageEN": "I just can't sleep at night."}, {"MessageId": 230020102, "Flag": 2, "Type": 0, "NextId": 230020109, "MessageType": "Text", "ImagePath": "", "MessageJP": "やっぱり、そうだったんですか", "MessageTW": "果然是這樣啊", "MessageEN": "You have to sleep at the right time every day!"}, {"MessageId": 230020109, "Flag": 2, "Type": 0, "NextId": 230020116, "MessageType": "Text", "ImagePath": "", "MessageJP": "疲れは万病のもと！きちんと睡眠をとらないと病気になってしまうかもです", "MessageTW": "疲勞是萬病之源！如果不好好睡覺的話可是會生病的", "MessageEN": "Exhaustion is the worst! Lack of sleep will ruin your health and make you sick!"}, {"MessageId": 230020116, "Flag": 1, "Type": 0, "NextId": 230020113, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生がぐっすり眠れるよう、何か良い方法を探しておきますね", "MessageTW": "為了讓老師能好好睡覺，我會想想辦法的", "MessageEN": "This won't do. I'll make something that'll help you sleep better at night."}, {"MessageId": 230020113, "Flag": 2, "Type": 0, "NextId": 230010120, "MessageType": "Text", "ImagePath": "", "MessageJP": "明日のお昼、保健室に来てください！", "MessageTW": "明天白天，請老師來保健室一趟！", "MessageEN": "Come to the infirmary during lunch tomorrow!"}, {"MessageId": 230010120, "Flag": 2, "Type": 2, "NextId": 230020120, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハナエの絆イベントへ", "MessageTW": "前往花繪的羈絆劇情", "MessageEN": "Go to Hanae's Event"}, {"MessageId": 230020120, "Flag": 2, "Type": 0, "NextId": 230020127, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハーブティーは良かったのですが眠るまで少し時間がかかってしまいますね", "MessageTW": "香草茶雖然是好東西，但是要讓人睡著還是需要花點時間呢", "MessageEN": "Herbal tea takes too long to get you to sleep."}, {"MessageId": 230020127, "Flag": 2, "Type": 0, "NextId": 230020134, "MessageType": "Text", "ImagePath": "", "MessageJP": "そこで、ネットでもっと効果のあるものを見つけてきました！", "MessageTW": "所以，我在網路上找到了更有效的東西！", "MessageEN": "I'll search the internet for a tea that will make you sleepy in no time."}, {"MessageId": 230020134, "Flag": 1, "Type": 0, "NextId": 230020140, "MessageType": "Text", "ImagePath": "", "MessageJP": "トリカブトの根っこ……？というもので淹れたお茶が良さそうです！", "MessageTW": "烏頭屬植物的根……？用這個泡的茶好像很不錯喔！", "MessageEN": "Hm... What about tea brewed with wolfsbane root?"}, {"MessageId": 230020140, "Flag": 2, "Type": 3, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "殺す気！？", "MessageTW": "你想殺了我嗎！？", "MessageEN": "Are you trying to kill me?!"}]
+[
+    {
+        "CharacterId": 23002,
+        "MessageJP": "ハナエ",
+        "MessageKR": "하나에",
+        "MessageTW": "花繪",
+        "MessageEN": "Hanae"
+    },
+    {
+        "MessageId": 230010070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230020074,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230020074,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020081,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、最近きちんと眠れてますか？",
+        "MessageKR": "선생님, 요새 잠은 제대로 주무시고 계시는가요?",
+        "MessageTW": "老師，最近睡得還好嗎？",
+        "MessageEN": "Have you been sleeping well, Sensei?"
+    },
+    {
+        "MessageId": 230020081,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230020090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "目の下のクマもひどかったですし、すごく疲れた顔をしていましたが",
+        "MessageKR": "눈 밑에 다크서클이 진한 게, 얼굴에 피로가 가득해 보여요…….",
+        "MessageTW": "我看你的黑眼圈很重，也總是很累的樣子",
+        "MessageEN": "Those dark circles look pretty bad, and your skin is looking pretty rough..."
+    },
+    {
+        "MessageId": 230020090,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230020102,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最近ちょっと不眠症っぽくてね……",
+        "MessageKR": "요새 불면증이 심해져서…….",
+        "MessageTW": "最近好像有點失眠……",
+        "MessageEN": "My insomnia has gotten pretty bad..."
+    },
+    {
+        "MessageId": 230020090,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230020102,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんだか夜眠れなくって……",
+        "MessageKR": "어쩐지 밤에 잠이 잘 오질 않아…….",
+        "MessageTW": "晚上總是睡不著……",
+        "MessageEN": "I just can't sleep at night."
+    },
+    {
+        "MessageId": 230020102,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020109,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やっぱり、そうだったんですか",
+        "MessageKR": "잠은 제때 제대로 주무셔야죠!",
+        "MessageTW": "果然是這樣啊",
+        "MessageEN": "You have to sleep at the right time every day!"
+    },
+    {
+        "MessageId": 230020109,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020116,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "疲れは万病のもと！きちんと睡眠をとらないと病気になってしまうかもです",
+        "MessageKR": "피로는 만병의 원인! 잠을 자꾸 설치면 건강도 나빠지고, 병에 걸릴 수도 있다고요.",
+        "MessageTW": "疲勞是萬病之源！如果不好好睡覺的話可是會生病的",
+        "MessageEN": "Exhaustion is the worst! Lack of sleep will ruin your health and make you sick!"
+    },
+    {
+        "MessageId": 230020116,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230020113,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生がぐっすり眠れるよう、何か良い方法を探しておきますね",
+        "MessageKR": "안 되겠어요. 선생님께서 잠을 푹 주무실 수 있도록 제가 좋은 방법을 준비해두고 있을 테니,",
+        "MessageTW": "為了讓老師能好好睡覺，我會想想辦法的",
+        "MessageEN": "This won't do. I'll make something that'll help you sleep better at night."
+    },
+    {
+        "MessageId": 230020113,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010127,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "明日のお昼、保健室に来てください！",
+        "MessageKR": "내일 점심시간에 양호실을 찾아주세요!",
+        "MessageTW": "明天白天，請老師來保健室一趟！",
+        "MessageEN": "Come to the infirmary during lunch tomorrow!"
+    },
+    {
+        "MessageId": 230010127,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 230020120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハナエの絆イベントへ",
+        "MessageKR": "하나에의 인연스토리로",
+        "MessageTW": "前往花繪的羈絆劇情",
+        "MessageEN": "Go to Hanae's Event"
+    },
+    {
+        "MessageId": 230020120,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020127,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハーブティーは良かったのですが眠るまで少し時間がかかってしまいますね",
+        "MessageKR": "역시 허브차는 잠이 오는 데까지 걸리는 시간이 너무 긴 것 같아요.",
+        "MessageTW": "香草茶雖然是好東西，但是要讓人睡著還是需要花點時間呢",
+        "MessageEN": "Herbal tea takes too long to get you to sleep."
+    },
+    {
+        "MessageId": 230020127,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020134,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そこで、ネットでもっと効果のあるものを見つけてきました！",
+        "MessageKR": "그래서 인터넷에서 잠이 더 잘 오는 차를 조사해보았답니다.",
+        "MessageTW": "所以，我在網路上找到了更有效的東西！",
+        "MessageEN": "I'll search the internet for a tea that will make you sleepy in no time."
+    },
+    {
+        "MessageId": 230020134,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230020140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トリカブトの根っこ……？というもので淹れたお茶が良さそうです！",
+        "MessageKR": "음…… 투구꽃 뿌리로 달인 차는 어떠신가요?",
+        "MessageTW": "烏頭屬植物的根……？用這個泡的茶好像很不錯喔！",
+        "MessageEN": "Hm... What about tea brewed with wolfsbane root?"
+    },
+    {
+        "MessageId": 230020140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "殺す気！？",
+        "MessageKR": "죽일 셈이냐!",
+        "MessageTW": "你想殺了我嗎！？",
+        "MessageEN": "Are you trying to kill me?!"
+    }
+]

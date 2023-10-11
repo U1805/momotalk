@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13007.webp", "MessageJP": "ジュンコ", "MessageTW": "淳子", "MessageEN": "Junko"}, {"MessageId": 130060220, "Flag": 2, "Type": 4, "NextId": 130070222, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130070222, "Flag": 2, "Type": 0, "NextId": 130070239, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふ、ねえ先生。良いこと教えてあげよっか？", "MessageTW": "呵呵，嘿，老師。能告訴你一件好事嗎？", "MessageEN": "Heehee! Sensei, you're gonna be so jealous."}, {"MessageId": 130070239, "Flag": 1, "Type": 0, "NextId": 130070240, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日の美食研究会の夕飯はなんと……お肉！", "MessageTW": "今天美食研究會的晚餐竟然是……肉！", "MessageEN": "For tonight's dinner, the Gourmet Research Society is having...meat!"}, {"MessageId": 130070240, "Flag": 2, "Type": 3, "NextId": 130070253, "MessageType": "Text", "ImagePath": "", "MessageJP": "お肉！", "MessageTW": "肉！", "MessageEN": "...Meat!"}, {"MessageId": 130070253, "Flag": 2, "Type": 0, "NextId": 130070260, "MessageType": "Text", "ImagePath": "", "MessageJP": "それも、高級な和牛！", "MessageTW": "而且還是高級和牛！", "MessageEN": "And not just any meat! We'll be enjoying premium wagyu!"}, {"MessageId": 130070260, "Flag": 2, "Type": 3, "NextId": 130070277, "MessageType": "Text", "ImagePath": "", "MessageJP": "和牛！？", "MessageTW": "和牛！？", "MessageEN": "...Wagyu!"}, {"MessageId": 130070277, "Flag": 2, "Type": 0, "NextId": 130070274, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふ。羨ましいでしょ、先生？", "MessageTW": "呵呵。羨慕吧，老師？", "MessageEN": "Heehee. Are you jealous, Sensei?"}, {"MessageId": 130070274, "Flag": 2, "Type": 0, "NextId": 130070280, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は、存分に私のことを羨ましがっていいよ！", "MessageTW": "今天就儘管羨慕我吧！", "MessageEN": "You should be green with envy today!"}, {"MessageId": 130070280, "Flag": 2, "Type": 3, "NextId": 130070295, "MessageType": "Text", "ImagePath": "", "MessageJP": "私も食べたい……", "MessageTW": "我也想吃……", "MessageEN": "I want some too..."}, {"MessageId": 130070280, "Flag": 2, "Type": 3, "NextId": 130070295, "MessageType": "Text", "ImagePath": "", "MessageJP": "私も美食研究会に入る！", "MessageTW": "我也要加入美食研究會！", "MessageEN": "I'm joining the Gourmet Research Society!"}, {"MessageId": 130070295, "Flag": 2, "Type": 0, "NextId": 130070292, "MessageType": "Text", "ImagePath": "", "MessageJP": "ダーメ、今日行くお店は人数制限があるから", "MessageTW": "不行，今天去的店有人數限制", "MessageEN": "No. The yakiniku restaurant we're going to only accepts smaller groups."}, {"MessageId": 130070292, "Flag": 2, "Type": 0, "NextId": 130060290, "MessageType": "Text", "ImagePath": "", "MessageJP": "その代わりに帰ってきたら、どれくらい美味しかったか教えてあげる！", "MessageTW": "但是回來後，我會告訴你有多好吃！", "MessageEN": "But I'll tell you how good the wagyu was when I get back!"}, {"MessageId": 130060290, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ジュンコの絆イベントへ", "MessageTW": "前往淳子的羈絆劇情", "MessageEN": "Go to Junko's Event"}]
+[
+    {
+        "CharacterId": 13007,
+        "MessageJP": "ジュンコ",
+        "MessageKR": "준코",
+        "MessageTW": "淳子",
+        "MessageEN": "Junko"
+    },
+    {
+        "MessageId": 130060220,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130070222,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130070222,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130070239,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふ、ねえ先生。良いこと教えてあげよっか？",
+        "MessageKR": "후후후, 선생님. 부러워해도 좋아.",
+        "MessageTW": "呵呵，嘿，老師。能告訴你一件好事嗎？",
+        "MessageEN": "Heehee! Sensei, you're gonna be so jealous."
+    },
+    {
+        "MessageId": 130070239,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130070240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日の美食研究会の夕飯はなんと……お肉！",
+        "MessageKR": "오늘 미식 연구회의 저녁 메뉴는…… 고기야!",
+        "MessageTW": "今天美食研究會的晚餐竟然是……肉！",
+        "MessageEN": "For tonight's dinner, the Gourmet Research Society is having...meat!"
+    },
+    {
+        "MessageId": 130070240,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130070253,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お肉！",
+        "MessageKR": "……고기!",
+        "MessageTW": "肉！",
+        "MessageEN": "...Meat!"
+    },
+    {
+        "MessageId": 130070253,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130070260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それも、高級な和牛！",
+        "MessageKR": "그것도 값비싼 와규!",
+        "MessageTW": "而且還是高級和牛！",
+        "MessageEN": "And not just any meat! We'll be enjoying premium wagyu!"
+    },
+    {
+        "MessageId": 130070260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130070277,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "和牛！？",
+        "MessageKR": "……와규!",
+        "MessageTW": "和牛！？",
+        "MessageEN": "...Wagyu!"
+    },
+    {
+        "MessageId": 130070277,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130070274,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふ。羨ましいでしょ、先生？",
+        "MessageKR": "후후. 부럽지, 선생님?",
+        "MessageTW": "呵呵。羨慕吧，老師？",
+        "MessageEN": "Heehee. Are you jealous, Sensei?"
+    },
+    {
+        "MessageId": 130070274,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130070280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は、存分に私のことを羨ましがっていいよ！",
+        "MessageKR": "오늘만큼은 나를 부러워해도 좋아!",
+        "MessageTW": "今天就儘管羨慕我吧！",
+        "MessageEN": "You should be green with envy today!"
+    },
+    {
+        "MessageId": 130070280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130070295,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私も食べたい……",
+        "MessageKR": "나도 먹고 싶어…….",
+        "MessageTW": "我也想吃……",
+        "MessageEN": "I want some too..."
+    },
+    {
+        "MessageId": 130070280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130070295,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私も美食研究会に入る！",
+        "MessageKR": "나도 미식연구회에 들어갈래!",
+        "MessageTW": "我也要加入美食研究會！",
+        "MessageEN": "I'm joining the Gourmet Research Society!"
+    },
+    {
+        "MessageId": 130070295,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130070292,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ダーメ、今日行くお店は人数制限があるから",
+        "MessageKR": "안 돼. 가기로 한 야키니쿠 가게에는 제한 인원이 있단 말이야.",
+        "MessageTW": "不行，今天去的店有人數限制",
+        "MessageEN": "No. The yakiniku restaurant we're going to only accepts smaller groups."
+    },
+    {
+        "MessageId": 130070292,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130060297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その代わりに帰ってきたら、どれくらい美味しかったか教えてあげる！",
+        "MessageKR": "대신 다녀와서 와규가 얼마나 맛있었는지 잔뜩 말해줄게!",
+        "MessageTW": "但是回來後，我會告訴你有多好吃！",
+        "MessageEN": "But I'll tell you how good the wagyu was when I get back!"
+    },
+    {
+        "MessageId": 130060297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ジュンコの絆イベントへ",
+        "MessageKR": "준코의 인연스토리로",
+        "MessageTW": "前往淳子的羈絆劇情",
+        "MessageEN": "Go to Junko's Event"
+    }
+]

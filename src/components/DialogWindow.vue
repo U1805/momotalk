@@ -6,13 +6,14 @@ import { ref } from 'vue'
 
 const route = useRoute()
 const router = useRouter()
-const storyLng = ref<string>('MessageTW')
+const storyLng = ref<string>('MessageJP')
 
-const playMomotalk = (confirm: boolean) => {
-    play(confirm, store.storyKey, store.storyFile, storyLng.value)
+const playMomotalk = async (confirm: boolean) => {
+    let res = await play(confirm, store.storyKey, store.storyFile, storyLng.value)
     let newQuery = JSON.parse(JSON.stringify(route.query))
     delete newQuery.id
     router.replace({ query: newQuery })
+    if (!res) router.push({ name: 'info' })
 }
 </script>
 
@@ -24,15 +25,15 @@ const playMomotalk = (confirm: boolean) => {
             <p class="dialog-content">
                 <label>{{ $t('selectStory') }}</label>
                 <select v-model="store.storyFile">
-                    <option v-for="(momotalk, index) in store.storyList" :key="index">
+                    <option v-for="(momotalk, index) in Object.keys(store.storyList)" :key="index">
                         {{ momotalk }}
-                    </option></select
-                ><br />
+                    </option>
+                </select><br />
                 <label>{{ $t('selectLanguage') }}</label>
                 <select v-model="storyLng">
-                    <option selected>MessageTW</option>
-                    <option>MessageEN</option>
-                    <option>MessageJP</option>
+                    <option v-for="(lng, index) in store.storyList[store.storyFile]" :key="index">
+                        {{ lng }}
+                    </option>
                 </select>
             </p>
             <div class="dialog-footer">

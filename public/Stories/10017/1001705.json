@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10017.webp", "MessageJP": "チェリノ", "MessageTW": "潔莉諾", "MessageEN": "Cherino"}, {"MessageId": 100160310, "Flag": 2, "Type": 4, "NextId": 100170310, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100170310, "Flag": 2, "Type": 0, "NextId": 100170320, "MessageType": "Text", "ImagePath": "", "MessageJP": "カムラッドは、何か怖い物とかないのか？", "MessageTW": "同志有什麼會怕的東西嗎？", "MessageEN": "What are you afraid of, Comrade?"}, {"MessageId": 100170320, "Flag": 2, "Type": 3, "NextId": 100170330, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん、お化けとかかな……", "MessageTW": "唔嗯，妖怪之類的吧……", "MessageEN": "I'm afraid of ghosts."}, {"MessageId": 100170320, "Flag": 2, "Type": 3, "NextId": 100170340, "MessageType": "Text", "ImagePath": "", "MessageJP": "まんじゅうこわい", "MessageTW": "怕饅頭", "MessageEN": "I'm afraid of manju."}, {"MessageId": 100170330, "Flag": 2, "Type": 0, "NextId": 100170331, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふん。お化けが怖いなんて、カムラッドにも子供みたいなところがあるのだな", "MessageTW": "呵呵。怕妖怪啊，同志也有像孩子一樣的地方呢", "MessageEN": "Haha! You're afraid of ghosts? That's pretty childish, Comrade."}, {"MessageId": 100170331, "Flag": 2, "Type": 0, "NextId": 100170350, "MessageType": "Text", "ImagePath": "", "MessageJP": "心配するな、カムラッド。仮にお化けが現れたとしても、おいらがやっつけてやる！", "MessageTW": "別擔心，同志。就算妖怪真的出現了，咱也會打倒他！", "MessageEN": "Don't worry, Comrade. I'll bust any ghost before it can get you!"}, {"MessageId": 100170340, "Flag": 1, "Type": 0, "NextId": 100170341, "MessageType": "Text", "ImagePath": "", "MessageJP": "まんじゅうって、あの甘いお饅頭か？あれが怖いなんて、どういうことだ？", "MessageTW": "饅頭是指那個甜饅頭嗎？怕那個是怎麼回事？", "MessageEN": "Huh? How can anyone be afraid of manju? It's delicious and sweet."}, {"MessageId": 100170341, "Flag": 2, "Type": 0, "NextId": 100170350, "MessageType": "Text", "ImagePath": "", "MessageJP": "カムラッドは時々よく分からないことを言うな……", "MessageTW": "同志有時會說些讓人搞不懂的話呢……", "MessageEN": "You're a strange one, Comrade..."}, {"MessageId": 100170350, "Flag": 2, "Type": 3, "NextId": 100170360, "MessageType": "Text", "ImagePath": "", "MessageJP": "チェリノは怖いものとかある？", "MessageTW": "潔莉諾有怕什麼東西嗎？", "MessageEN": "What are you afraid of, Cherino?"}, {"MessageId": 100170360, "Flag": 2, "Type": 0, "NextId": 100170361, "MessageType": "Text", "ImagePath": "", "MessageJP": "お、おいらに怖いものなんてあるわけないだろう！", "MessageTW": "咱，咱怎麼可能有害怕的東西！", "MessageEN": "What are you talking about? I'm not afraid of anything!"}, {"MessageId": 100170361, "Flag": 2, "Type": 0, "NextId": 100170362, "MessageType": "Text", "ImagePath": "", "MessageJP": "偉大なる指導者にとって、恐怖など必要の無い感情だ！", "MessageTW": "對偉大的領導者來說，恐懼是不必要的情緒！", "MessageEN": "Fear has no place in the heart of a great leader!"}, {"MessageId": 100170362, "Flag": 2, "Type": 0, "NextId": 100160360, "MessageType": "Text", "ImagePath": "", "MessageJP": "レッドウィンター連邦学園の生徒会長であり、書記長兼、環境美化部部長兼、清掃部部長のおいらに、恐れるものなど無い！", "MessageTW": "咱身為赤冬學聯邦學園的學生會長、兼書記長、兼環境美化部長、兼清掃部長，無所畏懼！", "MessageEN": "I am the Great Leader, esteemed Student Council president, Beautifier of Lands, and Chief of Sanitation of Red Winter Academy! I don't fear a thing!"}, {"MessageId": 100160360, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "チェリノの絆イベントへ", "MessageTW": "前往潔莉諾的羈絆劇情", "MessageEN": "Go to Cherino's Event"}]
+[
+    {
+        "CharacterId": 10017,
+        "MessageJP": "チェリノ",
+        "MessageKR": "체리노",
+        "MessageTW": "潔莉諾",
+        "MessageEN": "Cherino"
+    },
+    {
+        "MessageId": 100160310,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100170310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100170310,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カムラッドは、何か怖い物とかないのか？",
+        "MessageKR": "콤라드. 콤라드는 특별히 무서워하는 게 있는가?",
+        "MessageTW": "同志有什麼會怕的東西嗎？",
+        "MessageEN": "What are you afraid of, Comrade?"
+    },
+    {
+        "MessageId": 100170320,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100170330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん、お化けとかかな……",
+        "MessageKR": "나는 귀신이 무서워.",
+        "MessageTW": "唔嗯，妖怪之類的吧……",
+        "MessageEN": "I'm afraid of ghosts."
+    },
+    {
+        "MessageId": 100170320,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100170340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まんじゅうこわい",
+        "MessageKR": "나는 만쥬가 무서워.",
+        "MessageTW": "怕饅頭",
+        "MessageEN": "I'm afraid of manju."
+    },
+    {
+        "MessageId": 100170330,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170331,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふん。お化けが怖いなんて、カムラッドにも子供みたいなところがあるのだな",
+        "MessageKR": "후후, 귀신을 무서워하다니 콤라드도 어린아이 같은 구석이 있군.",
+        "MessageTW": "呵呵。怕妖怪啊，同志也有像孩子一樣的地方呢",
+        "MessageEN": "Haha! You're afraid of ghosts? That's pretty childish, Comrade."
+    },
+    {
+        "MessageId": 100170331,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "心配するな、カムラッド。仮にお化けが現れたとしても、おいらがやっつけてやる！",
+        "MessageKR": "걱정 말게나, 콤라드. 설령 귀신이 정말로 나타나더라도 이 몸이 무찔러줄 테니!",
+        "MessageTW": "別擔心，同志。就算妖怪真的出現了，咱也會打倒他！",
+        "MessageEN": "Don't worry, Comrade. I'll bust any ghost before it can get you!"
+    },
+    {
+        "MessageId": 100170340,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100170341,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まんじゅうって、あの甘いお饅頭か？あれが怖いなんて、どういうことだ？",
+        "MessageKR": "으응? 달콤한 만쥬가 무섭다니, 그게 무슨 소리인가?",
+        "MessageTW": "饅頭是指那個甜饅頭嗎？怕那個是怎麼回事？",
+        "MessageEN": "Huh? How can anyone be afraid of manju? It's delicious and sweet."
+    },
+    {
+        "MessageId": 100170341,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カムラッドは時々よく分からないことを言うな……",
+        "MessageKR": "콤라드도 알 수 없는 소리를 자꾸 하는군…….",
+        "MessageTW": "同志有時會說些讓人搞不懂的話呢……",
+        "MessageEN": "You're a strange one, Comrade..."
+    },
+    {
+        "MessageId": 100170350,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100170360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チェリノは怖いものとかある？",
+        "MessageKR": "체리노는 무얼 무서워해?",
+        "MessageTW": "潔莉諾有怕什麼東西嗎？",
+        "MessageEN": "What are you afraid of, Cherino?"
+    },
+    {
+        "MessageId": 100170360,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170361,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お、おいらに怖いものなんてあるわけないだろう！",
+        "MessageKR": "그 무슨 망언인가! 이 몸이 무서워하는 것이라니!",
+        "MessageTW": "咱，咱怎麼可能有害怕的東西！",
+        "MessageEN": "What are you talking about? I'm not afraid of anything!"
+    },
+    {
+        "MessageId": 100170361,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170362,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "偉大なる指導者にとって、恐怖など必要の無い感情だ！",
+        "MessageKR": "위대한 지도자에게 공포란 불필요한 감정!",
+        "MessageTW": "對偉大的領導者來說，恐懼是不必要的情緒！",
+        "MessageEN": "Fear has no place in the heart of a great leader!"
+    },
+    {
+        "MessageId": 100170362,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160367,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "レッドウィンター連邦学園の生徒会長であり、書記長兼、環境美化部部長兼、清掃部部長のおいらに、恐れるものなど無い！",
+        "MessageKR": "붉은겨울 학원의 서기장이자 학생회장이자, 미화부장이자, 청소부장인 이 몸에게 두려움 따윈 없느니라!",
+        "MessageTW": "咱身為赤冬學聯邦學園的學生會長、兼書記長、兼環境美化部長、兼清掃部長，無所畏懼！",
+        "MessageEN": "I am the Great Leader, esteemed Student Council president, Beautifier of Lands, and Chief of Sanitation of Red Winter Academy! I don't fear a thing!"
+    },
+    {
+        "MessageId": 100160367,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チェリノの絆イベントへ",
+        "MessageKR": "체리노의 인연스토리로",
+        "MessageTW": "前往潔莉諾的羈絆劇情",
+        "MessageEN": "Go to Cherino's Event"
+    }
+]

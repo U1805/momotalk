@@ -1,0 +1,153 @@
+[
+    {
+        "CharacterId": 20026,
+        "MessageJP": "ミノリ",
+        "MessageKR": "미노리",
+        "MessageTW": "實里",
+        "MessageEN": "Minori"
+    },
+    {
+        "MessageId": 200250210,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200260210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200260210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、明日なんだが……",
+        "MessageKR": "선생, 그러고 보니 내일 쯤에",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200260230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "工務部の見学に来る約束だったな？",
+        "MessageKR": "용역부의 업무를 견학하기 위해 붉은겨울 학원에 방문한다고 했었지?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200260240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、その予定だけど……？",
+        "MessageKR": "응. 무슨 문제라도 생겼어?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260241,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "天気予報によると、明日は強い寒波が到来するらしい",
+        "MessageKR": "그게 일기예보를 보니, 내일 강력한 한파가 예고되어 있어서……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260241,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260242,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "事故を防ぐためにも、明日の作業は中止にした",
+        "MessageKR": "안전사고가 일어날 것 같아서 용역부의 현장 작업은 중지하기로 했어",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260242,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "急に予定を変更して申し訳ない",
+        "MessageKR": "갑작스럽게 일정을 변경한 점에 대해 양해 부탁할게",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200260270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫だよ",
+        "MessageKR": "괜찮아. 신경 쓰지 마.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200260260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "安全第一だからね",
+        "MessageKR": "안전과 관련된 일이니 어쩔 수 없지",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうだ、現場では常に安全第一が求められる",
+        "MessageKR": "음, 안전은 그 무엇보다 중요하니까.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260270,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200250277,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、また先生の予定が合う日に来てくれ",
+        "MessageKR": "여하튼 그럼 다음에 시간 날 때 보자고.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200250277,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミノリの絆イベントへ",
+        "MessageKR": "미노리의 인연스토리로",
+        "MessageTW": "前往實里的羈絆劇情",
+        "MessageEN": "Go to Minori's Event"
+    }
+]

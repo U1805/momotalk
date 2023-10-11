@@ -1,1 +1,105 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23003.webp", "MessageJP": "ハレ", "MessageTW": "晴", "MessageEN": "Hare"}, {"MessageId": 230020070, "Flag": 2, "Type": 4, "NextId": 230030076, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230030076, "Flag": 2, "Type": 0, "NextId": 230030080, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今日部室に来る時に、エナジードリンクを一本買ってきてくれる？", "MessageTW": "老師，今天你來社團教室的時候，可以幫我買罐能量飲料嗎？", "MessageEN": "When you come to the club room today, can you bring me an energy drink from the city?"}, {"MessageId": 230030080, "Flag": 2, "Type": 3, "NextId": 230030090, "MessageType": "Text", "ImagePath": "", "MessageJP": "エナジードリンク？「妖怪MAX」でいい？", "MessageTW": "能量飲料？「妖怪MAX」可以嗎？", "MessageEN": "An energy drink? Like Monster MAX?"}, {"MessageId": 230030090, "Flag": 2, "Type": 0, "NextId": 230030097, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、「妖怪MAX」のパッションフルーツ味でお願い", "MessageTW": "嗯，那就「妖怪MAX」百香果口味好了", "MessageEN": "Yes, Monster MAX! The passion fruit flavor."}, {"MessageId": 230030097, "Flag": 2, "Type": 0, "NextId": 230030100, "MessageType": "Text", "ImagePath": "", "MessageJP": "どういうわけか、その味はこの辺だとあまり取り扱ってないみたいで", "MessageTW": "不知道為什麼，這附近好像都買不太到那個口味", "MessageEN": "I can't find the passion fruit flavor anywhere around here."}, {"MessageId": 230030100, "Flag": 2, "Type": 3, "NextId": 230030111, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうなんだ。うん、了解", "MessageTW": "這樣啊。嗯，我知道了", "MessageEN": "Okay."}, {"MessageId": 230030111, "Flag": 2, "Type": 0, "NextId": 230020110, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとう、よろしくね", "MessageTW": "謝謝，拜託你了唷", "MessageEN": "Thank you!"}, {"MessageId": 230020110, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハレの絆イベントへ", "MessageTW": "前往晴的羈絆劇情", "MessageEN": "Go to Hare's Event"}]
+[
+    {
+        "CharacterId": 23003,
+        "MessageJP": "ハレ",
+        "MessageKR": "하레",
+        "MessageTW": "晴",
+        "MessageEN": "Hare"
+    },
+    {
+        "MessageId": 230020070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230030076,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230030076,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今日部室に来る時に、エナジードリンクを一本買ってきてくれる？",
+        "MessageKR": "선생님, 오늘 동아리실에 올 때 시내에서 에너지 드링크 하나만 사다 줄 수 있어?",
+        "MessageTW": "老師，今天你來社團教室的時候，可以幫我買罐能量飲料嗎？",
+        "MessageEN": "When you come to the club room today, can you bring me an energy drink from the city?"
+    },
+    {
+        "MessageId": 230030080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "エナジードリンク？「妖怪MAX」でいい？",
+        "MessageKR": "에너지 드링크? <요괴 MAX>면 될까?",
+        "MessageTW": "能量飲料？「妖怪MAX」可以嗎？",
+        "MessageEN": "An energy drink? Like Monster MAX?"
+    },
+    {
+        "MessageId": 230030090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、「妖怪MAX」のパッションフルーツ味でお願い",
+        "MessageKR": "응, <요괴 MAX>의 패션 후르츠 맛으로.",
+        "MessageTW": "嗯，那就「妖怪MAX」百香果口味好了",
+        "MessageEN": "Yes, Monster MAX! The passion fruit flavor."
+    },
+    {
+        "MessageId": 230030097,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どういうわけか、その味はこの辺だとあまり取り扱ってないみたいで",
+        "MessageKR": "어째서인지 패션 후르츠 맛은 이 근처에서 취급하는 곳이 없더라고.",
+        "MessageTW": "不知道為什麼，這附近好像都買不太到那個口味",
+        "MessageEN": "I can't find the passion fruit flavor anywhere around here."
+    },
+    {
+        "MessageId": 230030100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうなんだ。うん、了解",
+        "MessageKR": "알겠어.",
+        "MessageTW": "這樣啊。嗯，我知道了",
+        "MessageEN": "Okay."
+    },
+    {
+        "MessageId": 230030111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとう、よろしくね",
+        "MessageKR": "그럼 부탁 좀 할게.",
+        "MessageTW": "謝謝，拜託你了唷",
+        "MessageEN": "Thank you!"
+    },
+    {
+        "MessageId": 230020117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハレの絆イベントへ",
+        "MessageKR": "하레의 인연스토리로",
+        "MessageTW": "前往晴的羈絆劇情",
+        "MessageEN": "Go to Hare's Event"
+    }
+]

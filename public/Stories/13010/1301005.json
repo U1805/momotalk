@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13010.webp", "MessageJP": "ユウカ", "MessageTW": "優香", "MessageEN": "Yuuka"}, {"MessageId": 130090330, "Flag": 2, "Type": 4, "NextId": 130100331, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130100331, "Flag": 2, "Type": 0, "NextId": 130100339, "MessageType": "Text", "ImagePath": "", "MessageJP": "シャーレの執務室に放置されたボードゲームがあったのですが、", "MessageTW": "有一個桌遊被放在夏萊的辦公室", "MessageEN": "Sensei, I saw a game board in the Schale executive office. "}, {"MessageId": 130100339, "Flag": 1, "Type": 0, "NextId": 130100340, "MessageType": "Text", "ImagePath": "", "MessageJP": "もし使っていないのでしたら、私が頂いてもいいですか？", "MessageTW": "如果沒在使用的話，我可以收下嗎？", "MessageEN": "If no one else is using it, could I borrow it?"}, {"MessageId": 130100340, "Flag": 2, "Type": 3, "NextId": 130100352, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、良いよ。ユウカもゲーム好きなんだ？", "MessageTW": "嗯，好啊。優香也喜歡遊戲嗎？", "MessageEN": "I don't see why not. Do you like games?"}, {"MessageId": 130100352, "Flag": 2, "Type": 0, "NextId": 130100359, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん", "MessageTW": "當然", "MessageEN": "Of course!"}, {"MessageId": 130100359, "Flag": 2, "Type": 0, "NextId": 130100360, "MessageType": "Text", "ImagePath": "", "MessageJP": "ボードゲームもそうですし、オンラインゲームも嗜みます", "MessageTW": "我喜歡桌遊，也有涉獵線上遊戲", "MessageEN": "I love board games and online games."}, {"MessageId": 130100360, "Flag": 2, "Type": 3, "NextId": 130100373, "MessageType": "Text", "ImagePath": "", "MessageJP": "意外かも", "MessageTW": "蠻意外的", "MessageEN": "I didn't expect that."}, {"MessageId": 130100373, "Flag": 2, "Type": 0, "NextId": 130100370, "MessageType": "Text", "ImagePath": "", "MessageJP": "何か勘違いされてるかもしれませんが……", "MessageTW": "你可能有什麼誤會……", "MessageEN": "Well, shows how much you know about me. "}, {"MessageId": 130100370, "Flag": 2, "Type": 0, "NextId": 130100377, "MessageType": "Text", "ImagePath": "", "MessageJP": "私も他の生徒たちと同じくらい、ゲームは普通に好きですよ", "MessageTW": "我也跟其他學生一樣，基本上是喜歡遊戲的", "MessageEN": "I like games just as much as the other students."}, {"MessageId": 130100377, "Flag": 2, "Type": 0, "NextId": 130090370, "MessageType": "Text", "ImagePath": "", "MessageJP": "敵の攻略法を考えるのは、数学の問題を解くのと同じくらい楽しいですから", "MessageTW": "因為思考攻略敵人的方法，就像解數學題一樣有趣", "MessageEN": "Composing different strategies against difficult enemies is just as fun as solving math problems."}, {"MessageId": 130090370, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユウカの絆イベントへ", "MessageTW": "前往優香的羈絆劇情", "MessageEN": "Go to Yuuka's Event"}]
+[
+    {
+        "CharacterId": 13010,
+        "MessageJP": "ユウカ",
+        "MessageKR": "유우카",
+        "MessageTW": "優香",
+        "MessageEN": "Yuuka"
+    },
+    {
+        "MessageId": 130090330,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130100331,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130100331,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100339,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シャーレの執務室に放置されたボードゲームがあったのですが、",
+        "MessageKR": "선생님, 샬레의 집무실에 방치된 게임 보드가 있던데,",
+        "MessageTW": "有一個桌遊被放在夏萊的辦公室",
+        "MessageEN": "Sensei, I saw a game board in the Schale executive office. "
+    },
+    {
+        "MessageId": 130100339,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130100340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もし使っていないのでしたら、私が頂いてもいいですか？",
+        "MessageKR": "사용하지 않는 물건이라면 제가 써도 괜찮을까요?",
+        "MessageTW": "如果沒在使用的話，我可以收下嗎？",
+        "MessageEN": "If no one else is using it, could I borrow it?"
+    },
+    {
+        "MessageId": 130100340,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130100352,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、良いよ。ユウカもゲーム好きなんだ？",
+        "MessageKR": "상관없지만…… 유우카도 게임을 좋아해?",
+        "MessageTW": "嗯，好啊。優香也喜歡遊戲嗎？",
+        "MessageEN": "I don't see why not. Do you like games?"
+    },
+    {
+        "MessageId": 130100352,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100359,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん",
+        "MessageKR": "물론 좋아하고 말고요.",
+        "MessageTW": "當然",
+        "MessageEN": "Of course!"
+    },
+    {
+        "MessageId": 130100359,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ボードゲームもそうですし、オンラインゲームも嗜みます",
+        "MessageKR": "보드 게임도 좋아하고, 온라인 게임도 좋아한답니다.",
+        "MessageTW": "我喜歡桌遊，也有涉獵線上遊戲",
+        "MessageEN": "I love board games and online games."
+    },
+    {
+        "MessageId": 130100360,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130100373,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "意外かも",
+        "MessageKR": "의외네.",
+        "MessageTW": "蠻意外的",
+        "MessageEN": "I didn't expect that."
+    },
+    {
+        "MessageId": 130100373,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何か勘違いされてるかもしれませんが……",
+        "MessageKR": "무언가 오해를 하신 모양인데,",
+        "MessageTW": "你可能有什麼誤會……",
+        "MessageEN": "Well, shows how much you know about me. "
+    },
+    {
+        "MessageId": 130100370,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100377,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私も他の生徒たちと同じくらい、ゲームは普通に好きですよ",
+        "MessageKR": "저도 다른 학생들만큼 게임을 좋아하는 편이에요.",
+        "MessageTW": "我也跟其他學生一樣，基本上是喜歡遊戲的",
+        "MessageEN": "I like games just as much as the other students."
+    },
+    {
+        "MessageId": 130100377,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090377,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "敵の攻略法を考えるのは、数学の問題を解くのと同じくらい楽しいですから",
+        "MessageKR": "어려운 적을 상대로 여러가지 공략법을 연구하는 건 수학 문제를 푸는 것만큼 즐겁거든요.",
+        "MessageTW": "因為思考攻略敵人的方法，就像解數學題一樣有趣",
+        "MessageEN": "Composing different strategies against difficult enemies is just as fun as solving math problems."
+    },
+    {
+        "MessageId": 130090377,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユウカの絆イベントへ",
+        "MessageKR": "유우카의 인연스토리로",
+        "MessageTW": "前往優香的羈絆劇情",
+        "MessageEN": "Go to Yuuka's Event"
+    }
+]

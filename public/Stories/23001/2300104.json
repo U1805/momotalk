@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23001.webp", "MessageJP": "フウカ", "MessageTW": "風華", "MessageEN": "Fuuka"}, {"MessageId": 230000210, "Flag": 2, "Type": 4, "NextId": 230010219, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230010219, "Flag": 2, "Type": 0, "NextId": 230010226, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生。実は、先日新しく考えついた料理があるのですが", "MessageTW": "老師。其實我前幾天想出了一道新菜色", "MessageEN": "I have a dish I made using a new recipe, Sensei."}, {"MessageId": 230010226, "Flag": 1, "Type": 0, "NextId": 230010223, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしても、先生に最初に食べていただきたくて", "MessageTW": "無論如何都想讓老師第一個吃到", "MessageEN": "I want you to try it!"}, {"MessageId": 230010223, "Flag": 2, "Type": 0, "NextId": 230010230, "MessageType": "Text", "ImagePath": "", "MessageJP": "もしよろしければ……", "MessageTW": "如果方便的話……", "MessageEN": "If you have time..."}, {"MessageId": 230010230, "Flag": 2, "Type": 3, "NextId": 230010247, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカの新メニュー！絶対に行く！", "MessageTW": "風華的新菜色！我一定去！", "MessageEN": "A new menu item from Fuuka? I'm there!"}, {"MessageId": 230010247, "Flag": 2, "Type": 0, "NextId": 230000240, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ。はい、待ってますね", "MessageTW": "呵呵。好，我等老師來唷", "MessageEN": "Heehee! Then I'll be waiting!"}, {"MessageId": 230000240, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカの絆イベントへ", "MessageTW": "前往風華的羈絆劇情", "MessageEN": "Go to Fuuka's Event"}]
+[
+    {
+        "CharacterId": 23001,
+        "MessageJP": "フウカ",
+        "MessageKR": "후우카",
+        "MessageTW": "風華",
+        "MessageEN": "Fuuka"
+    },
+    {
+        "MessageId": 230000210,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230010219,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230010219,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010226,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生。実は、先日新しく考えついた料理があるのですが",
+        "MessageKR": "선생님, 얼마 전에 새로 구상한 레시피로 만든 요리가 있는데.",
+        "MessageTW": "老師。其實我前幾天想出了一道新菜色",
+        "MessageEN": "I have a dish I made using a new recipe, Sensei."
+    },
+    {
+        "MessageId": 230010226,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230010223,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしても、先生に最初に食べていただきたくて",
+        "MessageKR": "반드시 꼭 선생님에게 맛보여드리고 싶어요.",
+        "MessageTW": "無論如何都想讓老師第一個吃到",
+        "MessageEN": "I want you to try it!"
+    },
+    {
+        "MessageId": 230010223,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もしよろしければ……",
+        "MessageKR": "혹시 괜찮으시다면…….",
+        "MessageTW": "如果方便的話……",
+        "MessageEN": "If you have time..."
+    },
+    {
+        "MessageId": 230010230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230010247,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカの新メニュー！絶対に行く！",
+        "MessageKR": "후우카의 신메뉴라니, 무조건 갈게!",
+        "MessageTW": "風華的新菜色！我一定去！",
+        "MessageEN": "A new menu item from Fuuka? I'm there!"
+    },
+    {
+        "MessageId": 230010247,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000247,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ。はい、待ってますね",
+        "MessageKR": "후훗, 네. 기다리고 있을게요.",
+        "MessageTW": "呵呵。好，我等老師來唷",
+        "MessageEN": "Heehee! Then I'll be waiting!"
+    },
+    {
+        "MessageId": 230000247,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカの絆イベントへ",
+        "MessageKR": "후우카의 인연스토리로",
+        "MessageTW": "前往風華的羈絆劇情",
+        "MessageEN": "Go to Fuuka's Event"
+    }
+]

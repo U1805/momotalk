@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10011.webp", "MessageJP": "シュン", "MessageTW": "旬", "MessageEN": "Shun"}, {"MessageId": 100100010, "Flag": 2, "Type": 4, "NextId": 100110016, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100110016, "Flag": 2, "Type": 0, "NextId": 100110023, "MessageType": "Text", "ImagePath": "", "MessageJP": "本日の梅花園のおやつは、商会から頂いてきた甘ーいフルーツですよ", "MessageTW": "今天梅花園的點心是來自商會的很甜～的水果唷", "MessageEN": "Everyone, this afternoon's snack at the Plum Blossom Garden is sweet fruit I got from the Promenade."}, {"MessageId": 100110023, "Flag": 1, "Type": 0, "NextId": 100110030, "MessageType": "Text", "ImagePath": "", "MessageJP": "みなさん、時間に遅れないように参加してくださいね！", "MessageTW": "請大家要準時參加唷！", "MessageEN": "So, please make sure to be there for snack time, and do NOT be late!"}, {"MessageId": 100110030, "Flag": 2, "Type": 3, "NextId": 100100040, "MessageType": "Text", "ImagePath": "", "MessageJP": "……これ、本当に私宛のメッセージかな？", "MessageTW": "……這真的是要給我的訊息嗎？", "MessageEN": "...Did you mean to send this to me?"}, {"MessageId": 100100040, "Flag": 2, "Type": 2, "NextId": 100110047, "MessageType": "Text", "ImagePath": "", "MessageJP": "シュンの絆イベントへ", "MessageTW": "前往旬的羈絆劇情", "MessageEN": "Go to Shun's Event"}, {"MessageId": 100110047, "Flag": 2, "Type": 0, "NextId": 100110050, "MessageType": "Text", "ImagePath": "", "MessageJP": "お味はいかがでしたか、先生？", "MessageTW": "味道怎麼樣，老師？", "MessageEN": "Did you enjoy your fruit, Sensei?"}, {"MessageId": 100110050, "Flag": 2, "Type": 3, "NextId": 100110061, "MessageType": "Text", "ImagePath": "", "MessageJP": "美味しかったよ、ありがとう", "MessageTW": "很好吃唷，謝謝", "MessageEN": "I did. It was delicious."}, {"MessageId": 100110061, "Flag": 2, "Type": 0, "NextId": 100110068, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふ、お口に合ったのならよかったです", "MessageTW": "呵呵，合你口味的話就太好了", "MessageEN": "Heehee, I'm glad you liked it."}, {"MessageId": 100110068, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "またおやつをご用意してますので、いつでも梅花園にいらしてくださいね！", "MessageTW": "我還準備了其他點心，請隨時光臨梅花園唷！", "MessageEN": "I'll prepare more sweet treats for you tomorrow, so please stop by the Plum Blossom Garden often!"}]
+[
+    {
+        "CharacterId": 10011,
+        "MessageJP": "シュン",
+        "MessageKR": "슌",
+        "MessageTW": "旬",
+        "MessageEN": "Shun"
+    },
+    {
+        "MessageId": 100100010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100110016,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100110016,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100110023,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本日の梅花園のおやつは、商会から頂いてきた甘ーいフルーツですよ",
+        "MessageKR": "여러분, 매화원의 오늘 오후 간식은 상회에서 받아온 달콤한 과일이에요.",
+        "MessageTW": "今天梅花園的點心是來自商會的很甜～的水果唷",
+        "MessageEN": "Everyone, this afternoon's snack at the Plum Blossom Garden is sweet fruit I got from the Promenade."
+    },
+    {
+        "MessageId": 100110023,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100110030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "みなさん、時間に遅れないように参加してくださいね！",
+        "MessageKR": "그러니 모두들 간식 시간에 늦지 말고 꼭 참가해주세요!",
+        "MessageTW": "請大家要準時參加唷！",
+        "MessageEN": "So, please make sure to be there for snack time, and do NOT be late!"
+    },
+    {
+        "MessageId": 100110030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100100047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……これ、本当に私宛のメッセージかな？",
+        "MessageKR": "……이거 나한테 보낸 메시지야?",
+        "MessageTW": "……這真的是要給我的訊息嗎？",
+        "MessageEN": "...Did you mean to send this to me?"
+    },
+    {
+        "MessageId": 100100047,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100110047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シュンの絆イベントへ",
+        "MessageKR": "슌의 인연스토리로",
+        "MessageTW": "前往旬的羈絆劇情",
+        "MessageEN": "Go to Shun's Event"
+    },
+    {
+        "MessageId": 100110047,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100110050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お味はいかがでしたか、先生？",
+        "MessageKR": "과일은 맛있게 드셨나요, 선생님?",
+        "MessageTW": "味道怎麼樣，老師？",
+        "MessageEN": "Did you enjoy your fruit, Sensei?"
+    },
+    {
+        "MessageId": 100110050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100110061,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "美味しかったよ、ありがとう",
+        "MessageKR": "맛있게 잘 먹었어.",
+        "MessageTW": "很好吃唷，謝謝",
+        "MessageEN": "I did. It was delicious."
+    },
+    {
+        "MessageId": 100110061,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100110068,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふ、お口に合ったのならよかったです",
+        "MessageKR": "후후, 입에 맞으셨다니 다행이네요.",
+        "MessageTW": "呵呵，合你口味的話就太好了",
+        "MessageEN": "Heehee, I'm glad you liked it."
+    },
+    {
+        "MessageId": 100110068,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "またおやつをご用意してますので、いつでも梅花園にいらしてくださいね！",
+        "MessageKR": "내일도 달콤한 간식을 준비해둘 테니 자주 매화원에 놀러 와주세요!",
+        "MessageTW": "我還準備了其他點心，請隨時光臨梅花園唷！",
+        "MessageEN": "I'll prepare more sweet treats for you tomorrow, so please stop by the Plum Blossom Garden often!"
+    }
+]

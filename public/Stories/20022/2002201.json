@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20022.webp", "MessageJP": "フウカ（正月）", "MessageTW": "風華(正月)", "MessageEN": "Fuuka (New Year)"}, {"MessageId": 200210010, "Flag": 2, "Type": 4, "NextId": 200220010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200220010, "Flag": 2, "Type": 0, "NextId": 200220020, "MessageType": "Text", "ImagePath": "", "MessageJP": "こんにちは、先生", "MessageTW": "你好，老師", "MessageEN": "Hello, Sensei."}, {"MessageId": 200220020, "Flag": 1, "Type": 0, "NextId": 200220021, "MessageType": "Text", "ImagePath": "", "MessageJP": "そろそろ年越しですね", "MessageTW": "快要過年了呢", "MessageEN": "Can you believe that it's already the end of the year?"}, {"MessageId": 200220021, "Flag": 2, "Type": 0, "NextId": 200220030, "MessageType": "Text", "ImagePath": "", "MessageJP": "今年も一年、お世話になりました", "MessageTW": "今年也受你照顧了", "MessageEN": "I wish you all the best in the New Year!"}, {"MessageId": 200220030, "Flag": 2, "Type": 3, "NextId": 200220040, "MessageType": "Text", "ImagePath": "", "MessageJP": "こちらこそ、お世話になりました", "MessageTW": "彼此彼此，我也受你照顧了", "MessageEN": "You've accomplished a lot this year, Fuuka."}, {"MessageId": 200220040, "Flag": 2, "Type": 3, "NextId": 200220050, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカは今日、何か予定とかあるの？", "MessageTW": "風華今天有什麼計畫嗎？", "MessageEN": "How's your schedule looking today?"}, {"MessageId": 200220050, "Flag": 2, "Type": 0, "NextId": 200220051, "MessageType": "Text", "ImagePath": "", "MessageJP": "私は今日も、給食部の方で忙しくなりそうだなと……", "MessageTW": "我今天應該也會忙著處理供給部的事……", "MessageEN": "I'll be busy with my work with the School Lunch Club all day."}, {"MessageId": 200220051, "Flag": 2, "Type": 0, "NextId": 200220060, "MessageType": "Text", "ImagePath": "", "MessageJP": "でも大丈夫です", "MessageTW": "不過不要緊", "MessageEN": "But it's not a problem."}, {"MessageId": 200220060, "Flag": 1, "Type": 0, "NextId": 200210060, "MessageType": "Text", "ImagePath": "", "MessageJP": "最後まで、全力を尽くしてきます！", "MessageTW": "我會全力以赴，努力到最後的！", "MessageEN": "After all, I aim to do my best until the very end."}, {"MessageId": 200210060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカ（正月）の絆イベントへ", "MessageTW": "前往風華(正月)的羈絆劇情", "MessageEN": "Go to Fuuka (New Year)'s Event"}]
+[
+    {
+        "CharacterId": 20022,
+        "MessageJP": "フウカ（正月）",
+        "MessageKR": "후우카(새해)",
+        "MessageTW": "風華(正月)",
+        "MessageEN": "Fuuka (New Year)"
+    },
+    {
+        "MessageId": 200210010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200220010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200220010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200220020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんにちは、先生",
+        "MessageKR": "안녕하세요. 선생님.",
+        "MessageTW": "你好，老師",
+        "MessageEN": "Hello, Sensei."
+    },
+    {
+        "MessageId": 200220020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200220021,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そろそろ年越しですね",
+        "MessageKR": "벌써 연말연시네요.",
+        "MessageTW": "快要過年了呢",
+        "MessageEN": "Can you believe that it's already the end of the year?"
+    },
+    {
+        "MessageId": 200220021,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200220030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今年も一年、お世話になりました",
+        "MessageKR": "새해에는 좋은 일만 있으시기를 바랄게요.",
+        "MessageTW": "今年也受你照顧了",
+        "MessageEN": "I wish you all the best in the New Year!"
+    },
+    {
+        "MessageId": 200220030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200220040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こちらこそ、お世話になりました",
+        "MessageKR": "후우카도 한 해 동안 수고 많았어.",
+        "MessageTW": "彼此彼此，我也受你照顧了",
+        "MessageEN": "You've accomplished a lot this year, Fuuka."
+    },
+    {
+        "MessageId": 200220040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200220050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカは今日、何か予定とかあるの？",
+        "MessageKR": "오늘 일정은 어때?",
+        "MessageTW": "風華今天有什麼計畫嗎？",
+        "MessageEN": "How's your schedule looking today?"
+    },
+    {
+        "MessageId": 200220050,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200220051,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私は今日も、給食部の方で忙しくなりそうだなと……",
+        "MessageKR": "오늘도 급양부 일로 바쁠 것 같아요.",
+        "MessageTW": "我今天應該也會忙著處理供給部的事……",
+        "MessageEN": "I'll be busy with my work with the School Lunch Club all day."
+    },
+    {
+        "MessageId": 200220051,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200220060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でも大丈夫です",
+        "MessageKR": "하지만 괜찮아요.",
+        "MessageTW": "不過不要緊",
+        "MessageEN": "But it's not a problem."
+    },
+    {
+        "MessageId": 200220060,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200210067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最後まで、全力を尽くしてきます！",
+        "MessageKR": "마지막까지 최선을 다하는 게, 제 사명인걸요.",
+        "MessageTW": "我會全力以赴，努力到最後的！",
+        "MessageEN": "After all, I aim to do my best until the very end."
+    },
+    {
+        "MessageId": 200210067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカ（正月）の絆イベントへ",
+        "MessageKR": "후우카(새해)의 인연스토리로",
+        "MessageTW": "前往風華(正月)的羈絆劇情",
+        "MessageEN": "Go to Fuuka (New Year)'s Event"
+    }
+]

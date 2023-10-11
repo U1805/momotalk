@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20024.webp", "MessageJP": "ナギサ", "MessageTW": "渚", "MessageEN": "Nagisa"}, {"MessageId": 200230150, "Flag": 2, "Type": 4, "NextId": 200240150, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200240150, "Flag": 2, "Type": 0, "NextId": 200240160, "MessageType": "Text", "ImagePath": "", "MessageJP": "……先日は失礼いたしました", "MessageTW": "……先前真是失禮了", "MessageEN": "Hello again, Sensei."}, {"MessageId": 200240160, "Flag": 1, "Type": 0, "NextId": 200240170, "MessageType": "Text", "ImagePath": "", "MessageJP": "最近はいかがお過ごしでしょうか？", "MessageTW": "最近您過得如何呢？", "MessageEN": "I hope this message finds you well."}, {"MessageId": 200240170, "Flag": 2, "Type": 3, "NextId": 200240180, "MessageType": "Text", "ImagePath": "", "MessageJP": "あれから体調は大丈夫？", "MessageTW": "在那之後身體還好嗎？", "MessageEN": "How are you feeling?"}, {"MessageId": 200240180, "Flag": 2, "Type": 0, "NextId": 200240181, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、先日の事でしたら……", "MessageTW": "啊，您指的是上次的事嗎……", "MessageEN": "Oh, are you still concerned about last time?"}, {"MessageId": 200240181, "Flag": 2, "Type": 0, "NextId": 200240190, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫です。大きく体調を崩したわけではありませんので", "MessageTW": "沒事的。當時身體的狀況也並沒有那麼糟。", "MessageEN": "Please don't be. It wasn't too bad."}, {"MessageId": 200240190, "Flag": 1, "Type": 0, "NextId": 200240191, "MessageType": "Text", "ImagePath": "", "MessageJP": "ところで、先日お話しそびれたことがありまして。よろしければ、お時間を頂けないでしょうか？", "MessageTW": "話說回來，先前的話題尚未結束呢。不介意的話，能否占用您一些時間呢？", "MessageEN": "In other matters, might I impose upon you to stop by the Tea Party room when you have a spare moment?"}, {"MessageId": 200240191, "Flag": 2, "Type": 0, "NextId": 200240200, "MessageType": "Text", "ImagePath": "", "MessageJP": "お手すきの際で構いませんので、テラスにお越しいただければと思います", "MessageTW": "在您方便的時間也沒關係，希望您能來露臺一趟", "MessageEN": "I was unable to tell you the conclusion of the story last time. I'd like to continue it."}, {"MessageId": 200240200, "Flag": 1, "Type": 0, "NextId": 200240210, "MessageType": "Text", "ImagePath": "", "MessageJP": "また、紅茶をご用意しておきますので", "MessageTW": "我會準備好紅茶的", "MessageEN": "I have a particularly lovely blend of black tea I would like to brew for you this time."}, {"MessageId": 200240210, "Flag": 2, "Type": 3, "NextId": 200240220, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、了解。私の方も前の紅茶、持っていこうか？", "MessageTW": "嗯，我知道了。我要不要也帶之前的紅茶過去？", "MessageEN": "Sounds good. I'll bring my favorite black tea, too!"}, {"MessageId": 200240220, "Flag": 2, "Type": 0, "NextId": 200230220, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、それは結構です。先日十分味わいましたので……", "MessageTW": "那個，我心領了。之前已經好好品嘗過了……", "MessageEN": "Of course. As long as it's not in a plastic bottle."}, {"MessageId": 200230220, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ナギサの絆イベントへ", "MessageTW": "前往渚的羈絆劇情", "MessageEN": "Go to Nagisa's Event"}]
+[
+    {
+        "CharacterId": 20024,
+        "MessageJP": "ナギサ",
+        "MessageKR": "나기사",
+        "MessageTW": "渚",
+        "MessageEN": "Nagisa"
+    },
+    {
+        "MessageId": 200230150,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200240150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200240150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……先日は失礼いたしました",
+        "MessageKR": "……다시 한번 인사드립니다, 선생님.",
+        "MessageTW": "……先前真是失禮了",
+        "MessageEN": "Hello again, Sensei."
+    },
+    {
+        "MessageId": 200240160,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最近はいかがお過ごしでしょうか？",
+        "MessageKR": "그간 평안하셨는지요?",
+        "MessageTW": "最近您過得如何呢？",
+        "MessageEN": "I hope this message finds you well."
+    },
+    {
+        "MessageId": 200240170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あれから体調は大丈夫？",
+        "MessageKR": "몸은 이제 괜찮아?",
+        "MessageTW": "在那之後身體還好嗎？",
+        "MessageEN": "How are you feeling?"
+    },
+    {
+        "MessageId": 200240180,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240181,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、先日の事でしたら……",
+        "MessageKR": "아, 지난 번의 일은……",
+        "MessageTW": "啊，您指的是上次的事嗎……",
+        "MessageEN": "Oh, are you still concerned about last time?"
+    },
+    {
+        "MessageId": 200240181,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫です。大きく体調を崩したわけではありませんので",
+        "MessageKR": "괜찮습니다. 크게 몸이 나빴던 것도 아닌걸요.",
+        "MessageTW": "沒事的。當時身體的狀況也並沒有那麼糟。",
+        "MessageEN": "Please don't be. It wasn't too bad."
+    },
+    {
+        "MessageId": 200240190,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240191,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ところで、先日お話しそびれたことがありまして。よろしければ、お時間を頂けないでしょうか？",
+        "MessageKR": "그보다, 괜찮으실 때 다시 한번 티파티의 다과회실에 방문해 주시겠습니까?",
+        "MessageTW": "話說回來，先前的話題尚未結束呢。不介意的話，能否占用您一些時間呢？",
+        "MessageEN": "In other matters, might I impose upon you to stop by the Tea Party room when you have a spare moment?"
+    },
+    {
+        "MessageId": 200240191,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お手すきの際で構いませんので、テラスにお越しいただければと思います",
+        "MessageKR": "지난번에 못다 한 이야기를 계속 드리고 싶습니다.",
+        "MessageTW": "在您方便的時間也沒關係，希望您能來露臺一趟",
+        "MessageEN": "I was unable to tell you the conclusion of the story last time. I'd like to continue it."
+    },
+    {
+        "MessageId": 200240200,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "また、紅茶をご用意しておきますので",
+        "MessageKR": "이번에야말로 좋은 홍차를 준비하고 기다리겠습니다.",
+        "MessageTW": "我會準備好紅茶的",
+        "MessageEN": "I have a particularly lovely blend of black tea I would like to brew for you this time."
+    },
+    {
+        "MessageId": 200240210,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、了解。私の方も前の紅茶、持っていこうか？",
+        "MessageKR": "나도 좋아하는 홍차를 잔뜩 가져갈게!",
+        "MessageTW": "嗯，我知道了。我要不要也帶之前的紅茶過去？",
+        "MessageEN": "Sounds good. I'll bring my favorite black tea, too!"
+    },
+    {
+        "MessageId": 200240220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230227,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、それは結構です。先日十分味わいましたので……",
+        "MessageKR": "페트병 홍차는…… 이제 괜찮습니다.",
+        "MessageTW": "那個，我心領了。之前已經好好品嘗過了……",
+        "MessageEN": "Of course. As long as it's not in a plastic bottle."
+    },
+    {
+        "MessageId": 200230227,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ナギサの絆イベントへ",
+        "MessageKR": "나기사의 인연스토리로",
+        "MessageTW": "前往渚的羈絆劇情",
+        "MessageEN": "Go to Nagisa's Event"
+    }
+]

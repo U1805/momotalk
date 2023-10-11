@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/26001.webp", "MessageJP": "コタマ", "MessageTW": "小玉", "MessageEN": "Kotama"}, {"MessageId": 260000160, "Flag": 2, "Type": 4, "NextId": 260010169, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 260010169, "Flag": 2, "Type": 0, "NextId": 260010176, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、もしかして最近、変な電話がかかってきませんでしたか？", "MessageTW": "老師，難道說你最近有接到奇怪的電話嗎？", "MessageEN": "Have you received any strange calls lately?"}, {"MessageId": 260010176, "Flag": 1, "Type": 0, "NextId": 260010180, "MessageType": "Text", "ImagePath": "", "MessageJP": "怖い人から通話がかかってきたとか、怪しい内容の電話が来たとか……", "MessageTW": "像是可怕的人打來的電話，或是內容很奇怪的電話之類的……", "MessageEN": "Like, has a suspicious person said anything scary to you?"}, {"MessageId": 260010180, "Flag": 2, "Type": 3, "NextId": 260010190, "MessageType": "Text", "ImagePath": "", "MessageJP": "特に無かったと思うけど、どうして？", "MessageTW": "好像沒什麼特別的電話，怎麼了嗎？", "MessageEN": "Not that I can recall. Why?"}, {"MessageId": 260010190, "Flag": 2, "Type": 0, "NextId": 260010207, "MessageType": "Text", "ImagePath": "", "MessageJP": "実は……", "MessageTW": "其實……", "MessageEN": "The truth is..."}, {"MessageId": 260010207, "Flag": 1, "Type": 0, "NextId": 260000200, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ、後ほど直接お話します", "MessageTW": "不，我之後直接跟你說", "MessageEN": "Never mind. I'll tell you next time."}, {"MessageId": 260000200, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "コタマの絆イベントへ", "MessageTW": "前往小玉的羈絆劇情", "MessageEN": "Go to Kotama's Event"}]
+[
+    {
+        "CharacterId": 26001,
+        "MessageJP": "コタマ",
+        "MessageKR": "코타마",
+        "MessageTW": "小玉",
+        "MessageEN": "Kotama"
+    },
+    {
+        "MessageId": 260000160,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 260010169,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 260010169,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010176,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、もしかして最近、変な電話がかかってきませんでしたか？",
+        "MessageKR": "선생님, 혹시 최근에 이상한 내용의 전화를 받으신 적은 없으십니까?",
+        "MessageTW": "老師，難道說你最近有接到奇怪的電話嗎？",
+        "MessageEN": "Have you received any strange calls lately?"
+    },
+    {
+        "MessageId": 260010176,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260010180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "怖い人から通話がかかってきたとか、怪しい内容の電話が来たとか……",
+        "MessageKR": "뭔가 위험해 보이는 사람이 위험한 말을 한다든가…….",
+        "MessageTW": "像是可怕的人打來的電話，或是內容很奇怪的電話之類的……",
+        "MessageEN": "Like, has a suspicious person said anything scary to you?"
+    },
+    {
+        "MessageId": 260010180,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260010190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特に無かったと思うけど、どうして？",
+        "MessageKR": "특별히 기억에 남는 전화는 없는데. 왜?",
+        "MessageTW": "好像沒什麼特別的電話，怎麼了嗎？",
+        "MessageEN": "Not that I can recall. Why?"
+    },
+    {
+        "MessageId": 260010190,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260010207,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "実は……",
+        "MessageKR": "그게 사실은…….",
+        "MessageTW": "其實……",
+        "MessageEN": "The truth is..."
+    },
+    {
+        "MessageId": 260010207,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260000207,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ、後ほど直接お話します",
+        "MessageKR": "아니, 나중에 말씀드리겠습니다.",
+        "MessageTW": "不，我之後直接跟你說",
+        "MessageEN": "Never mind. I'll tell you next time."
+    },
+    {
+        "MessageId": 260000207,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コタマの絆イベントへ",
+        "MessageKR": "코타마의 인연스토리로",
+        "MessageTW": "前往小玉的羈絆劇情",
+        "MessageEN": "Go to Kotama's Event"
+    }
+]

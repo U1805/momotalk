@@ -1,1 +1,105 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10000.webp", "MessageJP": "アル", "MessageTW": "亞瑠", "MessageEN": "Aru"}, {"MessageId": 99990150, "Flag": 2, "Type": 4, "NextId": 100000159, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100000159, "Flag": 2, "Type": 0, "NextId": 100000166, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、あの話聞いた？", "MessageTW": "老師，你聽說了嗎？", "MessageEN": "Sensei, did you hear?"}, {"MessageId": 100000166, "Flag": 1, "Type": 0, "NextId": 100000163, "MessageType": "Text", "ImagePath": "", "MessageJP": "伝説的なあの名作映画が、今度再上映するらしいわね", "MessageTW": "傳說中的那部電影名作，這次要重新上映了", "MessageEN": "There's a movie showing that people already say is a legendary masterpiece."}, {"MessageId": 100000163, "Flag": 2, "Type": 0, "NextId": 100000170, "MessageType": "Text", "ImagePath": "", "MessageJP": "都合がつくようだったら、一緒に見に行かない？", "MessageTW": "方便的話，要不要一起去看？", "MessageEN": "If you have time, why don't we go see it together?"}, {"MessageId": 100000170, "Flag": 2, "Type": 3, "NextId": 100000187, "MessageType": "Text", "ImagePath": "", "MessageJP": "やった！アルからのデートのお誘いだ！", "MessageTW": "好耶！是亞瑠的約會邀請！", "MessageEN": "Oh! Are you asking me out, Aru?"}, {"MessageId": 100000187, "Flag": 2, "Type": 0, "NextId": 100000184, "MessageType": "Text", "ImagePath": "", "MessageJP": "な、なっ、何を言ってるの先生！？", "MessageTW": "在，在，在說什麼啊，老師！？", "MessageEN": "Wh-What are you talking about, Sensei?!"}, {"MessageId": 100000184, "Flag": 2, "Type": 0, "NextId": 99990180, "MessageType": "Text", "ImagePath": "", "MessageJP": "く、くだらないことを言ってないで、いいから映画館の前で待ち合わせよ！", "MessageTW": "別，別說那些無聊的話了，總之在電影院門口碰面唷！", "MessageEN": "S-Stop kidding around. I'll meet you in front of the movie theater!"}, {"MessageId": 99990180, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アルの絆イベントへ", "MessageTW": "前往亞瑠的羈絆劇情", "MessageEN": "Go to Aru's Event"}]
+[
+    {
+        "CharacterId": 10000,
+        "MessageJP": "アル",
+        "MessageKR": "아루",
+        "MessageTW": "亞瑠",
+        "MessageEN": "Aru"
+    },
+    {
+        "MessageId": 99990150,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100000159,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100000159,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000166,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、あの話聞いた？",
+        "MessageKR": "선생님, 이야기 들었어?",
+        "MessageTW": "老師，你聽說了嗎？",
+        "MessageEN": "Sensei, did you hear?"
+    },
+    {
+        "MessageId": 100000166,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100000163,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "伝説的なあの名作映画が、今度再上映するらしいわね",
+        "MessageKR": "전설적인 명작이라던 그 영화가 이번에 재개봉한대.",
+        "MessageTW": "傳說中的那部電影名作，這次要重新上映了",
+        "MessageEN": "There's a movie showing that people already say is a legendary masterpiece."
+    },
+    {
+        "MessageId": 100000163,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "都合がつくようだったら、一緒に見に行かない？",
+        "MessageKR": "시간 괜찮으면, 같이 보러 가지 않을래?",
+        "MessageTW": "方便的話，要不要一起去看？",
+        "MessageEN": "If you have time, why don't we go see it together?"
+    },
+    {
+        "MessageId": 100000170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100000187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やった！アルからのデートのお誘いだ！",
+        "MessageKR": "오오! 아루 쨩의 데이트 신청이다!",
+        "MessageTW": "好耶！是亞瑠的約會邀請！",
+        "MessageEN": "Oh! Are you asking me out, Aru?"
+    },
+    {
+        "MessageId": 100000187,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000184,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "な、なっ、何を言ってるの先生！？",
+        "MessageKR": "무, 무, 무슨 소리를 하는 거야?! 선생님?!",
+        "MessageTW": "在，在，在說什麼啊，老師！？",
+        "MessageEN": "Wh-What are you talking about, Sensei?!"
+    },
+    {
+        "MessageId": 100000184,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 99990187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "く、くだらないことを言ってないで、いいから映画館の前で待ち合わせよ！",
+        "MessageKR": "쓰, 쓸데없는 말 말고, 영화관 앞에서 집합이야!",
+        "MessageTW": "別，別說那些無聊的話了，總之在電影院門口碰面唷！",
+        "MessageEN": "S-Stop kidding around. I'll meet you in front of the movie theater!"
+    },
+    {
+        "MessageId": 99990187,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アルの絆イベントへ",
+        "MessageKR": "아루의 인연스토리로",
+        "MessageTW": "前往亞瑠的羈絆劇情",
+        "MessageEN": "Go to Aru's Event"
+    }
+]

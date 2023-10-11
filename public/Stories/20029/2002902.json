@@ -1,0 +1,117 @@
+[
+    {
+        "CharacterId": 20029,
+        "MessageJP": "ミモリ（水着）",
+        "MessageKR": "미모리(수영복)",
+        "MessageTW": "ミモリ（水着）",
+        "MessageEN": "Mimori (Swimsuit)"
+    },
+    {
+        "MessageId": 200280140,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200290140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200290140,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200290150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おはようございます、先生",
+        "MessageKR": "안녕하세요. 선생님. ",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200290160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おはよう、ミモリ",
+        "MessageKR": "좋은 아침이네. 미모리.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200290160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日も良い天気だね",
+        "MessageKR": "오늘도 날씨가 좋구나~",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200290161,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、本当に良いお天気ですね",
+        "MessageKR": "앗, 네. 그러게요. ",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290161,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200290170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "穏やかな風もあって、過ごしやすいですし",
+        "MessageKR": "바람도 솔솔 불어오는 게 무척이나 기분이 좋아서.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200290171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんだか素敵な日になりそうです",
+        "MessageKR": "왠지 좋은 일이 일어날 것 같은 날이네요.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200290171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200280177,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでは、今日も頑張りましょう！",
+        "MessageKR": "그럼 오늘도 파이팅이에요!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200280177,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミモリ（水着）の絆イベントへ",
+        "MessageKR": "미모리(수영복)의 인연스토리로",
+        "MessageTW": "前往ミモリ（水着）的羈絆劇情",
+        "MessageEN": "Go to Mimori (Swimsuit)'s Event"
+    }
+]

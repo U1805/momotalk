@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20018.webp", "MessageJP": "モエ", "MessageTW": "萌", "MessageEN": "Moe"}, {"MessageId": 200170060, "Flag": 2, "Type": 4, "NextId": 200180060, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200180060, "Flag": 2, "Type": 0, "NextId": 200180070, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、ちょっと小耳に挟んだんだけど……", "MessageTW": "老師，我耳聞了小道消息……", "MessageEN": "Sensei, I heard from another student..."}, {"MessageId": 200180070, "Flag": 1, "Type": 0, "NextId": 200180080, "MessageType": "Text", "ImagePath": "", "MessageJP": "シャーレの作業用パソコンのデータが全部消えたって本当？", "MessageTW": "夏萊的工作用電腦的數據全都消失了，是真的嗎？", "MessageEN": "Is it true that the work PC at Schale lost all its data?"}, {"MessageId": 200180080, "Flag": 2, "Type": 3, "NextId": 200180090, "MessageType": "Text", "ImagePath": "", "MessageJP": "くひひ……そうだよ……", "MessageTW": "咯嘻嘻……沒錯唷……", "MessageEN": "Heeheehee... Right..."}, {"MessageId": 200180080, "Flag": 2, "Type": 3, "NextId": 200180090, "MessageType": "Text", "ImagePath": "", "MessageJP": "そう、これで全部おしまい……くひひ……", "MessageTW": "沒錯，一切都完了……咯嘻嘻……", "MessageEN": "It's all over... Heeheehee..."}, {"MessageId": 200180090, "Flag": 2, "Type": 0, "NextId": 200180091, "MessageType": "Text", "ImagePath": "", "MessageJP": "うわ……先生が私みたいに笑ってる", "MessageTW": "嗚哇……老師笑得跟我一樣", "MessageEN": "Wow, Sensei is laughing like me."}, {"MessageId": 200180091, "Flag": 2, "Type": 0, "NextId": 200180100, "MessageType": "Text", "ImagePath": "", "MessageJP": "これはかなりヤバそうだね", "MessageTW": "看起來相當糟糕啊", "MessageEN": "This must be a serious problem."}, {"MessageId": 200180100, "Flag": 2, "Type": 3, "NextId": 200180110, "MessageType": "Text", "ImagePath": "", "MessageJP": " まぁ、来たら分かるよ……", "MessageTW": "嘛，來了就知道了……", "MessageEN": "You'll know when you get here..."}, {"MessageId": 200180110, "Flag": 2, "Type": 0, "NextId": 200170110, "MessageType": "Text", "ImagePath": "", "MessageJP": "わかった、それじゃあ昼過ぎくらいにシャーレ行くね", "MessageTW": "知道了，那我中午過後去夏萊一趟", "MessageEN": "Okay. I'll be at Schale in the afternoon."}, {"MessageId": 200170110, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "モエの絆イベントへ", "MessageTW": "前往萌的羈絆劇情", "MessageEN": "Go to Moe's Event"}]
+[
+    {
+        "CharacterId": 20018,
+        "MessageJP": "モエ",
+        "MessageKR": "모에",
+        "MessageTW": "萌",
+        "MessageEN": "Moe"
+    },
+    {
+        "MessageId": 200170060,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200180060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200180060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200180070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、ちょっと小耳に挟んだんだけど……",
+        "MessageKR": "선생님. 다른 학생에게 들었는데……",
+        "MessageTW": "老師，我耳聞了小道消息……",
+        "MessageEN": "Sensei, I heard from another student..."
+    },
+    {
+        "MessageId": 200180070,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200180080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シャーレの作業用パソコンのデータが全部消えたって本当？",
+        "MessageKR": "샬레에 있는 작업용 PC의 데이터가 다 날아갔다는 게 사실이야?",
+        "MessageTW": "夏萊的工作用電腦的數據全都消失了，是真的嗎？",
+        "MessageEN": "Is it true that the work PC at Schale lost all its data?"
+    },
+    {
+        "MessageId": 200180080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200180090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "くひひ……そうだよ……",
+        "MessageKR": "쿠히히…… 맞아……",
+        "MessageTW": "咯嘻嘻……沒錯唷……",
+        "MessageEN": "Heeheehee... Right..."
+    },
+    {
+        "MessageId": 200180080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200180090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そう、これで全部おしまい……くひひ……",
+        "MessageKR": "이제 다 틀렸어…… 쿠히히……",
+        "MessageTW": "沒錯，一切都完了……咯嘻嘻……",
+        "MessageEN": "It's all over... Heeheehee..."
+    },
+    {
+        "MessageId": 200180090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200180091,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うわ……先生が私みたいに笑ってる",
+        "MessageKR": "우와, 선생님이 나처럼 웃고 있어.",
+        "MessageTW": "嗚哇……老師笑得跟我一樣",
+        "MessageEN": "Wow, Sensei is laughing like me."
+    },
+    {
+        "MessageId": 200180091,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200180100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これはかなりヤバそうだね",
+        "MessageKR": "아무래도 문제가 심상치 않은 모양인데.",
+        "MessageTW": "看起來相當糟糕啊",
+        "MessageEN": "This must be a serious problem."
+    },
+    {
+        "MessageId": 200180100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200180110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": " まぁ、来たら分かるよ……",
+        "MessageKR": "와보면 알게 될 거야……",
+        "MessageTW": "嘛，來了就知道了……",
+        "MessageEN": "You'll know when you get here..."
+    },
+    {
+        "MessageId": 200180110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200170117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "わかった、それじゃあ昼過ぎくらいにシャーレ行くね",
+        "MessageKR": "알겠어. 오후에 시간 날 때 샬레에 들를게.",
+        "MessageTW": "知道了，那我中午過後去夏萊一趟",
+        "MessageEN": "Okay. I'll be at Schale in the afternoon."
+    },
+    {
+        "MessageId": 200170117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "モエの絆イベントへ",
+        "MessageKR": "모에의 인연스토리로",
+        "MessageTW": "前往萌的羈絆劇情",
+        "MessageEN": "Go to Moe's Event"
+    }
+]

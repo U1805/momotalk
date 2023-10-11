@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20012.webp", "MessageJP": "セナ", "MessageTW": "瀬奈", "MessageEN": "Sena"}, {"MessageId": 200110110, "Flag": 2, "Type": 4, "NextId": 200120110, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200120110, "Flag": 2, "Type": 0, "NextId": 200120120, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、救急医学部の氷室セナです", "MessageTW": "老師，我是急救醫學部的氷室瀬奈", "MessageEN": "Sensei, this is Himuro Sena of the Medical Emergency Club."}, {"MessageId": 200120120, "Flag": 1, "Type": 0, "NextId": 200120130, "MessageType": "Text", "ImagePath": "", "MessageJP": "先日のタオルなどを回収するために、本日シャーレにお伺いする予定です。空いている時間帯などありましたらお知らせください。よろしくお願いします", "MessageTW": "為了回收日前的毛巾等物品，我預定今天前往夏萊。請告訴我老師方便的時間。麻煩老師了", "MessageEN": "I'd like to visit Schale to pick up the blanket and towel. Please let me know when you're available. Thank you."}, {"MessageId": 200120130, "Flag": 2, "Type": 3, "NextId": 200120140, "MessageType": "Text", "ImagePath": "", "MessageJP": "この間はありがとね", "MessageTW": "上次謝謝你囉", "MessageEN": "I want to do something to repay you."}, {"MessageId": 200120130, "Flag": 2, "Type": 3, "NextId": 200120140, "MessageType": "Text", "ImagePath": "", "MessageJP": "せっかくだしお礼がしたいんだけど、外で会える？", "MessageTW": "我想順便回個禮，要不要在外面見面？", "MessageEN": "Why don't we meet somewhere outside?"}, {"MessageId": 200120140, "Flag": 2, "Type": 0, "NextId": 200120150, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ", "MessageTW": "啊", "MessageEN": "...?"}, {"MessageId": 200120150, "Flag": 1, "Type": 0, "NextId": 200120151, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい", "MessageTW": "是", "MessageEN": "Hmm."}, {"MessageId": 200120151, "Flag": 2, "Type": 0, "NextId": 200120152, "MessageType": "Text", "ImagePath": "", "MessageJP": "分かりました", "MessageTW": "我明白了", "MessageEN": "Got it."}, {"MessageId": 200120152, "Flag": 2, "Type": 0, "NextId": 200110150, "MessageType": "Text", "ImagePath": "", "MessageJP": "では、その形で", "MessageTW": "那就照老師說的做吧", "MessageEN": "Will do."}, {"MessageId": 200110150, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "セナの絆イベントへ", "MessageTW": "前往瀬奈的羈絆劇情", "MessageEN": "Go to Sena's Event"}]
+[
+    {
+        "CharacterId": 20012,
+        "MessageJP": "セナ",
+        "MessageKR": "세나",
+        "MessageTW": "瀬奈",
+        "MessageEN": "Sena"
+    },
+    {
+        "MessageId": 200110110,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200120110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200120110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200120120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、救急医学部の氷室セナです",
+        "MessageKR": "선생님, 응급의학부의 히무로 세나입니다.",
+        "MessageTW": "老師，我是急救醫學部的氷室瀬奈",
+        "MessageEN": "Sensei, this is Himuro Sena of the Medical Emergency Club."
+    },
+    {
+        "MessageId": 200120120,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200120130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先日のタオルなどを回収するために、本日シャーレにお伺いする予定です。空いている時間帯などありましたらお知らせください。よろしくお願いします",
+        "MessageKR": "일전에 말씀드렸던 담요와 물수건을 회수하고자 샬레에 방문할 예정이니, 가능하신 시간대가 있으시면 말씀해주시기 바랍니다. 감사합니다.",
+        "MessageTW": "為了回收日前的毛巾等物品，我預定今天前往夏萊。請告訴我老師方便的時間。麻煩老師了",
+        "MessageEN": "I'd like to visit Schale to pick up the blanket and towel. Please let me know when you're available. Thank you."
+    },
+    {
+        "MessageId": 200120130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200120140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この間はありがとね",
+        "MessageKR": "이번에는 나도 답례를 좀 할까 하는데.",
+        "MessageTW": "上次謝謝你囉",
+        "MessageEN": "I want to do something to repay you."
+    },
+    {
+        "MessageId": 200120130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200120140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "せっかくだしお礼がしたいんだけど、外で会える？",
+        "MessageKR": "여기 말고 밖에서 만나는 건 어때.",
+        "MessageTW": "我想順便回個禮，要不要在外面見面？",
+        "MessageEN": "Why don't we meet somewhere outside?"
+    },
+    {
+        "MessageId": 200120140,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200120150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ",
+        "MessageKR": "?",
+        "MessageTW": "啊",
+        "MessageEN": "...?"
+    },
+    {
+        "MessageId": 200120150,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200120151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい",
+        "MessageKR": "음",
+        "MessageTW": "是",
+        "MessageEN": "Hmm."
+    },
+    {
+        "MessageId": 200120151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200120152,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "分かりました",
+        "MessageKR": "알겠습니다.",
+        "MessageTW": "我明白了",
+        "MessageEN": "Got it."
+    },
+    {
+        "MessageId": 200120152,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200110157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、その形で",
+        "MessageKR": "그럼 그렇게 알고 있겠습니다.",
+        "MessageTW": "那就照老師說的做吧",
+        "MessageEN": "Will do."
+    },
+    {
+        "MessageId": 200110157,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "セナの絆イベントへ",
+        "MessageKR": "세나의 인연스토리로",
+        "MessageTW": "前往瀬奈的羈絆劇情",
+        "MessageEN": "Go to Sena's Event"
+    }
+]

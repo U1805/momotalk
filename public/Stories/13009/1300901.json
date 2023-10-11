@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13009.webp", "MessageJP": "ツバキ", "MessageTW": "椿", "MessageEN": "Tsubaki"}, {"MessageId": 130080010, "Flag": 2, "Type": 4, "NextId": 130090015, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130090015, "Flag": 2, "Type": 0, "NextId": 130090022, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、どう……？", "MessageTW": "老師，如何……？", "MessageEN": "Sensei..."}, {"MessageId": 130090022, "Flag": 1, "Type": 0, "NextId": 130090030, "MessageType": "Text", "ImagePath": "", "MessageJP": "いつも通り、修行頑張ってる？", "MessageTW": "和往常一樣，在努力修行嗎？", "MessageEN": "Are you keeping up the hard work?"}, {"MessageId": 130090030, "Flag": 2, "Type": 3, "NextId": 130090043, "MessageType": "Text", "ImagePath": "", "MessageJP": "修行って？", "MessageTW": "修行？", "MessageEN": "Training so suddenly?"}, {"MessageId": 130090030, "Flag": 2, "Type": 3, "NextId": 130090054, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん", "MessageTW": "當然有", "MessageEN": "Of course."}, {"MessageId": 130090043, "Flag": 2, "Type": 0, "NextId": 130090040, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生も私たち修行部の顧問なんだから、当然欠かせない修行。そう……", "MessageTW": "老師也是我們修行部的顧問，修行當然是必不可少的。對……", "MessageEN": "It's essential training for any advisor of the Inner Discipline Club..."}, {"MessageId": 130090040, "Flag": 2, "Type": 0, "NextId": 130090047, "MessageType": "Text", "ImagePath": "", "MessageJP": "寝ること、だよ", "MessageTW": "也就是睡覺", "MessageEN": "Sleeping."}, {"MessageId": 130090047, "Flag": 2, "Type": 0, "NextId": 130090068, "MessageType": "Text", "ImagePath": "", "MessageJP": "特に先生は、普段から忙しすぎてあまり寝られてないでしょ？", "MessageTW": "特別是老師平時太忙了，沒怎麼睡吧？", "MessageEN": "You never get enough sleep because you're so busy."}, {"MessageId": 130090054, "Flag": 1, "Type": 0, "NextId": 130090051, "MessageType": "Text", "ImagePath": "", "MessageJP": "本当に～？", "MessageTW": "真的嗎～？", "MessageEN": "Yeah? "}, {"MessageId": 130090051, "Flag": 2, "Type": 0, "NextId": 130090068, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん、怪しい……", "MessageTW": "唔嗯，很可疑……", "MessageEN": "Hmm, that's suspicious..."}, {"MessageId": 130090068, "Flag": 1, "Type": 0, "NextId": 130090065, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん……こうなったらせっかくだし、よし", "MessageTW": "唔嗯……如果是這樣的話，好", "MessageEN": "Okay... Might as well..."}, {"MessageId": 130090065, "Flag": 2, "Type": 0, "NextId": 130090072, "MessageType": "Text", "ImagePath": "", "MessageJP": "この機会に私が直接、修行のお手本を見せてあげる", "MessageTW": "藉此機會，我親自示範修行給你看", "MessageEN": "Let me show you how this training works."}, {"MessageId": 130090072, "Flag": 1, "Type": 0, "NextId": 130080070, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあ、約束の場所でね～、先生", "MessageTW": "那麼，去約定的地點吧～老師", "MessageEN": "I'll see you at the meeting spot, Sensei!"}, {"MessageId": 130080070, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ツバキの絆イベントへ", "MessageTW": "前往椿的羈絆劇情", "MessageEN": "Go to Tsubaki's Event"}]
+[
+    {
+        "CharacterId": 13009,
+        "MessageJP": "ツバキ",
+        "MessageKR": "츠바키",
+        "MessageTW": "椿",
+        "MessageEN": "Tsubaki"
+    },
+    {
+        "MessageId": 130080010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130090015,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130090015,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090022,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、どう……？",
+        "MessageKR": "선생님…….",
+        "MessageTW": "老師，如何……？",
+        "MessageEN": "Sensei..."
+    },
+    {
+        "MessageId": 130090022,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130090030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつも通り、修行頑張ってる？",
+        "MessageKR": "평소에도 수행 열심히 하고 있어~?",
+        "MessageTW": "和往常一樣，在努力修行嗎？",
+        "MessageEN": "Are you keeping up the hard work?"
+    },
+    {
+        "MessageId": 130090030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130090043,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "修行って？",
+        "MessageKR": "갑자기 수행이라니?",
+        "MessageTW": "修行？",
+        "MessageEN": "Training so suddenly?"
+    },
+    {
+        "MessageId": 130090030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130090054,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん",
+        "MessageKR": "물론이지.",
+        "MessageTW": "當然有",
+        "MessageEN": "Of course."
+    },
+    {
+        "MessageId": 130090043,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生も私たち修行部の顧問なんだから、当然欠かせない修行。そう……",
+        "MessageKR": "우리 수행부 고문이라면 당연히 빼놓을 수 없는 수행…….",
+        "MessageTW": "老師也是我們修行部的顧問，修行當然是必不可少的。對……",
+        "MessageEN": "It's essential training for any advisor of the Inner Discipline Club..."
+    },
+    {
+        "MessageId": 130090040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "寝ること、だよ",
+        "MessageKR": "잠자기 말이야.",
+        "MessageTW": "也就是睡覺",
+        "MessageEN": "Sleeping."
+    },
+    {
+        "MessageId": 130090047,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090068,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特に先生は、普段から忙しすぎてあまり寝られてないでしょ？",
+        "MessageKR": "특히 선생님은 평소에 너무 바빠서 잠도 제대로 못 자고 있잖아?",
+        "MessageTW": "特別是老師平時太忙了，沒怎麼睡吧？",
+        "MessageEN": "You never get enough sleep because you're so busy."
+    },
+    {
+        "MessageId": 130090054,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130090051,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本当に～？",
+        "MessageKR": "그래~?",
+        "MessageTW": "真的嗎～？",
+        "MessageEN": "Yeah? "
+    },
+    {
+        "MessageId": 130090051,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090068,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん、怪しい……",
+        "MessageKR": "흐음, 의심스러운걸…….",
+        "MessageTW": "唔嗯，很可疑……",
+        "MessageEN": "Hmm, that's suspicious..."
+    },
+    {
+        "MessageId": 130090068,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130090065,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん……こうなったらせっかくだし、よし",
+        "MessageKR": "응……, 기왕 이렇게 된 거 잘됐다.",
+        "MessageTW": "唔嗯……如果是這樣的話，好",
+        "MessageEN": "Okay... Might as well..."
+    },
+    {
+        "MessageId": 130090065,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090072,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この機会に私が直接、修行のお手本を見せてあげる",
+        "MessageKR": "이번 기회에 내가 직접 수행의 시범을 보여줄게.",
+        "MessageTW": "藉此機會，我親自示範修行給你看",
+        "MessageEN": "Let me show you how this training works."
+    },
+    {
+        "MessageId": 130090072,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080077,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあ、約束の場所でね～、先生",
+        "MessageKR": "약속 장소에서 보자. 선생님~",
+        "MessageTW": "那麼，去約定的地點吧～老師",
+        "MessageEN": "I'll see you at the meeting spot, Sensei!"
+    },
+    {
+        "MessageId": 130080077,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ツバキの絆イベントへ",
+        "MessageKR": "츠바키의 인연스토리로",
+        "MessageTW": "前往椿的羈絆劇情",
+        "MessageEN": "Go to Tsubaki's Event"
+    }
+]

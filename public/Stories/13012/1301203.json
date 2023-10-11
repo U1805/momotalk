@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13012.webp", "MessageJP": "キリノ", "MessageTW": "桐乃", "MessageEN": "Kirino"}, {"MessageId": 130110120, "Flag": 2, "Type": 4, "NextId": 130120120, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130120120, "Flag": 2, "Type": 0, "NextId": 130120130, "MessageType": "Text", "ImagePath": "", "MessageJP": "うう、先生……(T_T)", "MessageTW": "嗚嗚，老師……(T_T)", "MessageEN": "Ugh, Sensei... (T_T)"}, {"MessageId": 130120130, "Flag": 1, "Type": 0, "NextId": 130120140, "MessageType": "Text", "ImagePath": "", "MessageJP": "この前の人質事件のことで、上層部の方々から警告を受けてしまいました……", "MessageTW": "因為上次的人質事件，我被上層警告了……", "MessageEN": "I got a warning from the VIPs for the hostage case last time."}, {"MessageId": 130120140, "Flag": 1, "Type": 0, "NextId": 130120141, "MessageType": "Text", "ImagePath": "", "MessageJP": "もっと、私の銃の腕前さえ良ければ……", "MessageTW": "如果我的槍法再好一點……", "MessageEN": "If only my aim were better."}, {"MessageId": 130120141, "Flag": 2, "Type": 0, "NextId": 130120150, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、射撃の腕はどうすれば上がるのでしょうか？", "MessageTW": "老師，要怎麼提升射擊技巧呢？", "MessageEN": "How do I become a better shot, Sensei?"}, {"MessageId": 130120150, "Flag": 2, "Type": 3, "NextId": 130120160, "MessageType": "Text", "ImagePath": "", "MessageJP": "それはちょっと、私に聞かれても……", "MessageTW": "這問題就算問我……", "MessageEN": "I don't think I can help you there..."}, {"MessageId": 130120160, "Flag": 2, "Type": 0, "NextId": 130120161, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうですね……ではせめて、今度本官が射撃をしているところを隣で見てていただけませんか？", "MessageTW": "說的也是……那麼能至少請您在旁邊看本官射擊嗎？", "MessageEN": "Then could you at least watch me practice?"}, {"MessageId": 130120161, "Flag": 2, "Type": 0, "NextId": 130120170, "MessageType": "Text", "ImagePath": "", "MessageJP": "命中率を上げるためには、射撃時の悪い癖や姿勢を治すことが大事だと聞きましたので！", "MessageTW": "聽說想要提升命中率，改善射擊時的壞習慣和姿勢是很重要的！", "MessageEN": "Stopping habits or posture could help improve my accuracy too."}, {"MessageId": 130120170, "Flag": 2, "Type": 3, "NextId": 130120180, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、それなら喜んで", "MessageTW": "嗯，那我很樂意幫忙", "MessageEN": "That I can do."}, {"MessageId": 130120180, "Flag": 2, "Type": 0, "NextId": 130120181, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます、先生！", "MessageTW": "謝謝您，老師！", "MessageEN": "Thank you, Sensei!"}, {"MessageId": 130120181, "Flag": 2, "Type": 0, "NextId": 130110180, "MessageType": "Text", "ImagePath": "", "MessageJP": "では、校内の射撃場にてお待ちしております！", "MessageTW": "那麼，我在校內的射擊場等您！", "MessageEN": "Then I'll meet you at the shooting range!"}, {"MessageId": 130110180, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "キリノの絆イベントへ", "MessageTW": "前往桐乃的羈絆劇情", "MessageEN": "Go to Kirino's Event"}]
+[
+    {
+        "CharacterId": 13012,
+        "MessageJP": "キリノ",
+        "MessageKR": "키리노",
+        "MessageTW": "桐乃",
+        "MessageEN": "Kirino"
+    },
+    {
+        "MessageId": 130110120,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130120120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130120120,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うう、先生……(T_T)",
+        "MessageKR": "우으, 선생님……. (T_T)",
+        "MessageTW": "嗚嗚，老師……(T_T)",
+        "MessageEN": "Ugh, Sensei... (T_T)"
+    },
+    {
+        "MessageId": 130120130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130120140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この前の人質事件のことで、上層部の方々から警告を受けてしまいました……",
+        "MessageKR": "지난번의 인질 사건 때문에 높은 분들로부터 경고를 받았습니다.",
+        "MessageTW": "因為上次的人質事件，我被上層警告了……",
+        "MessageEN": "I got a warning from the VIPs for the hostage case last time."
+    },
+    {
+        "MessageId": 130120140,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130120141,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もっと、私の銃の腕前さえ良ければ……",
+        "MessageKR": "그때 총만 제대로 쏘았더라면…….",
+        "MessageTW": "如果我的槍法再好一點……",
+        "MessageEN": "If only my aim were better."
+    },
+    {
+        "MessageId": 130120141,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、射撃の腕はどうすれば上がるのでしょうか？",
+        "MessageKR": "선생님, 어떻게 하면 총을 잘 쏠 수 있을까요?",
+        "MessageTW": "老師，要怎麼提升射擊技巧呢？",
+        "MessageEN": "How do I become a better shot, Sensei?"
+    },
+    {
+        "MessageId": 130120150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130120160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それはちょっと、私に聞かれても……",
+        "MessageKR": "그걸 내게 물어봐도…….",
+        "MessageTW": "這問題就算問我……",
+        "MessageEN": "I don't think I can help you there..."
+    },
+    {
+        "MessageId": 130120160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120161,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうですね……ではせめて、今度本官が射撃をしているところを隣で見てていただけませんか？",
+        "MessageKR": "그럼 최소한 본관이 사격하는 모습을 옆에서 지켜봐 주실 수는 없으신가요?",
+        "MessageTW": "說的也是……那麼能至少請您在旁邊看本官射擊嗎？",
+        "MessageEN": "Then could you at least watch me practice?"
+    },
+    {
+        "MessageId": 130120161,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "命中率を上げるためには、射撃時の悪い癖や姿勢を治すことが大事だと聞きましたので！",
+        "MessageKR": "사격 시의 나쁜 습관이나 자세를 교정하면 명중률을 올리는 데 도움이 된다고 하니까요.",
+        "MessageTW": "聽說想要提升命中率，改善射擊時的壞習慣和姿勢是很重要的！",
+        "MessageEN": "Stopping habits or posture could help improve my accuracy too."
+    },
+    {
+        "MessageId": 130120170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130120180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、それなら喜んで",
+        "MessageKR": "그거라면 어렵지 않지.",
+        "MessageTW": "嗯，那我很樂意幫忙",
+        "MessageEN": "That I can do."
+    },
+    {
+        "MessageId": 130120180,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130120181,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます、先生！",
+        "MessageKR": "감사합니다, 선생님!",
+        "MessageTW": "謝謝您，老師！",
+        "MessageEN": "Thank you, Sensei!"
+    },
+    {
+        "MessageId": 130120181,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、校内の射撃場にてお待ちしております！",
+        "MessageKR": "그럼 학교의 실내 사격장에서 기다리고 있겠습니다!",
+        "MessageTW": "那麼，我在校內的射擊場等您！",
+        "MessageEN": "Then I'll meet you at the shooting range!"
+    },
+    {
+        "MessageId": 130110187,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "キリノの絆イベントへ",
+        "MessageKR": "키리노의 인연스토리로",
+        "MessageTW": "前往桐乃的羈絆劇情",
+        "MessageEN": "Go to Kirino's Event"
+    }
+]

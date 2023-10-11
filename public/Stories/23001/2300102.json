@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23001.webp", "MessageJP": "フウカ", "MessageTW": "風華", "MessageEN": "Fuuka"}, {"MessageId": 230000080, "Flag": 2, "Type": 4, "NextId": 230010086, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230010086, "Flag": 2, "Type": 0, "NextId": 230010090, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、準備ができました", "MessageTW": "老師，我準備好了", "MessageEN": "It's all done, Sensei."}, {"MessageId": 230010090, "Flag": 2, "Type": 3, "NextId": 230010100, "MessageType": "Text", "ImagePath": "", "MessageJP": "準備って、何の……？", "MessageTW": "準備好了，是指……？", "MessageEN": "Done? What's done?"}, {"MessageId": 230010100, "Flag": 2, "Type": 0, "NextId": 230010107, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日、ゲヘナの学生食堂に来てもらえませんか？", "MessageTW": "今天，可以請老師來格黑娜的學生食堂一趟嗎？", "MessageEN": "Come to the Gehenna student dining hall to find out!"}, {"MessageId": 230010107, "Flag": 2, "Type": 0, "NextId": 230000110, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカの全力、お見せします", "MessageTW": "讓老師見識，風華的全力", "MessageEN": "I'll show you the power of Fuuka!"}, {"MessageId": 230000110, "Flag": 2, "Type": 2, "NextId": 230010114, "MessageType": "Text", "ImagePath": "", "MessageJP": "フウカの絆イベントへ", "MessageTW": "前往風華的羈絆劇情", "MessageEN": "Go to Fuuka's Event"}, {"MessageId": 230010114, "Flag": 2, "Type": 0, "NextId": 230010121, "MessageType": "Text", "ImagePath": "", "MessageJP": "す、すみません、先生", "MessageTW": "對，對不起，老師", "MessageEN": "S-Sorry, Sensei."}, {"MessageId": 230010121, "Flag": 1, "Type": 0, "NextId": 230010128, "MessageType": "Text", "ImagePath": "", "MessageJP": "美味しい料理でおもてなしをしなきゃと思って、つい……", "MessageTW": "我滿腦子只想著用美味的料理來招待老師，所以才……", "MessageEN": "I really wanted to give you something good to eat..."}, {"MessageId": 230010128, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は本当に、すみませんでしたっ！", "MessageTW": "今天真的很抱歉！", "MessageEN": "I'm so sorry about today!"}]
+[
+    {
+        "CharacterId": 23001,
+        "MessageJP": "フウカ",
+        "MessageKR": "후우카",
+        "MessageTW": "風華",
+        "MessageEN": "Fuuka"
+    },
+    {
+        "MessageId": 230000080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230010086,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230010086,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、準備ができました",
+        "MessageKR": "선생님, 준비는 전부 끝났어요.",
+        "MessageTW": "老師，我準備好了",
+        "MessageEN": "It's all done, Sensei."
+    },
+    {
+        "MessageId": 230010090,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230010100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "準備って、何の……？",
+        "MessageKR": "준비? 무슨 준비?",
+        "MessageTW": "準備好了，是指……？",
+        "MessageEN": "Done? What's done?"
+    },
+    {
+        "MessageId": 230010100,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010107,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日、ゲヘナの学生食堂に来てもらえませんか？",
+        "MessageKR": "그건 게헨나 학생식당으로 오시면 알 수 있어요.",
+        "MessageTW": "今天，可以請老師來格黑娜的學生食堂一趟嗎？",
+        "MessageEN": "Come to the Gehenna student dining hall to find out!"
+    },
+    {
+        "MessageId": 230010107,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230000117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカの全力、お見せします",
+        "MessageKR": "오늘 후우카의 전력을 보여드리겠어요!",
+        "MessageTW": "讓老師見識，風華的全力",
+        "MessageEN": "I'll show you the power of Fuuka!"
+    },
+    {
+        "MessageId": 230000117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 230010114,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フウカの絆イベントへ",
+        "MessageKR": "후우카의 인연스토리로",
+        "MessageTW": "前往風華的羈絆劇情",
+        "MessageEN": "Go to Fuuka's Event"
+    },
+    {
+        "MessageId": 230010114,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230010121,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "す、すみません、先生",
+        "MessageKR": "죄, 죄송해요. 선생님.",
+        "MessageTW": "對，對不起，老師",
+        "MessageEN": "S-Sorry, Sensei."
+    },
+    {
+        "MessageId": 230010121,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230010128,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "美味しい料理でおもてなしをしなきゃと思って、つい……",
+        "MessageKR": "맛있는 음식을 대접해드려야 한다는 생각에…….",
+        "MessageTW": "我滿腦子只想著用美味的料理來招待老師，所以才……",
+        "MessageEN": "I really wanted to give you something good to eat..."
+    },
+    {
+        "MessageId": 230010128,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は本当に、すみませんでしたっ！",
+        "MessageKR": "오늘 일은 정말 죄송합니닷!",
+        "MessageTW": "今天真的很抱歉！",
+        "MessageEN": "I'm so sorry about today!"
+    }
+]

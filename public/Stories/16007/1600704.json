@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16007.webp", "MessageJP": "トモエ", "MessageTW": "智惠", "MessageEN": "Tomoe"}, {"MessageId": 160060230, "Flag": 2, "Type": 4, "NextId": 160070230, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160070230, "Flag": 2, "Type": 0, "NextId": 160070240, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今はお忙しいでしょうか？", "MessageTW": "老師，您現在忙嗎？", "MessageEN": "Sensei, are you busy right now?"}, {"MessageId": 160070240, "Flag": 1, "Type": 0, "NextId": 160070250, "MessageType": "Text", "ImagePath": "", "MessageJP": "突然のお願いで恐縮ですが、手伝っていただきたいことがあり……", "MessageTW": "很抱歉突然提出請求，但有件事想請您幫忙……", "MessageEN": "There's something urgent I need your help with."}, {"MessageId": 160070250, "Flag": 2, "Type": 3, "NextId": 160070260, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、大丈夫だよ", "MessageTW": "嗯，沒問題唷", "MessageEN": "Yeah, sure."}, {"MessageId": 160070250, "Flag": 2, "Type": 3, "NextId": 160070260, "MessageType": "Text", "ImagePath": "", "MessageJP": "任せて、どんな内容？", "MessageTW": "交給我，什麼內容？", "MessageEN": "What's going on?"}, {"MessageId": 160070260, "Flag": 2, "Type": 0, "NextId": 160070261, "MessageType": "Text", "ImagePath": "", "MessageJP": "実は、チェリノ会長に関することで少々悩んでおりまして……", "MessageTW": "其實，我在煩惱一件和潔莉諾會長有關的事……", "MessageEN": "Well, the new assignment from President Cherino is too difficult."}, {"MessageId": 160070261, "Flag": 2, "Type": 0, "NextId": 160070270, "MessageType": "Text", "ImagePath": "", "MessageJP": "このままでは、粛清されてしまう可能性も……", "MessageTW": "這樣下去，有可能被肅清……", "MessageEN": "...I just might get purged."}, {"MessageId": 160070270, "Flag": 2, "Type": 3, "NextId": 160070280, "MessageType": "Text", "ImagePath": "", "MessageJP": "何だか嫌な気配が……", "MessageTW": "總覺得有不好的預感……", "MessageEN": "...Can you keep me out of it?"}, {"MessageId": 160070280, "Flag": 2, "Type": 0, "NextId": 160070281, "MessageType": "Text", "ImagePath": "", "MessageJP": "ここまで聞いておいて、逃げるのは無しですよ！", "MessageTW": "都聽到這裡了，可不能逃跑唷！", "MessageEN": "No! I can't believe you're trying to run away after hearing this..."}, {"MessageId": 160070281, "Flag": 2, "Type": 0, "NextId": 160070290, "MessageType": "Text", "ImagePath": "", "MessageJP": "もし私が粛清されることになったら、必ずや先生も道連れにしますからね！", "MessageTW": "如果我被肅清的話，絕對會帶上老師的！", "MessageEN": "If I get purged, I'll testify that you were the one behind me, Sensei!"}, {"MessageId": 160070290, "Flag": 2, "Type": 3, "NextId": 160060290, "MessageType": "Text", "ImagePath": "", "MessageJP": "覚悟が怖すぎる！", "MessageTW": "好可怕的覺悟！", "MessageEN": "How scary!"}, {"MessageId": 160060290, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "トモエの絆イベントへ", "MessageTW": "前往智惠的羈絆劇情", "MessageEN": "Go to Tomoe's Event"}]
+[
+    {
+        "CharacterId": 16007,
+        "MessageJP": "トモエ",
+        "MessageKR": "토모에",
+        "MessageTW": "智惠",
+        "MessageEN": "Tomoe"
+    },
+    {
+        "MessageId": 160060230,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160070230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160070230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今はお忙しいでしょうか？",
+        "MessageKR": "선생님. 지금 혹시 바쁘신가요?",
+        "MessageTW": "老師，您現在忙嗎？",
+        "MessageEN": "Sensei, are you busy right now?"
+    },
+    {
+        "MessageId": 160070240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160070250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "突然のお願いで恐縮ですが、手伝っていただきたいことがあり……",
+        "MessageKR": "다름이 아니라 급히 선생님의 도움이 필요한 일이 있습니다.",
+        "MessageTW": "很抱歉突然提出請求，但有件事想請您幫忙……",
+        "MessageEN": "There's something urgent I need your help with."
+    },
+    {
+        "MessageId": 160070250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160070260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、大丈夫だよ",
+        "MessageKR": "응, 괜찮아.",
+        "MessageTW": "嗯，沒問題唷",
+        "MessageEN": "Yeah, sure."
+    },
+    {
+        "MessageId": 160070250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160070260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "任せて、どんな内容？",
+        "MessageKR": "무슨 일이야?",
+        "MessageTW": "交給我，什麼內容？",
+        "MessageEN": "What's going on?"
+    },
+    {
+        "MessageId": 160070260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070261,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "実は、チェリノ会長に関することで少々悩んでおりまして……",
+        "MessageKR": "그게, 체리노 회장님이 이번에 새로 내주신 과제가 너무 어려워서…….",
+        "MessageTW": "其實，我在煩惱一件和潔莉諾會長有關的事……",
+        "MessageEN": "Well, the new assignment from President Cherino is too difficult."
+    },
+    {
+        "MessageId": 160070261,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "このままでは、粛清されてしまう可能性も……",
+        "MessageKR": "……어쩌면 숙청을 당할지도 모르겠습니다.",
+        "MessageTW": "這樣下去，有可能被肅清……",
+        "MessageEN": "...I just might get purged."
+    },
+    {
+        "MessageId": 160070270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160070280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何だか嫌な気配が……",
+        "MessageKR": "……나는 빠지면 안 될까?",
+        "MessageTW": "總覺得有不好的預感……",
+        "MessageEN": "...Can you keep me out of it?"
+    },
+    {
+        "MessageId": 160070280,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ここまで聞いておいて、逃げるのは無しですよ！",
+        "MessageKR": "안 됩니다! 이야기를 듣고 도망치려 하시다니…….",
+        "MessageTW": "都聽到這裡了，可不能逃跑唷！",
+        "MessageEN": "No! I can't believe you're trying to run away after hearing this..."
+    },
+    {
+        "MessageId": 160070281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160070290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もし私が粛清されることになったら、必ずや先生も道連れにしますからね！",
+        "MessageKR": "제가 만약 숙청당하게 된다면, 제 배후에 선생님이 있었다고 증언할 테니까요!",
+        "MessageTW": "如果我被肅清的話，絕對會帶上老師的！",
+        "MessageEN": "If I get purged, I'll testify that you were the one behind me, Sensei!"
+    },
+    {
+        "MessageId": 160070290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160060297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "覚悟が怖すぎる！",
+        "MessageKR": "무서워!",
+        "MessageTW": "好可怕的覺悟！",
+        "MessageEN": "How scary!"
+    },
+    {
+        "MessageId": 160060297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トモエの絆イベントへ",
+        "MessageKR": "토모에의 인연스토리로",
+        "MessageTW": "前往智惠的羈絆劇情",
+        "MessageEN": "Go to Tomoe's Event"
+    }
+]

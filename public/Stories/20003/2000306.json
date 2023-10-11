@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20003.webp", "MessageJP": "マシロ", "MessageTW": "麻白", "MessageEN": "Mashiro"}, {"MessageId": 200020350, "Flag": 2, "Type": 4, "NextId": 200030352, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200030352, "Flag": 2, "Type": 0, "NextId": 200030369, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は予想以上に早く、訓練が終わりましたね", "MessageTW": "今天比預想中還早結束訓練", "MessageEN": "Training ended a bit early today."}, {"MessageId": 200030369, "Flag": 1, "Type": 0, "NextId": 200030370, "MessageType": "Text", "ImagePath": "", "MessageJP": "頑張った分、プライベートの時間ができそうです", "MessageTW": "因為很努力，所以好像能有些私人時間", "MessageEN": "I think I have a little free time."}, {"MessageId": 200030370, "Flag": 2, "Type": 3, "NextId": 200030383, "MessageType": "Text", "ImagePath": "", "MessageJP": "マシロはこういう時、普段何をするの？", "MessageTW": "麻白在這種時候，通常會做什麼？", "MessageEN": "What do you usually do in your free time, Mashiro?"}, {"MessageId": 200030383, "Flag": 2, "Type": 0, "NextId": 200030380, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうですね、読書をしたり散歩をしたりしますが……", "MessageTW": "這個嘛，讀書或是散步……", "MessageEN": "Sometimes I read. I usually take a walk..."}, {"MessageId": 200030380, "Flag": 2, "Type": 0, "NextId": 200030390, "MessageType": "Text", "ImagePath": "", "MessageJP": "高いところに登るのも好きです", "MessageTW": "也喜歡爬到高處", "MessageEN": "I also like going up to high places."}, {"MessageId": 200030390, "Flag": 2, "Type": 3, "NextId": 200030404, "MessageType": "Text", "ImagePath": "", "MessageJP": "高いところ……？", "MessageTW": "高處……？", "MessageEN": "High places?"}, {"MessageId": 200030404, "Flag": 2, "Type": 0, "NextId": 200030401, "MessageType": "Text", "ImagePath": "", "MessageJP": "その反応……もしかしてこれ、変わった趣味なのでしょうか？", "MessageTW": "那個反應……難道這是很奇怪的興趣嗎？", "MessageEN": "Huh? Is that weird? Why are you so shocked?"}, {"MessageId": 200030401, "Flag": 2, "Type": 0, "NextId": 200020400, "MessageType": "Text", "ImagePath": "", "MessageJP": "普通の趣味だと思っていたのですが……", "MessageTW": "我還以為是很普通的興趣呢……", "MessageEN": "I thought it was a pretty common hobby..."}, {"MessageId": 200020400, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "マシロの絆イベントへ", "MessageTW": "前往麻白的羈絆劇情", "MessageEN": "Go to Mashiro's Event"}]
+[
+    {
+        "CharacterId": 20003,
+        "MessageJP": "マシロ",
+        "MessageKR": "마시로",
+        "MessageTW": "麻白",
+        "MessageEN": "Mashiro"
+    },
+    {
+        "MessageId": 200020350,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200030352,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200030352,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030369,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は予想以上に早く、訓練が終わりましたね",
+        "MessageKR": "오늘은 예상했던 것보다 훈련이 일찍 끝났네요.",
+        "MessageTW": "今天比預想中還早結束訓練",
+        "MessageEN": "Training ended a bit early today."
+    },
+    {
+        "MessageId": 200030369,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200030370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "頑張った分、プライベートの時間ができそうです",
+        "MessageKR": "모처럼 개인 시간을 가질 수 있을 것 같습니다.",
+        "MessageTW": "因為很努力，所以好像能有些私人時間",
+        "MessageEN": "I think I have a little free time."
+    },
+    {
+        "MessageId": 200030370,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200030383,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マシロはこういう時、普段何をするの？",
+        "MessageKR": "마시로는 개인 시간에 보통 무슨 일을 해?",
+        "MessageTW": "麻白在這種時候，通常會做什麼？",
+        "MessageEN": "What do you usually do in your free time, Mashiro?"
+    },
+    {
+        "MessageId": 200030383,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030380,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうですね、読書をしたり散歩をしたりしますが……",
+        "MessageKR": "글쎄요. 독서를 하거나 산책을 주로 하지만……",
+        "MessageTW": "這個嘛，讀書或是散步……",
+        "MessageEN": "Sometimes I read. I usually take a walk..."
+    },
+    {
+        "MessageId": 200030380,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "高いところに登るのも好きです",
+        "MessageKR": "높은 곳에 올라가는 것도 좋아한답니다.",
+        "MessageTW": "也喜歡爬到高處",
+        "MessageEN": "I also like going up to high places."
+    },
+    {
+        "MessageId": 200030390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200030404,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "高いところ……？",
+        "MessageKR": "높은 곳에 올라간다고?",
+        "MessageTW": "高處……？",
+        "MessageEN": "High places?"
+    },
+    {
+        "MessageId": 200030404,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030401,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その反応……もしかしてこれ、変わった趣味なのでしょうか？",
+        "MessageKR": "어라, 선생님께서 그렇게 놀랄 만큼 특이한 취미였나요?",
+        "MessageTW": "那個反應……難道這是很奇怪的興趣嗎？",
+        "MessageEN": "Huh? Is that weird? Why are you so shocked?"
+    },
+    {
+        "MessageId": 200030401,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020407,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "普通の趣味だと思っていたのですが……",
+        "MessageKR": "평범하다고 생각했습니다만…….",
+        "MessageTW": "我還以為是很普通的興趣呢……",
+        "MessageEN": "I thought it was a pretty common hobby..."
+    },
+    {
+        "MessageId": 200020407,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マシロの絆イベントへ",
+        "MessageKR": "마시로의 인연스토리로",
+        "MessageTW": "前往麻白的羈絆劇情",
+        "MessageEN": "Go to Mashiro's Event"
+    }
+]

@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10037.webp", "MessageJP": "マリナ", "MessageTW": "瑪麗娜", "MessageEN": "Marina"}, {"MessageId": 100360130, "Flag": 2, "Type": 4, "NextId": 100370130, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100370130, "Flag": 2, "Type": 0, "NextId": 100370140, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、例のスパイについての続報だ", "MessageTW": "老師，這是關於上次間諜的續報", "MessageEN": "Sensei, we've had another spy incident."}, {"MessageId": 100370140, "Flag": 1, "Type": 0, "NextId": 100370150, "MessageType": "Text", "ImagePath": "", "MessageJP": "どこぞの卑劣なスパイが、今度はチェリノ会長のプリンを盗んだようでな", "MessageTW": "不知在何處的卑劣間諜，這次似乎偷了潔莉諾會長的布丁", "MessageEN": "That disgraceful spy stole President Cherino's pudding."}, {"MessageId": 100370150, "Flag": 2, "Type": 3, "NextId": 100370160, "MessageType": "Text", "ImagePath": "", "MessageJP": "それ、確実にスパイの仕業なの？", "MessageTW": "那個，確實是間諜的所為嗎？", "MessageEN": "How do you know it was a spy?"}, {"MessageId": 100370160, "Flag": 2, "Type": 0, "NextId": 100370161, "MessageType": "Text", "ImagePath": "", "MessageJP": "ああ、そうだ。何せレッドウィンター連邦学園の保安は、いつだって完璧だからな！", "MessageTW": "啊啊，沒錯。因為赤冬聯邦學園的保安，無時無刻都是完美的！", "MessageEN": "Because the Red Winter Academy's security system is flawless!"}, {"MessageId": 100370161, "Flag": 2, "Type": 0, "NextId": 100370170, "MessageType": "Text", "ImagePath": "", "MessageJP": "スパイでも忍び込んでいない限り、何か問題が起こるはずがない！", "MessageTW": "除非間諜潛入，不然不可能發生任何問題！", "MessageEN": "Without some kind of sabotage, there's no way this could happen."}, {"MessageId": 100370170, "Flag": 1, "Type": 0, "NextId": 100370171, "MessageType": "Text", "ImagePath": "", "MessageJP": "だから間違いなくスパイの仕業だろう。", "MessageTW": "所以毫無疑問是間諜所為吧", "MessageEN": "So, it must be a spy."}, {"MessageId": 100370171, "Flag": 2, "Type": 0, "NextId": 100370180, "MessageType": "Text", "ImagePath": "", "MessageJP": "しかし、問題が生じていてな……どういうわけかチェリノ会長は、私がプリンを盗んだと思っておられるようなんだ", "MessageTW": "不過，產生一個問題……不知為何潔莉諾會長她，似乎認為布丁是我偷的", "MessageEN": "But for some reason, President Cherino thinks I'm the thief."}, {"MessageId": 100370180, "Flag": 1, "Type": 0, "NextId": 100370190, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん、心当たりがないわけではないが……", "MessageTW": "當然，也不是沒有頭緒……", "MessageEN": "I do have a hunch why she thinks that."}, {"MessageId": 100370190, "Flag": 1, "Type": 0, "NextId": 100360190, "MessageType": "Text", "ImagePath": "", "MessageJP": "逆に良い機会だ。今度こそスパイを捕まえて、私の有能さと無罪を証明してやろう！", "MessageTW": "反而是個好機會。這次一定要抓住間諜，證明我的才能和無罪！", "MessageEN": "But I'll catch the spy and prove my innocence!"}, {"MessageId": 100360190, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "マリナの絆イベントへ", "MessageTW": "前往瑪麗娜的羈絆劇情", "MessageEN": "Go to Marina's Event"}]
+[
+    {
+        "CharacterId": 10037,
+        "MessageJP": "マリナ",
+        "MessageKR": "마리나",
+        "MessageTW": "瑪麗娜",
+        "MessageEN": "Marina"
+    },
+    {
+        "MessageId": 100360130,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100370130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100370130,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100370140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、例のスパイについての続報だ",
+        "MessageKR": "선생, 또 사건이다. 예의 스파이 문제야.",
+        "MessageTW": "老師，這是關於上次間諜的續報",
+        "MessageEN": "Sensei, we've had another spy incident."
+    },
+    {
+        "MessageId": 100370140,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100370150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どこぞの卑劣なスパイが、今度はチェリノ会長のプリンを盗んだようでな",
+        "MessageKR": "그 괘씸한 스파이 녀석이 이번에는 체리노 회장의 푸딩을 훔쳐 간 모양이더군.",
+        "MessageTW": "不知在何處的卑劣間諜，這次似乎偷了潔莉諾會長的布丁",
+        "MessageEN": "That disgraceful spy stole President Cherino's pudding."
+    },
+    {
+        "MessageId": 100370150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100370160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それ、確実にスパイの仕業なの？",
+        "MessageKR": "어째서 스파이의 소행이라고 단정 짓는 거야?",
+        "MessageTW": "那個，確實是間諜的所為嗎？",
+        "MessageEN": "How do you know it was a spy?"
+    },
+    {
+        "MessageId": 100370160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100370161,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ああ、そうだ。何せレッドウィンター連邦学園の保安は、いつだって完璧だからな！",
+        "MessageKR": "그야 붉은겨울 학원의 보안은 언제나 완벽하기 때문이지!",
+        "MessageTW": "啊啊，沒錯。因為赤冬聯邦學園的保安，無時無刻都是完美的！",
+        "MessageEN": "Because the Red Winter Academy's security system is flawless!"
+    },
+    {
+        "MessageId": 100370161,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100370170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スパイでも忍び込んでいない限り、何か問題が起こるはずがない！",
+        "MessageKR": "스파이가 기어들어 와 사보타주라도 하지 않는 이상, 문제가 생길 다른 이유는 없어!",
+        "MessageTW": "除非間諜潛入，不然不可能發生任何問題！",
+        "MessageEN": "Without some kind of sabotage, there's no way this could happen."
+    },
+    {
+        "MessageId": 100370170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100370171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "だから間違いなくスパイの仕業だろう。",
+        "MessageKR": "그러니 이번 사건도 스파이의 소행임이 분명해.",
+        "MessageTW": "所以毫無疑問是間諜所為吧",
+        "MessageEN": "So, it must be a spy."
+    },
+    {
+        "MessageId": 100370171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100370180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "しかし、問題が生じていてな……どういうわけかチェリノ会長は、私がプリンを盗んだと思っておられるようなんだ",
+        "MessageKR": "……하지만 어째서인지 체리노 회장께서는 내가 푸딩을 훔쳐 갔다고 생각하시는 것 같더군.",
+        "MessageTW": "不過，產生一個問題……不知為何潔莉諾會長她，似乎認為布丁是我偷的",
+        "MessageEN": "But for some reason, President Cherino thinks I'm the thief."
+    },
+    {
+        "MessageId": 100370180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100370190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん、心当たりがないわけではないが……",
+        "MessageKR": "물론 짚이는 바가 없는 건 아니지만…….",
+        "MessageTW": "當然，也不是沒有頭緒……",
+        "MessageEN": "I do have a hunch why she thinks that."
+    },
+    {
+        "MessageId": 100370190,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100360197,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "逆に良い機会だ。今度こそスパイを捕まえて、私の有能さと無罪を証明してやろう！",
+        "MessageKR": "이번에야말로 멋지게 스파이를 잡아 내 무죄를 증명해 내겠어!",
+        "MessageTW": "反而是個好機會。這次一定要抓住間諜，證明我的才能和無罪！",
+        "MessageEN": "But I'll catch the spy and prove my innocence!"
+    },
+    {
+        "MessageId": 100360197,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マリナの絆イベントへ",
+        "MessageKR": "마리나의 인연스토리로",
+        "MessageTW": "前往瑪麗娜的羈絆劇情",
+        "MessageEN": "Go to Marina's Event"
+    }
+]

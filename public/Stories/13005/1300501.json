@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13005.webp", "MessageJP": "カヨコ", "MessageTW": "佳世子", "MessageEN": "Kayoko"}, {"MessageId": 130040010, "Flag": 2, "Type": 4, "NextId": 130050013, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130050013, "Flag": 2, "Type": 0, "NextId": 130050020, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は、自分の外見のことで悩んだことある？", "MessageTW": "老師有因為自己的外貌苦惱過嗎？", "MessageEN": "Have you ever worried about the impression you make on others?"}, {"MessageId": 130050020, "Flag": 2, "Type": 3, "NextId": 130050037, "MessageType": "Text", "ImagePath": "", "MessageJP": "急にどうしたの？", "MessageTW": "這麼突然，怎麼了？", "MessageEN": "What made you ask that all of a sudden?"}, {"MessageId": 130050037, "Flag": 2, "Type": 0, "NextId": 130050034, "MessageType": "Text", "ImagePath": "", "MessageJP": "……先生も知ってる通り私、よく第一印象が怖いって言われるから", "MessageTW": "……如老師知道的那樣，我經常聽人說我給人的第一印象很可怕", "MessageEN": "I mean... I'm sure you've noticed that I look kind of threatening."}, {"MessageId": 130050034, "Flag": 2, "Type": 0, "NextId": 130050041, "MessageType": "Text", "ImagePath": "", "MessageJP": "変なのに絡まれることも多いし", "MessageTW": "經常被奇怪的人事糾纏", "MessageEN": "I think that's why I keep getting into fights."}, {"MessageId": 130050041, "Flag": 1, "Type": 0, "NextId": 130040040, "MessageType": "Text", "ImagePath": "", "MessageJP": "そのおかげで得したことも……あんまり無いし", "MessageTW": "拜此所賜……也沒獲得過什麼好處", "MessageEN": "There's not much good that can come from a bad first impression."}, {"MessageId": 130040040, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "カヨコの絆イベントへ", "MessageTW": "前往佳世子的羈絆劇情", "MessageEN": "Go to Kayoko's Event"}]
+[
+    {
+        "CharacterId": 13005,
+        "MessageJP": "カヨコ",
+        "MessageKR": "카요코",
+        "MessageTW": "佳世子",
+        "MessageEN": "Kayoko"
+    },
+    {
+        "MessageId": 130040010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130050013,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130050013,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130050020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は、自分の外見のことで悩んだことある？",
+        "MessageKR": "선생은 인상 때문에 고민해 본 경험 있어?",
+        "MessageTW": "老師有因為自己的外貌苦惱過嗎？",
+        "MessageEN": "Have you ever worried about the impression you make on others?"
+    },
+    {
+        "MessageId": 130050020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130050037,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "急にどうしたの？",
+        "MessageKR": "왜 갑자기 그런 생각을 한 거야?",
+        "MessageTW": "這麼突然，怎麼了？",
+        "MessageEN": "What made you ask that all of a sudden?"
+    },
+    {
+        "MessageId": 130050037,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130050034,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……先生も知ってる通り私、よく第一印象が怖いって言われるから",
+        "MessageKR": "그게…… 선생도 알다시피 내 인상이 좀 사나운 편이잖아.",
+        "MessageTW": "……如老師知道的那樣，我經常聽人說我給人的第一印象很可怕",
+        "MessageEN": "I mean... I'm sure you've noticed that I look kind of threatening."
+    },
+    {
+        "MessageId": 130050034,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130050041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "変なのに絡まれることも多いし",
+        "MessageKR": "그러다 보니 이상하게 시비가 걸리는 일이 잦아서 말이야.",
+        "MessageTW": "經常被奇怪的人事糾纏",
+        "MessageEN": "I think that's why I keep getting into fights."
+    },
+    {
+        "MessageId": 130050041,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130040047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そのおかげで得したことも……あんまり無いし",
+        "MessageKR": "인상이 사나워서 좋은 일은 별로 없는 것 같아.",
+        "MessageTW": "拜此所賜……也沒獲得過什麼好處",
+        "MessageEN": "There's not much good that can come from a bad first impression."
+    },
+    {
+        "MessageId": 130040047,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カヨコの絆イベントへ",
+        "MessageKR": "카요코의 인연스토리로",
+        "MessageTW": "前往佳世子的羈絆劇情",
+        "MessageEN": "Go to Kayoko's Event"
+    }
+]

@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 10074,
+        "MessageJP": "ハナコ（水着）",
+        "MessageKR": "하나코(수영복)",
+        "MessageTW": "ハナコ（水着）",
+        "MessageEN": "Hanako (Swimsuit)"
+    },
+    {
+        "MessageId": 100730240,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100740240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100740240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100740250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740250,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100740251,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今どちらにいらっしゃいますか？",
+        "MessageKR": "지금 어디 계신가요?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740251,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100740260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その、お話ししたいことが……",
+        "MessageKR": "괜찮으시다면 이번에는, 제가 찾아뵈려고 하는데…….",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100740270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしたの？",
+        "MessageKR": "응? 무슨 일이야?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100740270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何か相談事？",
+        "MessageKR": "하나코가 직접 온다고?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100740271,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい",
+        "MessageKR": "네",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740271,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100740280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "場所を教えていただけたら",
+        "MessageKR": "장소만 알려주시면…….",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100730287,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "すぐそちらに向かいます♡",
+        "MessageKR": "지금 바로 갈게요 ♡",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100730287,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハナコ（水着）の絆イベントへ",
+        "MessageKR": "하나코(수영복)의 인연스토리로",
+        "MessageTW": "前往ハナコ（水着）的羈絆劇情",
+        "MessageEN": "Go to Hanako (Swimsuit)'s Event"
+    }
+]

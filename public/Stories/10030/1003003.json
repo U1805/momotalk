@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10030.webp", "MessageJP": "チナツ（温泉）", "MessageTW": "千夏(溫泉)", "MessageEN": "Chinatsu (Hot Spring)"}, {"MessageId": 100290210, "Flag": 2, "Type": 4, "NextId": 100300210, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100300210, "Flag": 2, "Type": 0, "NextId": 100300220, "MessageType": "Text", "ImagePath": "", "MessageJP": "こんにちは、先生", "MessageTW": "您好，老師", "MessageEN": "Hello, Sensei."}, {"MessageId": 100300220, "Flag": 1, "Type": 0, "NextId": 100300221, "MessageType": "Text", "ImagePath": "", "MessageJP": "その、もしよろしければ今日の午後、少しお時間をいただけないでしょうか？", "MessageTW": "那個，如果可以的話，今天下午能占用您一點時間嗎？", "MessageEN": "If it's okay with you, could you make some time for me after lunch today?"}, {"MessageId": 100300221, "Flag": 2, "Type": 0, "NextId": 100300230, "MessageType": "Text", "ImagePath": "", "MessageJP": "実は先生に手伝っていただきたいことがありまして……", "MessageTW": "其實是有事情想請老師幫忙……", "MessageEN": "There is something that I need your help with, Sensei."}, {"MessageId": 100300230, "Flag": 2, "Type": 3, "NextId": 100300240, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、任せて", "MessageTW": "嗯，交給我吧", "MessageEN": "Yeah, sure."}, {"MessageId": 100300230, "Flag": 2, "Type": 3, "NextId": 100300240, "MessageType": "Text", "ImagePath": "", "MessageJP": "チナツの頼みならいくらでも！", "MessageTW": "如果是千夏的請求就儘管來吧！", "MessageEN": "Anything for you, Chinatsu!"}, {"MessageId": 100300240, "Flag": 2, "Type": 0, "NextId": 100300250, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、ありがとうございます", "MessageTW": "非，非常感謝", "MessageEN": "Thank you."}, {"MessageId": 100300250, "Flag": 1, "Type": 0, "NextId": 100300251, "MessageType": "Text", "ImagePath": "", "MessageJP": "それでは、お土産屋さんの前でお待ちしておりますね", "MessageTW": "那麼，我在伴手禮店的前面等您", "MessageEN": "Then I will be waiting for you at the souvenir shop at the entrance of the hot springs resort."}, {"MessageId": 100300251, "Flag": 2, "Type": 0, "NextId": 100300260, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしくお願いいたします", "MessageTW": "萬事拜託了", "MessageEN": "I will see you after lunch."}, {"MessageId": 100300260, "Flag": 1, "Type": 0, "NextId": 100290260, "MessageType": "Text", "ImagePath": "", "MessageJP": "～チナツ～", "MessageTW": "～千夏～", "MessageEN": "- Chinatsu"}, {"MessageId": 100290260, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "チナツ（温泉）の絆イベントへ", "MessageTW": "前往千夏(溫泉)的羈絆劇情", "MessageEN": "Go to Chinatsu (Hot Spring)'s Event"}]
+[
+    {
+        "CharacterId": 10030,
+        "MessageJP": "チナツ（温泉）",
+        "MessageKR": "치나츠(온천)",
+        "MessageTW": "千夏(溫泉)",
+        "MessageEN": "Chinatsu (Hot Spring)"
+    },
+    {
+        "MessageId": 100290210,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100300210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100300210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100300220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんにちは、先生",
+        "MessageKR": "안녕하세요, 선생님.",
+        "MessageTW": "您好，老師",
+        "MessageEN": "Hello, Sensei."
+    },
+    {
+        "MessageId": 100300220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100300221,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その、もしよろしければ今日の午後、少しお時間をいただけないでしょうか？",
+        "MessageKR": "혹시 괜찮으시다면 오늘 점심 식사 이후에 잠깐 시간을 내주지 않으시겠습니까?",
+        "MessageTW": "那個，如果可以的話，今天下午能占用您一點時間嗎？",
+        "MessageEN": "If it's okay with you, could you make some time for me after lunch today?"
+    },
+    {
+        "MessageId": 100300221,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100300230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "実は先生に手伝っていただきたいことがありまして……",
+        "MessageKR": "선생님께 도움을 요청하고 싶은 일이 있습니다.",
+        "MessageTW": "其實是有事情想請老師幫忙……",
+        "MessageEN": "There is something that I need your help with, Sensei."
+    },
+    {
+        "MessageId": 100300230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100300240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、任せて",
+        "MessageKR": "응, 괜찮아.",
+        "MessageTW": "嗯，交給我吧",
+        "MessageEN": "Yeah, sure."
+    },
+    {
+        "MessageId": 100300230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100300240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チナツの頼みならいくらでも！",
+        "MessageKR": "치나츠의 부탁이라면 뭐든지!",
+        "MessageTW": "如果是千夏的請求就儘管來吧！",
+        "MessageEN": "Anything for you, Chinatsu!"
+    },
+    {
+        "MessageId": 100300240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100300250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、ありがとうございます",
+        "MessageKR": "감사합니다.",
+        "MessageTW": "非，非常感謝",
+        "MessageEN": "Thank you."
+    },
+    {
+        "MessageId": 100300250,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100300251,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでは、お土産屋さんの前でお待ちしておりますね",
+        "MessageKR": "그럼 온천장 입구의 기념품 가게에서 기다리고 있겠습니다.",
+        "MessageTW": "那麼，我在伴手禮店的前面等您",
+        "MessageEN": "Then I will be waiting for you at the souvenir shop at the entrance of the hot springs resort."
+    },
+    {
+        "MessageId": 100300251,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100300260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしくお願いいたします",
+        "MessageKR": "식사 후에 뵙겠습니다.",
+        "MessageTW": "萬事拜託了",
+        "MessageEN": "I will see you after lunch."
+    },
+    {
+        "MessageId": 100300260,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100290267,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "～チナツ～",
+        "MessageKR": "- 치나츠",
+        "MessageTW": "～千夏～",
+        "MessageEN": "- Chinatsu"
+    },
+    {
+        "MessageId": 100290267,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チナツ（温泉）の絆イベントへ",
+        "MessageKR": "치나츠(온천)의 인연스토리로",
+        "MessageTW": "前往千夏(溫泉)的羈絆劇情",
+        "MessageEN": "Go to Chinatsu (Hot Spring)'s Event"
+    }
+]

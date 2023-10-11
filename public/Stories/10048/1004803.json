@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10048.webp", "MessageJP": "サオリ", "MessageTW": "沙織", "MessageEN": "Saori"}, {"MessageId": 100470250, "Flag": 2, "Type": 4, "NextId": 100480250, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100480250, "Flag": 2, "Type": 0, "NextId": 100480260, "MessageType": "Text", "ImagePath": "", "MessageJP": "この間のことを反省した", "MessageTW": "反省了前幾天的事情", "MessageEN": "Sensei, I learned from my previous mistake."}, {"MessageId": 100480260, "Flag": 1, "Type": 0, "NextId": 100480261, "MessageType": "Text", "ImagePath": "", "MessageJP": "今回の依頼については", "MessageTW": "關於這次的委託", "MessageEN": "For the job I got at the Black Market,"}, {"MessageId": 100480261, "Flag": 2, "Type": 0, "NextId": 100480270, "MessageType": "Text", "ImagePath": "", "MessageJP": "すでにきちんと契約書を書いている", "MessageTW": "有寫好合約了", "MessageEN": "I made sure to sign a contract."}, {"MessageId": 100480270, "Flag": 2, "Type": 3, "NextId": 100480280, "MessageType": "Text", "ImagePath": "", "MessageJP": "それは良かった！", "MessageTW": "那真是太好了！", "MessageEN": "Yeah? Great!"}, {"MessageId": 100480280, "Flag": 2, "Type": 3, "NextId": 100480290, "MessageType": "Text", "ImagePath": "", "MessageJP": "それで、今回はどんな依頼？", "MessageTW": "那麼，這次是什麼委託？", "MessageEN": "So, what kind of a job is it?"}, {"MessageId": 100480290, "Flag": 2, "Type": 0, "NextId": 100480300, "MessageType": "Text", "ImagePath": "", "MessageJP": "思いのほか簡単な任務だった", "MessageTW": "比想像中還簡單的任務", "MessageEN": "It's a pretty simple mission."}, {"MessageId": 100480300, "Flag": 1, "Type": 0, "NextId": 100480310, "MessageType": "Text", "ImagePath": "", "MessageJP": "ブラックマーケットの抗争を終わらせるだけだ", "MessageTW": "只需要結束黑市的紛爭罷了", "MessageEN": "It's a job for ending something the Black Market's been struggling with."}, {"MessageId": 100480310, "Flag": 2, "Type": 3, "NextId": 100470310, "MessageType": "Text", "ImagePath": "", "MessageJP": "！？", "MessageTW": "！？", "MessageEN": "S-S-Saori?!"}, {"MessageId": 100470310, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "サオリの絆イベントへ", "MessageTW": "前往沙織的羈絆劇情", "MessageEN": "Go to Saori's Event"}]
+[
+    {
+        "CharacterId": 10048,
+        "MessageJP": "サオリ",
+        "MessageKR": "사오리",
+        "MessageTW": "沙織",
+        "MessageEN": "Saori"
+    },
+    {
+        "MessageId": 100470250,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100480250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100480250,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100480260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この間のことを反省した",
+        "MessageKR": "선생, 저번의 실수를 말미암아.",
+        "MessageTW": "反省了前幾天的事情",
+        "MessageEN": "Sensei, I learned from my previous mistake."
+    },
+    {
+        "MessageId": 100480260,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100480261,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今回の依頼については",
+        "MessageKR": "이번에 블랙마켓 은행으로부터 소개받은 일에선",
+        "MessageTW": "關於這次的委託",
+        "MessageEN": "For the job I got at the Black Market,"
+    },
+    {
+        "MessageId": 100480261,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100480270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "すでにきちんと契約書を書いている",
+        "MessageKR": "확실히 계약서도 제대로 썼어.",
+        "MessageTW": "有寫好合約了",
+        "MessageEN": "I made sure to sign a contract."
+    },
+    {
+        "MessageId": 100480270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100480280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それは良かった！",
+        "MessageKR": "그래? 잘됐네!",
+        "MessageTW": "那真是太好了！",
+        "MessageEN": "Yeah? Great!"
+    },
+    {
+        "MessageId": 100480280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100480290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それで、今回はどんな依頼？",
+        "MessageKR": "그래서 어떤 일을 구했는데?",
+        "MessageTW": "那麼，這次是什麼委託？",
+        "MessageEN": "So, what kind of a job is it?"
+    },
+    {
+        "MessageId": 100480290,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100480300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "思いのほか簡単な任務だった",
+        "MessageKR": "제법 간단한 미션이더군.",
+        "MessageTW": "比想像中還簡單的任務",
+        "MessageEN": "It's a pretty simple mission."
+    },
+    {
+        "MessageId": 100480300,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100480310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ブラックマーケットの抗争を終わらせるだけだ",
+        "MessageKR": "블랙마켓의 항쟁을 마무리하는 일이지.",
+        "MessageTW": "只需要結束黑市的紛爭罷了",
+        "MessageEN": "It's a job for ending something the Black Market's been struggling with."
+    },
+    {
+        "MessageId": 100480310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100470317,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "！？",
+        "MessageKR": "사, 사, 사오리?!",
+        "MessageTW": "！？",
+        "MessageEN": "S-S-Saori?!"
+    },
+    {
+        "MessageId": 100470317,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サオリの絆イベントへ",
+        "MessageKR": "사오리의 인연스토리로",
+        "MessageTW": "前往沙織的羈絆劇情",
+        "MessageEN": "Go to Saori's Event"
+    }
+]

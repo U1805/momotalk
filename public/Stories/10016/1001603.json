@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10016.webp", "MessageJP": "ミドリ", "MessageTW": "綠", "MessageEN": "Midori"}, {"MessageId": 100150130, "Flag": 2, "Type": 4, "NextId": 100160130, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100160130, "Flag": 2, "Type": 0, "NextId": 100160140, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、速報です！速報！ものすごいニュースですよ！", "MessageTW": "老師，速報！快報！不得了的消息唷！", "MessageEN": "Sensei! I have exciting news! It's crazy!"}, {"MessageId": 100160140, "Flag": 2, "Type": 3, "NextId": 100160150, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミドリ、落ち着いて。一回クールダウン", "MessageTW": "綠，冷靜點。先冷靜一下", "MessageEN": "Calm down, Midori."}, {"MessageId": 100160140, "Flag": 2, "Type": 3, "NextId": 100160170, "MessageType": "Text", "ImagePath": "", "MessageJP": "ものすごいニュース？どうしよう、花火とか用意した方が良いかな！？", "MessageTW": "不得了的消息？怎麼辦，是不是該準備煙火之類的比較好！？", "MessageEN": "Exciting news? Should I get the confetti ready?!"}, {"MessageId": 100160150, "Flag": 2, "Type": 0, "NextId": 100160160, "MessageType": "Text", "ImagePath": "", "MessageJP": "……はい、深呼吸して落ち着きました！", "MessageTW": "……好，深呼吸後冷靜下來了！", "MessageEN": "*deep breath* Okay, I'm calm now!"}, {"MessageId": 100160160, "Flag": 2, "Type": 3, "NextId": 100160180, "MessageType": "Text", "ImagePath": "", "MessageJP": "何があったの？", "MessageTW": "發生了什麼事？", "MessageEN": "So what's up?"}, {"MessageId": 100160170, "Flag": 2, "Type": 0, "NextId": 100160171, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、流石に花火は要らないかと思いますが……！", "MessageTW": "那個，我想應該是不至於需要煙火啦……！", "MessageEN": "Um... I mean it's not that crazy..."}, {"MessageId": 100160171, "Flag": 2, "Type": 0, "NextId": 100160180, "MessageType": "Text", "ImagePath": "", "MessageJP": "と、とにかく！", "MessageTW": "總，總之！", "MessageEN": "Anyway!"}, {"MessageId": 100160180, "Flag": 1, "Type": 0, "NextId": 100160181, "MessageType": "Text", "ImagePath": "", "MessageJP": "今度、伝説の名作レトロゲームの続編が出るそうです！", "MessageTW": "聽說傳說中的經典懷舊遊戲這次將推出續作！", "MessageEN": "They made a sequel for a legendary, classic, masterpiece of a game!"}, {"MessageId": 100160181, "Flag": 2, "Type": 0, "NextId": 100160190, "MessageType": "Text", "ImagePath": "", "MessageJP": "そのゲームの初回限定盤を、絶対に手に入れたくって", "MessageTW": "那款遊戲的初回限定版，我無論如何都想買到", "MessageEN": "I got the limited edition version!"}, {"MessageId": 100160190, "Flag": 1, "Type": 0, "NextId": 100150200, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、付き合ってくれませんか？", "MessageTW": "老師，能陪我去嗎？", "MessageEN": "Will you play it with me, Sensei?"}, {"MessageId": 100150200, "Flag": 2, "Type": 2, "NextId": 100160200, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミドリの絆イベントへ", "MessageTW": "前往綠的羈絆劇情", "MessageEN": "Go to Midori's Event"}, {"MessageId": 100160200, "Flag": 2, "Type": 0, "NextId": 100160201, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日はありがとうございました", "MessageTW": "今天非常謝謝老師", "MessageEN": "Thanks for today."}, {"MessageId": 100160201, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "今度、一緒にプレイしましょうね。先生", "MessageTW": "下次一起play吧。老師", "MessageEN": "Let's play again next time, Sensei."}]
+[
+    {
+        "CharacterId": 10016,
+        "MessageJP": "ミドリ",
+        "MessageKR": "미도리",
+        "MessageTW": "綠",
+        "MessageEN": "Midori"
+    },
+    {
+        "MessageId": 100150130,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100160130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100160130,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、速報です！速報！ものすごいニュースですよ！",
+        "MessageKR": "선생님! 속보예요! 속보! 어마어마한 속보요!",
+        "MessageTW": "老師，速報！快報！不得了的消息唷！",
+        "MessageEN": "Sensei! I have exciting news! It's crazy!"
+    },
+    {
+        "MessageId": 100160140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100160150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミドリ、落ち着いて。一回クールダウン",
+        "MessageKR": "미도리, 진정해. 컴다운.",
+        "MessageTW": "綠，冷靜點。先冷靜一下",
+        "MessageEN": "Calm down, Midori."
+    },
+    {
+        "MessageId": 100160140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100160170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ものすごいニュース？どうしよう、花火とか用意した方が良いかな！？",
+        "MessageKR": "그 정도로 속보야? 어떡하지? 폭죽을 준비할까?!",
+        "MessageTW": "不得了的消息？怎麼辦，是不是該準備煙火之類的比較好！？",
+        "MessageEN": "Exciting news? Should I get the confetti ready?!"
+    },
+    {
+        "MessageId": 100160150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……はい、深呼吸して落ち着きました！",
+        "MessageKR": "후우후우, 네, 지, 진정했어요!",
+        "MessageTW": "……好，深呼吸後冷靜下來了！",
+        "MessageEN": "*deep breath* Okay, I'm calm now!"
+    },
+    {
+        "MessageId": 100160160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100160180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何があったの？",
+        "MessageKR": "그래서, 무슨 일이야?",
+        "MessageTW": "發生了什麼事？",
+        "MessageEN": "So what's up?"
+    },
+    {
+        "MessageId": 100160170,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、流石に花火は要らないかと思いますが……！",
+        "MessageKR": "그, 그 정도까지 해야 할 일인가 하면, 그, 글쎄요?",
+        "MessageTW": "那個，我想應該是不至於需要煙火啦……！",
+        "MessageEN": "Um... I mean it's not that crazy..."
+    },
+    {
+        "MessageId": 100160171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "と、とにかく！",
+        "MessageKR": "어, 어쨌거나!",
+        "MessageTW": "總，總之！",
+        "MessageEN": "Anyway!"
+    },
+    {
+        "MessageId": 100160180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100160181,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度、伝説の名作レトロゲームの続編が出るそうです！",
+        "MessageKR": "이번에 전설의 명작 고전 게임의 후속작이 나왔대요!",
+        "MessageTW": "聽說傳說中的經典懷舊遊戲這次將推出續作！",
+        "MessageEN": "They made a sequel for a legendary, classic, masterpiece of a game!"
+    },
+    {
+        "MessageId": 100160181,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そのゲームの初回限定盤を、絶対に手に入れたくって",
+        "MessageKR": "그 게임의 초회한정판을 반드시 입수하고 싶어요.",
+        "MessageTW": "那款遊戲的初回限定版，我無論如何都想買到",
+        "MessageEN": "I got the limited edition version!"
+    },
+    {
+        "MessageId": 100160190,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100150207,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、付き合ってくれませんか？",
+        "MessageKR": "선생님, 어울려 주실 거죠?",
+        "MessageTW": "老師，能陪我去嗎？",
+        "MessageEN": "Will you play it with me, Sensei?"
+    },
+    {
+        "MessageId": 100150207,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100160200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミドリの絆イベントへ",
+        "MessageKR": "미도리의 인연스토리로",
+        "MessageTW": "前往綠的羈絆劇情",
+        "MessageEN": "Go to Midori's Event"
+    },
+    {
+        "MessageId": 100160200,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100160201,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日はありがとうございました",
+        "MessageKR": "오늘 고마웠어요.",
+        "MessageTW": "今天非常謝謝老師",
+        "MessageEN": "Thanks for today."
+    },
+    {
+        "MessageId": 100160201,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度、一緒にプレイしましょうね。先生",
+        "MessageKR": "다음에 같이 플레이해요. 선생님.",
+        "MessageTW": "下次一起play吧。老師",
+        "MessageEN": "Let's play again next time, Sensei."
+    }
+]

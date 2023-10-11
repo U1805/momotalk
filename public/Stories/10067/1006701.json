@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 10067,
+        "MessageJP": "トキ（バニーガール）",
+        "MessageKR": "토키(바니걸)",
+        "MessageTW": "季(兔女郎)",
+        "MessageEN": "Toki (Bunny)"
+    },
+    {
+        "MessageId": 100660010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100670010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100670010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100670020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100670030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いらっしゃいますか？",
+        "MessageKR": "계십니까?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100670040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あれ、トキ？どうしたの？",
+        "MessageKR": "오, 토키다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100670041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうです、私です",
+        "MessageKR": "그렇습니다. 저입니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100670050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "折り入ってお願いがあるのですが、よろしいでしょうか？",
+        "MessageKR": "선생님께 긴히 드리고 싶은 부탁이 있는데, 괜찮으실까요?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100670060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トキのお願いなら何でも聞くよ",
+        "MessageKR": "토키의 부탁이라면야, 얼마든지.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100670070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その言葉、ゆめゆめ忘れないでくださいね",
+        "MessageKR": "그 말씀, 확실히 기억했습니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670070,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100660077,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと待って！一旦、内容聞いてから考えさせて……？",
+        "MessageKR": "어…… 잠깐만. 지금 좀 신중하게 생각하고 싶어졌는데……?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100660077,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トキ（バニーガール）の絆イベントへ",
+        "MessageKR": "토키(바니걸)의 인연스토리로",
+        "MessageTW": "前往季(兔女郎)的羈絆劇情",
+        "MessageEN": "Go to Toki (Bunny)'s Event"
+    }
+]

@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10006.webp", "MessageJP": "イオリ", "MessageTW": "伊織", "MessageEN": "Iori"}, {"MessageId": 100050070, "Flag": 2, "Type": 4, "NextId": 100060079, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100060079, "Flag": 2, "Type": 0, "NextId": 100060080, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生最近、ゲヘナによく出張に来てるみたいだけど……", "MessageTW": "老師最近好像經常來格黑娜出差……", "MessageEN": "Sensei, you've been coming to the Gehenna Academy a lot these days..."}, {"MessageId": 100060080, "Flag": 2, "Type": 3, "NextId": 100060090, "MessageType": "Text", "ImagePath": "", "MessageJP": "このところ、ゲヘナ学園に関する仕事が多くって", "MessageTW": "最近有很多關於格黑娜學園的工作", "MessageEN": "Well, I've had a lot of work to do at Gehenna lately."}, {"MessageId": 100060080, "Flag": 2, "Type": 3, "NextId": 100060107, "MessageType": "Text", "ImagePath": "", "MessageJP": "イオリちゃんに会いたくって、つい……", "MessageTW": "想和伊織醬見面，忍不住就……", "MessageEN": "I can't help wanting to see you."}, {"MessageId": 100060090, "Flag": 2, "Type": 0, "NextId": 100060114, "MessageType": "Text", "ImagePath": "", "MessageJP": "……そうなんだ。お疲れ様", "MessageTW": "……原來如此。辛苦了", "MessageEN": "I see... You're working hard."}, {"MessageId": 100060107, "Flag": 1, "Type": 0, "NextId": 100060114, "MessageType": "Text", "ImagePath": "", "MessageJP": "……は？何を言ってるんだ？", "MessageTW": "……哈？說什麼呢？", "MessageEN": "*sigh* What are you talking about?"}, {"MessageId": 100060114, "Flag": 1, "Type": 0, "NextId": 100060111, "MessageType": "Text", "ImagePath": "", "MessageJP": "でも実際、学園ではあまり会わないな", "MessageTW": "但實際上，我們很少在學校內見到面呢", "MessageEN": "In any case, I almost never run into you at the academy."}, {"MessageId": 100060111, "Flag": 2, "Type": 0, "NextId": 100060120, "MessageType": "Text", "ImagePath": "", "MessageJP": "出張に来る時は、どこにいるんだ？", "MessageTW": "來出差的時候，都去哪裡啊？", "MessageEN": "Where do you spend most of your time when you come here?"}, {"MessageId": 100060120, "Flag": 2, "Type": 3, "NextId": 100060135, "MessageType": "Text", "ImagePath": "", "MessageJP": "校庭とか", "MessageTW": "中庭之類的", "MessageEN": "At Gehenna."}, {"MessageId": 100060135, "Flag": 2, "Type": 0, "NextId": 100060140, "MessageType": "Text", "ImagePath": "", "MessageJP": "……校庭？何のために？", "MessageTW": "……中庭？為了什麼？", "MessageEN": "The campus? What's at the campus?"}, {"MessageId": 100060140, "Flag": 2, "Type": 3, "NextId": 100060159, "MessageType": "Text", "ImagePath": "", "MessageJP": "今度会った時に教えてあげるね", "MessageTW": "下次見面時告訴你", "MessageEN": "I'll tell you in person."}, {"MessageId": 100060159, "Flag": 2, "Type": 0, "NextId": 100050150, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんか、怪しいな……", "MessageTW": "總覺得很可疑啊……", "MessageEN": "That's strange..."}, {"MessageId": 100050150, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イオリの絆イベントへ", "MessageTW": "前往伊織的羈絆劇情", "MessageEN": "Go to Iori's Event"}]
+[
+    {
+        "CharacterId": 10006,
+        "MessageJP": "イオリ",
+        "MessageKR": "이오리",
+        "MessageTW": "伊織",
+        "MessageEN": "Iori"
+    },
+    {
+        "MessageId": 100050070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100060079,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100060079,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生最近、ゲヘナによく出張に来てるみたいだけど……",
+        "MessageKR": "선생님, 최근 게헨나 학원으로 자주 출장을 오던 것 같던데……",
+        "MessageTW": "老師最近好像經常來格黑娜出差……",
+        "MessageEN": "Sensei, you've been coming to the Gehenna Academy a lot these days..."
+    },
+    {
+        "MessageId": 100060080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "このところ、ゲヘナ学園に関する仕事が多くって",
+        "MessageKR": "최근 게헨나 학원과 관련된 업무가 많아져서.",
+        "MessageTW": "最近有很多關於格黑娜學園的工作",
+        "MessageEN": "Well, I've had a lot of work to do at Gehenna lately."
+    },
+    {
+        "MessageId": 100060080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060107,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イオリちゃんに会いたくって、つい……",
+        "MessageKR": "이오리 쨩을 자주 보고 싶은 마음에 그만…….",
+        "MessageTW": "想和伊織醬見面，忍不住就……",
+        "MessageEN": "I can't help wanting to see you."
+    },
+    {
+        "MessageId": 100060090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060114,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……そうなんだ。お疲れ様",
+        "MessageKR": "그렇구나……. 수고가 많네.",
+        "MessageTW": "……原來如此。辛苦了",
+        "MessageEN": "I see... You're working hard."
+    },
+    {
+        "MessageId": 100060107,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100060114,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……は？何を言ってるんだ？",
+        "MessageKR": "……하아? 무슨 소리를 하는 거야?",
+        "MessageTW": "……哈？說什麼呢？",
+        "MessageEN": "*sigh* What are you talking about?"
+    },
+    {
+        "MessageId": 100060114,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100060111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でも実際、学園ではあまり会わないな",
+        "MessageKR": "그나저나 정작 학원에서는 선생님과 마주친 일이 거의 없네.",
+        "MessageTW": "但實際上，我們很少在學校內見到面呢",
+        "MessageEN": "In any case, I almost never run into you at the academy."
+    },
+    {
+        "MessageId": 100060111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "出張に来る時は、どこにいるんだ？",
+        "MessageKR": "출장을 오면 주로 어디서 시간을 보내는 거야?",
+        "MessageTW": "來出差的時候，都去哪裡啊？",
+        "MessageEN": "Where do you spend most of your time when you come here?"
+    },
+    {
+        "MessageId": 100060120,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060135,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "校庭とか",
+        "MessageKR": "게헨나 학원 교정.",
+        "MessageTW": "中庭之類的",
+        "MessageEN": "At Gehenna."
+    },
+    {
+        "MessageId": 100060135,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……校庭？何のために？",
+        "MessageKR": "……교정? 거기에 뭐가 있는데?",
+        "MessageTW": "……中庭？為了什麼？",
+        "MessageEN": "The campus? What's at the campus?"
+    },
+    {
+        "MessageId": 100060140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060159,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度会った時に教えてあげるね",
+        "MessageKR": "나중에 만나게 되면 알려줄게.",
+        "MessageTW": "下次見面時告訴你",
+        "MessageEN": "I'll tell you in person."
+    },
+    {
+        "MessageId": 100060159,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100050157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんか、怪しいな……",
+        "MessageKR": "어쩐지 수상한데…….",
+        "MessageTW": "總覺得很可疑啊……",
+        "MessageEN": "That's strange..."
+    },
+    {
+        "MessageId": 100050157,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イオリの絆イベントへ",
+        "MessageKR": "이오리의 인연스토리로",
+        "MessageTW": "前往伊織的羈絆劇情",
+        "MessageEN": "Go to Iori's Event"
+    }
+]

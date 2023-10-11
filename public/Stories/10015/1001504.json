@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10015.webp", "MessageJP": "アリス", "MessageTW": "愛麗絲", "MessageEN": "Aris"}, {"MessageId": 1001490290, "Flag": 2, "Type": 4, "NextId": 1001500290, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 1001500290, "Flag": 2, "Type": 0, "NextId": 1001500300, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は猫について詳しいですか？", "MessageTW": "老師對貓了解深嗎？", "MessageEN": "Sensei, do you know much about cats?"}, {"MessageId": 1001500300, "Flag": 1, "Type": 0, "NextId": 1001500301, "MessageType": "Text", "ImagePath": "", "MessageJP": "アリスはあまり詳しくありません", "MessageTW": "愛麗絲不太了解", "MessageEN": "I do not know much about them..."}, {"MessageId": 1001500301, "Flag": 2, "Type": 0, "NextId": 1001500302, "MessageType": "Text", "ImagePath": "", "MessageJP": "猫はとっても素早いです", "MessageTW": "貓很敏捷", "MessageEN": "Cats are very fast. "}, {"MessageId": 1001500302, "Flag": 2, "Type": 0, "NextId": 1001500303, "MessageType": "Text", "ImagePath": "", "MessageJP": "それからニャーと鳴きます、それくらいしか分かりません", "MessageTW": "然後會發出喵喵喵的叫聲，愛麗絲只知道這些", "MessageEN": "And they go, \"meow\"!"}, {"MessageId": 1001500303, "Flag": 2, "Type": 0, "NextId": 1001500310, "MessageType": "Text", "ImagePath": "", "MessageJP": "なにか、猫と仲良くなれる方法を知りませんか？", "MessageTW": "老師知道和貓友好相處的方法嗎？", "MessageEN": "Is there any way to make friends with cats?"}, {"MessageId": 1001500310, "Flag": 2, "Type": 3, "NextId": 1001490310, "MessageType": "Text", "ImagePath": "", "MessageJP": "猫かあ……", "MessageTW": "貓啊……", "MessageEN": "Cats?"}, {"MessageId": 1001500310, "Flag": 2, "Type": 3, "NextId": 1001490310, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん……", "MessageTW": "唔嗯……", "MessageEN": "I'm not sure..."}, {"MessageId": 1001490310, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アリスの絆イベントへ", "MessageTW": "前往愛麗絲的羈絆劇情", "MessageEN": "Go to Aris's Event"}]
+[
+    {
+        "CharacterId": 10015,
+        "MessageJP": "アリス",
+        "MessageKR": "아리스",
+        "MessageTW": "愛麗絲",
+        "MessageEN": "Aris"
+    },
+    {
+        "MessageId": 1001490290,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 1001500290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 1001500290,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 1001500300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は猫について詳しいですか？",
+        "MessageKR": "선생님. 고양이에 대해서 잘 아시나요?",
+        "MessageTW": "老師對貓了解深嗎？",
+        "MessageEN": "Sensei, do you know much about cats?"
+    },
+    {
+        "MessageId": 1001500300,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 1001500301,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アリスはあまり詳しくありません",
+        "MessageKR": "아리스는 잘 모릅니다……",
+        "MessageTW": "愛麗絲不太了解",
+        "MessageEN": "I do not know much about them..."
+    },
+    {
+        "MessageId": 1001500301,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 1001500302,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "猫はとっても素早いです",
+        "MessageKR": "고양이는 재빠릅니다.",
+        "MessageTW": "貓很敏捷",
+        "MessageEN": "Cats are very fast. "
+    },
+    {
+        "MessageId": 1001500302,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 1001500303,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それからニャーと鳴きます、それくらいしか分かりません",
+        "MessageKR": "게다가 야옹~ 하고 웁니다.",
+        "MessageTW": "然後會發出喵喵喵的叫聲，愛麗絲只知道這些",
+        "MessageEN": "And they go, \"meow\"!"
+    },
+    {
+        "MessageId": 1001500303,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 1001500310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なにか、猫と仲良くなれる方法を知りませんか？",
+        "MessageKR": "고양이와 친해질 수 있는 방법은 없을까요?",
+        "MessageTW": "老師知道和貓友好相處的方法嗎？",
+        "MessageEN": "Is there any way to make friends with cats?"
+    },
+    {
+        "MessageId": 1001500310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 1001490317,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "猫かあ……",
+        "MessageKR": "고양이라……",
+        "MessageTW": "貓啊……",
+        "MessageEN": "Cats?"
+    },
+    {
+        "MessageId": 1001500310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 1001490317,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん……",
+        "MessageKR": "글쎄……",
+        "MessageTW": "唔嗯……",
+        "MessageEN": "I'm not sure..."
+    },
+    {
+        "MessageId": 1001490317,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アリスの絆イベントへ",
+        "MessageKR": "아리스의 인연스토리로",
+        "MessageTW": "前往愛麗絲的羈絆劇情",
+        "MessageEN": "Go to Aris's Event"
+    }
+]

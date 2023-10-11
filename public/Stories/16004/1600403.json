@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16004.webp", "MessageJP": "フィーナ", "MessageTW": "菲娜", "MessageEN": "Pina"}, {"MessageId": 160030140, "Flag": 2, "Type": 4, "NextId": 160040146, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160040146, "Flag": 2, "Type": 0, "NextId": 160040143, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、フィーナです！", "MessageTW": "老師，我是菲娜！", "MessageEN": "I'm here, Sensei!"}, {"MessageId": 160040143, "Flag": 2, "Type": 0, "NextId": 160040140, "MessageType": "Text", "ImagePath": "", "MessageJP": "この前お伝えしたように、今度は私が選んだ映画を見ましょう！", "MessageTW": "就像之前說的，這次看我選的電影吧！", "MessageEN": "I'm here to take you a movie!"}, {"MessageId": 160040140, "Flag": 2, "Type": 0, "NextId": 160040157, "MessageType": "Text", "ImagePath": "", "MessageJP": "チケットもすでに用意しました！", "MessageTW": "票也準備好了！", "MessageEN": "I already have two tickets!"}, {"MessageId": 160040157, "Flag": 1, "Type": 0, "NextId": 160040154, "MessageType": "Text", "ImagePath": "", "MessageJP": "それでは待ってます！", "MessageTW": "那我等著唷！", "MessageEN": "I'll be waiting!"}, {"MessageId": 160040154, "Flag": 2, "Type": 0, "NextId": 160030160, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしくお願いします！", "MessageTW": "再拜託你了！", "MessageEN": "Please come when you have time!"}, {"MessageId": 160030160, "Flag": 2, "Type": 2, "NextId": 160040161, "MessageType": "Text", "ImagePath": "", "MessageJP": "フィーナの絆イベントへ", "MessageTW": "前往菲娜的羈絆劇情", "MessageEN": "Go to Pina's Event"}, {"MessageId": 160040161, "Flag": 2, "Type": 0, "NextId": 160040168, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は本当にお疲れ様でした！", "MessageTW": "今天真的是辛苦你了！", "MessageEN": "I feel like I put you through so much today!"}, {"MessageId": 160040168, "Flag": 2, "Type": 0, "NextId": 160040165, "MessageType": "Text", "ImagePath": "", "MessageJP": "私のせいですみません！そしてありがとうございました！！", "MessageTW": "是我的錯，對不起！然後非常感謝！！！", "MessageEN": "I'm sorry... And thank you!"}, {"MessageId": 160040165, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "次もまた映画見ましょう！普通の映画館のやつです！", "MessageTW": "下次再去看電影吧！普通電影院的那種！", "MessageEN": "I'll make sure to let you know before I buy the tickets next time!"}]
+[
+    {
+        "CharacterId": 16004,
+        "MessageJP": "フィーナ",
+        "MessageKR": "피나",
+        "MessageTW": "菲娜",
+        "MessageEN": "Pina"
+    },
+    {
+        "MessageId": 160030140,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160040146,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160040146,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160040143,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、フィーナです！",
+        "MessageKR": "선생님, 피나가 왔습니다!",
+        "MessageTW": "老師，我是菲娜！",
+        "MessageEN": "I'm here, Sensei!"
+    },
+    {
+        "MessageId": 160040143,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160040140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この前お伝えしたように、今度は私が選んだ映画を見ましょう！",
+        "MessageKR": "저번에 말씀드렸듯, 이번에는 제가 영화 대접을 하려고 합니다!",
+        "MessageTW": "就像之前說的，這次看我選的電影吧！",
+        "MessageEN": "I'm here to take you a movie!"
+    },
+    {
+        "MessageId": 160040140,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160040157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チケットもすでに用意しました！",
+        "MessageKR": "마침 구해 둔 표도 이미 두 장으로 있다고요 후후",
+        "MessageTW": "票也準備好了！",
+        "MessageEN": "I already have two tickets!"
+    },
+    {
+        "MessageId": 160040157,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160040154,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでは待ってます！",
+        "MessageKR": "그럼 기다리고 있겠습니다!",
+        "MessageTW": "那我等著唷！",
+        "MessageEN": "I'll be waiting!"
+    },
+    {
+        "MessageId": 160040154,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160030167,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしくお願いします！",
+        "MessageKR": "편하실 때 와주세요!",
+        "MessageTW": "再拜託你了！",
+        "MessageEN": "Please come when you have time!"
+    },
+    {
+        "MessageId": 160030167,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 160040161,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フィーナの絆イベントへ",
+        "MessageKR": "피나의 인연스토리로",
+        "MessageTW": "前往菲娜的羈絆劇情",
+        "MessageEN": "Go to Pina's Event"
+    },
+    {
+        "MessageId": 160040161,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160040168,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は本当にお疲れ様でした！",
+        "MessageKR": "오늘은 정말 저 때문에 고생 많으셨어요!",
+        "MessageTW": "今天真的是辛苦你了！",
+        "MessageEN": "I feel like I put you through so much today!"
+    },
+    {
+        "MessageId": 160040168,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160040165,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私のせいですみません！そしてありがとうございました！！",
+        "MessageKR": "죄송합니다-! 그리고 고맙습니다!!",
+        "MessageTW": "是我的錯，對不起！然後非常感謝！！！",
+        "MessageEN": "I'm sorry... And thank you!"
+    },
+    {
+        "MessageId": 160040165,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次もまた映画見ましょう！普通の映画館のやつです！",
+        "MessageKR": "다음에는 꼭 티켓 끊기 전에도 미리 말씀드릴 테니까요!",
+        "MessageTW": "下次再去看電影吧！普通電影院的那種！",
+        "MessageEN": "I'll make sure to let you know before I buy the tickets next time!"
+    }
+]

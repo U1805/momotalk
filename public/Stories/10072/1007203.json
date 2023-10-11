@@ -1,0 +1,153 @@
+[
+    {
+        "CharacterId": 10072,
+        "MessageJP": "サキ（水着）",
+        "MessageKR": "사키(수영복)",
+        "MessageTW": "咲希(泳裝)",
+        "MessageEN": "Saki (Swimsuit)"
+    },
+    {
+        "MessageId": 100710230,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100720230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100720230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100720240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、村の西側に干潟があるらしいぞ",
+        "MessageKR": "선생님, 마을 서쪽에 갯벌이 있는 거 알고 있어?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100720241,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "住民に聞いたら、1日に2回潮が引いて",
+        "MessageKR": "마을 주민들에게 들었는데, 마을의 서쪽 해안은 하루에 두 번씩 물이 빠져서",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720241,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100720250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "干潟が現れるんだとか",
+        "MessageKR": "갯벌 바닥이 드러난다고 하더라고.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100720260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "不思議な現象だね",
+        "MessageKR": "그거 신기하네",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100720270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "潮が引くと、貝や魚が簡単に拾えるんだ",
+        "MessageKR": "응. 그래서 갯벌이 드러났을 때는 조개나 물웅덩이에 남아 있는 물고기를 편하게 주울 수 있대.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720270,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100720271,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……実は、海産物を獲る許可をもらった時に",
+        "MessageKR": "……사실 지난번에 마을 주민들에게 채취 허가를 받으면서",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720271,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100720280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "干潟にも入っていいと言われてるんだ",
+        "MessageKR": "갯벌에 들어가도 좋다는 허락도 받았거든.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100720281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それで、時間があるなら一緒に行かないか？",
+        "MessageKR": "그래서 말인데, 시간 있으면 마을 서편의 갯바위 앞으로 나와 줄래?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100720290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "水中では失態を見せたが、干潟で落ちてる魚を拾うだけだ。同じ過ちは繰り返さない……",
+        "MessageKR": "물 속이라면 몰라도 땅 위에서 물고기를 줍는데, 지난번 같은 실수를 저지르지는 않겠지……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100720290,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100710297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度こそ、先生に最高級の海産物を食べてもらう！",
+        "MessageKR": "이번에야말로 선생님에게 최고급 해산물을 대접할 테니까!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100710297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サキ（水着）の絆イベントへ",
+        "MessageKR": "사키(수영복)의 인연스토리로",
+        "MessageTW": "前往咲希(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Saki (Swimsuit)'s Event"
+    }
+]

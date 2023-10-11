@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23004.webp", "MessageJP": "ウタハ", "MessageTW": "詠葉", "MessageEN": "Utaha"}, {"MessageId": 230030340, "Flag": 2, "Type": 4, "NextId": 230040341, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230040341, "Flag": 2, "Type": 0, "NextId": 230040358, "MessageType": "Text", "ImagePath": "", "MessageJP": "「サーバル」から今度、新しい作業用手袋が発売されるらしい", "MessageTW": "「Saval」好像要推出新的工作手套的樣子", "MessageEN": "It looks like Serval is going to release some new work gloves."}, {"MessageId": 230040358, "Flag": 1, "Type": 0, "NextId": 230040360, "MessageType": "Text", "ImagePath": "", "MessageJP": "以前買った「マナスル」のは少々厚すぎたから、良いタイミングだ", "MessageTW": "我之前買的「Manaslu」有點太厚了，真是剛好", "MessageEN": "The gloves I bought from Manaslu are too thick, so I was looking for something new. Perfect timing."}, {"MessageId": 230040360, "Flag": 2, "Type": 3, "NextId": 230040370, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういえばウタハ、屋内でもずっと手袋を着けてるね", "MessageTW": "這麼說來，詠葉在室內也一直帶著手套呢", "MessageEN": "I notice you always wear work gloves, even when you're inside, Utaha."}, {"MessageId": 230040370, "Flag": 2, "Type": 3, "NextId": 230040389, "MessageType": "Text", "ImagePath": "", "MessageJP": "何かマイスター的に特別な理由があるの？", "MessageTW": "是有什麼特別的理由嗎？", "MessageEN": "Can I ask why?"}, {"MessageId": 230040389, "Flag": 2, "Type": 0, "NextId": 230040386, "MessageType": "Text", "ImagePath": "", "MessageJP": "大した理由ではないけど、私の指はあまり人に見せられたものではないから", "MessageTW": "其實也沒什麼特別的理由，只是因為我的手指沒什麼好看的而已", "MessageEN": "No special reason... My fingers aren't very pretty."}, {"MessageId": 230040386, "Flag": 2, "Type": 0, "NextId": 230040393, "MessageType": "Text", "ImagePath": "", "MessageJP": "昔からずっと油と金属を触ってきたせいで、決して綺麗とは言えない", "MessageTW": "從以前就一直接觸到油或是金屬之類的東西，絕對稱不上好看", "MessageEN": "Since I spent my childhood playing with grease and metal, my fingers are all cut up and calloused."}, {"MessageId": 230040393, "Flag": 1, "Type": 0, "NextId": 230030390, "MessageType": "Text", "ImagePath": "", "MessageJP": "だから、ね", "MessageTW": "所以，就是這樣", "MessageEN": "That's why I'm always wearing gloves."}, {"MessageId": 230030390, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハの絆イベントへ", "MessageTW": "前往詠葉的羈絆劇情", "MessageEN": "Go to Utaha's Event"}]
+[
+    {
+        "CharacterId": 23004,
+        "MessageJP": "ウタハ",
+        "MessageKR": "우타하",
+        "MessageTW": "詠葉",
+        "MessageEN": "Utaha"
+    },
+    {
+        "MessageId": 230030340,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230040341,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230040341,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040358,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "「サーバル」から今度、新しい作業用手袋が発売されるらしい",
+        "MessageKR": "<서벌>에서 새로운 작업용 장갑을 출시하려는 모양이야.",
+        "MessageTW": "「Saval」好像要推出新的工作手套的樣子",
+        "MessageEN": "It looks like Serval is going to release some new work gloves."
+    },
+    {
+        "MessageId": 230040358,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230040360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "以前買った「マナスル」のは少々厚すぎたから、良いタイミングだ",
+        "MessageKR": "지난번에 <마나슬루>에서 구입한 장갑은 너무 두꺼워서 새로운 것을 찾던 중이었는데…… 마침 잘 되었네.",
+        "MessageTW": "我之前買的「Manaslu」有點太厚了，真是剛好",
+        "MessageEN": "The gloves I bought from Manaslu are too thick, so I was looking for something new. Perfect timing."
+    },
+    {
+        "MessageId": 230040360,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういえばウタハ、屋内でもずっと手袋を着けてるね",
+        "MessageKR": "그러고 보니 우타하는 실내에서도 언제나 작업용 장갑을 끼고 있네.",
+        "MessageTW": "這麼說來，詠葉在室內也一直帶著手套呢",
+        "MessageEN": "I notice you always wear work gloves, even when you're inside, Utaha."
+    },
+    {
+        "MessageId": 230040370,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040389,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何かマイスター的に特別な理由があるの？",
+        "MessageKR": "무슨 특별한 이유라도 있어?",
+        "MessageTW": "是有什麼特別的理由嗎？",
+        "MessageEN": "Can I ask why?"
+    },
+    {
+        "MessageId": 230040389,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040386,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大した理由ではないけど、私の指はあまり人に見せられたものではないから",
+        "MessageKR": "특별한 이유라고 할 것은 없고…… 내 손가락은 그다지 예쁜 편이 아니거든.",
+        "MessageTW": "其實也沒什麼特別的理由，只是因為我的手指沒什麼好看的而已",
+        "MessageEN": "No special reason... My fingers aren't very pretty."
+    },
+    {
+        "MessageId": 230040386,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040393,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "昔からずっと油と金属を触ってきたせいで、決して綺麗とは言えない",
+        "MessageKR": "어릴 적부터 기름과 금속을 만지고 살았더니 끝이 갈라지고 기름때가 스며들어서 보기에 흉해.",
+        "MessageTW": "從以前就一直接觸到油或是金屬之類的東西，絕對稱不上好看",
+        "MessageEN": "Since I spent my childhood playing with grease and metal, my fingers are all cut up and calloused."
+    },
+    {
+        "MessageId": 230040393,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230030397,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "だから、ね",
+        "MessageKR": "그래서 장갑을 끼고 다니는 것뿐이야.",
+        "MessageTW": "所以，就是這樣",
+        "MessageEN": "That's why I'm always wearing gloves."
+    },
+    {
+        "MessageId": 230030397,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハの絆イベントへ",
+        "MessageKR": "우타하의 인연스토리로",
+        "MessageTW": "前往詠葉的羈絆劇情",
+        "MessageEN": "Go to Utaha's Event"
+    }
+]

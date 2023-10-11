@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13003.webp", "MessageJP": "ハスミ", "MessageTW": "蓮實", "MessageEN": "Hasumi"}, {"MessageId": 130020080, "Flag": 2, "Type": 4, "NextId": 130030084, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130030084, "Flag": 2, "Type": 0, "NextId": 130030091, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、我が儘を言ってしまって申し訳ないのですが……", "MessageTW": "老師，很抱歉這麼任性，但是……", "MessageEN": "Sensei, I know this is a selfish request..."}, {"MessageId": 130030091, "Flag": 1, "Type": 0, "NextId": 130030100, "MessageType": "Text", "ImagePath": "", "MessageJP": "先日出来なかった相談、あらためてお願いしてもよろしいでしょうか……？", "MessageTW": "前幾天沒能好好商量的事，能再拜託您嗎……？", "MessageEN": "But can we continue our consultation since we didn't finish last time?"}, {"MessageId": 130030100, "Flag": 2, "Type": 3, "NextId": 130030115, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん。もちろん", "MessageTW": "嗯。當然", "MessageEN": "Yes, of course. This time we'll do the full consultation."}, {"MessageId": 130030115, "Flag": 2, "Type": 0, "NextId": 130030112, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます！", "MessageTW": "非常感謝！", "MessageEN": "Oh..."}, {"MessageId": 130030112, "Flag": 2, "Type": 0, "NextId": 130030119, "MessageType": "Text", "ImagePath": "", "MessageJP": "お忙しいのにすみません、よろしくお願いいたします", "MessageTW": "不好意思在百忙之中打擾您，萬事拜託了", "MessageEN": "Okay. Thank you."}, {"MessageId": 130030119, "Flag": 2, "Type": 0, "NextId": 130020120, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、では場所は……", "MessageTW": "那個，地點的話……", "MessageEN": "I'll be waiting for you."}, {"MessageId": 130020120, "Flag": 2, "Type": 2, "NextId": 130030126, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハスミの絆イベントへ", "MessageTW": "前往蓮實的羈絆劇情", "MessageEN": "Go to Hasumi's Event"}, {"MessageId": 130030126, "Flag": 2, "Type": 0, "NextId": 130030123, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生……", "MessageTW": "老師……", "MessageEN": "Sensei..."}, {"MessageId": 130030123, "Flag": 2, "Type": 0, "NextId": 130030130, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日のことも……忘れてください……", "MessageTW": "今天的事……也請忘了吧……", "MessageEN": "Again, please forget...about today..."}, {"MessageId": 130030130, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "お願いします……", "MessageTW": "拜託您了……", "MessageEN": "I hope you understand..."}]
+[
+    {
+        "CharacterId": 13003,
+        "MessageJP": "ハスミ",
+        "MessageKR": "하스미",
+        "MessageTW": "蓮實",
+        "MessageEN": "Hasumi"
+    },
+    {
+        "MessageId": 130020080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130030084,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130030084,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130030091,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、我が儘を言ってしまって申し訳ないのですが……",
+        "MessageKR": "선생님. 제 멋대로인 부탁이지만……",
+        "MessageTW": "老師，很抱歉這麼任性，但是……",
+        "MessageEN": "Sensei, I know this is a selfish request..."
+    },
+    {
+        "MessageId": 130030091,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130030100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先日出来なかった相談、あらためてお願いしてもよろしいでしょうか……？",
+        "MessageKR": "저번에 못다 한 상담을 다시 받을 수 있을까요.",
+        "MessageTW": "前幾天沒能好好商量的事，能再拜託您嗎……？",
+        "MessageEN": "But can we continue our consultation since we didn't finish last time?"
+    },
+    {
+        "MessageId": 130030100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130030115,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん。もちろん",
+        "MessageKR": "응. 물론이야. 이번에야말로 상담을 끝내자.",
+        "MessageTW": "嗯。當然",
+        "MessageEN": "Yes, of course. This time we'll do the full consultation."
+    },
+    {
+        "MessageId": 130030115,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130030112,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます！",
+        "MessageKR": "아아…….",
+        "MessageTW": "非常感謝！",
+        "MessageEN": "Oh..."
+    },
+    {
+        "MessageId": 130030112,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130030119,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お忙しいのにすみません、よろしくお願いいたします",
+        "MessageKR": "넵. 감사합니다.",
+        "MessageTW": "不好意思在百忙之中打擾您，萬事拜託了",
+        "MessageEN": "Okay. Thank you."
+    },
+    {
+        "MessageId": 130030119,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020127,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、では場所は……",
+        "MessageKR": "기다리고 있겠습니다.",
+        "MessageTW": "那個，地點的話……",
+        "MessageEN": "I'll be waiting for you."
+    },
+    {
+        "MessageId": 130020127,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 130030126,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハスミの絆イベントへ",
+        "MessageKR": "하스미의 인연스토리로",
+        "MessageTW": "前往蓮實的羈絆劇情",
+        "MessageEN": "Go to Hasumi's Event"
+    },
+    {
+        "MessageId": 130030126,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130030123,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生……",
+        "MessageKR": "선생님…….",
+        "MessageTW": "老師……",
+        "MessageEN": "Sensei..."
+    },
+    {
+        "MessageId": 130030123,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130030130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日のことも……忘れてください……",
+        "MessageKR": "오늘 일도…… 잊어주세요…….",
+        "MessageTW": "今天的事……也請忘了吧……",
+        "MessageEN": "Again, please forget...about today..."
+    },
+    {
+        "MessageId": 130030130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お願いします……",
+        "MessageKR": "부탁드리겠습니다…….",
+        "MessageTW": "拜託您了……",
+        "MessageEN": "I hope you understand..."
+    }
+]

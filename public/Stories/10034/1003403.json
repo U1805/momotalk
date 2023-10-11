@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10034.webp", "MessageJP": "ミモリ", "MessageTW": "三森", "MessageEN": "Mimori"}, {"MessageId": 100330220, "Flag": 2, "Type": 4, "NextId": 100340220, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100340220, "Flag": 2, "Type": 0, "NextId": 100340230, "MessageType": "Text", "ImagePath": "", "MessageJP": "修行部の活動で今度、お掃除のボランティアに行くことになりました。", "MessageTW": "修行部這次的活動，決定去進行打掃的義工活動了", "MessageEN": "I'm doing some volunteer work as part of my club activities."}, {"MessageId": 100340230, "Flag": 2, "Type": 3, "NextId": 100340240, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミモリはいつも色んなことに一生懸命だね", "MessageTW": "三森總是在各種事情上盡全力呢", "MessageEN": "You're always putting your best foot forward, huh?"}, {"MessageId": 100340240, "Flag": 2, "Type": 0, "NextId": 100340241, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、ありがとうございます。料理の次は、お掃除。", "MessageTW": "呵呵，謝謝老師。料理的下一個是，打掃", "MessageEN": "Of course. I'll cook first, and then clean!"}, {"MessageId": 100340241, "Flag": 2, "Type": 0, "NextId": 100340250, "MessageType": "Text", "ImagePath": "", "MessageJP": "これらも立派な大和撫子に、そして素敵な花嫁になるための修行ですので。", "MessageTW": "這些也都是為了成為出色的大和撫子，還有優秀的新娘的修行", "MessageEN": "This is all part of my journey to become a proper lady."}, {"MessageId": 100340250, "Flag": 1, "Type": 0, "NextId": 100340251, "MessageType": "Text", "ImagePath": "", "MessageJP": "そこでなのですが……。", "MessageTW": "所以說……", "MessageEN": "Speaking of which..."}, {"MessageId": 100340251, "Flag": 2, "Type": 0, "NextId": 100340260, "MessageType": "Text", "ImagePath": "", "MessageJP": "もしよろしければ先生も、そのお手伝いをしていただけませんか？", "MessageTW": "如果可以的話，能請老師幫忙嗎？", "MessageEN": "Would you mind helping me with my volunteer work? If it's not too much trouble?"}, {"MessageId": 100340260, "Flag": 2, "Type": 3, "NextId": 100340270, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、もちろん", "MessageTW": "嗯，當然", "MessageEN": "I don't mind."}, {"MessageId": 100340270, "Flag": 2, "Type": 0, "NextId": 100330270, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます、ではよろしくお願いしますね♪", "MessageTW": "謝謝老師，那就拜託你了哦♪", "MessageEN": "Great, that'd be really helpful!"}, {"MessageId": 100330270, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミモリの絆イベントへ", "MessageTW": "前往三森的羈絆劇情", "MessageEN": "Go to Mimori's Event"}]
+[
+    {
+        "CharacterId": 10034,
+        "MessageJP": "ミモリ",
+        "MessageKR": "미모리",
+        "MessageTW": "三森",
+        "MessageEN": "Mimori"
+    },
+    {
+        "MessageId": 100330220,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100340220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100340220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "修行部の活動で今度、お掃除のボランティアに行くことになりました。",
+        "MessageKR": "이번에 수행부 활동의 일환으로 청소 봉사활동을 가게 되었어요.",
+        "MessageTW": "修行部這次的活動，決定去進行打掃的義工活動了",
+        "MessageEN": "I'm doing some volunteer work as part of my club activities."
+    },
+    {
+        "MessageId": 100340230,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100340240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミモリはいつも色んなことに一生懸命だね",
+        "MessageKR": "미모리는 늘 수행에 열심이네.",
+        "MessageTW": "三森總是在各種事情上盡全力呢",
+        "MessageEN": "You're always putting your best foot forward, huh?"
+    },
+    {
+        "MessageId": 100340240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340241,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、ありがとうございます。料理の次は、お掃除。",
+        "MessageKR": "네, 요리 다음엔 청소.",
+        "MessageTW": "呵呵，謝謝老師。料理的下一個是，打掃",
+        "MessageEN": "Of course. I'll cook first, and then clean!"
+    },
+    {
+        "MessageId": 100340241,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これらも立派な大和撫子に、そして素敵な花嫁になるための修行ですので。",
+        "MessageKR": "이런 식으로 매일 같이 더욱더 멋진 요조숙녀가 되기 위해 정진하고 있답니다.",
+        "MessageTW": "這些也都是為了成為出色的大和撫子，還有優秀的新娘的修行",
+        "MessageEN": "This is all part of my journey to become a proper lady."
+    },
+    {
+        "MessageId": 100340250,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100340251,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そこでなのですが……。",
+        "MessageKR": "그래서 말이지요. 선생님.",
+        "MessageTW": "所以說……",
+        "MessageEN": "Speaking of which..."
+    },
+    {
+        "MessageId": 100340251,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もしよろしければ先生も、そのお手伝いをしていただけませんか？",
+        "MessageKR": "혹시 실례가 아니라면 이번 봉사활동을 도와주실 수 있으실까요?",
+        "MessageTW": "如果可以的話，能請老師幫忙嗎？",
+        "MessageEN": "Would you mind helping me with my volunteer work? If it's not too much trouble?"
+    },
+    {
+        "MessageId": 100340260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100340270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、もちろん",
+        "MessageKR": "그런 일이라면 당연히 도와줘야지.",
+        "MessageTW": "嗯，當然",
+        "MessageEN": "I don't mind."
+    },
+    {
+        "MessageId": 100340270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100330277,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます、ではよろしくお願いしますね♪",
+        "MessageKR": "네, 그럼 도움, 감사히 받들겠사옵니다♪",
+        "MessageTW": "謝謝老師，那就拜託你了哦♪",
+        "MessageEN": "Great, that'd be really helpful!"
+    },
+    {
+        "MessageId": 100330277,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミモリの絆イベントへ",
+        "MessageKR": "미모리의 인연스토리로",
+        "MessageTW": "前往三森的羈絆劇情",
+        "MessageEN": "Go to Mimori's Event"
+    }
+]

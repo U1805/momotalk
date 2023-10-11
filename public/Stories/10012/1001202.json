@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10012.webp", "MessageJP": "スミレ", "MessageTW": "堇", "MessageEN": "Sumire"}, {"MessageId": 100110060, "Flag": 2, "Type": 4, "NextId": 100120060, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100120060, "Flag": 2, "Type": 0, "NextId": 100120077, "MessageType": "Text", "ImagePath": "", "MessageJP": "トレーナー、今週末はお忙しいでしょうか？", "MessageTW": "指導員，這個週末忙嗎？", "MessageEN": "Trainer, are you busy this weekend?"}, {"MessageId": 100120077, "Flag": 1, "Type": 0, "NextId": 100120080, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしければ私と一緒に、ショッピングモールに行きませんか？", "MessageTW": "如果可以的話，要跟我一起去購物中心嗎？", "MessageEN": "Would you mind coming to the mall with me?"}, {"MessageId": 100120080, "Flag": 2, "Type": 3, "NextId": 100120098, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぜひぜひ", "MessageTW": "當然好呀", "MessageEN": "Not at all."}, {"MessageId": 100120080, "Flag": 2, "Type": 3, "NextId": 100120105, "MessageType": "Text", "ImagePath": "", "MessageJP": "何を買うの？", "MessageTW": "要買什麼？", "MessageEN": "What are you gonna buy?"}, {"MessageId": 100120098, "Flag": 2, "Type": 0, "NextId": 100120105, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます！", "MessageTW": "非常感謝！", "MessageEN": "Thank you, Trainer."}, {"MessageId": 100120105, "Flag": 1, "Type": 0, "NextId": 100120102, "MessageType": "Text", "ImagePath": "", "MessageJP": "プロテインを買いたいので、トレーナーからアドバイスを頂ければと", "MessageTW": "想買乳清蛋白，所以希望從指導員那裡得到一些建議", "MessageEN": "I need protein supplements, and I wanted your input."}, {"MessageId": 100120102, "Flag": 2, "Type": 0, "NextId": 100110100, "MessageType": "Text", "ImagePath": "", "MessageJP": "それでは、ショッピングモールでお待ちしておりますね", "MessageTW": "那麼，我在購物中心等著", "MessageEN": "Well, then, I'll be waiting for you at the mall."}, {"MessageId": 100110100, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "スミレの絆イベントへ", "MessageTW": "前往堇的羈絆劇情", "MessageEN": "Go to Sumire's Event"}]
+[
+    {
+        "CharacterId": 10012,
+        "MessageJP": "スミレ",
+        "MessageKR": "스미레",
+        "MessageTW": "堇",
+        "MessageEN": "Sumire"
+    },
+    {
+        "MessageId": 100110060,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100120060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100120060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100120077,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トレーナー、今週末はお忙しいでしょうか？",
+        "MessageKR": "트레이너, 혹시 이번 주말에 바쁘신가요?",
+        "MessageTW": "指導員，這個週末忙嗎？",
+        "MessageEN": "Trainer, are you busy this weekend?"
+    },
+    {
+        "MessageId": 100120077,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100120080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしければ私と一緒に、ショッピングモールに行きませんか？",
+        "MessageKR": "괜찮으시면 저와 함께 쇼핑몰에 가지 않으시겠습니까?",
+        "MessageTW": "如果可以的話，要跟我一起去購物中心嗎？",
+        "MessageEN": "Would you mind coming to the mall with me?"
+    },
+    {
+        "MessageId": 100120080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100120098,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぜひぜひ",
+        "MessageKR": "그래, 좋아.",
+        "MessageTW": "當然好呀",
+        "MessageEN": "Not at all."
+    },
+    {
+        "MessageId": 100120080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100120105,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何を買うの？",
+        "MessageKR": "무엇을 사려고?",
+        "MessageTW": "要買什麼？",
+        "MessageEN": "What are you gonna buy?"
+    },
+    {
+        "MessageId": 100120098,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100120105,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます！",
+        "MessageKR": "감사합니다, 트레이너.",
+        "MessageTW": "非常感謝！",
+        "MessageEN": "Thank you, Trainer."
+    },
+    {
+        "MessageId": 100120105,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100120102,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "プロテインを買いたいので、トレーナーからアドバイスを頂ければと",
+        "MessageKR": "단백질 보충제를 사려고 하는 데 트레이너의 조언이 필요합니다.",
+        "MessageTW": "想買乳清蛋白，所以希望從指導員那裡得到一些建議",
+        "MessageEN": "I need protein supplements, and I wanted your input."
+    },
+    {
+        "MessageId": 100120102,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100110107,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでは、ショッピングモールでお待ちしておりますね",
+        "MessageKR": "그럼 쇼핑몰에서 기다리겠습니다.",
+        "MessageTW": "那麼，我在購物中心等著",
+        "MessageEN": "Well, then, I'll be waiting for you at the mall."
+    },
+    {
+        "MessageId": 100110107,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スミレの絆イベントへ",
+        "MessageKR": "스미레의 인연스토리로",
+        "MessageTW": "前往堇的羈絆劇情",
+        "MessageEN": "Go to Sumire's Event"
+    }
+]

@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23003.webp", "MessageJP": "ハレ", "MessageTW": "晴", "MessageEN": "Hare"}, {"MessageId": 230020010, "Flag": 2, "Type": 4, "NextId": 230030010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230030010, "Flag": 2, "Type": 0, "NextId": 230030020, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生。今度新しく上映する映画、「エリミネーター4」の噂、聞いた？", "MessageTW": "老師。這次新上映的電影《魔鬼殲滅者4》的消息，你有聽說嗎？", "MessageEN": "Have you heard of that new movie that's coming out, Eliminator 4?"}, {"MessageId": 230030020, "Flag": 2, "Type": 3, "NextId": 230030034, "MessageType": "Text", "ImagePath": "", "MessageJP": "巨大なロボットが都市を破壊していく、あのSFシリーズだよね？", "MessageTW": "是巨大機器人會來破壞都市的那個科幻系列嗎？", "MessageEN": "That's the a sci-fi series where giant robots destroy the city, right?"}, {"MessageId": 230030034, "Flag": 2, "Type": 0, "NextId": 230030031, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうそう。それで、どうやら今回は主人公のサポート役として、", "MessageTW": "對對。然後啊，沒想到這次來支援主角的角色，", "MessageEN": "Yes, but I hear the main character's assistant in this one"}, {"MessageId": 230030031, "Flag": 2, "Type": 0, "NextId": 230030048, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんとハッカーが登場するらしくて", "MessageTW": "竟然是個駭客", "MessageEN": "is a hacker."}, {"MessageId": 230030048, "Flag": 1, "Type": 0, "NextId": 230030045, "MessageType": "Text", "ImagePath": "", "MessageJP": "元々好きだった映画の続編に、ハッキング関連の登場人物が出るなんて……", "MessageTW": "我原本就喜歡的電影續集裡，竟然出現了駭客相關的角色……", "MessageEN": "I was already looking forward to this movie, and now I hear there's a hacker in it! Isn't that exciting?"}, {"MessageId": 230030045, "Flag": 2, "Type": 0, "NextId": 230030050, "MessageType": "Text", "ImagePath": "", "MessageJP": "どう描かれるのか、今から楽しみだね", "MessageTW": "究竟會怎麼呈現呢，真是令人期待", "MessageEN": "I can't wait to see how it's handled."}, {"MessageId": 230030050, "Flag": 2, "Type": 3, "NextId": 230030069, "MessageType": "Text", "ImagePath": "", "MessageJP": "確かに。まだ分からないけど、かっこいいと良いね", "MessageTW": "確實，雖然還不能確定，但要是很酷就好了", "MessageEN": "I hope you like it."}, {"MessageId": 230030069, "Flag": 2, "Type": 0, "NextId": 230020060, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん。今週末に上映するみたいだから、見たら感想を伝えるね", "MessageTW": "嗯。好像是這個週末就要上映了，我看完再跟你說說感想", "MessageEN": "It's coming out this weekend, so I'll let you know how it is."}, {"MessageId": 230020060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハレの絆イベントへ", "MessageTW": "前往晴的羈絆劇情", "MessageEN": "Go to Hare's Event"}]
+[
+    {
+        "CharacterId": 23003,
+        "MessageJP": "ハレ",
+        "MessageKR": "하레",
+        "MessageTW": "晴",
+        "MessageEN": "Hare"
+    },
+    {
+        "MessageId": 230020010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230030010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230030010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生。今度新しく上映する映画、「エリミネーター4」の噂、聞いた？",
+        "MessageKR": "선생님. 이번에 새로 개봉하는 영화, <엘리미네이터 4>의 소식 들었어?",
+        "MessageTW": "老師。這次新上映的電影《魔鬼殲滅者4》的消息，你有聽說嗎？",
+        "MessageEN": "Have you heard of that new movie that's coming out, Eliminator 4?"
+    },
+    {
+        "MessageId": 230030020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030034,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "巨大なロボットが都市を破壊していく、あのSFシリーズだよね？",
+        "MessageKR": "거대한 로봇이 도시를 파괴하는 SF 시리즈물이었지……?",
+        "MessageTW": "是巨大機器人會來破壞都市的那個科幻系列嗎？",
+        "MessageEN": "That's the a sci-fi series where giant robots destroy the city, right?"
+    },
+    {
+        "MessageId": 230030034,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030031,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうそう。それで、どうやら今回は主人公のサポート役として、",
+        "MessageKR": "응, 그런데 이번에는 주인공의 조력자 역할로",
+        "MessageTW": "對對。然後啊，沒想到這次來支援主角的角色，",
+        "MessageEN": "Yes, but I hear the main character's assistant in this one"
+    },
+    {
+        "MessageId": 230030031,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030048,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんとハッカーが登場するらしくて",
+        "MessageKR": "해커 캐릭터가 등장한대.",
+        "MessageTW": "竟然是個駭客",
+        "MessageEN": "is a hacker."
+    },
+    {
+        "MessageId": 230030048,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230030045,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "元々好きだった映画の続編に、ハッキング関連の登場人物が出るなんて……",
+        "MessageKR": "원래부터 좋아했던 영화의 후속편이었는데, 내가 관심 있어 하는 해킹에 관련된 캐릭터가 나온다니…….",
+        "MessageTW": "我原本就喜歡的電影續集裡，竟然出現了駭客相關的角色……",
+        "MessageEN": "I was already looking forward to this movie, and now I hear there's a hacker in it! Isn't that exciting?"
+    },
+    {
+        "MessageId": 230030045,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どう描かれるのか、今から楽しみだね",
+        "MessageKR": "어떻게 묘사될지 벌써부터 기대가 되네.",
+        "MessageTW": "究竟會怎麼呈現呢，真是令人期待",
+        "MessageEN": "I can't wait to see how it's handled."
+    },
+    {
+        "MessageId": 230030050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030069,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "確かに。まだ分からないけど、かっこいいと良いね",
+        "MessageKR": "부디 마음에 들게 나왔으면 좋겠네.",
+        "MessageTW": "確實，雖然還不能確定，但要是很酷就好了",
+        "MessageEN": "I hope you like it."
+    },
+    {
+        "MessageId": 230030069,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん。今週末に上映するみたいだから、見たら感想を伝えるね",
+        "MessageKR": "이번 주말에 개봉한다니 보고 나서 어땠는지 소감을 말해줄게.",
+        "MessageTW": "嗯。好像是這個週末就要上映了，我看完再跟你說說感想",
+        "MessageEN": "It's coming out this weekend, so I'll let you know how it is."
+    },
+    {
+        "MessageId": 230020067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハレの絆イベントへ",
+        "MessageKR": "하레의 인연스토리로",
+        "MessageTW": "前往晴的羈絆劇情",
+        "MessageEN": "Go to Hare's Event"
+    }
+]

@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/26003.webp", "MessageJP": "セリナ", "MessageTW": "芹奈", "MessageEN": "Serina"}, {"MessageId": 260020010, "Flag": 2, "Type": 4, "NextId": 260030011, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 260030011, "Flag": 2, "Type": 0, "NextId": 260030028, "MessageType": "Text", "ImagePath": "", "MessageJP": "何をするにしても、健康が一番大事なんですよ、先生", "MessageTW": "不管做什麼，健康都是最重要的唷，老師", "MessageEN": "Health is wealth, Sensei."}, {"MessageId": 260030028, "Flag": 1, "Type": 0, "NextId": 260030025, "MessageType": "Text", "ImagePath": "", "MessageJP": "いくら忙しくても無理はせず、仕事の合間にはきちんと休んでくださいね", "MessageTW": "就算再怎麼忙也不要勉強，在工作的空檔請好好休息唷", "MessageEN": "You shouldn't overwork yourself. Take a break once in a while."}, {"MessageId": 260030025, "Flag": 2, "Type": 0, "NextId": 260030030, "MessageType": "Text", "ImagePath": "", "MessageJP": "(≧∇≦)ﾉ", "MessageTW": "（≧∇≦)ノ", "MessageEN": ":D"}, {"MessageId": 260030030, "Flag": 2, "Type": 3, "NextId": 260030046, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとう", "MessageTW": "謝謝", "MessageEN": "Thanks."}, {"MessageId": 260030030, "Flag": 2, "Type": 3, "NextId": 260030050, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうしたいのはやまやまなんだけどね……", "MessageTW": "雖然我也很想這麼做……", "MessageEN": "I really wish I could, but..."}, {"MessageId": 260030046, "Flag": 2, "Type": 0, "NextId": 260030043, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、いえいえ", "MessageTW": "呵呵，不用客氣", "MessageEN": "Haha. It's nothing."}, {"MessageId": 260030043, "Flag": 2, "Type": 0, "NextId": 260030064, "MessageType": "Text", "ImagePath": "", "MessageJP": "これくらい当然の行いですから", "MessageTW": "這是應該的", "MessageEN": "I want to help."}, {"MessageId": 260030050, "Flag": 1, "Type": 0, "NextId": 260030057, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうなのですね……", "MessageTW": "這樣子呀……", "MessageEN": "Ah..."}, {"MessageId": 260030057, "Flag": 2, "Type": 0, "NextId": 260030064, "MessageType": "Text", "ImagePath": "", "MessageJP": "なるほど、分かりました", "MessageTW": "原來如此，我明白了", "MessageEN": "Okay. I'll remember that."}, {"MessageId": 260030064, "Flag": 1, "Type": 0, "NextId": 260030061, "MessageType": "Text", "ImagePath": "", "MessageJP": "……", "MessageTW": "……", "MessageEN": "..."}, {"MessageId": 260030061, "Flag": 2, "Type": 0, "NextId": 260020060, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょっと待っててくださいね`(*>﹏<*)′", "MessageTW": "請稍等一下唷`(*>﹏<*)′", "MessageEN": "In more ways than one..."}, {"MessageId": 260020060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "セリナの絆イベントへ", "MessageTW": "前往芹奈的羈絆劇情", "MessageEN": "Go to Serina's Event"}]
+[
+    {
+        "CharacterId": 26003,
+        "MessageJP": "セリナ",
+        "MessageKR": "세리나",
+        "MessageTW": "芹奈",
+        "MessageEN": "Serina"
+    },
+    {
+        "MessageId": 260020010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 260030011,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 260030011,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260030028,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何をするにしても、健康が一番大事なんですよ、先生",
+        "MessageKR": "언제나 건강이 최고랍니다. 선생님.",
+        "MessageTW": "不管做什麼，健康都是最重要的唷，老師",
+        "MessageEN": "Health is wealth, Sensei."
+    },
+    {
+        "MessageId": 260030028,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260030025,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いくら忙しくても無理はせず、仕事の合間にはきちんと休んでくださいね",
+        "MessageKR": "바쁘셔도 무리는 안 돼요. 일도 쉬어 가면서 하셔요.",
+        "MessageTW": "就算再怎麼忙也不要勉強，在工作的空檔請好好休息唷",
+        "MessageEN": "You shouldn't overwork yourself. Take a break once in a while."
+    },
+    {
+        "MessageId": 260030025,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260030030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "(≧∇≦)ﾉ",
+        "MessageKR": "(≧∇≦)ﾉ",
+        "MessageTW": "（≧∇≦)ノ",
+        "MessageEN": ":D"
+    },
+    {
+        "MessageId": 260030030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260030046,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとう",
+        "MessageKR": "고마워.",
+        "MessageTW": "謝謝",
+        "MessageEN": "Thanks."
+    },
+    {
+        "MessageId": 260030030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260030050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうしたいのはやまやまなんだけどね……",
+        "MessageKR": "마음은 굴뚝같지만……",
+        "MessageTW": "雖然我也很想這麼做……",
+        "MessageEN": "I really wish I could, but..."
+    },
+    {
+        "MessageId": 260030046,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260030043,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、いえいえ",
+        "MessageKR": "후후. 뭘요.",
+        "MessageTW": "呵呵，不用客氣",
+        "MessageEN": "Haha. It's nothing."
+    },
+    {
+        "MessageId": 260030043,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260030064,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これくらい当然の行いですから",
+        "MessageKR": "당연히 제가 챙겨드려야죠.",
+        "MessageTW": "這是應該的",
+        "MessageEN": "I want to help."
+    },
+    {
+        "MessageId": 260030050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260030057,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうなのですね……",
+        "MessageKR": "저런……",
+        "MessageTW": "這樣子呀……",
+        "MessageEN": "Ah..."
+    },
+    {
+        "MessageId": 260030057,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260030064,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なるほど、分かりました",
+        "MessageKR": "알겠습니다. 꼭 기억해 둘게요.",
+        "MessageTW": "原來如此，我明白了",
+        "MessageEN": "Okay. I'll remember that."
+    },
+    {
+        "MessageId": 260030064,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260030061,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……",
+        "MessageKR": "……",
+        "MessageTW": "……",
+        "MessageEN": "..."
+    },
+    {
+        "MessageId": 260030061,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260020067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと待っててくださいね`(*>﹏<*)′",
+        "MessageKR": "여러모로요. `(*>﹏<*)′",
+        "MessageTW": "請稍等一下唷`(*>﹏<*)′",
+        "MessageEN": "In more ways than one..."
+    },
+    {
+        "MessageId": 260020067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "セリナの絆イベントへ",
+        "MessageKR": "세리나의 인연스토리로",
+        "MessageTW": "前往芹奈的羈絆劇情",
+        "MessageEN": "Go to Serina's Event"
+    }
+]

@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10035.webp", "MessageJP": "ウイ", "MessageTW": "憂", "MessageEN": "Ui"}, {"MessageId": 100340250, "Flag": 2, "Type": 4, "NextId": 100350250, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100350250, "Flag": 2, "Type": 0, "NextId": 100350260, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今お時間ありますか？", "MessageTW": "老師，你現在有空嗎", "MessageEN": "Sensei."}, {"MessageId": 100350260, "Flag": 1, "Type": 0, "NextId": 100350270, "MessageType": "Text", "ImagePath": "", "MessageJP": "少々ご提案したいこと、と言いますか……", "MessageTW": "該說我有個提案嗎……", "MessageEN": "I have a suggestion. Would you like to hear it?"}, {"MessageId": 100350270, "Flag": 2, "Type": 3, "NextId": 100350280, "MessageType": "Text", "ImagePath": "", "MessageJP": "「提案」？", "MessageTW": "「提案」？", "MessageEN": "A suggestion? Sure."}, {"MessageId": 100350270, "Flag": 2, "Type": 3, "NextId": 100350280, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫だけど、どうしたの？", "MessageTW": "沒問題，怎麼了嗎？", "MessageEN": "Go ahead."}, {"MessageId": 100350280, "Flag": 2, "Type": 0, "NextId": 100350290, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます", "MessageTW": "非常感謝", "MessageEN": "Thank you, Sensei."}, {"MessageId": 100350290, "Flag": 1, "Type": 0, "NextId": 100350291, "MessageType": "Text", "ImagePath": "", "MessageJP": "では、準備をしておきますので", "MessageTW": "那麼我會做好準備的", "MessageEN": "I'll start my preparations now."}, {"MessageId": 100350291, "Flag": 2, "Type": 0, "NextId": 100340290, "MessageType": "Text", "ImagePath": "", "MessageJP": "いつでも来ていただければと", "MessageTW": "歡迎隨時過來", "MessageEN": "Please stop by and I'll tell you more."}, {"MessageId": 100340290, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウイの絆イベントへ", "MessageTW": "前往憂的羈絆劇情", "MessageEN": "Go to Ui's Event"}]
+[
+    {
+        "CharacterId": 10035,
+        "MessageJP": "ウイ",
+        "MessageKR": "우이",
+        "MessageTW": "憂",
+        "MessageEN": "Ui"
+    },
+    {
+        "MessageId": 100340250,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100350250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100350250,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100350260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今お時間ありますか？",
+        "MessageKR": "선생님.",
+        "MessageTW": "老師，你現在有空嗎",
+        "MessageEN": "Sensei."
+    },
+    {
+        "MessageId": 100350260,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100350270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "少々ご提案したいこと、と言いますか……",
+        "MessageKR": "제안하고 싶은 일이 생겼습니다만……. 혹시 괜찮으실까요?",
+        "MessageTW": "該說我有個提案嗎……",
+        "MessageEN": "I have a suggestion. Would you like to hear it?"
+    },
+    {
+        "MessageId": 100350270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100350280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "「提案」？",
+        "MessageKR": "갑자기 '제안'이라고?",
+        "MessageTW": "「提案」？",
+        "MessageEN": "A suggestion? Sure."
+    },
+    {
+        "MessageId": 100350270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100350280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫だけど、どうしたの？",
+        "MessageKR": "나야 괜찮지만, 무슨 일이야?",
+        "MessageTW": "沒問題，怎麼了嗎？",
+        "MessageEN": "Go ahead."
+    },
+    {
+        "MessageId": 100350280,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100350290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます",
+        "MessageKR": "감사합니다. 선생님.",
+        "MessageTW": "非常感謝",
+        "MessageEN": "Thank you, Sensei."
+    },
+    {
+        "MessageId": 100350290,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100350291,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、準備をしておきますので",
+        "MessageKR": "그럼 잘 준비해 둘 테니",
+        "MessageTW": "那麼我會做好準備的",
+        "MessageEN": "I'll start my preparations now."
+    },
+    {
+        "MessageId": 100350291,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100340297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつでも来ていただければと",
+        "MessageKR": "언제든 방문해주시기 바랍니다.",
+        "MessageTW": "歡迎隨時過來",
+        "MessageEN": "Please stop by and I'll tell you more."
+    },
+    {
+        "MessageId": 100340297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウイの絆イベントへ",
+        "MessageKR": "우이의 인연스토리로",
+        "MessageTW": "前往憂的羈絆劇情",
+        "MessageEN": "Go to Ui's Event"
+    }
+]

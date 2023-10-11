@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23004.webp", "MessageJP": "ウタハ", "MessageTW": "詠葉", "MessageEN": "Utaha"}, {"MessageId": 230030010, "Flag": 2, "Type": 4, "NextId": 230040014, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230040014, "Flag": 2, "Type": 0, "NextId": 230040021, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、先ほど文房具のカタログを一生懸命に読んでたけれど……", "MessageTW": "老師，剛剛看到你很認真地在看文具的型錄……", "MessageEN": "I saw you reading through the wholesale stationary shop's catalog before..."}, {"MessageId": 230040021, "Flag": 1, "Type": 0, "NextId": 230040030, "MessageType": "Text", "ImagePath": "", "MessageJP": "何か必要なものでもあるのかい？", "MessageTW": "是有什麼需要的東西嗎？", "MessageEN": "Is there something you need?"}, {"MessageId": 230040030, "Flag": 2, "Type": 3, "NextId": 230040045, "MessageType": "Text", "ImagePath": "", "MessageJP": "新しいペン立てを注文しようと思って", "MessageTW": "想要訂一個新的筆筒", "MessageEN": "I want to order some new pencil holders."}, {"MessageId": 230040045, "Flag": 2, "Type": 0, "NextId": 230040050, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういった単純な形状なら、うちで作った方が早いと思うよ。どうかな？", "MessageTW": "如果是單純的款式的話，在我這裡做的話應該會更快唷。老師你覺得怎麼樣呢？", "MessageEN": "If it's something as simple as a pencil holder, isn't it faster just to make it through the 3D printer in the club room?"}, {"MessageId": 230040050, "Flag": 2, "Type": 3, "NextId": 230040069, "MessageType": "Text", "ImagePath": "", "MessageJP": "そんな簡単に作れるの？", "MessageTW": "這麼簡單就能做出來嗎？", "MessageEN": "You can make a pencil holder with a 3D printer?"}, {"MessageId": 230040069, "Flag": 2, "Type": 0, "NextId": 230040066, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん。おまけに市販のものよりもっと軽くて丈夫なものをね", "MessageTW": "當然。而且還比市面上賣得更輕更堅固", "MessageEN": "Of course! And it should be lighter and stronger than most products on the market."}, {"MessageId": 230040066, "Flag": 2, "Type": 0, "NextId": 230040070, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょうど材料もあるから、私の方で作ってみようか？", "MessageTW": "正好我手邊有材料，我來幫你做怎麼樣呢？", "MessageEN": "I even have the materials. Should I make one for you?"}, {"MessageId": 230040070, "Flag": 2, "Type": 3, "NextId": 230040080, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、じゃあお願いしようかな", "MessageTW": "嗯，那就拜託你了", "MessageEN": "That would be great."}, {"MessageId": 230040080, "Flag": 2, "Type": 0, "NextId": 230030080, "MessageType": "Text", "ImagePath": "", "MessageJP": "分かった、じゃあ1時間後ぐらいにエンジニア部の作業室に来てほしい", "MessageTW": "好的，那希望你大約1小時後到工程師部的工作室來", "MessageEN": "Okay! Come to the Engineering Department workshop in about an hour."}, {"MessageId": 230030080, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハの絆イベントへ", "MessageTW": "前往詠葉的羈絆劇情", "MessageEN": "Go to Utaha's Event"}]
+[
+    {
+        "CharacterId": 23004,
+        "MessageJP": "ウタハ",
+        "MessageKR": "우타하",
+        "MessageTW": "詠葉",
+        "MessageEN": "Utaha"
+    },
+    {
+        "MessageId": 230030010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230040014,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230040014,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040021,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、先ほど文房具のカタログを一生懸命に読んでたけれど……",
+        "MessageKR": "선생님, 아까 보니 도매 문구점의 카탈로그를 열심히 읽고 있던데…….",
+        "MessageTW": "老師，剛剛看到你很認真地在看文具的型錄……",
+        "MessageEN": "I saw you reading through the wholesale stationary shop's catalog before..."
+    },
+    {
+        "MessageId": 230040021,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230040030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何か必要なものでもあるのかい？",
+        "MessageKR": "뭔가 새로 필요한 학용품이라도 있어?",
+        "MessageTW": "是有什麼需要的東西嗎？",
+        "MessageEN": "Is there something you need?"
+    },
+    {
+        "MessageId": 230040030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040045,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "新しいペン立てを注文しようと思って",
+        "MessageKR": "새 연필꽂이를 주문하려고.",
+        "MessageTW": "想要訂一個新的筆筒",
+        "MessageEN": "I want to order some new pencil holders."
+    },
+    {
+        "MessageId": 230040045,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういった単純な形状なら、うちで作った方が早いと思うよ。どうかな？",
+        "MessageKR": "연필꽂이처럼 단순한 형태의 가구라면 부실에 있는 3D 프린터로 만드는 게 더 빠르지 않겠어?",
+        "MessageTW": "如果是單純的款式的話，在我這裡做的話應該會更快唷。老師你覺得怎麼樣呢？",
+        "MessageEN": "If it's something as simple as a pencil holder, isn't it faster just to make it through the 3D printer in the club room?"
+    },
+    {
+        "MessageId": 230040050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040069,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そんな簡単に作れるの？",
+        "MessageKR": "3D 프린터로도 연필꽂이를 만들 수 있어?",
+        "MessageTW": "這麼簡單就能做出來嗎？",
+        "MessageEN": "You can make a pencil holder with a 3D printer?"
+    },
+    {
+        "MessageId": 230040069,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040066,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん。おまけに市販のものよりもっと軽くて丈夫なものをね",
+        "MessageKR": "물론이야. 게다가 시중에 있는 제품보다 더 가볍고 튼튼하게 만들 수 있다고.",
+        "MessageTW": "當然。而且還比市面上賣得更輕更堅固",
+        "MessageEN": "Of course! And it should be lighter and stronger than most products on the market."
+    },
+    {
+        "MessageId": 230040066,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょうど材料もあるから、私の方で作ってみようか？",
+        "MessageKR": "재료도 마침 있는데, 한번 만들어 볼까?",
+        "MessageTW": "正好我手邊有材料，我來幫你做怎麼樣呢？",
+        "MessageEN": "I even have the materials. Should I make one for you?"
+    },
+    {
+        "MessageId": 230040070,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、じゃあお願いしようかな",
+        "MessageKR": "응, 그럼 부탁할게.",
+        "MessageTW": "嗯，那就拜託你了",
+        "MessageEN": "That would be great."
+    },
+    {
+        "MessageId": 230040080,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030087,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "分かった、じゃあ1時間後ぐらいにエンジニア部の作業室に来てほしい",
+        "MessageKR": "알았어. 그럼 1시간 정도 뒤에 엔지니어부의 작업실로 찾아와.",
+        "MessageTW": "好的，那希望你大約1小時後到工程師部的工作室來",
+        "MessageEN": "Okay! Come to the Engineering Department workshop in about an hour."
+    },
+    {
+        "MessageId": 230030087,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハの絆イベントへ",
+        "MessageKR": "우타하의 인연스토리로",
+        "MessageTW": "前往詠葉的羈絆劇情",
+        "MessageEN": "Go to Utaha's Event"
+    }
+]

@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20002.webp", "MessageJP": "サヤ", "MessageTW": "沙耶", "MessageEN": "Saya"}, {"MessageId": 200010120, "Flag": 2, "Type": 4, "NextId": 200020126, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200020126, "Flag": 2, "Type": 0, "NextId": 200020130, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、もう一度研究室に来てくれないか？", "MessageTW": "老師，能再來一趟研究室嗎？", "MessageEN": "Can you come to the laboratory one more time, Sensei?"}, {"MessageId": 200020130, "Flag": 2, "Type": 3, "NextId": 200020140, "MessageType": "Text", "ImagePath": "", "MessageJP": "怪しい……", "MessageTW": "很可疑……", "MessageEN": "I've got a bad feeling about this..."}, {"MessageId": 200020140, "Flag": 2, "Type": 0, "NextId": 200020147, "MessageType": "Text", "ImagePath": "", "MessageJP": "心配無用、今度こそ本当の不老不死の霊薬が完成したのだ！", "MessageTW": "不用擔心，這次是真的完成了長生不老的靈藥！", "MessageEN": "No, I made the immortality elixir! For real this time!"}, {"MessageId": 200020147, "Flag": 2, "Type": 0, "NextId": 200010150, "MessageType": "Text", "ImagePath": "", "MessageJP": "信じられないならぼく様の研究室に来て、直接確かめてみて！", "MessageTW": "不信的話，就來我的研究室親自確認一下！", "MessageEN": "If you don't believe me, come to my lab and see for yourself!"}, {"MessageId": 200010150, "Flag": 2, "Type": 2, "NextId": 200020154, "MessageType": "Text", "ImagePath": "", "MessageJP": "サヤの絆イベントへ", "MessageTW": "前往沙耶的羈絆劇情", "MessageEN": "Go to Saya's Event"}, {"MessageId": 200020154, "Flag": 2, "Type": 0, "NextId": 200020151, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぼく様があんなミスをするなんて……ごめん、先生", "MessageTW": "我竟然犯了那樣的錯誤……抱歉，老師", "MessageEN": "I can't believe I made such a mistake... Sorry, Sensei. "}, {"MessageId": 200020151, "Flag": 2, "Type": 0, "NextId": 200020168, "MessageType": "Text", "ImagePath": "", "MessageJP": "こんなことになるなんて、ぼく様もビックリなのだ", "MessageTW": "變成這樣我也很吃驚", "MessageEN": "I had no idea a tiny error like that would become such a problem."}, {"MessageId": 200020168, "Flag": 1, "Type": 0, "NextId": 200020165, "MessageType": "Text", "ImagePath": "", "MessageJP": "代わりにってわけじゃないけど、", "MessageTW": "雖然可能算不上補償", "MessageEN": "I know it's not much, but..."}, {"MessageId": 200020165, "Flag": 2, "Type": 0, "NextId": 200020162, "MessageType": "Text", "ImagePath": "", "MessageJP": "次に会った時は、玄武商会で美味しいラーメンを奢ってあげるのだ", "MessageTW": "但下次見面時，我請你吃玄武商會好吃的拉麵", "MessageEN": "I'll buy you some delicious noodles at the Promenade next time."}, {"MessageId": 200020162, "Flag": 2, "Type": 0, "NextId": 200020170, "MessageType": "Text", "ImagePath": "", "MessageJP": "……それと、もしよかったら……あのツヤツヤの灰色の毛、少し貰えない？", "MessageTW": "……還有，如果可以的話……那個充滿光澤的灰色毛髮，能給我一點嗎？", "MessageEN": "Do you think I can have some of that gray fur...?"}, {"MessageId": 200020170, "Flag": 2, "Type": 3, "NextId": 200020186, "MessageType": "Text", "ImagePath": "", "MessageJP": "断る", "MessageTW": "我拒絕", "MessageEN": "No."}, {"MessageId": 200020186, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "うう……不老不死の、錬丹術の未来が……", "MessageTW": "嗚嗚……長生不老、煉丹術的未來……", "MessageEN": "Ugh... The future of alchemy depends on it..."}]
+[
+    {
+        "CharacterId": 20002,
+        "MessageJP": "サヤ",
+        "MessageKR": "사야",
+        "MessageTW": "沙耶",
+        "MessageEN": "Saya"
+    },
+    {
+        "MessageId": 200010120,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200020126,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200020126,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、もう一度研究室に来てくれないか？",
+        "MessageKR": "선생, 다시 한번 연구실에 와줄 수 있을까?",
+        "MessageTW": "老師，能再來一趟研究室嗎？",
+        "MessageEN": "Can you come to the laboratory one more time, Sensei?"
+    },
+    {
+        "MessageId": 200020130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200020140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "怪しい……",
+        "MessageKR": "어째 수상한데…….",
+        "MessageTW": "很可疑……",
+        "MessageEN": "I've got a bad feeling about this..."
+    },
+    {
+        "MessageId": 200020140,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020147,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "心配無用、今度こそ本当の不老不死の霊薬が完成したのだ！",
+        "MessageKR": "아니야, 이번에야말로 진짜 불로불사의 영약을 만든 것이다!",
+        "MessageTW": "不用擔心，這次是真的完成了長生不老的靈藥！",
+        "MessageEN": "No, I made the immortality elixir! For real this time!"
+    },
+    {
+        "MessageId": 200020147,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "信じられないならぼく様の研究室に来て、直接確かめてみて！",
+        "MessageKR": "믿기지 않는다면 나님의 연구실에 찾아와서 직접 확인해보라고!",
+        "MessageTW": "不信的話，就來我的研究室親自確認一下！",
+        "MessageEN": "If you don't believe me, come to my lab and see for yourself!"
+    },
+    {
+        "MessageId": 200010157,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200020154,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サヤの絆イベントへ",
+        "MessageKR": "사야의 인연스토리로",
+        "MessageTW": "前往沙耶的羈絆劇情",
+        "MessageEN": "Go to Saya's Event"
+    },
+    {
+        "MessageId": 200020154,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぼく様があんなミスをするなんて……ごめん、先生",
+        "MessageKR": "나님이 이런 실수를 하다니…… 미안, 선생.",
+        "MessageTW": "我竟然犯了那樣的錯誤……抱歉，老師",
+        "MessageEN": "I can't believe I made such a mistake... Sorry, Sensei. "
+    },
+    {
+        "MessageId": 200020151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020168,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんなことになるなんて、ぼく様もビックリなのだ",
+        "MessageKR": "그 사소한 실수가 이렇게 큰 변화를 가져올 줄은 나님도 상상하지 못한 것이다.",
+        "MessageTW": "變成這樣我也很吃驚",
+        "MessageEN": "I had no idea a tiny error like that would become such a problem."
+    },
+    {
+        "MessageId": 200020168,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200020165,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "代わりにってわけじゃないけど、",
+        "MessageKR": "대신이라기는 뭣하지만",
+        "MessageTW": "雖然可能算不上補償",
+        "MessageEN": "I know it's not much, but..."
+    },
+    {
+        "MessageId": 200020165,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020162,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次に会った時は、玄武商会で美味しいラーメンを奢ってあげるのだ",
+        "MessageKR": "다음에 만나면 상회에서 맛있는 국수를 사줄게.",
+        "MessageTW": "但下次見面時，我請你吃玄武商會好吃的拉麵",
+        "MessageEN": "I'll buy you some delicious noodles at the Promenade next time."
+    },
+    {
+        "MessageId": 200020162,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……それと、もしよかったら……あのツヤツヤの灰色の毛、少し貰えない？",
+        "MessageKR": "……그런데 혹시 괜찮다면 그 윤기 나는 회색 털을 조금만 얻을 순 없을까?",
+        "MessageTW": "……還有，如果可以的話……那個充滿光澤的灰色毛髮，能給我一點嗎？",
+        "MessageEN": "Do you think I can have some of that gray fur...?"
+    },
+    {
+        "MessageId": 200020170,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200020186,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "断る",
+        "MessageKR": "거절한다.",
+        "MessageTW": "我拒絕",
+        "MessageEN": "No."
+    },
+    {
+        "MessageId": 200020186,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うう……不老不死の、錬丹術の未来が……",
+        "MessageKR": "으으…… 불로장생의, 연단술의 미래가…….",
+        "MessageTW": "嗚嗚……長生不老、煉丹術的未來……",
+        "MessageEN": "Ugh... The future of alchemy depends on it..."
+    }
+]

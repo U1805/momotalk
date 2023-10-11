@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16009.webp", "MessageJP": "ミチル", "MessageTW": "三千留", "MessageEN": "Michiru"}, {"MessageId": 160080190, "Flag": 2, "Type": 4, "NextId": 160090190, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160090190, "Flag": 2, "Type": 0, "NextId": 160090200, "MessageType": "Text", "ImagePath": "", "MessageJP": "本日の午後、シャーレへ推参する　忍者M", "MessageTW": "今日午後，我將造訪夏萊──忍者M", "MessageEN": "I'll visit Schale this afternoon. - Ninja M"}, {"MessageId": 160090200, "Flag": 2, "Type": 3, "NextId": 160090210, "MessageType": "Text", "ImagePath": "", "MessageJP": "予告……！？", "MessageTW": "預告信……！？", "MessageEN": "I guess you did give me notice, but..."}, {"MessageId": 160090200, "Flag": 2, "Type": 3, "NextId": 160090210, "MessageType": "Text", "ImagePath": "", "MessageJP": "これは忍者ではなく怪盗では……？", "MessageTW": "這行為不是忍者，而是怪盜吧……？", "MessageEN": "That's not how a ninja gives notice. That's more like a mysterious thief..."}, {"MessageId": 160090210, "Flag": 2, "Type": 0, "NextId": 160090211, "MessageType": "Text", "ImagePath": "", "MessageJP": "細かいことは言いっこなし！", "MessageTW": "別在乎那些小細節！", "MessageEN": "Come on! Don't worry about the details!"}, {"MessageId": 160090211, "Flag": 2, "Type": 0, "NextId": 160090220, "MessageType": "Text", "ImagePath": "", "MessageJP": "怪盗もざっくり言っちゃえば忍者みたいなものだから、大丈夫！", "MessageTW": "而且怪盜大致上也跟忍者差不多，不要緊！", "MessageEN": "Also, mysterious thieves are kind of related to ninjas, so it's okay!"}, {"MessageId": 160090220, "Flag": 2, "Type": 3, "NextId": 160090230, "MessageType": "Text", "ImagePath": "", "MessageJP": "本当にそうかな！？", "MessageTW": "話是這麼說的嗎？！", "MessageEN": "Everything's related to ninjas, huh?!"}, {"MessageId": 160090230, "Flag": 2, "Type": 0, "NextId": 160090231, "MessageType": "Text", "ImagePath": "", "MessageJP": "とりあえず予告はしたよ、先生殿！首を洗って待っているが良い！", "MessageTW": "反正我預告過了，老師大人！把脖子洗乾淨等著吧！", "MessageEN": "Wahaha! Anyway, I gave you notice, so you shall wait for me!"}, {"MessageId": 160090231, "Flag": 2, "Type": 0, "NextId": 160090240, "MessageType": "Text", "ImagePath": "", "MessageJP": "またすぐ相まみえることになろう！", "MessageTW": "相信我們很快就會相遇！", "MessageEN": "I'll see you soon!"}, {"MessageId": 160090240, "Flag": 1, "Type": 0, "NextId": 160090250, "MessageType": "Text", "ImagePath": "", "MessageJP": "（ボンッ！！）←煙幕弾の効果音", "MessageTW": "（砰！！）←引爆煙霧彈的音效", "MessageEN": "*pop pop pop pop* <- smoke bomb sound"}, {"MessageId": 160090250, "Flag": 1, "Type": 0, "NextId": 160090260, "MessageType": "Text", "ImagePath": "", "MessageJP": "（シュバババッ！）←素早く去る音", "MessageTW": "（沙沙沙沙！）←迅速離去的聲音", "MessageEN": "*swoosh* <- retreating quickly"}, {"MessageId": 160090260, "Flag": 2, "Type": 3, "NextId": 160080260, "MessageType": "Text", "ImagePath": "", "MessageJP": "……毎回親切にありがとね", "MessageTW": "……謝謝你總是這麼細心", "MessageEN": "...Even more sound effects?"}, {"MessageId": 160080260, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミチルの絆イベントへ", "MessageTW": "前往三千留的羈絆劇情", "MessageEN": "Go to Michiru's Event"}]
+[
+    {
+        "CharacterId": 16009,
+        "MessageJP": "ミチル",
+        "MessageKR": "미치루",
+        "MessageTW": "三千留",
+        "MessageEN": "Michiru"
+    },
+    {
+        "MessageId": 160080190,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160090190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160090190,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160090200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本日の午後、シャーレへ推参する　忍者M",
+        "MessageKR": "오늘 오후, 샬레를 방문하겠다. – 닌자M",
+        "MessageTW": "今日午後，我將造訪夏萊──忍者M",
+        "MessageEN": "I'll visit Schale this afternoon. - Ninja M"
+    },
+    {
+        "MessageId": 160090200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160090210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "予告……！？",
+        "MessageKR": "아니, 방문 예고를 그런 식으로 해도 말이지….",
+        "MessageTW": "預告信……！？",
+        "MessageEN": "I guess you did give me notice, but..."
+    },
+    {
+        "MessageId": 160090200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160090210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これは忍者ではなく怪盗では……？",
+        "MessageKR": "그보다 그거, 닌자가 아니라 괴도의 방식이잖아….",
+        "MessageTW": "這行為不是忍者，而是怪盜吧……？",
+        "MessageEN": "That's not how a ninja gives notice. That's more like a mysterious thief..."
+    },
+    {
+        "MessageId": 160090210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160090211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "細かいことは言いっこなし！",
+        "MessageKR": "에이~ 세세한 건 신경 쓰지 말라고~!",
+        "MessageTW": "別在乎那些小細節！",
+        "MessageEN": "Come on! Don't worry about the details!"
+    },
+    {
+        "MessageId": 160090211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160090220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "怪盗もざっくり言っちゃえば忍者みたいなものだから、大丈夫！",
+        "MessageKR": "게다가 괴도라면 대충 닌자의 후예 같은 거니까. 괜찮아!",
+        "MessageTW": "而且怪盜大致上也跟忍者差不多，不要緊！",
+        "MessageEN": "Also, mysterious thieves are kind of related to ninjas, so it's okay!"
+    },
+    {
+        "MessageId": 160090220,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160090230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本当にそうかな！？",
+        "MessageKR": "닌자 만능론인가?!",
+        "MessageTW": "話是這麼說的嗎？！",
+        "MessageEN": "Everything's related to ninjas, huh?!"
+    },
+    {
+        "MessageId": 160090230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160090231,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "とりあえず予告はしたよ、先生殿！首を洗って待っているが良い！",
+        "MessageKR": "우냐핫! 예고는 했소! 그러니 선생 공! 목을 씻고 기다리고 계시오!",
+        "MessageTW": "反正我預告過了，老師大人！把脖子洗乾淨等著吧！",
+        "MessageEN": "Wahaha! Anyway, I gave you notice, so you shall wait for me!"
+    },
+    {
+        "MessageId": 160090231,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160090240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "またすぐ相まみえることになろう！",
+        "MessageKR": "조만간 소생이 찾아뵙겠소이다!",
+        "MessageTW": "相信我們很快就會相遇！",
+        "MessageEN": "I'll see you soon!"
+    },
+    {
+        "MessageId": 160090240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160090250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "（ボンッ！！）←煙幕弾の効果音",
+        "MessageKR": "(퍼퍼버버벙!!) <- 연막탄을 터트린 소리",
+        "MessageTW": "（砰！！）←引爆煙霧彈的音效",
+        "MessageEN": "*pop pop pop pop* <- smoke bomb sound"
+    },
+    {
+        "MessageId": 160090250,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160090260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "（シュバババッ！）←素早く去る音",
+        "MessageKR": "(샤샤샤샥!) <- 재빠르게 물러나는 소리",
+        "MessageTW": "（沙沙沙沙！）←迅速離去的聲音",
+        "MessageEN": "*swoosh* <- retreating quickly"
+    },
+    {
+        "MessageId": 160090260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080267,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……毎回親切にありがとね",
+        "MessageKR": "…저기, 뭔가 더 늘지 않았어?",
+        "MessageTW": "……謝謝你總是這麼細心",
+        "MessageEN": "...Even more sound effects?"
+    },
+    {
+        "MessageId": 160080267,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミチルの絆イベントへ",
+        "MessageKR": "미치루의 인연스토리로",
+        "MessageTW": "前往三千留的羈絆劇情",
+        "MessageEN": "Go to Michiru's Event"
+    }
+]

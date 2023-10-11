@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/26006.webp", "MessageJP": "ノドカ", "MessageTW": "和香", "MessageEN": "Nodoka"}, {"MessageId": 260050160, "Flag": 2, "Type": 4, "NextId": 260060160, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 260060160, "Flag": 2, "Type": 0, "NextId": 260060170, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、聞きましたか？", "MessageTW": "老師，聽說了嗎？", "MessageEN": "Did you hear the news, Sensei?"}, {"MessageId": 260060170, "Flag": 1, "Type": 0, "NextId": 260060180, "MessageType": "Text", "ImagePath": "", "MessageJP": "流星群ですよ、流星群！", "MessageTW": "有流星雨唷，流星雨！", "MessageEN": "There's gonna be a meteor shower! A meteor shower!"}, {"MessageId": 260060180, "Flag": 2, "Type": 3, "NextId": 260060190, "MessageType": "Text", "ImagePath": "", "MessageJP": "流星群？", "MessageTW": "流星雨？", "MessageEN": "...A meteor shower?"}, {"MessageId": 260060190, "Flag": 2, "Type": 0, "NextId": 260060191, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい、ニュースで見たんですが、今度の満月の日にしし座流星群が見られるみたいです！", "MessageTW": "是的，我在新聞上看到的，這次的滿月之日似乎能看到獅子座流星雨！", "MessageEN": "Yeah, I read the newspaper and they said the Leo meteor shower will happen on the next full moon!"}, {"MessageId": 260060191, "Flag": 2, "Type": 0, "NextId": 260060200, "MessageType": "Text", "ImagePath": "", "MessageJP": "その上、今回のしし座流星群は、レッドウィンターの自治区でも見られるそうで！", "MessageTW": "而且，這次的獅子座流星雨，也能在赤冬的自治區看到！", "MessageEN": "The best part is that we'll be able to see it from the Red Winter Academy district."}, {"MessageId": 260060200, "Flag": 1, "Type": 0, "NextId": 260060201, "MessageType": "Text", "ImagePath": "", "MessageJP": "この前の流星群は、この辺りでは観測できなくて本当に残念でしたが、今度こそ……！", "MessageTW": "之前的流星雨，雖然很遺憾地都沒能在這附近觀測到，不過這次一定……！", "MessageEN": "We couldn't see the last meteor shower from here, so I was really disappointed."}, {"MessageId": 260060201, "Flag": 2, "Type": 0, "NextId": 260060210, "MessageType": "Text", "ImagePath": "", "MessageJP": "実際に見たら、どれほど綺麗なんでしょうね？", "MessageTW": "實際見到的話，會有多漂亮呢？", "MessageEN": "I bet it's beautiful when you see it in person!"}, {"MessageId": 260060210, "Flag": 1, "Type": 0, "NextId": 260050210, "MessageType": "Text", "ImagePath": "", "MessageJP": "今から楽しみです！", "MessageTW": "我已經在期待了！", "MessageEN": "I'm excited already!"}, {"MessageId": 260050210, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ノドカの絆イベントへ", "MessageTW": "前往和香的羈絆劇情", "MessageEN": "Go to Nodoka's Event"}]
+[
+    {
+        "CharacterId": 26006,
+        "MessageJP": "ノドカ",
+        "MessageKR": "노도카",
+        "MessageTW": "和香",
+        "MessageEN": "Nodoka"
+    },
+    {
+        "MessageId": 260050160,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 260060160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 260060160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260060170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、聞きましたか？",
+        "MessageKR": "선생님, 그 소식 들으셨나요?",
+        "MessageTW": "老師，聽說了嗎？",
+        "MessageEN": "Did you hear the news, Sensei?"
+    },
+    {
+        "MessageId": 260060170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260060180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "流星群ですよ、流星群！",
+        "MessageKR": "유성우에요, 유성우!",
+        "MessageTW": "有流星雨唷，流星雨！",
+        "MessageEN": "There's gonna be a meteor shower! A meteor shower!"
+    },
+    {
+        "MessageId": 260060180,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 260060190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "流星群？",
+        "MessageKR": "……유성우?",
+        "MessageTW": "流星雨？",
+        "MessageEN": "...A meteor shower?"
+    },
+    {
+        "MessageId": 260060190,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260060191,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、ニュースで見たんですが、今度の満月の日にしし座流星群が見られるみたいです！",
+        "MessageKR": "네, 신문에서 봤는데, 이번 보름에 사자자리 유성우가 찾아온대요!",
+        "MessageTW": "是的，我在新聞上看到的，這次的滿月之日似乎能看到獅子座流星雨！",
+        "MessageEN": "Yeah, I read the newspaper and they said the Leo meteor shower will happen on the next full moon!"
+    },
+    {
+        "MessageId": 260060191,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260060200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その上、今回のしし座流星群は、レッドウィンターの自治区でも見られるそうで！",
+        "MessageKR": "게다가 이번 보름에 오는 사자자리 유성우는 붉은겨울 학원 자치구에서도 볼 수 있다고 하네요.",
+        "MessageTW": "而且，這次的獅子座流星雨，也能在赤冬的自治區看到！",
+        "MessageEN": "The best part is that we'll be able to see it from the Red Winter Academy district."
+    },
+    {
+        "MessageId": 260060200,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260060201,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この前の流星群は、この辺りでは観測できなくて本当に残念でしたが、今度こそ……！",
+        "MessageKR": "지난번 유성우는 이 근처에서 관측할 수 없어서 정말 아쉬웠는데…….",
+        "MessageTW": "之前的流星雨，雖然很遺憾地都沒能在這附近觀測到，不過這次一定……！",
+        "MessageEN": "We couldn't see the last meteor shower from here, so I was really disappointed."
+    },
+    {
+        "MessageId": 260060201,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 260060210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "実際に見たら、どれほど綺麗なんでしょうね？",
+        "MessageKR": "직접 보는 유성우는 얼마나 아름다울까요?",
+        "MessageTW": "實際見到的話，會有多漂亮呢？",
+        "MessageEN": "I bet it's beautiful when you see it in person!"
+    },
+    {
+        "MessageId": 260060210,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 260050217,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今から楽しみです！",
+        "MessageKR": "벌써부터 기대가 되네요!",
+        "MessageTW": "我已經在期待了！",
+        "MessageEN": "I'm excited already!"
+    },
+    {
+        "MessageId": 260050217,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ノドカの絆イベントへ",
+        "MessageKR": "노도카의 인연스토리로",
+        "MessageTW": "前往和香的羈絆劇情",
+        "MessageEN": "Go to Nodoka's Event"
+    }
+]

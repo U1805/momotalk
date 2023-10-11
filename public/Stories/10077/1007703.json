@@ -1,0 +1,141 @@
+[
+    {
+        "CharacterId": 10077,
+        "MessageJP": "イチカ",
+        "MessageKR": "이치카",
+        "MessageTW": "イチカ",
+        "MessageEN": "Ichika"
+    },
+    {
+        "MessageId": 100760230,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100770230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100770230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100770240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100770250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今って時間あります？",
+        "MessageKR": "지금 한가하시나요",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100770260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん？どうしたの？",
+        "MessageKR": "그럭저럭? 무슨 일이야?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100770260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょうど暇してたところ",
+        "MessageKR": "마침 빈둥거리고 있었어",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100770270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あーえっと",
+        "MessageKR": "아",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770270,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100770280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いや、なんとなく",
+        "MessageKR": "아뇨 그냥",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100770281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと暇だなって……",
+        "MessageKR": "진짜 그냥 심심해서",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100770290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "予定まで結構時間があるんですけど",
+        "MessageKR": "사람들 기다리는 중이라 할 게 없네요",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100770290,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100760297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "思ったよりやることがないんですよね",
+        "MessageKR": "ㅎㅎ",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100760297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イチカの絆イベントへ",
+        "MessageKR": "이치카의 인연스토리로",
+        "MessageTW": "前往イチカ的羈絆劇情",
+        "MessageEN": "Go to Ichika's Event"
+    }
+]

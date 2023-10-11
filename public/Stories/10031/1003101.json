@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10031.webp", "MessageJP": "アル（正月）", "MessageTW": "亞瑠(正月)", "MessageEN": "Aru (New Year)"}, {"MessageId": 100300010, "Flag": 2, "Type": 4, "NextId": 100310010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100310010, "Flag": 2, "Type": 0, "NextId": 100310020, "MessageType": "Text", "ImagePath": "", "MessageJP": "今年一年、私たち便利屋68への温かいご支援とご愛顧を賜り、誠にありがとうございました", "MessageTW": "今年一年，承蒙您對我們便利屋68的熱情支持與惠顧，誠心感謝", "MessageEN": "We sincerely thank you for your interest and love for Problem Solver 68 this year."}, {"MessageId": 100310020, "Flag": 2, "Type": 3, "NextId": 100310030, "MessageType": "Text", "ImagePath": "", "MessageJP": "……？", "MessageTW": "……？", "MessageEN": "...?"}, {"MessageId": 100310030, "Flag": 2, "Type": 0, "NextId": 100310040, "MessageType": "Text", "ImagePath": "", "MessageJP": "な、なによ！その反応！？", "MessageTW": "什，什麼呀！那種反應！", "MessageEN": "H-Hey! What's with that awkward reaction!"}, {"MessageId": 100310040, "Flag": 2, "Type": 3, "NextId": 100310050, "MessageType": "Text", "ImagePath": "", "MessageJP": "ごめん、ちょっとビックリしてた", "MessageTW": "抱歉，剛剛有點嚇一跳", "MessageEN": "I was just taken aback by your sudden strange greeting."}, {"MessageId": 100310040, "Flag": 2, "Type": 3, "NextId": 100310050, "MessageType": "Text", "ImagePath": "", "MessageJP": "一応送り主の確認を…", "MessageTW": "先確認發送人是誰……", "MessageEN": "I thought it was spam because it wasn't like your usual messages."}, {"MessageId": 100310050, "Flag": 2, "Type": 0, "NextId": 100310051, "MessageType": "Text", "ImagePath": "", "MessageJP": "まっ、まあ良いわ！私は寛大だもの！", "MessageTW": "算……算了！我是很寬容大量的！", "MessageEN": "W-Well, it's okay! Because I am magnanimous!"}, {"MessageId": 100310051, "Flag": 2, "Type": 0, "NextId": 100310060, "MessageType": "Text", "ImagePath": "", "MessageJP": "とにかく堅苦しい挨拶はこれで終わり！", "MessageTW": "總之，拘謹的寒暄到此為止！", "MessageEN": "Heeheehee, no more formal greetings!"}, {"MessageId": 100310060, "Flag": 1, "Type": 0, "NextId": 100310061, "MessageType": "Text", "ImagePath": "", "MessageJP": "さあ先生、今年も残りわずかね", "MessageTW": "吶，老師，今年也只剩一點點了", "MessageEN": "Sensei, this year is almost over."}, {"MessageId": 100310061, "Flag": 2, "Type": 0, "NextId": 100310070, "MessageType": "Text", "ImagePath": "", "MessageJP": "年末年始に向けてやることがあるの、だから今日は私に付き合いなさい？", "MessageTW": "為了準備跨年有些事要做，所以今天會陪我吧？", "MessageEN": "So on that note, hang out with me today."}, {"MessageId": 100310070, "Flag": 1, "Type": 0, "NextId": 100310080, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちなみに同業者である先生に、拒否する権利はないわ！", "MessageTW": "順帶一提，身為合夥人的老師沒有拒絕的權利！", "MessageEN": "By the way, as my business partner, you do not have the right to veto!"}, {"MessageId": 100310080, "Flag": 1, "Type": 0, "NextId": 100310090, "MessageType": "Text", "ImagePath": "", "MessageJP": "……", "MessageTW": "……", "MessageEN": "Um..."}, {"MessageId": 100310090, "Flag": 1, "Type": 0, "NextId": 100300090, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、先生、予定空いてるわよね……？ね……？", "MessageTW": "那個，老師，日程還空著吧……？是吧……？", "MessageEN": "Your schedule is free today...right?"}, {"MessageId": 100300090, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アル（正月）の絆イベントへ", "MessageTW": "前往亞瑠(正月)的羈絆劇情", "MessageEN": "Go to Aru (New Year)'s Event"}]
+[
+    {
+        "CharacterId": 10031,
+        "MessageJP": "アル（正月）",
+        "MessageKR": "아루(새해)",
+        "MessageTW": "亞瑠(正月)",
+        "MessageEN": "Aru (New Year)"
+    },
+    {
+        "MessageId": 100300010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100310010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100310010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100310020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今年一年、私たち便利屋68への温かいご支援とご愛顧を賜り、誠にありがとうございました",
+        "MessageKR": "올 한 해 저희 흥신소 68에 보내주신 귀하의 관심과 사랑에 진심으로 감사드립니다.",
+        "MessageTW": "今年一年，承蒙您對我們便利屋68的熱情支持與惠顧，誠心感謝",
+        "MessageEN": "We sincerely thank you for your interest and love for Problem Solver 68 this year."
+    },
+    {
+        "MessageId": 100310020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100310030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……？",
+        "MessageKR": "……?",
+        "MessageTW": "……？",
+        "MessageEN": "...?"
+    },
+    {
+        "MessageId": 100310030,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100310040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "な、なによ！その反応！？",
+        "MessageKR": "뭐, 뭐야! 그 꺼림칙한 반응은!",
+        "MessageTW": "什，什麼呀！那種反應！",
+        "MessageEN": "H-Hey! What's with that awkward reaction!"
+    },
+    {
+        "MessageId": 100310040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100310050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ごめん、ちょっとビックリしてた",
+        "MessageKR": "갑자기 이상한 인사를 보내서 당황했을 뿐이야.",
+        "MessageTW": "抱歉，剛剛有點嚇一跳",
+        "MessageEN": "I was just taken aback by your sudden strange greeting."
+    },
+    {
+        "MessageId": 100310040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100310050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一応送り主の確認を…",
+        "MessageKR": "아루답지 않게 이상한 문자를 보내길래 스팸인 줄 알았어.",
+        "MessageTW": "先確認發送人是誰……",
+        "MessageEN": "I thought it was spam because it wasn't like your usual messages."
+    },
+    {
+        "MessageId": 100310050,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100310051,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まっ、まあ良いわ！私は寛大だもの！",
+        "MessageKR": "뭐, 뭐어. 괜찮아! 나는 관대하니까!",
+        "MessageTW": "算……算了！我是很寬容大量的！",
+        "MessageEN": "W-Well, it's okay! Because I am magnanimous!"
+    },
+    {
+        "MessageId": 100310051,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100310060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "とにかく堅苦しい挨拶はこれで終わり！",
+        "MessageKR": "……후후후훗, 딱딱한 인사는 이걸로 끝!",
+        "MessageTW": "總之，拘謹的寒暄到此為止！",
+        "MessageEN": "Heeheehee, no more formal greetings!"
+    },
+    {
+        "MessageId": 100310060,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100310061,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "さあ先生、今年も残りわずかね",
+        "MessageKR": "자, 선생님, 올해도 얼마 남지 않았어.",
+        "MessageTW": "吶，老師，今年也只剩一點點了",
+        "MessageEN": "Sensei, this year is almost over."
+    },
+    {
+        "MessageId": 100310061,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100310070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "年末年始に向けてやることがあるの、だから今日は私に付き合いなさい？",
+        "MessageKR": "그래서 말인데 오늘은 나와 어울려줘.",
+        "MessageTW": "為了準備跨年有些事要做，所以今天會陪我吧？",
+        "MessageEN": "So on that note, hang out with me today."
+    },
+    {
+        "MessageId": 100310070,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100310080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちなみに同業者である先生に、拒否する権利はないわ！",
+        "MessageKR": "참고로 동업자인 선생님에게 거부권은 없으니까 말이야!",
+        "MessageTW": "順帶一提，身為合夥人的老師沒有拒絕的權利！",
+        "MessageEN": "By the way, as my business partner, you do not have the right to veto!"
+    },
+    {
+        "MessageId": 100310080,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100310090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……",
+        "MessageKR": "그……,",
+        "MessageTW": "……",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 100310090,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100300097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、先生、予定空いてるわよね……？ね……？",
+        "MessageKR": "선생님 예정, 비어 있는 거 맞지……? 응…?",
+        "MessageTW": "那個，老師，日程還空著吧……？是吧……？",
+        "MessageEN": "Your schedule is free today...right?"
+    },
+    {
+        "MessageId": 100300097,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アル（正月）の絆イベントへ",
+        "MessageKR": "아루(새해)의 인연스토리로",
+        "MessageTW": "前往亞瑠(正月)的羈絆劇情",
+        "MessageEN": "Go to Aru (New Year)'s Event"
+    }
+]

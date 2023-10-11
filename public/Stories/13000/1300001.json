@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13000.webp", "MessageJP": "アカネ", "MessageTW": "朱音", "MessageEN": "Akane"}, {"MessageId": 129990010, "Flag": 2, "Type": 4, "NextId": 130000010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130000010, "Flag": 2, "Type": 0, "NextId": 130000020, "MessageType": "Text", "ImagePath": "", "MessageJP": "おはようございます、私のご主人様", "MessageTW": "早安，我的主人", "MessageEN": "Hello, Master."}, {"MessageId": 130000020, "Flag": 2, "Type": 3, "NextId": 130000031, "MessageType": "Text", "ImagePath": "", "MessageJP": "新しいタイプの振り込め詐欺……？", "MessageTW": "新型的匯款詐騙……？", "MessageEN": "Is that right?"}, {"MessageId": 130000020, "Flag": 2, "Type": 3, "NextId": 130000031, "MessageType": "Text", "ImagePath": "", "MessageJP": "ご主人様じゃなくて、先生だよ？", "MessageTW": "不是主人，是老師唷？", "MessageEN": "Oh, right. Not Master, Sensei!"}, {"MessageId": 130000031, "Flag": 2, "Type": 0, "NextId": 130000038, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、ユーモラスなお方ですね", "MessageTW": "呵呵，你很幽默呢", "MessageEN": "That's your sense of humor, huh?"}, {"MessageId": 130000038, "Flag": 2, "Type": 0, "NextId": 130000040, "MessageType": "Text", "ImagePath": "", "MessageJP": "あなたのメイド、アカネです。ここにあらためてご挨拶申し上げます", "MessageTW": "我是你的女僕朱音。在此再次向您問候", "MessageEN": "A pleasure to meet you. My name is Akane, and I'm your maid."}, {"MessageId": 130000040, "Flag": 2, "Type": 3, "NextId": 129990050, "MessageType": "Text", "ImagePath": "", "MessageJP": "……え？", "MessageTW": "……咦？", "MessageEN": "...Huh?"}, {"MessageId": 129990050, "Flag": 2, "Type": 2, "NextId": 130000052, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカネの絆イベントへ", "MessageTW": "前往朱音的羈絆劇情", "MessageEN": "Go to Akane's Event"}, {"MessageId": 130000052, "Flag": 2, "Type": 0, "NextId": 130000059, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、今日は楽しかったです", "MessageTW": "呵呵，今天很開心", "MessageEN": "I had fun today."}, {"MessageId": 130000059, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ご主人様のピンチに颯爽と駆けつけるメイド……良いと思いません？", "MessageTW": "在主人陷入危機時颯爽登場的女僕……不覺得很棒嗎？", "MessageEN": "I'll be there whenever you're in need. Isn't that nice?"}]
+[
+    {
+        "CharacterId": 13000,
+        "MessageJP": "アカネ",
+        "MessageKR": "아카네",
+        "MessageTW": "朱音",
+        "MessageEN": "Akane"
+    },
+    {
+        "MessageId": 129990010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130000010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130000010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おはようございます、私のご主人様",
+        "MessageKR": "안녕하세요. 나의 주인님.",
+        "MessageTW": "早安，我的主人",
+        "MessageEN": "Hello, Master."
+    },
+    {
+        "MessageId": 130000020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130000031,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "新しいタイプの振り込め詐欺……？",
+        "MessageKR": "신종 보이스 피싱……?",
+        "MessageTW": "新型的匯款詐騙……？",
+        "MessageEN": "Is that right?"
+    },
+    {
+        "MessageId": 130000020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130000031,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご主人様じゃなくて、先生だよ？",
+        "MessageKR": "주인님, 아니다. 선생님이다.",
+        "MessageTW": "不是主人，是老師唷？",
+        "MessageEN": "Oh, right. Not Master, Sensei!"
+    },
+    {
+        "MessageId": 130000031,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000038,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、ユーモラスなお方ですね",
+        "MessageKR": "유머 감각이 있으신 분이군요.",
+        "MessageTW": "呵呵，你很幽默呢",
+        "MessageEN": "That's your sense of humor, huh?"
+    },
+    {
+        "MessageId": 130000038,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あなたのメイド、アカネです。ここにあらためてご挨拶申し上げます",
+        "MessageKR": "당신의 메이드 아카네, 인사드립니다.",
+        "MessageTW": "我是你的女僕朱音。在此再次向您問候",
+        "MessageEN": "A pleasure to meet you. My name is Akane, and I'm your maid."
+    },
+    {
+        "MessageId": 130000040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 129990057,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……え？",
+        "MessageKR": "…… 네?",
+        "MessageTW": "……咦？",
+        "MessageEN": "...Huh?"
+    },
+    {
+        "MessageId": 129990057,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 130000052,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカネの絆イベントへ",
+        "MessageKR": "아카네의 인연스토리로",
+        "MessageTW": "前往朱音的羈絆劇情",
+        "MessageEN": "Go to Akane's Event"
+    },
+    {
+        "MessageId": 130000052,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000059,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、今日は楽しかったです",
+        "MessageKR": "후훗. 오늘은 즐거웠어요.",
+        "MessageTW": "呵呵，今天很開心",
+        "MessageEN": "I had fun today."
+    },
+    {
+        "MessageId": 130000059,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご主人様のピンチに颯爽と駆けつけるメイド……良いと思いません？",
+        "MessageKR": "주인님이 위기에 빠진 순간이면, 반드시 등장하는 메이드라, 그것도 괜찮네요.",
+        "MessageTW": "在主人陷入危機時颯爽登場的女僕……不覺得很棒嗎？",
+        "MessageEN": "I'll be there whenever you're in need. Isn't that nice?"
+    }
+]

@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20001.webp", "MessageJP": "カリン", "MessageTW": "花凛", "MessageEN": "Karin"}, {"MessageId": 200000140, "Flag": 2, "Type": 4, "NextId": 200010146, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200010146, "Flag": 2, "Type": 0, "NextId": 200010150, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、衝撃のニュースだ", "MessageTW": "老師，震驚的消息", "MessageEN": "I have a surprise, Sensei."}, {"MessageId": 200010150, "Flag": 2, "Type": 3, "NextId": 200010167, "MessageType": "Text", "ImagePath": "", "MessageJP": "衝撃のニュース？", "MessageTW": "震驚的消息？", "MessageEN": "A surprise?"}, {"MessageId": 200010150, "Flag": 2, "Type": 3, "NextId": 200010167, "MessageType": "Text", "ImagePath": "", "MessageJP": "前向きなニュースだと良いな", "MessageTW": "希望是好消息", "MessageEN": "I hope it's something good."}, {"MessageId": 200010167, "Flag": 2, "Type": 0, "NextId": 200010174, "MessageType": "Text", "ImagePath": "", "MessageJP": "テスト、完全に惨敗 (*‿*)ノ", "MessageTW": "考試，完全慘敗 (*‿*)ノ", "MessageEN": "I totally failed my test. :D"}, {"MessageId": 200010174, "Flag": 1, "Type": 0, "NextId": 200000180, "MessageType": "Text", "ImagePath": "", "MessageJP": "……あれ、この絵文字、合ってる？", "MessageTW": "……啊咧，這個顏文字是對的嗎？", "MessageEN": "Is this the right emote?"}, {"MessageId": 200000180, "Flag": 2, "Type": 2, "NextId": 200010181, "MessageType": "Text", "ImagePath": "", "MessageJP": "カリンの絆イベントへ", "MessageTW": "前往花凛的羈絆劇情", "MessageEN": "Go to Karin's Event"}, {"MessageId": 200010181, "Flag": 2, "Type": 0, "NextId": 200010188, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、ありがとう。今日は楽しかった", "MessageTW": "老師，謝謝你。今天很開心", "MessageEN": "Dinner was fun tonight."}, {"MessageId": 200010188, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "……本当に、心から", "MessageTW": "……真的，發自內心", "MessageEN": "So much fun..."}]
+[
+    {
+        "CharacterId": 20001,
+        "MessageJP": "カリン",
+        "MessageKR": "카린",
+        "MessageTW": "花凛",
+        "MessageEN": "Karin"
+    },
+    {
+        "MessageId": 200000140,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200010146,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200010146,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、衝撃のニュースだ",
+        "MessageKR": "놀라운 소식이 있다 선생님.",
+        "MessageTW": "老師，震驚的消息",
+        "MessageEN": "I have a surprise, Sensei."
+    },
+    {
+        "MessageId": 200010150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010167,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "衝撃のニュース？",
+        "MessageKR": "놀라운 소식?",
+        "MessageTW": "震驚的消息？",
+        "MessageEN": "A surprise?"
+    },
+    {
+        "MessageId": 200010150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010167,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "前向きなニュースだと良いな",
+        "MessageKR": "좋은 일이었으면 좋겠네.",
+        "MessageTW": "希望是好消息",
+        "MessageEN": "I hope it's something good."
+    },
+    {
+        "MessageId": 200010167,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010174,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "テスト、完全に惨敗 (*‿*)ノ",
+        "MessageKR": "시험 완전 망했다. (*‿*)ノ",
+        "MessageTW": "考試，完全慘敗 (*‿*)ノ",
+        "MessageEN": "I totally failed my test. :D"
+    },
+    {
+        "MessageId": 200010174,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200000187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……あれ、この絵文字、合ってる？",
+        "MessageKR": "……이모티콘이 이게 맞나?",
+        "MessageTW": "……啊咧，這個顏文字是對的嗎？",
+        "MessageEN": "Is this the right emote?"
+    },
+    {
+        "MessageId": 200000187,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200010181,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カリンの絆イベントへ",
+        "MessageKR": "카린의 인연스토리로",
+        "MessageTW": "前往花凛的羈絆劇情",
+        "MessageEN": "Go to Karin's Event"
+    },
+    {
+        "MessageId": 200010181,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010188,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、ありがとう。今日は楽しかった",
+        "MessageKR": "오늘 저녁 식사는, 즐거웠다.",
+        "MessageTW": "老師，謝謝你。今天很開心",
+        "MessageEN": "Dinner was fun tonight."
+    },
+    {
+        "MessageId": 200010188,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……本当に、心から",
+        "MessageKR": "……정말, 정말로 즐거웠다.",
+        "MessageTW": "……真的，發自內心",
+        "MessageEN": "So much fun..."
+    }
+]

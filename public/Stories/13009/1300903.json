@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13009.webp", "MessageJP": "ツバキ", "MessageTW": "椿", "MessageEN": "Tsubaki"}, {"MessageId": 130080170, "Flag": 2, "Type": 4, "NextId": 130090173, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130090173, "Flag": 2, "Type": 0, "NextId": 130090180, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、覚えてるよね？", "MessageTW": "老師，你還記得吧？", "MessageEN": "Sensei, don't forget."}, {"MessageId": 130090180, "Flag": 1, "Type": 0, "NextId": 130090190, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日、一緒に修行する日だよ", "MessageTW": "今天是一起修行的日子唷", "MessageEN": "We're supposed to train together today."}, {"MessageId": 130090190, "Flag": 2, "Type": 3, "NextId": 130090201, "MessageType": "Text", "ImagePath": "", "MessageJP": "初耳な気が……？", "MessageTW": "第一次聽說……？", "MessageEN": "That's news to me!"}, {"MessageId": 130090190, "Flag": 2, "Type": 3, "NextId": 130090212, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、そうだっけ？", "MessageTW": "啊，是嗎？", "MessageEN": "Oh, really?"}, {"MessageId": 130090201, "Flag": 2, "Type": 0, "NextId": 130090208, "MessageType": "Text", "ImagePath": "", "MessageJP": "あれ、違ったっけ。約束したと思ってたんだけど……", "MessageTW": "啊咧，不是嗎。我還以為我們約好了……", "MessageEN": "Um, I was certain we'd already agreed to it."}, {"MessageId": 130090208, "Flag": 2, "Type": 0, "NextId": 130090205, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん、夢の中での約束だったのかな？", "MessageTW": "唔嗯，是在夢中約的嗎？", "MessageEN": "Hmm, maybe that happened in a dream?"}, {"MessageId": 130090205, "Flag": 2, "Type": 0, "NextId": 130090220, "MessageType": "Text", "ImagePath": "", "MessageJP": "まあ、どっちでもいいよね？", "MessageTW": "嘛，怎樣都行吧？", "MessageEN": "Well, all right!"}, {"MessageId": 130090212, "Flag": 1, "Type": 0, "NextId": 130090220, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、そうだよ。シャーレで待っててね。先生", "MessageTW": "嗯，是啊。在夏萊等我唷。老師", "MessageEN": "That's right. Wait for me at Schale, Sensei."}, {"MessageId": 130090220, "Flag": 1, "Type": 0, "NextId": 130080211, "MessageType": "Text", "ImagePath": "", "MessageJP": "私の方からシャーレに行くから、待っててね。先生", "MessageTW": "我要去夏萊了，等我唷。老師", "MessageEN": "I'll go to Schale, Sensei."}, {"MessageId": 130080211, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ツバキの絆イベントへ", "MessageTW": "前往椿的羈絆劇情", "MessageEN": "Go to Tsubaki's Event"}]
+[
+    {
+        "CharacterId": 13009,
+        "MessageJP": "ツバキ",
+        "MessageKR": "츠바키",
+        "MessageTW": "椿",
+        "MessageEN": "Tsubaki"
+    },
+    {
+        "MessageId": 130080170,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130090173,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130090173,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、覚えてるよね？",
+        "MessageKR": "선생님, 까먹지 마.",
+        "MessageTW": "老師，你還記得吧？",
+        "MessageEN": "Sensei, don't forget."
+    },
+    {
+        "MessageId": 130090180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130090190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日、一緒に修行する日だよ",
+        "MessageKR": "오늘은 같이 수행하기로 한 날이야.",
+        "MessageTW": "今天是一起修行的日子唷",
+        "MessageEN": "We're supposed to train together today."
+    },
+    {
+        "MessageId": 130090190,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130090201,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "初耳な気が……？",
+        "MessageKR": "금시초문인데?",
+        "MessageTW": "第一次聽說……？",
+        "MessageEN": "That's news to me!"
+    },
+    {
+        "MessageId": 130090190,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130090212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、そうだっけ？",
+        "MessageKR": "아, 그랬었나?",
+        "MessageTW": "啊，是嗎？",
+        "MessageEN": "Oh, really?"
+    },
+    {
+        "MessageId": 130090201,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090208,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あれ、違ったっけ。約束したと思ってたんだけど……",
+        "MessageKR": "어, 분명 약속했었는데.",
+        "MessageTW": "啊咧，不是嗎。我還以為我們約好了……",
+        "MessageEN": "Um, I was certain we'd already agreed to it."
+    },
+    {
+        "MessageId": 130090208,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090205,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん、夢の中での約束だったのかな？",
+        "MessageKR": "으음, 내 꿈에서 한 약속이었나?",
+        "MessageTW": "唔嗯，是在夢中約的嗎？",
+        "MessageEN": "Hmm, maybe that happened in a dream?"
+    },
+    {
+        "MessageId": 130090205,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まあ、どっちでもいいよね？",
+        "MessageKR": "뭐어, 됐나~?",
+        "MessageTW": "嘛，怎樣都行吧？",
+        "MessageEN": "Well, all right!"
+    },
+    {
+        "MessageId": 130090212,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130090220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、そうだよ。シャーレで待っててね。先生",
+        "MessageKR": "응, 맞아. 그러니 샬레에서 기다리고 있어. 선생님.",
+        "MessageTW": "嗯，是啊。在夏萊等我唷。老師",
+        "MessageEN": "That's right. Wait for me at Schale, Sensei."
+    },
+    {
+        "MessageId": 130090220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130080218,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私の方からシャーレに行くから、待っててね。先生",
+        "MessageKR": "내가 샬레로 찾아갈게. 선생님.",
+        "MessageTW": "我要去夏萊了，等我唷。老師",
+        "MessageEN": "I'll go to Schale, Sensei."
+    },
+    {
+        "MessageId": 130080218,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ツバキの絆イベントへ",
+        "MessageKR": "츠바키의 인연스토리로",
+        "MessageTW": "前往椿的羈絆劇情",
+        "MessageEN": "Go to Tsubaki's Event"
+    }
+]

@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16002.webp", "MessageJP": "コトリ", "MessageTW": "亞都梨", "MessageEN": "Kotori"}, {"MessageId": 160010010, "Flag": 2, "Type": 4, "NextId": 160020013, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160020013, "Flag": 2, "Type": 0, "NextId": 160020020, "MessageType": "Text", "ImagePath": "", "MessageJP": "気になることがあったら、いつでも何でも何度でも！", "MessageTW": "如果有任何問題，無論什麼時候，不管幾次都可以！", "MessageEN": "Just ask me anything at all! Anytime, anywhere!"}, {"MessageId": 160020020, "Flag": 1, "Type": 0, "NextId": 160020030, "MessageType": "Text", "ImagePath": "", "MessageJP": "わざわざ調べに行かずとも、ぜひこのコトリに聞いてください！", "MessageTW": "不用去費心調查，直接來問亞都梨就可以了！", "MessageEN": "No need to go anywhere else! Just ask Kotori!"}, {"MessageId": 160020030, "Flag": 2, "Type": 3, "NextId": 160020041, "MessageType": "Text", "ImagePath": "", "MessageJP": "コトリの専門は自然科学全般だっけ？", "MessageTW": "亞都梨的專業是自然科學吧？", "MessageEN": "Scientific knowledge?"}, {"MessageId": 160020030, "Flag": 2, "Type": 3, "NextId": 160020041, "MessageType": "Text", "ImagePath": "", "MessageJP": "何でも……？", "MessageTW": "什麼都可以……？", "MessageEN": "Anything...?"}, {"MessageId": 160020041, "Flag": 2, "Type": 0, "NextId": 160020058, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、そうですね……", "MessageTW": "那個，是啊……", "MessageEN": "Um..."}, {"MessageId": 160020058, "Flag": 1, "Type": 0, "NextId": 160020055, "MessageType": "Text", "ImagePath": "", "MessageJP": "一応私の専攻は主に自然科学全般ですが、", "MessageTW": "我的專業主要是自然科學", "MessageEN": "Yes, science is my specialty,"}, {"MessageId": 160020055, "Flag": 2, "Type": 0, "NextId": 160020062, "MessageType": "Text", "ImagePath": "", "MessageJP": "基本的には、何でも大丈夫です！", "MessageTW": "但基本上，任何事都可以！", "MessageEN": "but you can ask me anything!"}, {"MessageId": 160020062, "Flag": 1, "Type": 0, "NextId": 160010070, "MessageType": "Text", "ImagePath": "", "MessageJP": "私に説明出来ることでしたら、何でもどんとこいです！", "MessageTW": "只要是我能說明的，任何事都行！", "MessageEN": "If there's an explanation!"}, {"MessageId": 160010070, "Flag": 2, "Type": 2, "NextId": 160020079, "MessageType": "Text", "ImagePath": "", "MessageJP": "コトリの絆イベントへ", "MessageTW": "前往亞都梨的羈絆劇情", "MessageEN": "Go to Kotori's Event"}, {"MessageId": 160020079, "Flag": 2, "Type": 0, "NextId": 160020076, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生？どこへ行かれたんですか？", "MessageTW": "老師？你跑去哪裡了？", "MessageEN": "Sensei? Where'd you go?"}, {"MessageId": 160020076, "Flag": 2, "Type": 0, "NextId": 160020083, "MessageType": "Text", "ImagePath": "", "MessageJP": "まさか、逃げたわけではありませんよね？", "MessageTW": "該不會是逃走了吧？", "MessageEN": "...Did you run away?"}, {"MessageId": 160020083, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "……先生？", "MessageTW": "……老師？", "MessageEN": "...Sensei?"}]
+[
+    {
+        "CharacterId": 16002,
+        "MessageJP": "コトリ",
+        "MessageKR": "코토리",
+        "MessageTW": "亞都梨",
+        "MessageEN": "Kotori"
+    },
+    {
+        "MessageId": 160010010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160020013,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160020013,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気になることがあったら、いつでも何でも何度でも！",
+        "MessageKR": "궁금한 게 생기면 언제든 무엇이든!",
+        "MessageTW": "如果有任何問題，無論什麼時候，不管幾次都可以！",
+        "MessageEN": "Just ask me anything at all! Anytime, anywhere!"
+    },
+    {
+        "MessageId": 160020020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160020030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "わざわざ調べに行かずとも、ぜひこのコトリに聞いてください！",
+        "MessageKR": "멀리 갈 필요 없습니다, 이 코토리에게 물어보세요!",
+        "MessageTW": "不用去費心調查，直接來問亞都梨就可以了！",
+        "MessageEN": "No need to go anywhere else! Just ask Kotori!"
+    },
+    {
+        "MessageId": 160020030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160020041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コトリの専門は自然科学全般だっけ？",
+        "MessageKR": "과학적인 지식 이야기야?",
+        "MessageTW": "亞都梨的專業是自然科學吧？",
+        "MessageEN": "Scientific knowledge?"
+    },
+    {
+        "MessageId": 160020030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160020041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何でも……？",
+        "MessageKR": "'무엇이든'?",
+        "MessageTW": "什麼都可以……？",
+        "MessageEN": "Anything...?"
+    },
+    {
+        "MessageId": 160020041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020058,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、そうですね……",
+        "MessageKR": "음……",
+        "MessageTW": "那個，是啊……",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 160020058,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160020055,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一応私の専攻は主に自然科学全般ですが、",
+        "MessageKR": "그렇네요. 비록 과학 쪽이 제 전공이긴 하지만",
+        "MessageTW": "我的專業主要是自然科學",
+        "MessageEN": "Yes, science is my specialty,"
+    },
+    {
+        "MessageId": 160020055,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020062,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "基本的には、何でも大丈夫です！",
+        "MessageKR": "사실 뭐든지 상관없죠!",
+        "MessageTW": "但基本上，任何事都可以！",
+        "MessageEN": "but you can ask me anything!"
+    },
+    {
+        "MessageId": 160020062,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160010077,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私に説明出来ることでしたら、何でもどんとこいです！",
+        "MessageKR": "‘설명’이라면!",
+        "MessageTW": "只要是我能說明的，任何事都行！",
+        "MessageEN": "If there's an explanation!"
+    },
+    {
+        "MessageId": 160010077,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 160020079,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コトリの絆イベントへ",
+        "MessageKR": "코토리의 인연스토리로",
+        "MessageTW": "前往亞都梨的羈絆劇情",
+        "MessageEN": "Go to Kotori's Event"
+    },
+    {
+        "MessageId": 160020079,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020076,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生？どこへ行かれたんですか？",
+        "MessageKR": "선생님? 어디 가셨어요?",
+        "MessageTW": "老師？你跑去哪裡了？",
+        "MessageEN": "Sensei? Where'd you go?"
+    },
+    {
+        "MessageId": 160020076,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020083,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まさか、逃げたわけではありませんよね？",
+        "MessageKR": "……설마 도망치신 건 아니시죠?",
+        "MessageTW": "該不會是逃走了吧？",
+        "MessageEN": "...Did you run away?"
+    },
+    {
+        "MessageId": 160020083,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……先生？",
+        "MessageKR": "……선생님?",
+        "MessageTW": "……老師？",
+        "MessageEN": "...Sensei?"
+    }
+]

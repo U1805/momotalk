@@ -1,1 +1,105 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16002.webp", "MessageJP": "コトリ", "MessageTW": "亞都梨", "MessageEN": "Kotori"}, {"MessageId": 160010090, "Flag": 2, "Type": 4, "NextId": 160020090, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160020090, "Flag": 2, "Type": 0, "NextId": 160020107, "MessageType": "Text", "ImagePath": "", "MessageJP": "気になることがあればいつでも言ってくださいね！", "MessageTW": "如果有任何問題，請隨時告訴我唷！", "MessageEN": "If you have any questions, just ask me anytime!"}, {"MessageId": 160020107, "Flag": 1, "Type": 0, "NextId": 160010110, "MessageType": "Text", "ImagePath": "", "MessageJP": "知的好奇心の傍には、いつもコトリがいますから！", "MessageTW": "因為亞都梨總是伴隨在求知慾的身邊！", "MessageEN": "I can answer all your questions!"}, {"MessageId": 160010110, "Flag": 2, "Type": 2, "NextId": 160020114, "MessageType": "Text", "ImagePath": "", "MessageJP": "コトリの絆イベントへ", "MessageTW": "前往亞都梨的羈絆劇情", "MessageEN": "Go to Kotori's Event"}, {"MessageId": 160020114, "Flag": 2, "Type": 0, "NextId": 160020111, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございました、先生！感動しました！", "MessageTW": "謝謝您，老師！太感動了！", "MessageEN": "Thank you, Sensei! I'm touched..."}, {"MessageId": 160020111, "Flag": 2, "Type": 0, "NextId": 160020118, "MessageType": "Text", "ImagePath": "", "MessageJP": "まさかここまでの速さで理解してくれるなんて！", "MessageTW": "沒想到這麼快就理解了！", "MessageEN": "I never imagined someone would understand!"}, {"MessageId": 160020118, "Flag": 2, "Type": 0, "NextId": 160020125, "MessageType": "Text", "ImagePath": "", "MessageJP": "……えっと、先生、もしよろしければ時々でも良いので、", "MessageTW": "……那個，老師，偶爾就好，如果可以的話", "MessageEN": "So you can expect me to ask you things..."}, {"MessageId": 160020125, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "……よろしくお願いしますね！", "MessageTW": "……再萬事拜託了！", "MessageEN": "Every now and then!"}]
+[
+    {
+        "CharacterId": 16002,
+        "MessageJP": "コトリ",
+        "MessageKR": "코토리",
+        "MessageTW": "亞都梨",
+        "MessageEN": "Kotori"
+    },
+    {
+        "MessageId": 160010090,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160020090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160020090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020107,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気になることがあればいつでも言ってくださいね！",
+        "MessageKR": "궁금한 게 있으시면 언제든 말해주세요!",
+        "MessageTW": "如果有任何問題，請隨時告訴我唷！",
+        "MessageEN": "If you have any questions, just ask me anytime!"
+    },
+    {
+        "MessageId": 160020107,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160010117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "知的好奇心の傍には、いつもコトリがいますから！",
+        "MessageKR": "궁금증 해결은 언제나 코토리와 함께!",
+        "MessageTW": "因為亞都梨總是伴隨在求知慾的身邊！",
+        "MessageEN": "I can answer all your questions!"
+    },
+    {
+        "MessageId": 160010117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 160020114,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コトリの絆イベントへ",
+        "MessageKR": "코토리의 인연스토리로",
+        "MessageTW": "前往亞都梨的羈絆劇情",
+        "MessageEN": "Go to Kotori's Event"
+    },
+    {
+        "MessageId": 160020114,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございました、先生！感動しました！",
+        "MessageKR": "고맙습니다, 선생님! 감동했습니다!",
+        "MessageTW": "謝謝您，老師！太感動了！",
+        "MessageEN": "Thank you, Sensei! I'm touched..."
+    },
+    {
+        "MessageId": 160020111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020118,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まさかここまでの速さで理解してくれるなんて！",
+        "MessageKR": "설마 이해해주는 사람이 있을 줄은 몰랐는데!",
+        "MessageTW": "沒想到這麼快就理解了！",
+        "MessageEN": "I never imagined someone would understand!"
+    },
+    {
+        "MessageId": 160020118,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160020125,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……えっと、先生、もしよろしければ時々でも良いので、",
+        "MessageKR": "그러니 선생님께는 앞으로도 종종",
+        "MessageTW": "……那個，老師，偶爾就好，如果可以的話",
+        "MessageEN": "So you can expect me to ask you things..."
+    },
+    {
+        "MessageId": 160020125,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……よろしくお願いしますね！",
+        "MessageKR": "……종종 부탁드릴게요!",
+        "MessageTW": "……再萬事拜託了！",
+        "MessageEN": "Every now and then!"
+    }
+]

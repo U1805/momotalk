@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10007.webp", "MessageJP": "マキ", "MessageTW": "真紀", "MessageEN": "Maki"}, {"MessageId": 100060320, "Flag": 2, "Type": 4, "NextId": 100070323, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100070323, "Flag": 2, "Type": 0, "NextId": 100070330, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生！この前のテスト、満点だったよ！", "MessageTW": "老師！上次的考試，拿到滿分唷！", "MessageEN": "Sensei! I got a perfect score on the make-up test!"}, {"MessageId": 100070330, "Flag": 1, "Type": 0, "NextId": 100070340, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、先生がこの前勉強見てくれたおかげ！", "MessageTW": "呵呵，多虧了老師上次教我念書！", "MessageEN": "Hehe, I couldn't have done it without your special lesson. "}, {"MessageId": 100070340, "Flag": 2, "Type": 3, "NextId": 100070354, "MessageType": "Text", "ImagePath": "", "MessageJP": "おめでとう、マキも勉強頑張ったね", "MessageTW": "恭喜，真紀也努力念書了呢", "MessageEN": "Congratulations. You worked really hard."}, {"MessageId": 100070354, "Flag": 2, "Type": 0, "NextId": 100070360, "MessageType": "Text", "ImagePath": "", "MessageJP": "偉いでしょ？もっと褒めて～！", "MessageTW": "很了不起吧？再多稱讚一點～！", "MessageEN": "Didn't I do great? Tell me I did a great job! Come on!"}, {"MessageId": 100070360, "Flag": 2, "Type": 3, "NextId": 100070378, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあ頑張ったマキのために、市内でアイスクリームを買ってあげようかな", "MessageTW": "那就去市區給努力的真紀買支冰淇淋吧", "MessageEN": "I'll take you into the city for some ice cream, since you worked so hard for the test."}, {"MessageId": 100070378, "Flag": 2, "Type": 0, "NextId": 100070375, "MessageType": "Text", "ImagePath": "", "MessageJP": "本当！？約束だよ、先生！", "MessageTW": "真的嗎！？約好了唷，老師！", "MessageEN": "Really? You promise, Sensei?"}, {"MessageId": 100070375, "Flag": 2, "Type": 0, "NextId": 100060380, "MessageType": "Text", "ImagePath": "", "MessageJP": "もうスクショ撮ったから、後で知らんぷりとかダメだからね！", "MessageTW": "已經截圖下來了，之後不能假裝不知道唷！", "MessageEN": "I took a screenshot of this message, so you can't cancel on me!"}, {"MessageId": 100060380, "Flag": 2, "Type": 2, "NextId": 100070382, "MessageType": "Text", "ImagePath": "", "MessageJP": "マキの絆イベントへ", "MessageTW": "前往真紀的羈絆劇情", "MessageEN": "Go to Maki's Event"}, {"MessageId": 100070382, "Flag": 2, "Type": 0, "NextId": 100070389, "MessageType": "Text", "ImagePath": "", "MessageJP": "ゴミの片づけ手伝ってくれてありがと、先生", "MessageTW": "謝謝你幫忙清理垃圾，老師", "MessageEN": "Thank you for helping clean up the trash, Sensei."}, {"MessageId": 100070389, "Flag": 2, "Type": 0, "NextId": 100070390, "MessageType": "Text", "ImagePath": "", "MessageJP": "それから、見逃してくれたのも。ありがとね", "MessageTW": "還有，放我一馬。謝啦", "MessageEN": "...Also, thank you for pretending not to know about the graffiti."}, {"MessageId": 100070390, "Flag": 2, "Type": 3, "NextId": 100070403, "MessageType": "Text", "ImagePath": "", "MessageJP": "今回のことは、善意だったんでしょ？", "MessageTW": "這次是出於善意才做的吧？", "MessageEN": "You were trying to do something good this time."}, {"MessageId": 100070403, "Flag": 2, "Type": 0, "NextId": 100070410, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん！あっ……でも、お巡りさんに見つかって怒られたらどうしよう……", "MessageTW": "嗯！啊……但是，如果被警察發現並被責罵的話怎麼辦……", "MessageEN": "Ugh... Still, what if that cop finds out and I get in trouble?"}, {"MessageId": 100070410, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "その時は先生が「違うんです」って言ってね！絶対だよ！", "MessageTW": "到時候老師要說「不是這樣的」！絕對要喔！", "MessageEN": "If that happens, please talk to the cop for me, okay?"}]
+[
+    {
+        "CharacterId": 10007,
+        "MessageJP": "マキ",
+        "MessageKR": "마키",
+        "MessageTW": "真紀",
+        "MessageEN": "Maki"
+    },
+    {
+        "MessageId": 100060320,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100070323,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100070323,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生！この前のテスト、満点だったよ！",
+        "MessageKR": "선생님! 얼마 전에 치른 재시험에서 만점을 받았어!",
+        "MessageTW": "老師！上次的考試，拿到滿分唷！",
+        "MessageEN": "Sensei! I got a perfect score on the make-up test!"
+    },
+    {
+        "MessageId": 100070330,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100070340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、先生がこの前勉強見てくれたおかげ！",
+        "MessageKR": "후후, 선생님이 저번에 가르쳐 준 특별 수업 덕분이야.",
+        "MessageTW": "呵呵，多虧了老師上次教我念書！",
+        "MessageEN": "Hehe, I couldn't have done it without your special lesson. "
+    },
+    {
+        "MessageId": 100070340,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100070354,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おめでとう、マキも勉強頑張ったね",
+        "MessageKR": "축하해. 마키도 공부하느라 수고 많았어.",
+        "MessageTW": "恭喜，真紀也努力念書了呢",
+        "MessageEN": "Congratulations. You worked really hard."
+    },
+    {
+        "MessageId": 100070354,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "偉いでしょ？もっと褒めて～！",
+        "MessageKR": "나 잘했지? 더 칭찬해 줘, 더~!",
+        "MessageTW": "很了不起吧？再多稱讚一點～！",
+        "MessageEN": "Didn't I do great? Tell me I did a great job! Come on!"
+    },
+    {
+        "MessageId": 100070360,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100070378,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあ頑張ったマキのために、市内でアイスクリームを買ってあげようかな",
+        "MessageKR": "그럼 시험공부를 하느라 수고한 마키를 위해 시내에서 아이스크림을 사줄게.",
+        "MessageTW": "那就去市區給努力的真紀買支冰淇淋吧",
+        "MessageEN": "I'll take you into the city for some ice cream, since you worked so hard for the test."
+    },
+    {
+        "MessageId": 100070378,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070375,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本当！？約束だよ、先生！",
+        "MessageKR": "정말? 약속한 거다, 선생님!",
+        "MessageTW": "真的嗎！？約好了唷，老師！",
+        "MessageEN": "Really? You promise, Sensei?"
+    },
+    {
+        "MessageId": 100070375,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060387,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もうスクショ撮ったから、後で知らんぷりとかダメだからね！",
+        "MessageKR": "이 메시지, 캡처해두었으니까 나중에 무르기 없기야!",
+        "MessageTW": "已經截圖下來了，之後不能假裝不知道唷！",
+        "MessageEN": "I took a screenshot of this message, so you can't cancel on me!"
+    },
+    {
+        "MessageId": 100060387,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100070382,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マキの絆イベントへ",
+        "MessageKR": "마키의 인연스토리로",
+        "MessageTW": "前往真紀的羈絆劇情",
+        "MessageEN": "Go to Maki's Event"
+    },
+    {
+        "MessageId": 100070382,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070389,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ゴミの片づけ手伝ってくれてありがと、先生",
+        "MessageKR": "쓰레기 치우는 거 도와줘서 고마워, 선생님.",
+        "MessageTW": "謝謝你幫忙清理垃圾，老師",
+        "MessageEN": "Thank you for helping clean up the trash, Sensei."
+    },
+    {
+        "MessageId": 100070389,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それから、見逃してくれたのも。ありがとね",
+        "MessageKR": "……그리고 몰래 낙서한 것도 모른 척해줘서 고마워.",
+        "MessageTW": "還有，放我一馬。謝啦",
+        "MessageEN": "...Also, thank you for pretending not to know about the graffiti."
+    },
+    {
+        "MessageId": 100070390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100070403,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今回のことは、善意だったんでしょ？",
+        "MessageKR": "이번에는 좋은 일을 하려고 했던 거니까.",
+        "MessageTW": "這次是出於善意才做的吧？",
+        "MessageEN": "You were trying to do something good this time."
+    },
+    {
+        "MessageId": 100070403,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100070410,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん！あっ……でも、お巡りさんに見つかって怒られたらどうしよう……",
+        "MessageKR": "우으…… 그래도 경찰 아저씨에게 걸려서 혼나면 어쩌지?",
+        "MessageTW": "嗯！啊……但是，如果被警察發現並被責罵的話怎麼辦……",
+        "MessageEN": "Ugh... Still, what if that cop finds out and I get in trouble?"
+    },
+    {
+        "MessageId": 100070410,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その時は先生が「違うんです」って言ってね！絶対だよ！",
+        "MessageKR": "그때는 선생님이 꼭 경찰에게 잘 말해줘야 해. 꼭이야!",
+        "MessageTW": "到時候老師要說「不是這樣的」！絕對要喔！",
+        "MessageEN": "If that happens, please talk to the cop for me, okay?"
+    }
+]

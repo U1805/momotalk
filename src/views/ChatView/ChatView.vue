@@ -183,10 +183,10 @@ onMounted(async () => {
     let id = route.query.id as string
     if (id) {
         store.storyKey = id
-        store.storyList = (await getMessage(store.storyKey, 'index')) as string[]
+        store.storyList = (await getMessage(store.storyKey, 'index')) as {}
         if (store.storyList) {
-            if (!store.storyList.find((ele) => ele === store.storyFile))
-                store.storyFile = store.storyList[0]
+            if (!Object.keys(store.storyList).find((ele) => ele === store.storyFile))
+                store.storyFile = Object.keys(store.storyList)[0]
             store.showDialog = true
         }
     }

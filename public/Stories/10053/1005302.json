@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10053.webp", "MessageJP": "ユウカ（体操服）", "MessageTW": "優香(體育服)", "MessageEN": "Yuuka (Track)"}, {"MessageId": 100520110, "Flag": 2, "Type": 4, "NextId": 100530110, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100530110, "Flag": 2, "Type": 0, "NextId": 100530120, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういえば、今回の[ruby=こうりんたいさい]晄輪大祭[/ruby]中は校内のカフェテリアを利用できないみたいです", "MessageTW": "這麼說來，在這次晄輪大祭期間，校內的食堂好像無法使用", "MessageEN": "Come to think of it, won't the cafeteria be closed during the Kivotos Halo Festival?"}, {"MessageId": 100530120, "Flag": 1, "Type": 0, "NextId": 100530130, "MessageType": "Text", "ImagePath": "", "MessageJP": "近くに屋台が出店されるはずですが、当日は実行委員の仕事に追われて立ち寄る時間もなさそうですし……", "MessageTW": "雖然附近會有攤販，但當天應該會被實行委員的工作追著跑，所以沒時間去……", "MessageEN": "I'm sure there'll be vendors and food stands, but I probably won't have time to stop by while on committee duty..."}, {"MessageId": 100530130, "Flag": 1, "Type": 0, "NextId": 100530140, "MessageType": "Text", "ImagePath": "", "MessageJP": "今回はお弁当を作っていこうと思います", "MessageTW": "我想這次就自己帶便當吧", "MessageEN": "I should prepare a packed lunch instead."}, {"MessageId": 100530140, "Flag": 2, "Type": 3, "NextId": 100530150, "MessageType": "Text", "ImagePath": "", "MessageJP": "いいアイデアだね", "MessageTW": "是個不錯的點子呢", "MessageEN": "Good idea."}, {"MessageId": 100530150, "Flag": 2, "Type": 3, "NextId": 100530160, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユウカは普段から料理するの？", "MessageTW": "優香平常會做料理嗎？", "MessageEN": "Do you cook often, Yuuka?"}, {"MessageId": 100530160, "Flag": 2, "Type": 0, "NextId": 100530161, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ……", "MessageTW": "不……", "MessageEN": "No."}, {"MessageId": 100530161, "Flag": 2, "Type": 0, "NextId": 100530170, "MessageType": "Text", "ImagePath": "", "MessageJP": "料理らしい料理をしたことはないんですが……", "MessageTW": "沒有做過能稱為料理的料理……", "MessageEN": "I don't have much experience making proper dishes..."}, {"MessageId": 100530170, "Flag": 1, "Type": 0, "NextId": 100520170, "MessageType": "Text", "ImagePath": "", "MessageJP": "これもいい機会ですし、練習してみようかなと", "MessageTW": "不過我想這也是個好機會，所以想練習看看", "MessageEN": "But now's a good opportunity to start."}, {"MessageId": 100520170, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユウカ（体操服）の絆イベントへ", "MessageTW": "前往優香(體育服)的羈絆劇情", "MessageEN": "Go to Yuuka (Track)'s Event"}]
+[
+    {
+        "CharacterId": 10053,
+        "MessageJP": "ユウカ（体操服）",
+        "MessageKR": "유우카(체육복)",
+        "MessageTW": "優香(體育服)",
+        "MessageEN": "Yuuka (Track)"
+    },
+    {
+        "MessageId": 100520110,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100530110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100530110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100530120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういえば、今回の[ruby=こうりんたいさい]晄輪大祭[/ruby]中は校内のカフェテリアを利用できないみたいです",
+        "MessageKR": "그러고보니 이번 황륜대제 기간 중에는 교내의 카페테리아 시설을 사용하지 못하는 모양이에요.",
+        "MessageTW": "這麼說來，在這次晄輪大祭期間，校內的食堂好像無法使用",
+        "MessageEN": "Come to think of it, won't the cafeteria be closed during the Kivotos Halo Festival?"
+    },
+    {
+        "MessageId": 100530120,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100530130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "近くに屋台が出店されるはずですが、当日は実行委員の仕事に追われて立ち寄る時間もなさそうですし……",
+        "MessageKR": "회장 밖에 노점상이 있겠지만, 실행위원 업무 중에 다녀올 시간은 없을 것 같아서……",
+        "MessageTW": "雖然附近會有攤販，但當天應該會被實行委員的工作追著跑，所以沒時間去……",
+        "MessageEN": "I'm sure there'll be vendors and food stands, but I probably won't have time to stop by while on committee duty..."
+    },
+    {
+        "MessageId": 100530130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100530140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今回はお弁当を作っていこうと思います",
+        "MessageKR": "아무래도 이번에는 도시락을 미리 준비해야겠어요.",
+        "MessageTW": "我想這次就自己帶便當吧",
+        "MessageEN": "I should prepare a packed lunch instead."
+    },
+    {
+        "MessageId": 100530140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100530150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いいアイデアだね",
+        "MessageKR": "좋은 생각이네.",
+        "MessageTW": "是個不錯的點子呢",
+        "MessageEN": "Good idea."
+    },
+    {
+        "MessageId": 100530150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100530160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユウカは普段から料理するの？",
+        "MessageKR": "유우카는 평소에 직접 요리해?",
+        "MessageTW": "優香平常會做料理嗎？",
+        "MessageEN": "Do you cook often, Yuuka?"
+    },
+    {
+        "MessageId": 100530160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100530161,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ……",
+        "MessageKR": "아뇨",
+        "MessageTW": "不……",
+        "MessageEN": "No."
+    },
+    {
+        "MessageId": 100530161,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100530170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "料理らしい料理をしたことはないんですが……",
+        "MessageKR": "제대로 된 요리를 만들어 본 경험은 없지만……",
+        "MessageTW": "沒有做過能稱為料理的料理……",
+        "MessageEN": "I don't have much experience making proper dishes..."
+    },
+    {
+        "MessageId": 100530170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100520177,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これもいい機会ですし、練習してみようかなと",
+        "MessageKR": "그래도 이참에 한 번 연습해보려고요.",
+        "MessageTW": "不過我想這也是個好機會，所以想練習看看",
+        "MessageEN": "But now's a good opportunity to start."
+    },
+    {
+        "MessageId": 100520177,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユウカ（体操服）の絆イベントへ",
+        "MessageKR": "유우카(체육복)의 인연스토리로",
+        "MessageTW": "前往優香(體育服)的羈絆劇情",
+        "MessageEN": "Go to Yuuka (Track)'s Event"
+    }
+]

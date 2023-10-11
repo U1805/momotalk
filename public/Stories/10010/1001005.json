@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10010.webp", "MessageJP": "シロコ", "MessageTW": "白子", "MessageEN": "Shiroko"}, {"MessageId": 100090350, "Flag": 2, "Type": 4, "NextId": 100100356, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100100356, "Flag": 2, "Type": 0, "NextId": 100100363, "MessageType": "Text", "ImagePath": "", "MessageJP": "準備する物：双眼鏡、監視カメラの位置データ、GPS追跡電波妨害機", "MessageTW": "準備的東西：雙筒望遠鏡、監視器位置數據、GPS追蹤電波干擾器", "MessageEN": "Supplies: Binoculars, CCTV locations, and GPS tracking jammers."}, {"MessageId": 100100363, "Flag": 1, "Type": 0, "NextId": 100100370, "MessageType": "Text", "ImagePath": "", "MessageJP": "動線をチェックすること。360度の視野の確保が必要", "MessageTW": "檢查動線。需要確保360度的視野", "MessageEN": "Check the route. 360 degree field of view required."}, {"MessageId": 100100370, "Flag": 2, "Type": 3, "NextId": 100100384, "MessageType": "Text", "ImagePath": "", "MessageJP": "！？", "MessageTW": "！？", "MessageEN": "...?!"}, {"MessageId": 100100370, "Flag": 2, "Type": 3, "NextId": 100100384, "MessageType": "Text", "ImagePath": "", "MessageJP": "あの、シロコさん？", "MessageTW": "那個，白子？", "MessageEN": "Excuse me... Shiroko?"}, {"MessageId": 100100384, "Flag": 2, "Type": 0, "NextId": 100100381, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ", "MessageTW": "啊", "MessageEN": "Oh."}, {"MessageId": 100100381, "Flag": 2, "Type": 0, "NextId": 100100388, "MessageType": "Text", "ImagePath": "", "MessageJP": "ごめん先生、また間違えて送っちゃった", "MessageTW": "抱歉，老師，又發錯了", "MessageEN": "Sorry, Sensei. That wasn't meant for you."}, {"MessageId": 100100388, "Flag": 2, "Type": 0, "NextId": 100100395, "MessageType": "Text", "ImagePath": "", "MessageJP": "お気に入り登録で、先生のチャットが一番上にあるせいかも", "MessageTW": "也許是因為被登錄為我的最愛的聊天視窗中，老師的位在最上面", "MessageEN": "I've done it again. I think it's because I bookmarked you at the top of the messenger."}, {"MessageId": 100100395, "Flag": 1, "Type": 0, "NextId": 100090400, "MessageType": "Text", "ImagePath": "", "MessageJP": "さっきのメッセージは気にしないで", "MessageTW": "剛才的訊息別在意", "MessageEN": "Um, don't worry about that text."}, {"MessageId": 100090400, "Flag": 2, "Type": 2, "NextId": 100100402, "MessageType": "Text", "ImagePath": "", "MessageJP": "シロコの絆イベントへ", "MessageTW": "前往白子的羈絆劇情", "MessageEN": "Go to Shiroko's Event"}, {"MessageId": 100100402, "Flag": 2, "Type": 0, "NextId": 100100409, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、家であらためて考えてみたんだけど、他の学園を襲うのはどう？", "MessageTW": "老師，我在家又想了一下，襲擊其他學園怎麼樣？", "MessageEN": "Sensei, I've been thinking since I got home. What if I robbed another academy?"}, {"MessageId": 100100409, "Flag": 2, "Type": 0, "NextId": 100100416, "MessageType": "Text", "ImagePath": "", "MessageJP": "……えっと", "MessageTW": "……那個", "MessageEN": "Hmm."}, {"MessageId": 100100416, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "……ごめん、やっぱり今の無しで", "MessageTW": "……抱歉，請當作沒看到", "MessageEN": "...Sorry. I know that's nonsense."}]
+[
+    {
+        "CharacterId": 10010,
+        "MessageJP": "シロコ",
+        "MessageKR": "시로코",
+        "MessageTW": "白子",
+        "MessageEN": "Shiroko"
+    },
+    {
+        "MessageId": 100090350,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100100356,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100100356,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100363,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "準備する物：双眼鏡、監視カメラの位置データ、GPS追跡電波妨害機",
+        "MessageKR": "준비물: 쌍안경. CCTV의 위치. 그리고 GPS 추적 방해 전파 기기.",
+        "MessageTW": "準備的東西：雙筒望遠鏡、監視器位置數據、GPS追蹤電波干擾器",
+        "MessageEN": "Supplies: Binoculars, CCTV locations, and GPS tracking jammers."
+    },
+    {
+        "MessageId": 100100363,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100100370,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "動線をチェックすること。360度の視野の確保が必要",
+        "MessageKR": "동선 체크할 것. 360도 시야 확보 필요.",
+        "MessageTW": "檢查動線。需要確保360度的視野",
+        "MessageEN": "Check the route. 360 degree field of view required."
+    },
+    {
+        "MessageId": 100100370,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100100384,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "！？",
+        "MessageKR": "………?!",
+        "MessageTW": "！？",
+        "MessageEN": "...?!"
+    },
+    {
+        "MessageId": 100100370,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100100384,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あの、シロコさん？",
+        "MessageKR": "저기요……? 시로코 씨?",
+        "MessageTW": "那個，白子？",
+        "MessageEN": "Excuse me... Shiroko?"
+    },
+    {
+        "MessageId": 100100384,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100381,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ",
+        "MessageKR": "아.",
+        "MessageTW": "啊",
+        "MessageEN": "Oh."
+    },
+    {
+        "MessageId": 100100381,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100388,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ごめん先生、また間違えて送っちゃった",
+        "MessageKR": "미안 선생님. 또 잘못 보냈어.",
+        "MessageTW": "抱歉，老師，又發錯了",
+        "MessageEN": "Sorry, Sensei. That wasn't meant for you."
+    },
+    {
+        "MessageId": 100100388,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100395,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お気に入り登録で、先生のチャットが一番上にあるせいかも",
+        "MessageKR": "자주 실수하네. 선생님을 메신저 최상단에 즐겨찾기 해둬서 그런가 봐.",
+        "MessageTW": "也許是因為被登錄為我的最愛的聊天視窗中，老師的位在最上面",
+        "MessageEN": "I've done it again. I think it's because I bookmarked you at the top of the messenger."
+    },
+    {
+        "MessageId": 100100395,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100090407,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "さっきのメッセージは気にしないで",
+        "MessageKR": "음. 문자는 신경 쓰지 마.",
+        "MessageTW": "剛才的訊息別在意",
+        "MessageEN": "Um, don't worry about that text."
+    },
+    {
+        "MessageId": 100090407,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100100402,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シロコの絆イベントへ",
+        "MessageKR": "시로코의 인연스토리로",
+        "MessageTW": "前往白子的羈絆劇情",
+        "MessageEN": "Go to Shiroko's Event"
+    },
+    {
+        "MessageId": 100100402,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100409,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、家であらためて考えてみたんだけど、他の学園を襲うのはどう？",
+        "MessageKR": "선생님, 집에 가서 생각해봤는데 다른 학원을 터는 건 어떨까?",
+        "MessageTW": "老師，我在家又想了一下，襲擊其他學園怎麼樣？",
+        "MessageEN": "Sensei, I've been thinking since I got home. What if I robbed another academy?"
+    },
+    {
+        "MessageId": 100100409,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100100416,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……えっと",
+        "MessageKR": "음.",
+        "MessageTW": "……那個",
+        "MessageEN": "Hmm."
+    },
+    {
+        "MessageId": 100100416,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……ごめん、やっぱり今の無しで",
+        "MessageKR": "……미안. 이상한 소리였어.",
+        "MessageTW": "……抱歉，請當作沒看到",
+        "MessageEN": "...Sorry. I know that's nonsense."
+    }
+]

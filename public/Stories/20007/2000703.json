@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20007.webp", "MessageJP": "初音ミク", "MessageTW": "初音未來", "MessageEN": "Hatsune Miku"}, {"MessageId": 200060130, "Flag": 2, "Type": 4, "NextId": 200070130, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200070130, "Flag": 2, "Type": 0, "NextId": 200070140, "MessageType": "Text", "ImagePath": "", "MessageJP": "ライブまで、あと一週間になってしまいました……", "MessageTW": "離現場演出只剩一週了……", "MessageEN": "The show is only a week away already..."}, {"MessageId": 200070140, "Flag": 2, "Type": 3, "NextId": 200070150, "MessageType": "Text", "ImagePath": "", "MessageJP": "喉の調子は変わらず？", "MessageTW": "喉嚨還是一樣嗎？", "MessageEN": "Are you still not able to sing?"}, {"MessageId": 200070150, "Flag": 2, "Type": 0, "NextId": 200070151, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい……", "MessageTW": "是……", "MessageEN": "Yes. No matter how hard I try, my voice won't come back..."}, {"MessageId": 200070151, "Flag": 2, "Type": 0, "NextId": 200070160, "MessageType": "Text", "ImagePath": "", "MessageJP": "やはりもう一度、中止にできないか聞いてみた方が良いでしょうか", "MessageTW": "果然還是再問一下能不能中止比較好吧", "MessageEN": "It looks like we have to cancel the show."}, {"MessageId": 200070160, "Flag": 2, "Type": 3, "NextId": 200070170, "MessageType": "Text", "ImagePath": "", "MessageJP": "まだ何か、やり方は……", "MessageTW": "還有什麼方法……", "MessageEN": "That's a bummer."}, {"MessageId": 200070160, "Flag": 2, "Type": 3, "NextId": 200070170, "MessageType": "Text", "ImagePath": "", "MessageJP": "私もミクのライブが見たいし……どうにかして何か良い方法を……", "MessageTW": "我也想看未來的現場演出……難道就沒有什麼好方法……", "MessageEN": "I was also looking forward to your show, Miku."}, {"MessageId": 200070170, "Flag": 2, "Type": 0, "NextId": 200070171, "MessageType": "Text", "ImagePath": "", "MessageJP": "あの、先生", "MessageTW": "那個，老師", "MessageEN": "Uh, Sensei?"}, {"MessageId": 200070171, "Flag": 2, "Type": 0, "NextId": 200070180, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしければ今から、お会いできませんか？", "MessageTW": "如果可以的話，現在可以見面嗎？", "MessageEN": "If it's okay with you, can I see you for a moment in the alley behind the city?"}, {"MessageId": 200070180, "Flag": 1, "Type": 0, "NextId": 200060180, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょっとお話したいことがありまして。路地裏でお待ちしてます", "MessageTW": "有點話想跟你說，我在小巷子內等著", "MessageEN": "I have something I want to tell you."}, {"MessageId": 200060180, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "初音ミクの絆イベントへ", "MessageTW": "前往初音未來的羈絆劇情", "MessageEN": "Go to Hatsune Miku's Event"}]
+[
+    {
+        "CharacterId": 20007,
+        "MessageJP": "初音ミク",
+        "MessageKR": "하츠네 미쿠",
+        "MessageTW": "初音未來",
+        "MessageEN": "Hatsune Miku"
+    },
+    {
+        "MessageId": 200060130,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200070130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200070130,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200070140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ライブまで、あと一週間になってしまいました……",
+        "MessageKR": "벌써 공연이 일주일 앞으로 다가왔네요…….",
+        "MessageTW": "離現場演出只剩一週了……",
+        "MessageEN": "The show is only a week away already..."
+    },
+    {
+        "MessageId": 200070140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200070150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "喉の調子は変わらず？",
+        "MessageKR": "노래는 여전히 부를 수 없어?",
+        "MessageTW": "喉嚨還是一樣嗎？",
+        "MessageEN": "Are you still not able to sing?"
+    },
+    {
+        "MessageId": 200070150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200070151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい……",
+        "MessageKR": "네. 어떤 수를 써도 목소리가 돌아오질 않아서…….",
+        "MessageTW": "是……",
+        "MessageEN": "Yes. No matter how hard I try, my voice won't come back..."
+    },
+    {
+        "MessageId": 200070151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200070160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やはりもう一度、中止にできないか聞いてみた方が良いでしょうか",
+        "MessageKR": "아무래도 이번 공연은 취소해야 할 것 같네요.",
+        "MessageTW": "果然還是再問一下能不能中止比較好吧",
+        "MessageEN": "It looks like we have to cancel the show."
+    },
+    {
+        "MessageId": 200070160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200070170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まだ何か、やり方は……",
+        "MessageKR": "그건 아쉽네.",
+        "MessageTW": "還有什麼方法……",
+        "MessageEN": "That's a bummer."
+    },
+    {
+        "MessageId": 200070160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200070170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私もミクのライブが見たいし……どうにかして何か良い方法を……",
+        "MessageKR": "나도 미쿠의 공연을 기대했는데.",
+        "MessageTW": "我也想看未來的現場演出……難道就沒有什麼好方法……",
+        "MessageEN": "I was also looking forward to your show, Miku."
+    },
+    {
+        "MessageId": 200070170,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200070171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あの、先生",
+        "MessageKR": "저, 선생님.",
+        "MessageTW": "那個，老師",
+        "MessageEN": "Uh, Sensei?"
+    },
+    {
+        "MessageId": 200070171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200070180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしければ今から、お会いできませんか？",
+        "MessageKR": "괜찮으시면 시내 뒤편의 골목에서 잠깐 뵐 수 있을까요?",
+        "MessageTW": "如果可以的話，現在可以見面嗎？",
+        "MessageEN": "If it's okay with you, can I see you for a moment in the alley behind the city?"
+    },
+    {
+        "MessageId": 200070180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200060187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっとお話したいことがありまして。路地裏でお待ちしてます",
+        "MessageKR": "드리고 싶은 말씀이 있어요.",
+        "MessageTW": "有點話想跟你說，我在小巷子內等著",
+        "MessageEN": "I have something I want to tell you."
+    },
+    {
+        "MessageId": 200060187,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "初音ミクの絆イベントへ",
+        "MessageKR": "하츠네 미쿠의 인연스토리로",
+        "MessageTW": "前往初音未來的羈絆劇情",
+        "MessageEN": "Go to Hatsune Miku's Event"
+    }
+]

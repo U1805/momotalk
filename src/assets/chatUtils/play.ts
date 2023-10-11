@@ -1,7 +1,7 @@
 import { sendText } from './send'
 import { getRole } from './role'
 import { myStudent } from '../utils/interface'
-import { getMessage } from '../utils/request'
+import { getMessage, getSchaleImg } from '../utils/request'
 import { waitClick, waitTime } from '../utils/wait'
 import { talkHistory } from '../storeUtils/talkHistory'
 import { store } from '../storeUtils/store'
@@ -13,15 +13,14 @@ const play = async (
     storyLng: string
 ) => {
     store.showDialog = false
-    if (!confirm || !(storyKey && storyFile && storyLng)) {
-        return
-    }
+    if (!confirm || !(storyKey && storyFile && storyLng)) return false
+    const data = await getMessage(storyKey, storyFile)
+    if (!data[2][storyLng]) return false
     // 隐藏发送栏
     const talklist = document.getElementById('talkList') as HTMLDivElement
     talklist.setAttribute('style', 'height:100%')
 
-    const data = await getMessage(storyKey, storyFile)
-    const student = getRole(data[0][storyLng], data[0]['ImagePath'])
+    const student = getRole(data[0][storyLng], getSchaleImg(data[0]['CharacterId']))
     let item = data[1]
     talkHistory.resetData()
     let text: string = ''
@@ -63,6 +62,7 @@ const play = async (
 
     // 恢复发送栏
     talklist.setAttribute('style', '')
+    return true
 }
 
 export { play }

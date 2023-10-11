@@ -1,1 +1,105 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13002.webp", "MessageJP": "アカリ", "MessageTW": "亞伽里", "MessageEN": "Akari"}, {"MessageId": 130010010, "Flag": 2, "Type": 4, "NextId": 130020011, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130020011, "Flag": 2, "Type": 0, "NextId": 130020020, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうして特盛より上の大きさの牛丼は売られていないのでしょうか？", "MessageTW": "為什麼不賣比特盛更大的牛丼呢？", "MessageEN": "You know, I've been wondering... Why don't restaurants sell beef bowls larger than king size?"}, {"MessageId": 130020020, "Flag": 2, "Type": 3, "NextId": 130020035, "MessageType": "Text", "ImagePath": "", "MessageJP": "特盛で十分大きくない……？", "MessageTW": "特盛還不夠大……？", "MessageEN": "Isn't king size big enough?"}, {"MessageId": 130020035, "Flag": 2, "Type": 0, "NextId": 130020040, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ、特盛一杯ではお腹いっぱいになれません", "MessageTW": "不夠，一碗特盛吃不飽", "MessageEN": "No! I can never get full on one king-sized bowl."}, {"MessageId": 130020040, "Flag": 2, "Type": 3, "NextId": 130020059, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしてアカリはそんなにたくさん食べるの？", "MessageTW": "為什麼亞伽里能吃那麼多？", "MessageEN": "Akari, why do you eat so much food at once?"}, {"MessageId": 130020059, "Flag": 2, "Type": 0, "NextId": 130020056, "MessageType": "Text", "ImagePath": "", "MessageJP": "フフッ、愚問ですね。私がたくさん食べる理由は簡単です", "MessageTW": "呵呵，真是愚蠢的問題。我吃很多的理由很簡單", "MessageEN": "Heehee! What a silly question."}, {"MessageId": 130020056, "Flag": 2, "Type": 0, "NextId": 130010050, "MessageType": "Text", "ImagePath": "", "MessageJP": "なぜなら……そこに食べ物があるからです！", "MessageTW": "因為……食物在那裡！", "MessageEN": "If I see food...I eat it! All of it!"}, {"MessageId": 130010050, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカリの絆イベントへ", "MessageTW": "前往亞伽里的羈絆劇情", "MessageEN": "Go to Akari's Event"}]
+[
+    {
+        "CharacterId": 13002,
+        "MessageJP": "アカリ",
+        "MessageKR": "아카리",
+        "MessageTW": "亞伽里",
+        "MessageEN": "Akari"
+    },
+    {
+        "MessageId": 130010010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130020011,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130020011,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうして特盛より上の大きさの牛丼は売られていないのでしょうか？",
+        "MessageKR": "문득 궁금해졌는데, 규동 가게에서는 어째서 킹 사이즈보다 큰 규동을 팔지 않는 걸까요?",
+        "MessageTW": "為什麼不賣比特盛更大的牛丼呢？",
+        "MessageEN": "You know, I've been wondering... Why don't restaurants sell beef bowls larger than king size?"
+    },
+    {
+        "MessageId": 130020020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130020035,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特盛で十分大きくない……？",
+        "MessageKR": "킹 사이즈 정도면 충분히 크지 않아?",
+        "MessageTW": "特盛還不夠大……？",
+        "MessageEN": "Isn't king size big enough?"
+    },
+    {
+        "MessageId": 130020035,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ、特盛一杯ではお腹いっぱいになれません",
+        "MessageKR": "안 돼요. 킹 사이즈 한 그릇으로는 배가 충분히 차지 않는다고요.",
+        "MessageTW": "不夠，一碗特盛吃不飽",
+        "MessageEN": "No! I can never get full on one king-sized bowl."
+    },
+    {
+        "MessageId": 130020040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130020059,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしてアカリはそんなにたくさん食べるの？",
+        "MessageKR": "아카리는 어째서 그렇게 한 번에 많은 음식을 먹는 거야?",
+        "MessageTW": "為什麼亞伽里能吃那麼多？",
+        "MessageEN": "Akari, why do you eat so much food at once?"
+    },
+    {
+        "MessageId": 130020059,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020056,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フフッ、愚問ですね。私がたくさん食べる理由は簡単です",
+        "MessageKR": "후후, 우문이군요. 제가 한 번에 많은 음식을 먹는 이유는 간단하답니다.",
+        "MessageTW": "呵呵，真是愚蠢的問題。我吃很多的理由很簡單",
+        "MessageEN": "Heehee! What a silly question."
+    },
+    {
+        "MessageId": 130020056,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130010057,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なぜなら……そこに食べ物があるからです！",
+        "MessageKR": "그 이유는…… 그곳에 음식이 있으니까!",
+        "MessageTW": "因為……食物在那裡！",
+        "MessageEN": "If I see food...I eat it! All of it!"
+    },
+    {
+        "MessageId": 130010057,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカリの絆イベントへ",
+        "MessageKR": "아카리의 인연스토리로",
+        "MessageTW": "前往亞伽里的羈絆劇情",
+        "MessageEN": "Go to Akari's Event"
+    }
+]

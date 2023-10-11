@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10047.webp", "MessageJP": "チセ（水着）", "MessageTW": "知世(泳裝)", "MessageEN": "Chise (Swimsuit)"}, {"MessageId": 100460130, "Flag": 2, "Type": 4, "NextId": 100470130, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100470130, "Flag": 2, "Type": 0, "NextId": 100470140, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生。この間きらきらを探した時にね", "MessageTW": "老師。上次在尋找閃閃發亮的時候啊", "MessageEN": "Sensei, I've been looking for sparkles, and..."}, {"MessageId": 100470140, "Flag": 1, "Type": 0, "NextId": 100470150, "MessageType": "Text", "ImagePath": "", "MessageJP": "海辺で、すごいものを見つけたの", "MessageTW": "在海邊，發現了很厲害的東西", "MessageEN": "I found something incredible at the beach."}, {"MessageId": 100470150, "Flag": 2, "Type": 3, "NextId": 100470160, "MessageType": "Text", "ImagePath": "", "MessageJP": "気になる……！", "MessageTW": "好在意……！", "MessageEN": "It must be really special if you think it's incredible."}, {"MessageId": 100470160, "Flag": 2, "Type": 0, "NextId": 100470170, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、私も先生に見せたいな", "MessageTW": "嗯，我也想給老師看呢", "MessageEN": "Yeah, I want to show it to you."}, {"MessageId": 100470170, "Flag": 1, "Type": 0, "NextId": 100470171, "MessageType": "Text", "ImagePath": "", "MessageJP": "せっかくだし", "MessageTW": "機會難得", "MessageEN": "Oh, good timing."}, {"MessageId": 100470171, "Flag": 2, "Type": 0, "NextId": 100470172, "MessageType": "Text", "ImagePath": "", "MessageJP": "一緒に見に行こう、先生", "MessageTW": "一起去看吧，老師", "MessageEN": "Let's go see it, Sensei!"}, {"MessageId": 100470172, "Flag": 2, "Type": 0, "NextId": 100460170, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあ、待ってるね～", "MessageTW": "那麼，我等著唷～", "MessageEN": "I'll be waiting!"}, {"MessageId": 100460170, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "チセ（水着）の絆イベントへ", "MessageTW": "前往知世(泳裝)的羈絆劇情", "MessageEN": "Go to Chise (Swimsuit)'s Event"}]
+[
+    {
+        "CharacterId": 10047,
+        "MessageJP": "チセ（水着）",
+        "MessageKR": "치세(수영복)",
+        "MessageTW": "知世(泳裝)",
+        "MessageEN": "Chise (Swimsuit)"
+    },
+    {
+        "MessageId": 100460130,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100470130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100470130,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100470140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生。この間きらきらを探した時にね",
+        "MessageKR": "선생님, 나 반짝임을 찾다가-",
+        "MessageTW": "老師。上次在尋找閃閃發亮的時候啊",
+        "MessageEN": "Sensei, I've been looking for sparkles, and..."
+    },
+    {
+        "MessageId": 100470140,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100470150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "海辺で、すごいものを見つけたの",
+        "MessageKR": "바닷가에서 엄청난 걸 발견했어.",
+        "MessageTW": "在海邊，發現了很厲害的東西",
+        "MessageEN": "I found something incredible at the beach."
+    },
+    {
+        "MessageId": 100470150,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100470160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気になる……！",
+        "MessageKR": "치세가 엄청나다고 말할 정도라니- 그거 엄청 신경 쓰이는걸.",
+        "MessageTW": "好在意……！",
+        "MessageEN": "It must be really special if you think it's incredible."
+    },
+    {
+        "MessageId": 100470160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100470170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、私も先生に見せたいな",
+        "MessageKR": "응, 나, 선생님에게도 보여주고 싶어서.",
+        "MessageTW": "嗯，我也想給老師看呢",
+        "MessageEN": "Yeah, I want to show it to you."
+    },
+    {
+        "MessageId": 100470170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100470171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "せっかくだし",
+        "MessageKR": "아, 마침 잘됐다-",
+        "MessageTW": "機會難得",
+        "MessageEN": "Oh, good timing."
+    },
+    {
+        "MessageId": 100470171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100470172,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一緒に見に行こう、先生",
+        "MessageKR": "같이 보러 가자. 선생님.",
+        "MessageTW": "一起去看吧，老師",
+        "MessageEN": "Let's go see it, Sensei!"
+    },
+    {
+        "MessageId": 100470172,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100460177,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあ、待ってるね～",
+        "MessageKR": "기다리고 있을게~",
+        "MessageTW": "那麼，我等著唷～",
+        "MessageEN": "I'll be waiting!"
+    },
+    {
+        "MessageId": 100460177,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チセ（水着）の絆イベントへ",
+        "MessageKR": "치세(수영복)의 인연스토리로",
+        "MessageTW": "前往知世(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Chise (Swimsuit)'s Event"
+    }
+]

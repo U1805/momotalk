@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/16008.webp", "MessageJP": "フブキ", "MessageTW": "吹雪", "MessageEN": "Fubuki"}, {"MessageId": 160070010, "Flag": 2, "Type": 4, "NextId": 160080010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 160080010, "Flag": 2, "Type": 0, "NextId": 160080020, "MessageType": "Text", "ImagePath": "", "MessageJP": "こちら生活安全局1年のフブキ、定時連絡", "MessageTW": "這裡是生活安全局1年級的吹雪，進行定期聯絡", "MessageEN": "Report by Fubuki, first-year student from the Public Safety Bureau."}, {"MessageId": 160080020, "Flag": 1, "Type": 0, "NextId": 160080030, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日も特段異常無し、引き続きこのままって感じで", "MessageTW": "今天也沒有發現異常，將繼續執行任務", "MessageEN": "No problems today. I'm working real hard."}, {"MessageId": 160080030, "Flag": 2, "Type": 3, "NextId": 160080040, "MessageType": "Text", "ImagePath": "", "MessageJP": "フブキ、送り先間違ってない？", "MessageTW": "吹雪，你是不是傳錯人了？", "MessageEN": "Did you mean to send this to me?"}, {"MessageId": 160080040, "Flag": 2, "Type": 0, "NextId": 160080041, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、それは分かってるから心配しないで", "MessageTW": "嗯，我知道的，別擔心", "MessageEN": "Yeah, yeah. Don't worry about it."}, {"MessageId": 160080041, "Flag": 2, "Type": 0, "NextId": 160080050, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあ、頑張って働くとしよう", "MessageTW": "那麼，努力工作吧", "MessageEN": "Like, I said: working hard."}, {"MessageId": 160080050, "Flag": 2, "Type": 3, "NextId": 160080060, "MessageType": "Text", "ImagePath": "", "MessageJP": "……フブキ？心配しないでっていうのは……？", "MessageTW": "……吹雪？你說別擔心是指……？", "MessageEN": "Did you read what I said?"}, {"MessageId": 160080060, "Flag": 2, "Type": 0, "NextId": 160080061, "MessageType": "Text", "ImagePath": "", "MessageJP": "それは私にも分からないけど……", "MessageTW": "這個我也不太清楚……", "MessageEN": "I'm not sure what you mean..."}, {"MessageId": 160080061, "Flag": 2, "Type": 0, "NextId": 160080070, "MessageType": "Text", "ImagePath": "", "MessageJP": "とりあえず一度、警備局に問い合わせてみたら？", "MessageTW": "總之先去警備局問問看怎麼樣？", "MessageEN": "Why don't you contact the Security Bureau?"}, {"MessageId": 160080070, "Flag": 2, "Type": 3, "NextId": 160080080, "MessageType": "Text", "ImagePath": "", "MessageJP": "警備局……？", "MessageTW": "警備局……？", "MessageEN": "What does the Security Bureau have to do with anything?"}, {"MessageId": 160080080, "Flag": 2, "Type": 3, "NextId": 160080090, "MessageType": "Text", "ImagePath": "", "MessageJP": "フブキ、大丈夫？", "MessageTW": "吹雪，你沒事吧？", "MessageEN": "Fubuki, is something wrong?"}, {"MessageId": 160080090, "Flag": 2, "Type": 0, "NextId": 160080100, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、私もそう思う", "MessageTW": "嗯，我也這麼覺得", "MessageEN": "Yeah, I think so too."}, {"MessageId": 160080100, "Flag": 2, "Type": 3, "NextId": 160070100, "MessageType": "Text", "ImagePath": "", "MessageJP": "……？", "MessageTW": "……？", "MessageEN": "...?"}, {"MessageId": 160070100, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "フブキの絆イベントへ", "MessageTW": "前往吹雪的羈絆劇情", "MessageEN": "Go to Fubuki's Event"}]
+[
+    {
+        "CharacterId": 16008,
+        "MessageJP": "フブキ",
+        "MessageKR": "후부키",
+        "MessageTW": "吹雪",
+        "MessageEN": "Fubuki"
+    },
+    {
+        "MessageId": 160070010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 160080010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 160080010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こちら生活安全局1年のフブキ、定時連絡",
+        "MessageKR": "정시 보고 알림. 생활안전국 1학년, 후부키야.",
+        "MessageTW": "這裡是生活安全局1年級的吹雪，進行定期聯絡",
+        "MessageEN": "Report by Fubuki, first-year student from the Public Safety Bureau."
+    },
+    {
+        "MessageId": 160080020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 160080030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日も特段異常無し、引き続きこのままって感じで",
+        "MessageKR": "오늘도 특별한 문제는 없음. 계속 근무할게.",
+        "MessageTW": "今天也沒有發現異常，將繼續執行任務",
+        "MessageEN": "No problems today. I'm working real hard."
+    },
+    {
+        "MessageId": 160080030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フブキ、送り先間違ってない？",
+        "MessageKR": "후부키, 문자 잘못 보냈어.",
+        "MessageTW": "吹雪，你是不是傳錯人了？",
+        "MessageEN": "Did you mean to send this to me?"
+    },
+    {
+        "MessageId": 160080040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、それは分かってるから心配しないで",
+        "MessageKR": "응, 알고 있으니까 걱정하지 마.",
+        "MessageTW": "嗯，我知道的，別擔心",
+        "MessageEN": "Yeah, yeah. Don't worry about it."
+    },
+    {
+        "MessageId": 160080041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあ、頑張って働くとしよう",
+        "MessageKR": "나는 언제나 열심히 일하고 있으니까.",
+        "MessageTW": "那麼，努力工作吧",
+        "MessageEN": "Like, I said: working hard."
+    },
+    {
+        "MessageId": 160080050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……フブキ？心配しないでっていうのは……？",
+        "MessageKR": "……제대로 이해한 거 맞아?",
+        "MessageTW": "……吹雪？你說別擔心是指……？",
+        "MessageEN": "Did you read what I said?"
+    },
+    {
+        "MessageId": 160080060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080061,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それは私にも分からないけど……",
+        "MessageKR": "그건 나도 잘 모르겠는데…….",
+        "MessageTW": "這個我也不太清楚……",
+        "MessageEN": "I'm not sure what you mean..."
+    },
+    {
+        "MessageId": 160080061,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "とりあえず一度、警備局に問い合わせてみたら？",
+        "MessageKR": "한번 경비국에 문의해 보는 게 어때?",
+        "MessageTW": "總之先去警備局問問看怎麼樣？",
+        "MessageEN": "Why don't you contact the Security Bureau?"
+    },
+    {
+        "MessageId": 160080070,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "警備局……？",
+        "MessageKR": "여기서 갑자기 경비국이?",
+        "MessageTW": "警備局……？",
+        "MessageEN": "What does the Security Bureau have to do with anything?"
+    },
+    {
+        "MessageId": 160080080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160080090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フブキ、大丈夫？",
+        "MessageKR": "후부키, 무슨 문제라도 생긴 거야?",
+        "MessageTW": "吹雪，你沒事吧？",
+        "MessageEN": "Fubuki, is something wrong?"
+    },
+    {
+        "MessageId": 160080090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 160080100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、私もそう思う",
+        "MessageKR": "응, 나도 그렇게 생각해.",
+        "MessageTW": "嗯，我也這麼覺得",
+        "MessageEN": "Yeah, I think so too."
+    },
+    {
+        "MessageId": 160080100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 160070107,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……？",
+        "MessageKR": "………?",
+        "MessageTW": "……？",
+        "MessageEN": "...?"
+    },
+    {
+        "MessageId": 160070107,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "フブキの絆イベントへ",
+        "MessageKR": "후부키의 인연스토리로",
+        "MessageTW": "前往吹雪的羈絆劇情",
+        "MessageEN": "Go to Fubuki's Event"
+    }
+]

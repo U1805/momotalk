@@ -10,7 +10,7 @@ export const store = reactive({
     text: '',
     showDialog: false,
     storyKey: '10005',
-    storyList: ['1000501', '1000502', '1000503', '1000504', '1000505', '1000506'],
+    storyList: {} as {[key:string]: string[]},
     storyFile: '1000501',
 
     setData() {

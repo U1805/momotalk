@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10040.webp", "MessageJP": "ツクヨ", "MessageTW": "月夜", "MessageEN": "Tsukuyo"}, {"MessageId": 100390010, "Flag": 2, "Type": 4, "NextId": 100400010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100400010, "Flag": 2, "Type": 0, "NextId": 100400020, "MessageType": "Text", "ImagePath": "", "MessageJP": "あの、先生……", "MessageTW": "那個，老師……", "MessageEN": "Um, S-Sensei... "}, {"MessageId": 100400020, "Flag": 1, "Type": 0, "NextId": 100400030, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしければ、なのですが", "MessageTW": "如果可以的話", "MessageEN": "I-If you don't mind..."}, {"MessageId": 100400030, "Flag": 2, "Type": 3, "NextId": 100400040, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしたの？", "MessageTW": "怎麼了嗎？", "MessageEN": "Huh? What's up, Tsukuyo?"}, {"MessageId": 100400040, "Flag": 2, "Type": 0, "NextId": 100400041, "MessageType": "Text", "ImagePath": "", "MessageJP": "相談したいことが、ありまして……", "MessageTW": "有件事，想和您商量……", "MessageEN": "I-I wanted to consult with you..."}, {"MessageId": 100400041, "Flag": 2, "Type": 0, "NextId": 100400050, "MessageType": "Text", "ImagePath": "", "MessageJP": "お時間、よろしいでしょうか……？", "MessageTW": "請問，有時間嗎……？", "MessageEN": "Do you have time...?"}, {"MessageId": 100400050, "Flag": 2, "Type": 3, "NextId": 100400060, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、ツクヨの頼みならいつでも！", "MessageTW": "嗯，如果是月夜的請託的話隨時都行！", "MessageEN": "I can always make time for you, Tsukuyo!"}, {"MessageId": 100400060, "Flag": 2, "Type": 0, "NextId": 100390060, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます……！それでは、場所について後でお送りしますね……！", "MessageTW": "謝謝老師……！那麼，地點之後再傳給您哦……！", "MessageEN": "O-Okay, thank you! We can decide where later...!"}, {"MessageId": 100390060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ツクヨの絆イベントへ", "MessageTW": "前往月夜的羈絆劇情", "MessageEN": "Go to Tsukuyo's Event"}]
+[
+    {
+        "CharacterId": 10040,
+        "MessageJP": "ツクヨ",
+        "MessageKR": "츠쿠요",
+        "MessageTW": "月夜",
+        "MessageEN": "Tsukuyo"
+    },
+    {
+        "MessageId": 100390010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100400010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100400010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あの、先生……",
+        "MessageKR": "저어…. 서, 선생님….",
+        "MessageTW": "那個，老師……",
+        "MessageEN": "Um, S-Sensei... "
+    },
+    {
+        "MessageId": 100400020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100400030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしければ、なのですが",
+        "MessageKR": "혹시 괘, 괘, 괜찮으시다면….",
+        "MessageTW": "如果可以的話",
+        "MessageEN": "I-If you don't mind..."
+    },
+    {
+        "MessageId": 100400030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100400040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしたの？",
+        "MessageKR": "응? 츠쿠요. 무슨 일이야?",
+        "MessageTW": "怎麼了嗎？",
+        "MessageEN": "Huh? What's up, Tsukuyo?"
+    },
+    {
+        "MessageId": 100400040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "相談したいことが、ありまして……",
+        "MessageKR": "사, 상담 드리고 싶은 게 있는데에….",
+        "MessageTW": "有件事，想和您商量……",
+        "MessageEN": "I-I wanted to consult with you..."
+    },
+    {
+        "MessageId": 100400041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お時間、よろしいでしょうか……？",
+        "MessageKR": "혹시 시간이 되실까요…?",
+        "MessageTW": "請問，有時間嗎……？",
+        "MessageEN": "Do you have time...?"
+    },
+    {
+        "MessageId": 100400050,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100400060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、ツクヨの頼みならいつでも！",
+        "MessageKR": "응, 물론이지. 츠쿠요가 불러준다면 언제든지!",
+        "MessageTW": "嗯，如果是月夜的請託的話隨時都行！",
+        "MessageEN": "I can always make time for you, Tsukuyo!"
+    },
+    {
+        "MessageId": 100400060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100390067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます……！それでは、場所について後でお送りしますね……！",
+        "MessageKR": "네, 네엣-! 감사합니다…! 그러면, 장소는 나중에 보내겠습니다…!",
+        "MessageTW": "謝謝老師……！那麼，地點之後再傳給您哦……！",
+        "MessageEN": "O-Okay, thank you! We can decide where later...!"
+    },
+    {
+        "MessageId": 100390067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ツクヨの絆イベントへ",
+        "MessageKR": "츠쿠요의 인연스토리로",
+        "MessageTW": "前往月夜的羈絆劇情",
+        "MessageEN": "Go to Tsukuyo's Event"
+    }
+]

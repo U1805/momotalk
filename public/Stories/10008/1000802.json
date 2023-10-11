@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10008.webp", "MessageJP": "ネル", "MessageTW": "寧瑠", "MessageEN": "Neru"}, {"MessageId": 100070090, "Flag": 2, "Type": 4, "NextId": 100080096, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100080096, "Flag": 2, "Type": 0, "NextId": 100080103, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカネ……みんなに……連絡頼む……", "MessageTW": "朱音……聯絡大家……拜託了……", "MessageEN": "Akane... Can you...contact everyone for me? "}, {"MessageId": 100080103, "Flag": 1, "Type": 0, "NextId": 100080110, "MessageType": "Text", "ImagePath": "", "MessageJP": "信じられねえけど……どうやら風邪引いたみたいだ", "MessageTW": "雖然難以置信……但我好像感冒了", "MessageEN": "I can't believe this, but...I think I caught a cold."}, {"MessageId": 100080110, "Flag": 1, "Type": 0, "NextId": 100080120, "MessageType": "Text", "ImagePath": "", "MessageJP": "遅刻するわ……たぶん……", "MessageTW": "可能……會遲到……", "MessageEN": "I think...I'm gonna be late..."}, {"MessageId": 100080120, "Flag": 2, "Type": 3, "NextId": 100070130, "MessageType": "Text", "ImagePath": "", "MessageJP": "ネル？もしかしてメッセージ送る相手間違えてない？", "MessageTW": "寧瑠？訊息是不是發錯人了？", "MessageEN": "Neru? I think you've got the wrong number."}, {"MessageId": 100080120, "Flag": 2, "Type": 3, "NextId": 100070130, "MessageType": "Text", "ImagePath": "", "MessageJP": "ネル！？大丈夫！？", "MessageTW": "寧瑠！沒事吧！？", "MessageEN": "Are you sick?"}, {"MessageId": 100070130, "Flag": 2, "Type": 2, "NextId": 100080131, "MessageType": "Text", "ImagePath": "", "MessageJP": "ネルの絆イベントへ", "MessageTW": "前往寧瑠的羈絆劇情", "MessageEN": "Go to Neru's Event"}, {"MessageId": 100080131, "Flag": 2, "Type": 0, "NextId": 100080138, "MessageType": "Text", "ImagePath": "", "MessageJP": "よお、先生。あのおかゆ、微妙な味だったぞ", "MessageTW": "喲，老師。那個粥，味道很微妙", "MessageEN": "Hey, Sensei. The porridge kind of sucked."}, {"MessageId": 100080138, "Flag": 2, "Type": 0, "NextId": 100080135, "MessageType": "Text", "ImagePath": "", "MessageJP": "……でも、お見舞いに来てくれてありがとな", "MessageTW": "……但是，謝謝你來探望我", "MessageEN": "But, um...thanks for visiting me when I was sick."}, {"MessageId": 100080135, "Flag": 2, "Type": 0, "NextId": 100080140, "MessageType": "Text", "ImagePath": "", "MessageJP": "この借りは絶対いつか返すから、覚悟しとけよ", "MessageTW": "這筆人情總有一天會還的，做好覺悟吧", "MessageEN": "I'll be sure to pay you back, okay?"}, {"MessageId": 100080140, "Flag": 2, "Type": 3, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "早く良くなってね", "MessageTW": "祝你早日康復", "MessageEN": "Get well soon, Neru."}, {"MessageId": 100080140, "Flag": 2, "Type": 3, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、待ってるね", "MessageTW": "嗯，等著呢", "MessageEN": "I'll be waiting."}]
+[
+    {
+        "CharacterId": 10008,
+        "MessageJP": "ネル",
+        "MessageKR": "네루",
+        "MessageTW": "寧瑠",
+        "MessageEN": "Neru"
+    },
+    {
+        "MessageId": 100070090,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100080096,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100080096,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080103,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカネ……みんなに……連絡頼む……",
+        "MessageKR": "아카네…… 모두에게…… 연락 부탁……",
+        "MessageTW": "朱音……聯絡大家……拜託了……",
+        "MessageEN": "Akane... Can you...contact everyone for me? "
+    },
+    {
+        "MessageId": 100080103,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100080110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "信じられねえけど……どうやら風邪引いたみたいだ",
+        "MessageKR": "나도 믿을 수 없지만…… 아무래도 감기에 걸린 모양이다.",
+        "MessageTW": "雖然難以置信……但我好像感冒了",
+        "MessageEN": "I can't believe this, but...I think I caught a cold."
+    },
+    {
+        "MessageId": 100080110,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100080120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "遅刻するわ……たぶん……",
+        "MessageKR": "나 지각할 거 같다…… 아마도……",
+        "MessageTW": "可能……會遲到……",
+        "MessageEN": "I think...I'm gonna be late..."
+    },
+    {
+        "MessageId": 100080120,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100070137,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ネル？もしかしてメッセージ送る相手間違えてない？",
+        "MessageKR": "네루? 문자를 잘못 보낸 거 같은데?",
+        "MessageTW": "寧瑠？訊息是不是發錯人了？",
+        "MessageEN": "Neru? I think you've got the wrong number."
+    },
+    {
+        "MessageId": 100080120,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100070137,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ネル！？大丈夫！？",
+        "MessageKR": "네루 아픈 거야?",
+        "MessageTW": "寧瑠！沒事吧！？",
+        "MessageEN": "Are you sick?"
+    },
+    {
+        "MessageId": 100070137,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100080131,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ネルの絆イベントへ",
+        "MessageKR": "네루의 인연스토리로",
+        "MessageTW": "前往寧瑠的羈絆劇情",
+        "MessageEN": "Go to Neru's Event"
+    },
+    {
+        "MessageId": 100080131,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080138,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よお、先生。あのおかゆ、微妙な味だったぞ",
+        "MessageKR": "어이 선생. 죽은 맛없었어.",
+        "MessageTW": "喲，老師。那個粥，味道很微妙",
+        "MessageEN": "Hey, Sensei. The porridge kind of sucked."
+    },
+    {
+        "MessageId": 100080138,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080135,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……でも、お見舞いに来てくれてありがとな",
+        "MessageKR": "음…… 그치만 병문안 와준 건 고마웠어.",
+        "MessageTW": "……但是，謝謝你來探望我",
+        "MessageEN": "But, um...thanks for visiting me when I was sick."
+    },
+    {
+        "MessageId": 100080135,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この借りは絶対いつか返すから、覚悟しとけよ",
+        "MessageKR": "이 빚은 언젠가 갚아줄 테니까 말이야, 각오하라고.",
+        "MessageTW": "這筆人情總有一天會還的，做好覺悟吧",
+        "MessageEN": "I'll be sure to pay you back, okay?"
+    },
+    {
+        "MessageId": 100080140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "早く良くなってね",
+        "MessageKR": "얼른 나아, 네루 쨩.",
+        "MessageTW": "祝你早日康復",
+        "MessageEN": "Get well soon, Neru."
+    },
+    {
+        "MessageId": 100080140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、待ってるね",
+        "MessageKR": "기다리고 있을게.",
+        "MessageTW": "嗯，等著呢",
+        "MessageEN": "I'll be waiting."
+    }
+]

@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10050.webp", "MessageJP": "ココナ", "MessageTW": "心菜", "MessageEN": "Kokona"}, {"MessageId": 100490010, "Flag": 2, "Type": 4, "NextId": 100500010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100500010, "Flag": 2, "Type": 0, "NextId": 100500020, "MessageType": "Text", "ImagePath": "", "MessageJP": "こんにちは、先生", "MessageTW": "你好，老師", "MessageEN": "Hello, Sensei."}, {"MessageId": 100500020, "Flag": 1, "Type": 0, "NextId": 100500021, "MessageType": "Text", "ImagePath": "", "MessageJP": "いかがお過ごしでしょうか？", "MessageTW": "你過得還好嗎？", "MessageEN": "How are you?"}, {"MessageId": 100500021, "Flag": 2, "Type": 0, "NextId": 100500030, "MessageType": "Text", "ImagePath": "", "MessageJP": "私は元気です。なんたって、梅花園の教官ですから！", "MessageTW": "我很好。再怎麼說我也是梅花園的教官啊！", "MessageEN": "I'm fine, because I'm a Plum Blossom Garden instructor!"}, {"MessageId": 100500030, "Flag": 2, "Type": 3, "NextId": 100500040, "MessageType": "Text", "ImagePath": "", "MessageJP": "教官か……ココナも大変だね", "MessageTW": "教官啊……心菜也辛苦了呢", "MessageEN": "Instructor... You have a lot on your plate, Kokona."}, {"MessageId": 100500030, "Flag": 2, "Type": 3, "NextId": 100500040, "MessageType": "Text", "ImagePath": "", "MessageJP": "大変じゃない？", "MessageTW": "不辛苦嗎？", "MessageEN": "Isn't it hard?"}, {"MessageId": 100500040, "Flag": 2, "Type": 0, "NextId": 100500041, "MessageType": "Text", "ImagePath": "", "MessageJP": "大変な時もありますが、大丈夫です", "MessageTW": "雖然也有辛苦的時候，但不要緊", "MessageEN": "Yes, but I'm fine with it."}, {"MessageId": 100500041, "Flag": 2, "Type": 0, "NextId": 100500050, "MessageType": "Text", "ImagePath": "", "MessageJP": "何より、すでに私は立派なレディーですから！", "MessageTW": "更重要的是，我已經是名優秀的淑女了！", "MessageEN": "More than anything, I'm a proper lady now!"}, {"MessageId": 100500050, "Flag": 1, "Type": 0, "NextId": 100500051, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生。もしお時間があったら、梅花園を訪問してみませんか？", "MessageTW": "老師。如果有空的話，要不要來梅花園參觀呢？", "MessageEN": "Please visit the Plum Blossom Garden when you can!"}, {"MessageId": 100500051, "Flag": 2, "Type": 0, "NextId": 100490050, "MessageType": "Text", "ImagePath": "", "MessageJP": "私の教官としての姿を先生にお見せします！", "MessageTW": "我會讓老師看看我身為教官的模樣！", "MessageEN": "I'll show you how I work as an instructor."}, {"MessageId": 100490050, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ココナの絆イベントへ", "MessageTW": "前往心菜的羈絆劇情", "MessageEN": "Go to Kokona's Event"}]
+[
+    {
+        "CharacterId": 10050,
+        "MessageJP": "ココナ",
+        "MessageKR": "코코나",
+        "MessageTW": "心菜",
+        "MessageEN": "Kokona"
+    },
+    {
+        "MessageId": 100490010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100500010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100500010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんにちは、先生",
+        "MessageKR": "안녕하세요, 선생님.",
+        "MessageTW": "你好，老師",
+        "MessageEN": "Hello, Sensei."
+    },
+    {
+        "MessageId": 100500020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100500021,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いかがお過ごしでしょうか？",
+        "MessageKR": "잘 지내고 계시나요?",
+        "MessageTW": "你過得還好嗎？",
+        "MessageEN": "How are you?"
+    },
+    {
+        "MessageId": 100500021,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私は元気です。なんたって、梅花園の教官ですから！",
+        "MessageKR": "전 문제없어요. 매화원의 교관이니까요!",
+        "MessageTW": "我很好。再怎麼說我也是梅花園的教官啊！",
+        "MessageEN": "I'm fine, because I'm a Plum Blossom Garden instructor!"
+    },
+    {
+        "MessageId": 100500030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100500040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "教官か……ココナも大変だね",
+        "MessageKR": "교관이라…… 코코나도 큰일이네.",
+        "MessageTW": "教官啊……心菜也辛苦了呢",
+        "MessageEN": "Instructor... You have a lot on your plate, Kokona."
+    },
+    {
+        "MessageId": 100500030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100500040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大変じゃない？",
+        "MessageKR": "힘들지 않아?",
+        "MessageTW": "不辛苦嗎？",
+        "MessageEN": "Isn't it hard?"
+    },
+    {
+        "MessageId": 100500040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大変な時もありますが、大丈夫です",
+        "MessageKR": "힘들 때도 있지만 괜찮아요.",
+        "MessageTW": "雖然也有辛苦的時候，但不要緊",
+        "MessageEN": "Yes, but I'm fine with it."
+    },
+    {
+        "MessageId": 100500041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何より、すでに私は立派なレディーですから！",
+        "MessageKR": "무엇보다 전 이미 어엿한 숙녀인걸요!",
+        "MessageTW": "更重要的是，我已經是名優秀的淑女了！",
+        "MessageEN": "More than anything, I'm a proper lady now!"
+    },
+    {
+        "MessageId": 100500050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100500051,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生。もしお時間があったら、梅花園を訪問してみませんか？",
+        "MessageKR": "시간 나실 때 매화원에 방문해 보시겠어요?",
+        "MessageTW": "老師。如果有空的話，要不要來梅花園參觀呢？",
+        "MessageEN": "Please visit the Plum Blossom Garden when you can!"
+    },
+    {
+        "MessageId": 100500051,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100490057,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私の教官としての姿を先生にお見せします！",
+        "MessageKR": "제가 교관으로서의 모습을 똑똑히 보여드리죠!",
+        "MessageTW": "我會讓老師看看我身為教官的模樣！",
+        "MessageEN": "I'll show you how I work as an instructor."
+    },
+    {
+        "MessageId": 100490057,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ココナの絆イベントへ",
+        "MessageKR": "코코나의 인연스토리로",
+        "MessageTW": "前往心菜的羈絆劇情",
+        "MessageEN": "Go to Kokona's Event"
+    }
+]

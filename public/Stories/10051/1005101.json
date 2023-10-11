@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10051.webp", "MessageJP": "ウタハ（応援団）", "MessageTW": "詠葉(應援團)", "MessageEN": "Utaha (Cheer Squad)"}, {"MessageId": 100500010, "Flag": 2, "Type": 4, "NextId": 100510010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100510010, "Flag": 2, "Type": 0, "NextId": 100510020, "MessageType": "Text", "ImagePath": "", "MessageJP": "すまない、先生", "MessageTW": "不好意思，老師", "MessageEN": "Oh. Oh, my."}, {"MessageId": 100510020, "Flag": 1, "Type": 0, "NextId": 100510030, "MessageType": "Text", "ImagePath": "", "MessageJP": "もしかして、私の白衣がシャーレにあるかい？", "MessageTW": "請問我的白袍有在夏萊嗎？", "MessageEN": "Sensei, have you seen my lab coat?"}, {"MessageId": 100510030, "Flag": 2, "Type": 3, "NextId": 100510040, "MessageType": "Text", "ImagePath": "", "MessageJP": "これかな？ソファーにかかってたよ", "MessageTW": "是放在沙發上的這件嗎？", "MessageEN": "You mean the one sprawled over the couch?"}, {"MessageId": 100510040, "Flag": 2, "Type": 0, "NextId": 100510041, "MessageType": "Text", "ImagePath": "", "MessageJP": "それだ！見つかって良かった……", "MessageTW": "就是它！能找到真是太好了……", "MessageEN": "That sounds about right."}, {"MessageId": 100510041, "Flag": 2, "Type": 0, "NextId": 100510050, "MessageType": "Text", "ImagePath": "", "MessageJP": "休憩室で脱いだ時に忘れてしまったみたいで", "MessageTW": "大概是上次在休息室脫下後就忘了", "MessageEN": "I must have forgotten it there."}, {"MessageId": 100510050, "Flag": 1, "Type": 0, "NextId": 100510051, "MessageType": "Text", "ImagePath": "", "MessageJP": "これから作業を始めようと思っていたんだけど……", "MessageTW": "我現在本來是想工作的……", "MessageEN": "But I need to start work already. What should I do?"}, {"MessageId": 100510051, "Flag": 2, "Type": 0, "NextId": 100510060, "MessageType": "Text", "ImagePath": "", "MessageJP": "困ったことに、替えの白衣も洗濯中なんだ", "MessageTW": "但麻煩的是，替換用的白袍也拿去洗了……", "MessageEN": "Everything else I could use is being washed..."}, {"MessageId": 100510060, "Flag": 2, "Type": 3, "NextId": 100510070, "MessageType": "Text", "ImagePath": "", "MessageJP": "届けにいこうか？", "MessageTW": "要送去給你嗎？", "MessageEN": "Do you want me to bring it to you?"}, {"MessageId": 100510070, "Flag": 2, "Type": 0, "NextId": 100510071, "MessageType": "Text", "ImagePath": "", "MessageJP": "うーん……いや、大丈夫", "MessageTW": "唔嗯……不，沒關係", "MessageEN": "No, it's okay."}, {"MessageId": 100510071, "Flag": 2, "Type": 0, "NextId": 100500070, "MessageType": "Text", "ImagePath": "", "MessageJP": "代わりになりそうなものを探してみるさ", "MessageTW": "我找找看有沒有能頂替的", "MessageEN": "I'll find something else to wear."}, {"MessageId": 100500070, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハ（応援団）の絆イベントへ", "MessageTW": "前往詠葉(應援團)的羈絆劇情", "MessageEN": "Go to Utaha (Cheer Squad)'s Event"}]
+[
+    {
+        "CharacterId": 10051,
+        "MessageJP": "ウタハ（応援団）",
+        "MessageKR": "우타하(응원단)",
+        "MessageTW": "詠葉(應援團)",
+        "MessageEN": "Utaha (Cheer Squad)"
+    },
+    {
+        "MessageId": 100500010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100510010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100510010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "すまない、先生",
+        "MessageKR": "아, 이런.",
+        "MessageTW": "不好意思，老師",
+        "MessageEN": "Oh. Oh, my."
+    },
+    {
+        "MessageId": 100510020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100510030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もしかして、私の白衣がシャーレにあるかい？",
+        "MessageKR": "선생님. 혹시 내 작업 가운, 샬레에 있어?",
+        "MessageTW": "請問我的白袍有在夏萊嗎？",
+        "MessageEN": "Sensei, have you seen my lab coat?"
+    },
+    {
+        "MessageId": 100510030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100510040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これかな？ソファーにかかってたよ",
+        "MessageKR": "소파 위에 있는 이 흰색 가운 말이야?",
+        "MessageTW": "是放在沙發上的這件嗎？",
+        "MessageEN": "You mean the one sprawled over the couch?"
+    },
+    {
+        "MessageId": 100510040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それだ！見つかって良かった……",
+        "MessageKR": "응, 맞는 것 같네.",
+        "MessageTW": "就是它！能找到真是太好了……",
+        "MessageEN": "That sounds about right."
+    },
+    {
+        "MessageId": 100510041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "休憩室で脱いだ時に忘れてしまったみたいで",
+        "MessageKR": "지난번에 휴게실에 벗어 둔 걸 잊어버린 모양이야.",
+        "MessageTW": "大概是上次在休息室脫下後就忘了",
+        "MessageEN": "I must have forgotten it there."
+    },
+    {
+        "MessageId": 100510050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100510051,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これから作業を始めようと思っていたんだけど……",
+        "MessageKR": "지금부터 작업을 시작해야 하는데 어쩌지?",
+        "MessageTW": "我現在本來是想工作的……",
+        "MessageEN": "But I need to start work already. What should I do?"
+    },
+    {
+        "MessageId": 100510051,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "困ったことに、替えの白衣も洗濯中なんだ",
+        "MessageKR": "다른 가운은 모두 세탁 중인데……",
+        "MessageTW": "但麻煩的是，替換用的白袍也拿去洗了……",
+        "MessageEN": "Everything else I could use is being washed..."
+    },
+    {
+        "MessageId": 100510060,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100510070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "届けにいこうか？",
+        "MessageKR": "지금 가져다줄까?",
+        "MessageTW": "要送去給你嗎？",
+        "MessageEN": "Do you want me to bring it to you?"
+    },
+    {
+        "MessageId": 100510070,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100510071,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うーん……いや、大丈夫",
+        "MessageKR": "아냐, 괜찮아.",
+        "MessageTW": "唔嗯……不，沒關係",
+        "MessageEN": "No, it's okay."
+    },
+    {
+        "MessageId": 100510071,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500077,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "代わりになりそうなものを探してみるさ",
+        "MessageKR": "적당한 대체재를 찾아볼게.",
+        "MessageTW": "我找找看有沒有能頂替的",
+        "MessageEN": "I'll find something else to wear."
+    },
+    {
+        "MessageId": 100500077,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハ（応援団）の絆イベントへ",
+        "MessageKR": "우타하(응원단)의 인연스토리로",
+        "MessageTW": "前往詠葉(應援團)的羈絆劇情",
+        "MessageEN": "Go to Utaha (Cheer Squad)'s Event"
+    }
+]

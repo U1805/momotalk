@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10006.webp", "MessageJP": "イオリ", "MessageTW": "伊織", "MessageEN": "Iori"}, {"MessageId": 100050260, "Flag": 2, "Type": 4, "NextId": 100060264, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100060264, "Flag": 2, "Type": 0, "NextId": 100060270, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日の風紀委員会の活動では世話になった、ありがとう", "MessageTW": "今天在風紀委員會的活動中承蒙關照，謝謝", "MessageEN": "You helped me a lot today. Thank you."}, {"MessageId": 100060270, "Flag": 2, "Type": 3, "NextId": 100060271, "MessageType": "Text", "ImagePath": "", "MessageJP": "私の方こそありがとう", "MessageTW": "我才要謝謝", "MessageEN": "I'm the one who should be saying that."}, {"MessageId": 100060271, "Flag": 2, "Type": 3, "NextId": 100060285, "MessageType": "Text", "ImagePath": "", "MessageJP": "イオリはもちろん、ゲヘナの風紀委員にも色々助けてもらったから", "MessageTW": "除了伊織，還有得到其他格黑娜風紀委員的各種幫助", "MessageEN": "The Prefect Team is always helping me. Thank you."}, {"MessageId": 100060285, "Flag": 2, "Type": 0, "NextId": 100060282, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は私たちと違って、銃で撃たれたら本当に危ないんだから", "MessageTW": "老師和我們不一樣，中彈的話就危險了", "MessageEN": "It's particularly dangerous for you if you get shot, Sensei."}, {"MessageId": 100060282, "Flag": 2, "Type": 0, "NextId": 100060290, "MessageType": "Text", "ImagePath": "", "MessageJP": "ああいう危険な任務なら、私たちが一緒に行くのは当たり前", "MessageTW": "如果是這麼危險的任務，我們一起去是理所當然的", "MessageEN": "It only makes sense for us to join you on a dangerous mission when guns are involved."}, {"MessageId": 100060290, "Flag": 2, "Type": 3, "NextId": 100060291, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、ありがとね。そういえばイオリ、", "MessageTW": "嗯，謝啦。話說回來", "MessageEN": "But didn't you"}, {"MessageId": 100060291, "Flag": 2, "Type": 3, "NextId": 100060303, "MessageType": "Text", "ImagePath": "", "MessageJP": "さっき作戦中に背中を怪我してなかった？", "MessageTW": "伊織在剛才的作戰中背部受傷了嗎？", "MessageEN": "Get hurt during the mission?"}, {"MessageId": 100060303, "Flag": 2, "Type": 0, "NextId": 100060300, "MessageType": "Text", "ImagePath": "", "MessageJP": "ああ……そういえばそうだった", "MessageTW": "啊啊……這麼說來確實是呢", "MessageEN": "Oh... You mean the wound on my back?"}, {"MessageId": 100060300, "Flag": 2, "Type": 0, "NextId": 100050300, "MessageType": "Text", "ImagePath": "", "MessageJP": "気にしないで、大した怪我じゃない", "MessageTW": "別放在心上，不是什麼嚴重的傷", "MessageEN": "Don't worry. It's just a scratch."}, {"MessageId": 100050300, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イオリの絆イベントへ", "MessageTW": "前往伊織的羈絆劇情", "MessageEN": "Go to Iori's Event"}]
+[
+    {
+        "CharacterId": 10006,
+        "MessageJP": "イオリ",
+        "MessageKR": "이오리",
+        "MessageTW": "伊織",
+        "MessageEN": "Iori"
+    },
+    {
+        "MessageId": 100050260,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100060264,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100060264,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日の風紀委員会の活動では世話になった、ありがとう",
+        "MessageKR": "오늘 선도부 활동에서는 꽤나 신세를 졌네. 고마워.",
+        "MessageTW": "今天在風紀委員會的活動中承蒙關照，謝謝",
+        "MessageEN": "You helped me a lot today. Thank you."
+    },
+    {
+        "MessageId": 100060270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060271,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私の方こそありがとう",
+        "MessageKR": "나야말로",
+        "MessageTW": "我才要謝謝",
+        "MessageEN": "I'm the one who should be saying that."
+    },
+    {
+        "MessageId": 100060271,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060285,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イオリはもちろん、ゲヘナの風紀委員にも色々助けてもらったから",
+        "MessageKR": "게헨나 선도부에게 큰 도움을 받았어. 고마워.",
+        "MessageTW": "除了伊織，還有得到其他格黑娜風紀委員的各種幫助",
+        "MessageEN": "The Prefect Team is always helping me. Thank you."
+    },
+    {
+        "MessageId": 100060285,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060282,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は私たちと違って、銃で撃たれたら本当に危ないんだから",
+        "MessageKR": "선생님은 학생들과는 달리 총에 맞으면 정말로 위험할 수도 있으니까.",
+        "MessageTW": "老師和我們不一樣，中彈的話就危險了",
+        "MessageEN": "It's particularly dangerous for you if you get shot, Sensei."
+    },
+    {
+        "MessageId": 100060282,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ああいう危険な任務なら、私たちが一緒に行くのは当たり前",
+        "MessageKR": "총을 사용하는 위험한 임무에는 우리가 함께하는 게 당연하지.",
+        "MessageTW": "如果是這麼危險的任務，我們一起去是理所當然的",
+        "MessageEN": "It only makes sense for us to join you on a dangerous mission when guns are involved."
+    },
+    {
+        "MessageId": 100060290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060291,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、ありがとね。そういえばイオリ、",
+        "MessageKR": "하지만 이오리도",
+        "MessageTW": "嗯，謝啦。話說回來",
+        "MessageEN": "But didn't you"
+    },
+    {
+        "MessageId": 100060291,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100060303,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "さっき作戦中に背中を怪我してなかった？",
+        "MessageKR": "아까 작전 중에 등을 다치지 않았어?",
+        "MessageTW": "伊織在剛才的作戰中背部受傷了嗎？",
+        "MessageEN": "Get hurt during the mission?"
+    },
+    {
+        "MessageId": 100060303,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100060300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ああ……そういえばそうだった",
+        "MessageKR": "아…… 등의 그 상처 말인가.",
+        "MessageTW": "啊啊……這麼說來確實是呢",
+        "MessageEN": "Oh... You mean the wound on my back?"
+    },
+    {
+        "MessageId": 100060300,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100050307,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気にしないで、大した怪我じゃない",
+        "MessageKR": "신경 쓰지 마. 대수롭지 않은 생채기일 뿐이니까.",
+        "MessageTW": "別放在心上，不是什麼嚴重的傷",
+        "MessageEN": "Don't worry. It's just a scratch."
+    },
+    {
+        "MessageId": 100050307,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イオリの絆イベントへ",
+        "MessageKR": "이오리의 인연스토리로",
+        "MessageTW": "前往伊織的羈絆劇情",
+        "MessageEN": "Go to Iori's Event"
+    }
+]

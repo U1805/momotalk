@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10012.webp", "MessageJP": "スミレ", "MessageTW": "堇", "MessageEN": "Sumire"}, {"MessageId": 100110010, "Flag": 2, "Type": 4, "NextId": 100120014, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100120014, "Flag": 2, "Type": 0, "NextId": 100120021, "MessageType": "Text", "ImagePath": "", "MessageJP": "おはようございます、トレーナー", "MessageTW": "早安，指導員", "MessageEN": "Hello, Trainer."}, {"MessageId": 100120021, "Flag": 1, "Type": 0, "NextId": 100120030, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日、お時間大丈夫でしょうか？", "MessageTW": "今天時間上方便嗎？", "MessageEN": "Do you have some time today?"}, {"MessageId": 100120030, "Flag": 2, "Type": 3, "NextId": 100120042, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、どうしたの？", "MessageTW": "嗯，怎麼了？", "MessageEN": "Yeah, what's going on?"}, {"MessageId": 100120030, "Flag": 2, "Type": 3, "NextId": 100120042, "MessageType": "Text", "ImagePath": "", "MessageJP": "特に忙しくないから大丈夫だよ", "MessageTW": "不是特別忙，所以沒問題唷", "MessageEN": "I'm not too busy."}, {"MessageId": 100120042, "Flag": 2, "Type": 0, "NextId": 100120049, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい、実は、", "MessageTW": "嗯，其實", "MessageEN": "Okay, I just wanted to let you know..."}, {"MessageId": 100120049, "Flag": 2, "Type": 0, "NextId": 100120056, "MessageType": "Text", "ImagePath": "", "MessageJP": "この前お話していた、トレーニングメニューができたんです", "MessageTW": "上次說的訓練菜單已經準備好了", "MessageEN": "I've prepared the training schedule that I mentioned earlier."}, {"MessageId": 100120056, "Flag": 1, "Type": 0, "NextId": 100120053, "MessageType": "Text", "ImagePath": "", "MessageJP": "よろしければ確認をしていただきたくて、ジムまで来ていただけませんか？", "MessageTW": "如果可以的話，能請你來健身房確認一下嗎？", "MessageEN": "If possible, I'd like you to check it out today. Can you come to the gym?"}, {"MessageId": 100120053, "Flag": 2, "Type": 0, "NextId": 100110050, "MessageType": "Text", "ImagePath": "", "MessageJP": "お待ちしています！", "MessageTW": "期待你的到來！", "MessageEN": "I'll be waiting for you."}, {"MessageId": 100110050, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "スミレの絆イベントへ", "MessageTW": "前往堇的羈絆劇情", "MessageEN": "Go to Sumire's Event"}]
+[
+    {
+        "CharacterId": 10012,
+        "MessageJP": "スミレ",
+        "MessageKR": "스미레",
+        "MessageTW": "堇",
+        "MessageEN": "Sumire"
+    },
+    {
+        "MessageId": 100110010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100120014,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100120014,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100120021,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "おはようございます、トレーナー",
+        "MessageKR": "안녕하세요. 트레이너.",
+        "MessageTW": "早安，指導員",
+        "MessageEN": "Hello, Trainer."
+    },
+    {
+        "MessageId": 100120021,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100120030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日、お時間大丈夫でしょうか？",
+        "MessageKR": "혹시 오늘 시간 괜찮으실까요?",
+        "MessageTW": "今天時間上方便嗎？",
+        "MessageEN": "Do you have some time today?"
+    },
+    {
+        "MessageId": 100120030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100120042,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、どうしたの？",
+        "MessageKR": "응, 무슨 일이야?",
+        "MessageTW": "嗯，怎麼了？",
+        "MessageEN": "Yeah, what's going on?"
+    },
+    {
+        "MessageId": 100120030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100120042,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "特に忙しくないから大丈夫だよ",
+        "MessageKR": "딱히 바쁘지는 않아.",
+        "MessageTW": "不是特別忙，所以沒問題唷",
+        "MessageEN": "I'm not too busy."
+    },
+    {
+        "MessageId": 100120042,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100120049,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、実は、",
+        "MessageKR": "네, 다름이 아니라.",
+        "MessageTW": "嗯，其實",
+        "MessageEN": "Okay, I just wanted to let you know..."
+    },
+    {
+        "MessageId": 100120049,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100120056,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この前お話していた、トレーニングメニューができたんです",
+        "MessageKR": "이전에 약속드렸던 트레이닝용 시간표를 준비했습니다.",
+        "MessageTW": "上次說的訓練菜單已經準備好了",
+        "MessageEN": "I've prepared the training schedule that I mentioned earlier."
+    },
+    {
+        "MessageId": 100120056,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100120053,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "よろしければ確認をしていただきたくて、ジムまで来ていただけませんか？",
+        "MessageKR": "가능하다면 오늘 확인받고 싶은데, 헬스장으로 와주실 수 있을까요?",
+        "MessageTW": "如果可以的話，能請你來健身房確認一下嗎？",
+        "MessageEN": "If possible, I'd like you to check it out today. Can you come to the gym?"
+    },
+    {
+        "MessageId": 100120053,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100110057,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お待ちしています！",
+        "MessageKR": "기다리고 있겠습니다.",
+        "MessageTW": "期待你的到來！",
+        "MessageEN": "I'll be waiting for you."
+    },
+    {
+        "MessageId": 100110057,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スミレの絆イベントへ",
+        "MessageKR": "스미레의 인연스토리로",
+        "MessageTW": "前往堇的羈絆劇情",
+        "MessageEN": "Go to Sumire's Event"
+    }
+]

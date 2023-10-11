@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10040.webp", "MessageJP": "ツクヨ", "MessageTW": "月夜", "MessageEN": "Tsukuyo"}, {"MessageId": 100390070, "Flag": 2, "Type": 4, "NextId": 100400070, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100400070, "Flag": 2, "Type": 0, "NextId": 100400080, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、よろしければなのですが……", "MessageTW": "老師，如果可以的話……", "MessageEN": "S-Sensei, if you have time..."}, {"MessageId": 100400080, "Flag": 1, "Type": 0, "NextId": 100400090, "MessageType": "Text", "ImagePath": "", "MessageJP": "また、訓練を手伝っていただけませんでしょうか？", "MessageTW": "可以，再幫忙我訓練嗎？", "MessageEN": "Can you help me with ninja training today?"}, {"MessageId": 100400090, "Flag": 1, "Type": 0, "NextId": 100400100, "MessageType": "Text", "ImagePath": "", "MessageJP": "ごめんなさい、お忙しいとは存じているのですが……すみません……", "MessageTW": "對不起，雖然我知道老師很忙……不好意思……", "MessageEN": "W-Would that be difficult? I-I know you're always busy... Umm..."}, {"MessageId": 100400100, "Flag": 2, "Type": 3, "NextId": 100400110, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫だよ、どこに向かえばいいかな？", "MessageTW": "沒關係唷，要去哪裡才好呢？", "MessageEN": "It's okay. Where do you wanna meet?"}, {"MessageId": 100400110, "Flag": 2, "Type": 0, "NextId": 100390110, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます……！それではえっと、以前の場所で！", "MessageTW": "謝謝老師……！那麼那個，在以前的地方！", "MessageEN": "Oh, thank you! Then...let's meet the same place as last time!"}, {"MessageId": 100390110, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ツクヨの絆イベントへ", "MessageTW": "前往月夜的羈絆劇情", "MessageEN": "Go to Tsukuyo's Event"}]
+[
+    {
+        "CharacterId": 10040,
+        "MessageJP": "ツクヨ",
+        "MessageKR": "츠쿠요",
+        "MessageTW": "月夜",
+        "MessageEN": "Tsukuyo"
+    },
+    {
+        "MessageId": 100390070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100400070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100400070,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100400080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、よろしければなのですが……",
+        "MessageKR": "서, 선생님…. 혹시 괜찮으시다면",
+        "MessageTW": "老師，如果可以的話……",
+        "MessageEN": "S-Sensei, if you have time..."
+    },
+    {
+        "MessageId": 100400080,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100400090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "また、訓練を手伝っていただけませんでしょうか？",
+        "MessageKR": "오늘도 닌자가 되기 위한 훈련을 도와주시면 아, 안될까요?",
+        "MessageTW": "可以，再幫忙我訓練嗎？",
+        "MessageEN": "Can you help me with ninja training today?"
+    },
+    {
+        "MessageId": 100400090,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100400100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ごめんなさい、お忙しいとは存じているのですが……すみません……",
+        "MessageKR": "아…. 아, 안되시겠죠…? 선생님은 느, 늘 바쁘시니까…. 그게 그러니까….",
+        "MessageTW": "對不起，雖然我知道老師很忙……不好意思……",
+        "MessageEN": "W-Would that be difficult? I-I know you're always busy... Umm..."
+    },
+    {
+        "MessageId": 100400100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100400110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫だよ、どこに向かえばいいかな？",
+        "MessageKR": "괜찮아. 어디로 가면 될까?",
+        "MessageTW": "沒關係唷，要去哪裡才好呢？",
+        "MessageEN": "It's okay. Where do you wanna meet?"
+    },
+    {
+        "MessageId": 100400110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100390117,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます……！それではえっと、以前の場所で！",
+        "MessageKR": "아, 감사합니다! 그럼.... 저기, 이전 장소에서 기다릴게요!",
+        "MessageTW": "謝謝老師……！那麼那個，在以前的地方！",
+        "MessageEN": "Oh, thank you! Then...let's meet the same place as last time!"
+    },
+    {
+        "MessageId": 100390117,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ツクヨの絆イベントへ",
+        "MessageKR": "츠쿠요의 인연스토리로",
+        "MessageTW": "前往月夜的羈絆劇情",
+        "MessageEN": "Go to Tsukuyo's Event"
+    }
+]

@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20002.webp", "MessageJP": "サヤ", "MessageTW": "沙耶", "MessageEN": "Saya"}, {"MessageId": 200010260, "Flag": 2, "Type": 4, "NextId": 200020263, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200020263, "Flag": 2, "Type": 0, "NextId": 200020270, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、最近暇なんじゃない？", "MessageTW": "老師，最近不是很閒嗎？", "MessageEN": "Haven't you been bored lately, Sensei?"}, {"MessageId": 200020270, "Flag": 2, "Type": 3, "NextId": 200020287, "MessageType": "Text", "ImagePath": "", "MessageJP": "ずっと仕事で忙しい……", "MessageTW": "一直忙於工作……", "MessageEN": "I'm busy working."}, {"MessageId": 200020287, "Flag": 2, "Type": 0, "NextId": 200020284, "MessageType": "Text", "ImagePath": "", "MessageJP": "え～、そんな堅いこと言わないで。面白いボードゲームを手に入れたのだ", "MessageTW": "耶～別那麼死板嘛。我弄到一個有趣的桌遊", "MessageEN": "Oh, don't be like that. I got a fun-looking board game for us to try."}, {"MessageId": 200020284, "Flag": 2, "Type": 0, "NextId": 200020281, "MessageType": "Text", "ImagePath": "", "MessageJP": "遊んでみたいんだけど、2人用だから相手を探さないといけなくって", "MessageTW": "我想玩玩看，但因為是2人用的，所以得找對手", "MessageEN": "I wanted to play it right away, but it's hard to find someone to play with..."}, {"MessageId": 200020281, "Flag": 2, "Type": 0, "NextId": 200020290, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生も興味があったら、研究室に遊びに来て！", "MessageTW": "老師也有興趣的話，來研究室玩吧！", "MessageEN": "Come to the lab if you're interested!"}, {"MessageId": 200020290, "Flag": 2, "Type": 3, "NextId": 200010300, "MessageType": "Text", "ImagePath": "", "MessageJP": "仕事が終わったら遊びに行くね", "MessageTW": "工作結束後去玩", "MessageEN": "I'll drop by sometime."}, {"MessageId": 200010300, "Flag": 2, "Type": 2, "NextId": 200020305, "MessageType": "Text", "ImagePath": "", "MessageJP": "サヤの絆イベントへ", "MessageTW": "前往沙耶的羈絆劇情", "MessageEN": "Go to Saya's Event"}, {"MessageId": 200020305, "Flag": 2, "Type": 0, "NextId": 200020302, "MessageType": "Text", "ImagePath": "", "MessageJP": "うう、あんな単純なゲームでぼく様が負けるなんて……悔しい！", "MessageTW": "嗚嗚，這麼簡單的遊戲竟然輸了……不甘心！", "MessageEN": "I can't believe I lost in such a simple game... Ugh!"}, {"MessageId": 200020302, "Flag": 2, "Type": 0, "NextId": 200020310, "MessageType": "Text", "ImagePath": "", "MessageJP": "次は絶対負けないから！覚悟しておくのだ、先生！", "MessageTW": "下次絕對不會輸！做好覺悟吧，老師！", "MessageEN": "I'm not going to lose next time! You'll see, Sensei!"}, {"MessageId": 200020310, "Flag": 2, "Type": 3, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ゲーム云々じゃなくてチーズへの執着を断ち切らないと無理なんじゃ……？", "MessageTW": "先不管遊戲，你得先斬斷對起司的執著吧……？", "MessageEN": "I think you need to do something about that cheese obsession first..."}]
+[
+    {
+        "CharacterId": 20002,
+        "MessageJP": "サヤ",
+        "MessageKR": "사야",
+        "MessageTW": "沙耶",
+        "MessageEN": "Saya"
+    },
+    {
+        "MessageId": 200010260,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200020263,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200020263,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、最近暇なんじゃない？",
+        "MessageKR": "선생, 요즘 심심하지 않아?",
+        "MessageTW": "老師，最近不是很閒嗎？",
+        "MessageEN": "Haven't you been bored lately, Sensei?"
+    },
+    {
+        "MessageId": 200020270,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200020287,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ずっと仕事で忙しい……",
+        "MessageKR": "선생님은 일하느라 바빠.",
+        "MessageTW": "一直忙於工作……",
+        "MessageEN": "I'm busy working."
+    },
+    {
+        "MessageId": 200020287,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020284,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "え～、そんな堅いこと言わないで。面白いボードゲームを手に入れたのだ",
+        "MessageKR": "에이, 딱딱하게 굴지 말고. 안 그래도 내가 재미있어 보이는 보드 게임을 하나 구한 것이다.",
+        "MessageTW": "耶～別那麼死板嘛。我弄到一個有趣的桌遊",
+        "MessageEN": "Oh, don't be like that. I got a fun-looking board game for us to try."
+    },
+    {
+        "MessageId": 200020284,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "遊んでみたいんだけど、2人用だから相手を探さないといけなくって",
+        "MessageKR": "마음 같아서는 빨리 플레이해보고 싶은데, 2인용이라 같이 할 사람을 찾기가 어려워서 말이야.",
+        "MessageTW": "我想玩玩看，但因為是2人用的，所以得找對手",
+        "MessageEN": "I wanted to play it right away, but it's hard to find someone to play with..."
+    },
+    {
+        "MessageId": 200020281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生も興味があったら、研究室に遊びに来て！",
+        "MessageKR": "선생도 관심이 있다면 언제 한 번 연구실에 놀러 오는 것이다!",
+        "MessageTW": "老師也有興趣的話，來研究室玩吧！",
+        "MessageEN": "Come to the lab if you're interested!"
+    },
+    {
+        "MessageId": 200020290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010307,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "仕事が終わったら遊びに行くね",
+        "MessageKR": "내키면 한 번 놀러 갈게.",
+        "MessageTW": "工作結束後去玩",
+        "MessageEN": "I'll drop by sometime."
+    },
+    {
+        "MessageId": 200010307,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200020305,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サヤの絆イベントへ",
+        "MessageKR": "사야의 인연스토리로",
+        "MessageTW": "前往沙耶的羈絆劇情",
+        "MessageEN": "Go to Saya's Event"
+    },
+    {
+        "MessageId": 200020305,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020302,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うう、あんな単純なゲームでぼく様が負けるなんて……悔しい！",
+        "MessageKR": "으으, 이런 단순한 게임에서 나님이 지다니…… 분해!",
+        "MessageTW": "嗚嗚，這麼簡單的遊戲竟然輸了……不甘心！",
+        "MessageEN": "I can't believe I lost in such a simple game... Ugh!"
+    },
+    {
+        "MessageId": 200020302,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200020310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次は絶対負けないから！覚悟しておくのだ、先生！",
+        "MessageKR": "다음번에는 절대로 지지 않을 테니까! 각오해 두는 것이다, 선생!",
+        "MessageTW": "下次絕對不會輸！做好覺悟吧，老師！",
+        "MessageEN": "I'm not going to lose next time! You'll see, Sensei!"
+    },
+    {
+        "MessageId": 200020310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ゲーム云々じゃなくてチーズへの執着を断ち切らないと無理なんじゃ……？",
+        "MessageKR": "게임보다는 우선 치즈에 대한 집착부터 끊는 게 좋지 않을까……?",
+        "MessageTW": "先不管遊戲，你得先斬斷對起司的執著吧……？",
+        "MessageEN": "I think you need to do something about that cheese obsession first..."
+    }
+]

@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23004.webp", "MessageJP": "ウタハ", "MessageTW": "詠葉", "MessageEN": "Utaha"}, {"MessageId": 230030400, "Flag": 2, "Type": 4, "NextId": 230040400, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230040400, "Flag": 2, "Type": 0, "NextId": 230040410, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生", "MessageTW": "老師", "MessageEN": "Sensei."}, {"MessageId": 230040410, "Flag": 1, "Type": 0, "NextId": 230040420, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日、時間はあるかい？", "MessageTW": "今天有空嗎？", "MessageEN": "Are you free today by any chance?"}, {"MessageId": 230040420, "Flag": 2, "Type": 3, "NextId": 230040430, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫だよ。何かあったの？", "MessageTW": "沒問題唷。有什麼事嗎？", "MessageEN": "Sure. What's up?"}, {"MessageId": 230040430, "Flag": 2, "Type": 0, "NextId": 230040440, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょっと工具を新調しようと思って", "MessageTW": "我想要更新一下工具", "MessageEN": "I just need to go buy some tools."}, {"MessageId": 230040440, "Flag": 1, "Type": 0, "NextId": 230040441, "MessageType": "Text", "ImagePath": "", "MessageJP": "私が贔屓にしてる工具専門店があるんだ", "MessageTW": "有間我常去的工具專賣店", "MessageEN": "There's a secret little hardware store I go to."}, {"MessageId": 230040441, "Flag": 2, "Type": 0, "NextId": 230040450, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生さえ良ければ、紹介しようかなと", "MessageTW": "老師不介意的話，我想介紹給你", "MessageEN": "I was wondering if you'd like to join me."}, {"MessageId": 230040450, "Flag": 2, "Type": 3, "NextId": 230030450, "MessageType": "Text", "ImagePath": "", "MessageJP": "喜んで！", "MessageTW": "我很樂意！", "MessageEN": "I'd love to!"}, {"MessageId": 230030450, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ウタハの絆イベントへ", "MessageTW": "前往詠葉的羈絆劇情", "MessageEN": "Go to Utaha's Event"}]
+[
+    {
+        "CharacterId": 23004,
+        "MessageJP": "ウタハ",
+        "MessageKR": "우타하",
+        "MessageTW": "詠葉",
+        "MessageEN": "Utaha"
+    },
+    {
+        "MessageId": 230030400,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230040400,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230040400,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040410,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님.",
+        "MessageTW": "老師",
+        "MessageEN": "Sensei."
+    },
+    {
+        "MessageId": 230040410,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230040420,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日、時間はあるかい？",
+        "MessageKR": "혹시 오늘 시간 괜찮을까.",
+        "MessageTW": "今天有空嗎？",
+        "MessageEN": "Are you free today by any chance?"
+    },
+    {
+        "MessageId": 230040420,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230040430,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫だよ。何かあったの？",
+        "MessageKR": "괜찮은데, 무슨 일이야?",
+        "MessageTW": "沒問題唷。有什麼事嗎？",
+        "MessageEN": "Sure. What's up?"
+    },
+    {
+        "MessageId": 230040430,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040440,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと工具を新調しようと思って",
+        "MessageKR": "그냥 공구를 좀 사러 갈 일이 있어서.",
+        "MessageTW": "我想要更新一下工具",
+        "MessageEN": "I just need to go buy some tools."
+    },
+    {
+        "MessageId": 230040440,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230040441,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私が贔屓にしてる工具専門店があるんだ",
+        "MessageKR": "나만 아는 공구 전문점이 있는데",
+        "MessageTW": "有間我常去的工具專賣店",
+        "MessageEN": "There's a secret little hardware store I go to."
+    },
+    {
+        "MessageId": 230040441,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230040450,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生さえ良ければ、紹介しようかなと",
+        "MessageKR": "괜찮으면, 소개해 줄까 해서.",
+        "MessageTW": "老師不介意的話，我想介紹給你",
+        "MessageEN": "I was wondering if you'd like to join me."
+    },
+    {
+        "MessageId": 230040450,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030457,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "喜んで！",
+        "MessageKR": "얼마든지!",
+        "MessageTW": "我很樂意！",
+        "MessageEN": "I'd love to!"
+    },
+    {
+        "MessageId": 230030457,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ウタハの絆イベントへ",
+        "MessageKR": "우타하의 인연스토리로",
+        "MessageTW": "前往詠葉的羈絆劇情",
+        "MessageEN": "Go to Utaha's Event"
+    }
+]

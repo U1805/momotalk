@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20023.webp", "MessageJP": "カンナ", "MessageTW": "環奈", "MessageEN": "Kanna"}, {"MessageId": 200220260, "Flag": 2, "Type": 4, "NextId": 200230260, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200230260, "Flag": 2, "Type": 0, "NextId": 200230270, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういえば、生活安全局には", "MessageTW": "這麼說來，在生活安全局裡", "MessageEN": "Come to think of it, in the Public Safety Bureau"}, {"MessageId": 200230270, "Flag": 1, "Type": 0, "NextId": 200230280, "MessageType": "Text", "ImagePath": "", "MessageJP": "警備局や捜査局に転科を希望する生徒が、それなりにいるようです", "MessageTW": "似乎有不少學生想轉調至警備局或搜查局", "MessageEN": "there were a lot of students who wanted to transfer to the Security or Investigation Bureaus."}, {"MessageId": 200230280, "Flag": 2, "Type": 3, "NextId": 200230290, "MessageType": "Text", "ImagePath": "", "MessageJP": "聞いたことあるかも", "MessageTW": "我好像也聽過", "MessageEN": "There were quite a lot."}, {"MessageId": 200230280, "Flag": 2, "Type": 3, "NextId": 200230290, "MessageType": "Text", "ImagePath": "", "MessageJP": "多いかな……？", "MessageTW": "有很多嗎……？", "MessageEN": "Were there...?"}, {"MessageId": 200230290, "Flag": 2, "Type": 3, "NextId": 200230300, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういうカンナは、最初から公安局志望だったの？", "MessageTW": "話說環奈一開始就是想進入公安局嗎？", "MessageEN": "Did you want to apply for the Public Peace Bureau from the beginning?"}, {"MessageId": 200230300, "Flag": 2, "Type": 0, "NextId": 200230310, "MessageType": "Text", "ImagePath": "", "MessageJP": "私ですか？", "MessageTW": "您說我嗎？", "MessageEN": "Me?"}, {"MessageId": 200230310, "Flag": 1, "Type": 0, "NextId": 200230311, "MessageType": "Text", "ImagePath": "", "MessageJP": "私の場合", "MessageTW": "我的話", "MessageEN": "No, actually. In my case,"}, {"MessageId": 200230311, "Flag": 2, "Type": 0, "NextId": 200230320, "MessageType": "Text", "ImagePath": "", "MessageJP": "1年生の時に生活安全局を志望しましたが……", "MessageTW": "1年級時是想加入生活安全局的……", "MessageEN": "I applied to the Public Safety Bureau my first year."}, {"MessageId": 200230320, "Flag": 1, "Type": 0, "NextId": 200230330, "MessageType": "Text", "ImagePath": "", "MessageJP": "その顔で市民の窓口に立つような仕事は難しいと言われ……", "MessageTW": "但被人說這張臉擔任市民窗口的工作會有困難……", "MessageEN": "But I was told my demeanor was ill-equipped for dealing with civil complaints."}, {"MessageId": 200230330, "Flag": 2, "Type": 3, "NextId": 200230340, "MessageType": "Text", "ImagePath": "", "MessageJP": "結構な……", "MessageTW": "那還真是……", "MessageEN": "Um..."}, {"MessageId": 200230340, "Flag": 2, "Type": 0, "NextId": 200230350, "MessageType": "Text", "ImagePath": "", "MessageJP": "何か言いたいことでも？", "MessageTW": "您有什麼想說的嗎？", "MessageEN": "Did you want to say something?"}, {"MessageId": 200230350, "Flag": 2, "Type": 3, "NextId": 200220350, "MessageType": "Text", "ImagePath": "", "MessageJP": "いやっ、何でもないよ！", "MessageTW": "沒有，什麼都沒有！", "MessageEN": "N-Nothing!"}, {"MessageId": 200220350, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "カンナの絆イベントへ", "MessageTW": "前往環奈的羈絆劇情", "MessageEN": "Go to Kanna's Event"}]
+[
+    {
+        "CharacterId": 20023,
+        "MessageJP": "カンナ",
+        "MessageKR": "칸나",
+        "MessageTW": "環奈",
+        "MessageEN": "Kanna"
+    },
+    {
+        "MessageId": 200220260,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200230260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200230260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういえば、生活安全局には",
+        "MessageKR": "그러고보니 생활안전국에는",
+        "MessageTW": "這麼說來，在生活安全局裡",
+        "MessageEN": "Come to think of it, in the Public Safety Bureau"
+    },
+    {
+        "MessageId": 200230270,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200230280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "警備局や捜査局に転科を希望する生徒が、それなりにいるようです",
+        "MessageKR": "경비국이나 수사국 전과를 희망하는 학생들이 제법 있던 모양이더군요",
+        "MessageTW": "似乎有不少學生想轉調至警備局或搜查局",
+        "MessageEN": "there were a lot of students who wanted to transfer to the Security or Investigation Bureaus."
+    },
+    {
+        "MessageId": 200230280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200230290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "聞いたことあるかも",
+        "MessageKR": "제법 있었지.",
+        "MessageTW": "我好像也聽過",
+        "MessageEN": "There were quite a lot."
+    },
+    {
+        "MessageId": 200230280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200230290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "多いかな……？",
+        "MessageKR": "많았었던가……?",
+        "MessageTW": "有很多嗎……？",
+        "MessageEN": "Were there...?"
+    },
+    {
+        "MessageId": 200230290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200230300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういうカンナは、最初から公安局志望だったの？",
+        "MessageKR": "그러고보니 칸나는 처음부터 공안국을 지망했던 거야?",
+        "MessageTW": "話說環奈一開始就是想進入公安局嗎？",
+        "MessageEN": "Did you want to apply for the Public Peace Bureau from the beginning?"
+    },
+    {
+        "MessageId": 200230300,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私ですか？",
+        "MessageKR": "저 말씀이십니까?",
+        "MessageTW": "您說我嗎？",
+        "MessageEN": "Me?"
+    },
+    {
+        "MessageId": 200230310,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200230311,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私の場合",
+        "MessageKR": "제 경우는",
+        "MessageTW": "我的話",
+        "MessageEN": "No, actually. In my case,"
+    },
+    {
+        "MessageId": 200230311,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "1年生の時に生活安全局を志望しましたが……",
+        "MessageKR": "1학년 때는 생활안전국을 지망했습니다만",
+        "MessageTW": "1年級時是想加入生活安全局的……",
+        "MessageEN": "I applied to the Public Safety Bureau my first year."
+    },
+    {
+        "MessageId": 200230320,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200230330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その顔で市民の窓口に立つような仕事は難しいと言われ……",
+        "MessageKR": "그 얼굴로 민원 처리는 어려울 거라는 이야기를 들어서",
+        "MessageTW": "但被人說這張臉擔任市民窗口的工作會有困難……",
+        "MessageEN": "But I was told my demeanor was ill-equipped for dealing with civil complaints."
+    },
+    {
+        "MessageId": 200230330,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200230340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "結構な……",
+        "MessageKR": "음……",
+        "MessageTW": "那還真是……",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 200230340,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何か言いたいことでも？",
+        "MessageKR": "뭔가 하실 말씀이라도?",
+        "MessageTW": "您有什麼想說的嗎？",
+        "MessageEN": "Did you want to say something?"
+    },
+    {
+        "MessageId": 200230350,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200220357,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いやっ、何でもないよ！",
+        "MessageKR": "아무것도 아니야!",
+        "MessageTW": "沒有，什麼都沒有！",
+        "MessageEN": "N-Nothing!"
+    },
+    {
+        "MessageId": 200220357,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カンナの絆イベントへ",
+        "MessageKR": "칸나의 인연스토리로",
+        "MessageTW": "前往環奈的羈絆劇情",
+        "MessageEN": "Go to Kanna's Event"
+    }
+]

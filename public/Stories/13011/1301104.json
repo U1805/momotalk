@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13011.webp", "MessageJP": "モモイ", "MessageTW": "桃井", "MessageEN": "Momoi"}, {"MessageId": 130100250, "Flag": 2, "Type": 4, "NextId": 130110250, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130110250, "Flag": 2, "Type": 0, "NextId": 130110260, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生先生！", "MessageTW": "老師老師！", "MessageEN": "Sensei, Sensei!"}, {"MessageId": 130110260, "Flag": 2, "Type": 3, "NextId": 130110270, "MessageType": "Text", "ImagePath": "", "MessageJP": "モモイが現れた！", "MessageTW": "桃井出現了！", "MessageEN": "Yes! Momoi! Momoi!"}, {"MessageId": 130110260, "Flag": 2, "Type": 3, "NextId": 130110270, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしたの？", "MessageTW": "怎麼了？", "MessageEN": "What's wrong?"}, {"MessageId": 130110270, "Flag": 2, "Type": 0, "NextId": 130110271, "MessageType": "Text", "ImagePath": "", "MessageJP": "今度、春葉原ですっごく大きなイベントがあるんだって！", "MessageTW": "聽說這次在春葉原有非常大的活動！", "MessageEN": "There's a big event going on at Haru Habara!"}, {"MessageId": 130110271, "Flag": 2, "Type": 0, "NextId": 130110280, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんと、ウルトラマリンシスターズ40周年スタンプラリー！", "MessageTW": "竟然有究極瑪琳姊妹40週年集章活動！", "MessageEN": "There's a stamp rally going on for the Ultra Marine Sisters' fortieth anniversary!"}, {"MessageId": 130110280, "Flag": 2, "Type": 3, "NextId": 130110290, "MessageType": "Text", "ImagePath": "", "MessageJP": "スタンプラリー？", "MessageTW": "集章活動？", "MessageEN": "...A stamp rally?"}, {"MessageId": 130110290, "Flag": 2, "Type": 0, "NextId": 130110291, "MessageType": "Text", "ImagePath": "", "MessageJP": "スタンプを全部集めたら、プレゼントとして限定グッズを貰えるみたいなの", "MessageTW": "收集所有印章的話，就能拿到限定商品作為獎品", "MessageEN": "If you get all the stamps, you can get special items!"}, {"MessageId": 130110291, "Flag": 2, "Type": 0, "NextId": 130110300, "MessageType": "Text", "ImagePath": "", "MessageJP": "これは見逃せない……！", "MessageTW": "這可不能錯過……！", "MessageEN": "We can't miss this!"}, {"MessageId": 130110300, "Flag": 1, "Type": 0, "NextId": 130100300, "MessageType": "Text", "ImagePath": "", "MessageJP": "一緒に行こ、先生！！", "MessageTW": "一起去吧，老師！！", "MessageEN": "Okay, Sensei?"}, {"MessageId": 130100300, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "モモイの絆イベントへ", "MessageTW": "前往桃井的羈絆劇情", "MessageEN": "Go to Momoi's Event"}]
+[
+    {
+        "CharacterId": 13011,
+        "MessageJP": "モモイ",
+        "MessageKR": "모모이",
+        "MessageTW": "桃井",
+        "MessageEN": "Momoi"
+    },
+    {
+        "MessageId": 130100250,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130110250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130110250,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生先生！",
+        "MessageKR": "선생님, 선생님!",
+        "MessageTW": "老師老師！",
+        "MessageEN": "Sensei, Sensei!"
+    },
+    {
+        "MessageId": 130110260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130110270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "モモイが現れた！",
+        "MessageKR": "응! 모모이모모이!",
+        "MessageTW": "桃井出現了！",
+        "MessageEN": "Yes! Momoi! Momoi!"
+    },
+    {
+        "MessageId": 130110260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130110270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしたの？",
+        "MessageKR": "왜 그래?",
+        "MessageTW": "怎麼了？",
+        "MessageEN": "What's wrong?"
+    },
+    {
+        "MessageId": 130110270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110271,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度、春葉原ですっごく大きなイベントがあるんだって！",
+        "MessageKR": "하루하바라에서 커다란 이벤트가 있대!",
+        "MessageTW": "聽說這次在春葉原有非常大的活動！",
+        "MessageEN": "There's a big event going on at Haru Habara!"
+    },
+    {
+        "MessageId": 130110271,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんと、ウルトラマリンシスターズ40周年スタンプラリー！",
+        "MessageKR": "무려 울트라 마린 시스터즈 40주년 스탬프 랠리가……!",
+        "MessageTW": "竟然有究極瑪琳姊妹40週年集章活動！",
+        "MessageEN": "There's a stamp rally going on for the Ultra Marine Sisters' fortieth anniversary!"
+    },
+    {
+        "MessageId": 130110280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130110290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スタンプラリー？",
+        "MessageKR": "……스탬프 랠리?",
+        "MessageTW": "集章活動？",
+        "MessageEN": "...A stamp rally?"
+    },
+    {
+        "MessageId": 130110290,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110291,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "スタンプを全部集めたら、プレゼントとして限定グッズを貰えるみたいなの",
+        "MessageKR": "스탬프를 전부 모으면 특제 굿즈가 선물로 나온다고 하니",
+        "MessageTW": "收集所有印章的話，就能拿到限定商品作為獎品",
+        "MessageEN": "If you get all the stamps, you can get special items!"
+    },
+    {
+        "MessageId": 130110291,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130110300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これは見逃せない……！",
+        "MessageKR": "이건 놓칠 수 없어!",
+        "MessageTW": "這可不能錯過……！",
+        "MessageEN": "We can't miss this!"
+    },
+    {
+        "MessageId": 130110300,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130100307,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一緒に行こ、先生！！",
+        "MessageKR": "알았지, 선생님?!",
+        "MessageTW": "一起去吧，老師！！",
+        "MessageEN": "Okay, Sensei?"
+    },
+    {
+        "MessageId": 130100307,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "モモイの絆イベントへ",
+        "MessageKR": "모모이의 인연스토리로",
+        "MessageTW": "前往桃井的羈絆劇情",
+        "MessageEN": "Go to Momoi's Event"
+    }
+]

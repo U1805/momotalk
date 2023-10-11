@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23002.webp", "MessageJP": "ハナエ", "MessageTW": "花繪", "MessageEN": "Hanae"}, {"MessageId": 230010010, "Flag": 2, "Type": 4, "NextId": 230020014, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230020014, "Flag": 2, "Type": 0, "NextId": 230020020, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は注射、怖いですか？", "MessageTW": "老師會害怕打針嗎？", "MessageEN": "Are you scared of getting shots too, Sensei?"}, {"MessageId": 230020020, "Flag": 2, "Type": 3, "NextId": 230020035, "MessageType": "Text", "ImagePath": "", "MessageJP": "平気だよ", "MessageTW": "不怕", "MessageEN": "I have no problem with getting shots."}, {"MessageId": 230020020, "Flag": 2, "Type": 3, "NextId": 230020049, "MessageType": "Text", "ImagePath": "", "MessageJP": "注射無理！針怖い！", "MessageTW": "打針我不行！針好可怕！", "MessageEN": "I hate shots! I hate needles!"}, {"MessageId": 230020035, "Flag": 2, "Type": 0, "NextId": 230020032, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうなんですね、さすが大人です！", "MessageTW": "這樣啊，不愧是大人！", "MessageEN": "Wow, and you're an adult!"}, {"MessageId": 230020032, "Flag": 2, "Type": 0, "NextId": 230020053, "MessageType": "Text", "ImagePath": "", "MessageJP": "生徒はみんな大抵、注射の針を怖がってしまって……", "MessageTW": "學生們大部分都害怕打針……", "MessageEN": "Most students are afraid of pointy needles."}, {"MessageId": 230020049, "Flag": 1, "Type": 0, "NextId": 230020046, "MessageType": "Text", "ImagePath": "", "MessageJP": "やっぱり大人でも注射は怖いんですね……", "MessageTW": "果然就算是大人也會害怕打針啊……", "MessageEN": "...I guess even adults are scared of shots."}, {"MessageId": 230020046, "Flag": 2, "Type": 0, "NextId": 230020053, "MessageType": "Text", "ImagePath": "", "MessageJP": "注射の針を見てゾッとするのは、大人も子供も関係ないのかもしれません", "MessageTW": "看來一見到針頭就毛骨悚然是跟年齡無關的也說不定", "MessageEN": "Those needles always give me a bad feeling."}, {"MessageId": 230020053, "Flag": 1, "Type": 0, "NextId": 230020050, "MessageType": "Text", "ImagePath": "", "MessageJP": "でも先輩たち曰く、ベテランの看護師さんの注射は全然痛くないそうです", "MessageTW": "但是前輩們都說，老練的護士們打的針似乎一點也不痛", "MessageEN": "The older students told me that skilled nurses know how to make shots painless."}, {"MessageId": 230020050, "Flag": 2, "Type": 0, "NextId": 230020067, "MessageType": "Text", "ImagePath": "", "MessageJP": "注射が痛くなければ、病院を怖がる人も減りそうなのですが……", "MessageTW": "如果打針不會痛的話，或許害怕醫院的人也會變少吧……", "MessageEN": "If shots really were painless, more people would be okay with the hospital..."}, {"MessageId": 230020067, "Flag": 1, "Type": 0, "NextId": 230010060, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうすれば、痛くなくなるのでしょうか？", "MessageTW": "該怎麼做才能減輕疼痛呢？", "MessageEN": "I wonder how they make shots painless?"}, {"MessageId": 230010060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハナエの絆イベントへ", "MessageTW": "前往花繪的羈絆劇情", "MessageEN": "Go to Hanae's Event"}]
+[
+    {
+        "CharacterId": 23002,
+        "MessageJP": "ハナエ",
+        "MessageKR": "하나에",
+        "MessageTW": "花繪",
+        "MessageEN": "Hanae"
+    },
+    {
+        "MessageId": 230010010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230020014,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230020014,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は注射、怖いですか？",
+        "MessageKR": "선생님, 혹시 선생님도 주사를 무서워하시나요?",
+        "MessageTW": "老師會害怕打針嗎？",
+        "MessageEN": "Are you scared of getting shots too, Sensei?"
+    },
+    {
+        "MessageId": 230020020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230020035,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "平気だよ",
+        "MessageKR": "주사 정도야 문제없이 맞을 수 있지.",
+        "MessageTW": "不怕",
+        "MessageEN": "I have no problem with getting shots."
+    },
+    {
+        "MessageId": 230020020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230020049,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "注射無理！針怖い！",
+        "MessageKR": "주사 무서워! 바늘 무서워!",
+        "MessageTW": "打針我不行！針好可怕！",
+        "MessageEN": "I hate shots! I hate needles!"
+    },
+    {
+        "MessageId": 230020035,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020032,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうなんですね、さすが大人です！",
+        "MessageKR": "와, 역시 어른이시네요!",
+        "MessageTW": "這樣啊，不愧是大人！",
+        "MessageEN": "Wow, and you're an adult!"
+    },
+    {
+        "MessageId": 230020032,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020053,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "生徒はみんな大抵、注射の針を怖がってしまって……",
+        "MessageKR": "하지만 대부분의 학생은 뾰족한 주삿바늘을 무서워하니까요.",
+        "MessageTW": "學生們大部分都害怕打針……",
+        "MessageEN": "Most students are afraid of pointy needles."
+    },
+    {
+        "MessageId": 230020049,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230020046,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やっぱり大人でも注射は怖いんですね……",
+        "MessageKR": "……역시 어른들도 주사는 무섭나 보네요.",
+        "MessageTW": "果然就算是大人也會害怕打針啊……",
+        "MessageEN": "...I guess even adults are scared of shots."
+    },
+    {
+        "MessageId": 230020046,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020053,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "注射の針を見てゾッとするのは、大人も子供も関係ないのかもしれません",
+        "MessageKR": "확실히 뾰족한 주삿바늘은 보고만 있어도 섬뜩한 기분이 드니까요.",
+        "MessageTW": "看來一見到針頭就毛骨悚然是跟年齡無關的也說不定",
+        "MessageEN": "Those needles always give me a bad feeling."
+    },
+    {
+        "MessageId": 230020053,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230020050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でも先輩たち曰く、ベテランの看護師さんの注射は全然痛くないそうです",
+        "MessageKR": "그런데 선배들에게 들었는데, 능숙한 간호사들은 주사를 아프지 않게 놓을 수 있대요.",
+        "MessageTW": "但是前輩們都說，老練的護士們打的針似乎一點也不痛",
+        "MessageEN": "The older students told me that skilled nurses know how to make shots painless."
+    },
+    {
+        "MessageId": 230020050,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230020067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "注射が痛くなければ、病院を怖がる人も減りそうなのですが……",
+        "MessageKR": "주사가 아프지 않다면 병원에 오는 걸 무서워하는 사람들도 줄어들 텐데…….",
+        "MessageTW": "如果打針不會痛的話，或許害怕醫院的人也會變少吧……",
+        "MessageEN": "If shots really were painless, more people would be okay with the hospital..."
+    },
+    {
+        "MessageId": 230020067,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230010067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうすれば、痛くなくなるのでしょうか？",
+        "MessageKR": "어떻게 하면 주사를 아프지 않게 놓을 수 있을까요?",
+        "MessageTW": "該怎麼做才能減輕疼痛呢？",
+        "MessageEN": "I wonder how they make shots painless?"
+    },
+    {
+        "MessageId": 230010067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハナエの絆イベントへ",
+        "MessageKR": "하나에의 인연스토리로",
+        "MessageTW": "前往花繪的羈絆劇情",
+        "MessageEN": "Go to Hanae's Event"
+    }
+]

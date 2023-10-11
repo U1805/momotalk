@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10041.webp", "MessageJP": "ミサキ", "MessageTW": "美咲", "MessageEN": "Misaki"}, {"MessageId": 100400010, "Flag": 2, "Type": 4, "NextId": 100410010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100410010, "Flag": 2, "Type": 0, "NextId": 100410020, "MessageType": "Text", "ImagePath": "", "MessageJP": "……これ、誰？", "MessageTW": "……你是，誰？", "MessageEN": "Who are you?"}, {"MessageId": 100410020, "Flag": 2, "Type": 3, "NextId": 100410030, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミサキ？どうしたの？", "MessageTW": "美咲？怎麼了嗎？", "MessageEN": "Huh? Misaki?"}, {"MessageId": 100410030, "Flag": 2, "Type": 0, "NextId": 100410031, "MessageType": "Text", "ImagePath": "", "MessageJP": "……", "MessageTW": "……", "MessageEN": "..."}, {"MessageId": 100410031, "Flag": 2, "Type": 0, "NextId": 100410040, "MessageType": "Text", "ImagePath": "", "MessageJP": "ああ、先生か", "MessageTW": "啊啊，是老師啊", "MessageEN": "Oh, it's you, Sensei."}, {"MessageId": 100410040, "Flag": 1, "Type": 0, "NextId": 100410041, "MessageType": "Text", "ImagePath": "", "MessageJP": "そっか、そうだった", "MessageTW": "這樣啊，原來如此", "MessageEN": "Yeah, that's right."}, {"MessageId": 100410041, "Flag": 2, "Type": 0, "NextId": 100410050, "MessageType": "Text", "ImagePath": "", "MessageJP": "自分で追加しといて忘れてた", "MessageTW": "明明是我自己加的卻忘記了", "MessageEN": "I forgot I added you."}, {"MessageId": 100410050, "Flag": 1, "Type": 0, "NextId": 100410060, "MessageType": "Text", "ImagePath": "", "MessageJP": "それじゃ、失礼しました ", "MessageTW": "那麼，不好意思打擾了", "MessageEN": "Excuse me. "}, {"MessageId": 100410060, "Flag": 2, "Type": 3, "NextId": 100400060, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと……あの、ミサキ？", "MessageTW": "呃……那個，美咲？", "MessageEN": "U-Um, Misaki?"}, {"MessageId": 100400060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミサキの絆イベントへ", "MessageTW": "前往美咲的羈絆劇情", "MessageEN": "Go to Misaki's Event"}]
+[
+    {
+        "CharacterId": 10041,
+        "MessageJP": "ミサキ",
+        "MessageKR": "미사키",
+        "MessageTW": "美咲",
+        "MessageEN": "Misaki"
+    },
+    {
+        "MessageId": 100400010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100410010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100410010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100410020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……これ、誰？",
+        "MessageKR": "누구냐, 넌?",
+        "MessageTW": "……你是，誰？",
+        "MessageEN": "Who are you?"
+    },
+    {
+        "MessageId": 100410020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100410030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミサキ？どうしたの？",
+        "MessageKR": "……응? 미사키?",
+        "MessageTW": "美咲？怎麼了嗎？",
+        "MessageEN": "Huh? Misaki?"
+    },
+    {
+        "MessageId": 100410030,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100410031,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……",
+        "MessageKR": "…….",
+        "MessageTW": "……",
+        "MessageEN": "..."
+    },
+    {
+        "MessageId": 100410031,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100410040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ああ、先生か",
+        "MessageKR": "아아. 선생님이었나.",
+        "MessageTW": "啊啊，是老師啊",
+        "MessageEN": "Oh, it's you, Sensei."
+    },
+    {
+        "MessageId": 100410040,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100410041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そっか、そうだった",
+        "MessageKR": "그래, 맞아. 그랬었지.",
+        "MessageTW": "這樣啊，原來如此",
+        "MessageEN": "Yeah, that's right."
+    },
+    {
+        "MessageId": 100410041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100410050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "自分で追加しといて忘れてた",
+        "MessageKR": "추가해놓고 까먹고 있었어.",
+        "MessageTW": "明明是我自己加的卻忘記了",
+        "MessageEN": "I forgot I added you."
+    },
+    {
+        "MessageId": 100410050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100410060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それじゃ、失礼しました ",
+        "MessageKR": "그럼 실례했어.",
+        "MessageTW": "那麼，不好意思打擾了",
+        "MessageEN": "Excuse me. "
+    },
+    {
+        "MessageId": 100410060,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100400067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと……あの、ミサキ？",
+        "MessageKR": "저, 저기요? 미사키?",
+        "MessageTW": "呃……那個，美咲？",
+        "MessageEN": "U-Um, Misaki?"
+    },
+    {
+        "MessageId": 100400067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミサキの絆イベントへ",
+        "MessageKR": "미사키의 인연스토리로",
+        "MessageTW": "前往美咲的羈絆劇情",
+        "MessageEN": "Go to Misaki's Event"
+    }
+]

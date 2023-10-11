@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 10068,
+        "MessageJP": "レイサ",
+        "MessageKR": "레이사",
+        "MessageTW": "澪紗",
+        "MessageEN": "Reisa"
+    },
+    {
+        "MessageId": 100670300,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100680300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100680300,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100680310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生！お疲れ様です！！",
+        "MessageKR": "선생님!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680310,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100680320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度、予定を空けていただいても良いでしょうか！！",
+        "MessageKR": "혹시 나중에 시간 괜찮으실까요!!!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680320,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100680330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろんだよ",
+        "MessageKR": "물론 괜찮지.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680320,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100680330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "元気そうでよかった",
+        "MessageKR": "뭔가 말에 활기가 있는걸.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680330,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100680340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あはは！",
+        "MessageKR": "하하하!!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680340,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100680341,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつも先生に色々といただいてますから！！",
+        "MessageKR": "지금까지 늘 선생님께 받기만 했으니!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680341,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100680350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度は！私が！先生に！お礼を！したく！！",
+        "MessageKR": "이번에는! 제가! 쏘겠습니다!!!!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100680350,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100670357,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "とびっきり素敵な一日にして差し上げます！！楽しみにしててくださいね！",
+        "MessageKR": "아주 특별한 날을 만들어 드리죠!!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100670357,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "レイサの絆イベントへ",
+        "MessageKR": "레이사의 인연스토리로",
+        "MessageTW": "前往澪紗的羈絆劇情",
+        "MessageEN": "Go to Reisa's Event"
+    }
+]

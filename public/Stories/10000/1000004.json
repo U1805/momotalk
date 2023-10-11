@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10000.webp", "MessageJP": "アル", "MessageTW": "亞瑠", "MessageEN": "Aru"}, {"MessageId": 99990190, "Flag": 2, "Type": 4, "NextId": 100000191, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100000191, "Flag": 2, "Type": 0, "NextId": 100000200, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今日暇かしら？", "MessageTW": "老師，今天有空嗎？", "MessageEN": "Sensei, are you free today?"}, {"MessageId": 100000200, "Flag": 2, "Type": 3, "NextId": 100000212, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、暇だよ", "MessageTW": "嗯，有空唷", "MessageEN": "Yeah, I'm free."}, {"MessageId": 100000200, "Flag": 2, "Type": 3, "NextId": 100000212, "MessageType": "Text", "ImagePath": "", "MessageJP": "アルちゃんが私のことを呼んでいるのなら、行かざるを得ない", "MessageTW": "如果是亞瑠的呼喚，不行也得行", "MessageEN": "Even if I was busy, I'd make time for you, Aru."}, {"MessageId": 100000212, "Flag": 2, "Type": 0, "NextId": 100000219, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふ、ふーん……！？ま、まあ、ならいいわ", "MessageTW": "哼，哼嗯……！？嘛，嘛，那好吧", "MessageEN": "A-Ahem! Well, o-okay."}, {"MessageId": 100000219, "Flag": 2, "Type": 0, "NextId": 100000226, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は、先生に大事な話があるの", "MessageTW": "今天有重要的事要和老師說", "MessageEN": "I have something important to discuss with you, Sensei."}, {"MessageId": 100000226, "Flag": 1, "Type": 0, "NextId": 100000223, "MessageType": "Text", "ImagePath": "", "MessageJP": "後で、便利屋の事務所に来てくれる？", "MessageTW": "晚點能來便利屋的辦公室嗎？", "MessageEN": "Come to the Problem Solver office today."}, {"MessageId": 100000223, "Flag": 2, "Type": 0, "NextId": 99990230, "MessageType": "Text", "ImagePath": "", "MessageJP": "待ってるわよ", "MessageTW": "我等著唷", "MessageEN": "I'll be waiting."}, {"MessageId": 99990230, "Flag": 2, "Type": 2, "NextId": 100000230, "MessageType": "Text", "ImagePath": "", "MessageJP": "アルの絆イベントへ", "MessageTW": "前往亞瑠的羈絆劇情", "MessageEN": "Go to Aru's Event"}, {"MessageId": 100000230, "Flag": 2, "Type": 0, "NextId": 100000237, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日みたいに私のカッコいい姿を見られるなんて、貴重なことなのよ？", "MessageTW": "能像今天這樣看到我帥氣的樣子，是很珍貴的事哦？", "MessageEN": "Did you see how cool I was today?"}, {"MessageId": 100000237, "Flag": 2, "Type": 0, "NextId": 100000244, "MessageType": "Text", "ImagePath": "", "MessageJP": "これからもよろしくお願いするわね、先生！", "MessageTW": "今後也請多多關照唷，老師！", "MessageEN": "I'm looking forward to working with you, Sensei!"}, {"MessageId": 100000244, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "……ちなみにあれは、本当に仕事の電話だったから！本当よ！", "MessageTW": "……順帶一提，那真的是工作電話！真的唷！", "MessageEN": "FYI, that really was a business call, so don't take it the wrong way!"}]
+[
+    {
+        "CharacterId": 10000,
+        "MessageJP": "アル",
+        "MessageKR": "아루",
+        "MessageTW": "亞瑠",
+        "MessageEN": "Aru"
+    },
+    {
+        "MessageId": 99990190,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100000191,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100000191,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今日暇かしら？",
+        "MessageKR": "선생님, 오늘 한가해?",
+        "MessageTW": "老師，今天有空嗎？",
+        "MessageEN": "Sensei, are you free today?"
+    },
+    {
+        "MessageId": 100000200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100000212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、暇だよ",
+        "MessageKR": "응, 한가해.",
+        "MessageTW": "嗯，有空唷",
+        "MessageEN": "Yeah, I'm free."
+    },
+    {
+        "MessageId": 100000200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100000212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アルちゃんが私のことを呼んでいるのなら、行かざるを得ない",
+        "MessageKR": "아루 쨩이 부른다면 바쁘더라도 가야지.",
+        "MessageTW": "如果是亞瑠的呼喚，不行也得行",
+        "MessageEN": "Even if I was busy, I'd make time for you, Aru."
+    },
+    {
+        "MessageId": 100000212,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000219,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふ、ふーん……！？ま、まあ、ならいいわ",
+        "MessageKR": "크, 크흠! 뭐, 좋, 좋아.",
+        "MessageTW": "哼，哼嗯……！？嘛，嘛，那好吧",
+        "MessageEN": "A-Ahem! Well, o-okay."
+    },
+    {
+        "MessageId": 100000219,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000226,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は、先生に大事な話があるの",
+        "MessageKR": "선생님에게 중요한 용건이 있던 참이니까.",
+        "MessageTW": "今天有重要的事要和老師說",
+        "MessageEN": "I have something important to discuss with you, Sensei."
+    },
+    {
+        "MessageId": 100000226,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100000223,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "後で、便利屋の事務所に来てくれる？",
+        "MessageKR": "그럼 오늘 흥신소 사무실로 찾아와줘.",
+        "MessageTW": "晚點能來便利屋的辦公室嗎？",
+        "MessageEN": "Come to the Problem Solver office today."
+    },
+    {
+        "MessageId": 100000223,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 99990237,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "待ってるわよ",
+        "MessageKR": "기다리고 있을게.",
+        "MessageTW": "我等著唷",
+        "MessageEN": "I'll be waiting."
+    },
+    {
+        "MessageId": 99990237,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100000230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アルの絆イベントへ",
+        "MessageKR": "아루의 인연스토리로",
+        "MessageTW": "前往亞瑠的羈絆劇情",
+        "MessageEN": "Go to Aru's Event"
+    },
+    {
+        "MessageId": 100000230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000237,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日みたいに私のカッコいい姿を見られるなんて、貴重なことなのよ？",
+        "MessageKR": "오늘 내 멋진 모습, 잔뜩 봤지?",
+        "MessageTW": "能像今天這樣看到我帥氣的樣子，是很珍貴的事哦？",
+        "MessageEN": "Did you see how cool I was today?"
+    },
+    {
+        "MessageId": 100000237,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100000244,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これからもよろしくお願いするわね、先生！",
+        "MessageKR": "앞으로도 잘 부탁해. 선생님!",
+        "MessageTW": "今後也請多多關照唷，老師！",
+        "MessageEN": "I'm looking forward to working with you, Sensei!"
+    },
+    {
+        "MessageId": 100000244,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……ちなみにあれは、本当に仕事の電話だったから！本当よ！",
+        "MessageKR": "참고로 그거 정말 업무 전화 맞았으니까! 오해하지 마!",
+        "MessageTW": "……順帶一提，那真的是工作電話！真的唷！",
+        "MessageEN": "FYI, that really was a business call, so don't take it the wrong way!"
+    }
+]

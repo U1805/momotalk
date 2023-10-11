@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13010.webp", "MessageJP": "ユウカ", "MessageTW": "優香", "MessageEN": "Yuuka"}, {"MessageId": 130090270, "Flag": 2, "Type": 4, "NextId": 130100274, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130100274, "Flag": 2, "Type": 0, "NextId": 130100272, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今朝もまた遅刻をされたとか", "MessageTW": "老師，聽說你今天早上又遲到了", "MessageEN": "Sensei, you were late again this morning."}, {"MessageId": 130100272, "Flag": 1, "Type": 0, "NextId": 130100280, "MessageType": "Text", "ImagePath": "", "MessageJP": "いくら先生に先生はいないからって、遅刻が多すぎませんか？", "MessageTW": "就算老師是老師，也太常遲到了吧？", "MessageEN": "I know there's no one watching, but don't you think this is a poor example to set?"}, {"MessageId": 130100280, "Flag": 2, "Type": 3, "NextId": 130100292, "MessageType": "Text", "ImagePath": "", "MessageJP": "昨日は仕事が多かったから、寝るのが遅くなって……", "MessageTW": "是因為昨天工作很多，所以很晚才睡……", "MessageEN": "But I was up late last night because of work..."}, {"MessageId": 130100280, "Flag": 2, "Type": 3, "NextId": 130100300, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユウカが起こしに来てくれれば……", "MessageTW": "如果優香能來叫醒我……", "MessageEN": "I wouldn't be late if you came to wake me up every morning."}, {"MessageId": 130100292, "Flag": 2, "Type": 0, "NextId": 130100306, "MessageType": "Text", "ImagePath": "", "MessageJP": "それでも遅刻はいけません！", "MessageTW": "即使這樣也不能遲到！", "MessageEN": "It's not okay to be late, even if you had a lot of work! "}, {"MessageId": 130100300, "Flag": 1, "Type": 0, "NextId": 130100306, "MessageType": "Text", "ImagePath": "", "MessageJP": "大人なんですから甘えないでください！", "MessageTW": "已經是大人了，請不要撒嬌！", "MessageEN": "Stop acting like a child! Are you an adult, or not?"}, {"MessageId": 130100306, "Flag": 1, "Type": 0, "NextId": 130100303, "MessageType": "Text", "ImagePath": "", "MessageJP": "シャーレには校則が無いからといって、気が緩み過ぎです", "MessageTW": "雖說夏萊沒有校規，但也太鬆散了", "MessageEN": "I think you've become too lax because school rules don't apply to Schale."}, {"MessageId": 130100303, "Flag": 2, "Type": 0, "NextId": 130100310, "MessageType": "Text", "ImagePath": "", "MessageJP": "罰則を設けましょう。明日から遅刻一回につき、私の命令を1つ聞くこと！", "MessageTW": "來設立懲罰吧。從明天開始，每遲到一次，就要聽從我的1個命令！", "MessageEN": "No more excuses! If you're late again tomorrow, you'll have to follow my orders!"}, {"MessageId": 130100310, "Flag": 2, "Type": 3, "NextId": 130100327, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあユウカが遅刻したら逆に私が命令してもいい？", "MessageTW": "那優香遲到的話，我也可以反過來命令你嗎？", "MessageEN": "Does that mean I can give you orders if YOU'RE late?"}, {"MessageId": 130100327, "Flag": 2, "Type": 0, "NextId": 130100324, "MessageType": "Text", "ImagePath": "", "MessageJP": "何を言ってるんですか、私が遅刻するわけないでしょう？", "MessageTW": "你在說什麼，我怎麼可能遲到？", "MessageEN": "What? Why would I ever be late?"}, {"MessageId": 130100324, "Flag": 2, "Type": 0, "NextId": 130090320, "MessageType": "Text", "ImagePath": "", "MessageJP": "とにかく、明日は絶対に遅刻しないでくださいね。絶対ですよ！", "MessageTW": "總之，明天絕對不可以遲到。絕對哦！", "MessageEN": "Just don't be late tomorrow. Please!"}, {"MessageId": 130090320, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユウカの絆イベントへ", "MessageTW": "前往優香的羈絆劇情", "MessageEN": "Go to Yuuka's Event"}]
+[
+    {
+        "CharacterId": 13010,
+        "MessageJP": "ユウカ",
+        "MessageKR": "유우카",
+        "MessageTW": "優香",
+        "MessageEN": "Yuuka"
+    },
+    {
+        "MessageId": 130090270,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130100274,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130100274,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100272,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今朝もまた遅刻をされたとか",
+        "MessageKR": "선생님, 오늘 아침에 또 지각하셨더군요.",
+        "MessageTW": "老師，聽說你今天早上又遲到了",
+        "MessageEN": "Sensei, you were late again this morning."
+    },
+    {
+        "MessageId": 130100272,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130100280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いくら先生に先生はいないからって、遅刻が多すぎませんか？",
+        "MessageKR": "아무리 감시하는 사람이 없다고는 하지만, 너무 자주 지각하시는 게 아닌가요?",
+        "MessageTW": "就算老師是老師，也太常遲到了吧？",
+        "MessageEN": "I know there's no one watching, but don't you think this is a poor example to set?"
+    },
+    {
+        "MessageId": 130100280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130100292,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "昨日は仕事が多かったから、寝るのが遅くなって……",
+        "MessageKR": "하지만 어제는 일이 많아서 늦게 잠자리에 들었는걸…….",
+        "MessageTW": "是因為昨天工作很多，所以很晚才睡……",
+        "MessageEN": "But I was up late last night because of work..."
+    },
+    {
+        "MessageId": 130100280,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130100300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユウカが起こしに来てくれれば……",
+        "MessageKR": "유우카가 깨우러 와주면 지각하지 않을 텐데…….",
+        "MessageTW": "如果優香能來叫醒我……",
+        "MessageEN": "I wouldn't be late if you came to wake me up every morning."
+    },
+    {
+        "MessageId": 130100292,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100306,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それでも遅刻はいけません！",
+        "MessageKR": "그렇다 하더라도 지각해도 괜찮은 건 아니라고요!",
+        "MessageTW": "即使這樣也不能遲到！",
+        "MessageEN": "It's not okay to be late, even if you had a lot of work! "
+    },
+    {
+        "MessageId": 130100300,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130100306,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大人なんですから甘えないでください！",
+        "MessageKR": "어리광 부리지 마세요! 어른이시잖아요?",
+        "MessageTW": "已經是大人了，請不要撒嬌！",
+        "MessageEN": "Stop acting like a child! Are you an adult, or not?"
+    },
+    {
+        "MessageId": 130100306,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130100303,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シャーレには校則が無いからといって、気が緩み過ぎです",
+        "MessageKR": "샬레는 학교처럼 교칙이 적용되지 않으니까 너무 느슨해지신 것 같아요.",
+        "MessageTW": "雖說夏萊沒有校規，但也太鬆散了",
+        "MessageEN": "I think you've become too lax because school rules don't apply to Schale."
+    },
+    {
+        "MessageId": 130100303,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "罰則を設けましょう。明日から遅刻一回につき、私の命令を1つ聞くこと！",
+        "MessageKR": "벌이에요! 내일부터 지각하시면 제가 시키는 명령을 한 가지 들어주셔야겠어요!",
+        "MessageTW": "來設立懲罰吧。從明天開始，每遲到一次，就要聽從我的1個命令！",
+        "MessageEN": "No more excuses! If you're late again tomorrow, you'll have to follow my orders!"
+    },
+    {
+        "MessageId": 130100310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130100327,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあユウカが遅刻したら逆に私が命令してもいい？",
+        "MessageKR": "그럼 유우카가 늦으면 내가 명령을 내릴 수 있는 거야?",
+        "MessageTW": "那優香遲到的話，我也可以反過來命令你嗎？",
+        "MessageEN": "Does that mean I can give you orders if YOU'RE late?"
+    },
+    {
+        "MessageId": 130100327,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130100324,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何を言ってるんですか、私が遅刻するわけないでしょう？",
+        "MessageKR": "네? 제가 지각을 할 리가 없잖아요?",
+        "MessageTW": "你在說什麼，我怎麼可能遲到？",
+        "MessageEN": "What? Why would I ever be late?"
+    },
+    {
+        "MessageId": 130100324,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130090327,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "とにかく、明日は絶対に遅刻しないでくださいね。絶対ですよ！",
+        "MessageKR": "여하튼 내일은 절대로 늦으시면 안 돼요. 절대로요!",
+        "MessageTW": "總之，明天絕對不可以遲到。絕對哦！",
+        "MessageEN": "Just don't be late tomorrow. Please!"
+    },
+    {
+        "MessageId": 130090327,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユウカの絆イベントへ",
+        "MessageKR": "유우카의 인연스토리로",
+        "MessageTW": "前往優香的羈絆劇情",
+        "MessageEN": "Go to Yuuka's Event"
+    }
+]

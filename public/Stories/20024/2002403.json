@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20024.webp", "MessageJP": "ナギサ", "MessageTW": "渚", "MessageEN": "Nagisa"}, {"MessageId": 200230230, "Flag": 2, "Type": 4, "NextId": 200240230, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200240230, "Flag": 2, "Type": 0, "NextId": 200240240, "MessageType": "Text", "ImagePath": "", "MessageJP": "……いかがお過ごしでしょうか", "MessageTW": "……最近過得如何呢", "MessageEN": "I...hope this message finds you well."}, {"MessageId": 200240240, "Flag": 1, "Type": 0, "NextId": 200240241, "MessageType": "Text", "ImagePath": "", "MessageJP": "先日は、みっともない姿をお見せしてしまいましたが……", "MessageTW": "前些日子，讓您看見難以見人的樣子了呢……", "MessageEN": "Um..."}, {"MessageId": 200240241, "Flag": 2, "Type": 0, "NextId": 200240250, "MessageType": "Text", "ImagePath": "", "MessageJP": "あらためましてその、決して普段からあのような言動をしているわけではなく……", "MessageTW": "那個，向您重申，我平時的言行絕對不是那樣的……", "MessageEN": "About the last time we spoke... I owe you an apology. I lost my composure."}, {"MessageId": 200240250, "Flag": 2, "Type": 3, "NextId": 200240260, "MessageType": "Text", "ImagePath": "", "MessageJP": "気にしないで", "MessageTW": "別在意", "MessageEN": "Don't worry about it! It's not a problem."}, {"MessageId": 200240260, "Flag": 2, "Type": 0, "NextId": 200240261, "MessageType": "Text", "ImagePath": "", "MessageJP": "そう言われましても……ティーパーティーとして、やはり失態を放っておくことはできません。", "MessageTW": "雖然您這麼說……身為茶會的一員，果然不能對此等失態置之不理", "MessageEN": "Thank you. However, as one of the leaders of Trinity, I must hold myself to a higher standard."}, {"MessageId": 200240261, "Flag": 2, "Type": 0, "NextId": 200240270, "MessageType": "Text", "ImagePath": "", "MessageJP": "……よろしければお詫びを兼ねて、もう一度お時間を頂けませんか？", "MessageTW": "……老師願意的話，順帶作為賠罪，能再借用您一些時間嗎？", "MessageEN": "If you would, please allow me the opportunity to correct my mistakes."}, {"MessageId": 200240270, "Flag": 1, "Type": 0, "NextId": 200240280, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょうど新しく頼んだ茶葉がもうすぐ到着しますので", "MessageTW": "正好新購入的茶葉也即將送達", "MessageEN": "As it happens, the new tea leaves I ordered are due to be delivered."}, {"MessageId": 200240280, "Flag": 1, "Type": 0, "NextId": 200240290, "MessageType": "Text", "ImagePath": "", "MessageJP": "ご馳走させてください。先生のご都合がよろしければ、ですが", "MessageTW": "請讓我招待您吧。當然，前提是老師您願意", "MessageEN": "Shall we enjoy it together?"}, {"MessageId": 200240290, "Flag": 2, "Type": 3, "NextId": 200240300, "MessageType": "Text", "ImagePath": "", "MessageJP": "それじゃあ、ご相伴に預かろうかな", "MessageTW": "那，就承蒙你的好意囉", "MessageEN": "Sure."}, {"MessageId": 200240300, "Flag": 2, "Type": 0, "NextId": 200230300, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます。それでは、テラスでお待ちしておりますね。", "MessageTW": "謝謝您。那麼，我會在露臺等待您的到來", "MessageEN": "I'll be waiting for you in the usual spot."}, {"MessageId": 200230300, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ナギサの絆イベントへ", "MessageTW": "前往渚的羈絆劇情", "MessageEN": "Go to Nagisa's Event"}]
+[
+    {
+        "CharacterId": 20024,
+        "MessageJP": "ナギサ",
+        "MessageKR": "나기사",
+        "MessageTW": "渚",
+        "MessageEN": "Nagisa"
+    },
+    {
+        "MessageId": 200230230,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200240230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200240230,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……いかがお過ごしでしょうか",
+        "MessageKR": "……그간 평안하셨는지요.",
+        "MessageTW": "……最近過得如何呢",
+        "MessageEN": "I...hope this message finds you well."
+    },
+    {
+        "MessageId": 200240240,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240241,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先日は、みっともない姿をお見せしてしまいましたが……",
+        "MessageKR": "저",
+        "MessageTW": "前些日子，讓您看見難以見人的樣子了呢……",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 200240241,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あらためましてその、決して普段からあのような言動をしているわけではなく……",
+        "MessageKR": "지난번에는 평정심을 잃은 탓에 선생님께 큰 실례를 저질렀습니다……",
+        "MessageTW": "那個，向您重申，我平時的言行絕對不是那樣的……",
+        "MessageEN": "About the last time we spoke... I owe you an apology. I lost my composure."
+    },
+    {
+        "MessageId": 200240250,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気にしないで",
+        "MessageKR": "괜찮아. 신경 쓰지 않아.",
+        "MessageTW": "別在意",
+        "MessageEN": "Don't worry about it! It's not a problem."
+    },
+    {
+        "MessageId": 200240260,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240261,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そう言われましても……ティーパーティーとして、やはり失態を放っておくことはできません。",
+        "MessageKR": "하지만 트리니티의 중책을 맡은 자가 실수를 가벼이 넘길 수는 없는 법.",
+        "MessageTW": "雖然您這麼說……身為茶會的一員，果然不能對此等失態置之不理",
+        "MessageEN": "Thank you. However, as one of the leaders of Trinity, I must hold myself to a higher standard."
+    },
+    {
+        "MessageId": 200240261,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200240270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……よろしければお詫びを兼ねて、もう一度お時間を頂けませんか？",
+        "MessageKR": "선생님께서 괜찮으시다면 부디 제게 실수를 만회할 기회를 주셨으면 합니다.",
+        "MessageTW": "……老師願意的話，順帶作為賠罪，能再借用您一些時間嗎？",
+        "MessageEN": "If you would, please allow me the opportunity to correct my mistakes."
+    },
+    {
+        "MessageId": 200240270,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょうど新しく頼んだ茶葉がもうすぐ到着しますので",
+        "MessageKR": "그러고 보니 새로 주문한 찻잎이 곧 도착할 것 같은데……",
+        "MessageTW": "正好新購入的茶葉也即將送達",
+        "MessageEN": "As it happens, the new tea leaves I ordered are due to be delivered."
+    },
+    {
+        "MessageId": 200240280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200240290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご馳走させてください。先生のご都合がよろしければ、ですが",
+        "MessageKR": "새로운 차의 시음과 겸하여 함께 다과회라도 즐기시는 게 어떠신가요?",
+        "MessageTW": "請讓我招待您吧。當然，前提是老師您願意",
+        "MessageEN": "Shall we enjoy it together?"
+    },
+    {
+        "MessageId": 200240290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200240300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それじゃあ、ご相伴に預かろうかな",
+        "MessageKR": "좋아.",
+        "MessageTW": "那，就承蒙你的好意囉",
+        "MessageEN": "Sure."
+    },
+    {
+        "MessageId": 200240300,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200230307,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます。それでは、テラスでお待ちしておりますね。",
+        "MessageKR": "네. 그럼 전의 장소에서 기다리고 있겠습니다.",
+        "MessageTW": "謝謝您。那麼，我會在露臺等待您的到來",
+        "MessageEN": "I'll be waiting for you in the usual spot."
+    },
+    {
+        "MessageId": 200230307,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ナギサの絆イベントへ",
+        "MessageKR": "나기사의 인연스토리로",
+        "MessageTW": "前往渚的羈絆劇情",
+        "MessageEN": "Go to Nagisa's Event"
+    }
+]

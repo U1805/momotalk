@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20015.webp", "MessageJP": "カエデ", "MessageTW": "楓", "MessageEN": "Kaede"}, {"MessageId": 200140150, "Flag": 2, "Type": 4, "NextId": 200150150, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200150150, "Flag": 2, "Type": 0, "NextId": 200150160, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今日も引き続き「素敵なレディー」になるため頑張るよ！", "MessageTW": "老師，今天我也會努力成為一名「完美淑女」！", "MessageEN": "Sensei, as usual, I'm gonna work hard to become a proper lady!"}, {"MessageId": 200150160, "Flag": 2, "Type": 3, "NextId": 200150170, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、いつも通り頑張って", "MessageTW": "嗯，今天也加油", "MessageEN": "Okay, do your best as usual."}, {"MessageId": 200150170, "Flag": 2, "Type": 0, "NextId": 200150171, "MessageType": "Text", "ImagePath": "", "MessageJP": "でも素敵なレディーへの道は、かなり厳しい……", "MessageTW": "不過要成為完美淑女還真是不容易……", "MessageEN": "But the path of a proper lady is so hard..."}, {"MessageId": 200150171, "Flag": 2, "Type": 0, "NextId": 200150180, "MessageType": "Text", "ImagePath": "", "MessageJP": "どれくらい難しいかというと…………", "MessageTW": "要說有多困難……", "MessageEN": "Let me tell you just how hard it is..."}, {"MessageId": 200150180, "Flag": 1, "Type": 0, "NextId": 200150190, "MessageType": "Text", "ImagePath": "", "MessageJP": "夏休みに「ラジオ体操カード」で、欠かさず毎日スタンプを貰うこと並みに難しい！", "MessageTW": "這就跟暑假時，要每天都在「廣播體操卡」上面蓋章一樣難！", "MessageEN": "It might be even harder than attending every morning exercise session during summer break!"}, {"MessageId": 200150190, "Flag": 2, "Type": 3, "NextId": 200150200, "MessageType": "Text", "ImagePath": "", "MessageJP": "それは難しい！", "MessageTW": "這的確很難！", "MessageEN": "That...would be hard, for sure!"}, {"MessageId": 200150200, "Flag": 2, "Type": 0, "NextId": 200150201, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうなの、それでどうすれば良いかなって悩んでたんだけど……", "MessageTW": "就是啊，所以我很煩惱該到底該怎麼辦……", "MessageEN": "Right? So I've been thinking really, really hard! "}, {"MessageId": 200150201, "Flag": 2, "Type": 0, "NextId": 200150210, "MessageType": "Text", "ImagePath": "", "MessageJP": "すっごいことを思いついちゃった！", "MessageTW": "並想到了一個好主意！", "MessageEN": "And I found something great!"}, {"MessageId": 200150210, "Flag": 1, "Type": 0, "NextId": 200150220, "MessageType": "Text", "ImagePath": "", "MessageJP": "これはもう「世紀の大発見」と呼べるくらいだよ！", "MessageTW": "甚至可說是個「世紀大發現」唷！", "MessageEN": "This could be the greatest discovery of the century! I'll tell you about it in person! "}, {"MessageId": 200150220, "Flag": 1, "Type": 0, "NextId": 200140220, "MessageType": "Text", "ImagePath": "", "MessageJP": "話してあげるから、早く修行部の部室に来て！", "MessageTW": "我想當面跟老師說，快點來修行部社辦吧！", "MessageEN": "I'll see you at the club room, Sensei!"}, {"MessageId": 200140220, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "カエデの絆イベントへ", "MessageTW": "前往楓的羈絆劇情", "MessageEN": "Go to Kaede's Event"}]
+[
+    {
+        "CharacterId": 20015,
+        "MessageJP": "カエデ",
+        "MessageKR": "카에데",
+        "MessageTW": "楓",
+        "MessageEN": "Kaede"
+    },
+    {
+        "MessageId": 200140150,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200150150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200150150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200150160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今日も引き続き「素敵なレディー」になるため頑張るよ！",
+        "MessageKR": "선생님, 오늘도 멋진 레이디가 되기 위해 노력할게!",
+        "MessageTW": "老師，今天我也會努力成為一名「完美淑女」！",
+        "MessageEN": "Sensei, as usual, I'm gonna work hard to become a proper lady!"
+    },
+    {
+        "MessageId": 200150160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200150170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、いつも通り頑張って",
+        "MessageKR": "응, 오늘도 힘내.",
+        "MessageTW": "嗯，今天也加油",
+        "MessageEN": "Okay, do your best as usual."
+    },
+    {
+        "MessageId": 200150170,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200150171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "でも素敵なレディーへの道は、かなり厳しい……",
+        "MessageKR": "하지만 멋진 레이디로 향하는 길은 역시 엄청 어려워…….",
+        "MessageTW": "不過要成為完美淑女還真是不容易……",
+        "MessageEN": "But the path of a proper lady is so hard..."
+    },
+    {
+        "MessageId": 200150171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200150180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どれくらい難しいかというと…………",
+        "MessageKR": "얼마나 어렵냐면………",
+        "MessageTW": "要說有多困難……",
+        "MessageEN": "Let me tell you just how hard it is..."
+    },
+    {
+        "MessageId": 200150180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200150190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "夏休みに「ラジオ体操カード」で、欠かさず毎日スタンプを貰うこと並みに難しい！",
+        "MessageKR": "여름방학에 아침체조 카드를 전부 도장으로 채우는 것보다 더 어려울지도 몰라!",
+        "MessageTW": "這就跟暑假時，要每天都在「廣播體操卡」上面蓋章一樣難！",
+        "MessageEN": "It might be even harder than attending every morning exercise session during summer break!"
+    },
+    {
+        "MessageId": 200150190,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200150200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それは難しい！",
+        "MessageKR": "그건……. 확실히 어렵네!",
+        "MessageTW": "這的確很難！",
+        "MessageEN": "That...would be hard, for sure!"
+    },
+    {
+        "MessageId": 200150200,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200150201,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうなの、それでどうすれば良いかなって悩んでたんだけど……",
+        "MessageKR": "그치? 그래서 어쩌면 좋을까, 어어어엄청 고민하던 차에……!",
+        "MessageTW": "就是啊，所以我很煩惱該到底該怎麼辦……",
+        "MessageEN": "Right? So I've been thinking really, really hard! "
+    },
+    {
+        "MessageId": 200150201,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200150210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "すっごいことを思いついちゃった！",
+        "MessageKR": "나 마침 좋은 걸 발견했거든!",
+        "MessageTW": "並想到了一個好主意！",
+        "MessageEN": "And I found something great!"
+    },
+    {
+        "MessageId": 200150210,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200150220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これはもう「世紀の大発見」と呼べるくらいだよ！",
+        "MessageKR": "이거 세기의 대발견일지도 몰라! 이 엄청난 발견은 직접 만나서 말해줄게!",
+        "MessageTW": "甚至可說是個「世紀大發現」唷！",
+        "MessageEN": "This could be the greatest discovery of the century! I'll tell you about it in person! "
+    },
+    {
+        "MessageId": 200150220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200140227,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "話してあげるから、早く修行部の部室に来て！",
+        "MessageKR": "부실에서 보자! 선생님!",
+        "MessageTW": "我想當面跟老師說，快點來修行部社辦吧！",
+        "MessageEN": "I'll see you at the club room, Sensei!"
+    },
+    {
+        "MessageId": 200140227,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カエデの絆イベントへ",
+        "MessageKR": "카에데의 인연스토리로",
+        "MessageTW": "前往楓的羈絆劇情",
+        "MessageEN": "Go to Kaede's Event"
+    }
+]

@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20001.webp", "MessageJP": "カリン", "MessageTW": "花凛", "MessageEN": "Karin"}, {"MessageId": 200000080, "Flag": 2, "Type": 4, "NextId": 200010080, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200010080, "Flag": 2, "Type": 0, "NextId": 200010097, "MessageType": "Text", "ImagePath": "", "MessageJP": "私にもっと力があれば、", "MessageTW": "如果我有更多的力量", "MessageEN": "If only I were a bit stronger..."}, {"MessageId": 200010097, "Flag": 1, "Type": 0, "NextId": 200010100, "MessageType": "Text", "ImagePath": "", "MessageJP": "この世から「数学」という科目を消し去るのに……", "MessageTW": "就能將「數學」這門科目從這個世界上消除了……", "MessageEN": "If there's one thing I'd love to purge from this world, it's math."}, {"MessageId": 200010100, "Flag": 2, "Type": 3, "NextId": 200010111, "MessageType": "Text", "ImagePath": "", "MessageJP": "急にどうしたの？", "MessageTW": "怎麼突然這麼說？", "MessageEN": "What are you talking about?"}, {"MessageId": 200010111, "Flag": 2, "Type": 0, "NextId": 200010118, "MessageType": "Text", "ImagePath": "", "MessageJP": "急な愚痴で申し訳ない……", "MessageTW": "一時昏頭了不好意思……", "MessageEN": "Oh, I'm just venting."}, {"MessageId": 200010118, "Flag": 2, "Type": 0, "NextId": 200000120, "MessageType": "Text", "ImagePath": "", "MessageJP": "図書館へ行く途中にふと、先生に聞いてほしくなって", "MessageTW": "在去圖書館的路上，突然想跟老師說", "MessageEN": "I was on the way to the library...and I wanted to text you."}, {"MessageId": 200000120, "Flag": 2, "Type": 2, "NextId": 200010125, "MessageType": "Text", "ImagePath": "", "MessageJP": "カリンの絆イベントへ", "MessageTW": "前往花凛的羈絆劇情", "MessageEN": "Go to Karin's Event"}, {"MessageId": 200010125, "Flag": 2, "Type": 0, "NextId": 200010122, "MessageType": "Text", "ImagePath": "", "MessageJP": "その、二つ目の夢は……叶った時にちゃんと教える", "MessageTW": "那個，第二個夢想……實現的時候會好好告訴你的", "MessageEN": "My next dream is... Well, I'll tell you once it comes true."}, {"MessageId": 200010122, "Flag": 2, "Type": 0, "NextId": 200010139, "MessageType": "Text", "ImagePath": "", "MessageJP": "誰にも言ったことない、けど", "MessageTW": "雖然我沒有跟任何人說過", "MessageEN": "I've never told anyone."}, {"MessageId": 200010139, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "どっちにせよ、一番最初に知るのは先生だろうし……", "MessageTW": "但不管怎樣，老師八成會是第一個知道的……", "MessageEN": "I have a feeling you'll be the first to know."}]
+[
+    {
+        "CharacterId": 20001,
+        "MessageJP": "カリン",
+        "MessageKR": "카린",
+        "MessageTW": "花凛",
+        "MessageEN": "Karin"
+    },
+    {
+        "MessageId": 200000080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200010080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200010080,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私にもっと力があれば、",
+        "MessageKR": "하아. 만약 내게 좀 더 힘이 있다면……",
+        "MessageTW": "如果我有更多的力量",
+        "MessageEN": "If only I were a bit stronger..."
+    },
+    {
+        "MessageId": 200010097,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200010100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この世から「数学」という科目を消し去るのに……",
+        "MessageKR": "이 세상에서 ‘수학’을 청소하고 싶어.",
+        "MessageTW": "就能將「數學」這門科目從這個世界上消除了……",
+        "MessageEN": "If there's one thing I'd love to purge from this world, it's math."
+    },
+    {
+        "MessageId": 200010100,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010111,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "急にどうしたの？",
+        "MessageKR": "갑자기 무슨 일이야?",
+        "MessageTW": "怎麼突然這麼說？",
+        "MessageEN": "What are you talking about?"
+    },
+    {
+        "MessageId": 200010111,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010118,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "急な愚痴で申し訳ない……",
+        "MessageKR": "아, 투정 부려 미안하군.",
+        "MessageTW": "一時昏頭了不好意思……",
+        "MessageEN": "Oh, I'm just venting."
+    },
+    {
+        "MessageId": 200010118,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200000127,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "図書館へ行く途中にふと、先生に聞いてほしくなって",
+        "MessageKR": "도서관 가는 길에…… 선생님에게 문자를 보내 보고 싶었어.",
+        "MessageTW": "在去圖書館的路上，突然想跟老師說",
+        "MessageEN": "I was on the way to the library...and I wanted to text you."
+    },
+    {
+        "MessageId": 200000127,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200010125,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カリンの絆イベントへ",
+        "MessageKR": "카린의 인연스토리로",
+        "MessageTW": "前往花凛的羈絆劇情",
+        "MessageEN": "Go to Karin's Event"
+    },
+    {
+        "MessageId": 200010125,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010122,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "その、二つ目の夢は……叶った時にちゃんと教える",
+        "MessageKR": "그…… 두 번째 꿈은…… 이루어지면 그때 알려줄게.",
+        "MessageTW": "那個，第二個夢想……實現的時候會好好告訴你的",
+        "MessageEN": "My next dream is... Well, I'll tell you once it comes true."
+    },
+    {
+        "MessageId": 200010122,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010139,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "誰にも言ったことない、けど",
+        "MessageKR": "아무에게도 말한 적 없지만.",
+        "MessageTW": "雖然我沒有跟任何人說過",
+        "MessageEN": "I've never told anyone."
+    },
+    {
+        "MessageId": 200010139,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どっちにせよ、一番最初に知るのは先生だろうし……",
+        "MessageKR": "아마, 선생님이 가장 먼저 알게 될지도 몰라.",
+        "MessageTW": "但不管怎樣，老師八成會是第一個知道的……",
+        "MessageEN": "I have a feeling you'll be the first to know."
+    }
+]

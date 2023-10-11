@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20010.webp", "MessageJP": "ノドカ（温泉）", "MessageTW": "和香(溫泉)", "MessageEN": "Nodoka (Hot Spring)"}, {"MessageId": 200090270, "Flag": 2, "Type": 4, "NextId": 200100270, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200100270, "Flag": 2, "Type": 0, "NextId": 200100280, "MessageType": "Text", "ImagePath": "", "MessageJP": "あれから足は少しずつ良くなったのですが、まだ全快ではないという感じです", "MessageTW": "從那之後腳一點一點地變好了，但感覺沒有痊癒", "MessageEN": "The ankle I sprained before isn't getting better."}, {"MessageId": 200100280, "Flag": 1, "Type": 0, "NextId": 200100281, "MessageType": "Text", "ImagePath": "", "MessageJP": "日常生活に支障はありませんが、いつも通り歩こうとするには少し痛くて……", "MessageTW": "雖然日常生活沒有大礙，但正常走路的話會有點痛……", "MessageEN": "It doesn't really bother me during my daily routine, but it's still a bit painful..."}, {"MessageId": 200100281, "Flag": 2, "Type": 0, "NextId": 200100290, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょっとまだ修業は難しそうですね……", "MessageTW": "要學禮儀的話還有點難啊……", "MessageEN": "At this rate, it'll get in the way of my hot springs training."}, {"MessageId": 200100290, "Flag": 2, "Type": 3, "NextId": 200100300, "MessageType": "Text", "ImagePath": "", "MessageJP": "そういえばこの間、湯治に良いっていう温泉の話を聞いたんだけど", "MessageTW": "這麼說來，前陣子聽說有個溫泉很適合做溫泉治療", "MessageEN": "I heard there are hot springs for therapeutic bathing around here..."}, {"MessageId": 200100300, "Flag": 2, "Type": 3, "NextId": 200100310, "MessageType": "Text", "ImagePath": "", "MessageJP": "送っていくから、良かったら今週末どう？", "MessageTW": "我送你過去，這個週末如何？", "MessageEN": "If it's okay with you, would you like to go with me this weekend?"}, {"MessageId": 200100310, "Flag": 2, "Type": 0, "NextId": 200100320, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、ありがとうございます", "MessageTW": "非，非常感謝", "MessageEN": "Yes, I'll go. Thank you."}, {"MessageId": 200100320, "Flag": 1, "Type": 0, "NextId": 200100330, "MessageType": "Text", "ImagePath": "", "MessageJP": "では週末に", "MessageTW": "那麼，週末見", "MessageEN": "Oh."}, {"MessageId": 200100330, "Flag": 1, "Type": 0, "NextId": 200100331, "MessageType": "Text", "ImagePath": "", "MessageJP": "ｍ", "MessageTW": "等", "MessageEN": "H—"}, {"MessageId": 200100331, "Flag": 2, "Type": 0, "NextId": 200100340, "MessageType": "Text", "ImagePath": "", "MessageJP": "まｔ", "MessageTW": "等ㄧ", "MessageEN": "Huhhh?!"}, {"MessageId": 200100340, "Flag": 1, "Type": 0, "NextId": 200090340, "MessageType": "Text", "ImagePath": "", "MessageJP": "待ってください、先生と一緒に温泉ですか！？！？", "MessageTW": "等一下，是和老師一起泡溫泉嗎？", "MessageEN": "You're entering the hot bath with me, Sensei?"}, {"MessageId": 200090340, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ノドカ（温泉）の絆イベントへ", "MessageTW": "前往和香(溫泉)的羈絆劇情", "MessageEN": "Go to Nodoka (Hot Spring)'s Event"}]
+[
+    {
+        "CharacterId": 20010,
+        "MessageJP": "ノドカ（温泉）",
+        "MessageKR": "노도카(온천)",
+        "MessageTW": "和香(溫泉)",
+        "MessageEN": "Nodoka (Hot Spring)"
+    },
+    {
+        "MessageId": 200090270,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200100270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200100270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200100280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あれから足は少しずつ良くなったのですが、まだ全快ではないという感じです",
+        "MessageKR": "전에 삐끗한 발목이 좀처럼 낫지를 않네요.",
+        "MessageTW": "從那之後腳一點一點地變好了，但感覺沒有痊癒",
+        "MessageEN": "The ankle I sprained before isn't getting better."
+    },
+    {
+        "MessageId": 200100280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200100281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "日常生活に支障はありませんが、いつも通り歩こうとするには少し痛くて……",
+        "MessageKR": "일상을 보내는 데 큰 불편은 없지만 통증이 약간 남아 있어서…….",
+        "MessageTW": "雖然日常生活沒有大礙，但正常走路的話會有點痛……",
+        "MessageEN": "It doesn't really bother me during my daily routine, but it's still a bit painful..."
+    },
+    {
+        "MessageId": 200100281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200100290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっとまだ修業は難しそうですね……",
+        "MessageKR": "이대로라면 온천 수행을 하는 데 지장이 생겨버려요.",
+        "MessageTW": "要學禮儀的話還有點難啊……",
+        "MessageEN": "At this rate, it'll get in the way of my hot springs training."
+    },
+    {
+        "MessageId": 200100290,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200100300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そういえばこの間、湯治に良いっていう温泉の話を聞いたんだけど",
+        "MessageKR": "이 근처에 탕치에 좋은 온천이 있다고 하는데……",
+        "MessageTW": "這麼說來，前陣子聽說有個溫泉很適合做溫泉治療",
+        "MessageEN": "I heard there are hot springs for therapeutic bathing around here..."
+    },
+    {
+        "MessageId": 200100300,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200100310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "送っていくから、良かったら今週末どう？",
+        "MessageKR": "괜찮으면 이번 주말에 같이 가지 않을래?",
+        "MessageTW": "我送你過去，這個週末如何？",
+        "MessageEN": "If it's okay with you, would you like to go with me this weekend?"
+    },
+    {
+        "MessageId": 200100310,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200100320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、ありがとうございます",
+        "MessageKR": "네, 갈게요. 감사합니다.",
+        "MessageTW": "非，非常感謝",
+        "MessageEN": "Yes, I'll go. Thank you."
+    },
+    {
+        "MessageId": 200100320,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200100330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では週末に",
+        "MessageKR": "아",
+        "MessageTW": "那麼，週末見",
+        "MessageEN": "Oh."
+    },
+    {
+        "MessageId": 200100330,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200100331,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ｍ",
+        "MessageKR": "ㄴ",
+        "MessageTW": "等",
+        "MessageEN": "H—"
+    },
+    {
+        "MessageId": 200100331,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200100340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まｔ",
+        "MessageKR": "네ㄴ?!",
+        "MessageTW": "等ㄧ",
+        "MessageEN": "Huhhh?!"
+    },
+    {
+        "MessageId": 200100340,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200090347,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "待ってください、先生と一緒に温泉ですか！？！？",
+        "MessageKR": "선생님이랑 같이 탕에 들어간다고요?",
+        "MessageTW": "等一下，是和老師一起泡溫泉嗎？",
+        "MessageEN": "You're entering the hot bath with me, Sensei?"
+    },
+    {
+        "MessageId": 200090347,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ノドカ（温泉）の絆イベントへ",
+        "MessageKR": "노도카(온천)의 인연스토리로",
+        "MessageTW": "前往和香(溫泉)的羈絆劇情",
+        "MessageEN": "Go to Nodoka (Hot Spring)'s Event"
+    }
+]

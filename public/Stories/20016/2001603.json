@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20016.webp", "MessageJP": "イロハ", "MessageTW": "伊呂波", "MessageEN": "Iroha"}, {"MessageId": 200150080, "Flag": 2, "Type": 4, "NextId": 200160080, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200160080, "Flag": 2, "Type": 0, "NextId": 200160090, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今日もお仕事でしょうか？", "MessageTW": "老師，你今天也要工作對吧？", "MessageEN": "Sensei, what's your schedule like today?"}, {"MessageId": 200160090, "Flag": 2, "Type": 3, "NextId": 200160100, "MessageType": "Text", "ImagePath": "", "MessageJP": "膨大な量の作業が……", "MessageTW": "今天也有爆大量的工作……", "MessageEN": "I'm totally swamped today..."}, {"MessageId": 200160100, "Flag": 2, "Type": 0, "NextId": 200160101, "MessageType": "Text", "ImagePath": "", "MessageJP": "まあ、お気持ちは理解できます", "MessageTW": "嗯，我能理解這種感受", "MessageEN": "Oh, I understand how you feel. "}, {"MessageId": 200160101, "Flag": 2, "Type": 0, "NextId": 200160110, "MessageType": "Text", "ImagePath": "", "MessageJP": "片付けたと思ったらまた出てくるわ、誰かがやるかと思いきや誰も手を付けないわ", "MessageTW": "正覺得處理好了結果又湧出來，正想說會有其他人處理結果完全沒人去動", "MessageEN": "Just when you think you're finished, something else pops up."}, {"MessageId": 200160110, "Flag": 1, "Type": 0, "NextId": 200160120, "MessageType": "Text", "ImagePath": "", "MessageJP": "大変ですよね、中間管理職", "MessageTW": "中階管理者真是辛苦", "MessageEN": "You try to delegate, but it comes back like a boomerang. That's the life of a middle manager."}, {"MessageId": 200160120, "Flag": 1, "Type": 0, "NextId": 200160130, "MessageType": "Text", "ImagePath": "", "MessageJP": "ところで", "MessageTW": "話說", "MessageEN": "However..."}, {"MessageId": 200160130, "Flag": 1, "Type": 0, "NextId": 200160131, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は苦いのが飲みたい気分ですね", "MessageTW": "我今天想喝些苦苦的東西", "MessageEN": "Well, I'd like a strong Americano today."}, {"MessageId": 200160131, "Flag": 2, "Type": 0, "NextId": 200160140, "MessageType": "Text", "ImagePath": "", "MessageJP": "濃い目のアメリカーノでお願いします", "MessageTW": "麻煩來一杯濃郁的美式咖啡", "MessageEN": "I'm kind of craving something bitter and strong."}, {"MessageId": 200160140, "Flag": 2, "Type": 3, "NextId": 200160150, "MessageType": "Text", "ImagePath": "", "MessageJP": "イロハ、上にあるメッセージ見てくれた？", "MessageTW": "伊呂波，你有看到上面的訊息嗎？", "MessageEN": "Iroha, did you really read my message above?"}, {"MessageId": 200160150, "Flag": 2, "Type": 0, "NextId": 200160151, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい、もちろん", "MessageTW": "是，當然", "MessageEN": "Huh? Of course I did."}, {"MessageId": 200160151, "Flag": 2, "Type": 0, "NextId": 200160160, "MessageType": "Text", "ImagePath": "", "MessageJP": "それではまた後で", "MessageTW": "那麼待會見", "MessageEN": "I'll see you later."}, {"MessageId": 200160160, "Flag": 2, "Type": 3, "NextId": 200150160, "MessageType": "Text", "ImagePath": "", "MessageJP": "文脈が読めてないのは私なのかな……", "MessageTW": "難道看不懂文章脈絡的其實是我……", "MessageEN": "I don't even know what to say anymore..."}, {"MessageId": 200150160, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イロハの絆イベントへ", "MessageTW": "前往伊呂波的羈絆劇情", "MessageEN": "Go to Iroha's Event"}]
+[
+    {
+        "CharacterId": 20016,
+        "MessageJP": "イロハ",
+        "MessageKR": "이로하",
+        "MessageTW": "伊呂波",
+        "MessageEN": "Iroha"
+    },
+    {
+        "MessageId": 200150080,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200160080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200160080,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今日もお仕事でしょうか？",
+        "MessageKR": "선생님, 오늘 일정은 어떠신가요?",
+        "MessageTW": "老師，你今天也要工作對吧？",
+        "MessageEN": "Sensei, what's your schedule like today?"
+    },
+    {
+        "MessageId": 200160090,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200160100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "膨大な量の作業が……",
+        "MessageKR": "오늘도 말도 못 하게 바빠….",
+        "MessageTW": "今天也有爆大量的工作……",
+        "MessageEN": "I'm totally swamped today..."
+    },
+    {
+        "MessageId": 200160100,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160101,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まあ、お気持ちは理解できます",
+        "MessageKR": "아, 그 마음, 절절히 이해해요.",
+        "MessageTW": "嗯，我能理解這種感受",
+        "MessageEN": "Oh, I understand how you feel. "
+    },
+    {
+        "MessageId": 200160101,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "片付けたと思ったらまた出てくるわ、誰かがやるかと思いきや誰も手を付けないわ",
+        "MessageKR": "해치웠다고 생각하면 다시 기어 나오고, 남이 할 거라고 생각한 순간.",
+        "MessageTW": "正覺得處理好了結果又湧出來，正想說會有其他人處理結果完全沒人去動",
+        "MessageEN": "Just when you think you're finished, something else pops up."
+    },
+    {
+        "MessageId": 200160110,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200160120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大変ですよね、中間管理職",
+        "MessageKR": "내게 부메랑처럼 돌아오는 것. 중간관리자가 하는 일이 다 그렇죠. 뭐.",
+        "MessageTW": "中階管理者真是辛苦",
+        "MessageEN": "You try to delegate, but it comes back like a boomerang. That's the life of a middle manager."
+    },
+    {
+        "MessageId": 200160120,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200160130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ところで",
+        "MessageKR": "그런데….",
+        "MessageTW": "話說",
+        "MessageEN": "However..."
+    },
+    {
+        "MessageId": 200160130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200160131,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は苦いのが飲みたい気分ですね",
+        "MessageKR": "뭐, 그럼 오늘 커피는 진한 아메리카노로 부탁드릴게요.",
+        "MessageTW": "我今天想喝些苦苦的東西",
+        "MessageEN": "Well, I'd like a strong Americano today."
+    },
+    {
+        "MessageId": 200160131,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "濃い目のアメリカーノでお願いします",
+        "MessageKR": "오늘은 어쩐지 쓰디쓴 게 땡기더라구요.",
+        "MessageTW": "麻煩來一杯濃郁的美式咖啡",
+        "MessageEN": "I'm kind of craving something bitter and strong."
+    },
+    {
+        "MessageId": 200160140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200160150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イロハ、上にあるメッセージ見てくれた？",
+        "MessageKR": "이로하, 위에서 내가 한 메시지 본 거 맞지?",
+        "MessageTW": "伊呂波，你有看到上面的訊息嗎？",
+        "MessageEN": "Iroha, did you really read my message above?"
+    },
+    {
+        "MessageId": 200160150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、もちろん",
+        "MessageKR": "네? 그야 물론이죠.",
+        "MessageTW": "是，當然",
+        "MessageEN": "Huh? Of course I did."
+    },
+    {
+        "MessageId": 200160151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それではまた後で",
+        "MessageKR": "그럼 이따가 뵙겠습니다.",
+        "MessageTW": "那麼待會見",
+        "MessageEN": "I'll see you later."
+    },
+    {
+        "MessageId": 200160160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200150167,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "文脈が読めてないのは私なのかな……",
+        "MessageKR": "답변이 산뜻해서 이젠 태클 걸 생각도 들지 않아….",
+        "MessageTW": "難道看不懂文章脈絡的其實是我……",
+        "MessageEN": "I don't even know what to say anymore..."
+    },
+    {
+        "MessageId": 200150167,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イロハの絆イベントへ",
+        "MessageKR": "이로하의 인연스토리로",
+        "MessageTW": "前往伊呂波的羈絆劇情",
+        "MessageEN": "Go to Iroha's Event"
+    }
+]

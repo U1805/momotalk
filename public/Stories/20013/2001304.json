@@ -1,1 +1,129 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20013.webp", "MessageJP": "チヒロ", "MessageTW": "千尋", "MessageEN": "Chihiro"}, {"MessageId": 200120240, "Flag": 2, "Type": 4, "NextId": 200130240, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200130240, "Flag": 2, "Type": 0, "NextId": 200130250, "MessageType": "Text", "ImagePath": "", "MessageJP": "知ってるかもしれないけどうちのヴェリタスの子たち、すぐ興味本位でハッキングとかしがちで……", "MessageTW": "雖然你應該也知道，我們貝里塔斯的孩子們常常出於興趣進行駭入……", "MessageEN": "I'm concerned that the younger Veritas members will keep hacking just for fun."}, {"MessageId": 200130250, "Flag": 1, "Type": 0, "NextId": 200130251, "MessageType": "Text", "ImagePath": "", "MessageJP": "幸いまだそれほど大きな問題にはなってないけど、しょっちゅう揉め事ばっかり起きてるんだよね", "MessageTW": "幸好還沒有搞出什麼大問題，不過倒是引發了一些欺負同學的事件", "MessageEN": "It hasn't gotten out of hand yet, but they do get into trouble sometimes."}, {"MessageId": 200130251, "Flag": 2, "Type": 0, "NextId": 200130260, "MessageType": "Text", "ImagePath": "", "MessageJP": "このままだと、ハッカーとしてのイメージが……", "MessageTW": "再這樣下去的話，駭客的形象就……", "MessageEN": "I'm afraid of what it could do to our club's reputation."}, {"MessageId": 200130260, "Flag": 2, "Type": 3, "NextId": 200130270, "MessageType": "Text", "ImagePath": "", "MessageJP": "結構ハッカーってそういうイメージがあったけど、やっぱりそれって偏見？", "MessageTW": "駭客好像大多都給人那種印象，果然是偏見嗎？", "MessageEN": "I thought that's what hackers were supposed to do... Or is that just a stereotype?"}, {"MessageId": 200130270, "Flag": 2, "Type": 0, "NextId": 200130271, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん特に最近は、「ハッカー」っていうとみんな「ブラックハッカー」を思い浮かべるみたいだけど……", "MessageTW": "最近每次提到「駭客」，大家似乎都會想到「黑帽駭客」……", "MessageEN": "These days, people only think of black hat hackers when they hear the word \"hacker\"."}, {"MessageId": 200130271, "Flag": 2, "Type": 0, "NextId": 200130280, "MessageType": "Text", "ImagePath": "", "MessageJP": "本来の「ハッカー」はほとんど今の「ホワイトハッカー」に近い、「セキュリティの専門家」を意味する言葉だったの", "MessageTW": "不過本來的「駭客」大多比較接近現在所說的「白帽駭客」，有著「保安專家」的意思", "MessageEN": "\"Hacker\" used to mean something like a security expert. AKA, a white hat hacker."}, {"MessageId": 200130280, "Flag": 1, "Type": 0, "NextId": 200130281, "MessageType": "Text", "ImagePath": "", "MessageJP": "はぁ、また時間を見つけてうちの子たちにハッカー倫理について教育しておかないと……そういう手段に頼りっぱなしじゃダメなのに……", "MessageTW": "唉，得找時間教育社團的孩子們駭客倫理才行……總是依靠那種手段是不行的……", "MessageEN": "I should have taught the members about hacker ethics when I had time..."}, {"MessageId": 200130281, "Flag": 2, "Type": 0, "NextId": 200120280, "MessageType": "Text", "ImagePath": "", "MessageJP": "最近は忙しくて、あまり部活に顔も出せてないし……", "MessageTW": "最近實在有點忙，所以比較少去社團露臉……", "MessageEN": "I haven't visited the club room recently because I've been so busy."}, {"MessageId": 200120280, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "チヒロの絆イベントへ", "MessageTW": "前往千尋的羈絆劇情", "MessageEN": "Go to Chihiro's Event"}]
+[
+    {
+        "CharacterId": 20013,
+        "MessageJP": "チヒロ",
+        "MessageKR": "치히로",
+        "MessageTW": "千尋",
+        "MessageEN": "Chihiro"
+    },
+    {
+        "MessageId": 200120240,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200130240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200130240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200130250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "知ってるかもしれないけどうちのヴェリタスの子たち、すぐ興味本位でハッキングとかしがちで……",
+        "MessageKR": "베리타스의 부원들이 자꾸 멋대로 흥미 위주의 해킹을 시도해서 고민이야.",
+        "MessageTW": "雖然你應該也知道，我們貝里塔斯的孩子們常常出於興趣進行駭入……",
+        "MessageEN": "I'm concerned that the younger Veritas members will keep hacking just for fun."
+    },
+    {
+        "MessageId": 200130250,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200130251,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "幸いまだそれほど大きな問題にはなってないけど、しょっちゅう揉め事ばっかり起きてるんだよね",
+        "MessageKR": "다행히 큰 문제로 커지지는 않는 것 같지만 자꾸 이렇게 말썽을 부리다니…….",
+        "MessageTW": "幸好還沒有搞出什麼大問題，不過倒是引發了一些欺負同學的事件",
+        "MessageEN": "It hasn't gotten out of hand yet, but they do get into trouble sometimes."
+    },
+    {
+        "MessageId": 200130251,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200130260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "このままだと、ハッカーとしてのイメージが……",
+        "MessageKR": "이러다간 해커 동아리로서의 이미지가 실추되겠어…….",
+        "MessageTW": "再這樣下去的話，駭客的形象就……",
+        "MessageEN": "I'm afraid of what it could do to our club's reputation."
+    },
+    {
+        "MessageId": 200130260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200130270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "結構ハッカーってそういうイメージがあったけど、やっぱりそれって偏見？",
+        "MessageKR": "해커는 그런 이미지가 있는데. ……역시 편견인가?",
+        "MessageTW": "駭客好像大多都給人那種印象，果然是偏見嗎？",
+        "MessageEN": "I thought that's what hackers were supposed to do... Or is that just a stereotype?"
+    },
+    {
+        "MessageId": 200130270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200130271,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん特に最近は、「ハッカー」っていうとみんな「ブラックハッカー」を思い浮かべるみたいだけど……",
+        "MessageKR": "물론 요즈음은 <해커>라 하면 다들 그런 블랙 해커를 떠올리지만…….",
+        "MessageTW": "最近每次提到「駭客」，大家似乎都會想到「黑帽駭客」……",
+        "MessageEN": "These days, people only think of black hat hackers when they hear the word \"hacker\"."
+    },
+    {
+        "MessageId": 200130271,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200130280,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "本来の「ハッカー」はほとんど今の「ホワイトハッカー」に近い、「セキュリティの専門家」を意味する言葉だったの",
+        "MessageKR": "원래의 해커는 지금의 화이트 해커에 가까운, 보안 전문가를 의미하는 말이었다고.",
+        "MessageTW": "不過本來的「駭客」大多比較接近現在所說的「白帽駭客」，有著「保安專家」的意思",
+        "MessageEN": "\"Hacker\" used to mean something like a security expert. AKA, a white hat hacker."
+    },
+    {
+        "MessageId": 200130280,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200130281,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はぁ、また時間を見つけてうちの子たちにハッカー倫理について教育しておかないと……そういう手段に頼りっぱなしじゃダメなのに……",
+        "MessageKR": "으으, 시간이 날 때마다 부원들에게 올바른 해커 윤리에 대해 똑똑히 가르쳐주어야 했는데…….",
+        "MessageTW": "唉，得找時間教育社團的孩子們駭客倫理才行……總是依靠那種手段是不行的……",
+        "MessageEN": "I should have taught the members about hacker ethics when I had time..."
+    },
+    {
+        "MessageId": 200130281,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200120287,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最近は忙しくて、あまり部活に顔も出せてないし……",
+        "MessageKR": "바빠서 부실에 자주 들리지 못하는 게 이럴 땐 아쉽네.",
+        "MessageTW": "最近實在有點忙，所以比較少去社團露臉……",
+        "MessageEN": "I haven't visited the club room recently because I've been so busy."
+    },
+    {
+        "MessageId": 200120287,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "チヒロの絆イベントへ",
+        "MessageKR": "치히로의 인연스토리로",
+        "MessageTW": "前往千尋的羈絆劇情",
+        "MessageEN": "Go to Chihiro's Event"
+    }
+]

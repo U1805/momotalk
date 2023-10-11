@@ -1,1 +1,93 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10005.webp", "MessageJP": "ホシノ", "MessageTW": "星野", "MessageEN": "Hoshino"}, {"MessageId": 100040070, "Flag": 2, "Type": 4, "NextId": 100050074, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100050074, "Flag": 2, "Type": 0, "NextId": 100050072, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうして人間は、朝起きなきゃいけないんだろう……", "MessageTW": "為什麼人類早上必須起床呢……", "MessageEN": "Ugh, why do I have to wake up in the morning?"}, {"MessageId": 100050072, "Flag": 1, "Type": 0, "NextId": 100050080, "MessageType": "Text", "ImagePath": "", "MessageJP": "まぶたが重すぎて地面に落ちそう……先生、助けて……", "MessageTW": "眼皮重到要掉地上了……老師，救命……", "MessageEN": "My eyelids are so heavy. Help me, Sensei..."}, {"MessageId": 100050080, "Flag": 2, "Type": 3, "NextId": 100050092, "MessageType": "Text", "ImagePath": "", "MessageJP": "学生としての定めだから……", "MessageTW": "因為是學生的命運啊……", "MessageEN": "Ah, student life."}, {"MessageId": 100050080, "Flag": 2, "Type": 3, "NextId": 100050092, "MessageType": "Text", "ImagePath": "", "MessageJP": "頑張って！ホシノならできるよ！", "MessageTW": "加油！星野能做到的！", "MessageEN": "You got this, Hoshino!"}, {"MessageId": 100050092, "Flag": 2, "Type": 0, "NextId": 100040090, "MessageType": "Text", "ImagePath": "", "MessageJP": "いっそ魚みたいにまぶたが無い方が楽かもしれないね…………むにゃ", "MessageTW": "乾脆像魚一樣沒有眼皮的話也許能更輕鬆些……咕噥", "MessageEN": "I wish I didn't have eyelids, like a fish. Hmm..."}, {"MessageId": 100040090, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ホシノの絆イベントへ", "MessageTW": "前往星野的羈絆劇情", "MessageEN": "Go to Hoshino's Event"}]
+[
+    {
+        "CharacterId": 10005,
+        "MessageJP": "ホシノ",
+        "MessageKR": "호시노",
+        "MessageTW": "星野",
+        "MessageEN": "Hoshino"
+    },
+    {
+        "MessageId": 100040070,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100050074,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100050074,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100050072,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうして人間は、朝起きなきゃいけないんだろう……",
+        "MessageKR": "아…… 어째서 사람은 아침에 일어나지 않으면 안 되는 걸까.",
+        "MessageTW": "為什麼人類早上必須起床呢……",
+        "MessageEN": "Ugh, why do I have to wake up in the morning?"
+    },
+    {
+        "MessageId": 100050072,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100050080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まぶたが重すぎて地面に落ちそう……先生、助けて……",
+        "MessageKR": "눈꺼풀이 너무 무거워 선생 도와줘…….",
+        "MessageTW": "眼皮重到要掉地上了……老師，救命……",
+        "MessageEN": "My eyelids are so heavy. Help me, Sensei..."
+    },
+    {
+        "MessageId": 100050080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100050092,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "学生としての定めだから……",
+        "MessageKR": "학생의 숙명이니까…….",
+        "MessageTW": "因為是學生的命運啊……",
+        "MessageEN": "Ah, student life."
+    },
+    {
+        "MessageId": 100050080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100050092,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "頑張って！ホシノならできるよ！",
+        "MessageKR": "힘내! 할 수 있어, 호시노 쨩!",
+        "MessageTW": "加油！星野能做到的！",
+        "MessageEN": "You got this, Hoshino!"
+    },
+    {
+        "MessageId": 100050092,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100040097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いっそ魚みたいにまぶたが無い方が楽かもしれないね…………むにゃ",
+        "MessageKR": "물고기처럼 감을 눈꺼풀이 없으면 차라리 좋겠는데 말이지…… 음냐.",
+        "MessageTW": "乾脆像魚一樣沒有眼皮的話也許能更輕鬆些……咕噥",
+        "MessageEN": "I wish I didn't have eyelids, like a fish. Hmm..."
+    },
+    {
+        "MessageId": 100040097,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ホシノの絆イベントへ",
+        "MessageKR": "호시노의 인연스토리로",
+        "MessageTW": "前往星野的羈絆劇情",
+        "MessageEN": "Go to Hoshino's Event"
+    }
+]

@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10008.webp", "MessageJP": "ネル", "MessageTW": "寧瑠", "MessageEN": "Neru"}, {"MessageId": 100070280, "Flag": 2, "Type": 4, "NextId": 100080283, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100080283, "Flag": 2, "Type": 0, "NextId": 100080290, "MessageType": "Text", "ImagePath": "", "MessageJP": "なあ先生", "MessageTW": "吶，老師", "MessageEN": "Sensei!"}, {"MessageId": 100080290, "Flag": 1, "Type": 0, "NextId": 100080297, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちょっと良いものでも見たくねえか？", "MessageTW": "想不想看點好東西？", "MessageEN": "You wanna see something really cool?"}, {"MessageId": 100080297, "Flag": 2, "Type": 0, "NextId": 100080300, "MessageType": "Text", "ImagePath": "", "MessageJP": "なかなかに悪くねぇもんだぜ？", "MessageTW": "相當不錯喔？", "MessageEN": "Something amazing?!"}, {"MessageId": 100080300, "Flag": 2, "Type": 3, "NextId": 100080318, "MessageType": "Text", "ImagePath": "", "MessageJP": "怪しい……", "MessageTW": "很可疑……", "MessageEN": "That's suspicious..."}, {"MessageId": 100080300, "Flag": 2, "Type": 3, "NextId": 100080318, "MessageType": "Text", "ImagePath": "", "MessageJP": "何それ……？", "MessageTW": "是什麼……？", "MessageEN": "What is it?"}, {"MessageId": 100080318, "Flag": 2, "Type": 0, "NextId": 100080315, "MessageType": "Text", "ImagePath": "", "MessageJP": "ははっ！", "MessageTW": "哈哈！", "MessageEN": "Hahaha! "}, {"MessageId": 100080315, "Flag": 2, "Type": 0, "NextId": 100080322, "MessageType": "Text", "ImagePath": "", "MessageJP": "気になるなら、今晩ミレニアムに来な", "MessageTW": "想知道的話，今晚來趟千年吧", "MessageEN": "If you're that curious, why not take the time to come over here?"}, {"MessageId": 100080322, "Flag": 1, "Type": 0, "NextId": 100070330, "MessageType": "Text", "ImagePath": "", "MessageJP": "損はさせねえからさ", "MessageTW": "不會讓你吃虧的", "MessageEN": "It really is amazing! You won't be disappointed!"}, {"MessageId": 100070330, "Flag": 2, "Type": 2, "NextId": 100080339, "MessageType": "Text", "ImagePath": "", "MessageJP": "ネルの絆イベントへ", "MessageTW": "前往寧瑠的羈絆劇情", "MessageEN": "Go to Neru's Event"}, {"MessageId": 100080339, "Flag": 2, "Type": 0, "NextId": 100080336, "MessageType": "Text", "ImagePath": "", "MessageJP": "あの場所に行きたいときはあたしに言えよ！一緒に行くから！", "MessageTW": "想去那個地方就跟我說一聲！我們一起去！", "MessageEN": "Let me know if you want to head over there! We'll go together!"}, {"MessageId": 100080336, "Flag": 2, "Type": 0, "NextId": 100080340, "MessageType": "Text", "ImagePath": "", "MessageJP": "一人で行ったらぶっ殺すからな！？", "MessageTW": "敢一個人去我就宰了你哦！？", "MessageEN": "If you go alone, I'll kill you!"}, {"MessageId": 100080340, "Flag": 2, "Type": 3, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、分かった。約束。今日はありがとね", "MessageTW": "嗯，知道了。約好了。今天謝啦", "MessageEN": "All right, I promise."}]
+[
+    {
+        "CharacterId": 10008,
+        "MessageJP": "ネル",
+        "MessageKR": "네루",
+        "MessageTW": "寧瑠",
+        "MessageEN": "Neru"
+    },
+    {
+        "MessageId": 100070280,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100080283,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100080283,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080290,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なあ先生",
+        "MessageKR": "선생~",
+        "MessageTW": "吶，老師",
+        "MessageEN": "Sensei!"
+    },
+    {
+        "MessageId": 100080290,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100080297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと良いものでも見たくねえか？",
+        "MessageKR": "뭔가 엄청 멋진 걸 구경할 생각 없어?",
+        "MessageTW": "想不想看點好東西？",
+        "MessageEN": "You wanna see something really cool?"
+    },
+    {
+        "MessageId": 100080297,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080300,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なかなかに悪くねぇもんだぜ？",
+        "MessageKR": "엄~청 멋진 거?",
+        "MessageTW": "相當不錯喔？",
+        "MessageEN": "Something amazing?!"
+    },
+    {
+        "MessageId": 100080300,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100080318,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "怪しい……",
+        "MessageKR": "수상한데…….",
+        "MessageTW": "很可疑……",
+        "MessageEN": "That's suspicious..."
+    },
+    {
+        "MessageId": 100080300,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100080318,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何それ……？",
+        "MessageKR": "그게 뭐야?",
+        "MessageTW": "是什麼……？",
+        "MessageEN": "What is it?"
+    },
+    {
+        "MessageId": 100080318,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080315,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ははっ！",
+        "MessageKR": "크하핫!",
+        "MessageTW": "哈哈！",
+        "MessageEN": "Hahaha! "
+    },
+    {
+        "MessageId": 100080315,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080322,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "気になるなら、今晩ミレニアムに来な",
+        "MessageKR": "궁금하면 이쪽으로 잠깐 시간 내서 와 달라구?",
+        "MessageTW": "想知道的話，今晚來趟千年吧",
+        "MessageEN": "If you're that curious, why not take the time to come over here?"
+    },
+    {
+        "MessageId": 100080322,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100070337,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "損はさせねえからさ",
+        "MessageKR": "엄~청 멋지니까. 기대해!",
+        "MessageTW": "不會讓你吃虧的",
+        "MessageEN": "It really is amazing! You won't be disappointed!"
+    },
+    {
+        "MessageId": 100070337,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100080339,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ネルの絆イベントへ",
+        "MessageKR": "네루의 인연스토리로",
+        "MessageTW": "前往寧瑠的羈絆劇情",
+        "MessageEN": "Go to Neru's Event"
+    },
+    {
+        "MessageId": 100080339,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080336,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あの場所に行きたいときはあたしに言えよ！一緒に行くから！",
+        "MessageKR": "그 장소에 가고 싶으면 나한테 얘기해! 같이 가는 거야!",
+        "MessageTW": "想去那個地方就跟我說一聲！我們一起去！",
+        "MessageEN": "Let me know if you want to head over there! We'll go together!"
+    },
+    {
+        "MessageId": 100080336,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100080340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "一人で行ったらぶっ殺すからな！？",
+        "MessageKR": "혼자 가면 죽인다?!",
+        "MessageTW": "敢一個人去我就宰了你哦！？",
+        "MessageEN": "If you go alone, I'll kill you!"
+    },
+    {
+        "MessageId": 100080340,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、分かった。約束。今日はありがとね",
+        "MessageKR": "알았어. 약속할게.",
+        "MessageTW": "嗯，知道了。約好了。今天謝啦",
+        "MessageEN": "All right, I promise."
+    }
+]

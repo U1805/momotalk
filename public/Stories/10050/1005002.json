@@ -1,1 +1,165 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10050.webp", "MessageJP": "ココナ", "MessageTW": "心菜", "MessageEN": "Kokona"}, {"MessageId": 100490060, "Flag": 2, "Type": 4, "NextId": 100500060, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100500060, "Flag": 2, "Type": 0, "NextId": 100500070, "MessageType": "Text", "ImagePath": "", "MessageJP": "先日は無事に帰れましたか？", "MessageTW": "前幾天有平安回去了嗎？", "MessageEN": "Did you get back safely?"}, {"MessageId": 100500070, "Flag": 1, "Type": 0, "NextId": 100500080, "MessageType": "Text", "ImagePath": "", "MessageJP": "まともな姿をお見せできなくて残念です", "MessageTW": "很可惜沒能讓你看到我正經的模樣", "MessageEN": "I feel bad that I didn't get to show you my best."}, {"MessageId": 100500080, "Flag": 2, "Type": 3, "NextId": 100500090, "MessageType": "Text", "ImagePath": "", "MessageJP": "十分にかっこよかったよ、ココナちゃん", "MessageTW": "已經十分帥氣囉，心菜醬", "MessageEN": "You were cool, Kokona."}, {"MessageId": 100500080, "Flag": 2, "Type": 3, "NextId": 100500090, "MessageType": "Text", "ImagePath": "", "MessageJP": "立派に教官してたよ、ココナちゃん", "MessageTW": "是位優秀的教官唷，心菜醬", "MessageEN": "It was great, Kokona."}, {"MessageId": 100500090, "Flag": 2, "Type": 0, "NextId": 100500100, "MessageType": "Text", "ImagePath": "", "MessageJP": "だから、ココナちゃんじゃないです！", "MessageTW": "就說了，不是心菜醬！", "MessageEN": "Don't call me Kokona. Call me Instructor Kokona!"}, {"MessageId": 100500100, "Flag": 1, "Type": 0, "NextId": 100500101, "MessageType": "Text", "ImagePath": "", "MessageJP": "私をココナちゃんと呼ぶなら、", "MessageTW": "如果要叫我心菜醬的話，", "MessageEN": "If you call me Kokona,"}, {"MessageId": 100500101, "Flag": 2, "Type": 0, "NextId": 100500110, "MessageType": "Text", "ImagePath": "", "MessageJP": "シュン姉さんもシュンちゃんって呼ぶべきじゃないでしょうか？", "MessageTW": "那叫旬姐姐的時候，不是也該叫旬醬嗎？", "MessageEN": "are you gonna address Instructor Shun the same way?"}, {"MessageId": 100500110, "Flag": 2, "Type": 3, "NextId": 100500120, "MessageType": "Text", "ImagePath": "", "MessageJP": "シュンはそう呼ばれたら喜びそう", "MessageTW": "如果是旬被那麼叫，應該會很高興呢", "MessageEN": "Maybe Shun would prefer that."}, {"MessageId": 100500120, "Flag": 2, "Type": 0, "NextId": 100490130, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと……それは、どういうことですか？", "MessageTW": "那個……那是什麼意思？", "MessageEN": "What do you mean?"}, {"MessageId": 100490130, "Flag": 2, "Type": 2, "NextId": 100500130, "MessageType": "Text", "ImagePath": "", "MessageJP": "ココナの絆イベントへ", "MessageTW": "前往心菜的羈絆劇情", "MessageEN": "Go to Kokona's Event"}, {"MessageId": 100500130, "Flag": 2, "Type": 0, "NextId": 100500140, "MessageType": "Text", "ImagePath": "", "MessageJP": "まだ口の中が苦いです……", "MessageTW": "嘴巴裡還有苦味……", "MessageEN": "I still taste the bitterness..."}, {"MessageId": 100500140, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "コーヒー、嫌いです……", "MessageTW": "討厭咖啡……", "MessageEN": "I hate coffee..."}]
+[
+    {
+        "CharacterId": 10050,
+        "MessageJP": "ココナ",
+        "MessageKR": "코코나",
+        "MessageTW": "心菜",
+        "MessageEN": "Kokona"
+    },
+    {
+        "MessageId": 100490060,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100500060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100500060,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先日は無事に帰れましたか？",
+        "MessageKR": "그때는 잘 들어가셨나요?",
+        "MessageTW": "前幾天有平安回去了嗎？",
+        "MessageEN": "Did you get back safely?"
+    },
+    {
+        "MessageId": 100500070,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100500080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まともな姿をお見せできなくて残念です",
+        "MessageKR": "제대로 된 모습을 못 보여드린 것 같아 죄송하네요.",
+        "MessageTW": "很可惜沒能讓你看到我正經的模樣",
+        "MessageEN": "I feel bad that I didn't get to show you my best."
+    },
+    {
+        "MessageId": 100500080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100500090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "十分にかっこよかったよ、ココナちゃん",
+        "MessageKR": "충분히 멋있었어, 코코나 쨩.",
+        "MessageTW": "已經十分帥氣囉，心菜醬",
+        "MessageEN": "You were cool, Kokona."
+    },
+    {
+        "MessageId": 100500080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100500090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "立派に教官してたよ、ココナちゃん",
+        "MessageKR": "그 정도면 대단했어, 코코나 쨩.",
+        "MessageTW": "是位優秀的教官唷，心菜醬",
+        "MessageEN": "It was great, Kokona."
+    },
+    {
+        "MessageId": 100500090,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "だから、ココナちゃんじゃないです！",
+        "MessageKR": "그러니까, 코코나 쨩이 아니라니까요!",
+        "MessageTW": "就說了，不是心菜醬！",
+        "MessageEN": "Don't call me Kokona. Call me Instructor Kokona!"
+    },
+    {
+        "MessageId": 100500100,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100500101,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私をココナちゃんと呼ぶなら、",
+        "MessageKR": "절 코코나 쨩이라고 부르실 거면,",
+        "MessageTW": "如果要叫我心菜醬的話，",
+        "MessageEN": "If you call me Kokona,"
+    },
+    {
+        "MessageId": 100500101,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シュン姉さんもシュンちゃんって呼ぶべきじゃないでしょうか？",
+        "MessageKR": "슌 언니도 슌 쨩이라고 불러야 맞는 게 아닐까요?",
+        "MessageTW": "那叫旬姐姐的時候，不是也該叫旬醬嗎？",
+        "MessageEN": "are you gonna address Instructor Shun the same way?"
+    },
+    {
+        "MessageId": 100500110,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100500120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シュンはそう呼ばれたら喜びそう",
+        "MessageKR": "슌이라면 그렇게 불리는 걸 좋아할지도 몰라.",
+        "MessageTW": "如果是旬被那麼叫，應該會很高興呢",
+        "MessageEN": "Maybe Shun would prefer that."
+    },
+    {
+        "MessageId": 100500120,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100490137,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと……それは、どういうことですか？",
+        "MessageKR": "그게…… 무슨 말씀이세요?",
+        "MessageTW": "那個……那是什麼意思？",
+        "MessageEN": "What do you mean?"
+    },
+    {
+        "MessageId": 100490137,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 100500130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ココナの絆イベントへ",
+        "MessageKR": "코코나의 인연스토리로",
+        "MessageTW": "前往心菜的羈絆劇情",
+        "MessageEN": "Go to Kokona's Event"
+    },
+    {
+        "MessageId": 100500130,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100500140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "まだ口の中が苦いです……",
+        "MessageKR": "아직도 입에서 쓴맛이 나요……",
+        "MessageTW": "嘴巴裡還有苦味……",
+        "MessageEN": "I still taste the bitterness..."
+    },
+    {
+        "MessageId": 100500140,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コーヒー、嫌いです……",
+        "MessageKR": "커피 미워요……",
+        "MessageTW": "討厭咖啡……",
+        "MessageEN": "I hate coffee..."
+    }
+]

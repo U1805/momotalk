@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23006.webp", "MessageJP": "シズコ", "MessageTW": "靜子", "MessageEN": "Shizuko"}, {"MessageId": 2300590320, "Flag": 2, "Type": 4, "NextId": 2300600328, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 2300600328, "Flag": 2, "Type": 0, "NextId": 2300600330, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふふっ……", "MessageTW": "呵呵呵……", "MessageEN": "Heeheehee!"}, {"MessageId": 2300600330, "Flag": 2, "Type": 3, "NextId": 2300600349, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぐへへ？", "MessageTW": "嘿嘿嘿？", "MessageEN": "Bahaha?"}, {"MessageId": 2300600330, "Flag": 2, "Type": 3, "NextId": 2300600350, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふふ……？", "MessageTW": "呵呵呵……？", "MessageEN": "Heehee...?"}, {"MessageId": 2300600349, "Flag": 2, "Type": 0, "NextId": 2300600346, "MessageType": "Text", "ImagePath": "", "MessageJP": "「ぐへへ」なんて下品な笑い方したことありませんけど！？", "MessageTW": "我才沒有用「嘿嘿嘿」那種下流的笑法！？", "MessageEN": "I never laugh like that! I'm not an old man!"}, {"MessageId": 2300600346, "Flag": 2, "Type": 0, "NextId": 2300600350, "MessageType": "Text", "ImagePath": "", "MessageJP": "ちゃんと上に「ふふふっ」って書いてあるじゃないですか！", "MessageTW": "上面不是寫著「呵呵呵」嗎！", "MessageEN": "It's written right up there! I wrote \"Heeheehee!\""}, {"MessageId": 2300600350, "Flag": 2, "Type": 3, "NextId": 2300600360, "MessageType": "Text", "ImagePath": "", "MessageJP": "急にどうしたの？", "MessageTW": "確實。那麼，怎麼了嗎？", "MessageEN": "So what's up?"}, {"MessageId": 2300600360, "Flag": 2, "Type": 0, "NextId": 2300600367, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、おっしゃいましたよね", "MessageTW": "老師，你有說過吧", "MessageEN": "You mentioned last time..."}, {"MessageId": 2300600367, "Flag": 2, "Type": 0, "NextId": 2300600374, "MessageType": "Text", "ImagePath": "", "MessageJP": "疲れ時は休んで、眠い時は寝るのが良いって", "MessageTW": "累的時候最好休息，睏的時候最好睡覺", "MessageEN": "To tell you when I'm having a hard time."}, {"MessageId": 2300600374, "Flag": 1, "Type": 0, "NextId": 2300600371, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は、先生にその言動の責任を取ってもらおうかと思いまして", "MessageTW": "今天，我想讓老師對那句言行負起責任", "MessageEN": "So there's something I need you to do today."}, {"MessageId": 2300600371, "Flag": 2, "Type": 0, "NextId": 2300600388, "MessageType": "Text", "ImagePath": "", "MessageJP": "百夜堂で待ってますので", "MessageTW": "我在百夜堂等著", "MessageEN": "I'll be waiting for you at Momoyodou."}, {"MessageId": 2300600388, "Flag": 1, "Type": 0, "NextId": 2300600390, "MessageType": "Text", "ImagePath": "", "MessageJP": "P.S. 正面玄関ではなく、裏手から入ってきてください", "MessageTW": "P.S. 請從後門進來，不要走正門", "MessageEN": "P.S. Please come to the back door. Not the front."}, {"MessageId": 2300600390, "Flag": 2, "Type": 3, "NextId": 2300590390, "MessageType": "Text", "ImagePath": "", "MessageJP": "……？", "MessageTW": "……？", "MessageEN": "Hm?"}, {"MessageId": 2300590390, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "シズコの絆イベントへ", "MessageTW": "前往靜子的羈絆劇情", "MessageEN": "Go to Shizuko's Event"}]
+[
+    {
+        "CharacterId": 23006,
+        "MessageJP": "シズコ",
+        "MessageKR": "시즈코",
+        "MessageTW": "靜子",
+        "MessageEN": "Shizuko"
+    },
+    {
+        "MessageId": 2300590320,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 2300600328,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 2300600328,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600330,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふふっ……",
+        "MessageKR": "후후, 후후, 후후후후!",
+        "MessageTW": "呵呵呵……",
+        "MessageEN": "Heeheehee!"
+    },
+    {
+        "MessageId": 2300600330,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 2300600349,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぐへへ？",
+        "MessageKR": "쿠헤헤?",
+        "MessageTW": "嘿嘿嘿？",
+        "MessageEN": "Bahaha?"
+    },
+    {
+        "MessageId": 2300600330,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 2300600350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふふ……？",
+        "MessageKR": "후후…….?",
+        "MessageTW": "呵呵呵……？",
+        "MessageEN": "Heehee...?"
+    },
+    {
+        "MessageId": 2300600349,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600346,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "「ぐへへ」なんて下品な笑い方したことありませんけど！？",
+        "MessageKR": "쿠헤헤! 하고 아저씨처럼 웃은 적 없어요!",
+        "MessageTW": "我才沒有用「嘿嘿嘿」那種下流的笑法！？",
+        "MessageEN": "I never laugh like that! I'm not an old man!"
+    },
+    {
+        "MessageId": 2300600346,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600350,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちゃんと上に「ふふふっ」って書いてあるじゃないですか！",
+        "MessageKR": "바로 위에 쓰여 있잖아요! 후후후! 라고!",
+        "MessageTW": "上面不是寫著「呵呵呵」嗎！",
+        "MessageEN": "It's written right up there! I wrote \"Heeheehee!\""
+    },
+    {
+        "MessageId": 2300600350,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 2300600360,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "急にどうしたの？",
+        "MessageKR": "그래서, 무슨 일이야?",
+        "MessageTW": "確實。那麼，怎麼了嗎？",
+        "MessageEN": "So what's up?"
+    },
+    {
+        "MessageId": 2300600360,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600367,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、おっしゃいましたよね",
+        "MessageKR": "선생님께서 말씀하셨죠.",
+        "MessageTW": "老師，你有說過吧",
+        "MessageEN": "You mentioned last time..."
+    },
+    {
+        "MessageId": 2300600367,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600374,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "疲れ時は休んで、眠い時は寝るのが良いって",
+        "MessageKR": "정말로 힘들 때라면, 말해달라고.",
+        "MessageTW": "累的時候最好休息，睏的時候最好睡覺",
+        "MessageEN": "To tell you when I'm having a hard time."
+    },
+    {
+        "MessageId": 2300600374,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 2300600371,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は、先生にその言動の責任を取ってもらおうかと思いまして",
+        "MessageKR": "그러니 오늘, 선생님께서 책임져 주셔야 할 일이 있어요.",
+        "MessageTW": "今天，我想讓老師對那句言行負起責任",
+        "MessageEN": "So there's something I need you to do today."
+    },
+    {
+        "MessageId": 2300600371,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 2300600388,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "百夜堂で待ってますので",
+        "MessageKR": "백야당에서 기다릴게요.",
+        "MessageTW": "我在百夜堂等著",
+        "MessageEN": "I'll be waiting for you at Momoyodou."
+    },
+    {
+        "MessageId": 2300600388,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 2300600390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "P.S. 正面玄関ではなく、裏手から入ってきてください",
+        "MessageKR": "Ps. 아, 그리고 정문이 아니라,뒷문으로 들어와 주세요.",
+        "MessageTW": "P.S. 請從後門進來，不要走正門",
+        "MessageEN": "P.S. Please come to the back door. Not the front."
+    },
+    {
+        "MessageId": 2300600390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 2300590397,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……？",
+        "MessageKR": "……음?",
+        "MessageTW": "……？",
+        "MessageEN": "Hm?"
+    },
+    {
+        "MessageId": 2300590397,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シズコの絆イベントへ",
+        "MessageKR": "시즈코의 인연스토리로",
+        "MessageTW": "前往靜子的羈絆劇情",
+        "MessageEN": "Go to Shizuko's Event"
+    }
+]

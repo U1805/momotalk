@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20001.webp", "MessageJP": "カリン", "MessageTW": "花凛", "MessageEN": "Karin"}, {"MessageId": 200000190, "Flag": 2, "Type": 4, "NextId": 200010195, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200010195, "Flag": 2, "Type": 0, "NextId": 200010202, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は、先生だけど……", "MessageTW": "老師雖然是老師……", "MessageEN": "I know...you're my teacher, but..."}, {"MessageId": 200010202, "Flag": 1, "Type": 0, "NextId": 200010210, "MessageType": "Text", "ImagePath": "", "MessageJP": "友人として頼みたい。私の悩みを、聞いてくれない？", "MessageTW": "但我想以朋友的身分拜託你。能聽聽我的煩惱嗎？", "MessageEN": "Can we be friends? Can I talk to you about my problems?"}, {"MessageId": 200010210, "Flag": 2, "Type": 3, "NextId": 200010223, "MessageType": "Text", "ImagePath": "", "MessageJP": "もちろん、どうしたの？", "MessageTW": "當然，怎麼了？", "MessageEN": "Of course. What's wrong?"}, {"MessageId": 200010210, "Flag": 2, "Type": 3, "NextId": 200010223, "MessageType": "Text", "ImagePath": "", "MessageJP": "分かった、どこに行けばいいかな？", "MessageTW": "知道了，在哪裡碰面？", "MessageEN": "Problems? Where do you want to meet?"}, {"MessageId": 200010223, "Flag": 2, "Type": 0, "NextId": 200010220, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとう", "MessageTW": "謝謝", "MessageEN": "Thanks for responding so fast."}, {"MessageId": 200010220, "Flag": 2, "Type": 0, "NextId": 200000230, "MessageType": "Text", "ImagePath": "", "MessageJP": "ミレニアムの屋上に来てほしい", "MessageTW": "請來千年的樓頂", "MessageEN": "Let's meet on the roof."}, {"MessageId": 200000230, "Flag": 2, "Type": 2, "NextId": 200010237, "MessageType": "Text", "ImagePath": "", "MessageJP": "カリンの絆イベントへ", "MessageTW": "前往花凛的羈絆劇情", "MessageEN": "Go to Karin's Event"}, {"MessageId": 200010237, "Flag": 2, "Type": 0, "NextId": 200010234, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、すごいことがあったんだ", "MessageTW": "老師，剛剛發生了不得了的事", "MessageEN": "I have surprising news. "}, {"MessageId": 200010234, "Flag": 2, "Type": 0, "NextId": 200010231, "MessageType": "Text", "ImagePath": "", "MessageJP": "ピザを買って教室に入ったら、さっき先生に話した友人がそこで待ってて", "MessageTW": "我買了披薩進教室的時候，剛才和老師提到的朋友在那裡等著", "MessageEN": "I bought some pizza and went to the club room, and my friend was waiting for me there."}, {"MessageId": 200010231, "Flag": 2, "Type": 0, "NextId": 200010248, "MessageType": "Text", "ImagePath": "", "MessageJP": "……彼女は、サラダを買ってきてくれてた", "MessageTW": "……她去幫我買了沙拉", "MessageEN": "They had a salad..."}, {"MessageId": 200010248, "Flag": 1, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "嬉しかった、すごく", "MessageTW": "我好開心", "MessageEN": "I was so happy."}]
+[
+    {
+        "CharacterId": 20001,
+        "MessageJP": "カリン",
+        "MessageKR": "카린",
+        "MessageTW": "花凛",
+        "MessageEN": "Karin"
+    },
+    {
+        "MessageId": 200000190,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200010195,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200010195,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010202,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は、先生だけど……",
+        "MessageKR": "선생님은…… 선생님이지만……",
+        "MessageTW": "老師雖然是老師……",
+        "MessageEN": "I know...you're my teacher, but..."
+    },
+    {
+        "MessageId": 200010202,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200010210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "友人として頼みたい。私の悩みを、聞いてくれない？",
+        "MessageKR": "친구로서 부탁하지. 내 고민 좀 들어줄래?",
+        "MessageTW": "但我想以朋友的身分拜託你。能聽聽我的煩惱嗎？",
+        "MessageEN": "Can we be friends? Can I talk to you about my problems?"
+    },
+    {
+        "MessageId": 200010210,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010223,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もちろん、どうしたの？",
+        "MessageKR": "당연하지. 무슨 일이야?",
+        "MessageTW": "當然，怎麼了？",
+        "MessageEN": "Of course. What's wrong?"
+    },
+    {
+        "MessageId": 200010210,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010223,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "分かった、どこに行けばいいかな？",
+        "MessageKR": "고민? 어디로 가면 될까?",
+        "MessageTW": "知道了，在哪裡碰面？",
+        "MessageEN": "Problems? Where do you want to meet?"
+    },
+    {
+        "MessageId": 200010223,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとう",
+        "MessageKR": "즉답, 고맙다.",
+        "MessageTW": "謝謝",
+        "MessageEN": "Thanks for responding so fast."
+    },
+    {
+        "MessageId": 200010220,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200000237,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ミレニアムの屋上に来てほしい",
+        "MessageKR": "옥상에서 만나지.",
+        "MessageTW": "請來千年的樓頂",
+        "MessageEN": "Let's meet on the roof."
+    },
+    {
+        "MessageId": 200000237,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200010237,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カリンの絆イベントへ",
+        "MessageKR": "카린의 인연스토리로",
+        "MessageTW": "前往花凛的羈絆劇情",
+        "MessageEN": "Go to Karin's Event"
+    },
+    {
+        "MessageId": 200010237,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010234,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、すごいことがあったんだ",
+        "MessageKR": "놀라운 일이 있었어.",
+        "MessageTW": "老師，剛剛發生了不得了的事",
+        "MessageEN": "I have surprising news. "
+    },
+    {
+        "MessageId": 200010234,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010231,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ピザを買って教室に入ったら、さっき先生に話した友人がそこで待ってて",
+        "MessageKR": "피자를 사서 부실로 돌아갔더니, 친구가 기다리고 있었어.",
+        "MessageTW": "我買了披薩進教室的時候，剛才和老師提到的朋友在那裡等著",
+        "MessageEN": "I bought some pizza and went to the club room, and my friend was waiting for me there."
+    },
+    {
+        "MessageId": 200010231,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010248,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……彼女は、サラダを買ってきてくれてた",
+        "MessageKR": "……샐러드를 사 왔더라고.",
+        "MessageTW": "……她去幫我買了沙拉",
+        "MessageEN": "They had a salad..."
+    },
+    {
+        "MessageId": 200010248,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "嬉しかった、すごく",
+        "MessageKR": "기뻤어.",
+        "MessageTW": "我好開心",
+        "MessageEN": "I was so happy."
+    }
+]

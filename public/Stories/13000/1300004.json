@@ -1,1 +1,153 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13000.webp", "MessageJP": "アカネ", "MessageTW": "朱音", "MessageEN": "Akane"}, {"MessageId": 129990240, "Flag": 2, "Type": 4, "NextId": 130000240, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130000240, "Flag": 2, "Type": 0, "NextId": 130000257, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は、ご主人様と一緒に任務へ向かう日ですね。楽しみです", "MessageTW": "今天是和主人一起出任務的日子呢。我很期待", "MessageEN": "We're going on a mission together. I'm so excited!"}, {"MessageId": 130000257, "Flag": 1, "Type": 0, "NextId": 130000254, "MessageType": "Text", "ImagePath": "", "MessageJP": "ご主人様も……今日の日を楽しみにしてくださっていましたか？", "MessageTW": "主人也……期待著這天嗎？", "MessageEN": "Are you excited about today too? "}, {"MessageId": 130000254, "Flag": 2, "Type": 0, "NextId": 130000260, "MessageType": "Text", "ImagePath": "", "MessageJP": "私は今日この瞬間が楽しみで、一晩中眠れませんでした", "MessageTW": "我期待著今天的這一刻，昨晚完全睡不著呢", "MessageEN": "I could barely get a wink of sleep last night because I was so excited."}, {"MessageId": 130000260, "Flag": 2, "Type": 3, "NextId": 130000275, "MessageType": "Text", "ImagePath": "", "MessageJP": "睡眠は大事だよ", "MessageTW": "睡眠很重要唷", "MessageEN": "Sleep is important."}, {"MessageId": 130000260, "Flag": 2, "Type": 3, "NextId": 130000275, "MessageType": "Text", "ImagePath": "", "MessageJP": "体調は大丈夫？", "MessageTW": "身體不要緊嗎？", "MessageEN": "Are you going to be okay?"}, {"MessageId": 130000275, "Flag": 2, "Type": 0, "NextId": 130000272, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふふっ、ご心配なさらず", "MessageTW": "呵呵，別擔心", "MessageEN": "Oh, don't worry."}, {"MessageId": 130000272, "Flag": 2, "Type": 0, "NextId": 130000289, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生と一緒であれば、私は……", "MessageTW": "只要跟老師一起……", "MessageEN": "As long as I'm with you, Sensei..."}, {"MessageId": 130000289, "Flag": 1, "Type": 0, "NextId": 129990290, "MessageType": "Text", "ImagePath": "", "MessageJP": "いつも、最高のコンディションですので", "MessageTW": "我永遠是最佳狀態", "MessageEN": "I'm always in top condition."}, {"MessageId": 129990290, "Flag": 2, "Type": 2, "NextId": 130000296, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカネの絆イベントへ", "MessageTW": "前往朱音的羈絆劇情", "MessageEN": "Go to Akane's Event"}, {"MessageId": 130000296, "Flag": 2, "Type": 0, "NextId": 130000293, "MessageType": "Text", "ImagePath": "", "MessageJP": "悪党たちは無事、C&Cの手によって全員確保しました", "MessageTW": "壞人們已經全都被C&C順利捉回來了", "MessageEN": "All the villains were brought to justice thanks to C&C!"}, {"MessageId": 130000293, "Flag": 2, "Type": 0, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ですが、今日のMVPは間違いなくご主人様だと思います！", "MessageTW": "但是，今天的MVP肯定是主人！", "MessageEN": "But today's MVP...it's you, Master!"}]
+[
+    {
+        "CharacterId": 13000,
+        "MessageJP": "アカネ",
+        "MessageKR": "아카네",
+        "MessageTW": "朱音",
+        "MessageEN": "Akane"
+    },
+    {
+        "MessageId": 129990240,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130000240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130000240,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000257,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は、ご主人様と一緒に任務へ向かう日ですね。楽しみです",
+        "MessageKR": "오늘은 주인님과 함께 임무를 하는 날이네요. 기대가 돼요.",
+        "MessageTW": "今天是和主人一起出任務的日子呢。我很期待",
+        "MessageEN": "We're going on a mission together. I'm so excited!"
+    },
+    {
+        "MessageId": 130000257,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130000254,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ご主人様も……今日の日を楽しみにしてくださっていましたか？",
+        "MessageKR": "주인님도…… 오늘을 기대해 주셨나요?",
+        "MessageTW": "主人也……期待著這天嗎？",
+        "MessageEN": "Are you excited about today too? "
+    },
+    {
+        "MessageId": 130000254,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私は今日この瞬間が楽しみで、一晩中眠れませんでした",
+        "MessageKR": "저는 오늘이 오는 걸 기다리며, 밤새 잠을 이루지 못했답니다.",
+        "MessageTW": "我期待著今天的這一刻，昨晚完全睡不著呢",
+        "MessageEN": "I could barely get a wink of sleep last night because I was so excited."
+    },
+    {
+        "MessageId": 130000260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130000275,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "睡眠は大事だよ",
+        "MessageKR": "수면은 중요해.",
+        "MessageTW": "睡眠很重要唷",
+        "MessageEN": "Sleep is important."
+    },
+    {
+        "MessageId": 130000260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130000275,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "体調は大丈夫？",
+        "MessageKR": "괜찮겠어?",
+        "MessageTW": "身體不要緊嗎？",
+        "MessageEN": "Are you going to be okay?"
+    },
+    {
+        "MessageId": 130000275,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000272,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふふっ、ご心配なさらず",
+        "MessageKR": "후훗. 걱정 마세요.",
+        "MessageTW": "呵呵，別擔心",
+        "MessageEN": "Oh, don't worry."
+    },
+    {
+        "MessageId": 130000272,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000289,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生と一緒であれば、私は……",
+        "MessageKR": "선생님과 함께라면, 아카네는……",
+        "MessageTW": "只要跟老師一起……",
+        "MessageEN": "As long as I'm with you, Sensei..."
+    },
+    {
+        "MessageId": 130000289,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 129990297,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつも、最高のコンディションですので",
+        "MessageKR": "언제나 최고의 컨디션이니까요.",
+        "MessageTW": "我永遠是最佳狀態",
+        "MessageEN": "I'm always in top condition."
+    },
+    {
+        "MessageId": 129990297,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 130000296,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカネの絆イベントへ",
+        "MessageKR": "아카네의 인연스토리로",
+        "MessageTW": "前往朱音的羈絆劇情",
+        "MessageEN": "Go to Akane's Event"
+    },
+    {
+        "MessageId": 130000296,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130000293,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "悪党たちは無事、C&Cの手によって全員確保しました",
+        "MessageKR": "악당들은 C&C의 활약에 의해, 모두 법정으로 갔답니다.",
+        "MessageTW": "壞人們已經全都被C&C順利捉回來了",
+        "MessageEN": "All the villains were brought to justice thanks to C&C!"
+    },
+    {
+        "MessageId": 130000293,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ですが、今日のMVPは間違いなくご主人様だと思います！",
+        "MessageKR": "하지만 오늘의 MVP는…… 바로 주인님이에요!",
+        "MessageTW": "但是，今天的MVP肯定是主人！",
+        "MessageEN": "But today's MVP...it's you, Master!"
+    }
+]

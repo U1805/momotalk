@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10046.webp", "MessageJP": "イズナ（水着）", "MessageTW": "伊樹菜(泳裝)", "MessageEN": "Izuna (Swimsuit)"}, {"MessageId": 100450110, "Flag": 2, "Type": 4, "NextId": 100460110, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100460110, "Flag": 2, "Type": 0, "NextId": 100460120, "MessageType": "Text", "ImagePath": "", "MessageJP": "主殿！", "MessageTW": "主公！", "MessageEN": "My lord! "}, {"MessageId": 100460120, "Flag": 1, "Type": 0, "NextId": 100460130, "MessageType": "Text", "ImagePath": "", "MessageJP": "もし今日、お時間がありましたら", "MessageTW": "今天如果有時間的話……", "MessageEN": "If you have time today..."}, {"MessageId": 100460130, "Flag": 2, "Type": 3, "NextId": 100460140, "MessageType": "Text", "ImagePath": "", "MessageJP": "イズナのためならどこへでも！", "MessageTW": "只要是為了伊樹菜，去哪裡都行！", "MessageEN": "Sure! I'll go anywhere with you, Izuna!"}, {"MessageId": 100460140, "Flag": 2, "Type": 0, "NextId": 100460150, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ", "MessageTW": "啊", "MessageEN": "Oh...!"}, {"MessageId": 100460150, "Flag": 1, "Type": 0, "NextId": 100460151, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい！", "MessageTW": "是！", "MessageEN": "Okay!"}, {"MessageId": 100460151, "Flag": 2, "Type": 0, "NextId": 100460160, "MessageType": "Text", "ImagePath": "", "MessageJP": "えへへっ！", "MessageTW": "耶嘿嘿！", "MessageEN": "Heeheehee!"}, {"MessageId": 100460160, "Flag": 1, "Type": 0, "NextId": 100450160, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとうございます！それでは海辺でお待ちしてますね、主殿！", "MessageTW": "非常感謝！那我在海邊等著，主公！", "MessageEN": "Okay, see you at the beach, my lord!"}, {"MessageId": 100450160, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イズナ（水着）の絆イベントへ", "MessageTW": "前往伊樹菜(泳裝)的羈絆劇情", "MessageEN": "Go to Izuna (Swimsuit)'s Event"}]
+[
+    {
+        "CharacterId": 10046,
+        "MessageJP": "イズナ（水着）",
+        "MessageKR": "이즈나(수영복)",
+        "MessageTW": "伊樹菜(泳裝)",
+        "MessageEN": "Izuna (Swimsuit)"
+    },
+    {
+        "MessageId": 100450110,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100460110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100460110,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100460120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "主殿！",
+        "MessageKR": "주군!",
+        "MessageTW": "主公！",
+        "MessageEN": "My lord! "
+    },
+    {
+        "MessageId": 100460120,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100460130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もし今日、お時間がありましたら",
+        "MessageKR": "혹시 오늘 시간이 괜찮으시다면…….",
+        "MessageTW": "今天如果有時間的話……",
+        "MessageEN": "If you have time today..."
+    },
+    {
+        "MessageId": 100460130,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100460140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イズナのためならどこへでも！",
+        "MessageKR": "물론이지! 이즈나가 부른다면 어디든 갈게!",
+        "MessageTW": "只要是為了伊樹菜，去哪裡都行！",
+        "MessageEN": "Sure! I'll go anywhere with you, Izuna!"
+    },
+    {
+        "MessageId": 100460140,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100460150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ",
+        "MessageKR": "아……",
+        "MessageTW": "啊",
+        "MessageEN": "Oh...!"
+    },
+    {
+        "MessageId": 100460150,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100460151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい！",
+        "MessageKR": "네!",
+        "MessageTW": "是！",
+        "MessageEN": "Okay!"
+    },
+    {
+        "MessageId": 100460151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100460160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えへへっ！",
+        "MessageKR": "에헤헷!",
+        "MessageTW": "耶嘿嘿！",
+        "MessageEN": "Heeheehee!"
+    },
+    {
+        "MessageId": 100460160,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100450167,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとうございます！それでは海辺でお待ちしてますね、主殿！",
+        "MessageKR": "네! 그럼 바닷가에서 봐요! 주군!",
+        "MessageTW": "非常感謝！那我在海邊等著，主公！",
+        "MessageEN": "Okay, see you at the beach, my lord!"
+    },
+    {
+        "MessageId": 100450167,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イズナ（水着）の絆イベントへ",
+        "MessageKR": "이즈나(수영복)의 인연스토리로",
+        "MessageTW": "前往伊樹菜(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Izuna (Swimsuit)'s Event"
+    }
+]

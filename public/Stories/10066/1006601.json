@@ -1,0 +1,93 @@
+[
+    {
+        "CharacterId": 10066,
+        "MessageJP": "アリス（メイド）",
+        "MessageKR": "아리스(메이드)",
+        "MessageTW": "愛麗絲(女僕)",
+        "MessageEN": "Aris (Maid)"
+    },
+    {
+        "MessageId": 100650010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100660010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100660010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100660020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うう……先生……",
+        "MessageKR": "우우우…… 우우우……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100660020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100660030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アリス、どうしたの？",
+        "MessageKR": "아리스? 왜 그래? 무슨 일 있어?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100660030,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100660031,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アリスを……助けてください",
+        "MessageKR": "우우우…… 아리스는 도움이 필요합니다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100660031,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100660040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、いえ、やっぱりなんでもありません！",
+        "MessageKR": "꼼짝도 할 수 없는 겁니다. 몸에 힘이 들어가지 않습니다……",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100660040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100650047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今行くね！",
+        "MessageKR": "지금 갈게!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100650047,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アリス（メイド）の絆イベントへ",
+        "MessageKR": "아리스(메이드)의 인연스토리로",
+        "MessageTW": "前往愛麗絲(女僕)的羈絆劇情",
+        "MessageEN": "Go to Aris (Maid)'s Event"
+    }
+]

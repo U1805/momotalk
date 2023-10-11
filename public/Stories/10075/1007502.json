@@ -1,0 +1,93 @@
+[
+    {
+        "CharacterId": 10075,
+        "MessageJP": "メル",
+        "MessageKR": "메루",
+        "MessageTW": "メル",
+        "MessageEN": "Meru"
+    },
+    {
+        "MessageId": 100740120,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100750120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100750120,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100750130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "つ～ん～だ～",
+        "MessageKR": "망~ 했~ 어~",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100750130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100750140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "も～～～お～わ～り～～",
+        "MessageKR": "막~ 혔~ 어~",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100750140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100750150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつも通りのメルだ",
+        "MessageKR": "이해했다. 언제나의 메루다.",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100750150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100750151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "冷たい！そうやって他人事みたいにさぁ！",
+        "MessageKR": "그렇게 강 건너 불구경하는 것처럼 반응하지 말고!",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100750151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100740157,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "た～す～け～て～よ～",
+        "MessageKR": "도~ 와~ 줘~",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 100740157,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "メルの絆イベントへ",
+        "MessageKR": "메루의 인연스토리로",
+        "MessageTW": "前往メル的羈絆劇情",
+        "MessageEN": "Go to Meru's Event"
+    }
+]

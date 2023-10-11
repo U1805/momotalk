@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10036.webp", "MessageJP": "ヒナタ", "MessageTW": "日向", "MessageEN": "Hinata"}, {"MessageId": 100350010, "Flag": 2, "Type": 4, "NextId": 100360010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100360010, "Flag": 2, "Type": 0, "NextId": 100360020, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日もみなさんに、平和と安寧がありますように！", "MessageTW": "願各位依然有個和平安寧的一天！", "MessageEN": "May peace and happiness find you today!"}, {"MessageId": 100360020, "Flag": 1, "Type": 0, "NextId": 100360030, "MessageType": "Text", "ImagePath": "", "MessageJP": "トリニティの聖堂に立ち寄ることがありましたら、何でも手伝いますのでお申し付けください", "MessageTW": "如果有事要來三一的教堂，任何事都可以告訴我，我都願意幫忙", "MessageEN": "Let me know whenever you have business at the Trinity Cathedral. I'll help you with anything."}, {"MessageId": 100360030, "Flag": 2, "Type": 3, "NextId": 100360040, "MessageType": "Text", "ImagePath": "", "MessageJP": "ありがとう、その時はよろしくね", "MessageTW": "謝謝，到時再麻煩你囉", "MessageEN": "I might take you up on that."}, {"MessageId": 100360030, "Flag": 2, "Type": 3, "NextId": 100360040, "MessageType": "Text", "ImagePath": "", "MessageJP": "何でも良いの？", "MessageTW": "任何事？", "MessageEN": "Anything?"}, {"MessageId": 100360040, "Flag": 2, "Type": 0, "NextId": 100360041, "MessageType": "Text", "ImagePath": "", "MessageJP": "あっ", "MessageTW": "啊", "MessageEN": "Oh."}, {"MessageId": 100360041, "Flag": 2, "Type": 0, "NextId": 100360042, "MessageType": "Text", "ImagePath": "", "MessageJP": "ただ、その", "MessageTW": "不過那也要", "MessageEN": "Um..."}, {"MessageId": 100360042, "Flag": 2, "Type": 0, "NextId": 100360050, "MessageType": "Text", "ImagePath": "", "MessageJP": "私にできる範囲で、になりますが……", "MessageTW": "在我能力所及的範圍內……", "MessageEN": "Actually, I can only help if it's around the cathedral."}, {"MessageId": 100360050, "Flag": 1, "Type": 0, "NextId": 100360060, "MessageType": "Text", "ImagePath": "", "MessageJP": "あまり遠出したりは、ちょっと難しくって……", "MessageTW": "如果要出遠門的話，或許會有些困難……", "MessageEN": "That's what I'm in charge of."}, {"MessageId": 100360060, "Flag": 1, "Type": 0, "NextId": 100350060, "MessageType": "Text", "ImagePath": "", "MessageJP": "それ以外でしたら、ぜひいつでも！", "MessageTW": "除此之外，都請別客氣！", "MessageEN": "I look forward to seeing you!"}, {"MessageId": 100350060, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ヒナタの絆イベントへ", "MessageTW": "前往日向的羈絆劇情", "MessageEN": "Go to Hinata's Event"}]
+[
+    {
+        "CharacterId": 10036,
+        "MessageJP": "ヒナタ",
+        "MessageKR": "히나타",
+        "MessageTW": "日向",
+        "MessageEN": "Hinata"
+    },
+    {
+        "MessageId": 100350010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100360010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100360010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100360020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日もみなさんに、平和と安寧がありますように！",
+        "MessageKR": "평화와 안녕이 함께하시기를!",
+        "MessageTW": "願各位依然有個和平安寧的一天！",
+        "MessageEN": "May peace and happiness find you today!"
+    },
+    {
+        "MessageId": 100360020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100360030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トリニティの聖堂に立ち寄ることがありましたら、何でも手伝いますのでお申し付けください",
+        "MessageKR": "트리니티의 성당에 들르실 일이 있으시면 뭐든 말씀만 주세요. 제가 도와드리겠습니다.",
+        "MessageTW": "如果有事要來三一的教堂，任何事都可以告訴我，我都願意幫忙",
+        "MessageEN": "Let me know whenever you have business at the Trinity Cathedral. I'll help you with anything."
+    },
+    {
+        "MessageId": 100360030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100360040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ありがとう、その時はよろしくね",
+        "MessageKR": "고마워. 든든한걸.",
+        "MessageTW": "謝謝，到時再麻煩你囉",
+        "MessageEN": "I might take you up on that."
+    },
+    {
+        "MessageId": 100360030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100360040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何でも良いの？",
+        "MessageKR": "뭐든지……?",
+        "MessageTW": "任何事？",
+        "MessageEN": "Anything?"
+    },
+    {
+        "MessageId": 100360040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100360041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あっ",
+        "MessageKR": "아",
+        "MessageTW": "啊",
+        "MessageEN": "Oh."
+    },
+    {
+        "MessageId": 100360041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100360042,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ただ、その",
+        "MessageKR": "그",
+        "MessageTW": "不過那也要",
+        "MessageEN": "Um..."
+    },
+    {
+        "MessageId": 100360042,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100360050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私にできる範囲で、になりますが……",
+        "MessageKR": "성당 안이나 그 근처에서만……이긴 해요.",
+        "MessageTW": "在我能力所及的範圍內……",
+        "MessageEN": "Actually, I can only help if it's around the cathedral."
+    },
+    {
+        "MessageId": 100360050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100360060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あまり遠出したりは、ちょっと難しくって……",
+        "MessageKR": "이것도 저에게 맡겨진 책무의 일환이니까요.",
+        "MessageTW": "如果要出遠門的話，或許會有些困難……",
+        "MessageEN": "That's what I'm in charge of."
+    },
+    {
+        "MessageId": 100360060,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100350067,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "それ以外でしたら、ぜひいつでも！",
+        "MessageKR": "그럼, 만나 뵐 날을 기다리고 있겠습니다!",
+        "MessageTW": "除此之外，都請別客氣！",
+        "MessageEN": "I look forward to seeing you!"
+    },
+    {
+        "MessageId": 100350067,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ヒナタの絆イベントへ",
+        "MessageKR": "히나타의 인연스토리로",
+        "MessageTW": "前往日向的羈絆劇情",
+        "MessageEN": "Go to Hinata's Event"
+    }
+]

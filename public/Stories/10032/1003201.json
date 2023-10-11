@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10032.webp", "MessageJP": "ムツキ（正月）", "MessageTW": "無月(正月)", "MessageEN": "Mutsuki (New Year)"}, {"MessageId": 100310010, "Flag": 2, "Type": 4, "NextId": 100320010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100320010, "Flag": 2, "Type": 0, "NextId": 100320020, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生！", "MessageTW": "老師！", "MessageEN": "Sensei! Sensei!"}, {"MessageId": 100320020, "Flag": 1, "Type": 0, "NextId": 100320030, "MessageType": "Text", "ImagePath": "", "MessageJP": "あらためて、明けましておめでとー！", "MessageTW": "再次祝你新年快樂──！", "MessageEN": "Happy New Year!"}, {"MessageId": 100320030, "Flag": 2, "Type": 3, "NextId": 100320040, "MessageType": "Text", "ImagePath": "", "MessageJP": "いつの間にお正月だ……", "MessageTW": "不知不覺已經過年了啊……", "MessageEN": "Oh, is it already...New Year's?"}, {"MessageId": 100320030, "Flag": 2, "Type": 3, "NextId": 100320040, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、明けましておめでとう", "MessageTW": "嗯，新年快樂", "MessageEN": "Thanks. Happy New Year to you too, Mutsuki."}, {"MessageId": 100320040, "Flag": 2, "Type": 0, "NextId": 100320041, "MessageType": "Text", "ImagePath": "", "MessageJP": "えー、何その先生のリアクション。つまんな～い", "MessageTW": "耶──，老師那是什麼反應。無～聊", "MessageEN": "Oh, come on! What's with your reaction, Sensei! It's not funny!"}, {"MessageId": 100320041, "Flag": 2, "Type": 0, "NextId": 100320050, "MessageType": "Text", "ImagePath": "", "MessageJP": "しょうがないなぁ……そんなふにゃふにゃな先生でも一気に燃え上がるような", "MessageTW": "真拿你沒辦法……我為無精打采的老師準備了", "MessageEN": "Well, I did prepare something awesome that would"}, {"MessageId": 100320050, "Flag": 1, "Type": 0, "NextId": 100320060, "MessageType": "Text", "ImagePath": "", "MessageJP": "「ものすごく楽しいこと」を用意してあげる！", "MessageTW": "連你也能一下就燃起鬥志的「極其有趣的事」！", "MessageEN": "fire up even our frail Sensei!"}, {"MessageId": 100320060, "Flag": 2, "Type": 3, "NextId": 100320070, "MessageType": "Text", "ImagePath": "", "MessageJP": "ふにゃふにゃ……？", "MessageTW": "無精打采……？", "MessageEN": "Frail...?"}, {"MessageId": 100320060, "Flag": 2, "Type": 3, "NextId": 100320070, "MessageType": "Text", "ImagePath": "", "MessageJP": "「ものすごく楽しいこと」……？", "MessageTW": "「極其有趣的事」……？", "MessageEN": "Something Mutsuki prepared?"}, {"MessageId": 100320070, "Flag": 2, "Type": 0, "NextId": 100320080, "MessageType": "Text", "ImagePath": "", "MessageJP": "じゃあ楽しみにしててね、先生！", "MessageTW": "那就敬請期待吧，老師！", "MessageEN": "Be excited, Sensei!"}, {"MessageId": 100320080, "Flag": 2, "Type": 3, "NextId": 100320090, "MessageType": "Text", "ImagePath": "", "MessageJP": "え、えっ……？", "MessageTW": "咦，咦……？", "MessageEN": "Huh...? Mutsuki?"}, {"MessageId": 100320090, "Flag": 2, "Type": 3, "NextId": 100310090, "MessageType": "Text", "ImagePath": "", "MessageJP": "ムツキ……？", "MessageTW": "無月……？", "MessageEN": "Hello...?"}, {"MessageId": 100310090, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ムツキ（正月）の絆イベントへ", "MessageTW": "前往無月(正月)的羈絆劇情", "MessageEN": "Go to Mutsuki (New Year)'s Event"}]
+[
+    {
+        "CharacterId": 10032,
+        "MessageJP": "ムツキ（正月）",
+        "MessageKR": "무츠키(새해)",
+        "MessageTW": "無月(正月)",
+        "MessageEN": "Mutsuki (New Year)"
+    },
+    {
+        "MessageId": 100310010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100320010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100320010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100320020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生！",
+        "MessageKR": "선생님~ 선생님~",
+        "MessageTW": "老師！",
+        "MessageEN": "Sensei! Sensei!"
+    },
+    {
+        "MessageId": 100320020,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100320030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あらためて、明けましておめでとー！",
+        "MessageKR": "새해 복 많이 받아~!",
+        "MessageTW": "再次祝你新年快樂──！",
+        "MessageEN": "Happy New Year!"
+    },
+    {
+        "MessageId": 100320030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100320040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いつの間にお正月だ……",
+        "MessageKR": "어, 벌써…. 새해인가?",
+        "MessageTW": "不知不覺已經過年了啊……",
+        "MessageEN": "Oh, is it already...New Year's?"
+    },
+    {
+        "MessageId": 100320030,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100320040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、明けましておめでとう",
+        "MessageKR": "응…. 무츠키도 새해 복 많이 받아.",
+        "MessageTW": "嗯，新年快樂",
+        "MessageEN": "Thanks. Happy New Year to you too, Mutsuki."
+    },
+    {
+        "MessageId": 100320040,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100320041,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えー、何その先生のリアクション。つまんな～い",
+        "MessageKR": "흐응, 뭐야~ 선생님의 반응, 재미없어~",
+        "MessageTW": "耶──，老師那是什麼反應。無～聊",
+        "MessageEN": "Oh, come on! What's with your reaction, Sensei! It's not funny!"
+    },
+    {
+        "MessageId": 100320041,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100320050,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "しょうがないなぁ……そんなふにゃふにゃな先生でも一気に燃え上がるような",
+        "MessageKR": "뭐, 그런 평소에도 흐느적흐느적하는 선생님이라도 불타오를 수 있도록.",
+        "MessageTW": "真拿你沒辦法……我為無精打采的老師準備了",
+        "MessageEN": "Well, I did prepare something awesome that would"
+    },
+    {
+        "MessageId": 100320050,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100320060,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "「ものすごく楽しいこと」を用意してあげる！",
+        "MessageKR": "내가 또 엄청난 걸 준비했지만 말이야!",
+        "MessageTW": "連你也能一下就燃起鬥志的「極其有趣的事」！",
+        "MessageEN": "fire up even our frail Sensei!"
+    },
+    {
+        "MessageId": 100320060,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100320070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ふにゃふにゃ……？",
+        "MessageKR": "흐느적흐느적…?",
+        "MessageTW": "無精打采……？",
+        "MessageEN": "Frail...?"
+    },
+    {
+        "MessageId": 100320060,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100320070,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "「ものすごく楽しいこと」……？",
+        "MessageKR": "무츠키가 준비한, 거?",
+        "MessageTW": "「極其有趣的事」……？",
+        "MessageEN": "Something Mutsuki prepared?"
+    },
+    {
+        "MessageId": 100320070,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100320080,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "じゃあ楽しみにしててね、先生！",
+        "MessageKR": "그럼 잔뜩 기대하고 있어~ 선생님!",
+        "MessageTW": "那就敬請期待吧，老師！",
+        "MessageEN": "Be excited, Sensei!"
+    },
+    {
+        "MessageId": 100320080,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100320090,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "え、えっ……？",
+        "MessageKR": "응…? 무츠키?",
+        "MessageTW": "咦，咦……？",
+        "MessageEN": "Huh...? Mutsuki?"
+    },
+    {
+        "MessageId": 100320090,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100310097,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ムツキ……？",
+        "MessageKR": "저기요…?",
+        "MessageTW": "無月……？",
+        "MessageEN": "Hello...?"
+    },
+    {
+        "MessageId": 100310097,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ムツキ（正月）の絆イベントへ",
+        "MessageKR": "무츠키(새해)의 인연스토리로",
+        "MessageTW": "前往無月(正月)的羈絆劇情",
+        "MessageEN": "Go to Mutsuki (New Year)'s Event"
+    }
+]

@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/23003.webp", "MessageJP": "ハレ", "MessageTW": "晴", "MessageEN": "Hare"}, {"MessageId": 230020120, "Flag": 2, "Type": 4, "NextId": 230030128, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 230030128, "Flag": 2, "Type": 0, "NextId": 230030135, "MessageType": "Text", "ImagePath": "", "MessageJP": "この間発売されたグラフィックボード、性能がものすごく良いみたい", "MessageTW": "前陣子發售的顯示卡，性能好像超強的", "MessageEN": "I hear that new graphics card that just came out has incredible performance..."}, {"MessageId": 230030135, "Flag": 1, "Type": 0, "NextId": 230030140, "MessageType": "Text", "ImagePath": "", "MessageJP": "業者の人に聞いたら、在庫が限られてるから一人一個しか売らないんだって", "MessageTW": "我問了問業者，因為庫存不夠的關係，限制一個人只能買一張", "MessageEN": "I asked the company that sells it, and they said each person can only buy one because supplies are limited."}, {"MessageId": 230030140, "Flag": 2, "Type": 3, "NextId": 230030159, "MessageType": "Text", "ImagePath": "", "MessageJP": "パソコンには詳しくないんだけど、一個じゃ足りないの？", "MessageTW": "雖然我不太懂電腦，不過一張還不夠嗎？", "MessageEN": "I don't know much about computers, but is one graphics card enough?"}, {"MessageId": 230030159, "Flag": 2, "Type": 0, "NextId": 230030156, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、足りないかな", "MessageTW": "嗯，不太夠呢", "MessageEN": "No."}, {"MessageId": 230030156, "Flag": 2, "Type": 0, "NextId": 230030154, "MessageType": "Text", "ImagePath": "", "MessageJP": "二個以上ないと、性能的に新しいシミュレーターをきちんと試せないから", "MessageTW": "如果沒有兩張以上的話，要測試新的模擬程式很可能會因為性能不足而沒辦法好好測試", "MessageEN": "I need at least two graphics cards to test the new simulator's functions properly."}, {"MessageId": 230030154, "Flag": 1, "Type": 0, "NextId": 230030151, "MessageType": "Text", "ImagePath": "", "MessageJP": "個人的には二個でも足りないぐらいだけど", "MessageTW": "雖然我個人是覺得兩張也不夠", "MessageEN": "Honestly, two isn't even enough..."}, {"MessageId": 230030151, "Flag": 2, "Type": 0, "NextId": 230030160, "MessageType": "Text", "ImagePath": "", "MessageJP": "ただでさえ高いのにこれ以上積むのも厳しいから、二個で我慢……", "MessageTW": "但是顯示卡本來就很貴了，如果再買更多的話實在有點吃不消，只好先用兩張將就一下", "MessageEN": "But since it's already so expensive, I'll have to settle for two..."}, {"MessageId": 230030160, "Flag": 2, "Type": 3, "NextId": 230030171, "MessageType": "Text", "ImagePath": "", "MessageJP": "正直よく分からないけど、すごいね……", "MessageTW": "老實說我還是不太懂，但好厲害啊……", "MessageEN": "I don't know what you're going on about, but it sounds pretty important."}, {"MessageId": 230030160, "Flag": 2, "Type": 3, "NextId": 230030171, "MessageType": "Text", "ImagePath": "", "MessageJP": "パソコンの世界は深いね……", "MessageTW": "電腦世界真是深奧啊……", "MessageEN": "The world of computers will always be a mystery to me..."}, {"MessageId": 230030171, "Flag": 2, "Type": 0, "NextId": 230030178, "MessageType": "Text", "ImagePath": "", "MessageJP": "そこで今週末なんだけど、それを買うのに一緒に行ってくれないかな？", "MessageTW": "所以說這個週末，老師能跟我一起去買嗎？", "MessageEN": "So I wanted to ask... Can you come with me to the parts store this weekend?"}, {"MessageId": 230030178, "Flag": 2, "Type": 0, "NextId": 230030180, "MessageType": "Text", "ImagePath": "", "MessageJP": "お金はもちろん私が出すから、来てくれると嬉しい", "MessageTW": "錢當然是我來出，你能來我就很高興了", "MessageEN": "I'll pay for everything. You just need to, y'know, stand there."}, {"MessageId": 230030180, "Flag": 2, "Type": 3, "NextId": 230020180, "MessageType": "Text", "ImagePath": "", "MessageJP": "分かった、じゃあまた週末に", "MessageTW": "我知道了，那就週末見", "MessageEN": "Okay. I'll see you this weekend."}, {"MessageId": 230020180, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ハレの絆イベントへ", "MessageTW": "前往晴的羈絆劇情", "MessageEN": "Go to Hare's Event"}]
+[
+    {
+        "CharacterId": 23003,
+        "MessageJP": "ハレ",
+        "MessageKR": "하레",
+        "MessageTW": "晴",
+        "MessageEN": "Hare"
+    },
+    {
+        "MessageId": 230020120,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 230030128,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 230030128,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030135,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この間発売されたグラフィックボード、性能がものすごく良いみたい",
+        "MessageKR": "이번에 새로 출시된 그래픽 카드의 성능이 그렇게 좋다는데…….",
+        "MessageTW": "前陣子發售的顯示卡，性能好像超強的",
+        "MessageEN": "I hear that new graphics card that just came out has incredible performance..."
+    },
+    {
+        "MessageId": 230030135,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230030140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "業者の人に聞いたら、在庫が限られてるから一人一個しか売らないんだって",
+        "MessageKR": "업체에 문의해보니 재고가 한정되어 있어서 한 사람 앞에 한 개밖에 팔지 않는다지 뭐야.",
+        "MessageTW": "我問了問業者，因為庫存不夠的關係，限制一個人只能買一張",
+        "MessageEN": "I asked the company that sells it, and they said each person can only buy one because supplies are limited."
+    },
+    {
+        "MessageId": 230030140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030159,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "パソコンには詳しくないんだけど、一個じゃ足りないの？",
+        "MessageKR": "컴퓨터에 대해서는 잘 모르지만, 한 개면 충분하지 않아?",
+        "MessageTW": "雖然我不太懂電腦，不過一張還不夠嗎？",
+        "MessageEN": "I don't know much about computers, but is one graphics card enough?"
+    },
+    {
+        "MessageId": 230030159,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030156,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、足りないかな",
+        "MessageKR": "안 돼.",
+        "MessageTW": "嗯，不太夠呢",
+        "MessageEN": "No."
+    },
+    {
+        "MessageId": 230030156,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030154,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "二個以上ないと、性能的に新しいシミュレーターをきちんと試せないから",
+        "MessageKR": "두 개 이상의 그래픽 카드를 연결해서 그래픽 처리 성능을 높이지 않으면 새로운 시뮬레이터의 기능을 제대로 시험해 볼 수 없거든.",
+        "MessageTW": "如果沒有兩張以上的話，要測試新的模擬程式很可能會因為性能不足而沒辦法好好測試",
+        "MessageEN": "I need at least two graphics cards to test the new simulator's functions properly."
+    },
+    {
+        "MessageId": 230030154,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 230030151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "個人的には二個でも足りないぐらいだけど",
+        "MessageKR": "마음 같아서는 사실 두 개도 부족하지만,",
+        "MessageTW": "雖然我個人是覺得兩張也不夠",
+        "MessageEN": "Honestly, two isn't even enough..."
+    },
+    {
+        "MessageId": 230030151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ただでさえ高いのにこれ以上積むのも厳しいから、二個で我慢……",
+        "MessageKR": "부품의 가격이 배로 뛰니 두 개로 만족하는 수밖에…….",
+        "MessageTW": "但是顯示卡本來就很貴了，如果再買更多的話實在有點吃不消，只好先用兩張將就一下",
+        "MessageEN": "But since it's already so expensive, I'll have to settle for two..."
+    },
+    {
+        "MessageId": 230030160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "正直よく分からないけど、すごいね……",
+        "MessageKR": "무슨 말인지는 모르겠지만, 뭔가 굉장하네…….",
+        "MessageTW": "老實說我還是不太懂，但好厲害啊……",
+        "MessageEN": "I don't know what you're going on about, but it sounds pretty important."
+    },
+    {
+        "MessageId": 230030160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230030171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "パソコンの世界は深いね……",
+        "MessageKR": "컴퓨터 조립의 세계는 심오하구나…….",
+        "MessageTW": "電腦世界真是深奧啊……",
+        "MessageEN": "The world of computers will always be a mystery to me..."
+    },
+    {
+        "MessageId": 230030171,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030178,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そこで今週末なんだけど、それを買うのに一緒に行ってくれないかな？",
+        "MessageKR": "그래서 말인데, 이번 주말에 부품 상점에 쇼핑하러 갈 때 같이 가줄 수 없을까?",
+        "MessageTW": "所以說這個週末，老師能跟我一起去買嗎？",
+        "MessageEN": "So I wanted to ask... Can you come with me to the parts store this weekend?"
+    },
+    {
+        "MessageId": 230030178,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 230030180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お金はもちろん私が出すから、来てくれると嬉しい",
+        "MessageKR": "돈은 내가 낼 테니까 얼굴만 빌려주면 돼.",
+        "MessageTW": "錢當然是我來出，你能來我就很高興了",
+        "MessageEN": "I'll pay for everything. You just need to, y'know, stand there."
+    },
+    {
+        "MessageId": 230030180,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 230020187,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "分かった、じゃあまた週末に",
+        "MessageKR": "알겠어. 주말에 보자.",
+        "MessageTW": "我知道了，那就週末見",
+        "MessageEN": "Okay. I'll see you this weekend."
+    },
+    {
+        "MessageId": 230020187,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ハレの絆イベントへ",
+        "MessageKR": "하레의 인연스토리로",
+        "MessageTW": "前往晴的羈絆劇情",
+        "MessageEN": "Go to Hare's Event"
+    }
+]

@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20003.webp", "MessageJP": "マシロ", "MessageTW": "麻白", "MessageEN": "Mashiro"}, {"MessageId": 200020300, "Flag": 2, "Type": 4, "NextId": 200030309, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200030309, "Flag": 2, "Type": 0, "NextId": 200030310, "MessageType": "Text", "ImagePath": "", "MessageJP": "今こそ正義を実現する時です！", "MessageTW": "現在正是實現正義的時刻！", "MessageEN": "It's time for justice, Sensei!"}, {"MessageId": 200030310, "Flag": 2, "Type": 3, "NextId": 200030328, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしたの？", "MessageTW": "怎麼了？", "MessageEN": "What's going on?"}, {"MessageId": 200030310, "Flag": 2, "Type": 3, "NextId": 200030320, "MessageType": "Text", "ImagePath": "", "MessageJP": "ついに私の命が尽きる時が……", "MessageTW": "我的生命就到此為止了嗎……", "MessageEN": "So you're finally coming for me..."}, {"MessageId": 200030320, "Flag": 2, "Type": 0, "NextId": 200030328, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっ、先生は何か正義に反することをしてしまったのですか？", "MessageTW": "呃，老師做了什麼違反正義的事嗎？", "MessageEN": "What do you mean? Did you do something that's the opposite of justice?"}, {"MessageId": 200030328, "Flag": 1, "Type": 0, "NextId": 200030325, "MessageType": "Text", "ImagePath": "", "MessageJP": "えっと、先輩たちの情報によりますと、", "MessageTW": "那個，根據前輩們的情報", "MessageEN": "According to what I've heard,"}, {"MessageId": 200030325, "Flag": 2, "Type": 0, "NextId": 200030322, "MessageType": "Text", "ImagePath": "", "MessageJP": "極悪非道なブラックマーケットの悪党が本日の正午、", "MessageTW": "窮凶惡極的黑市惡黨將在今天中午", "MessageEN": "some villains from the heinous Black Market"}, {"MessageId": 200030322, "Flag": 2, "Type": 0, "NextId": 200030338, "MessageType": "Text", "ImagePath": "", "MessageJP": "トリニティ総合学園の近くを通りかかるとのことです", "MessageTW": "經過三一綜合學園附近", "MessageEN": "are supposed to be near Trinity at noon today."}, {"MessageId": 200030338, "Flag": 1, "Type": 0, "NextId": 200030340, "MessageType": "Text", "ImagePath": "", "MessageJP": "建物の屋上で待ち構えて、その悪党を狙撃しましょう！", "MessageTW": "在建築物的樓頂上等著，狙擊那個惡黨吧！", "MessageEN": "I'm going to wait for them on the roof of a nearby building and take them out!"}, {"MessageId": 200030340, "Flag": 2, "Type": 3, "NextId": 200020340, "MessageType": "Text", "ImagePath": "", "MessageJP": "狙撃、怖い……", "MessageTW": "狙擊，好可怕……", "MessageEN": "Take them out? How scary..."}, {"MessageId": 200020340, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "マシロの絆イベントへ", "MessageTW": "前往麻白的羈絆劇情", "MessageEN": "Go to Mashiro's Event"}]
+[
+    {
+        "CharacterId": 20003,
+        "MessageJP": "マシロ",
+        "MessageKR": "마시로",
+        "MessageTW": "麻白",
+        "MessageEN": "Mashiro"
+    },
+    {
+        "MessageId": 200020300,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200030309,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200030309,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030310,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今こそ正義を実現する時です！",
+        "MessageKR": "선생님, 정의를 실현할 때입니다!",
+        "MessageTW": "現在正是實現正義的時刻！",
+        "MessageEN": "It's time for justice, Sensei!"
+    },
+    {
+        "MessageId": 200030310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200030328,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしたの？",
+        "MessageKR": "무슨 일이야?",
+        "MessageTW": "怎麼了？",
+        "MessageEN": "What's going on?"
+    },
+    {
+        "MessageId": 200030310,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200030320,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ついに私の命が尽きる時が……",
+        "MessageKR": "드디어 내 목숨을 노리러 오는 건가…….",
+        "MessageTW": "我的生命就到此為止了嗎……",
+        "MessageEN": "So you're finally coming for me..."
+    },
+    {
+        "MessageId": 200030320,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030328,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっ、先生は何か正義に反することをしてしまったのですか？",
+        "MessageKR": "그게 무슨 말씀이신가요? 무언가 정의에 반하는 일이라도 저지르셨나요?",
+        "MessageTW": "呃，老師做了什麼違反正義的事嗎？",
+        "MessageEN": "What do you mean? Did you do something that's the opposite of justice?"
+    },
+    {
+        "MessageId": 200030328,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200030325,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "えっと、先輩たちの情報によりますと、",
+        "MessageKR": "선배들의 첩보에 의하면",
+        "MessageTW": "那個，根據前輩們的情報",
+        "MessageEN": "According to what I've heard,"
+    },
+    {
+        "MessageId": 200030325,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030322,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "極悪非道なブラックマーケットの悪党が本日の正午、",
+        "MessageKR": "극악무도한 블랙마켓의 악당이 오늘 정오에",
+        "MessageTW": "窮凶惡極的黑市惡黨將在今天中午",
+        "MessageEN": "some villains from the heinous Black Market"
+    },
+    {
+        "MessageId": 200030322,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200030338,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トリニティ総合学園の近くを通りかかるとのことです",
+        "MessageKR": "트리니티 학원 근처를 지나갈 예정이라고 합니다.",
+        "MessageTW": "經過三一綜合學園附近",
+        "MessageEN": "are supposed to be near Trinity at noon today."
+    },
+    {
+        "MessageId": 200030338,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200030340,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "建物の屋上で待ち構えて、その悪党を狙撃しましょう！",
+        "MessageKR": "근처 건물의 옥상에서 기다렸다가 그 악인을 저격하도록 하죠!",
+        "MessageTW": "在建築物的樓頂上等著，狙擊那個惡黨吧！",
+        "MessageEN": "I'm going to wait for them on the roof of a nearby building and take them out!"
+    },
+    {
+        "MessageId": 200030340,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200020347,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "狙撃、怖い……",
+        "MessageKR": "저격, 무서워…….",
+        "MessageTW": "狙擊，好可怕……",
+        "MessageEN": "Take them out? How scary..."
+    },
+    {
+        "MessageId": 200020347,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "マシロの絆イベントへ",
+        "MessageKR": "마시로의 인연스토리로",
+        "MessageTW": "前往麻白的羈絆劇情",
+        "MessageEN": "Go to Mashiro's Event"
+    }
+]

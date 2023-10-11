@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10018.webp", "MessageJP": "ユズ", "MessageTW": "柚子", "MessageEN": "Yuzu"}, {"MessageId": 100170100, "Flag": 2, "Type": 4, "NextId": 100180100, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100180100, "Flag": 2, "Type": 0, "NextId": 100180110, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生は、どんな種類のゲームがお好きですか？", "MessageTW": "老師喜歡什麼種類的遊戲？", "MessageEN": "What type of games do you like, Sensei?"}, {"MessageId": 100180110, "Flag": 2, "Type": 3, "NextId": 100180120, "MessageType": "Text", "ImagePath": "", "MessageJP": "コンシューマーゲームが好きかな", "MessageTW": "喜歡家機遊戲吧", "MessageEN": "I like console games."}, {"MessageId": 100180110, "Flag": 2, "Type": 3, "NextId": 100180120, "MessageType": "Text", "ImagePath": "", "MessageJP": "アーケードゲームが好きかな", "MessageTW": "喜歡街機遊戲吧", "MessageEN": "I like arcade games."}, {"MessageId": 100180120, "Flag": 2, "Type": 0, "NextId": 100180121, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、そうなんですね。わたしは……ゲームでしたら大抵のものは好きです", "MessageTW": "啊，這樣啊。我的話……大部分的遊戲都喜歡", "MessageEN": "I like almost all games,"}, {"MessageId": 100180121, "Flag": 2, "Type": 0, "NextId": 100180122, "MessageType": "Text", "ImagePath": "", "MessageJP": "ただ、他の人たちとプレイをしなくちゃいけない、オンラインゲームなどはちょっと……", "MessageTW": "但是，必須和其他人一起玩的網路遊戲之類的就有點……", "MessageEN": "but I don't really like online games where you have to work together with other people..."}, {"MessageId": 100180122, "Flag": 2, "Type": 0, "NextId": 100180130, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんだかプレッシャーを感じてしまって……あまりやりません", "MessageTW": "總覺得有壓力……不怎麼玩", "MessageEN": "I don't like how you have to talk to people."}, {"MessageId": 100180130, "Flag": 1, "Type": 0, "NextId": 100180140, "MessageType": "Text", "ImagePath": "", "MessageJP": "あ、でも、対戦型格闘ゲームはよくやります", "MessageTW": "啊，不過，對戰格鬥遊戲倒是常玩", "MessageEN": "But I still like fighting games."}, {"MessageId": 100180140, "Flag": 2, "Type": 3, "NextId": 100180150, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうなんだ？", "MessageTW": "這樣啊？", "MessageEN": "Fighting games?"}, {"MessageId": 100180150, "Flag": 2, "Type": 0, "NextId": 100180151, "MessageType": "Text", "ImagePath": "", "MessageJP": "はい、ああいうタイプのゲームは、それほど苦手ではなくて", "MessageTW": "是，那種類型的遊戲，我玩得還不算太差", "MessageEN": "Yeah. You don't have to talk to anyone in order to play those games."}, {"MessageId": 100180151, "Flag": 2, "Type": 0, "NextId": 100180160, "MessageType": "Text", "ImagePath": "", "MessageJP": "今度、わたしが好きなゲーム会社から新しい対戦格闘ゲームが出るそうで、楽しみです", "MessageTW": "聽說我喜歡的遊戲公司這次會推出新的對戰格鬥遊戲，非常期待", "MessageEN": "One of my favorite game developers is creating a new fighting game, so I'm really looking forward to that."}, {"MessageId": 100180160, "Flag": 2, "Type": 3, "NextId": 100180170, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユズと格ゲーって、なんだか意外な組み合わせだね", "MessageTW": "柚子和格鬥遊戲，真是意料之外的組合", "MessageEN": "I can't picture you playing that type of game, Yuzu."}, {"MessageId": 100180170, "Flag": 2, "Type": 0, "NextId": 100170170, "MessageType": "Text", "ImagePath": "", "MessageJP": "そ、そうでしょうか……？", "MessageTW": "是，是嗎……？", "MessageEN": "Really? I'm not sure about that..."}, {"MessageId": 100170170, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "ユズの絆イベントへ", "MessageTW": "前往柚子的羈絆劇情", "MessageEN": "Go to Yuzu's Event"}]
+[
+    {
+        "CharacterId": 10018,
+        "MessageJP": "ユズ",
+        "MessageKR": "유즈",
+        "MessageTW": "柚子",
+        "MessageEN": "Yuzu"
+    },
+    {
+        "MessageId": 100170100,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100180100,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100180100,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180110,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生は、どんな種類のゲームがお好きですか？",
+        "MessageKR": "선생님은 어떤 종류의 게임을 좋아하세요?",
+        "MessageTW": "老師喜歡什麼種類的遊戲？",
+        "MessageEN": "What type of games do you like, Sensei?"
+    },
+    {
+        "MessageId": 100180110,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100180120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "コンシューマーゲームが好きかな",
+        "MessageKR": "콘솔 게임이 좋아.",
+        "MessageTW": "喜歡家機遊戲吧",
+        "MessageEN": "I like console games."
+    },
+    {
+        "MessageId": 100180110,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100180120,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アーケードゲームが好きかな",
+        "MessageKR": "아케이드 게임이 좋아.",
+        "MessageTW": "喜歡街機遊戲吧",
+        "MessageEN": "I like arcade games."
+    },
+    {
+        "MessageId": 100180120,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180121,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、そうなんですね。わたしは……ゲームでしたら大抵のものは好きです",
+        "MessageKR": "저는 게임이라면 대부분 좋아하지만,",
+        "MessageTW": "啊，這樣啊。我的話……大部分的遊戲都喜歡",
+        "MessageEN": "I like almost all games,"
+    },
+    {
+        "MessageId": 100180121,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180122,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ただ、他の人たちとプレイをしなくちゃいけない、オンラインゲームなどはちょっと……",
+        "MessageKR": "다른 사람들과 협력해서 플레이해야 하는 온라인 게임만큼은 어쩐지 대화가 부담스러워서……",
+        "MessageTW": "但是，必須和其他人一起玩的網路遊戲之類的就有點……",
+        "MessageEN": "but I don't really like online games where you have to work together with other people..."
+    },
+    {
+        "MessageId": 100180122,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180130,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんだかプレッシャーを感じてしまって……あまりやりません",
+        "MessageKR": "그다지 즐기지는 않아요.",
+        "MessageTW": "總覺得有壓力……不怎麼玩",
+        "MessageEN": "I don't like how you have to talk to people."
+    },
+    {
+        "MessageId": 100180130,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100180140,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ、でも、対戦型格闘ゲームはよくやります",
+        "MessageKR": "그래도 대전 격투 게임만큼은 괜찮아요.",
+        "MessageTW": "啊，不過，對戰格鬥遊戲倒是常玩",
+        "MessageEN": "But I still like fighting games."
+    },
+    {
+        "MessageId": 100180140,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100180150,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうなんだ？",
+        "MessageKR": "대전 격투 게임?",
+        "MessageTW": "這樣啊？",
+        "MessageEN": "Fighting games?"
+    },
+    {
+        "MessageId": 100180150,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180151,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "はい、ああいうタイプのゲームは、それほど苦手ではなくて",
+        "MessageKR": "네, 대전 격투 게임은 직접 대화를 나누지 않더라도 충분히 즐길 수 있으니까요.",
+        "MessageTW": "是，那種類型的遊戲，我玩得還不算太差",
+        "MessageEN": "Yeah. You don't have to talk to anyone in order to play those games."
+    },
+    {
+        "MessageId": 100180151,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100180160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今度、わたしが好きなゲーム会社から新しい対戦格闘ゲームが出るそうで、楽しみです",
+        "MessageKR": "안 그래도 이번에 좋아하는 게임사에서 새로운 신작 대전 격투 게임이 나온다고 해서 기대하고 있답니다.",
+        "MessageTW": "聽說我喜歡的遊戲公司這次會推出新的對戰格鬥遊戲，非常期待",
+        "MessageEN": "One of my favorite game developers is creating a new fighting game, so I'm really looking forward to that."
+    },
+    {
+        "MessageId": 100180160,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100180170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユズと格ゲーって、なんだか意外な組み合わせだね",
+        "MessageKR": "뭔가 유즈와는 어울리지 않는 장르의 게임이네.",
+        "MessageTW": "柚子和格鬥遊戲，真是意料之外的組合",
+        "MessageEN": "I can't picture you playing that type of game, Yuzu."
+    },
+    {
+        "MessageId": 100180170,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100170177,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そ、そうでしょうか……？",
+        "MessageKR": "그런가요? 저는 잘 모르겠어요…….",
+        "MessageTW": "是，是嗎……？",
+        "MessageEN": "Really? I'm not sure about that..."
+    },
+    {
+        "MessageId": 100170177,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ユズの絆イベントへ",
+        "MessageKR": "유즈의 인연스토리로",
+        "MessageTW": "前往柚子的羈絆劇情",
+        "MessageEN": "Go to Yuzu's Event"
+    }
+]

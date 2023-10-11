@@ -1,1 +1,81 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20016.webp", "MessageJP": "イロハ", "MessageTW": "伊呂波", "MessageEN": "Iroha"}, {"MessageId": 200150010, "Flag": 2, "Type": 4, "NextId": 200160010, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200160010, "Flag": 2, "Type": 0, "NextId": 200160020, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生、今はシャーレにいるんですか？", "MessageTW": "老師，你現在在夏萊嗎？", "MessageEN": "Sensei, are you at Schale?"}, {"MessageId": 200160020, "Flag": 2, "Type": 3, "NextId": 200160030, "MessageType": "Text", "ImagePath": "", "MessageJP": "うん、そうだよ。どうしたの？", "MessageTW": "嗯，是呀。怎麼了？", "MessageEN": "Oh, Iroha. Hi. What's up?"}, {"MessageId": 200160030, "Flag": 2, "Type": 0, "NextId": 200160040, "MessageType": "Text", "ImagePath": "", "MessageJP": "そうですか", "MessageTW": "這樣啊", "MessageEN": "Okay, then."}, {"MessageId": 200160040, "Flag": 2, "Type": 3, "NextId": 200150040, "MessageType": "Text", "ImagePath": "", "MessageJP": "……イロハ？", "MessageTW": "……伊呂波？", "MessageEN": "...Iroha? What is it?"}, {"MessageId": 200150040, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "イロハの絆イベントへ", "MessageTW": "前往伊呂波的羈絆劇情", "MessageEN": "Go to Iroha's Event"}]
+[
+    {
+        "CharacterId": 20016,
+        "MessageJP": "イロハ",
+        "MessageKR": "이로하",
+        "MessageTW": "伊呂波",
+        "MessageEN": "Iroha"
+    },
+    {
+        "MessageId": 200150010,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200160010,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200160010,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160020,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生、今はシャーレにいるんですか？",
+        "MessageKR": "선생님, 샬레에 계신가요?",
+        "MessageTW": "老師，你現在在夏萊嗎？",
+        "MessageEN": "Sensei, are you at Schale?"
+    },
+    {
+        "MessageId": 200160020,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200160030,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん、そうだよ。どうしたの？",
+        "MessageKR": "아, 이로하. 일단은 그런데. 왜?",
+        "MessageTW": "嗯，是呀。怎麼了？",
+        "MessageEN": "Oh, Iroha. Hi. What's up?"
+    },
+    {
+        "MessageId": 200160030,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200160040,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そうですか",
+        "MessageKR": "그럼 됐습니다.",
+        "MessageTW": "這樣啊",
+        "MessageEN": "Okay, then."
+    },
+    {
+        "MessageId": 200160040,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200150047,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……イロハ？",
+        "MessageKR": "…이로하? 응?",
+        "MessageTW": "……伊呂波？",
+        "MessageEN": "...Iroha? What is it?"
+    },
+    {
+        "MessageId": 200150047,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "イロハの絆イベントへ",
+        "MessageKR": "이로하의 인연스토리로",
+        "MessageTW": "前往伊呂波的羈絆劇情",
+        "MessageEN": "Go to Iroha's Event"
+    }
+]

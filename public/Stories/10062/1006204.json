@@ -1,1 +1,141 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/10062.webp", "MessageJP": "トキ", "MessageTW": "季", "MessageEN": "Toki"}, {"MessageId": 100610160, "Flag": 2, "Type": 4, "NextId": 100620160, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 100620160, "Flag": 2, "Type": 0, "NextId": 100620170, "MessageType": "Text", "ImagePath": "", "MessageJP": "先生", "MessageTW": "老師", "MessageEN": "Sensei."}, {"MessageId": 100620170, "Flag": 1, "Type": 0, "NextId": 100620180, "MessageType": "Text", "ImagePath": "", "MessageJP": "今日は少し用事が長引いて、いつもより遅くなりそうです", "MessageTW": "今天稍微耽擱了一點時間，抵達時間可能會比平常晚一些", "MessageEN": "I'll be a little late today. I have some personal business to handle."}, {"MessageId": 100620180, "Flag": 1, "Type": 0, "NextId": 100620190, "MessageType": "Text", "ImagePath": "", "MessageJP": "お約束した時間通りに補佐できず、申し訳ありません", "MessageTW": "沒能在約好的進行輔佐，非常抱歉", "MessageEN": "I'm sorry that I won't be able to assist you on time."}, {"MessageId": 100620190, "Flag": 2, "Type": 3, "NextId": 100620200, "MessageType": "Text", "ImagePath": "", "MessageJP": "大丈夫だけど、トキが遅れるなんて珍しいね", "MessageTW": "沒關係，不過季會遲到還真少見呢", "MessageEN": "Oh, that's out-of-character for you. "}, {"MessageId": 100620200, "Flag": 2, "Type": 3, "NextId": 100620210, "MessageType": "Text", "ImagePath": "", "MessageJP": "何があったのか聞いてもいい？", "MessageTW": "我可以問發生了什麼事嗎？", "MessageEN": "Can I ask what's going on?"}, {"MessageId": 100620210, "Flag": 2, "Type": 0, "NextId": 100620211, "MessageType": "Text", "ImagePath": "", "MessageJP": "いえ", "MessageTW": "沒什麼", "MessageEN": "Hmm."}, {"MessageId": 100620211, "Flag": 2, "Type": 0, "NextId": 100620220, "MessageType": "Text", "ImagePath": "", "MessageJP": "大した用事ではありません", "MessageTW": "並不是什麼大不了的事", "MessageEN": "It's nothing important."}, {"MessageId": 100620220, "Flag": 1, "Type": 0, "NextId": 100620230, "MessageType": "Text", "ImagePath": "", "MessageJP": "あまり心配なさらないでください", "MessageTW": "請不必太過擔心", "MessageEN": "Please don't be concerned."}, {"MessageId": 100620230, "Flag": 1, "Type": 0, "NextId": 100610230, "MessageType": "Text", "ImagePath": "", "MessageJP": "では、また後ほどお会いしましょう", "MessageTW": "那麼，稍後再見", "MessageEN": "I'll see you later then."}, {"MessageId": 100610230, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "トキの絆イベントへ", "MessageTW": "前往季的羈絆劇情", "MessageEN": "Go to Toki's Event"}]
+[
+    {
+        "CharacterId": 10062,
+        "MessageJP": "トキ",
+        "MessageKR": "토키",
+        "MessageTW": "季",
+        "MessageEN": "Toki"
+    },
+    {
+        "MessageId": 100610160,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 100620160,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 100620160,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100620170,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님.",
+        "MessageTW": "老師",
+        "MessageEN": "Sensei."
+    },
+    {
+        "MessageId": 100620170,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100620180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "今日は少し用事が長引いて、いつもより遅くなりそうです",
+        "MessageKR": "오늘은 개인적인 일이 있어, 평소보다 조금 늦을 듯합니다.",
+        "MessageTW": "今天稍微耽擱了一點時間，抵達時間可能會比平常晚一些",
+        "MessageEN": "I'll be a little late today. I have some personal business to handle."
+    },
+    {
+        "MessageId": 100620180,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100620190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お約束した時間通りに補佐できず、申し訳ありません",
+        "MessageKR": "보좌 업무를 제 때 시행해야 하는데, 송구스럽습니다.",
+        "MessageTW": "沒能在約好的進行輔佐，非常抱歉",
+        "MessageEN": "I'm sorry that I won't be able to assist you on time."
+    },
+    {
+        "MessageId": 100620190,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100620200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大丈夫だけど、トキが遅れるなんて珍しいね",
+        "MessageKR": "어라, 그건 조금 놀라운 일이네. ",
+        "MessageTW": "沒關係，不過季會遲到還真少見呢",
+        "MessageEN": "Oh, that's out-of-character for you. "
+    },
+    {
+        "MessageId": 100620200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 100620210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "何があったのか聞いてもいい？",
+        "MessageKR": "무슨 일이라도 있는지, 물어봐도 돼?",
+        "MessageTW": "我可以問發生了什麼事嗎？",
+        "MessageEN": "Can I ask what's going on?"
+    },
+    {
+        "MessageId": 100620210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100620211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "いえ",
+        "MessageKR": "음.",
+        "MessageTW": "沒什麼",
+        "MessageEN": "Hmm."
+    },
+    {
+        "MessageId": 100620211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 100620220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大した用事ではありません",
+        "MessageKR": "대단한 일은 아닙니다.",
+        "MessageTW": "並不是什麼大不了的事",
+        "MessageEN": "It's nothing important."
+    },
+    {
+        "MessageId": 100620220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100620230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あまり心配なさらないでください",
+        "MessageKR": "너무 심려치 말아 주셨으면 합니다.",
+        "MessageTW": "請不必太過擔心",
+        "MessageEN": "Please don't be concerned."
+    },
+    {
+        "MessageId": 100620230,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 100610237,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "では、また後ほどお会いしましょう",
+        "MessageKR": "그러면 나중에 뵙겠습니다.",
+        "MessageTW": "那麼，稍後再見",
+        "MessageEN": "I'll see you later then."
+    },
+    {
+        "MessageId": 100610237,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "トキの絆イベントへ",
+        "MessageKR": "토키의 인연스토리로",
+        "MessageTW": "前往季的羈絆劇情",
+        "MessageEN": "Go to Toki's Event"
+    }
+]

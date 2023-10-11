@@ -1,1 +1,177 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/20006.webp", "MessageJP": "サヤ（私服）", "MessageTW": "沙耶(私服)", "MessageEN": "Saya (Casual)"}, {"MessageId": 200050190, "Flag": 2, "Type": 4, "NextId": 200060190, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 200060190, "Flag": 2, "Type": 0, "NextId": 200060200, "MessageType": "Text", "ImagePath": "", "MessageJP": "参ったのだ……", "MessageTW": "我受不了了……", "MessageEN": "Ugh... Uh, ugh..."}, {"MessageId": 200060200, "Flag": 2, "Type": 3, "NextId": 200060210, "MessageType": "Text", "ImagePath": "", "MessageJP": "どうしたの？", "MessageTW": "怎麼了？", "MessageEN": "Is something wrong?"}, {"MessageId": 200060210, "Flag": 2, "Type": 0, "NextId": 200060211, "MessageType": "Text", "ImagePath": "", "MessageJP": "この前開発した特製の激辛ソースが、思った以上に大人気で……", "MessageTW": "之前開發的特製超辣醬比想像中還要受歡迎……", "MessageEN": "The special spicy sauce I made last week is much more popular than I expected."}, {"MessageId": 200060211, "Flag": 2, "Type": 0, "NextId": 200060212, "MessageType": "Text", "ImagePath": "", "MessageJP": "そっちに時間を取られて、研究に手が回らないのだ", "MessageTW": "結果占用了我大量的時間，根本沒空進行研究", "MessageEN": "I'm at the point where I have no time for research because I'm always making sauce."}, {"MessageId": 200060212, "Flag": 2, "Type": 0, "NextId": 200060220, "MessageType": "Text", "ImagePath": "", "MessageJP": "全く……", "MessageTW": "受不了……", "MessageEN": "Do they even know what the Eastern Alchemy Society is?"}, {"MessageId": 200060220, "Flag": 1, "Type": 0, "NextId": 200060221, "MessageType": "Text", "ImagePath": "", "MessageJP": "錬丹術研究会はあくまで「不老不死の霊薬を作ること」を目的とした場所であって、ソースを作る場所じゃないのだ！", "MessageTW": "鍊丹術研究會的目的是「製作長生不老的靈藥」，不是製作醬料的地方！", "MessageEN": "We're supposed to make elixirs that grant eternal life and youth, not make special sauces!"}, {"MessageId": 200060221, "Flag": 2, "Type": 0, "NextId": 200060230, "MessageType": "Text", "ImagePath": "", "MessageJP": "もうネズ助の手も借りたいぐらい……", "MessageTW": "現在連根津助的手都想借來用了……", "MessageEN": "I'm so busy that I might need to ask Nezusuke for help..."}, {"MessageId": 200060230, "Flag": 1, "Type": 0, "NextId": 200060240, "MessageType": "Text", "ImagePath": "", "MessageJP": "良いことを思いついた！", "MessageTW": "我想到一個好主意！", "MessageEN": "Wait, if I use that method..."}, {"MessageId": 200060240, "Flag": 2, "Type": 3, "NextId": 200060250, "MessageType": "Text", "ImagePath": "", "MessageJP": "やめておこう", "MessageTW": "最好不要", "MessageEN": "No."}, {"MessageId": 200060250, "Flag": 2, "Type": 0, "NextId": 200060260, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぼく様まだ何も言ってないのに！？", "MessageTW": "我什麼都還沒說耶！？", "MessageEN": "Huh? I didn't even say anything yet."}, {"MessageId": 200060260, "Flag": 2, "Type": 3, "NextId": 200060270, "MessageType": "Text", "ImagePath": "", "MessageJP": "なんか嫌な予感がするし……", "MessageTW": "總有個不好的預感……", "MessageEN": "I don't know what you are about to say, but no."}, {"MessageId": 200060270, "Flag": 2, "Type": 0, "NextId": 200050270, "MessageType": "Text", "ImagePath": "", "MessageJP": "ぐっ、仕方ない……おとなしくソースを作るのだ……", "MessageTW": "呿，沒辦法……乖乖做醬料吧……", "MessageEN": "Tch. It's like you can read minds..."}, {"MessageId": 200050270, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "サヤ（私服）の絆イベントへ", "MessageTW": "前往沙耶(私服)的羈絆劇情", "MessageEN": "Go to Saya (Casual)'s Event"}]
+[
+    {
+        "CharacterId": 20006,
+        "MessageJP": "サヤ（私服）",
+        "MessageKR": "사야(사복)",
+        "MessageTW": "沙耶(私服)",
+        "MessageEN": "Saya (Casual)"
+    },
+    {
+        "MessageId": 200050190,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200060190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200060190,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "参ったのだ……",
+        "MessageKR": "으으, 으으으…….",
+        "MessageTW": "我受不了了……",
+        "MessageEN": "Ugh... Uh, ugh..."
+    },
+    {
+        "MessageId": 200060200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200060210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "どうしたの？",
+        "MessageKR": "무슨 문제라도 있어?",
+        "MessageTW": "怎麼了？",
+        "MessageEN": "Is something wrong?"
+    },
+    {
+        "MessageId": 200060210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "この前開発した特製の激辛ソースが、思った以上に大人気で……",
+        "MessageKR": "지난번에 개발한 특제 매운 소스가 생각 외로 큰 인기를 끄는 바람에……",
+        "MessageTW": "之前開發的特製超辣醬比想像中還要受歡迎……",
+        "MessageEN": "The special spicy sauce I made last week is much more popular than I expected."
+    },
+    {
+        "MessageId": 200060211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "そっちに時間を取られて、研究に手が回らないのだ",
+        "MessageKR": "특제 소스를 만드느라 연구할 시간이 부족해진 것이다……",
+        "MessageTW": "結果占用了我大量的時間，根本沒空進行研究",
+        "MessageEN": "I'm at the point where I have no time for research because I'm always making sauce."
+    },
+    {
+        "MessageId": 200060212,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060220,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "全く……",
+        "MessageKR": "정말이지, 다들 연단방을 무어라고 생각하는 것이냐?",
+        "MessageTW": "受不了……",
+        "MessageEN": "Do they even know what the Eastern Alchemy Society is?"
+    },
+    {
+        "MessageId": 200060220,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200060221,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "錬丹術研究会はあくまで「不老不死の霊薬を作ること」を目的とした場所であって、ソースを作る場所じゃないのだ！",
+        "MessageKR": "연단방은 불로불사의 영약을 만드는 곳이지, 소스를 만드는 곳이 아니라고!",
+        "MessageTW": "鍊丹術研究會的目的是「製作長生不老的靈藥」，不是製作醬料的地方！",
+        "MessageEN": "We're supposed to make elixirs that grant eternal life and youth, not make special sauces!"
+    },
+    {
+        "MessageId": 200060221,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060230,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もうネズ助の手も借りたいぐらい……",
+        "MessageKR": "너무 바쁘다 보니 최근에는 네즈스케의 손이라도 빌리고 싶어질 정도니……",
+        "MessageTW": "現在連根津助的手都想借來用了……",
+        "MessageEN": "I'm so busy that I might need to ask Nezusuke for help..."
+    },
+    {
+        "MessageId": 200060230,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200060240,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "良いことを思いついた！",
+        "MessageKR": "잠깐. 만약 그 방법을 사용하면…….",
+        "MessageTW": "我想到一個好主意！",
+        "MessageEN": "Wait, if I use that method..."
+    },
+    {
+        "MessageId": 200060240,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200060250,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "やめておこう",
+        "MessageKR": "안 돼.",
+        "MessageTW": "最好不要",
+        "MessageEN": "No."
+    },
+    {
+        "MessageId": 200060250,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200060260,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぼく様まだ何も言ってないのに！？",
+        "MessageKR": "응? 나님은 아직 아무 말도 하지 않았다만.",
+        "MessageTW": "我什麼都還沒說耶！？",
+        "MessageEN": "Huh? I didn't even say anything yet."
+    },
+    {
+        "MessageId": 200060260,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200060270,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "なんか嫌な予感がするし……",
+        "MessageKR": "무얼 하려는지는 모르겠지만 안 돼.",
+        "MessageTW": "總有個不好的預感……",
+        "MessageEN": "I don't know what you are about to say, but no."
+    },
+    {
+        "MessageId": 200060270,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200050277,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ぐっ、仕方ない……おとなしくソースを作るのだ……",
+        "MessageKR": "쳇, 눈치 하난 빠르긴…….",
+        "MessageTW": "呿，沒辦法……乖乖做醬料吧……",
+        "MessageEN": "Tch. It's like you can read minds..."
+    },
+    {
+        "MessageId": 200050277,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "サヤ（私服）の絆イベントへ",
+        "MessageKR": "사야(사복)의 인연스토리로",
+        "MessageTW": "前往沙耶(私服)的羈絆劇情",
+        "MessageEN": "Go to Saya (Casual)'s Event"
+    }
+]

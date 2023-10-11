@@ -1,0 +1,129 @@
+[
+    {
+        "CharacterId": 20027,
+        "MessageJP": "シロコ（水着）",
+        "MessageKR": "시로코(수영복)",
+        "MessageTW": "白子(泳裝)",
+        "MessageEN": "Shiroko (Swimsuit)"
+    },
+    {
+        "MessageId": 200260180,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200270180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200270180,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200270190,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "先生",
+        "MessageKR": "선생님",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270190,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200270191,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "起きてる？",
+        "MessageKR": "자?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270191,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200270200,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もう寝ちゃったかな",
+        "MessageKR": "자는 건가",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200270210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "こんな時間にどうしたの？",
+        "MessageKR": "이 이른 새벽에 모모톡이?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270200,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200270210,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シロコ……？",
+        "MessageKR": "시로코는? 설마 밤을 새운 거야?",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270210,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200270211,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "あ……",
+        "MessageKR": "아",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270211,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200270212,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん",
+        "MessageKR": "응 조금",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200270212,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200260217,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "ちょっと、眠れなくて",
+        "MessageKR": "잠이 안 와서",
+        "MessageTW": "",
+        "MessageEN": ""
+    },
+    {
+        "MessageId": 200260217,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "シロコ（水着）の絆イベントへ",
+        "MessageKR": "시로코(수영복)의 인연스토리로",
+        "MessageTW": "前往白子(泳裝)的羈絆劇情",
+        "MessageEN": "Go to Shiroko (Swimsuit)'s Event"
+    }
+]

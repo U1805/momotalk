@@ -1,1 +1,117 @@
-[{"ImagePath": "https://schale.gg/images/student/collection/13002.webp", "MessageJP": "アカリ", "MessageTW": "亞伽里", "MessageEN": "Akari"}, {"MessageId": 130010160, "Flag": 2, "Type": 4, "NextId": 130020164, "MessageType": "Text", "ImagePath": "", "MessageJP": "既読", "MessageTW": "已讀", "MessageEN": "Message read"}, {"MessageId": 130020164, "Flag": 2, "Type": 0, "NextId": 130020171, "MessageType": "Text", "ImagePath": "", "MessageJP": "次の大食い大会の種目は、「カレー」に決まったそうです", "MessageTW": "聽說下次的大胃王大賽項目是「咖哩」", "MessageEN": "It looks like the challenge for the next eating contest is to eat a lot of curry."}, {"MessageId": 130020171, "Flag": 1, "Type": 0, "NextId": 130020180, "MessageType": "Text", "ImagePath": "", "MessageJP": "カレー……ちょっと自信がないので、前もって特訓しておかないとです", "MessageTW": "咖哩……有點沒自信呢，需要提前特訓", "MessageEN": "I'm not so confident about curry... I should practice."}, {"MessageId": 130020180, "Flag": 2, "Type": 3, "NextId": 130020195, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカリにも苦手な食べ物があるんだ？", "MessageTW": "亞伽里也有不喜歡的食物嗎？", "MessageEN": "What, there's food you don't like?"}, {"MessageId": 130020195, "Flag": 2, "Type": 0, "NextId": 130020202, "MessageType": "Text", "ImagePath": "", "MessageJP": "食べられはするのですが、大食いにはちょっと……というものはあります", "MessageTW": "是能吃，但吃大量的話……有些東西沒辦法", "MessageEN": "It's not that I can't eat it, but there are certain foods that I can't eat a ton of."}, {"MessageId": 130020202, "Flag": 1, "Type": 0, "NextId": 130020209, "MessageType": "Text", "ImagePath": "", "MessageJP": "例えばカレーですと、途中に何度もお水を飲んでしまうので……", "MessageTW": "比如咖哩的話，中途會喝好幾次水……", "MessageEN": "For example, I drink a lot of water when I eat spicy foods like curry, so I get full really quickly."}, {"MessageId": 130020209, "Flag": 2, "Type": 0, "NextId": 130020216, "MessageType": "Text", "ImagePath": "", "MessageJP": "逆にお寿司なんかは、私が好きなこともあって他の倍くらい食べられます", "MessageTW": "相反地，壽司之類的，因為有我喜歡的東西，所以能吃到其他的兩倍左右", "MessageEN": "But I can eat twice as much of foods I prefer, like sushi."}, {"MessageId": 130020216, "Flag": 1, "Type": 0, "NextId": 130010210, "MessageType": "Text", "ImagePath": "", "MessageJP": "大食いだからといって、好き嫌いがないわけではないんですよ", "MessageTW": "雖然食量很大，但也不是沒有喜好的", "MessageEN": "Gourmands have preferences too!"}, {"MessageId": 130010210, "Flag": 2, "Type": 2, "NextId": -1, "MessageType": "Text", "ImagePath": "", "MessageJP": "アカリの絆イベントへ", "MessageTW": "前往亞伽里的羈絆劇情", "MessageEN": "Go to Akari's Event"}]
+[
+    {
+        "CharacterId": 13002,
+        "MessageJP": "アカリ",
+        "MessageKR": "아카리",
+        "MessageTW": "亞伽里",
+        "MessageEN": "Akari"
+    },
+    {
+        "MessageId": 130010160,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 130020164,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 130020164,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020171,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "次の大食い大会の種目は、「カレー」に決まったそうです",
+        "MessageKR": "다음 대식 대회의 대결 종목은 <카레 많이 먹기>로 정해진 모양이에요.",
+        "MessageTW": "聽說下次的大胃王大賽項目是「咖哩」",
+        "MessageEN": "It looks like the challenge for the next eating contest is to eat a lot of curry."
+    },
+    {
+        "MessageId": 130020171,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130020180,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カレー……ちょっと自信がないので、前もって特訓しておかないとです",
+        "MessageKR": "카레는 조금 자신 없는데…… 미리 연습을 해두어야겠어요.",
+        "MessageTW": "咖哩……有點沒自信呢，需要提前特訓",
+        "MessageEN": "I'm not so confident about curry... I should practice."
+    },
+    {
+        "MessageId": 130020180,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 130020195,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカリにも苦手な食べ物があるんだ？",
+        "MessageKR": "아카리도 가리는 음식이 있어?",
+        "MessageTW": "亞伽里也有不喜歡的食物嗎？",
+        "MessageEN": "What, there's food you don't like?"
+    },
+    {
+        "MessageId": 130020195,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020202,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "食べられはするのですが、大食いにはちょっと……というものはあります",
+        "MessageKR": "못 먹는 건 아니지만 많이 먹기 힘든 음식은 있어요.",
+        "MessageTW": "是能吃，但吃大量的話……有些東西沒辦法",
+        "MessageEN": "It's not that I can't eat it, but there are certain foods that I can't eat a ton of."
+    },
+    {
+        "MessageId": 130020202,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130020209,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "例えばカレーですと、途中に何度もお水を飲んでしまうので……",
+        "MessageKR": "예를 들자면 아까 말했던 카레처럼 매운 음식은 자꾸 물을 마시게 되어서 배가 빨리 차거든요.",
+        "MessageTW": "比如咖哩的話，中途會喝好幾次水……",
+        "MessageEN": "For example, I drink a lot of water when I eat spicy foods like curry, so I get full really quickly."
+    },
+    {
+        "MessageId": 130020209,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 130020216,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "逆にお寿司なんかは、私が好きなこともあって他の倍くらい食べられます",
+        "MessageKR": "대신 초밥처럼 개인적으로 좋아하는 음식은 다른 음식보다 두 배는 더 먹을 수 있어요.",
+        "MessageTW": "相反地，壽司之類的，因為有我喜歡的東西，所以能吃到其他的兩倍左右",
+        "MessageEN": "But I can eat twice as much of foods I prefer, like sushi."
+    },
+    {
+        "MessageId": 130020216,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 130010217,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "大食いだからといって、好き嫌いがないわけではないんですよ",
+        "MessageKR": "대식가라고 해서 기호가 없는 건 아니랍니다!",
+        "MessageTW": "雖然食量很大，但也不是沒有喜好的",
+        "MessageEN": "Gourmands have preferences too!"
+    },
+    {
+        "MessageId": 130010217,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "アカリの絆イベントへ",
+        "MessageKR": "아카리의 인연스토리로",
+        "MessageTW": "前往亞伽里的羈絆劇情",
+        "MessageEN": "Go to Akari's Event"
+    }
+]
