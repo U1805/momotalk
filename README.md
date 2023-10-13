@@ -20,11 +20,11 @@
 
 - **Searchable**: search students by names, romajis, and even nicknames. 🔍️
 - **Custom role**: chat as Students, Sensei, and Custom roles. 🎅
-- **Story Event**: send Images/Stickers/Story Event during the chat. ❤️
+- **Diverse Event**: send Images/Stickers/Reply Box/Story Event during the chat. ❤️
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 - **Fast restart**: your conversation won't be lost the next time you open browser. 📌
-- **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, and English. 🌐
+- **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, Korean, and English. 🌐
 
 [Try it!](https://u1805.github.io/momotalk)
 
@@ -38,12 +38,16 @@
     <li>Student (More Appearance)</li>
     <li>Custom Character</li>
     <li>Sensei</li>
-    <li>Choices</li>
+    <li>Reply Box</li>
     <li>Story Box</li>
     <li>Message Box</li>
     <li>Sticker</li>
     <li>Photo</li>
     </ul>
+</details>
+<details><summary>Story Event player</summary>
+    To some extent, this application also has the capability of a player, so you can also use it as a story player.
+    <img src="./assets/演示3.webp">
 </details>
 
 ## How to use

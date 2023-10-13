@@ -21,7 +21,7 @@ Click on the **school icons**: Filter students by school. **Search bar** at the 
 Clicking the button on the right side of the search bar allows you to toggle between the "Implemented Characters" and "Unimplemented Characters" lists
 
 <p align="center">
-<img src="./assets/switchlsit.webp" alt="switch_list" style="width:50%">
+<img src="./public/img/switchlsit.webp" alt="switch_list" style="width:50%">
 </p>
 
 🔄 头像标着 `+` 的学生：点击头像切换 **差分** 
@@ -29,7 +29,7 @@ Clicking the button on the right side of the search bar allows you to toggle bet
 Students with a \`+\` on their avatars: Click on the avatar to switch **appearances**.
 
 <p align="center">
-<img src="./assets/appearence.webp" alt="appearence" style="width:50%">
+<img src="./public/img/appearence.webp" alt="appearence" style="width:50%">
 </p>
 
 
@@ -50,7 +50,7 @@ In the editing interface, there are the "Message Bar" and the "Candidate List" a
 The first four items in the candidate list are "**Sensei**", "**Story Event**", "**Reply Box**", and "**System Message**". The last button is for **adding custom characters**.
 
 <p align="center">
-<img src="./assets/sendbar.webp" alt="sendbar" style="width:50%">
+<img src="./public/img/sendbar.webp" alt="sendbar" style="width:50%">
 </p>
 
 ### 🌄 发送消息 · Send Messages
@@ -62,7 +62,7 @@ The first four items in the candidate list are "**Sensei**", "**Story Event**", 
 After selecting a role, you can **send messages or images** in the message bar (size limit is 1MB). If the current role is a teacher or student, clicking on the avatar in the message bar allows you to send in-game chatroom **stickers**
 
 <p align="center">
-<img src="./assets/stickers.webp" alt="stickers" style="width:50%">
+<img src="./public/img/stickers.webp" alt="stickers" style="width:50%">
 </p>
 
 
@@ -87,7 +87,7 @@ Following the **WYSIWYG** (What you see is what you get) design philosophy, elem
 - **Shortcut key**: undo `Ctrl+Z` and redo `Ctrl+Shift+Z`
 
 <p align="center">
-<img src="./assets/edit.webp" alt="edit" style="width:50%">
+<img src="./public/img/edit.webp" alt="edit" style="width:50%">
 </p>
 
 ### 📜 中断消息流 ·  Interrupt the Message Flow
@@ -97,7 +97,7 @@ Following the **WYSIWYG** (What you see is what you get) design philosophy, elem
 Normally, messages from a single student are continuous. If you wish to interrupt the message flow, you can try clicking below the "avatar" in the student's message.
 
 <div align="center">
-<img src="./assets/splitmessage.webp" alt="split" style="width:50%">
+<img src="./public/img/splitmessage.webp" alt="split" style="width:50%">
 
 <p>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
 </div>
