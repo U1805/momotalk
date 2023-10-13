@@ -13,6 +13,9 @@ const waitClick = (elements: NodeList) => {
                 element.removeEventListener('click', handleClick)
             })
             resolve((event.target as HTMLDivElement).innerText)
+            // Disable virtual keyboard pop-up
+            const activeEle = document.activeElement as HTMLDivElement
+            activeEle.blur()
         }
         elements.forEach((element) => element.addEventListener('click', handleClick))
     })
