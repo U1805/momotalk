@@ -8,7 +8,8 @@
             "zh": "什么都能解决哦！",
             "jp": "なんでも解決するわよ！",
             "tw": "什麼都能解決哦！",
-            "en": "I'll solve any problem!"
+            "en": "I'll solve any problem!",
+            "kr": "무엇이든 해결해 드립니다"
         },
         "Nickname": ["啊露", "社长", "亚瑠", "阿鲁", "啊鲁", "爱露", "亚琉"]
     },
@@ -21,7 +22,8 @@
             "zh": "在此输入状态信息",
             "jp": "ここにステータスメッセージを入力",
             "tw": "在此輸入狀態訊息",
-            "en": "Enter status message here"
+            "en": "Enter status message here",
+            "kr": "이곳에 상태 메시지를 입력"
         },
         "Nickname": ["英美", "拉链", "大奶奶", "咏美"]
     },
@@ -34,7 +36,8 @@
             "zh": "EAT OR DIE",
             "jp": "EAT OR DIE",
             "tw": "EAT OR DIE",
-            "en": "EAT OR DIE"
+            "en": "EAT OR DIE",
+            "kr": "EAT OR DIE"
         },
         "Nickname": ["羽留奈", "神秘狙", "春奈", "羽榴奈", "美食狙"]
     },
@@ -48,7 +51,8 @@
             "zh": "有人要一起去佩洛洛庆典吗？",
             "jp": "ペロロフェスに一緒に行ってくれる人いますか？",
             "tw": "有人要一起去佩洛洛慶典嗎？",
-            "en": "Who wants to go to the Peroro Festival with me?"
+            "en": "Who wants to go to the Peroro Festival with me?",
+            "kr": "페로로 페스티벌 같이 가실 분?"
         },
         "Nickname": ["一二三", "123", "鸡妹", "浮士德", "日步美", "啊哈哈"]
     },
@@ -58,7 +62,13 @@
             "https://static.wikia.nocookie.net/blue-archive/images/a/a0/Hina_Icon.png",
             "https://static.wikia.nocookie.net/blue-archive/images/9/9e/Hina_Pajamas_Icon.png"
         ],
-        "Bio": { "zh": "", "jp": "", "tw": "", "en": "" },
+        "Bio": {
+            "zh": "",
+            "jp": "",
+            "tw": "",
+            "en": "",
+            "kr": ""
+        },
         "Nickname": ["阳奈", "魔王", "雏", "老婆"]
     },
     {
@@ -71,7 +81,8 @@
             "zh": "午睡中 别吵醒我",
             "jp": "昼寝中 起こさないで",
             "tw": "午睡中 別吵醒我",
-            "en": "Napping - do not disturb"
+            "en": "Napping - do not disturb",
+            "kr": "낮잠 중 방해금지"
         },
         "Nickname": ["大叔", "粉毛"]
     },
@@ -84,7 +95,8 @@
             "zh": "看到可疑的人请立刻联络",
             "jp": "怪しい人を見たらすぐに連絡",
             "tw": "看到可疑的人請立刻聯絡",
-            "en": "Report suspicious acts"
+            "en": "Report suspicious acts",
+            "kr": "수상한 사람을 보면 즉시 신고"
         },
         "Nickname": ["佐仓", "佐三枪"]
     },
@@ -97,7 +109,8 @@
             "zh": "最爱街头涂鸦！",
             "jp": "グラフィティ大好き！",
             "tw": "最愛街頭塗鴉！",
-            "en": "I love graffiti!"
+            "en": "I love graffiti!",
+            "kr": "그래피티, 너무 좋아!"
         },
         "Nickname": ["彩蛋", "涂鸦", "真姬"]
     },
@@ -110,7 +123,8 @@
             "zh": "啊啊！？",
             "jp": "あぁん！？",
             "tw": "啊啊！？",
-            "en": "You lookin' for a fight?!"
+            "en": "You lookin' for a fight?!",
+            "kr": "아앙? 장난 하냐?!"
         },
         "Nickname": ["宁瑠", "妮露", "不良"]
     },
@@ -125,7 +139,8 @@
             "zh": "肚子饿了~",
             "jp": "お腹へったぁあ～",
             "tw": "肚子餓了～",
-            "en": "I'm hungry!"
+            "en": "I'm hungry!",
+            "kr": "배고파아아~"
         },
         "Nickname": ["老八", "汉堡妹"]
     },
@@ -139,7 +154,8 @@
             "zh": "自行车伙伴招募中……(1/5)",
             "jp": "ライディング仲間募集中……（まだ１/５）",
             "tw": "自行車夥伴招募中……(1/5)",
-            "en": "Recruiting a cycling party... (1/5)"
+            "en": "Recruiting a cycling party... (1/5)",
+            "kr": "싸이클링 파티 모집 중… (1/5)"
         },
         "Nickname": ["xcw", "小仓唯"]
     },
@@ -152,7 +168,8 @@
             "zh": "和天使们一起",
             "jp": "天使たちと一緒に",
             "tw": "和天使們一起",
-            "en": "With my little angels"
+            "en": "With my little angels",
+            "kr": "천사들과 함께하는 삶"
         },
         "Nickname": ["旬", "梅花狙", "教官", "舜"]
     },
@@ -165,7 +182,8 @@
             "zh": "健全的精神寓于健康的身体",
             "jp": "健康な身体は健全な精神が宿る",
             "tw": "健全的精神寓於健康的身體",
-            "en": "Healthy body healthy mind"
+            "en": "Healthy body healthy mind",
+            "kr": "건강한 신체에 건전한 정신"
         },
         "Nickname": ["运动部长", "运动妹"]
     },
@@ -174,7 +192,13 @@
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/f/fb/Tsurugi_Icon.png"
         ],
-        "Bio": { "zh": "……", "jp": "……", "tw": "……", "en": "..." },
+        "Bio": {
+            "zh": "……",
+            "jp": "……",
+            "tw": "……",
+            "en": "...",
+            "kr": "…"
+        },
         "Nickname": ["弦生", "颜艺"]
     },
     {
@@ -186,7 +210,8 @@
             "zh": "一杯热红茶的余裕",
             "jp": "温かい紅茶一杯分の余裕を",
             "tw": "一杯熱紅茶的餘裕",
-            "en": "Enjoying some hot tea."
+            "en": "Enjoying some hot tea.",
+            "kr": "따뜻한 홍차 한 잔의 여유"
         },
         "Nickname": ["破甲女仆", "朱音"]
     },
@@ -199,7 +224,8 @@
             "zh": "找到云的话告诉我",
             "jp": "雲を見つけたら教えて",
             "tw": "找到雲的話告訴我",
-            "en": "Looking at the clouds."
+            "en": "Looking at the clouds.",
+            "kr": "구름, 찾으면 말해줘."
         },
         "Nickname": ["巫女", "千世", "知世"]
     },
@@ -214,7 +240,8 @@
             "zh": "请推荐自助餐厅",
             "jp": "おすすめの食べ放題を教えてください",
             "tw": "請推薦吃到飽餐廳",
-            "en": "Looking 4 buffet recs"
+            "en": "Looking 4 buffet recs",
+            "kr": "무한리필 맛집 추천 받아요"
         },
         "Nickname": ["牛牛", "吃货", "WTM", "朱里", "亚伽里"]
     },
@@ -227,7 +254,8 @@
             "zh": "减肥中……",
             "jp": "ダイエット中……",
             "tw": "減肥中……",
-            "en": "On a diet..."
+            "en": "On a diet...",
+            "kr": "다이어트 중......"
         },
         "Nickname": ["莲实"]
     },
@@ -241,7 +269,8 @@
             "zh": "希望会是快乐的一天",
             "jp": "楽しい一日になりますように",
             "tw": "希望會是快樂的一天",
-            "en": "Have a great day!"
+            "en": "Have a great day!",
+            "kr": "즐거운 하루 되세요!"
         },
         "Nickname": ["野乃美", "富婆", "机枪妹", "nnm"]
     },
@@ -255,7 +284,8 @@
             "zh": "不常用MomoTalk",
             "jp": "モモトークはあんまり使わない",
             "tw": "不常用MomoTalk",
-            "en": "Not on here much..."
+            "en": "Not on here much...",
+            "kr": "모모톡 잘 안 씁니다"
         },
         "Nickname": ["佳世子", "恐惧姐"]
     },
@@ -268,7 +298,8 @@
             "zh": "没有什么有趣的事吗~",
             "jp": "何か面白いことないかな～",
             "tw": "沒有什麼有趣的事嗎～",
-            "en": "I'm bored!"
+            "en": "I'm bored!",
+            "kr": "심심해~"
         },
         "Nickname": ["地雷妹", "大头", "小恶魔", "无月"]
     },
@@ -281,7 +312,8 @@
             "zh": "谢绝骚扰 (╬⊙益⊙)",
             "jp": "スパムお断り(╬☉益☉)",
             "tw": "謝絕騷擾(╬☉益☉)",
-            "en": "Don't spam me >:("
+            "en": "Don't spam me >:(",
+            "kr": "스팸 사절 (╬☉益☉)"
         },
         "Nickname": ["丸子", "小火龙"]
     },
@@ -298,7 +330,8 @@
             "zh": "对策委员会黑见芹香",
             "jp": "対策委員会、黒見セリカです",
             "tw": "對策委員會黒見茜香",
-            "en": "Serika of the task force"
+            "en": "Serika of the task force",
+            "kr": "대책위원회 쿠로미 세리카입니다"
         },
         "Nickname": ["茜香", "黑猫", "猫猫"]
     },
@@ -307,7 +340,13 @@
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/1/1b/Tsubaki_Icon.png"
         ],
-        "Bio": { "zh": "好困……", "jp": "眠い……", "tw": "好睏……", "en": "So sleepy..." },
+        "Bio": {
+            "zh": "好困……",
+            "jp": "眠い……",
+            "tw": "好睏……",
+            "en": "So sleepy...",
+            "kr": "졸려……"
+        },
         "Nickname": ["狗盾", "神秘T", "神秘坦"]
     },
     {
@@ -320,7 +359,8 @@
             "zh": "如我所算",
             "jp": "計算通り",
             "tw": "如我所算",
-            "en": "Just as I calculated..."
+            "en": "Just as I calculated...",
+            "kr": "계산대로야"
         },
         "Nickname": [
             "邮箱",
@@ -342,7 +382,8 @@
             "zh": "请多多指教",
             "jp": "よろしくお願いいたします",
             "tw": "請多多指教",
-            "en": "A pleasure to meet you."
+            "en": "A pleasure to meet you.",
+            "kr": "잘 부탁드립니다"
         },
         "Nickname": ["春香", "德棍"]
     },
@@ -356,7 +397,8 @@
             "zh": "为主人提供最好的服务！",
             "jp": "最高の奉仕をご主人様に！",
             "tw": "為主人提供最好的服務！",
-            "en": "Only the best service!"
+            "en": "Only the best service!",
+            "kr": "최고의 봉사를 당신에게!"
         },
         "Nickname": ["亚丝娜"]
     },
@@ -369,7 +411,8 @@
             "zh": "赞叹微波吧！",
             "jp": "マイクロ波を讃えましょう！",
             "tw": "讚嘆微波吧！",
-            "en": "Praise high frequency!"
+            "en": "Praise high frequency!",
+            "kr": "초고주파를 찬양하라!"
         },
         "Nickname": ["亚都梨", "小鸟", "琴里"]
     },
@@ -382,7 +425,8 @@
             "zh": "希望今天也是平安的一天",
             "jp": "今日も平穏な一日を",
             "tw": "希望今天也是平安的一天",
-            "en": "Peace be with you today."
+            "en": "Peace be with you today.",
+            "kr": "오늘도 평안한 하루를"
         },
         "Nickname": ["闪光弹"]
     },
@@ -395,7 +439,8 @@
             "zh": "CHUCIJIANMIAN！",
             "jp": "ハジメマシテ！",
             "tw": "HAJIMEMASITE！",
-            "en": "HAJIMEMASHITE!"
+            "en": "HAJIMEMASHITE!",
+            "kr": "HAJIMEMASITE!"
         },
         "Nickname": ["歌舞伎", "不死鸟"]
     },
@@ -408,7 +453,8 @@
             "zh": "虚争空言，不如思而试之",
             "jp": "言葉より行動で",
             "tw": "坐而言不如起而行",
-            "en": "Actions. Not words."
+            "en": "Actions. Not words.",
+            "kr": "말보다는 행동으로"
         },
         "Nickname": ["迫击炮"]
     },
@@ -422,7 +468,8 @@
             "zh": "绝不让目标逃跑",
             "jp": "ターゲットは逃がさない",
             "tw": "絕不讓目標逃跑",
-            "en": "Can't miss."
+            "en": "Can't miss.",
+            "kr": "타겟은 놓치지 않아"
         },
         "Nickname": ["黑皮女仆", "花梨"]
     },
@@ -435,7 +482,8 @@
             "zh": "赞扬我吧！",
             "jp": "ぼく様を讃えよ！",
             "tw": "讚揚我吧！",
-            "en": "I'm a genius!"
+            "en": "I'm a genius!",
+            "kr": "나님을 찬양하라!"
         },
         "Nickname": ["沙耶", "老鼠", "鼠鼠"]
     },
@@ -448,7 +496,8 @@
             "zh": "薄荷巧克力最棒了！",
             "jp": "チョコミントは最高！",
             "tw": "薄荷巧克力最棒了！",
-            "en": "Mint chip is the best!"
+            "en": "Mint chip is the best!",
+            "kr": "민트초코는 정말 최고야!"
         },
         "Nickname": ["冰淇淋", "冰激凌"]
     },
@@ -461,7 +510,8 @@
             "zh": "希望至少能过平静的一天(T_T)",
             "jp": "一日くらい平穏な日が欲しいです(T_T)",
             "tw": "希望至少能過平靜的一天 (T_T)",
-            "en": "Let today be okay (T_T)"
+            "en": "Let today be okay (T_T)",
+            "kr": "한 번만이라도 평안한 하루를 (T_T)"
         },
         "Nickname": ["风华", "煮饭婆", "料理妹", "风香"]
     },
@@ -475,7 +525,8 @@
             "zh": "发生什么事的话，不管是谁都请到救护骑士团来！",
             "jp": "何かあったら、どなたでも救護騎士団へ！",
             "tw": "發生什麼事的話，不管是誰都請到救護騎士團來！",
-            "en": "The Remedial Knights accept all!"
+            "en": "The Remedial Knights accept all!",
+            "kr": "구호기사단은 모두에게 열려있어요!"
         },
         "Nickname": ["大护士", "花绘"]
     },
@@ -488,7 +539,8 @@
             "zh": "有急事请私信",
             "jp": "急な用件はDMで",
             "tw": "有急事請DM",
-            "en": "DM me if it's important."
+            "en": "DM me if it's important.",
+            "kr": "급한 용건은 DM으로"
         },
         "Nickname": ["小勾八", "EMP"]
     },
@@ -501,7 +553,8 @@
             "zh": "随时接受改造、维修的委托",
             "jp": "改造・修理の依頼ならいつでも",
             "tw": "隨時接受改造、維修的委託",
-            "en": "Mod/repair commishes OPEN"
+            "en": "Mod/repair commishes OPEN",
+            "kr": "개조, 수리 의뢰 받고 있습니다"
         },
         "Nickname": ["炮台", "咏叶"]
     },
@@ -516,7 +569,8 @@
             "zh": "珍惜常识的对策委员会",
             "jp": "常識を大切にする対策委員会です",
             "tw": "珍惜常識的對策委員會",
-            "en": "FTF is all 4 common sense"
+            "en": "FTF is all 4 common sense",
+            "kr": "상식이 존중받는 동아리, 대책위원회입니다"
         },
         "Nickname": ["眼镜娘"]
     },
@@ -529,7 +583,8 @@
             "zh": "丧失的前方",
             "jp": "喪失の先に",
             "tw": "喪失的前方",
-            "en": "Aufheben of Loss"
+            "en": "Aufheben of Loss",
+            "kr": "상실의 아우프헤벤"
         },
         "Nickname": ["红裤袜"]
     },
@@ -542,7 +597,8 @@
             "zh": "我一直守望着你",
             "jp": "あなたを見守っています",
             "tw": "我一直守望著你",
-            "en": "I'm watching you..."
+            "en": "I'm watching you...",
+            "kr": "당신을 지켜보고 있습니다"
         },
         "Nickname": ["窃听器"]
     },
@@ -555,7 +611,8 @@
             "zh": "今天也要全力以赴进行料理的练习！",
             "jp": "今日も一生懸命、料理の練習！",
             "tw": "今天也要全力以赴進行料理的練習！",
-            "en": "Practice makes perfect!"
+            "en": "Practice makes perfect!",
+            "kr": "오늘도 열심히 요리연습!"
         },
         "Nickname": ["朱莉"]
     },
@@ -569,7 +626,8 @@
             "zh": "身体不舒服的人请随时联系我",
             "jp": "体調が悪い方はいつでもご連絡を",
             "tw": "身體不舒服的人請隨時聯絡我",
-            "en": "I'll help you get healthy"
+            "en": "I'll help you get healthy",
+            "kr": "몸이 아프면 언제든 연락주세요"
         },
         "Nickname": ["小护士", "没裤裆", "芹奈", "瀬里奈"]
     },
@@ -582,7 +640,8 @@
             "zh": "请在借阅期间内还书",
             "jp": "本は期限内に返却してください",
             "tw": "請在借閱期間內還書",
-            "en": "Return by due date pls"
+            "en": "Return by due date pls",
+            "kr": "책은 대출기간 내에 반납해주세요"
         },
         "Nickname": ["眼镜娘"]
     },
@@ -595,7 +654,8 @@
             "zh": "#还在成长期",
             "jp": "#まだ成長期",
             "tw": "#還在成長期",
-            "en": "#growing"
+            "en": "#growing",
+            "kr": "#성장중"
         },
         "Nickname": ["喜美", "长身体"]
     },
@@ -608,7 +668,8 @@
             "zh": "聚沙成塔",
             "jp": "塵も積もれば山となる",
             "tw": "聚沙成塔",
-            "en": "Everything counts"
+            "en": "Everything counts",
+            "kr": "티끌도 모으면 산이 된다"
         },
         "Nickname": ["麻白"]
     },
@@ -621,7 +682,8 @@
             "zh": "泉奈会加油的！忍忍！",
             "jp": "イズナ、頑張ります！ ニンニン！",
             "tw": "伊樹菜會加油的！忍忍！",
-            "en": "Training hard! Nin nin!"
+            "en": "Training hard! Nin nin!",
+            "kr": "이즈나, 힘낼게요! 닌닌!"
         },
         "Nickname": ["小狐狸", "忍忍", "伊树菜"]
     },
@@ -634,7 +696,8 @@
             "zh": "百夜堂，今天也绝赞营业中！",
             "jp": "百夜堂、今日も元気に営業中！",
             "tw": "百夜堂，今天也絕讚營業中！",
-            "en": "Momoyodou is now open!"
+            "en": "Momoyodou is now open!",
+            "kr": "백야당 절찬 영업중!"
         },
         "Nickname": ["餐车"]
     },
@@ -648,7 +711,8 @@
             "zh": "千年游戏开发部的爱丽丝",
             "jp": "ミレニアムのゲーム開発部、アリスです",
             "tw": "千年遊戲開發部的愛麗絲",
-            "en": "Aris: Game Dev Dep."
+            "en": "Aris: Game Dev Dep.",
+            "kr": "밀레니엄 게임개발부 아리스입니다"
         },
         "Nickname": ["爱丽斯", "Alice", "Arisu", "Aris"]
     },
@@ -663,7 +727,8 @@
             "zh": "请向我推荐游戏",
             "jp": "おすすめのゲーム教えてください",
             "tw": "請告訴我推薦的遊戲",
-            "en": "Recommend me fun games!"
+            "en": "Recommend me fun games!",
+            "kr": "재미있는 게임 추천 받아요"
         },
         "Nickname": ["小绿", "翠"]
     },
@@ -678,7 +743,8 @@
             "zh": "致力于游戏！",
             "jp": "ゲーム一筋！",
             "tw": "致力於遊戲！",
-            "en": "gamer 4 life"
+            "en": "gamer 4 life",
+            "kr": "게임 외길 인생"
         },
         "Nickname": ["小桃"]
     },
@@ -691,7 +757,8 @@
             "zh": "看看我的胡子吧！！",
             "jp": "このヒゲを見よ！！",
             "tw": "看看我的鬍子吧！！",
-            "en": "Mustache, it's a mustache!"
+            "en": "Mustache, it's a mustache!",
+            "kr": "수염! 수염!! 수염인 것이다!!"
         },
         "Nickname": ["洁利诺", "洁莉诺", "斯大萝", "胡子", "斯大罗"]
     },
@@ -704,7 +771,8 @@
             "zh": "一起去看星星吧！★彡",
             "jp": "一緒に星を見に行きましょう！★彡",
             "tw": "一起去看星星吧！★彡",
-            "en": "Let's stargaze! ★"
+            "en": "Let's stargaze! ★",
+            "kr": "같이 별 보러 가요! ——★"
         },
         "Nickname": ["望远镜", "偷窥狂"]
     },
@@ -717,7 +785,8 @@
             "zh": "404 Not Found",
             "jp": "404 Not Found",
             "tw": "404 Not Found",
-            "en": "404 NOT FOUND"
+            "en": "404 NOT FOUND",
+            "kr": "404 NOT FOUND"
         },
         "Nickname": ["社恐", "柜子"]
     },
@@ -731,7 +800,8 @@
             "zh": "et omnia vanitas",
             "jp": "et omnia vanitas",
             "tw": "et omnia vanitas",
-            "en": "et omnia vanitas"
+            "en": "et omnia vanitas",
+            "kr": "et omnia vanitas"
         },
         "Nickname": ["小梓"]
     },
@@ -745,7 +815,8 @@
             "zh": "喜欢形形「色色」的类型♪",
             "jp": "「色々」と嗜むタイプです♪",
             "tw": "喜歡形形「色色」的類型♪",
-            "en": "I'm down for pm anything"
+            "en": "I'm down for pm anything",
+            "kr": "저는 그런 것도 좋아하는걸요?"
         },
         "Nickname": ["老司机"]
     },
@@ -758,7 +829,8 @@
             "zh": "涩涩的东西不行就是不行！",
             "jp": "エッチなのはダメったらダメ！",
             "tw": "色色的東西不行就是不行！",
-            "en": "Go away dirty thoughts!"
+            "en": "Go away dirty thoughts!",
+            "kr": "야한 건 안 된다고 생각해!"
         },
         "Nickname": ["涩涩", "色色", "瑟瑟"]
     },
@@ -771,7 +843,8 @@
             "zh": "A brevis paradisum",
             "jp": "A brevis paradisum",
             "tw": "A brevis paradisum",
-            "en": "A brevis paradisum"
+            "en": "A brevis paradisum",
+            "kr": "A brevis paradisum"
         },
         "Nickname": [],
         "related": [10019, "swimsuit"]
@@ -785,7 +858,8 @@
             "zh": "井底之蛙 不知大海",
             "jp": "井の中の蛙 大海を知らず",
             "tw": "井底之蛙 不知大海",
-            "en": "The frog in the well knows nothing of the sea"
+            "en": "The frog in the well knows nothing of the sea",
+            "kr": "우물 안 개구리는 바다를 모른다"
         },
         "Nickname": [],
         "related": [20003, "swimsuit"]
@@ -799,7 +873,8 @@
             "zh": "夏日、大海、青春",
             "jp": "夏、海、青春",
             "tw": "夏日、青春、大海",
-            "en": "Summer, Youth, Beach"
+            "en": "Summer, Youth, Beach",
+            "kr": "여름, 청춘, 바다"
         },
         "Nickname": [],
         "related": [10013, "swimsuit"]
@@ -813,7 +888,8 @@
             "zh": "请看新的佩洛洛大人泳圈！",
             "jp": "新しいペロロ様の浮き輪、見てください！",
             "tw": "請看新的佩洛洛大人泳圈！",
-            "en": "Who wants to see the new Peroro tube?"
+            "en": "Who wants to see the new Peroro tube?",
+            "kr": "새로 산 페로로 튜브 보실 분?"
         },
         "Nickname": ["水富美"],
         "related": [10003, "swimsuit"]
@@ -823,7 +899,13 @@
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/3/3b/Hina_Swimsuit_Icon.png"
         ],
-        "Bio": { "zh": "", "jp": "", "tw": "", "en": "" },
+        "Bio": {
+            "zh": "",
+            "jp": "",
+            "tw": "",
+            "en": "",
+            "kr": ""
+        },
         "Nickname": [],
         "related": [10004, "swimsuit"]
     },
@@ -836,7 +918,8 @@
             "zh": "夏季合宿训练中",
             "jp": "夏の合宿訓練中",
             "tw": "夏季合宿訓練中",
-            "en": "Summer Boot Camp in progress"
+            "en": "Summer Boot Camp in progress",
+            "kr": "하계 합숙 훈련 중"
         },
         "Nickname": [],
         "related": [10006, "swimsuit"]
@@ -850,7 +933,8 @@
             "zh": "前往寻找夏天美食之旅！",
             "jp": "夏のグルメを求める旅へ！",
             "tw": "前往尋找夏天美食之旅！",
-            "en": "Summer delicacy road trip!"
+            "en": "Summer delicacy road trip!",
+            "kr": "여름의 별미를 찾아서 여행이야!"
         },
         "Nickname": ["水汉堡"],
         "related": [10009, "swimsuit"]
@@ -864,7 +948,8 @@
             "zh": "正在纵贯鸡窝托斯中",
             "jp": "今キヴォトス縦断中",
             "tw": "正在縱貫奇普托斯中",
-            "en": "Trekking across Kivotos"
+            "en": "Trekking across Kivotos",
+            "kr": "키보토스 종단일주중……."
         },
         "Nickname": ["小车唯", "xcw", "车白", "骑白子"],
         "related": [10010, "riding"]
@@ -878,7 +963,8 @@
             "zh": "想吃糖葫芦的心情！",
             "jp": "タンフールーが食べたい気分です！",
             "tw": "想吃糖葫蘆的心情！",
-            "en": "I want to eat tanghulu!"
+            "en": "I want to eat tanghulu!",
+            "kr": "탕후루가 먹고 싶네요~"
         },
         "Nickname": ["同花顺", "同花瞬", "同花舜", "铜花瞬", "铜花舜"],
         "related": [10011, "young"]
@@ -892,7 +978,8 @@
             "zh": "女武神警察学园，转学生募集中！",
             "jp": "ヴァルキューレ警察学校、転入学者募集中！",
             "tw": "女武神警察學園，轉學生募集中！",
-            "en": "Valkyrie Police School admissions are open!"
+            "en": "Valkyrie Police School admissions are open!",
+            "kr": "발키리 경찰학교, 전입학 모집 중!"
         },
         "Nickname": ["陈睿", "cr", "警察坦"]
     },
@@ -905,7 +992,8 @@
             "zh": "我什么都知道！",
             "jp": "ぼく様は何でも知っているのだ！",
             "tw": "我什麼都知道！",
-            "en": "I know everything!"
+            "en": "I know everything!",
+            "kr": "나님은 뭐든지 알고 있다고!"
         },
         "Nickname": ["滑鼠"],
         "related": [20002, "casual"]
@@ -919,7 +1007,8 @@
             "zh": "看什么看",
             "jp": "見せもんじゃねぇぞ",
             "tw": "看什麼看",
-            "en": "What are you looking at?"
+            "en": "What are you looking at?",
+            "kr": "구경났어?"
         },
         "Nickname": ["红兔"],
         "related": [10008, "bunnygirl"]
@@ -933,7 +1022,8 @@
             "zh": "任务中",
             "jp": "任務中",
             "tw": "任務中",
-            "en": "Currently undercover."
+            "en": "Currently undercover.",
+            "kr": "잠입 임무 수행 중"
         },
         "Nickname": ["黑兔"],
         "related": [20001, "bunnygirl"]
@@ -947,7 +1037,8 @@
             "zh": "带给主人最棒的快乐！",
             "jp": "最高の楽しさをご主人様に!",
             "tw": "帶給主人最棒的快樂！",
-            "en": "Only the best for you!"
+            "en": "Only the best for you!",
+            "kr": "최고의 즐거움을 당신에게!"
         },
         "Nickname": ["兔丝娜"],
         "related": [16001, "bunnygirl"]
@@ -961,7 +1052,8 @@
             "zh": "人生是巧克力蝴蝶饼",
             "jp": "人生はチョコレートプレッツェル",
             "tw": "人生是巧克力蝴蝶餅",
-            "en": "Life = Chocolate Pretzels"
+            "en": "Life = Chocolate Pretzels",
+            "kr": "인생=초콜릿 프레첼"
         },
         "Nickname": ["康娜", "拉菲", "小夏"]
     },
@@ -974,7 +1066,8 @@
             "zh": "愿大家的心得到安宁",
             "jp": "みなさんの心が、安らぎと共にありますように",
             "tw": "願大家的心得到安寧",
-            "en": "Peace be with you always."
+            "en": "Peace be with you always.",
+            "kr": "늘 평안하세요"
         },
         "Nickname": ["马丽"]
     },
@@ -987,7 +1080,8 @@
             "zh": "演唱会，请尽情期待哦！",
             "jp": "ライブ、楽しみにしててくださいね！",
             "tw": "演唱會，請盡請期待哦！",
-            "en": "Get pumped up for the live concert in Kivotos!"
+            "en": "Get pumped up for the live concert in Kivotos!",
+            "kr": "키보토스에서의 라이브 콘서트, 기대해 주세요!"
         },
         "Nickname": []
     },
@@ -1001,7 +1095,8 @@
             "zh": "谢绝业务以外的联络",
             "jp": "業務以外の連絡はお断りです",
             "tw": "謝絕業務以外的聯絡",
-            "en": "Do not disturb unless it's task-related."
+            "en": "Do not disturb unless it's task-related.",
+            "kr": "업무 이외의 연락 사절"
         },
         "Nickname": []
     },
@@ -1014,7 +1109,8 @@
             "zh": "世界上没有不好的胡子！",
             "jp": "世の中に悪い髭など無い！",
             "tw": "世界上沒有不好的鬍子！",
-            "en": "There's no such thing as a bad mustache!"
+            "en": "There's no such thing as a bad mustache!",
+            "kr": "세상에 나쁜 수염은 없다!"
         },
         "Nickname": ["温泉罗"],
         "related": [10017, "hotspring"]
@@ -1028,7 +1124,8 @@
             "zh": "寻求未知的视野",
             "jp": "未知の視界を求めて",
             "tw": "尋求未知的視野",
-            "en": "In search of unfamiliarity."
+            "en": "In search of unfamiliarity.",
+            "kr": "낯선 일상을 찾아서"
         },
         "Nickname": ["温泉夏"],
         "related": [26000, "hotspring"]
@@ -1042,7 +1139,8 @@
             "zh": "想了解切里诺会长的丰功伟业吗？",
             "jp": "チェリノ会長についてのお話を聞かれませんか？",
             "tw": "想了解潔莉諾會長的豐功偉業嗎？",
-            "en": "Do you have time to hear about the great Cherino?"
+            "en": "Do you have time to hear about the great Cherino?",
+            "kr": "체리노 회장님의 치적에 관심이 있으신가요?"
         },
         "Nickname": ["巴"]
     },
@@ -1055,7 +1153,8 @@
             "zh": "227号温泉乡，住宿预约接受中！",
             "jp": "227号温泉郷、宿泊予約受付中です！",
             "tw": "227號温泉郷，住宿預約接受中！",
-            "en": "Now taking reservations for Hot Springs Resort No. 227!"
+            "en": "Now taking reservations for Hot Springs Resort No. 227!",
+            "kr": "227호 온천장 상시 숙박 예약 중!"
         },
         "Nickname": ["老板娘"],
         "related": [26006, "hotspring"]
@@ -1069,7 +1168,8 @@
             "zh": "今年也请多多指教",
             "jp": "本年もどうぞよろしくお願いいたします",
             "tw": "今年也請多多指教",
-            "en": "Looking forward to the new year."
+            "en": "Looking forward to the new year.",
+            "kr": "부디 올해도 잘 부탁드립니다."
         },
         "Nickname": ["春鲁", "新社", "春露"],
         "related": [10000, "newyear"]
@@ -1083,7 +1183,8 @@
             "zh": "让今年变成快乐的一年吧♪",
             "jp": "今年はもっと楽しい一年にしようね♪",
             "tw": "讓今年變成快樂的一年吧♪",
-            "en": "This year is going to be even better!"
+            "en": "This year is going to be even better!",
+            "kr": "올해는 더 재밌을 거야~!"
         },
         "Nickname": ["春雷", "春月", "新月"],
         "related": [13006, "newyear"]
@@ -1097,7 +1198,8 @@
             "zh": "谨贺新年",
             "jp": "新年明けましておめでとうございます",
             "tw": "謹賀新年",
-            "en": "Happy New Year, everyone."
+            "en": "Happy New Year, everyone.",
+            "kr": "모두 새해 복 많이 받으세요."
         },
         "Nickname": ["春黑"],
         "related": [13008, "newyear"]
@@ -1113,7 +1215,8 @@
             "zh": "我会永远陪伴在阁下的身旁……♡",
             "jp": "私はいつも、あなた様のそばに……♡",
             "tw": "我會永遠陪伴在閣下的身旁……♡",
-            "en": "Heehee. Always by your side. ♥"
+            "en": "Heehee. Always by your side. ♥",
+            "kr": "후훗, 언제나 당신 곁에♡"
         },
         "Nickname": ["大狐狸", "藻子姐"]
     },
@@ -1126,7 +1229,8 @@
             "zh": "咖啡要配甜甜圈！",
             "jp": "コーヒーにはドーナッツ！",
             "tw": "咖啡要配甜甜圈！",
-            "en": "Coffee with donuts!"
+            "en": "Coffee with donuts!",
+            "kr": "커피 with 도넛!"
         },
         "Nickname": ["甜甜圈", "摆烂"]
     },
@@ -1139,7 +1243,8 @@
             "zh": "请把我设为紧急联络人",
             "jp": "緊急メッセージの受信設定をお願いします",
             "tw": "請把我設為緊急聯絡人",
-            "en": "Please turn off your spam filter."
+            "en": "Please turn off your spam filter.",
+            "kr": "긴급메시지 차단 해제 바랍니다."
         },
         "Nickname": ["濑奈", "救护车", "jo护车", "泥头车"]
     },
@@ -1152,7 +1257,8 @@
             "zh": "安全性检查从日常做起",
             "jp": "セキュリティチェックは日頃から",
             "tw": "安全性檢查從日常做起",
-            "en": "Let's make security checks a daily habit."
+            "en": "Let's make security checks a daily habit.",
+            "kr": "보안 점검을 생활화합시다"
         },
         "Nickname": ["円香", "円"]
     },
@@ -1165,7 +1271,8 @@
             "zh": "每天踏实，一步一步",
             "jp": "毎日着実に、一歩ずつ",
             "tw": "每天踏實，一步一步",
-            "en": "Take one step at a time."
+            "en": "Take one step at a time.",
+            "kr": "매일, 한 걸음씩만 더."
         },
         "Nickname": ["大和抚子"]
     },
@@ -1178,7 +1285,8 @@
             "zh": "正在办其他事",
             "jp": "作業中",
             "tw": "正在辦其他事",
-            "en": "AFK"
+            "en": "AFK",
+            "kr": "다른 용무 중"
         },
         "Nickname": []
     },
@@ -1191,7 +1299,8 @@
             "zh": "有困难时，请随时联系我！",
             "jp": "何かお困りの際は、いつでもご連絡ください！",
             "tw": "有困難時，請隨時聯絡我！",
-            "en": "Ping me if you need me!"
+            "en": "Ping me if you need me!",
+            "kr": "어려움이 있으실 땐, 언제든 연락 바랍니다!"
         },
         "Nickname": []
     },
@@ -1204,7 +1313,8 @@
             "zh": "叛逆者通通肃清！",
             "jp": "不穏分子は粛清する！",
             "tw": "叛逆者通通肅清！",
-            "en": "The impure must be purged!"
+            "en": "The impure must be purged!",
+            "kr": "불순분자는 숙청이다!"
         },
         "Nickname": ["玛丽娜", "保洁大妈", "保洁阿姨"]
     },
@@ -1218,7 +1328,8 @@
             "zh": "为了鸡窝托斯的和平",
             "jp": "キヴォトスの平和のために",
             "tw": "為了奇普托斯的和平",
-            "en": "For the peace of Kivotos!"
+            "en": "For the peace of Kivotos!",
+            "kr": "키보토스의 평화를 위해"
         },
         "Nickname": ["你这样的大人", "兔兔", "兔子", "都子"]
     },
@@ -1232,7 +1343,8 @@
             "zh": "与其张嘴不如行动",
             "jp": "言葉より行動で",
             "tw": "與其張嘴不如行動",
-            "en": "Actions. Not words."
+            "en": "Actions. Not words.",
+            "kr": "말보다 행동으로"
         },
         "Nickname": ["咲希"]
     },
@@ -1245,7 +1357,8 @@
             "zh": "眼前一片黑……",
             "jp": "一寸先は闇……",
             "tw": "眼前一片黑……",
-            "en": "The good days are gone..."
+            "en": "The good days are gone...",
+            "kr": "좋은 날은 이제 다 끝이에요……"
         },
         "Nickname": ["美优", "垃圾兔", "垃姬兔", "拉姬兔"]
     },
@@ -1258,7 +1371,8 @@
             "zh": "今天要玩什么呢！？",
             "jp": "今日は何して遊ぶ！？",
             "tw": "今天要玩什麼呢！？",
-            "en": "What should we do for fun today?!"
+            "en": "What should we do for fun today?!",
+            "kr": "저기저기~! 오늘은 뭘하고 놀까?!"
         },
         "Nickname": ["牌佬"]
     },
@@ -1271,7 +1385,8 @@
             "zh": "读书时除了紧急状况请不要联络我",
             "jp": "読書中につき、急用以外は連絡しないでください",
             "tw": "讀書時除了緊急狀況請不要聯絡我",
-            "en": "I'm reading. Do not disturb."
+            "en": "I'm reading. Do not disturb.",
+            "kr": "독서 중입니다. 찾지 말아주세요."
         },
         "Nickname": ["168", "一本好书", "两本好书", "虎式"]
     },
@@ -1284,7 +1399,8 @@
             "zh": "请关注「少女忍法帖 小小满」！",
             "jp": "「少女忍法帖ミチルっち」チャンネル登録よろしく！",
             "tw": "請訂閱「少女忍法帖 小小三千留」頻道！",
-            "en": "Subscribe to a Girl's Ninja Scroll!"
+            "en": "Subscribe to a Girl's Ninja Scroll!",
+            "kr": "<소녀인법첩 미치룻치> 채널 구독 부탁해!"
         },
         "Nickname": ["三千留", "部长", "小满"]
     },
@@ -1297,7 +1413,8 @@
             "zh": "有朝一日要成为，独当一面的忍者……",
             "jp": "いつかは、一人前の忍者に……",
             "tw": "未來要成為，獨當一面的忍者……",
-            "en": "I wanna be a full-fledged ninja..."
+            "en": "I wanna be a full-fledged ninja...",
+            "kr": "얼른 어엿한 닌자가 될 수 있기를…."
         },
         "Nickname": ["月夜", "大只女", "大野", "巨忍"]
     },
@@ -1311,7 +1428,8 @@
             "zh": "希望可以下点雨……",
             "jp": "雨でも降らないかな……",
             "tw": "希望可以下點雨……",
-            "en": "I wish it would rain."
+            "en": "I wish it would rain.",
+            "kr": "비라도 내리면 좋겠지만"
         },
         "Nickname": ["円香", "圆香"]
     },
@@ -1324,7 +1442,8 @@
             "zh": "人生是痛苦的连续……",
             "jp": "人生は、苦痛の連続です……",
             "tw": "人生是痛苦的連續……",
-            "en": "Life is a series of suffering..."
+            "en": "Life is a series of suffering...",
+            "kr": "인생은 괴로움의 연속이에요……"
         },
         "Nickname": []
     },
@@ -1339,7 +1458,8 @@
             "zh": "最近正在学习花语",
             "jp": "最近は花言葉を勉強してる",
             "tw": "最近正在學習花語",
-            "en": "I've been learning the language of flowers lately."
+            "en": "I've been learning the language of flowers lately.",
+            "kr": "요즘은 꽃말을 배우는 중"
         },
         "Nickname": ["敦子", "公主"]
     },
@@ -1354,7 +1474,8 @@
             "zh": "比夏日还热情的心意♡",
             "jp": "夏よりもなお熱いこの心で♡",
             "tw": "比夏日還熱情的心意♡",
-            "en": "My heart is warmer than the summer heat!"
+            "en": "My heart is warmer than the summer heat!",
+            "kr": "여름 무더위보다 더 뜨거운 이 마음을 당신께♡"
         },
         "Nickname": ["水狐狸", "水狐", "水藻"],
         "related": [10033, "swimsuit"]
@@ -1369,7 +1490,8 @@
             "zh": "是大海哦，大海~",
             "jp": "海ですよ、海～！",
             "tw": "是海耶，大海～！",
-            "en": "Sensei! It's the ocean!"
+            "en": "Sensei! It's the ocean!",
+            "kr": "선생님! 바다예요, 바다!"
         },
         "Nickname": ["水乃美"],
         "related": [13004, "swimsuit"]
@@ -1383,7 +1505,8 @@
             "zh": "玩的时候就要好好玩！",
             "jp": "遊ぶときはしっかり遊びましょう！",
             "tw": "玩得時候就要確實玩！",
-            "en": "Play like there's no tomorrow."
+            "en": "Play like there's no tomorrow.",
+            "kr": "놀 때는 확실하게 놀자"
         },
         "Nickname": ["直升机"],
         "related": [23005, "swimsuit"]
@@ -1398,7 +1521,8 @@
             "zh": "午睡中～欢迎同道中人",
             "jp": "お昼寝中～。仲間はいつでも歓迎だよ",
             "tw": "午睡中～歡迎同道中人",
-            "en": "Taking a nice nap. Friends welcome."
+            "en": "Taking a nice nap. Friends welcome.",
+            "kr": "낮잠 중~. 동료는 언제든지 환영"
         },
         "Nickname": ["一动不动也好热阿"],
         "related": [10005, "swimsuit"]
@@ -1412,7 +1536,8 @@
             "zh": "百夜堂连锁店热烈营业中！",
             "jp": "百夜堂フランチャイズ絶賛営業中！",
             "tw": "百夜堂連鎖店熱烈營業中！",
-            "en": "The Momoyodou franchise is now open!"
+            "en": "The Momoyodou franchise is now open!",
+            "kr": "백야당 프랜차이즈 절찬 영업 중!"
         },
         "Nickname": ["水老板娘"],
         "related": [23006, "swimsuit"]
@@ -1426,7 +1551,8 @@
             "zh": "这次要在海边修行咯！忍忍！",
             "jp": "今度は海で修行です！ニンニン！",
             "tw": "這次要在海邊修行囉！忍忍！",
-            "en": "Let's train on the beach this summer! Nin nin!"
+            "en": "Let's train on the beach this summer! Nin nin!",
+            "kr": "여름을 맞아, 이번엔 바다에서 수행이에요! 닌닌!"
         },
         "Nickname": ["水狐狸", "水忍狐"],
         "related": [10014, "swimsuit"]
@@ -1440,7 +1566,8 @@
             "zh": "光芒～会在哪里呢？",
             "jp": "キラキラ～。どこにあるのかな？",
             "tw": "閃亮～會在哪裡呢？",
-            "en": "Where are the sparkles?"
+            "en": "Where are the sparkles?",
+            "kr": "반짝반짝, 어디 있을까?"
         },
         "Nickname": ["水千"],
         "related": [13001, "swimsuit"]
@@ -1455,7 +1582,8 @@
             "zh": "努力再努力",
             "jp": "努力あるのみ",
             "tw": "努力再努力",
-            "en": "I won't stop trying."
+            "en": "I won't stop trying.",
+            "kr": "노력을 멈추지 않을게"
         },
         "Nickname": ["骚梨"]
     },
@@ -1470,7 +1598,8 @@
             "zh": "正在积极收购没在用的导弹、炮弹！",
             "jp": "使わないミサイルや砲 弾、積極的に買い取り中！",
             "tw": "正在積極收購沒在用的導彈、砲彈！",
-            "en": "Actively purchasing unused missiles and shells!"
+            "en": "Actively purchasing unused missiles and shells!",
+            "kr": "안 쓰는 미사일, 포탄, 적극 매입 중!"
         },
         "Nickname": ["萌"]
     },
@@ -1483,7 +1612,8 @@
             "zh": "放学后的甜点部成员",
             "jp": "放課後スイーツ部のメンバーです",
             "tw": "放學後的甜點部成員",
-            "en": "A member of the After-School Sweets Club."
+            "en": "A member of the After-School Sweets Club.",
+            "kr": "방과후 디저트부 부원입니다."
         },
         "Nickname": ["千纱", "黑猫"]
     },
@@ -1496,7 +1626,8 @@
             "zh": "我是山海经的教官！",
             "jp": "山海経の教官です！",
             "tw": "我是山海經的教官！",
-            "en": "A young Shanhaijing instructor."
+            "en": "A young Shanhaijing instructor.",
+            "kr": "산해경의 어린 교관입니다."
         },
         "Nickname": ["心菜"]
     },
@@ -1509,7 +1640,8 @@
             "zh": "应援委托受理中！",
             "jp": "応援依頼受付中！",
             "tw": "應援委託受理中！",
-            "en": "Cheering commishes OPEN"
+            "en": "Cheering commishes OPEN",
+            "kr": "응원 의뢰 받고 있습니다"
         },
         "Nickname": [],
         "related": [23004, "cheerleader"]
@@ -1523,7 +1655,8 @@
             "zh": "奇普托斯的忧郁",
             "jp": "キヴォトスの憂鬱",
             "tw": "奇普托斯的憂鬱",
-            "en": "The Melancholy of Kivotos"
+            "en": "The Melancholy of Kivotos",
+            "kr": "키보토스의 우울"
         },
         "Nickname": ["乃爱", "生理盐水"]
     },
@@ -1536,7 +1669,8 @@
             "zh": "如果有更多时间练习的话……",
             "jp": "もう少し練習する時間があれば……",
             "tw": "如果有更多時間練習的話……",
-            "en": "I really wish we had more time to practice..."
+            "en": "I really wish we had more time to practice...",
+            "kr": "연습할 시간이 좀 더 있었더라면…"
         },
         "Nickname": [],
         "related": [20000, "cheerleader"]
@@ -1550,7 +1684,8 @@
             "zh": "和有点新鲜的日常生活一起",
             "jp": "少しだけ新しい日常と共に",
             "tw": "和有點新鮮的日常生活一起",
-            "en": "Trying out a new lifestyle."
+            "en": "Trying out a new lifestyle.",
+            "kr": "조금은 새로운 일상과 함께"
         },
         "Nickname": ["白兔"],
         "related": [13000, "bunnygirl"]
@@ -1564,7 +1699,8 @@
             "zh": "晄轮大祭现正举办中！",
             "jp": "晄輪大祭開催中！",
             "tw": "晄輪大祭現正舉辦中！",
-            "en": "The Kivotos Halo Festival is underway!"
+            "en": "The Kivotos Halo Festival is underway!",
+            "kr": "황륜대제 개최 중!"
         },
         "Nickname": ["体香"],
         "related": [13010, "gym"]
@@ -1578,7 +1714,8 @@
             "zh": "希望会是一场和平的庆典",
             "jp": "平和なお祭りになりますように",
             "tw": "希望會是一場和平的慶典",
-            "en": "Wishing for a peaceful festival."
+            "en": "Wishing for a peaceful festival.",
+            "kr": "평화로운 축제가 되기를 기원합니다"
         },
         "Nickname": ["体马"],
         "related": [23008, "gym"]
@@ -1592,7 +1729,8 @@
             "zh": "大会运营相关咨询请到执行委员会",
             "jp": "大会運営に関するお問い合わせは実行委員会まで",
             "tw": "大會營運相關諮詢請洽實行委員會",
-            "en": "Ask the Executive Committee if you need help."
+            "en": "Ask the Executive Committee if you need help.",
+            "kr": "대회 운영 관련 문의는 실행위원회로"
         },
         "Nickname": [],
         "related": [13003, "gym"]
@@ -1607,7 +1745,8 @@
             "zh": "千禧最高峰的超天才清纯系病弱美少女",
             "jp": "ミレニアム最高峰の超天才清楚系病弱美少女",
             "tw": "千年頂尖的超天才清楚系病弱美少女",
-            "en": "Millennium's greatest genius is here!"
+            "en": "Millennium's greatest genius is here!",
+            "kr": "밀레니엄 최고의 천재병약미소녀, 네. 저랍니다."
         },
         "Nickname": ["阳葵", "轮椅拐", "天才病弱美少女", "otto"]
     },
@@ -1615,14 +1754,14 @@
         "Id": 10055,
         "Avatar": [
             "/momotalk/Avatars/Shigure_Hot_Spring.webp",
-            "https://static.wikia.nocookie.net/blue-archive/images/0/0c/Shigure_Icon.png",
-            "https://static.wikia.nocookie.net/blue-archive/images/9/91/Shigure_Hot_Spring_Icon.png"
+            "https://static.wikia.nocookie.net/blue-archive/images/0/0c/Shigure_Icon.png"
         ],
         "Bio": {
             "zh": "调一杯饮料改变人生的时间到啦",
             "jp": "飲み物を混ぜて人生を変える時間だね",
             "tw": "是時候調配一杯飲料，改變人生了",
-            "en": "Mix a drink and change your life!"
+            "en": "Mix a drink and change your life!",
+            "kr": "음료를 섞고 인생을 바꿔 줄 시간이네."
         },
         "Nickname": ["酒鬼", "酒蒙子"]
     },
@@ -1635,7 +1774,8 @@
             "zh": "在这圣夜里，希望大家都有幸福来敲门",
             "jp": "聖なる夜、みなさんに幸せが訪れますよう",
             "tw": "願幸福降臨在神聖的夜晚",
-            "en": "Peace and joy to all during the Christmas season."
+            "en": "Peace and joy to all during the Christmas season.",
+            "kr": "크리스마스를 맞아, 행복을 모두에게."
         },
         "Nickname": [],
         "related": [26003, "christmas"]
@@ -1649,7 +1789,8 @@
             "zh": "在等圣诞老人！",
             "jp": "サンタさんを待ってます！",
             "tw": "正在等待聖誕老人！",
-            "en": "Waiting up for Santa Claus!"
+            "en": "Waiting up for Santa Claus!",
+            "kr": "산타 할아버지를 기다리며!"
         },
         "Nickname": [],
         "related": [23002, "christmas"]
@@ -1663,7 +1804,8 @@
             "zh": "今年也要探寻究极的美食",
             "jp": "今年も、究極の美食を探求いたします",
             "tw": "今年也要探索終極的美食",
-            "en": "Exploring the path of a gourmand during New Year's."
+            "en": "Exploring the path of a gourmand during New Year's.",
+            "kr": "새해에도, 미식의 궁극을 탐구하며"
         },
         "Nickname": [],
         "related": [10002, "newyear"]
@@ -1677,7 +1819,8 @@
             "zh": "平安无事、祈愿中",
             "jp": "平穏無事、祈願中",
             "tw": "平安無事、祈願中",
-            "en": "Wishing for peace and safety."
+            "en": "Wishing for peace and safety.",
+            "kr": "평온무사, 기원 중"
         },
         "Nickname": [],
         "related": [23001, "newyear"]
@@ -1691,7 +1834,8 @@
             "zh": "吃东西的时候别来烦我！",
             "jp": "食べてる時は邪魔しないで！",
             "tw": "吃東西的時候別妨礙我！",
-            "en": "Don't bother me while I'm eating!"
+            "en": "Don't bother me while I'm eating!",
+            "kr": "먹을 때는 방해하지 마!"
         },
         "Nickname": [],
         "related": [13007, "newyear"]
@@ -1705,7 +1849,8 @@
             "zh": "我时刻准备就绪",
             "jp": "私はいつでも準備できております",
             "tw": "我隨時準備就緒",
-            "en": "The Remedial Knights are always ready!"
+            "en": "The Remedial Knights are always ready!",
+            "kr": "저는 늘 준비되어 있습니다."
         },
         "Nickname": []
     },
@@ -1720,7 +1865,8 @@
             "zh": "正在招募一起聊天的对象！",
             "jp": "一緒にお話してくれる人募集中！",
             "tw": "正在招募一起聊天的對象！",
-            "en": "Looking for new people to chat with!"
+            "en": "Looking for new people to chat with!",
+            "kr": "같이 수다 떨 사람 모집 중!"
         },
         "Nickname": ["弥香", "瑞士卷", "三力", "公主", "粉色大猩猩"]
     },
@@ -1733,7 +1879,8 @@
             "zh": "随时欢迎温泉开发的同志哦！",
             "jp": "温泉開発の同志はいつでも歓迎だよ！",
             "tw": "隨時歡迎溫泉開發的同志！",
-            "en": "Volunteers always welcome!"
+            "en": "Volunteers always welcome!",
+            "kr": "지원자는 언제나 환영이야!"
         },
         "Nickname": ["喷火器"]
     },
@@ -1746,7 +1893,8 @@
             "zh": "创建安全的鸡窝托斯，请交给瓦尔基里",
             "jp": "安全なキヴォトスを目指して、ヴァルキューレにお任せを",
             "tw": "建立安全的奇普托斯，請交給女武神",
-            "en": "A trustworthy Valkyrie = A safe Kivotos."
+            "en": "A trustworthy Valkyrie = A safe Kivotos.",
+            "kr": "믿음직한 발키리 안전한 키보토스"
         },
         "Nickname": ["环奈", "社畜"]
     },
@@ -1760,7 +1908,8 @@
             "zh": "一直在守望着",
             "jp": "いつも見守っています",
             "tw": "一直關注著你",
-            "en": "I'll watch over you."
+            "en": "I'll watch over you.",
+            "kr": "지켜보고 있습니다."
         },
         "Nickname": ["觉悟姐"]
     },
@@ -1775,7 +1924,8 @@
             "zh": "随时待机中",
             "jp": "常時待機中",
             "tw": "隨時待命中",
-            "en": "On standby."
+            "en": "On standby.",
+            "kr": "항시 대기 중."
         },
         "Nickname": ["季"]
     },
@@ -1789,7 +1939,8 @@
             "zh": "永远游刃有余，优雅面对",
             "jp": "いつでも余裕をもって、優雅に",
             "tw": "隨時都要留有餘裕，保持優雅",
-            "en": "Always graceful and composed."
+            "en": "Always graceful and composed.",
+            "kr": "언제나 품위있고 고상하게"
         },
         "Nickname": ["渚哥哥", "红茶"]
     },
@@ -1804,7 +1955,8 @@
             "zh": "哎呀，这算是我的错吗……？",
             "jp": "いや、これって私のせいですか……？",
             "tw": "不對，這是我的錯嗎……？",
-            "en": "It's my fault?!"
+            "en": "It's my fault?!",
+            "kr": "아니 이게 제 잘못임;;?"
         },
         "Nickname": []
     },
@@ -1817,7 +1969,8 @@
             "zh": "谨贺新年",
             "jp": "謹賀新年",
             "tw": "謹賀新年",
-            "en": "Happy New Year"
+            "en": "Happy New Year",
+            "kr": "근하신년"
         },
         "Nickname": ["春代"],
         "related": [13005, "newyear"]
@@ -1831,7 +1984,8 @@
             "zh": "新年也请一直幸福地度过",
             "jp": "新年も末永くお幸せにお過ごしください",
             "tw": "新年也請永遠過得健健康康",
-            "en": "H-Have the best New Year...!"
+            "en": "H-Have the best New Year...!",
+            "kr": "새해에도 만수무강하세요."
         },
         "Nickname": [],
         "related": [16000, "newyear"]
@@ -1845,7 +1999,8 @@
             "zh": "业务相关请随时咨询",
             "jp": "業務に関してはお気軽にご相談ください",
             "tw": "工作相關的問題請放心詢問",
-            "en": "Would you like to have a business consultation?"
+            "en": "Would you like to have a business consultation?",
+            "kr": "업무 상담은 부담 없이 부탁드립니다."
         },
         "Nickname": []
     },
@@ -1858,7 +2013,8 @@
             "zh": "我是女仆勇者爱丽丝",
             "jp": "メイド勇者のアリスです",
             "tw": "女僕勇者愛麗絲",
-            "en": "I am Aris, hero maid."
+            "en": "I am Aris, hero maid.",
+            "kr": "메이드 용사 아리스입니다."
         },
         "Nickname": ["扫地机器人"],
         "related": [10015, "maid"]
@@ -1872,7 +2028,8 @@
             "zh": "作战待机中",
             "jp": "作戦待機中",
             "tw": "作戰待命中",
-            "en": "On standby."
+            "en": "On standby.",
+            "kr": "투입 대기 중."
         },
         "Nickname": [],
         "related": [10062, "bunnygirl"]
@@ -1886,7 +2043,8 @@
             "zh": "403 Forbidden",
             "jp": "403 Forbidden",
             "tw": "403 Forbidden",
-            "en": "403 Forbidden"
+            "en": "403 Forbidden",
+            "kr": "403 Forbidden"
         },
         "Nickname": ["箱子"],
         "related": [10018, "maid"]
@@ -1900,7 +2058,8 @@
             "zh": "\"The ♠ of Vigilante\"",
             "jp": "\"The ♠ of Vigilante\"",
             "tw": "「The ♠ of Vigilante」",
-            "en": "\"The ♠ of the Vigilantes\""
+            "en": "\"The ♠ of the Vigilantes\"",
+            "kr": "\"The ♠ of Vigilante\""
         },
         "Nickname": ["甜甜圈", "挑战书"]
     },
@@ -1913,7 +2072,8 @@
             "zh": "玄武商会，正在营业中",
             "jp": "玄武商会、営業中だよ",
             "tw": "玄武商會營業中",
-            "en": "The Black Tortoise Promenade,\nopen for business!"
+            "en": "The Black Tortoise Promenade, open for business!",
+            "kr": "현무상회, 영업 중입니다."
         },
         "Nickname": ["厨子", "厨师", "大厨"]
     },
@@ -1926,7 +2086,8 @@
             "zh": "能听到风声啊……",
             "jp": "風の声が聞こえるな……",
             "tw": "能聽見風的聲音……",
-            "en": "I can hear the voice of the wind..."
+            "en": "I can hear the voice of the wind...",
+            "kr": "바람의 목소리가 들리는군……"
         },
         "Nickname": ["墨镜", "发哥"]
     },
@@ -1939,7 +2100,8 @@
             "zh": "联邦学生会应保证每周休息4天！",
             "jp": "連邦生徒会は週休4日を保障せよ！",
             "tw": "請聯邦學生會保障週休4日！",
-            "en": "We Deserve a 3 Day Work Week!"
+            "en": "We Deserve a 3 Day Work Week!",
+            "kr": "총학생회는 주 3일 노동을 허가하라!"
         },
         "Nickname": ["扩音器", "大喇叭", "游行"]
     },
@@ -1952,7 +2114,8 @@
             "zh": "用结果来证明",
             "jp": "結果で証明します",
             "tw": "用結果來證明",
-            "en": "I'll let my results speak for me."
+            "en": "I'll let my results speak for me.",
+            "kr": "결과로 증명하겠습니다."
         },
         "Nickname": [],
         "related": [10038, "swimsuit"]
@@ -1966,7 +2129,8 @@
             "zh": "将不可能化为可能",
             "jp": "不可能を可能に",
             "tw": "將不可能化為可能",
-            "en": "If it doesn't work, make it work."
+            "en": "If it doesn't work, make it work.",
+            "kr": "안 되면 되게 하라"
         },
         "Nickname": [],
         "related": [20014, "swimsuit"]
@@ -1980,7 +2144,8 @@
             "zh": "船到桥头自然直",
             "jp": "明日は明日の風が吹く",
             "tw": "明天會吹明天的風",
-            "en": "Tomorrow is just another tomorrow."
+            "en": "Tomorrow is just another tomorrow.",
+            "kr": "내일은, 또 다른 내일"
         },
         "Nickname": [],
         "related": [10039, "swimsuit"]
@@ -1994,7 +2159,8 @@
             "zh": "嗯，需要粮食请联络我",
             "jp": "ん、食糧が必要な人は連絡して",
             "tw": "嗯，需要糧食的人就聯絡我",
-            "en": "Those who need food, contact me."
+            "en": "Those who need food, contact me.",
+            "kr": "식량 필요한 사람 연락 바람"
         },
         "Nickname": ["水仓唯"],
         "related": [10010, "swimsuit"]
@@ -2004,7 +2170,13 @@
         "Avatar": [
             "https://static.wikia.nocookie.net/blue-archive/images/5/53/Ui_Swimsuit_Icon.png"
         ],
-        "Bio": { "zh": "出差中", "jp": "出張中", "tw": "", "en": "" },
+        "Bio": {
+            "zh": "出差中",
+            "jp": "出張中",
+            "tw": "出張中",
+            "en": "出張中",
+            "kr": "출장 중."
+        },
         "Nickname": [],
         "related": [10035, "swimsuit"]
     },
@@ -2016,8 +2188,9 @@
         "Bio": {
             "zh": "出差中，有事请留言！",
             "jp": "出張中です、なにかありましたらメッセージをどうぞ！",
-            "tw": "",
-            "en": ""
+            "tw": "出張中です、なにかありましたらメッセージをどうぞ！",
+            "en": "出張中です、なにかありましたらメッセージをどうぞ！",
+            "kr": "출장 중입니다, 메시지 남겨주세요!"
         },
         "Nickname": [],
         "related": [10036, "swimsuit"]
@@ -2030,8 +2203,9 @@
         "Bio": {
             "zh": "泳装才不是涩涩呢！",
             "jp": "水着はエッチじゃないんだからね！",
-            "tw": "",
-            "en": ""
+            "tw": "水着はエッチじゃないんだからね！",
+            "en": "水着はエッチじゃないんだからね！",
+            "kr": "수영복은 야한 게 아니니까!"
         },
         "Nickname": [],
         "related": [10020, "swimsuit"]
@@ -2044,8 +2218,9 @@
         "Bio": {
             "zh": "我的真面目，可以随着肌肤一同裸露出来吗？",
             "jp": "さらけ出した肌のぶんだけ、素直になっていいですか？",
-            "tw": "",
-            "en": ""
+            "tw": "さらけ出した肌のぶんだけ、素直になっていいですか？",
+            "en": "さらけ出した肌のぶんだけ、素直になっていいですか？",
+            "kr": "드러낸 피부만큼, 솔직해져도 될까요?"
         },
         "Nickname": ["紫攻花子"],
         "related": [23007, "swimsuit"]
@@ -2058,8 +2233,9 @@
         "Bio": {
             "zh": "总觉得，会有什么好事发生",
             "jp": "なんだか、いいことが起きそう",
-            "tw": "",
-            "en": ""
+            "tw": "なんだか、いいことが起きそう",
+            "en": "なんだか、いいことが起きそう",
+            "kr": "왠지, 좋은 일이 일어날 것 같은 날."
         },
         "Nickname": [],
         "related": [10034, "swimsuit"]
@@ -2074,8 +2250,9 @@
         "Bio": {
             "zh": "画画时独自言自语的次数会变多呢～",
             "jp": "お絵かきしてると、独り言が増えるんだよね～",
-            "tw": "",
-            "en": ""
+            "tw": "お絵かきしてると、独り言が増えるんだよね～",
+            "en": "お絵かきしてると、独り言が増えるんだよね～",
+            "kr": "그림이 힘든 것은, 주기적으로 헛소리를 해야 하기 때문"
         },
         "Nickname": ["梅露", "爱瑠"]
     },
@@ -2087,8 +2264,9 @@
         "Bio": {
             "zh": "知识就是力量。我会好好保护它的！",
             "jp": "知識は力。ちゃんと守っていきます！",
-            "tw": "",
-            "en": ""
+            "tw": "知識は力。ちゃんと守っていきます！",
+            "en": "知識は力。ちゃんと守っていきます！",
+            "kr": "지식은 힘이니, 잘 지켜야죠!"
         },
         "Nickname": []
     },
@@ -2100,8 +2278,9 @@
         "Bio": {
             "zh": "健全的知识寓于健康的身体！",
             "jp": "健全な知識は健全な肉体に宿ります！",
-            "tw": "",
-            "en": ""
+            "tw": "健全な知識は健全な肉体に宿ります！",
+            "en": "健全な知識は健全な肉体に宿ります！",
+            "kr": "건전한 육체에 건전한 지식!"
         },
         "Nickname": [],
         "related": [16002, "cheerleader"]
@@ -2114,8 +2293,9 @@
         "Bio": {
             "zh": "一起来探寻运动和美食之间的关系吧",
             "jp": "運動と美食の相関関係を探してみましょうか",
-            "tw": "",
-            "en": ""
+            "tw": "運動と美食の相関関係を探してみましょうか",
+            "en": "運動と美食の相関関係を探してみましょうか",
+            "kr": "운동과 미식의 상관관계"
         },
         "Nickname": [],
         "related": [10002, "gym"]
@@ -2126,10 +2306,11 @@
             "https://static.wikia.nocookie.net/blue-archive/images/2/2f/Ichika_Icon.png"
         ],
         "Bio": {
-            "zh": "始终站在大家身边，正义实现委员会！",
+            "zh": "永远是大家的伙伴，正义实现委员会！",
             "jp": "いつも皆さんの味方、正義実現委員会っす！",
-            "tw": "",
-            "en": ""
+            "tw": "いつも皆さんの味方、正義実現委員会っす！",
+            "en": "いつも皆さんの味方、正義実現委員会っす！",
+            "kr": "언제나 친절한 정의실현부입니다!"
         },
         "Nickname": []
     },
@@ -2141,9 +2322,25 @@
         "Bio": {
             "zh": "众生皆源于温泉，亦将终归于温泉",
             "jp": "みな温泉から生まれ、温泉に還る",
-            "tw": "",
-            "en": ""
+            "tw": "みな温泉から生まれ、温泉に還る",
+            "en": "みな温泉から生まれ、温泉に還る",
+            "kr": "모두 진흙에서 태어나, 진흙으로 돌아가지."
         },
         "Nickname": []
+    },
+    {
+        "Id": 20031,
+        "Avatar": [
+            "https://static.wikia.nocookie.net/blue-archive/images/9/91/Shigure_Hot_Spring_Icon.png"
+        ],
+        "Bio": {
+            "zh": "倘若乡愁也能一饮而尽",
+            "jp": "郷愁さえも飲み干せるのなら",
+            "tw": "郷愁さえも飲み干せるのなら",
+            "en": "郷愁さえも飲み干せるのなら",
+            "kr": "그리움도 마셔서 없앨 수 있다면"
+        },
+        "Nickname": [],
+        "related": [10055, "hotspring"]
     }
 ]

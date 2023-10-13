@@ -72,12 +72,12 @@ const getLocal = async (lng: string) => {
     for (const localItem of local) {
         const newStudent: myStudent = {
             Id: localItem.Id,
-            Name: localItem.Name[lng] ? localItem.Name[lng] : '',
+            Name: localItem.Name[lng] ? localItem.Name[lng] : localItem.Name['en'],
             Birthday: '???',
             Avatar: ['/momotalk/Avatars/' + localItem.Nickname[0] + '.webp'],
-            Bio: localItem.Bio[lng] ? localItem.Bio[lng] : '',
+            Bio: localItem.Bio[lng] ? localItem.Bio[lng] : localItem.Bio['en'],
             Nickname: localItem.Nickname,
-            School: '',
+            School: localItem.School ? localItem.School : '',
             cnt: 0
         }
         newStudent.Avatar = newStudent.Avatar.concat(localItem.Avatar)
