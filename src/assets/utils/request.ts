@@ -41,7 +41,7 @@ const getSchale = async (lng: string) => {
             Avatar: [getSchaleImg(schaleItem.Id)],
             Bio: '',
             Nickname: [schaleItem.PathName],
-            School: schaleItem.School,
+            School: schaleItem.School.replace('Sakugawa', 'ETC'),
             cnt: 0
         }
         const localItem = local.find((ele) => ele.Id === newStudent.Id)
