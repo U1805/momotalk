@@ -97,4 +97,9 @@ const getMessage = async (storyid: string, story: string) => {
     return res
 }
 
-export { getStudents, getMessage, getSchaleImg, getSchaleSchoolIcon }
+const getStickers = async (student: number) => {
+    const res = await getData(`/momotalk/Stories/${student}/Stickers.json`) 
+    return res
+}
+
+export { getStudents, getMessage, getSchaleImg, getSchaleSchoolIcon, getStickers }

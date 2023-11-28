@@ -33,12 +33,20 @@
                         </div>
                     </div>
                     <template #content>
-                        <div class="sticker-wrapper">
-                            <div v-for="(sticker, index) in stickers" :key="index">
+                        <div class="sticker-wrapper" v-if="typeof selected !== 'number' || selected === 1">
+                            <div class="stk">
+                                <div v-for="(sticker, index) in stickerList" :key="index">
                                 <img
                                     :src="sticker"
                                     @click="sendSticker(selected, sticker)"
                                 />
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <div @click="switchSticker(-1)" 
+                                    :class="{stk__active:stickerTab === 1}">1</div>
+                                <div @click="switchSticker(selected)" 
+                                    :class="{stk__active:stickerTab === 2}">2</div>
                             </div>
                         </div>
                     </template>
@@ -131,7 +139,7 @@ import { onMounted, ref, watch } from 'vue'
 import i18n from '@/assets/locales/i18n'
 import { myStudent } from '@/assets/utils/interface'
 import { stickers } from '@/assets/utils/stickers'
-import { getMessage } from '@/assets/utils/request'
+import { getMessage, getStickers } from '@/assets/utils/request'
 import { getRole } from '@/assets/chatUtils/role'
 import { readFile } from '@/assets/imgUtils/readFile'
 import { store } from '@/assets/storeUtils/store'
@@ -143,6 +151,25 @@ const props = defineProps(['student'])
 const emits = defineEmits(['deactive'])
 
 const selected = ref<myStudent | number>(1)
+
+// 贴图
+const stickerList = ref<string[]>(stickers)
+const stickerTab = ref<number>(1)
+const switchSticker = async (selected: myStudent | number)=>{
+    if(typeof selected === 'number'){
+        if(selected === -1){
+            stickerTab.value = 1
+            stickerList.value = stickers
+        }
+        if(selected === 1){
+            stickerTab.value = 2    
+        }
+    }else{
+        stickerTab.value = 2
+        const t_sticker = (await getStickers(selected.Id)) as string[]
+        if(t_sticker) stickerList.value = t_sticker
+    }
+}
 
 // 添加到列表
 watch(props, (newProps) => {

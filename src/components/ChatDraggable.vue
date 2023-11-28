@@ -87,10 +87,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     <!-- 图片消息 -->
                     <div
                         class="box img"
-                        v-else-if="
-                            element.content.startsWith('data:image') ||
-                            element.content.startsWith('./Stickers/')
-                        "
+                        v-else-if="checkImg(element.content)"
                     >
                         <typing-animation
                             class="loading"
@@ -150,7 +147,6 @@ export default {
                 var ele = evt.target! as HTMLImageElement
                 ele.src = reader.result as string
                 talkHistory.setTalkContent(id, reader.result as string)
-                console.log(reader.result as string)
             })
             readFile(reader)
         },
@@ -169,6 +165,11 @@ export default {
             var span = event.target as HTMLElement
             if (type === 'name') talkHistory.setTalkName(id, span.innerText)
             if (type === 'content') talkHistory.setTalkContent(id, span.innerText)
+        },
+        checkImg(content: string){
+            const suffix = `(bmp|jpg|png|tif|gif|svg|webp|jpeg)`
+            var regular = new RegExp(`(data:image.*)|(./Stickers/.*\.webp)|((http|https)\:\/\/.*\.${suffix})`)
+            return regular.test(content)
         }
     }
 }

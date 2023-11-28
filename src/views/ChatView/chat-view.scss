@@ -69,34 +69,41 @@ $bar-icon-height: calc($bar-height * 0.67);
     border-radius: 5px;
     background: white;
     cursor: pointer;
+
     &:hover {
         background-color: rgba(0, 0, 0, 0.06);
         transition: 0.4s;
     }
 }
-.sticker > div,
-.item-sensei > div,
-.item-heart > div {
+
+.sticker>div,
+.item-sensei>div,
+.item-heart>div {
     @include circle($bar-icon-height);
     @include center;
     background-color: $chaticon-color;
 }
+
 .item {
-    > div {
+    >div {
         @include center;
     }
+
     img {
         @include circle($bar-icon-height);
     }
+
     svg {
         @include chat-svg;
     }
 }
+
 .item-heart {
-    > svg {
+    >svg {
         @include chat-svg;
     }
-    > div {
+
+    >div {
         background-color: $pink-pale;
     }
 }
@@ -107,18 +114,20 @@ $bar-icon-height: calc($bar-height * 0.67);
 }
 
 .sticker-wrapper {
-    @include center;
     display: flex;
-    flex-wrap: wrap;
-    width: 850px;
+    flex-direction: column;
+    align-items: center;
+    width: 535px;
+    height: 390px;
     transition: background 250ms ease-in-out;
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 6px;
     border: 1px #dadada solid;
     box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
     z-index: 9999;
     margin: 0px;
+
     &::after {
         border-top: 12px white solid;
         content: '';
@@ -129,12 +138,51 @@ $bar-icon-height: calc($bar-height * 0.67);
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
     }
-    div {
-        @include center;
+
+    .stk {
+        @include hide-scrollbar;
+        display: flex;
+        flex-wrap: wrap;
+        height: 330px;
+
+        div {
+            @include center;
+        }
+
+        img {
+            @include circle(75px);
+            margin: 5px;
+            cursor: pointer;
+        }
     }
-    img {
-        @include circle(75px);
-        margin: 10px;
-        cursor: pointer;
+
+    .tab {
+        display: flex;
+        position: fixed;
+        bottom: 10px;
+        height: 35px;
+        width: 500px;
+        background: white;
+
+        div {
+            @include center;
+            @include font-heavy(20);
+            height: 25px;
+            width: 40px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: $chaticon-color solid 1px;
+
+            &:hover {
+                border: $blue solid 1px;
+            }
+        }
+
+        .stk__active {
+            background-color: $font-grey;
+            color: $list-color;
+            transition: 0.6s;
+        }
     }
 }
