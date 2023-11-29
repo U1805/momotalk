@@ -162,6 +162,7 @@ const switchSticker = async (selected: myStudent | number)=>{
             stickerList.value = stickers
         }
         if(selected === 1){
+            stickerList.value = []
             stickerTab.value = 2    
         }
     }else{
@@ -180,6 +181,7 @@ watch(props, (newProps) => {
 })
 const selectChar = (student: myStudent | number) => {
     selected.value = student
+    switchSticker(-1)
 }
 const addCustomStudent = () => {
     let name: string | null = ''
