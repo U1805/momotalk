@@ -122,9 +122,9 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "お忙しいならまた今度ぜひ～(*￣▽￣*)",
-        "MessageKR": "바쁘시면 다음에 같이 먹어요~(*￣▽￣*)ブ",
+        "MessageKR": "바쁘시면 다음에 같이 먹어요~\n(*￣▽￣*)ブ",
         "MessageTW": "很忙的話那就下次再說吧～(*￣▽￣*)",
-        "MessageEN": "If you're busy today, we can eat together later!(*￣▽￣*)ブ"
+        "MessageEN": "If you're busy today, we can eat together later!\n(*￣▽￣*)ブ"
     },
     {
         "MessageId": 230000160,

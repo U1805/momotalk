@@ -171,7 +171,7 @@
         "ImagePath": "",
         "MessageJP": "じゃあ、気が向いたらまた連絡するから(￣︶￣*)",
         "MessageKR": "이따가 다시 연락할게~. //(￣︶￣*))",
-        "MessageTW": "那就先這樣，想連絡的時候會再聯絡你(￣︶￣*)",
+        "MessageTW": "那就先這樣，想連絡的時候會再聯絡你\n(￣︶￣*)",
         "MessageEN": "Ttyl! //(￣︶￣*))"
     },
     {
@@ -195,7 +195,7 @@
         "ImagePath": "",
         "MessageJP": "あー美味しかった！",
         "MessageKR": "아, 진짜 최고였다.",
-        "MessageTW": "啊――真好吃！",
+        "MessageTW": "啊～真好吃！",
         "MessageEN": "That was the best!"
     },
     {

@@ -50,7 +50,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "何度も連絡してすみません私はハルカです",
-        "MessageKR": "선생님안녕하십니까자주연락드려서죄송합니다저는하루카입니다.",
+        "MessageKR": "선생님안녕하십니까\n자주연락드려서죄송합니다저는하루카입니다.",
         "MessageTW": "很抱歉多次聯絡，我是遙香",
         "MessageEN": "Hello, Sensei. I'm s-sorry for contacting you so often. It's Haruka."
     },

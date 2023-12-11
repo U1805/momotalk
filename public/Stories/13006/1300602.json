@@ -122,9 +122,9 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "そういうわけで今日は、うちの便利屋に遊びに来てほしいな！(≧∇≦)ﾉ",
-        "MessageKR": "그러니까 오늘 우리 흥신소로 놀러 와!(≧∇≦)ﾉ",
-        "MessageTW": "所以今天，希望你來我們便利屋玩！(≧∇≦)ﾉ",
-        "MessageEN": "Come visit the Problem Solver office today!(≧∇≦)ﾉ"
+        "MessageKR": "그러니까 오늘 우리 흥신소로 놀러 와!\n(≧∇≦)ﾉ",
+        "MessageTW": "所以今天，希望你來我們便利屋玩！\n(≧∇≦)ﾉ",
+        "MessageEN": "Come visit the Problem Solver office today!\n(≧∇≦)ﾉ"
     },
     {
         "MessageId": 130050127,

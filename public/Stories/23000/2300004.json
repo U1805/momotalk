@@ -148,7 +148,7 @@
         "MessageJP": "その時はまた、ぜひアイスクリームも買って",
         "MessageKR": "물론, 아이스크림도 함께요.",
         "MessageTW": "到時候一定還要買冰淇淋",
-        "MessageEN": "Sure. But with ice cream."
+        "MessageEN": "And get ice cream, of course!"
     },
     {
         "MessageId": 230000320,
@@ -206,8 +206,8 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "それでは今日も明日も、良い一日を！(✿•‿•✿)",
-        "MessageKR": "그럼 오늘도 행복한 하루 되세요~!(✿•‿•✿)",
-        "MessageTW": "那麼，祝你每天都是美好的一天！(✿◕‿◕✿)",
-        "MessageEN": "Have an awesome day!(✿◕‿◕✿)"
+        "MessageKR": "그럼 오늘도 행복한 하루 되세요~!\n(✿•‿•✿)",
+        "MessageTW": "那麼，祝你每天都是美好的一天！\n(✿◕‿◕✿)",
+        "MessageEN": "Have an awesome day!\n(✿◕‿◕✿)"
     }
 ]

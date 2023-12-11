@@ -74,7 +74,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "はい。聴覚というものは、繰り返しの刺激には簡単に慣れてしまうものですから",
-        "MessageKR": "네,의외로 사람의 청각은 반복되는 자극에 쉽게 무디어지는 법이니까요 .",
+        "MessageKR": "네, 의외로 사람의 청각은 반복되는 자극에 쉽게 무디어지는 법이니까요.",
         "MessageTW": "是的。聽覺這種東西，對於反覆的刺激是很容易習慣的",
         "MessageEN": "Yes, human hearing is surprisingly vulnerable to repetitive stimulus."
     },
@@ -98,7 +98,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "私がよく聞く音楽……",
-        "MessageKR": "제가 듣는 음악,말입니까 ?",
+        "MessageKR": "제가 듣는 음악, 말입니까?",
         "MessageTW": "我常聽的音樂嗎……",
         "MessageEN": "The music I listen to?"
     },
@@ -110,7 +110,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "えっと、それは……",
-        "MessageKR": "어,그게…….",
+        "MessageKR": "어, 그게…….",
         "MessageTW": "那個，是……",
         "MessageEN": "Well, that is..."
     },

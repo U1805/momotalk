@@ -145,9 +145,9 @@
         "NextId": 100540200,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "その、何かありませんでしたか？去り際になんだか鈍い音が聞こえたような気がして……",
+        "MessageJP": "その、何かありませんでしたか？\n去り際になんだか鈍い音が聞こえたような気がして……",
         "MessageKR": "괜찮으신가요? 뭔가 둔탁한 소리가 들렸던 거 같아서…….",
-        "MessageTW": "那個，剛才發生了什麼嗎？離開的時候好像聽到了一聲沉悶的聲音……",
+        "MessageTW": "那個，剛才發生了什麼嗎？\n離開的時候好像聽到了一聲沉悶的聲音……",
         "MessageEN": "Are you alright? I thought I heard a big thud..."
     },
     {

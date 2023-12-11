@@ -76,7 +76,7 @@ After selecting a role, you can **send messages or images** in the message bar (
   - *回复* 键入回车会出现下一个选项框
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序
 - **删除**：光标 *停留* 在元素上时，出现 \`x\` 删除按钮
-- **快捷键**：撤销 `Ctrl+Z`，重做 `Ctrl+Shift+Z`
+- **快捷键**：撤销 `Ctrl+Z`，重做 `Ctrl+Shift+Z`, 软换行 `Shift+Enter`
 
 Following the **WYSIWYG** (What you see is what you get) design philosophy, elements can still be directly edited after sending messages, such as modifying, dragging, deleting, etc. 
 
@@ -84,7 +84,7 @@ Following the **WYSIWYG** (What you see is what you get) design philosophy, elem
   - For " *Reply* ", pressing Enter will bring up the next option.
 - **Dragging**: Holding and moving messages up and down can adjust the order between messages.
 - **Deleting**: When the cursor *hovers* over an element, a delete button `x` will appear near the element.
-- **Shortcut key**: undo `Ctrl+Z` and redo `Ctrl+Shift+Z`
+- **Shortcut key**: undo `Ctrl+Z`, redo `Ctrl+Shift+Z`, and line break `Shift+Enter`
 
 <p align="center">
 <img src="./public/img/edit.webp" alt="edit" style="width:50%">

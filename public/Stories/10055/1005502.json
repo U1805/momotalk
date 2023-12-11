@@ -217,9 +217,9 @@
         "NextId": -1,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "安全第一なんだから。分かった？",
+        "MessageJP": "安全第一なんだから。\n分かった？",
         "MessageKR": "알겠지?\u200b",
-        "MessageTW": "安全第一。知道了嗎？",
+        "MessageTW": "安全第一。\n知道了嗎？",
         "MessageEN": "Promise?"
     }
 ]

@@ -37,10 +37,10 @@
         "NextId": 260030270,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "今日も良い一日になりますように！ (✿˘‿˘)",
-        "MessageKR": "오늘도 활기찬 하루 되시길 바랄게요! (✿˘‿˘)",
-        "MessageTW": "希望今天也是美好的一天！ （✿˘‿˘）",
-        "MessageEN": "I hope you have an amazing day today!(✿˘‿˘)"
+        "MessageJP": "今日も良い一日になりますように！ \n(✿˘‿˘)",
+        "MessageKR": "오늘도 활기찬 하루 되시길 바랄게요!\n (✿˘‿˘)",
+        "MessageTW": "希望今天也是美好的一天！\n （✿˘‿˘）",
+        "MessageEN": "I hope you have an amazing day today!\n(✿˘‿˘)"
     },
     {
         "MessageId": 260030270,
@@ -220,6 +220,6 @@
         "MessageJP": "私、とっても幸せです！(´▽｀)♪",
         "MessageKR": "기뻐요! ♪(´▽｀)",
         "MessageTW": "我非常幸福！（´▽｀）♪",
-        "MessageEN": "I'm happy!♪(´▽｀)"
+        "MessageEN": "I'm happy!\n♪(´▽｀)"
     }
 ]

@@ -97,10 +97,10 @@
         "NextId": 100020137,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "ありがとうございます！では待ってますね、先生！(o^－^o)",
-        "MessageKR": "그럼 먼저 가서 기다리고 있을게요, 선생님!(o^－^o)",
-        "MessageTW": "謝謝您！那我等著唷，老師！(o^－^o)",
-        "MessageEN": "Then I'll get there first and wait for you, Sensei!(o^－^o)"
+        "MessageJP": "ありがとうございます！では待ってますね、先生！\n(o^－^o)",
+        "MessageKR": "그럼 먼저 가서 기다리고 있을게요, 선생님!\n(o^－^o)",
+        "MessageTW": "謝謝您！那我等著唷，老師！\n(o^－^o)",
+        "MessageEN": "Then I'll get there first and wait for you, Sensei!\n(o^－^o)"
     },
     {
         "MessageId": 100020137,

@@ -37,9 +37,9 @@
         "NextId": 200180140,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "スイッチやボタンの上に設置する安全カバーあるじゃん。あれ、「モリーガード」って言うんだよ",
+        "MessageJP": "スイッチやボタンの上に設置する安全カバーあるじゃん。\nあれ、「モリーガード」って言うんだよ",
         "MessageKR": "스위치나 버튼 위에 설치하는 안전 덮개는 흔히 <몰리 가드>라고 부르거든.",
-        "MessageTW": "不是有安置在開關和按鈕上的安全蓋嗎那個，叫做「Molly-Guard」唷",
+        "MessageTW": "不是有安置在開關和按鈕上的安全蓋嗎\n那個，叫做「Molly-Guard」唷",
         "MessageEN": "A safety cover installed over a switch or button is often called a \"Molly-guard.\""
     },
     {

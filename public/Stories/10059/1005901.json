@@ -325,9 +325,9 @@
         "NextId": -1,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "分かった☆おやすみ！",
+        "MessageJP": "分かった☆\nおやすみ！",
         "MessageKR": "알았어☆ 잘 자!",
-        "MessageTW": "我知道了☆晚安！",
+        "MessageTW": "我知道了☆\n晚安！",
         "MessageEN": "Okay! ☆ Goodnight!"
     }
 ]

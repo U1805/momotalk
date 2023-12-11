@@ -29,6 +29,7 @@
         display: flex;
         .box {
             background: $grey;
+            white-space: pre-wrap;
         }
     }
 
@@ -74,6 +75,7 @@
     }
     .box {
         background: #4a8ac6;
+        white-space: pre-wrap;
     }
 }
 
@@ -161,6 +163,7 @@
             border-radius: 10px;
             box-shadow: 0px 2px 5px #0000003d;
             @include font-regular(20px);
+            white-space: pre-wrap;
         }
     }
 }
@@ -186,6 +189,10 @@
             @include center;
             @include font-regular(20px);
             color: $font-black;
+            span{
+                text-align: center;
+                white-space: pre-wrap;
+            }
         }
     }
 }

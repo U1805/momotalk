@@ -73,9 +73,9 @@
         "NextId": 100530211,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "まあ、人並みにはそこまで熱心に応援しているわけではありませんが……",
+        "MessageJP": "まあ、人並みには\nそこまで熱心に応援しているわけではありませんが……",
         "MessageKR": "뭐, 그렇게 열성적인 팬이라고 하긴 어렵지만……",
-        "MessageTW": "這個嘛，和普通人相比我可能不是這麼熱衷……",
+        "MessageTW": "這個嘛，和普通人相比\n我可能不是這麼熱衷……",
         "MessageEN": "I wouldn't call myself a fan..."
     },
     {

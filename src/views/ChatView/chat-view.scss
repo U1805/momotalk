@@ -38,7 +38,7 @@ $bar-icon-height: calc($bar-height * 0.67);
 }
 
 .text {
-    font-size: 20px;
+    @include font-regular(20px);
     color: #666;
     padding: 5px 10px;
     margin: 0 8px;
@@ -46,6 +46,12 @@ $bar-icon-height: calc($bar-height * 0.67);
     width: 100%;
     border-radius: 5px;
     border: 1px solid #aaa;
+    line-height: 28px;
+    resize: none;
+    &:focus::placeholder{
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+    }
 }
 
 .selected-student {

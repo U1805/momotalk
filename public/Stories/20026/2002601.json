@@ -27,8 +27,13 @@
         "ImagePath": "",
         "MessageJP": "<広告>レッドウィンター連邦学園工務部 / 専門人材派遣 / 長期・短期・日雇い / 土木・建設・増築・撤去・リフォーム / 何でも気軽にご相談ください！このメールを配信停止する場合はモモトークにてご連絡ください",
         "MessageKR": "<광고> 붉은겨울 용역부 / 전문 인력 파견 / 맞춤 인력, 장기, 단기, 일용직 / 토목, 건설, 증축, 철거, 리모델링 / 일 쓰실 분 / 일하실 분 / 연락 기다리고 있습니다 / 수신 거부는 모모톡으로",
+<<<<<<< HEAD
         "MessageTW": "",
         "MessageEN": ""
+=======
+        "MessageTW": "<廣告>赤冬聯邦學園工務部 /\n專業人力派遣 / 長期、短期、單日 /\n土木、建設、擴建、拆除、翻修 /\n任何事情都歡迎聯絡！ /\n若此信箱無法聯絡請使用MomoTalk",
+        "MessageEN": "<Ad> Red Winter Labor Party / Professional, Customized Staffing for Long or Short Term Day Labor / Civil Engineering, Construction, Renovation, Demolition, Remodeling / Looking to Hire / Looking for Work / Contact Us! / Opt Out with MomoTalk"
+>>>>>>> 7d44b86 (feat: Shift + Enter = line break)
     },
     {
         "MessageId": 200260020,

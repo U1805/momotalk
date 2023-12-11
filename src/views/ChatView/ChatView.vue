@@ -54,12 +54,11 @@
                 <!-- 贴图 -->
 
                 <!-- 发送 -->
-                <input
+                <textarea
                     class="text"
                     placeholder="Aa"
                     v-model="store.text"
-                    @keyup.enter="sendText(selected, store.text)"
-                />
+                ></textarea>
                 <div class="photo" title="Send an Image">
                     <ImageIcon @click="sendImage(selected)" class="image icon" />
                 </div>
@@ -204,8 +203,8 @@ const deleteStudent = (id: number) => {
     selectChar(1)
 }
 
-// 滚动 & 判断播放
 onMounted(async () => {
+    // 滚动 & 判断播放
     var scroll_to_bottom = document.getElementById('talkList') as HTMLElement
     scroll_to_bottom.scrollTop = scroll_to_bottom.scrollHeight
     const route = useRoute()
@@ -217,6 +216,14 @@ onMounted(async () => {
             if (!Object.keys(store.storyList).find((ele) => ele === store.storyFile))
                 store.storyFile = Object.keys(store.storyList)[0]
             store.showDialog = true
+        }
+    }
+    // 软换行
+    var textarea = document.querySelector("textarea") as HTMLElement
+    textarea.onkeyup = (e) => {
+        if (!e.shiftKey && e.key === 'Enter') {
+            store.text = store.text.trimEnd()
+            sendText(selected.value, store.text)
         }
     }
 })

@@ -50,7 +50,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "今なにしてんだ？",
-        "MessageKR": "선생, 지금 뭐해?",
+        "MessageKR": "선생, 지금 뭐 해?",
         "MessageTW": "你現在在做什麼？",
         "MessageEN": "Sensei, what are you doing?"
     },
@@ -62,7 +62,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "何もしてないよ",
-        "MessageKR": "아무것도 안하고 있는데",
+        "MessageKR": "아무것도 안 하고 있는데",
         "MessageTW": "什麼也沒做唷",
         "MessageEN": "Not much."
     },

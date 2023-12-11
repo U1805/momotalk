@@ -5,14 +5,14 @@ import { Traditionalized } from './tw_cn'
 const prefixTable: { [key: string]: string[] } = {
     bunnygirl: ['兔', '兔女郎'],
     casual: ['私服', '滑板'],
-    cheerleader: ['应援', '应援服', '啦啦队', '拉拉队'],
-    christmas: ['圣诞'],
-    gym: ['体', '体操', '体操服', '运动', '运动服'],
+    cheerleader: ['啦', '拉', '应援', '应援服', '啦啦队', '拉拉队'],
+    christmas: ['圣', '圣诞'],
+    gym: ['体', '运', '体操', '体操服', '运动', '运动服'],
     hotspring: ['温泉'],
-    maid: ['女仆'],
+    maid: ['女仆', "妹抖", "妹"],
     newyear: ['新', '春', '新春', '新年', '正月'],
     riding: ['单车', '骑行'],
-    swimsuit: ['水', '泳装'],
+    swimsuit: ['水', '泳', '泳装'],
     young: ['幼', '幼女']
 }
 

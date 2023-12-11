@@ -40,7 +40,7 @@
         "MessageJP": "近々トリニティにいらっしゃる予定ってありますか？",
         "MessageKR": "혹시 트리니티 학원에는 언제 오세요?",
         "MessageTW": "最近有打算來三一嗎？",
-        "MessageEN": "Are you coming to the Trinity sometime soon?"
+        "MessageEN": "Are you coming to Trinity sometime soon?"
     },
     {
         "MessageId": 230000210,
@@ -133,9 +133,9 @@
         "NextId": 229990247,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "お待ちしてますね、先生！(((o(≧∇≦)o)))",
+        "MessageJP": "お待ちしてますね、先生！\n(((o(≧∇≦)o)))",
         "MessageKR": "감사합니다! 선생님! (((o(≧∇≦)o)))",
-        "MessageTW": "我等你唷，老師！(((o(≧∇≦)o)))",
+        "MessageTW": "我等你唷，老師！\n(((o(≧∇≦)o)))",
         "MessageEN": "Thanks, Sensei!"
     },
     {

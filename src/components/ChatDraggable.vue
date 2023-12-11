@@ -29,7 +29,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     class="name"
                     v-if="element.type === 0 && element.flag > 0"
                     contenteditable
-                    @input="saveEdit($event, element.id, 'name')"
+                    @blur="saveEdit($event, element.id, 'name')"
                 >
                     {{ element.name }}
                 </div>
@@ -40,14 +40,14 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div
                             class="header"
                             contenteditable
-                            @input="saveEdit($event, element.id, 'name')"
+                            @blur="saveEdit($event, element.id, 'name')"
                         >
                             <div class="title">{{ element.name }}</div>
                         </div>
                         <div class="content">
                             <span
                                 contenteditable
-                                @input="saveEdit($event, element.id, 'content')"
+                                @blur="saveEdit($event, element.id, 'content')"
                                 >{{ element.content }}</span
                             >
                         </div>
@@ -57,7 +57,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div
                             class="header"
                             contenteditable
-                            @input="saveEdit($event, element.id, 'name')"
+                            @blur="saveEdit($event, element.id, 'name')"
                         >
                             <div class="title">{{ element.name }}</div>
                         </div>
@@ -79,7 +79,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div class="content">
                             <span
                                 contenteditable
-                                @input="saveEdit($event, element.id, 'content')"
+                                @blur="saveEdit($event, element.id, 'content')"
                                 >{{ element.content }}</span
                             >
                         </div>
@@ -109,7 +109,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <span
                             v-else
                             contenteditable
-                            @input="saveEdit($event, element.id, 'content')"
+                            @blur="saveEdit($event, element.id, 'content')"
                             >{{ element.content }}</span
                         >
                     </div>

@@ -157,9 +157,9 @@
         "NextId": -1,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "本当にお疲れだったんですね(✿˘‿˘)",
-        "MessageKR": "정말로 많이 피곤하셨나 보네요 ㅎㅎㅎ(✿˘‿˘)",
-        "MessageTW": "看來你真的累了呢(✿˘‿˘)",
-        "MessageEN": "You must have been really tired. Heehee.(✿˘‿˘)"
+        "MessageJP": "本当にお疲れだったんですね\n(✿˘‿˘)",
+        "MessageKR": "정말로 많이 피곤하셨나 보네요 ㅎㅎㅎ\n(✿˘‿˘)",
+        "MessageTW": "看來你真的累了呢\n(✿˘‿˘)",
+        "MessageEN": "You must have been really tired. Heehee.\n(✿˘‿˘)"
     }
 ]

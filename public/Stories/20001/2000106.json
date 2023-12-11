@@ -1,0 +1,153 @@
+[
+    {
+        "CharacterId": 20001,
+        "MessageJP": "カリン",
+        "MessageKR": "카린",
+        "MessageTW": "花凛",
+        "MessageEN": "Karin"
+    },
+    {
+        "MessageId": 200000370,
+        "Flag": 2,
+        "Type": 4,
+        "NextId": 200010375,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "既読",
+        "MessageKR": "읽혔습니다",
+        "MessageTW": "已讀",
+        "MessageEN": "Message read"
+    },
+    {
+        "MessageId": 200010375,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010382,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "友人の用事は無事終わったらしい",
+        "MessageKR": "친구도 이제 괜찮아진 것 같아.",
+        "MessageTW": "朋友的事情好像順利結束了",
+        "MessageEN": "I think she's feeling better now."
+    },
+    {
+        "MessageId": 200010382,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200010390,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "これでもう、メイドカフェに代わりに行く必要もない",
+        "MessageKR": "이제 더 이상 메이드 카페에 대타 뛸 일도 없겠지.",
+        "MessageTW": "現在已經不用去女僕咖啡廳代班了",
+        "MessageEN": "I probably won't have to work at the maid cafe anymore."
+    },
+    {
+        "MessageId": 200010390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010403,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "お疲れ様！",
+        "MessageKR": "수고 했어.",
+        "MessageTW": "辛苦了！",
+        "MessageEN": "Good job."
+    },
+    {
+        "MessageId": 200010390,
+        "Flag": 2,
+        "Type": 3,
+        "NextId": 200010410,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "最後にもう一度見たかった！",
+        "MessageKR": "마지막으로 한 번 더 보고 싶었는데!",
+        "MessageTW": "最後還想再看一次！",
+        "MessageEN": "I wanted to see you one last time!"
+    },
+    {
+        "MessageId": 200010403,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010427,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "うん。まあ色々あったけど、友達にも助かったと言ってもらえた",
+        "MessageKR": "응. 난감하긴 했지만, 친구에게도 고맙다는 말을 들었어.",
+        "MessageTW": "嗯。雖然發生了很多事情，但朋友也有謝謝我幫忙",
+        "MessageEN": "Yeah, it was tough, but my friend thanked me."
+    },
+    {
+        "MessageId": 200010410,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200010427,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "残念だけど、もう私がメイドカフェで仕事をすることはないから",
+        "MessageKR": "늦었다. 이제 내가 메이드 카페에서 일할 일은 없을 테니까.",
+        "MessageTW": "很遺憾，我不會再去女僕咖啡廳工作了",
+        "MessageEN": "It's too late. I probably won't be working there anymore."
+    },
+    {
+        "MessageId": 200010427,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200010434,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "もう先生にあの、萌え萌えキュンもやってあげられないね",
+        "MessageKR": "선생님, 이제 내가 모에모에큥도 못 해주겠네.",
+        "MessageTW": "已經不能再幫老師做那個「萌耶萌耶啾」了",
+        "MessageEN": "I probably can't do \"moe moe, kyun\" for you anymore."
+    },
+    {
+        "MessageId": 200010434,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": 200000447,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "残念……だったり、する？",
+        "MessageKR": "유감…… 이지?",
+        "MessageTW": "會覺得……可惜嗎？",
+        "MessageEN": "How unfortunate."
+    },
+    {
+        "MessageId": 200000447,
+        "Flag": 2,
+        "Type": 2,
+        "NextId": 200010441,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "カリンの絆イベントへ",
+        "MessageKR": "카린의 인연스토리로",
+        "MessageTW": "前往花凛的羈絆劇情",
+        "MessageEN": "Go to Karin's Event"
+    },
+    {
+        "MessageId": 200010441,
+        "Flag": 2,
+        "Type": 0,
+        "NextId": 200010458,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "……なんてね。何にせよこれからもよろしく",
+        "MessageKR": "앞으로도 잘 부탁해.",
+        "MessageTW": "……開玩笑的。無論如何，今後也請多多關照",
+        "MessageEN": "Thank you so much."
+    },
+    {
+        "MessageId": 200010458,
+        "Flag": 1,
+        "Type": 0,
+        "NextId": -1,
+        "MessageType": "Text",
+        "ImagePath": "",
+        "MessageJP": "私の、ご主人様",
+        "MessageKR": "나의 주인님.",
+        "MessageTW": "我的，主人",
+        "MessageEN": "My Master."
+    }
+]

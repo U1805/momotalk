@@ -18,7 +18,7 @@
             "tw": "吃不下這麼多了……",
             "en": "I can't eat this much..."
         },
-        "Nickname": ["Arona", "彩奈"],
+        "Nickname": ["Arona", "阿罗娜", "彩奈"],
         "School": "ETC"
     },
     {
@@ -26,7 +26,7 @@
         "Name": {
             "zh": "普拉娜",
             "jp": "プラナ",
-            "tw": "普拉娜",
+            "tw": "星奈",
             "en": "Purana",
             "kr": "A.R.O.N.A"
         },
@@ -39,7 +39,7 @@
             "tw": "前輩，該起床了",
             "en": "Senpai, it's time to wake up"
         },
-        "Nickname": ["Purana", "A.R.O.N.A", "星奈"],
+        "Nickname": ["Purana", "A.R.O.N.A", "普拉娜", "星奈"],
         "School": "ETC"
     },
     {

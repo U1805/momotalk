@@ -146,7 +146,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "P.S. 正面玄関ではなく、裏手から入ってきてください",
-        "MessageKR": "Ps. 아, 그리고 정문이 아니라,뒷문으로 들어와 주세요.",
+        "MessageKR": "Ps. 아, 그리고 정문이 아니라,\n뒷문으로 들어와 주세요.",
         "MessageTW": "P.S. 請從後門進來，不要走正門",
         "MessageEN": "P.S. Please come to the back door. Not the front."
     },

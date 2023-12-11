@@ -86,9 +86,10 @@ export const talkHistory = reactive({
     },
 
     setData() {
-        historyState.push(this.talkHistory)
         localStorage.setItem('talkHistory', JSON.stringify(this.talkHistory))
         localStorage.setItem('talkId', JSON.stringify(this.talkId))
+        if (JSON.stringify(this.talkHistory) !== JSON.stringify(historyState.value()))
+            historyState.push(this.talkHistory)
     },
     getData() {
         const data = [localStorage.getItem('talkHistory'), localStorage.getItem('talkId')]

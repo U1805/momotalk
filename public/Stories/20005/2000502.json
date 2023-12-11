@@ -134,9 +134,9 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "私のせいで、余計に大変なことになってしまって……(；＿；)",
-        "MessageKR": "저 때문에 괜한 고생을 하셨으니…… (；＿；)",
+        "MessageKR": "저 때문에 괜한 고생을 하셨으니……\n (；＿；)",
         "MessageTW": "因為我的關係，引起了不必要的麻煩事……(；＿；)",
-        "MessageEN": "You had to do all of that because of me...(；＿；)"
+        "MessageEN": "You had to do all of that because of me...\n(；＿；)"
     },
     {
         "MessageId": 20005170,

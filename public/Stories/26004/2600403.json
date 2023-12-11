@@ -111,7 +111,7 @@
         "ImagePath": "",
         "MessageJP": "ヒントを出しますと、「宝探し」みたいなものです！(・∀・*)",
         "MessageKR": "일종의 보물찾기니까요! (・∀・*)",
-        "MessageTW": "給你一個提示，是「尋寶」之類的！(．∀．*)",
+        "MessageTW": "給你一個提示，是「尋寶」之類的！\n(．∀．*)",
         "MessageEN": "It'll be like a treasure hunt!"
     },
     {

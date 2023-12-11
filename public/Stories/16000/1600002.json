@@ -74,7 +74,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "覚えてなくても全然大丈夫なのですが、先生にお渡ししたいものがあります",
-        "MessageKR": "기억하지않으셔도좋지만선생님께드리고픈것이있습니다",
+        "MessageKR": "기억하지않으셔도좋지만\n선생님께드리고픈것이있습니다",
         "MessageTW": "如果不記得也沒關係，我有東西想要交給老師",
         "MessageEN": "It's okay if you don't remember. I just have something that I really want to give you, so..."
     },
@@ -86,7 +86,7 @@
         "MessageType": "Text",
         "ImagePath": "",
         "MessageJP": "つまらない物ですが、今度時間のある時にでもぜひ",
-        "MessageKR": "하찮은것이지만나중에라도언제든시간이여유로우실때",
+        "MessageKR": "하찮은것이지만나중에라도\n언제든시간이여유로우실때",
         "MessageTW": "雖然只是微不足道的東西，但下次有空的時候",
         "MessageEN": "It's honestly nothing special, so if you happen to have time today or tomorrow, or whenever..."
     },

@@ -37,10 +37,15 @@
         "NextId": 100680380,
         "MessageType": "Text",
         "ImagePath": "",
-        "MessageJP": "いつものことですが……深夜のパトロールは睡魔との戦いですね……",
+        "MessageJP": "いつものことですが……\n深夜のパトロールは睡魔との戦いですね……",
         "MessageKR": "야간 순찰은 졸음과의 싸움이네요. 자면 안 되는데…….",
+<<<<<<< HEAD
         "MessageTW": "",
         "MessageEN": ""
+=======
+        "MessageTW": "雖然是例行公事了……\n不過深夜巡邏就是和瞌睡蟲的戰爭呢……",
+        "MessageEN": "Every single late night patrol is an epic battle. A battle with sleepiness. I gotta stay awake!"
+>>>>>>> 7d44b86 (feat: Shift + Enter = line break)
     },
     {
         "MessageId": 100680380,
