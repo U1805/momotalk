@@ -1,5 +1,5 @@
 import { readFile } from '../imgUtils/readFile'
-import i18n from '../locales/i18n'
+import i18n from '@/locales/i18n'
 import { myStudent, Talk } from '../utils/interface'
 import { store } from '../storeUtils/store'
 import { talkHistory } from '../storeUtils/talkHistory'

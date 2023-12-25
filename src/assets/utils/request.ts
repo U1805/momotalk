@@ -16,6 +16,14 @@ const prefixTable: { [key: string]: string[] } = {
     young: ['幼', '幼女']
 }
 
+const proxy = (url: string|string[]): string|string[] => {
+    if (typeof url === 'string'){
+        return url.replace('/api', 'https://cdn.jsdelivr.net/gh/BlueArcbox/resources')
+    }else{
+        return url.map(ele=>proxy(ele)) as string[]
+    }
+}
+
 const getSchaleImg = (collection: string) => {
     return `https://schale.gg/images/student/collection/${collection}.webp`
 }
@@ -26,12 +34,12 @@ const getSchaleSchoolIcon = (school: string) => {
 
 const getData = async (file: string) => {
     let data: any[] = []
-    await axios.get(file).then((res) => (data = res.data))
+    await axios.get(proxy(file) as string).then((res) => (data = res.data))
     return data
 }
 
 const getSchale = async (lng: string) => {
-    const local = await getData('/momotalk/students.json')
+    const local = await getData('/api/Momotalk/students.json')
     const schale = await getData(`https://schale.gg/data/${lng}/students.min.json`)
     const results: myStudent[] = []
     for (const schaleItem of schale) {
@@ -41,7 +49,7 @@ const getSchale = async (lng: string) => {
             Id: schaleItem.Id,
             Name: schaleItem.Name,
             Birthday: schaleItem.Birthday,
-            Avatar: [getSchaleImg(schaleItem.Id), ...(localItem ? localItem.Avatar : [])],
+            Avatar: proxy([getSchaleImg(schaleItem.Id), ...(localItem ? localItem.Avatar : [])]) as string[],
             Bio: (localItem && localItem.Bio[lng]) ? localItem.Bio[lng] : "",
             Nickname: [schaleItem.PathName, ...(localItem ? localItem.Nickname : [])],
             School: (localItem && localItem.School) ? localItem.School : schaleItem.School,
@@ -71,14 +79,14 @@ const getSchale = async (lng: string) => {
 }
 
 const getLocal = async (lng: string) => {
-    const local = await getData('/momotalk/students2.json')
+    const local = await getData('/api/Momotalk/students2.json')
     const results: myStudent[] = []
     for (const localItem of local) {
         const newStudent: myStudent = {
             Id: localItem.Id,
             Name: localItem.Name[lng] ? localItem.Name[lng] : localItem.Name['en'],
             Birthday: '???',
-            Avatar: [`/momotalk/Avatars/${localItem.Nickname[0]}.webp`, ...localItem.Avatar],
+            Avatar: proxy([`/api/Avatars/${localItem.Nickname[0]}.webp`, ...localItem.Avatar]) as string[],
             Bio: localItem.Bio[lng] ? localItem.Bio[lng] : localItem.Bio['en'],
             Nickname: [...localItem.Nickname, ...Traditionalized(localItem.Nickname)],
             School: localItem.School ? localItem.School : '',
@@ -96,13 +104,13 @@ const getStudents = async (lng: string) => {
 }
 
 const getMessage = async (storyid: string, story: string) => {
-    const res = await getData(`/momotalk/Stories/${storyid}/${story}.json`)
+    const res = await getData(`/api/Stories/${storyid}/${story}.json`)
     return res
 }
 
 const getStickers = async (student: number) => {
-    const res = await getData(`/momotalk/Stories/${student}/Stickers.json`)
+    const res = await getData(`/api/Stories/${student}/Stickers.json`)
     return res
 }
 
-export { getStudents, getMessage, getSchaleImg, getSchaleSchoolIcon, getStickers }
+export { getStudents, getMessage, getSchaleImg, getSchaleSchoolIcon, getStickers, proxy }

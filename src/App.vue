@@ -105,7 +105,7 @@ import Dialog from '@/components/DialogWindow.vue'
 <script lang="ts">
 import { ref, watch } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import i18n from '@/assets/locales/i18n'
+import i18n from '@/locales/i18n'
 import { myStudent } from '@/assets/utils/interface'
 import { getStudents, getSchaleSchoolIcon } from '@/assets/utils/request'
 import { download } from '@/assets/imgUtils/download'

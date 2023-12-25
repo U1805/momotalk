@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import i18n from '../locales/i18n'
+import i18n from '@/locales/i18n'
 import { talkHistory } from './talkHistory'
 import { selectList } from './selectList'
 

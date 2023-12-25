@@ -27,7 +27,4 @@ coverage
 *.sln
 *.sw?
 
-/src/assets/fetchData/
 /.vscode/
-/*/Stickers/temp/
-/*/Avatars/temp/

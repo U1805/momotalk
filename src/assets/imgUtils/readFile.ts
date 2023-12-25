@@ -1,4 +1,4 @@
-import i18n from '@/assets/locales/i18n'
+import i18n from '@/locales/i18n'
 
 const readFile = (reader: FileReader) => {
     const input = document.createElement('input')

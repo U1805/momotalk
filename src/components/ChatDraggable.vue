@@ -168,7 +168,7 @@ export default {
         },
         checkImg(content: string){
             const suffix = `(bmp|jpg|png|tif|gif|svg|webp|jpeg)`
-            var regular = new RegExp(`(data:image.*)|(./Stickers/.*\.webp)|((http|https)\:\/\/.*\.${suffix})`)
+            var regular = new RegExp(`(data:image.*)|((http|https)\:\/\/.*\.${suffix})`)
             return regular.test(content)
         }
     }

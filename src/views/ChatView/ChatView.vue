@@ -135,7 +135,7 @@ import Popper from 'vue3-popper'
 import { useRoute } from 'vue-router'
 import { onMounted, ref, watch } from 'vue'
 
-import i18n from '@/assets/locales/i18n'
+import i18n from '@/locales/i18n'
 import { myStudent } from '@/assets/utils/interface'
 import { stickers } from '@/assets/utils/stickers'
 import { getMessage, getStickers } from '@/assets/utils/request'
