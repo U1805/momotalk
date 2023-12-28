@@ -3,24 +3,32 @@ import { myStudent } from './interface'
 import { Traditionalized } from './tw_cn'
 
 const prefixTable: { [key: string]: string[] } = {
+    // 删除部分单字，如 '春' 可以被 '新春' 匹配到，'车' 可以被 '单车' 匹配到，'营''山' 同理
     bunnygirl: ['兔', '兔女郎'],
     casual: ['私服', '滑板'],
-    cheerleader: ['啦', '拉', '应援', '应援服', '啦啦队', '拉拉队'],
+    cheerleader: ['啦', '拉', '啦啦队', '拉拉队', '应援', '应援服'],
     christmas: ['圣', '圣诞'],
-    gym: ['体', '运', '体操', '体操服', '运动', '运动服'],
-    hotspring: ['温泉'],
-    maid: ['女仆', "妹抖", "妹"],
-    newyear: ['新', '春', '新春', '新年', '正月'],
+    gym: ['体', '体操', '体操服', '运', '运动', '运动服'],
+    hotspring: ['温', '温泉'],
+    maid: ['妹', '妹抖', '女仆'],
+    newyear: ['新', '新春', '新年', '正月'],
     riding: ['单车', '骑行'],
     swimsuit: ['水', '泳', '泳装'],
-    young: ['幼', '幼女']
+    young: ['幼', '幼女'],
+    camping: ['野', '露', '露营', '野营', '登山']
 }
 
-const proxy = (url: string|string[]): string|string[] => {
-    if (typeof url === 'string'){
-        return url.replace('/api', 'https://cdn.jsdelivr.net/gh/BlueArcbox/resources')
-    }else{
-        return url.map(ele=>proxy(ele)) as string[]
+function proxy(url: string): string
+function proxy(url: string[]): string[]
+
+function proxy(url: string | string[]) {
+    if (typeof url === 'string') {
+        if (url.indexOf('nocookie') !== -1)
+            return 'https://wsrv.nl/?url=' + url + '&output=webp'
+        else
+            return url.replace('/api', 'https://cdn.jsdelivr.net/gh/BlueArcbox/resources')
+    } else {
+        return url.map((ele) => proxy(ele))
     }
 }
 
@@ -34,7 +42,7 @@ const getSchaleSchoolIcon = (school: string) => {
 
 const getData = async (file: string) => {
     let data: any[] = []
-    await axios.get(proxy(file) as string).then((res) => (data = res.data))
+    await axios.get(proxy(file)).then((res) => (data = res.data))
     return data
 }
 
@@ -49,10 +57,13 @@ const getSchale = async (lng: string) => {
             Id: schaleItem.Id,
             Name: schaleItem.Name,
             Birthday: schaleItem.Birthday,
-            Avatar: proxy([getSchaleImg(schaleItem.Id), ...(localItem ? localItem.Avatar : [])]) as string[],
-            Bio: (localItem && localItem.Bio[lng]) ? localItem.Bio[lng] : "",
+            Avatar: proxy([
+                getSchaleImg(schaleItem.Id),
+                ...(localItem ? localItem.Avatar : [])
+            ]),
+            Bio: localItem && localItem.Bio[lng] ? localItem.Bio[lng] : '',
             Nickname: [schaleItem.PathName, ...(localItem ? localItem.Nickname : [])],
-            School: (localItem && localItem.School) ? localItem.School : schaleItem.School,
+            School: localItem && localItem.School ? localItem.School : schaleItem.School,
             cnt: 0
         }
 
@@ -60,16 +71,18 @@ const getSchale = async (lng: string) => {
         if (localItem && lng == 'en' && !localItem.Bio['en'])
             newStudent.Bio = localItem.Bio['jp']
         if (localItem && lng == 'tw' && !localItem.Bio['tw'])
-            newStudent.Bio = Traditionalized(localItem.Bio['zh']) as string
+            newStudent.Bio = Traditionalized(localItem.Bio['zh'])
 
         // generating nicknames: add prefix
         if (localItem && localItem.related) {
             const relatedInfo: [number, string] = localItem.related
-            const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])
-            const prefixs = prefixTable[relatedInfo[1]]
+            const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])!
+            var prefixs = prefixTable[relatedInfo[1]]
             for (const prefix of prefixs) {
                 newStudent.Nickname.push(prefix + relatedItem!.Name)
-                newStudent.Nickname.push(...relatedItem!.Nickname.map(nickname => prefix + nickname))
+                newStudent.Nickname.push(
+                    ...relatedItem.Nickname.map((nickname) => prefix + nickname)
+                )
             }
         }
         newStudent.Nickname.push(...Traditionalized(newStudent.Nickname))
@@ -86,7 +99,10 @@ const getLocal = async (lng: string) => {
             Id: localItem.Id,
             Name: localItem.Name[lng] ? localItem.Name[lng] : localItem.Name['en'],
             Birthday: '???',
-            Avatar: proxy([`/api/Avatars/${localItem.Nickname[0]}.webp`, ...localItem.Avatar]) as string[],
+            Avatar: proxy([
+                `/api/Avatars/${localItem.Nickname[0]}.webp`,
+                ...localItem.Avatar
+            ]),
             Bio: localItem.Bio[lng] ? localItem.Bio[lng] : localItem.Bio['en'],
             Nickname: [...localItem.Nickname, ...Traditionalized(localItem.Nickname)],
             School: localItem.School ? localItem.School : '',

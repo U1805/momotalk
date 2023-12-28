@@ -1,4 +1,4 @@
-import { proxy } from "./request"
+import { proxy } from './request'
 
 let stickers = [
     '/api/Stickers/01.webp',
@@ -43,6 +43,6 @@ let stickers = [
     '/api/Stickers/40.webp'
 ]
 
-stickers = proxy(stickers) as string[]
+stickers = proxy(stickers)
 
 export { stickers }
