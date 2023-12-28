@@ -12,7 +12,8 @@
         height: 30px;
         @include setColor(#fff);
     }
-    &.language {
+    &.language,
+    &.setting {
         height: 35px;
         @include setColor(#fff);
     }

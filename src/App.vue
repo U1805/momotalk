@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import MomoIcon from './components/icons/IconMomo.vue'
-import CloseIcon from './components/icons/IconClose.vue'
+import SettingIcon from './components/icons/IconSetting.vue'
 import StudentIcon from './components/icons/IconStudent.vue'
 import MessageIcon from './components/icons/IconMessage.vue'
 import DownloadIcon from './components/icons/IconDownload.vue'
@@ -9,11 +9,13 @@ import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
 import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
-import Dialog from '@/components/DialogWindow.vue'
+import PlayerDialog from '@/components/PlayerWindow.vue'
+import SettingDialog from '@/components/SettingWindow.vue'
 </script>
 
 <template>
-    <Dialog></Dialog>
+    <PlayerDialog></PlayerDialog>
+    <SettingDialog></SettingDialog>
     <div id="root">
         <div id="header">
             <div id="header__left">
@@ -24,7 +26,7 @@ import Dialog from '@/components/DialogWindow.vue'
                 </RouterLink>
             </div>
             <div id="header__right">
-                <CloseIcon class="icon close" />
+                <SettingIcon class="icon setting" @click="store.showSettingDialog = true"/>
             </div>
         </div>
 

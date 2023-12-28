@@ -12,7 +12,7 @@ const play = async (
     storyFile: string,
     storyLng: string
 ) => {
-    store.showDialog = false
+    store.showPlayerDialog = false
     if (!confirm || !(storyKey && storyFile && storyLng)) return false
     const data = await getMessage(storyKey, storyFile)
     if (!data[2][storyLng]) return false

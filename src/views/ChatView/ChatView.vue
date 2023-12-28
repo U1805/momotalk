@@ -215,7 +215,7 @@ onMounted(async () => {
         if (store.storyList) {
             if (!Object.keys(store.storyList).find((ele) => ele === store.storyFile))
                 store.storyFile = Object.keys(store.storyList)[0]
-            store.showDialog = true
+            store.showPlayerDialog = true
         }
     }
     // 软换行

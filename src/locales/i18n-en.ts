@@ -11,10 +11,13 @@ export default {
     cancel: 'Cancel',
     selectStory: 'Select an episode',
     selectLanguage: 'Select a language',
+    setting: '⚙️ Settings',
+    importDialog: 'Import History: ',
+    exportDialog: 'Export History: ',
+    importButton: 'Select a file',
+    exportButton: 'Download',
     help: `
 # How to use 
-
-[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚 Sidebar 
 
@@ -46,7 +49,7 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 - **Reply**: Typing Enter will bring up the next option box.
 - **Drag and Drop**: Hold and move messages up and down to adjust their order.
 - **Delete**: When the cursor is *hovering* over an element, an 'x' delete button appears.
-- **Keyboard Shortcuts**: Undo with \`Ctrl+Z\`, redo with \`Ctrl+Shift+Z\`.
+- **Keyboard Shortcuts**: Undo with \`Ctrl+Z\`, redo with \`Ctrl+Shift+Z\`, line break \`Ctrl+Shift+Enter\`
 
 ![](./img/edit.webp)
 

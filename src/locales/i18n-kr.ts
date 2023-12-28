@@ -10,5 +10,10 @@ export default {
     confirm: '확인',
     cancel: '취소',
     selectStory: '에피소드 선택',
-    selectLanguage: '언어 선택'
+    selectLanguage: '언어 선택',
+    setting: '⚙️ 설정',
+    importDialog: '대화 가져오기: ',
+    exportDialog: '대화 내보내기: ',
+    importButton: '파일 선택',
+    exportButton: '다운로드',
 }

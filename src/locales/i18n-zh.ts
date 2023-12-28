@@ -10,10 +10,13 @@ export default {
     cancel: '取消',
     selectStory: '选择剧情',
     selectLanguage: '选择语言',
+    setting: '⚙️ 设置',
+    importDialog: '导入对话：',
+    exportDialog: '导出对话：',
+    importButton: '选择文件',
+    exportButton: '点我下载',
     help: `
 # 食用说明 · How to use 
-
-[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚侧边栏 · Sidebar 
 
@@ -45,7 +48,7 @@ export default {
 - **选项**：键入回车会出现下一个选项框
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序
 - **删除**：当光标 *停留* 在元素上时，出现 \`x\` 删除按钮
-- **快捷键**：撤销 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`
+- **快捷键**：撤销 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`，软换行 \`Ctrl+Shift+Enter\`
 
 ![](./img/edit.webp)
 

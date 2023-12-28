@@ -8,7 +8,8 @@ export const store = reactive({
 
     typing: 0,
     text: '',
-    showDialog: false,
+    showPlayerDialog: false,
+    showSettingDialog: false,
     storyKey: '10005',
     storyList: {} as {[key:string]: string[]},
     storyFile: '1000501',

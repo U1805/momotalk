@@ -10,10 +10,13 @@ export default {
     cancel: '取消',
     selectStory: '選擇劇集',
     selectLanguage: '選擇語言',
+    setting: '⚙️ 設置',
+    importDialog: '導入對話：',
+    exportDialog: '導出對話：',
+    importButton: '選擇文件',
+    exportButton: '點我下載',
     help: `
 # 使用說明 · How to use
-
-[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚側邊欄 · Sidebar
 
@@ -45,7 +48,7 @@ export default {
 - **選項**：輸入回車鍵會顯示下一個選項框
 - **拖曳**：按住消息上下移動可以調整消息之間的順序
 - **刪除**：當游標 *停留* 在元素上時，出現 \`x\` 刪除按鈕
-- **快速鍵**：撤銷 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`
+- **快速鍵**：撤銷 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`，軟換行 \`Ctrl+Shift+Enter\`
 
 ![](./img/edit.webp)
 

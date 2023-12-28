@@ -5,7 +5,6 @@
         <g id="SVGRepo_iconCarrier">
             <path
                 d="M5 5L19 19M5 19L19 5"
-                stroke="#ffffff"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"

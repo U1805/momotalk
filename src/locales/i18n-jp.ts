@@ -11,10 +11,13 @@ export default {
     cancel: 'キャンセル',
     selectStory: 'イベントを選択',
     selectLanguage: '言語を選択',
+    setting: '⚙️ 設定',
+    importDialog: '対話のインポート: ',
+    exportDialog: '対話のエクスポート: ',
+    importButton: 'ファイルを選択',
+    exportButton: 'ダウンロード',
     help: `
 # 使用方法 · How to use
-
-[![GITHUB](https://img.shields.io/badge/U1805-momotalk-COLOR.svg?logo=GITHUB)](https://github.com/U1805/momotalk)
 
 ## 📚サイドバー · Sidebar
 
@@ -46,7 +49,7 @@ export default {
 - **オプション**：Enterキーを押すと、次のオプションボックスが表示されます。
 - **ドラッグアンドドロップ**：メッセージを上下にドラッグしてメッセージの順序を調整できます。
 - **削除**：カーソルを要素上に置いたときに「x」の削除ボタンが表示されます。
-- **ショートカットキー**：元に戻す \`Ctrl+Z\`、やり直し \`Ctrl+Shift+Z\`
+- **ショートカットキー**：元に戻す \`Ctrl+Z\`、やり直し \`Ctrl+Shift+Z\`、ソフト改行 \`Ctrl+Shift+Enter\`
 
 ![](./img/edit.webp)
 
