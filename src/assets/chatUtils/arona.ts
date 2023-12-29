@@ -22,7 +22,7 @@ const getConfig = (message: object[]) => {
         method: 'post',
         url: store.host,
         headers: {
-            Authorization: `Bearer ${store.apikey}`,
+            'Authorization': `Bearer ${store.apikey}`,
             'Content-Type': 'application/json'
         },
         data: data

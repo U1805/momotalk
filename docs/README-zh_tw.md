@@ -39,7 +39,6 @@
 
 ![student](./assets/演示1.webp)
 ![chat](./assets/演示2.webp)
-![player](./assets/演示3.webp)
 <details><summary>支援的樣式一覽</summary>
     <ul>
     <li>學生</li>

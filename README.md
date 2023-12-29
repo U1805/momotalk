@@ -38,9 +38,8 @@
 
 ## Preview
 
-![student](./assets/演示1.webp)
-![chat](./assets/演示2.webp)
-![player](./assets/演示3.webp)
+![student](./docs/assets/演示1.webp)
+![chat](./docs/assets/演示2.webp)
 <details><summary>What you can send</summary>
     <ul>
     <li>Student</li>
