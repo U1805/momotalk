@@ -12,10 +12,16 @@ export default {
     selectStory: 'Select an episode',
     selectLanguage: 'Select a language',
     setting: '⚙️ Settings',
-    importDialog: 'Import History: ',
-    exportDialog: 'Export History: ',
+    importAndExport: 'Import/Export',
+    importDialog: 'Import History',
     importButton: 'Select a file',
+    exportDialog: 'Export History',
     exportButton: 'Download',
+    chatToArona: 'Chat with Arona',
+    warnSave: '❗This feature requires clearing the current conversation, please export first',
+    warnCost: '❗This feature will consume a significant amount of Tokens',
+    host: 'Forward Host',
+    clickToStart: 'Click below to start chatting with Arona',
     help: `
 # How to use 
 
@@ -40,7 +46,7 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 ## 🖌️ Edit
 
 - Select Identity: The first four options are "**Teacher**," "**Story Event**," "**Reply**," and "**System Message**." The last button is used to **add custom characters**.
-- For Teachers/Students, clicking on the avatar sends in-game chat **stickers**.
+- For Teachers/Students, clicking on the avatar sends in-game **chat stickers** and **student face variations images**.
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)

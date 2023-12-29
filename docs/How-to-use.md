@@ -57,12 +57,15 @@ The first four items in the candidate list are "**Sensei**", "**Story Event**", 
 
 选择身份后在发送栏**发送消息或图片**（大小限制为 1MB）
 
-老师和学生身份，点击发送栏的头像能够发送游戏中的聊天室**贴图** 
+老师和学生身份，点击发送栏的头像能够发送游戏中的聊天室**贴图**。此外，这里也可以选择角色的表情差分图片。
 
-After selecting a role, you can **send messages or images** in the message bar (size limit is 1MB). If the current role is a teacher or student, clicking on the avatar in the message bar allows you to send in-game chatroom **stickers**
+After selecting a role, you can **send messages or images** in the message bar (size limit is 1MB). 
+
+If the current role is a teacher or student, clicking on the avatar in the message bar allows you to send in-game chatroom **stickers**. In addition, student face variations is considered as a kind of special stickers too.
 
 <p align="center">
-<img src="../public/img/stickers.webp" alt="stickers" style="width:50%">
+<img src="../public/img/stickers.webp" alt="stickers" style="width:45%">
+<img src="../public/img/stickers2.webp" alt="face variations" style="width:45%">
 </p>
 
 

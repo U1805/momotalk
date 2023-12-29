@@ -4,17 +4,23 @@ export default {
     customRoleInfo: '輸入自訂角色名稱',
     storyEvent: '羈絆劇情',
     reply: '回覆',
-    dialogTitle: '🎈這是實驗性功能',
+    dialogTitle: '🎈實驗性功能',
     dialogContent: "點選 '確認' 開始播放學生 Momotalk 劇情\n💥注意：此功能將清空對話記錄",
     confirm: '確認',
     cancel: '取消',
     selectStory: '選擇劇集',
     selectLanguage: '選擇語言',
     setting: '⚙️ 設置',
-    importDialog: '導入對話：',
-    exportDialog: '導出對話：',
+    importAndExport: '導入/導出',
+    importDialog: '導入對話',
     importButton: '選擇文件',
+    exportDialog: '導出對話',
     exportButton: '點我下載',
+    chatToArona: '與阿羅娜聊天',
+    warnSave: '❗此功能需要清空當前對話，請先行保存',
+    warnCost: '❗此功能會大量消耗 Token',
+    host: '轉發 Host',
+    clickToStart: '點擊下面的阿羅娜開始聊天',
     help: `
 # 使用說明 · How to use
 
@@ -39,7 +45,7 @@ export default {
 ## 🖌️編輯介面 · Edit Container 
 
 - 選擇身份：前四項「**老師**」「**羈絆劇情框**」「**回覆**」「**系統訊息**」，最後一個按鈕用於**添加自訂角色** 
-- 老師/學生身份，點擊頭像可發送遊戲中的聊天室**貼圖** 
+- 老師/學生身份，點擊頭像可發送遊戲中的**聊天室貼圖**和**角色表情差分**
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)

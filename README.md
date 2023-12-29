@@ -13,25 +13,34 @@
   <sub>Set your Creative Idea free!</sub>
 </div>
 
-[English](./README.md) | [简体中文](./documents/README-zh_cn.md) | [繁體中文](./documents/README-zh_tw.md)
+[English](./README.md) | [简体中文](./docs/README-zh_cn.md) | [繁體中文](./docs/README-zh_tw.md)
 
 
 ## Feature
 
 - **Searchable**: search students by names, romajis, and even nicknames. 🔍️
 - **Custom role**: chat as Students, Sensei, and Custom roles. 🎅
-- **Diverse Event**: send Images/Stickers/Reply Box/Story Event during the chat. ❤️
+- **Diverse Event**: send Images/Stickers(Chatroom&Character)/Reply Box/Story Event during the chat. ❤️
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 - **Fast restart**: your conversation won't be lost the next time you open browser. 📌
+- **Import/Export**: Persistently export chat history to local files and import them back. 📄
 - **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, Korean, and English. 🌐
+- **Momotalk Player**: you can also use it to read Momotalk stories from game. ▶️
 
 [Try it!](https://u1805.github.io/momotalk)
 
+## Experimental Feature
+
+> This section contains features that are still unstable.
+
+- **A.R.O.N.A**: Provides an interactive experience with the virtual assistant ARONA. 💬
+
 ## Preview
 
-![img11](./documents/assets/演示1.webp)
-![img12](./documents/assets/演示2.webp)
+![student](./assets/演示1.webp)
+![chat](./assets/演示2.webp)
+![player](./assets/演示3.webp)
 <details><summary>What you can send</summary>
     <ul>
     <li>Student</li>
@@ -45,14 +54,10 @@
     <li>Photo</li>
     </ul>
 </details>
-<details><summary>Story Event player</summary>
-    To some extent, this application also has the capability of a story player, so you can also use it to play Momotalk stories from game.
-    <img src="./documents/assets/演示3.webp">
-</details>
 
 ## How to use
 
-[Quick start](./documents/How-to-use.md)
+[Quick start](./docs/How-to-use.md)
 
 ## Star History
 
@@ -73,6 +78,10 @@ Character metadata and assets from:
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
+
+ARONA prompts：
+
+- [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
 ## Copyrights
 

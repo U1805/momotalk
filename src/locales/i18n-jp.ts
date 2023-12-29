@@ -12,10 +12,16 @@ export default {
     selectStory: 'イベントを選択',
     selectLanguage: '言語を選択',
     setting: '⚙️ 設定',
-    importDialog: '対話のインポート: ',
-    exportDialog: '対話のエクスポート: ',
+    importAndExport: 'インポート/エクスポート',
+    importDialog: '対話のインポート',
     importButton: 'ファイルを選択',
+    exportDialog: '対話のエクスポート',
     exportButton: 'ダウンロード',
+    chatToArona: 'アロナとチャット',
+    warnSave: '❗この機能を使用するには、現在の対話を保存してください',
+    warnCost: '❗この機能は大量の Token を消費します',
+    host: 'ホストを転送',
+    clickToStart: '下のアロナをクリックしてチャットを開始',
     help: `
 # 使用方法 · How to use
 
@@ -40,7 +46,7 @@ export default {
 ## 🖌️編集 · Edit Container
 
 - 役割の選択：最初の4つのアイテム「**先生**」「**絆イベント**」「**返信**」「**システムメッセージ**」および最後のボタンは**カスタムキャラクターの追加**に使用されます。
-- 先生/生徒の役割は、アイコンをクリックしてゲーム内のチャットルーム**ステッカー**を送信できます。
+- 先生/生徒の役割は、アイコンをクリックしてゲーム内のチャットルーム**ステッカー**と**生徒差分**を送信できます。
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)

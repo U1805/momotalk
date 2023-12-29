@@ -9,20 +9,34 @@ import IconGithub from './icons/IconGithub.vue'
     <div v-if="store.showSettingDialog" class="dialog-mask flex-center">
         <div class="dialog-box">
             <div class="dialog-header">
-                {{ $t('setting') }} 
+                {{ $t('setting') }}
                 <button class="icon-button">
                     <IconClose @click="store.showSettingDialog = false"></IconClose>
                 </button>
             </div>
             <p class="dialog-content">
-                <label>{{ $t('exportDialog') }}</label>
+                <h2>{{ $t('importAndExport') }}</h2>
+                <label>{{ $t('exportDialog') }}: </label>
                 <button @click="exportJson">{{ $t('exportButton') }}</button><br />
-                <label>{{ $t('importDialog') }}</label>
+                <label>{{ $t('importDialog') }}: </label>
                 <button @click="importJson">{{ $t('importButton') }}</button>
+                <hr /><br />
+                <h2>{{ $t('chatToArona') }}({{ $t('dialogTitle') }})</h2>
+                <label>{{ $t('warnSave') }}</label><br />
+                <label>{{ $t('warnCost') }}</label><br />
+                <label>API Key: </label>
+                <input type="text" placeholder="sk-xxxxxxxxxxxxx" 
+                    v-model="store.apikey" @blur="store.setData"><br />
+                <label>{{ $t('host') }}: </label>
+                <input type="text" v-model="store.host" @blur="store.setData">
+                <label>{{ $t('clickToStart') }}</label>
             </p>
-            <span class="dialog-content icon-github">
-                <a href="https://github.com/U1805/momotalk"><IconGithub/></a>
-            </span>
+            <p class="dialog-content">
+                <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB">
+                    <IconGithub /></a>
+                <a href="./Arona" title="talk to A.R.O.N.A">
+                    <img class="arona-chat" src="/Arona.webp"></a>
+            </p>
         </div>
     </div>
 </template>
@@ -44,7 +58,7 @@ import IconGithub from './icons/IconGithub.vue'
     @include font-light(12px);
     white-space: pre-wrap;
     line-height: 35px;
-    padding: 24px 32px 51px;
+    padding: 24px 32px 0px;
 
     button {
         @include font-light(12px);
@@ -59,6 +73,25 @@ import IconGithub from './icons/IconGithub.vue'
         &:active {
             transform: scale(0.95);
         }
+    }
+
+    input {
+        @include font-light(12px);
+        width: 100%;
+        border-radius: 0.5rem;
+        line-height: 2rem;
+        border: 1px solid $grey;
+    }
+
+    .icon-github {
+        font-size: 35px;
+        margin-right: 20px;
+        fill: $grey;
+    }
+
+    .arona-chat {
+        height:35px;
+        filter: grayscale(30%); 
     }
 }
 
@@ -82,8 +115,5 @@ import IconGithub from './icons/IconGithub.vue'
     &:focus {
         background-color: #dfdad7;
     }
-}
-.icon-github {
-    font-size: 20px;
 }
 </style>

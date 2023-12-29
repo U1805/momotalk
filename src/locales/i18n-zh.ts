@@ -4,17 +4,23 @@ export default {
     customRoleInfo: '请输入自定义角色名',
     storyEvent: '羁绊剧情',
     reply: '回复',
-    dialogTitle: '🎈这里是实验性功能',
+    dialogTitle: '🎈实验性功能',
     dialogContent: '点击 `确定` 开始播放学生 Momotalk 剧情\n💥注意：此功能会清空对话记录',
     confirm: '确定',
     cancel: '取消',
     selectStory: '选择剧情',
     selectLanguage: '选择语言',
     setting: '⚙️ 设置',
-    importDialog: '导入对话：',
-    exportDialog: '导出对话：',
+    importAndExport: '导入/导出',
+    importDialog: '导入对话',
     importButton: '选择文件',
+    exportDialog: '导出对话',
     exportButton: '点我下载',
+    chatToArona: '与阿罗娜聊天',
+    warnSave: '❗此功能需要清空当前对话，请先行保存',
+    warnCost: '❗此功能会大量消耗 Token',
+    host: '转发 Host',
+    clickToStart: '点击下面的阿罗娜开始聊天',
     help: `
 # 食用说明 · How to use 
 
@@ -39,7 +45,7 @@ export default {
 ## 🖌️编辑界面 · Edit Container 
 
 - 选择身份：前四项「**老师**」「**羁绊剧情框**」「**回复**」「**系统消息**」，最后一个按钮用于**添加自定义角色** 
-- 老师/学生身份，点击头像能发送游戏中的聊天室**贴图** 
+- 老师/学生身份，点击头像能发送游戏中的**聊天室贴图**和**角色表情差分**
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)

@@ -10,6 +10,8 @@ export const store = reactive({
     text: '',
     showPlayerDialog: false,
     showSettingDialog: false,
+    apikey: '',
+    host: 'https://api.openai.com/v1/chat/completions',
     storyKey: '10005',
     storyList: {} as {[key:string]: string[]},
     storyFile: '1000501',
@@ -18,18 +20,23 @@ export const store = reactive({
         talkHistory.setData()
         selectList.setData()
         localStorage.setItem('language', JSON.stringify(this.language))
+        localStorage.setItem('arona-apikey', JSON.stringify(this.apikey))
+        localStorage.setItem('arona-host', JSON.stringify(this.host))
     },
     getData() {
         talkHistory.getData()
         selectList.getData()
-        const data = localStorage.getItem('language')
-        this.language = data != null ? JSON.parse(data) : ('zh' as string)
+        var data = localStorage.getItem('language')
+        this.language = data != null ? JSON.parse(data) : 'zh'
         i18n.global.locale = this.language as any
+        data = localStorage.getItem('arona-apikey')
+        this.apikey = data != null ? JSON.parse(data) : ''
+        data = localStorage.getItem('arona-host')
+        this.host = data != null ? JSON.parse(data) : 'https://api.openai.com/v1/chat/completions'
     },
     resetData() {
         talkHistory.resetData()
         selectList.resetData()
-        this.language = 'zh'
         this.setData()
     }
 })

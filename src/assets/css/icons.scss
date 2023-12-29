@@ -16,6 +16,7 @@
     &.setting {
         height: 35px;
         @include setColor(#fff);
+        cursor: pointer;
     }
     &.close,
     &.download,
