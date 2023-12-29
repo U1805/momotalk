@@ -54,7 +54,8 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 - **Edit**: Supports editing *text*, *character names*, and *images*.
 - **Reply**: Typing Enter will bring up the next option box.
 - **Drag and Drop**: Hold and move messages up and down to adjust their order.
-- **Delete**: When the cursor is *hovering* over an element, an 'x' delete button appears.
+- **Delete**: When the cursor is *hovering* over an element, the delete button \`x\` appears.
+- **Insert**: When the cursor is *hovering* over an element, the insert button \`↲\` appears, then the message will be inserted here.
 - **Keyboard Shortcuts**: Undo with \`Ctrl+Z\`, redo with \`Ctrl+Shift+Z\`, line break \`Ctrl+Shift+Enter\`
 
 ![](./img/edit.webp)

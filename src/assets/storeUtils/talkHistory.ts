@@ -43,11 +43,14 @@ export const talkHistory = reactive({
     getTalkById(id: number) {
         return this.talkHistory[this.getTalkIndexById(id)]
     },
+
     deleteTalkByIndex(index: number) {
         const len = this.talkHistory.length
         if (index >= 0 && index < len - 1 && this.talkHistory[index + 1].type <= 1)
             if (index === 0 || !this.isSameChar(index + 1, index - 1))
                 this.setTalkFlag(index + 1, 2)
+            else if (this.isSameChar(index + 1, index - 1) && this.talkHistory[index+1].flag === 2)
+                this.setTalkFlag(index + 1, 0)
 
         this.talkHistory.splice(index, 1)
         this.setData()
@@ -56,6 +59,31 @@ export const talkHistory = reactive({
         const index: number = this.getTalkIndexById(id)
         this.deleteTalkByIndex(index)
     },
+
+    insertTalkByIndex(index: number, talk: Talk) {
+        const prevTalk = this.talkHistory[index]
+        const nextTalk =
+            index === this.talkHistory.length - 1 ? null : this.talkHistory[index + 1]
+
+        if (isSameChar_(talk, prevTalk)) {
+            talk.flag = 0
+        }
+        if (nextTalk) {
+            if (isSameChar_(talk, nextTalk) && nextTalk.flag === 2) {
+                this.talkHistory[index + 1].flag = 0
+            } else if (!isSameChar_(talk, nextTalk) && nextTalk.flag < 2) {
+                this.talkHistory[index + 1].flag = 2
+            }
+        }
+        this.talkHistory.splice(index + 1, 0, talk)
+
+        this.setData()
+    },
+    insertTalkById(id: number, talk: Talk) {
+        const insertIndex = this.getTalkIndexById(id)
+        this.insertTalkByIndex(insertIndex, talk)
+    },
+
     pushTalk(talk: Talk) {
         const len = this.talkHistory.length
         const lastTalk = this.talkHistory[len - 1]
@@ -70,6 +98,7 @@ export const talkHistory = reactive({
 
         this.setData()
     },
+    
     setTalkContent(id: number, content: string) {
         const index: number = this.getTalkIndexById(id)
         this.talkHistory[index].content = content

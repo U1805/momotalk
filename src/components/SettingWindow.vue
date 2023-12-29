@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { store } from '@/assets/storeUtils/store'
-import { importJson, exportJson } from '@/assets/utils/file'
+import { importJson, exportJson } from '@/assets/storeUtils/file'
 import IconClose from './icons/IconClose.vue';
 import IconGithub from './icons/IconGithub.vue'
 </script>

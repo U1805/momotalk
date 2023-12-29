@@ -113,9 +113,12 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             >{{ element.content }}</span
                         >
                     </div>
-
-                    <span class="del" @click="talkHistory.deleteTalkById(element.id)">×</span>
+                    <span class="action-block" >
+                        <span @click="talkHistory.deleteTalkById(element.id)">x</span>
+                        <span @click="setInsert(element.id)">↲</span>
+                    </span>
                 </div>
+                <div class="insert-indicator" v-if="store.insertId === element.id">insert here</div>
             </div>
         </template>
     </draggable>
@@ -170,6 +173,15 @@ export default {
             const suffix = `(bmp|jpg|png|tif|gif|svg|webp|jpeg)`
             var regular = new RegExp(`(data:image.*)|((http|https)\:\/\/.*\.${suffix})`)
             return regular.test(content)
+        },
+        setInsert(insertId: number){
+            if (store.insertId === insertId) {
+                store.insertId = -1
+            } else {
+                store.insertId = insertId
+                var textarea = document.querySelector('textarea') as HTMLElement
+                textarea.focus()
+            }
         }
     }
 }

@@ -179,7 +179,8 @@ const changeLanguage = async () => {
 
 // shortcuts
 document.onkeyup = (e) => {
-    if (e.key === '/') {
+    // 在输入框中不激活快捷键
+    if (e.key === '/' && document.activeElement?.id !== 'textarea') {
         var box = document.getElementById('searchBox') as HTMLInputElement
         box.focus()
     }

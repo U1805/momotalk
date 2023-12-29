@@ -1,6 +1,6 @@
-import { selectList } from '../storeUtils/selectList'
-import { store } from '../storeUtils/store'
-import { talkHistory } from '../storeUtils/talkHistory'
+import { selectList } from './selectList'
+import { store } from './store'
+import { talkHistory } from './talkHistory'
 
 const exportJson = () => {
     const json: object = {

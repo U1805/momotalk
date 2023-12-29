@@ -36,17 +36,14 @@
                         <div class="sticker-wrapper" v-if="typeof selected !== 'number' || selected === 1">
                             <div class="stk">
                                 <div v-for="(sticker, index) in stickerList" :key="index">
-                                <img
-                                    :src="sticker"
-                                    @click="sendSticker(selected, sticker)"
-                                />
+                                    <img :src="sticker" @click="_sticker(sticker)" />
                                 </div>
                             </div>
                             <div class="tab">
                                 <div @click="switchSticker(-1)" 
-                                    :class="{stk__active:stickerTab === 1}">1</div>
+                                    :class="{ stk__active: stickerTab === 1 }" >1</div>
                                 <div @click="switchSticker(selected)" 
-                                    :class="{stk__active:stickerTab === 2}">2</div>
+                                    :class="{ stk__active: stickerTab === 2 }" >2</div>
                             </div>
                         </div>
                     </template>
@@ -54,16 +51,12 @@
                 <!-- 贴图 -->
 
                 <!-- 发送 -->
-                <textarea
-                    class="text"
-                    placeholder="Aa"
-                    v-model="store.text"
-                ></textarea>
+                <textarea class="text" placeholder="Aa" v-model="store.text" id="textarea"></textarea>
                 <div class="photo" title="Send an Image">
-                    <ImageIcon @click="sendImage(selected)" class="image icon" />
+                    <ImageIcon @click="_image()" class="image icon" />
                 </div>
                 <div class="message" title="Send the Message">
-                    <SendIcon @click="sendText(selected, store.text)" class="send icon" />
+                    <SendIcon @click="_text()" class="send icon"/>
                 </div>
                 <!-- 发送 -->
             </div>
@@ -145,29 +138,47 @@ import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
 import { selectList } from '@/assets/storeUtils/selectList'
 import { sendText, sendImage, sendSticker } from '@/assets/chatUtils/send'
+import { insertImage, insertSticker, insertText } from '@/assets/chatUtils/insert'
 
 const props = defineProps(['student'])
 const emits = defineEmits(['deactive'])
 
 const selected = ref<myStudent | number>(1)
 
+// 添加到尾部与插入到中间
+const _text = ()=>{
+    store.insertId === -1
+        ? sendText(selected.value, store.text)
+        : insertText(selected.value, store.text, store.insertId)
+}
+const _image = ()=>{
+    store.insertId === -1
+        ? sendImage(selected.value)
+        : insertImage(selected.value, store.insertId)
+}
+const _sticker = (sticker: string)=>{
+    store.insertId === -1
+        ? sendSticker(selected.value, sticker)
+        : insertSticker(selected.value, sticker, store.insertId)
+}
+
 // 贴图
 const stickerList = ref<string[]>(stickers)
 const stickerTab = ref<number>(1)
-const switchSticker = async (selected: myStudent | number)=>{
-    if(typeof selected === 'number'){
-        if(selected === -1){
+const switchSticker = async (selected: myStudent | number) => {
+    if (typeof selected === 'number') {
+        if (selected === -1) {
             stickerTab.value = 1
             stickerList.value = stickers
         }
-        if(selected === 1){
+        if (selected === 1) {
             stickerList.value = []
-            stickerTab.value = 2    
+            stickerTab.value = 2
         }
-    }else{
+    } else {
         stickerTab.value = 2
         const t_sticker = (await getStickers(selected.Id)) as string[]
-        if(t_sticker) stickerList.value = t_sticker
+        if (t_sticker) stickerList.value = t_sticker
     }
 }
 
@@ -219,11 +230,11 @@ onMounted(async () => {
         }
     }
     // 软换行
-    var textarea = document.querySelector("textarea") as HTMLElement
+    var textarea = document.querySelector('textarea') as HTMLElement
     textarea.onkeyup = (e) => {
         if (!e.shiftKey && e.key === 'Enter') {
             store.text = store.text.trimEnd()
-            sendText(selected.value, store.text)
+            _text()
         }
     }
 })

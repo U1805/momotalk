@@ -78,7 +78,8 @@ If the current role is a teacher or student, clicking on the avatar in the messa
   - 对于 *图片* 消息，点击后重新上传图片
   - *回复* 键入回车会出现下一个选项框
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序
-- **删除**：光标 *停留* 在元素上时，出现 \`x\` 删除按钮
+- **删除**：光标 *停留* 在元素上时，出现 `x` 删除按钮
+- **插入**：光标 *停留* 在元素上时，出现 `↲` 插入按钮，之后发送消息会插入到此处
 - **快捷键**：撤销 `Ctrl+Z`，重做 `Ctrl+Shift+Z`, 软换行 `Shift+Enter`
 
 Following the **WYSIWYG** (What you see is what you get) design philosophy, elements can still be directly edited after sending messages, such as modifying, dragging, deleting, etc. 
@@ -86,7 +87,8 @@ Following the **WYSIWYG** (What you see is what you get) design philosophy, elem
 - **Modifying**: Supports editing *text*, *character names*, and *images*.
   - For " *Reply* ", pressing Enter will bring up the next option.
 - **Dragging**: Holding and moving messages up and down can adjust the order between messages.
-- **Deleting**: When the cursor *hovers* over an element, a delete button `x` will appear near the element.
+- **Deleting**: When the cursor *hovers* over an element, the delete button `x` will appear near the element.
+- **Inserting**: When the cursor is *hovering* over an element, the insert button `↲` appears, then the message will be inserted here.
 - **Shortcut key**: undo `Ctrl+Z`, redo `Ctrl+Shift+Z`, and line break `Shift+Enter`
 
 <p align="center">

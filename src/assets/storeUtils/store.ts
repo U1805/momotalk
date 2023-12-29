@@ -8,6 +8,7 @@ export const store = reactive({
 
     typing: 0,
     text: '',
+    insertId: -1,
     showPlayerDialog: false,
     showSettingDialog: false,
     apikey: '',
