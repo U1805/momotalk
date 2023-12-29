@@ -29,6 +29,14 @@ const importJson = () => {
             const json: { talkId: number; talkHistory: []; selectList: [] } = JSON.parse(
                 e.target!.result as string
             )
+            try {
+                if (!json.talkId || !json.talkHistory || !json.selectList)
+                    throw new TypeError('Invalid file!')
+            } catch (err) {
+                console.error((err as TypeError).message)
+                alert((err as TypeError).message)
+                return
+            }
             talkHistory.talkId = json.talkId
             talkHistory.talkHistory = json.talkHistory
             selectList.selectList = json.selectList
