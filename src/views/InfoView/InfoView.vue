@@ -2,6 +2,7 @@
 import BirhdayIcon from '@/components/icons/IconBirhday.vue'
 import PlayIcon from '@/components/icons/IconPlay.vue'
 const props = defineProps(['student'])
+const emits = defineEmits(['deactive'])
 </script>
 
 <template>
@@ -10,6 +11,7 @@ const props = defineProps(['student'])
             <RouterLink
                 class="student-info__play"
                 :to="{ path: '/chat', query: { id: props.student.Id } }"
+                @click = "emits('deactive')"
             >
                 <PlayIcon class="icon play" />
             </RouterLink>

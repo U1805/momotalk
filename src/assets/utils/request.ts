@@ -85,7 +85,6 @@ const getSchale = async (lng: string) => {
                 )
             }
         }
-        newStudent.Nickname.push(...Traditionalized(newStudent.Nickname))
         results.push(newStudent)
     }
     return results
@@ -104,7 +103,7 @@ const getLocal = async (lng: string) => {
                 ...localItem.Avatar
             ]),
             Bio: localItem.Bio[lng] ? localItem.Bio[lng] : localItem.Bio['en'],
-            Nickname: [...localItem.Nickname, ...Traditionalized(localItem.Nickname)],
+            Nickname: localItem.Nickname,
             School: localItem.School ? localItem.School : '',
             cnt: 0
         }

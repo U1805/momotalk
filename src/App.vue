@@ -80,7 +80,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                     :class="{ active: item === student }"
                     @click="selectStudent(item)"
                 >
-                    <div class="list-item__avatar" @click="updateAvatar(item)">
+                    <div class="list-item__avatar" @click="updateAvatar(index)">
                         <img :src="item.Avatar[item.cnt]" />
                         <AddIcon
                             class="icon list-item__avatar--multi"
@@ -114,6 +114,7 @@ import { download } from '@/assets/imgUtils/download'
 import { store } from '@/assets/storeUtils/store'
 import { selectList } from '@/assets/storeUtils/selectList'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
+import { search } from './assets/utils/search'
 
 store.getData()
 
@@ -135,17 +136,11 @@ const searchSchool = ref<string>('')
 watch(
     () => [searchText.value, searchSchool.value],
     () => {
-        // https://www.cnblogs.com/caozhenfei/p/14882122.html
-        let reg_text = new RegExp(searchText.value.toLowerCase())
-        let reg_school = new RegExp(searchSchool.value)
-        dataDisplay.value = database.value[dataDisplayIndex.value].filter((item) => {
-            if (reg_school.test(item.School)) {
-                if (reg_text.test(item.Name.toLowerCase())) return item
-                for (let nickname of item.Nickname) {
-                    if (reg_text.test(nickname.toLowerCase())) return item
-                }
-            }
-        })
+        dataDisplay.value = search(
+            database.value[dataDisplayIndex.value],
+            searchText.value,
+            searchSchool.value
+        )
         deactiveStudent()
     }
 )
@@ -158,9 +153,10 @@ const selectStudent = (item: any) => {
 const deactiveStudent = () => {
     student.value = null
 }
-const updateAvatar = (item: myStudent) => {
+const updateAvatar = (itemIndex: number) => {
+    let item = dataDisplay.value[itemIndex] as myStudent
     item.cnt = (item.cnt + 1) % item.Avatar.length
-    var index = selectList.getStudentIndexById(item.Id)
+    let index = selectList.getStudentIndexById(item.Id)
     selectList.selectList[index].cnt = item.cnt
     selectList.setData()
 }
