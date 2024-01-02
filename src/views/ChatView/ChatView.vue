@@ -90,13 +90,14 @@
                             v-for="(student, index) in selectList.selectList"
                             :key="index"
                             @click="selectChar(student)"
-                            title="Remove from list"
+                            title="Select the student"
                         >
                             <img :src="student.Avatar[student.cnt]" />
                             <CloseIcon
                                 class="delete-button"
                                 @click="deleteStudent(student.Id)"
                                 @click.stop=""
+                                title="Remove from list"
                             />
                         </div>
                         <div
