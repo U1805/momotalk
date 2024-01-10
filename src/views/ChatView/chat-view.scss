@@ -8,7 +8,7 @@
     flex-direction: column;
     width: 100%;
     height: calc($view-height - $header-height - $chatfooter-height);
-    background-color: white;
+    background-color: var(--theme_bg_color);
     @include hide-scrollbar;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -59,7 +59,6 @@ $bar-icon-height: calc($bar-height * 0.67);
     justify-content: flex-start;
     height: 60px;
     width: 100%;
-    background-color: #f6fbff;
 }
 
 .item,

@@ -18,23 +18,29 @@ const playMomotalk = async (confirm: boolean) => {
 </script>
 
 <template>
-    <div v-if="store.showPlayerDialog" class="dialog-mask flex-center">
-        <div class="dialog-box">
-            <div class="dialog-header">{{ $t('dialogTitle') }}</div>
-            <p class="dialog-content">{{ $t('dialogContent') }}</p>
+    <div v-if="store.showPlayerDialog" class="dialog-mask flex-center" @click="playMomotalk(false)">
+        <div class="dialog-box" @click.stop="">
+            <div class="dialog-header">🎈 {{ $t('playerTitle') }}</div>
+            <p class="dialog-content">{{ $t('playerContent') }}</p>
             <p class="dialog-content">
-                <label>{{ $t('selectStory') }}</label>
-                <select v-model="store.storyFile">
-                    <option v-for="(momotalk, index) in Object.keys(store.storyList)" :key="index">
-                        {{ momotalk }}
-                    </option>
-                </select><br />
-                <label>{{ $t('selectLanguage') }}</label>
-                <select v-model="storyLng">
-                    <option v-for="(lng, index) in store.storyList[store.storyFile]" :key="index">
-                        {{ lng }}
-                    </option>
-                </select>
+            <table>
+                <tr>
+                    <td><label>{{ $t('selectStory') }}</label></td>
+                    <td><select v-model="store.storyFile">
+                            <option v-for="(momotalk, index) in Object.keys(store.storyList)" :key="index">
+                                {{ momotalk }}
+                            </option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>{{ $t('selectLanguage') }}</label></td>
+                    <td><select v-model="storyLng">
+                            <option v-for="(lng, index) in store.storyList[store.storyFile]" :key="index">
+                                {{ lng }}
+                            </option>
+                        </select></td>
+                </tr>
+            </table>
             </p>
             <div class="dialog-footer">
                 <button class="button dialog-confirm" @click="playMomotalk(true)">
@@ -56,12 +62,19 @@ const playMomotalk = async (confirm: boolean) => {
     @include font-heavy(20px);
     padding-top: 20px;
 }
+
 .dialog-content {
+    @include center;
     @include font-light(12px);
     padding: 5px 20px 20px 20px;
     text-align: center;
     white-space: pre-wrap;
+
+    select {
+        width: 100%;
+    }
 }
+
 .dialog-footer {
     display: flex;
 }
@@ -71,7 +84,8 @@ const playMomotalk = async (confirm: boolean) => {
     height: 60px;
     background-color: #fff;
     border: 1px solid #ebedf0;
-    color: $pink;
+    color: var(--theme_title_color);
+
     &:active {
         background-color: #f2f3f5;
     }

@@ -173,6 +173,14 @@ const changeLanguage = async () => {
     deactiveStudent()
 }
 
+// theme
+const changeTheme = () => {
+    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
+        store.theme = 'momotalk';
+    document.body.className = store.theme;
+}
+changeTheme()
+
 // shortcuts
 document.onkeyup = (e) => {
     // 在输入框中不激活快捷键

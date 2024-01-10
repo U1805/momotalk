@@ -20,6 +20,27 @@ $inputbar-color: #eeeeee;
 $chaticon-color: rgb(189, 189, 189);
 $chatborder-color: #cdd3dc;
 
+:root {
+    /* 聊天背景 */
+    --theme_bg_color: white;
+    /* 顶部栏 */
+    --theme_title_color: rgb(252, 150, 171);
+    /* 发送栏 */
+    --theme_send_bar_color: #eeeeee;
+}
+
+.momotalk {
+    --theme_bg_color: white;
+    --theme_title_color: rgb(252, 150, 171);
+    --theme_send_bar_color: #eeeeee;
+}
+
+.yuzutalk {
+    --theme_bg_color: rgb(255, 247, 225);;
+    --theme_title_color: rgb(255, 220, 66);
+    --theme_send_bar_color: rgb(247, 247, 247);
+}
+
 @mixin font-heavy($size) {
     font-size: $size;
     font-family: 'Blueaka', sans-serif;

@@ -29,7 +29,7 @@
 
 #header {
     grid-area: 1 / 1 / 2 / 6;
-    background-color: $pink;
+    background-color: var(--theme_title_color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +38,7 @@
         @include center;
         padding: 9px;
         .router-link-active {
-            background-color: $pink;
+            background-color: var(--theme_title_color);
         }
     }
 
@@ -65,7 +65,7 @@
     height: 28px;
     width: 28px;
     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
-    color: $pink;
+    color: var(--theme_title_color);
     user-select: none;
     @include font-light(24px);
     font-family: Arial, Helvetica, sans-serif;

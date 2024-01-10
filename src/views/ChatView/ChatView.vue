@@ -178,8 +178,15 @@ const switchSticker = async (selected: myStudent | number) => {
         }
     } else {
         stickerTab.value = 2
-        const t_sticker = (await getStickers(selected.Id)) as string[]
-        if (t_sticker) stickerList.value = t_sticker
+        let t_sticker: string[]
+        try {
+            t_sticker = await getStickers(selected.Id)
+        } catch (err) {
+            stickerList.value = []
+            console.error('sticker file does not exist!')
+            return
+        }
+        stickerList.value = t_sticker
     }
 }
 

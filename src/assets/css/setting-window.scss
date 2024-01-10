@@ -1,0 +1,110 @@
+.featured {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    .page {
+        width: 100%;
+        flex-shrink: 0;
+        transition: transform cubic-bezier(0.18, 0.89, 0.32, 1.28) 512ms;
+    }
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+
+    .page-btn {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        &.active{
+            font-weight:bold;
+        }
+    }
+}
+
+.dialog-header {
+    @include font-heavy(20px);
+    padding-top: 20px;
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.dialog-content {
+    @include font-light(12px);
+    white-space: pre-wrap;
+    line-height: 35px;
+    padding: 24px 32px 0px;
+
+    button {
+        @include font-light(12px);
+        width: 100%;
+        border-radius: 0.5rem;
+        line-height: 2rem;
+        color: rgb(255, 255, 255);
+        border: 1px solid $grey;
+        background-color: $grey-active;
+        cursor: pointer;
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+    input {
+        @include font-light(12px);
+        width: 100%;
+        border-radius: 0.5rem;
+        line-height: 2rem;
+        border: 1px solid $grey;
+    }
+
+    .icon-github {
+        font-size: 35px;
+        margin-right: 20px;
+        fill: $grey;
+    }
+
+    .arona-chat {
+        height: 35px;
+        filter: grayscale(30%);
+    }
+}
+
+.icon-button {
+    @include center;
+    border: 0;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.15s ease;
+
+    svg {
+        width: 24px;
+        height: 24px;
+        stroke: $font-black;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: #dfdad7;
+    }
+}
+
+.radio {
+    display: inline-flex;
+    margin-right: 20px;
+
+    input {
+        margin: 5px;
+    }
+}
