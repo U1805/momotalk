@@ -127,6 +127,8 @@ watch(dataDisplayIndex, async (flag: number) => {
 })
 const switchStudentList = () => {
     dataDisplayIndex.value = (dataDisplayIndex.value + 1) % database.value.length
+    searchText.value = ''
+    searchSchool.value = ''
     deactiveStudent()
 }
 

@@ -132,7 +132,7 @@ import { onMounted, ref, watch } from 'vue'
 import i18n from '@/locales/i18n'
 import { myStudent } from '@/assets/utils/interface'
 import { stickers } from '@/assets/utils/stickers'
-import { getMessage, getStickers } from '@/assets/utils/request'
+import { getMessage, getStickers, proxy } from '@/assets/utils/request'
 import { getRole } from '@/assets/chatUtils/role'
 import { readFile } from '@/assets/imgUtils/readFile'
 import { store } from '@/assets/storeUtils/store'
@@ -186,7 +186,7 @@ const switchSticker = async (selected: myStudent | number) => {
             console.error('sticker file does not exist!')
             return
         }
-        stickerList.value = t_sticker
+        stickerList.value = proxy(t_sticker)
     }
 }
 
