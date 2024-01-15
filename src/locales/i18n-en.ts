@@ -68,6 +68,8 @@ You can use a syntax similar to markdown to send some special text styles.
 | \[color:red;font-size:10px](Font style) | Font style |
 
 > The bold style of this font may not display correctly on certain browsers."
+>
+> You can escape by using the backslash character \`\\\`. For example, \`\\#\` will output # instead of being interpreted as a heading.
 
 - **Edit**: Supports editing *text*, *character names*, and *images*.
 - **Reply**: Typing Enter will bring up the next option box.

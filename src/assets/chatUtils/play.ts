@@ -33,7 +33,7 @@ const play = async (
             sendText(item.Type, text)
             await waitTime(100)
             // reply
-            const buttons = document.querySelectorAll('div.choice span > div')
+            const buttons = document.querySelectorAll('div.choice span > span')
             text = (await waitClick(buttons)) as string
             item = data.find((ele) => ele[storyLng] === text)
             talkHistory.deleteTalkByIndex(-1)

@@ -3,6 +3,9 @@ import i18n from '@/locales/i18n'
 import { baseStudent, Talk } from '../utils/interface'
 import { store } from '../storeUtils/store'
 import { talkHistory } from '../storeUtils/talkHistory'
+import { myReExp } from '../utils/markdown'
+
+const re = new myReExp()
 
 const isSenseiOrStudent = (char: baseStudent | number) => {
     return char === 1 || typeof char !== 'number'
@@ -33,7 +36,7 @@ const sendText = (char: baseStudent | number, text: string, flag: number = 2) =>
         Avatar: avatar,
         type: type,
         flag: flag,
-        content: text
+        content: re.md2html(text)
     }
     talkHistory.pushTalk(newTalk)
 
