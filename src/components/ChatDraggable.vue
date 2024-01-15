@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import TypingAnimation from '@/components/TypingAnimation.vue'
+import ChatBlock from './ChatBlock.vue'
+import ReplyBlock from './ReplyBlock.vue'
 </script>
 
 <template>
@@ -45,11 +47,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             <div class="title">{{ element.Name }}</div>
                         </div>
                         <div class="content">
-                            <span
-                                contenteditable
-                                @blur="saveEdit($event, element.Id, 'content')"
-                                >{{ element.content }}</span
-                            >
+                            <chat-block :element="element"/>
                         </div>
                     </div>
                     <!-- 回复 -->
@@ -62,26 +60,15 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             <div class="title">{{ element.Name }}</div>
                         </div>
                         <div class="content">
-                            <span
-                                ><div
-                                    v-for="(con, index) of element.content.split('\n')"
-                                    contenteditable
-                                    @input="saveReplyEdit($event, element.Id, index)"
-                                    :key="index"
-                                >
-                                    {{ con.replace('\n', '') }}
-                                </div>
+                            <span v-for="(con, index) of element.content.split('\n')" :key="index">
+                                <reply-block :element="element" :content="con" :index="index"/>
                             </span>
                         </div>
                     </div>
                     <!-- 系统通知 -->
                     <div class="box-message" v-else-if="element.type === 4">
                         <div class="content">
-                            <span
-                                contenteditable
-                                @blur="saveEdit($event, element.Id, 'content')"
-                                >{{ element.content }}</span
-                            >
+                            <chat-block :element="element"/>
                         </div>
                     </div>
                     <!-- 图片消息 -->
@@ -106,12 +93,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                             class="loading"
                             v-if="store.typing > 0 && element.Id === talkHistory.talkId - 1"
                         ></typing-animation>
-                        <span
-                            v-else
-                            contenteditable
-                            @blur="saveEdit($event, element.Id, 'content')"
-                            >{{ element.content }}</span
-                        >
+                        <chat-block v-else :element="element"/>
                     </div>
                     <span class="action-block" >
                         <span @click="talkHistory.deleteTalkById(element.Id)">x</span>
@@ -129,7 +111,7 @@ import draggable from 'vuedraggable'
 import { readFile } from '@/assets/imgUtils/readFile'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
-import { saveReplyEdit } from '@/assets/storeUtils/saveReplyEdit'
+import { saveEdit } from '@/assets/storeUtils/saveEdit'
 import { Talk } from '@/assets/utils/interface'
 
 export default {
@@ -140,9 +122,11 @@ export default {
         }
     },
     components: {
-        draggable,
-        TypingAnimation
-    },
+    draggable,
+    TypingAnimation,
+    ChatBlock,
+    ReplyBlock
+},
     methods: {
         changeImage(evt: Event, id: number) {
             var reader = new FileReader()
@@ -160,14 +144,9 @@ export default {
             talkHistory.checkMove(i, j)
         },
         splitTalks(element: Talk) {
-            // 分段消息流，0->1，1->0，2不可改
+            // 分段消息流: 0->1; 1->0; 2不可改
             if (element.flag < 2) element.flag = 1 - element.flag
             talkHistory.setData()
-        },
-        saveEdit(event: Event, id: number, type: string) {
-            var span = event.target as HTMLElement
-            if (type === 'name') talkHistory.setTalkName(id, span.innerText)
-            if (type === 'content') talkHistory.setTalkContent(id, span.innerText)
         },
         checkImg(content: string){
             const suffix = `(bmp|jpg|png|tif|gif|svg|webp|jpeg)`

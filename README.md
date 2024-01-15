@@ -24,7 +24,6 @@
 - **Flexible Editor**: the chat box can be Inserted, Editted, Deleted, Dragged. 👍
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 - **Fast restart**: your conversation won't be lost the next time you open browser. 📌
-- **Import/Export**: Persistently export chat history to local files and import them back. 📄
 - **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, Korean, and English. 🌐
 - **Momotalk Player**: you can also use it to read Momotalk stories from game. ▶️
 
@@ -40,19 +39,6 @@
 
 ![student](./docs/assets/演示1.webp)
 ![chat](./docs/assets/演示2.webp)
-<details><summary>What you can send</summary>
-    <ul>
-    <li>Student</li>
-    <li>Student (More Appearance)</li>
-    <li>Custom Character</li>
-    <li>Sensei</li>
-    <li>Reply Box</li>
-    <li>Story Box</li>
-    <li>Message Box</li>
-    <li>Sticker</li>
-    <li>Photo</li>
-    </ul>
-</details>
 
 ## How to use
 

@@ -54,6 +54,21 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)
 
+You can use a syntax similar to markdown to send some special text styles.
+
+| Usage | Description |
+| ---- | ---- |
+| \# Heading level 1 | 	First-level heading  |
+| \#\# Heading level 2 | Second-level heading  |
+| \#\#\# Heading level 3 | Third-level heading  |
+| \*\*Bold text\*\* | Bold text |
+| \*Italic text\* | Italic text |
+| \*\*\*Bold italic text\*\*\* | Bold italic text |
+| \~\~Delete line\~\~ | Strikethrough |
+| \[color:red;font-size:10px](Font style) | Font style |
+
+> The bold style of this font may not display correctly on certain browsers."
+
 - **Edit**: Supports editing *text*, *character names*, and *images*.
 - **Reply**: Typing Enter will bring up the next option box.
 - **Drag and Drop**: Hold and move messages up and down to adjust their order.

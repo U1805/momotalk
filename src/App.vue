@@ -103,7 +103,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                     <div
                         class="list-item__avatars"
                         @click.stop=""
-                        v-if="item === studentShowAvatars"
+                        v-show="item === studentShowAvatars"
                     >
                         <img
                             v-for="(avatar, index) in item.Avatars"
@@ -114,7 +114,8 @@ import SettingDialog from '@/components/SettingWindow.vue'
                 </div>
             </div>
         </div>
-        <RouterView id="chatcard" :student="student" @deactive="deactiveStudent()" />
+        <RouterView id="chatcard" @deactive="deactiveStudent()" 
+            :studentInfo="studentSelected" :student="student"/>
     </div>
 </template>
 
@@ -177,8 +178,7 @@ const deactiveStudent = () => {
 // multi-avatar student
 const studentShowAvatars = ref<studentInfo | null>(null)
 const showAvatars = (item: any) => {
-    if (item.Avatars.length <= 2) studentShowAvatars.value = null
-    else if (studentShowAvatars.value !== item) studentShowAvatars.value = item
+    if (studentShowAvatars.value !== item) studentShowAvatars.value = item
     else studentShowAvatars.value = null
 }
 const selectAvatar = (item:studentInfo, index: number) => {

@@ -73,18 +73,22 @@ If the current role is a teacher or student, clicking on the avatar in the messa
 
 你可以通过类似 markdown 的语法发送一些特殊的文字样式
 
-...
+You can use a syntax similar to markdown to send some special text styles.
 
 | 语法 Usage | 说明 Description |
 | ---- | ---- |
-| \# Heading level 1 | 一级标题 
-| \#\# Heading level 2 | 二级标题 
-| \#\#\# Heading level 3 | 三级标题 
+| \# Heading level 1 | 一级标题  |
+| \#\# Heading level 2 | 二级标题  |
+| \#\#\# Heading level 3 | 三级标题  |
 | \*\*Bold text\*\* | 粗体 |
 | \*Italic text\* | 斜体 |
 | \*\*\*Bold italic text\*\*\* | 粗斜体 |
 | \~\~Delete line\~\~ | 删除线 |
-| \[color: red, size: 10px](Font style) | 字体样式 |
+| \[color:red;font-size:10px](Font style) | 字体样式 |
+
+> 该字体的粗体在某些浏览器上可能无法显示
+> 
+> The bold style of this font may not display correctly on certain browsers."
 
 
 遵循 **所见即所得** 的设计思想，消息发送后仍可以对元素直接编辑，如修改、拖拽、删除等 
@@ -101,8 +105,8 @@ If the current role is a teacher or student, clicking on the avatar in the messa
 Following the **WYSIWYG** (What you see is what you get) design philosophy, elements can still be directly edited after sending messages, such as modifying, dragging, deleting, etc. 
 
 - **Modifying**: Supports editing *text*, *character names*, and *images*.
-  - For " *Text* " and " *Character name* ", ...
-  - For " *Image* ", ...
+  - For " *Text* " and " Character name ", simply click to reveal a text box for editing.
+  - For " *Image* ", click to upload a new image.
   - For " *Reply* ", pressing Enter will bring up the next option.
 - **Dragging**: Holding and moving messages up and down can adjust the order between messages.
 - **Deleting**: When the cursor *hovers* over an element, the delete button `x` will appear near the element.
@@ -129,7 +133,7 @@ Normally, messages from a single student are continuous. If you wish to interrup
 
 右上角的设置按钮中有切换 yuzutalk 样式、对话文件的导出导入等功能
 
-...
+In the top-right corner, the settings button provides functions such as switching to Yuzutalk styles and exporting/importing conversation files.
 
 本应用适配移动端，但是因为能力有限，基本就是看看得了的程度，更推荐电脑操作 💻📱
 

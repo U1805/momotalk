@@ -53,6 +53,21 @@ export default {
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)
 
+通过类似 markdown 的语法可以发送一些特殊的文字样式
+
+| 语法 Usage | 说明 Description |
+| ---- | ---- |
+| \\# Heading level 1 | 一级标题  |
+| \\#\\# Heading level 2 | 二级标题  |
+| \\#\\#\\# Heading level 3 | 三级标题  |
+| \\*\\*Bold text\\*\\* | 粗体 |
+| \\*Italic text\\* | 斜体 |
+| \\*\\*\\*Bold italic text\\*\\*\\* | 粗斜体 |
+| \\~\\~Delete line\\~\\~ | 删除线 |
+| \\[color:red;font-size:10px](Font style) | 字体样式 |
+
+> 该字体的粗体在某些浏览器上可能无法显示
+
 - **修改**：支持编辑 *文本* , *角色名字* 和 *图片* 
 - **选项**：键入回车会出现下一个选项框
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序

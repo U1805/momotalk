@@ -30,6 +30,7 @@
         .box {
             background: $grey;
             white-space: pre-wrap;
+            @include font-regular(20px);
         }
     }
 
@@ -76,6 +77,7 @@
     .box {
         background: #4a8ac6;
         white-space: pre-wrap;
+        @include font-regular(20px);
     }
 }
 
@@ -118,7 +120,7 @@
 
             span {
                 width: 90%;
-                div {
+                span {
                     background-color: white;
                     border: none;
                     color: $font-black;
