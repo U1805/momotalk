@@ -1,4 +1,4 @@
-import { myStudent } from '../utils/interface'
+import { baseStudent } from '../utils/interface'
 import { selectList } from '../storeUtils/selectList'
 
 function getRandomInt(max: number) {
@@ -17,15 +17,10 @@ function getId() {
 }
 
 function getRole(name: string, avatar: string) {
-    const student: myStudent = {
+    const student: baseStudent = {
         Id: getId(),
         Name: name,
-        Avatar: [avatar],
-        Birthday: '',
-        Bio: '',
-        Nickname: [''],
-        School: '',
-        cnt: 0
+        Avatar: avatar
     }
     return student
 }

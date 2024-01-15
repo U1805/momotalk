@@ -29,7 +29,7 @@
                             class="item"
                             title="Send a Sticker"
                         >
-                            <img :src="selected.Avatar[selected.cnt]" />
+                            <img :src="selected.Avatar" />
                         </div>
                     </div>
                     <template #content>
@@ -92,7 +92,7 @@
                             @click="selectChar(student)"
                             title="Select the student"
                         >
-                            <img :src="student.Avatar[student.cnt]" />
+                            <img :src="student.Avatar" />
                             <CloseIcon
                                 class="delete-button"
                                 @click="deleteStudent(student.Id)"
@@ -130,7 +130,7 @@ import { useRoute } from 'vue-router'
 import { onMounted, ref, watch } from 'vue'
 
 import i18n from '@/locales/i18n'
-import { myStudent } from '@/assets/utils/interface'
+import { baseStudent } from '@/assets/utils/interface'
 import { stickers } from '@/assets/utils/stickers'
 import { getMessage, getStickers, proxy } from '@/assets/utils/request'
 import { getRole } from '@/assets/chatUtils/role'
@@ -144,7 +144,7 @@ import { insertImage, insertSticker, insertText } from '@/assets/chatUtils/inser
 const props = defineProps(['student'])
 const emits = defineEmits(['deactive'])
 
-const selected = ref<myStudent | number>(1)
+const selected = ref<baseStudent | number>(1)
 
 // 添加到尾部与插入到中间
 const _text = ()=>{
@@ -166,7 +166,7 @@ const _sticker = (sticker: string)=>{
 // 贴图
 const stickerList = ref<string[]>(stickers)
 const stickerTab = ref<number>(1)
-const switchSticker = async (selected: myStudent | number) => {
+const switchSticker = async (selected: baseStudent | number) => {
     if (typeof selected === 'number') {
         if (selected === -1) {
             stickerTab.value = 1
@@ -197,7 +197,7 @@ watch(props, (newProps) => {
         selectChar(newProps.student)
     }
 })
-const selectChar = (student: myStudent | number) => {
+const selectChar = (student: baseStudent | number) => {
     selected.value = student
     switchSticker(-1)
 }
@@ -209,7 +209,7 @@ const addCustomStudent = () => {
     }
     var reader = new FileReader()
     reader.addEventListener('load', () => {
-        var student: myStudent = getRole(name!, reader.result as string)
+        var student: baseStudent = getRole(name!, reader.result as string)
         selectList.pushStudent(student)
     })
     readFile(reader)
@@ -239,9 +239,9 @@ onMounted(async () => {
     }
     // 软换行
     var textarea = document.querySelector('textarea') as HTMLElement
-    textarea.onkeyup = (e) => {
+    textarea.onkeydown = (e) => {
         if (!e.shiftKey && e.key === 'Enter') {
-            store.text = store.text.trimEnd()
+            e.preventDefault()
             _text()
         }
     }

@@ -4,7 +4,7 @@ import { historyState } from './historyState'
 
 const isSameChar_ = (talk0: Talk, talk1: Talk) => {
     if (talk0.type !== talk1.type) return false
-    return talk0.name === talk1.name
+    return talk0.Name === talk1.Name && talk0.Avatar === talk1.Avatar
 }
 
 export const talkHistory = reactive({
@@ -38,7 +38,7 @@ export const talkHistory = reactive({
     },
 
     getTalkIndexById(id: number) {
-        return this.talkHistory.findIndex((item: Talk) => item.id === id)
+        return this.talkHistory.findIndex((item: Talk) => item.Id === id)
     },
     getTalkById(id: number) {
         return this.talkHistory[this.getTalkIndexById(id)]
@@ -106,7 +106,7 @@ export const talkHistory = reactive({
     },
     setTalkName(id: number, name: string) {
         const index: number = this.getTalkIndexById(id)
-        this.talkHistory[index].name = name
+        this.talkHistory[index].Name = name
         this.setData()
     },
     setTalkFlag(index: number, flag: number) {

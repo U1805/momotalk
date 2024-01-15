@@ -1,14 +1,14 @@
 import { readFile } from '../imgUtils/readFile'
 import i18n from '@/locales/i18n'
-import { myStudent, Talk } from '../utils/interface'
+import { baseStudent, Talk } from '../utils/interface'
 import { store } from '../storeUtils/store'
 import { talkHistory } from '../storeUtils/talkHistory'
 
-const isSenseiOrStudent = (char: myStudent | number) => {
+const isSenseiOrStudent = (char: baseStudent | number) => {
     return char === 1 || typeof char !== 'number'
 }
 
-const sendText = (char: myStudent | number, text: string, flag: number = 2) => {
+const sendText = (char: baseStudent | number, text: string, flag: number = 2) => {
     if (text.length === 0) return
     let name = ''
     let type = 0
@@ -23,15 +23,15 @@ const sendText = (char: myStudent | number, text: string, flag: number = 2) => {
     } else {
         // student
         name = char.Name
-        avatar = char.Avatar[char.cnt]
+        avatar = char.Avatar
         type = 0
     }
 
     const newTalk: Talk = {
-        id: talkHistory.talkId++,
-        name: name,
+        Id: talkHistory.talkId++,
+        Name: name,
+        Avatar: avatar,
         type: type,
-        avatar: avatar,
         flag: flag,
         content: text
     }
@@ -55,7 +55,7 @@ const sendText = (char: myStudent | number, text: string, flag: number = 2) => {
     }, 10)
 }
 
-const sendImage = (char: myStudent | number, flag: number = 2) => {
+const sendImage = (char: baseStudent | number, flag: number = 2) => {
     if (!isSenseiOrStudent(char)) return false // 非师生不能插入图片
     const reader = new FileReader()
     reader.addEventListener('load', () => {
@@ -65,7 +65,7 @@ const sendImage = (char: myStudent | number, flag: number = 2) => {
     readFile(reader)
 }
 
-const sendSticker = (char: myStudent | number, url: string, flag: number = 2) => {
+const sendSticker = (char: baseStudent | number, url: string, flag: number = 2) => {
     if (!isSenseiOrStudent(char)) return false
     sendText(char, url, flag)
     // 发送后收回 popover

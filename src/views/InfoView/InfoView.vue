@@ -16,7 +16,7 @@ const emits = defineEmits(['deactive'])
                 <PlayIcon class="icon play" />
             </RouterLink>
             <div class="student-info__avatar">
-                <img :src="props.student.Avatar[props.student.cnt]" />
+                <img :src="props.student.Avatars[props.student.cnt]" />
             </div>
             <div class="student-info__name">{{ props.student.Name }}</div>
             <div class="student-info__bio">{{ props.student.Bio }}</div>

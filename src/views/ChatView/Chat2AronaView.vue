@@ -9,10 +9,10 @@
                 first: element.type <= 1 && element.flag > 0
             }">
                 <div class="avatar" v-if="element.type === 0 && element.flag > 0">
-                    <img :src="element.avatar" />
+                    <img :src="element.Avatar" />
                 </div>
                 <div class="name" v-if="element.type === 0 && element.flag > 0">
-                    {{ element.name }}
+                    {{ element.Name }}
                 </div>
 
                 <div class="container">
@@ -59,9 +59,9 @@ onMounted(async () => {
     store.resetData()
     chat2arona("进入角色扮演模式")
     var textarea = document.querySelector("textarea") as HTMLElement
-    textarea.onkeyup = (e) => {
+    textarea.onkeydown = (e) => {
         if (!e.shiftKey && e.key === 'Enter') {
-            store.text = store.text.trimEnd()
+            e.preventDefault()
             newSendText()
         }
     }

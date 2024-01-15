@@ -1,6 +1,6 @@
 import { sendText } from './send'
 import { getRole } from './role'
-import { myStudent } from '../utils/interface'
+import { baseStudent } from '../utils/interface'
 import { getMessage, getSchaleImg } from '../utils/request'
 import { waitClick, waitTime } from '../utils/wait'
 import { talkHistory } from '../storeUtils/talkHistory'
@@ -24,7 +24,7 @@ const play = async (
     let item = data[1]
     talkHistory.resetData()
     let text: string = ''
-    let selected: myStudent | number
+    let selected: baseStudent | number
     do {
         if (item.Type === 3) {
             // choice

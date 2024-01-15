@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { store } from '../storeUtils/store'
 
-import { myStudent } from "../utils/interface"
+import { baseStudent } from "../utils/interface"
 import { sendText } from "./send"
 
 var message = [
@@ -47,11 +47,10 @@ const request = async (talk: string) => {
     return res
 }
 
-const arona: myStudent = {
+const arona: baseStudent = {
     Id: 100,
-    Name: 'Arona',
-    Avatar: ['https://cdn.jsdelivr.net/gh/BlueArcbox/resources/Avatars/Arona.webp'],
-    Bio: '', Birthday: '', Nickname: [], School: '', cnt: 0
+    Name: '阿罗娜',
+    Avatar: 'https://cdn.jsdelivr.net/gh/BlueArcbox/resources/Avatars/Arona.webp'
 }
 
 const chat2arona = async (talk: string) => {

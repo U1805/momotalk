@@ -1,11 +1,11 @@
 import { reactive } from 'vue'
-import { myStudent } from '../utils/interface'
+import { baseStudent } from '../utils/interface'
 
 export const selectList = reactive({
-    selectList: [] as myStudent[],
+    selectList: [] as baseStudent[],
 
     getStudentIndexById(id: number) {
-        return this.selectList.findIndex((item: myStudent) => item.Id === id)
+        return this.selectList.findIndex((item: baseStudent) => item.Id === id)
     },
 
     deleteStudent(id: number) {
@@ -13,9 +13,9 @@ export const selectList = reactive({
         this.selectList.splice(index, 1)
         this.setData()
     },
-    pushStudent(student: myStudent) {
+    pushStudent(student: baseStudent) {
         for (const item of this.selectList) {
-            if (item.Id === student.Id) return
+            if (item.Id === student.Id && item.Avatar === student.Avatar) return
         }
         this.selectList.push(student)
         this.setData()
@@ -26,10 +26,10 @@ export const selectList = reactive({
     },
     getData() {
         const data = localStorage.getItem('selectHistory')
-        this.selectList = data != null ? JSON.parse(data) : ([] as myStudent[])
+        this.selectList = data != null ? JSON.parse(data) : ([] as baseStudent[])
     },
     resetData() {
-        this.selectList = [] as myStudent[]
+        this.selectList = [] as baseStudent[]
         this.setData()
     }
 })

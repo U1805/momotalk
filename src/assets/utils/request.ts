@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { myStudent } from './interface'
+import { studentInfo } from './interface'
 import { Traditionalized } from './tw_cn'
 
 const prefixTable: { [key: string]: string[] } = {
@@ -49,15 +49,15 @@ const getData = async (file: string) => {
 const getSchale = async (lng: string) => {
     const local = await getData('/api/Momotalk/students.json')
     const schale = await getData(`https://schale.gg/data/${lng}/students.min.json`)
-    const results: myStudent[] = []
+    const results: studentInfo[] = []
     for (const schaleItem of schale) {
         const localItem = local.find((ele) => ele.Id === schaleItem.Id)
 
-        const newStudent: myStudent = {
+        const newStudent: studentInfo = {
             Id: schaleItem.Id,
             Name: schaleItem.Name,
             Birthday: schaleItem.Birthday,
-            Avatar: proxy([
+            Avatars: proxy([
                 getSchaleImg(schaleItem.Id),
                 ...(localItem ? localItem.Avatar : [])
             ]),
@@ -92,13 +92,13 @@ const getSchale = async (lng: string) => {
 
 const getLocal = async (lng: string) => {
     const local = await getData('/api/Momotalk/students2.json')
-    const results: myStudent[] = []
+    const results: studentInfo[] = []
     for (const localItem of local) {
-        const newStudent: myStudent = {
+        const newStudent: studentInfo = {
             Id: localItem.Id,
             Name: localItem.Name[lng] ? localItem.Name[lng] : localItem.Name['en'],
             Birthday: '???',
-            Avatar: proxy([
+            Avatars: proxy([
                 `/api/Avatars/${localItem.Nickname[0]}.webp`,
                 ...localItem.Avatar
             ]),
@@ -113,8 +113,8 @@ const getLocal = async (lng: string) => {
 }
 
 const getStudents = async (lng: string) => {
-    const data1: myStudent[] = await getSchale(lng)
-    const data2: myStudent[] = await getLocal(lng)
+    const data1: studentInfo[] = await getSchale(lng)
+    const data2: studentInfo[] = await getLocal(lng)
     return [data1, data2]
 }
 

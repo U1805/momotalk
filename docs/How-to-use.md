@@ -71,6 +71,22 @@ If the current role is a teacher or student, clicking on the avatar in the messa
 
 ### ✏️ 编辑消息 · Edit Messages
 
+你可以通过类似 markdown 的语法发送一些特殊的文字样式
+
+...
+
+| 语法 Usage | 说明 Description |
+| ---- | ---- |
+| \# Heading level 1 | 一级标题 
+| \#\# Heading level 2 | 二级标题 
+| \#\#\# Heading level 3 | 三级标题 
+| \*\*Bold text\*\* | 粗体 |
+| \*Italic text\* | 斜体 |
+| \*\*\*Bold italic text\*\*\* | 粗斜体 |
+| \~\~Delete line\~\~ | 删除线 |
+| \[color: red, size: 10px](Font style) | 字体样式 |
+
+
 遵循 **所见即所得** 的设计思想，消息发送后仍可以对元素直接编辑，如修改、拖拽、删除等 
 
 - **修改**：
@@ -85,6 +101,8 @@ If the current role is a teacher or student, clicking on the avatar in the messa
 Following the **WYSIWYG** (What you see is what you get) design philosophy, elements can still be directly edited after sending messages, such as modifying, dragging, deleting, etc. 
 
 - **Modifying**: Supports editing *text*, *character names*, and *images*.
+  - For " *Text* " and " *Character name* ", ...
+  - For " *Image* ", ...
   - For " *Reply* ", pressing Enter will bring up the next option.
 - **Dragging**: Holding and moving messages up and down can adjust the order between messages.
 - **Deleting**: When the cursor *hovers* over an element, the delete button `x` will appear near the element.
@@ -109,6 +127,10 @@ Normally, messages from a single student are continuous. If you wish to interrup
 
 ## 🌟 其他
 
+右上角的设置按钮中有切换 yuzutalk 样式、对话文件的导出导入等功能
+
+...
+
 本应用适配移动端，但是因为能力有限，基本就是看看得了的程度，更推荐电脑操作 💻📱
 
 The application is adapted for mobile devices, but due to limited capabilities, it's recommended to use it on a computer for a better experience 💻📱
@@ -117,6 +139,6 @@ The application is adapted for mobile devices, but due to limited capabilities, 
 
 游戏黑话搜索也是，如果发现有遗漏或者写错的，**欢迎提 [issue](https://github.com/U1805/momotalk/issues) 或 [pr](https://github.com/U1805/momotalk/pulls) 补充**，当然对功能和代码的好想法和优化也欢迎欢迎 ❤️
 
-The game slang search is the same. If you notice any omissions or mistakes, **please feel free to raise an [issue](https://github.com/U1805/momotalk/issues) or submit a [pull request](https://github.com/U1805/momotalk/pulls) for correction**. Of course, ideas and optimizations for features and code are also very much welcomed ❤️
+If you notice any omissions or mistakes, **please feel free to raise an [issue](https://github.com/U1805/momotalk/issues) or submit a [pull request](https://github.com/U1805/momotalk/pulls) for correction**. Of course, ideas and optimizations for features and code are also very much welcomed ❤️
 
-![thanks](./assets/kyk.gif)
+![thanks](../public/img/kyk.gif)

@@ -1,15 +1,15 @@
 import { readFile } from '../imgUtils/readFile'
 import i18n from '@/locales/i18n'
-import { myStudent, Talk } from '../utils/interface'
+import { baseStudent, Talk } from '../utils/interface'
 import { talkHistory } from '../storeUtils/talkHistory'
 import { store } from '../storeUtils/store'
 
-const isSenseiOrStudent = (char: myStudent | number) => {
+const isSenseiOrStudent = (char: baseStudent | number) => {
     return char === 1 || typeof char !== 'number'
 }
 
 const insertText = (
-    char: myStudent | number,
+    char: baseStudent | number,
     text: string,
     insertAfterId: number
 ) => {
@@ -27,15 +27,15 @@ const insertText = (
     } else {
         // student
         name = char.Name
-        avatar = char.Avatar[char.cnt]
+        avatar = char.Avatar
         type = 0
     }
 
     const newTalk: Talk = {
-        id: talkHistory.talkId++,
-        name: name,
+        Id: talkHistory.talkId++,
+        Name: name,
+        Avatar: avatar,
         type: type,
-        avatar: avatar,
         flag: 2,
         content: text
     }
@@ -45,7 +45,7 @@ const insertText = (
     store.insertId = -1
 }
 
-const insertImage = (char: myStudent | number, insertAfterId: number) => {
+const insertImage = (char: baseStudent | number, insertAfterId: number) => {
     if (!isSenseiOrStudent(char)) return false // 非师生不能插入图片
     const reader = new FileReader()
     reader.addEventListener('load', () => {
@@ -55,7 +55,7 @@ const insertImage = (char: myStudent | number, insertAfterId: number) => {
     readFile(reader)
 }
 
-const insertSticker = (char: myStudent | number, url: string, insertAfterId: number) => {
+const insertSticker = (char: baseStudent | number, url: string, insertAfterId: number) => {
     if (!isSenseiOrStudent(char)) return false
     insertText(char, url, insertAfterId)
     // 发送后收回 popover

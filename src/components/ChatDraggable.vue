@@ -23,15 +23,15 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     @click="splitTalks(element)"
                 ></div>
                 <div class="avatar" v-if="element.type === 0 && element.flag > 0">
-                    <img :src="element.avatar" @click="splitTalks(element)" />
+                    <img :src="element.Avatar" @click="splitTalks(element)" />
                 </div>
                 <div
                     class="name"
                     v-if="element.type === 0 && element.flag > 0"
                     contenteditable
-                    @blur="saveEdit($event, element.id, 'name')"
+                    @blur="saveEdit($event, element.Id, 'name')"
                 >
-                    {{ element.name }}
+                    {{ element.Name }}
                 </div>
 
                 <div class="container">
@@ -40,14 +40,14 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div
                             class="header"
                             contenteditable
-                            @blur="saveEdit($event, element.id, 'name')"
+                            @blur="saveEdit($event, element.Id, 'name')"
                         >
-                            <div class="title">{{ element.name }}</div>
+                            <div class="title">{{ element.Name }}</div>
                         </div>
                         <div class="content">
                             <span
                                 contenteditable
-                                @blur="saveEdit($event, element.id, 'content')"
+                                @blur="saveEdit($event, element.Id, 'content')"
                                 >{{ element.content }}</span
                             >
                         </div>
@@ -57,16 +57,16 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div
                             class="header"
                             contenteditable
-                            @blur="saveEdit($event, element.id, 'name')"
+                            @blur="saveEdit($event, element.Id, 'name')"
                         >
-                            <div class="title">{{ element.name }}</div>
+                            <div class="title">{{ element.Name }}</div>
                         </div>
                         <div class="content">
                             <span
                                 ><div
                                     v-for="(con, index) of element.content.split('\n')"
                                     contenteditable
-                                    @input="saveReplyEdit($event, element.id, index)"
+                                    @input="saveReplyEdit($event, element.Id, index)"
                                     :key="index"
                                 >
                                     {{ con.replace('\n', '') }}
@@ -79,7 +79,7 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                         <div class="content">
                             <span
                                 contenteditable
-                                @blur="saveEdit($event, element.id, 'content')"
+                                @blur="saveEdit($event, element.Id, 'content')"
                                 >{{ element.content }}</span
                             >
                         </div>
@@ -91,34 +91,34 @@ import TypingAnimation from '@/components/TypingAnimation.vue'
                     >
                         <typing-animation
                             class="loading"
-                            v-if="store.typing > 0 && element.id === talkHistory.talkId - 1"
+                            v-if="store.typing > 0 && element.Id === talkHistory.talkId - 1"
                         ></typing-animation>
                         <img
                             v-else
                             :src="element.content"
                             class="chat-img"
-                            @click="changeImage($event, element.id)"
+                            @click="changeImage($event, element.Id)"
                         />
                     </div>
                     <!-- 文本消息 -->
                     <div class="box" v-else>
                         <typing-animation
                             class="loading"
-                            v-if="store.typing > 0 && element.id === talkHistory.talkId - 1"
+                            v-if="store.typing > 0 && element.Id === talkHistory.talkId - 1"
                         ></typing-animation>
                         <span
                             v-else
                             contenteditable
-                            @blur="saveEdit($event, element.id, 'content')"
+                            @blur="saveEdit($event, element.Id, 'content')"
                             >{{ element.content }}</span
                         >
                     </div>
                     <span class="action-block" >
-                        <span @click="talkHistory.deleteTalkById(element.id)">x</span>
-                        <span @click="setInsert(element.id)">↲</span>
+                        <span @click="talkHistory.deleteTalkById(element.Id)">x</span>
+                        <span @click="setInsert(element.Id)">↲</span>
                     </span>
                 </div>
-                <div class="insert-indicator" v-if="store.insertId === element.id">insert here</div>
+                <div class="insert-indicator" v-if="store.insertId === element.Id">insert here</div>
             </div>
         </template>
     </draggable>

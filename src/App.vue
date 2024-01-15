@@ -7,7 +7,6 @@ import DownloadIcon from './components/icons/IconDownload.vue'
 import ListIcon from './components/icons/IconList.vue'
 import ResetIcon from './components/icons/IconReset.vue'
 import SearchIcon from './components/icons/IconSearch.vue'
-import AddIcon from './components/icons/IconAdd.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
 import PlayerDialog from '@/components/PlayerWindow.vue'
 import SettingDialog from '@/components/SettingWindow.vue'
@@ -26,7 +25,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                 </RouterLink>
             </div>
             <div id="header__right">
-                <SettingIcon class="icon setting" @click="store.showSettingDialog = true"/>
+                <SettingIcon class="icon setting" @click="store.showSettingDialog = true" />
             </div>
         </div>
 
@@ -46,7 +45,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                 <div style="cursor: pointer" @click="download" title="Download">
                     <DownloadIcon class="icon download" />
                 </div>
-                <div style="cursor: pointer" @click="changeLanguage" title="Switch Language">
+                <div style="cursor: pointer" @click="changeLanguage" title="Switch Language" >
                     <LanguageIcon class="icon language" />
                 </div>
             </div>
@@ -77,25 +76,40 @@ import SettingDialog from '@/components/SettingWindow.vue'
                     class="list-item"
                     v-for="(item, index) in dataDisplay"
                     :key="index"
-                    :class="{ active: item === student }"
+                    :class="{ active: item === studentSelected }"
                     @click="selectStudent(item)"
                 >
-                    <div class="list-item__avatar" @click="updateAvatar(index)">
-                        <img :src="item.Avatar[item.cnt]" />
-                        <AddIcon
-                            class="icon list-item__avatar--multi"
-                            v-if="item.Avatar.length > 2"
-                        />
+                    <div
+                        class="list-item__avatar"
+                        @click.stop=""
+                        @click="showAvatars(item)"
+                    >
+                        <img :src="item.Avatars[item.cnt]" />
+                        <button
+                            :class="item === studentShowAvatars ? 'minus' : 'add'"
+                            v-if="item.Avatars.length > 2"
+                        ></button>
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
                     <div
                         class="list-item__mark"
                         v-if="item.School"
-                        @click="searchSchool = searchSchool === item.School ? '' : item.School"
                         @click.stop=""
+                        @click=" searchSchool = searchSchool === item.School ? '' : item.School "
                     >
                         <img :src="getSchaleSchoolIcon(item.School)" />
+                    </div>
+                    <div
+                        class="list-item__avatars"
+                        @click.stop=""
+                        v-if="item === studentShowAvatars"
+                    >
+                        <img
+                            v-for="(avatar, index) in item.Avatars"
+                            :src="avatar"
+                            @click="selectAvatar(item, index)"
+                        />
                     </div>
                 </div>
             </div>
@@ -108,20 +122,19 @@ import SettingDialog from '@/components/SettingWindow.vue'
 import { ref, watch } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import i18n from '@/locales/i18n'
-import { myStudent } from '@/assets/utils/interface'
+import { baseStudent, studentInfo } from '@/assets/utils/interface'
 import { getStudents, getSchaleSchoolIcon } from '@/assets/utils/request'
 import { download } from '@/assets/imgUtils/download'
 import { store } from '@/assets/storeUtils/store'
-import { selectList } from '@/assets/storeUtils/selectList'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
 import { search } from './assets/utils/search'
 
 store.getData()
 
 // student data
-const database = ref<myStudent[][]>(await getStudents(store.language))
+const database = ref<studentInfo[][]>(await getStudents(store.language))
 const dataDisplayIndex = ref<number>(0)
-const dataDisplay = ref<myStudent[]>(database.value[dataDisplayIndex.value])
+const dataDisplay = ref<studentInfo[]>(database.value[dataDisplayIndex.value])
 watch(dataDisplayIndex, async (flag: number) => {
     dataDisplay.value = database.value[flag]
 })
@@ -148,19 +161,34 @@ watch(
 )
 
 // item in list
-const student = ref<myStudent | null>(null)
-const selectStudent = (item: any) => {
-    student.value = item
+const studentSelected = ref<studentInfo | null>(null)
+const student = ref<baseStudent | null>(null)
+const selectStudent = (item: studentInfo) => {
+    studentSelected.value = item
+    student.value = {
+        Id: studentSelected.value.Id,
+        Name: studentSelected.value.Name,
+        Avatar: studentSelected.value.Avatars[studentSelected.value.cnt]
+    }
 }
 const deactiveStudent = () => {
     student.value = null
 }
-const updateAvatar = (itemIndex: number) => {
-    let item = dataDisplay.value[itemIndex] as myStudent
-    item.cnt = (item.cnt + 1) % item.Avatar.length
-    let index = selectList.getStudentIndexById(item.Id)
-    selectList.selectList[index].cnt = item.cnt
-    selectList.setData()
+// multi-avatar student
+const studentShowAvatars = ref<studentInfo | null>(null)
+const showAvatars = (item: any) => {
+    if (item.Avatars.length <= 2) studentShowAvatars.value = null
+    else if (studentShowAvatars.value !== item) studentShowAvatars.value = item
+    else studentShowAvatars.value = null
+}
+const selectAvatar = (item:studentInfo, index: number) => {
+    studentSelected.value = item
+    studentSelected.value.cnt = index
+    student.value = {
+        Id: studentSelected.value.Id,
+        Name: studentSelected.value.Name,
+        Avatar: studentSelected.value.Avatars[studentSelected.value.cnt]
+    }
 }
 
 // languages
@@ -177,9 +205,8 @@ const changeLanguage = async () => {
 
 // theme
 const changeTheme = () => {
-    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
-        store.theme = 'momotalk';
-    document.body.className = store.theme;
+    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') store.theme = 'momotalk'
+    document.body.className = store.theme
 }
 changeTheme()
 

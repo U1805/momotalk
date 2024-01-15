@@ -1,8 +1,8 @@
-import { myStudent } from './interface'
+import { studentInfo } from './interface'
 import { Traditionalized } from './tw_cn'
 import pinyin from 'tiny-pinyin'
 
-const search = (data: myStudent[], key: string, filter: string) => {
+const search = (data: studentInfo[], key: string, filter: string) => {
     // https://www.cnblogs.com/caozhenfei/p/14882122.html
 
     let reg_text = new RegExp(
