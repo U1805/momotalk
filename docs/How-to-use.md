@@ -71,9 +71,9 @@ If the current role is a teacher or student, clicking on the avatar in the messa
 
 ### ✏️ 编辑消息 · Edit Messages
 
-你可以通过类似 [markdown](https://markdown.com.cn/basic-syntax/) 的语法发送一些特殊的文字样式
+你可以通过类似 [markdown](https://markdown.com.cn/basic-syntax/) 的语法发送一些**特殊的文字样式**
 
-You can use a syntax similar to [markdown](https://www.markdownguide.org/basic-syntax/) to send some special text styles.
+You can use a syntax similar to [markdown](https://www.markdownguide.org/basic-syntax/) to send some **special text styles**.
 
 | 语法 Usage | 说明 Description |
 | ---- | ---- |
@@ -86,11 +86,13 @@ You can use a syntax similar to [markdown](https://www.markdownguide.org/basic-s
 | \~\~Delete line\~\~ | 删除线 |
 | \[color:red;font-size:10px](Font style) | 字体样式 |
 
-> 1. 该字体的粗体在某些浏览器上可能无法显示
-> 2. 可以通过使用反斜杠字符 `\` 从而达到转义目的（`#` `*` `~`）
-> 
-> 1. The bold style of this font may not display correctly on certain browsers.
-> 2. Escaping can be achieved by using the backslash character \ (for `#`, `*`, `~`).
+> ① 该字体的粗体在某些浏览器上可能无法显示
+>
+> ② 可以通过使用反斜杠字符 `\` 从而达到转义目的（`#` `*` `~`）。例如：`\#` 可以输出 # 而不变为标题
+>
+> ① The bold style of this font may not display correctly on certain browsers.
+>
+> ② Escaping can be achieved by using the backslash character \ (for `#`, `*`, `~`). For example, `\#` will output # instead of being interpreted as a heading.
 
 
 遵循 **所见即所得** 的设计思想，消息发送后仍可以对元素直接编辑，如修改、拖拽、删除等 

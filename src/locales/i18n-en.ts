@@ -50,26 +50,10 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 
 - Select Identity: The first four options are "**Teacher**," "**Story Event**," "**Reply**," and "**System Message**." The last button is used to **add custom characters**.
 - For Teachers/Students, clicking on the avatar sends in-game **chat stickers** and **student face variations images**.
+- You can use [a syntax similar to markdown](https://github.com/U1805/momotalk/blob/main/docs/How-to-use.md#%EF%B8%8F-%E7%BC%96%E8%BE%91%E6%B6%88%E6%81%AF--edit-messages) to send some special text styles.
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)
-
-You can use a syntax similar to markdown to send some special text styles.
-
-| Usage | Description |
-| ---- | ---- |
-| \# Heading level 1 | 	First-level heading  |
-| \#\# Heading level 2 | Second-level heading  |
-| \#\#\# Heading level 3 | Third-level heading  |
-| \*\*Bold text\*\* | Bold text |
-| \*Italic text\* | Italic text |
-| \*\*\*Bold italic text\*\*\* | Bold italic text |
-| \~\~Delete line\~\~ | Strikethrough |
-| \[color:red;font-size:10px](Font style) | Font style |
-
-> The bold style of this font may not display correctly on certain browsers."
->
-> You can escape by using the backslash character \`\\\`. For example, \`\\#\` will output # instead of being interpreted as a heading.
 
 - **Edit**: Supports editing *text*, *character names*, and *images*.
 - **Reply**: Typing Enter will bring up the next option box.

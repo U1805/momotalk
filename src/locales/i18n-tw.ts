@@ -49,26 +49,10 @@ export default {
 
 - 選擇身份：前四項「**老師**」「**羈絆劇情框**」「**回覆**」「**系統訊息**」，最後一個按鈕用於**添加自訂角色** 
 - 老師/學生身份，點擊頭像可發送遊戲中的**聊天室貼圖**和**角色表情差分**
+- 透過[類似 markdown 的語法](https://github.com/U1805/momotalk/blob/main/docs/How-to-use.md#%EF%B8%8F-%E7%BC%96%E8%BE%91%E6%B6%88%E6%81%AF--edit-messages)可以發送一些特殊的文字樣式
 
 ![](./img/stickers.webp)
 ![](./img/sendbar.webp)
-
-透過類似 markdown 的語法可以發送一些特殊的文字樣式
-
-| 語法 Usage | 描述 Description |
-| ---- | ---- |
-| \\# Heading level 1 | 一級標題  |
-| \\#\\# Heading level 2 | 二級標題  |
-| \\#\\#\\# Heading level 3 | 三級標題  |
-| \\*\\*Bold text\\*\\* | 粗體 |
-| \\*Italic text\\* | 斜體 |
-| \\*\\*\\*Bold italic text\\*\\*\\* | 粗斜體 |
-| \\~\\~Delete line\\~\\~ | 刪除線 |
-| \\[color:red;font-size:10px](Font style) | 字體樣式 |
-
-> 這個字體的粗體在某些瀏覽器上可能不能正確顯示
->
-> 可以透過使用反斜杠字符 \`\\\` 進行轉義。例如：\`\\#\` 可以輸出 # 而不變為標題。
 
 - **修改**：支援編輯 *文本*、*角色名字* 和 *圖片* 
 - **選項**：輸入回車鍵會顯示下一個選項框
