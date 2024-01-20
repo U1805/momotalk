@@ -5,7 +5,7 @@ import ReplyBlock from './ReplyBlock.vue'
 </script>
 
 <template>
-    <draggable :list="tasks" :group="{ name: 'g1' }" item-key="id" @end="checkMove">
+    <draggable :list="tasks" :group="{ name: 'g1' }" item-key="id" @end="checkMove" :disabled="store.draggable">
         <template #item="{ element }">
             <div
                 :class="{

@@ -18,7 +18,7 @@
 
     .name {
         grid-area: 1 / 3 / 2 / 3;
-        @include font-regular(20px);
+        @include font-light(20px); // regular firefox下载时无法正常显示「星野」
         color: $font-black;
         user-select: none;
         width: fit-content;

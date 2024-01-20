@@ -14,6 +14,8 @@ export default {
     basicSetting: '基本设置',
     experimental: '实验性功能',
     renderStyle: '主题样式',
+    draggable: '对话拖拽',
+    disableDrag: '禁用拖拽',
     importAndExport: '导入/导出',
     importDialog: '导入对话',
     importButton: '选择文件',
@@ -67,7 +69,7 @@ export default {
 
 ![](./img/splitmessage.webp)
 
-<p>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
+<p style='text-align: center'>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
 
 ## 🌟 其他
 

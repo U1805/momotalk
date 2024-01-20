@@ -6,6 +6,7 @@ import { selectList } from './selectList'
 export const store = reactive({
     language: 'zh',
     theme: 'momotalk',
+    draggable: window.matchMedia('(max-width: 1150px)').matches,
     apikey: '',
     host: 'https://api.openai.com/v1/chat/completions',
 
@@ -25,6 +26,7 @@ export const store = reactive({
         localStorage.setItem('arona-apikey', JSON.stringify(this.apikey))
         localStorage.setItem('arona-host', JSON.stringify(this.host))
         localStorage.setItem('render-theme', JSON.stringify(this.theme))
+        localStorage.setItem('draggable', JSON.stringify(this.draggable))
     },
     getData() {
         talkHistory.getData()
@@ -38,6 +40,9 @@ export const store = reactive({
         this.host = data != null ? JSON.parse(data) : 'https://api.openai.com/v1/chat/completions'
         data = localStorage.getItem('render-theme')
         this.theme = data != null ? JSON.parse(data) : 'momotalk'
+        data = localStorage.getItem('draggable')
+        this.draggable = data != null ? JSON.parse(data) : window.matchMedia('(max-width: 1150px)').matches
+        
     },
     resetData() {
         talkHistory.resetData()

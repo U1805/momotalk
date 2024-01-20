@@ -6,18 +6,19 @@ const waitTime = (time: number) => {
     })
 }
 
-const waitClick = (elements: NodeList) => {
+const waitClick = (elements: NodeListOf<HTMLElement>) => {
     return new Promise((resolve) => {
         function handleClick(event: Event) {
             elements.forEach((element) => {
+                element.setAttribute('contenteditable', 'true')
                 element.removeEventListener('click', handleClick)
             })
-            resolve((event.target as HTMLDivElement).innerText)
-            // Disable virtual keyboard pop-up
-            const activeEle = document.activeElement as HTMLDivElement
-            activeEle.blur()
+            resolve((event.target as HTMLDivElement).innerText) 
         }
-        elements.forEach((element) => element.addEventListener('click', handleClick))
+        elements.forEach((element) => {
+            element.setAttribute('contenteditable', 'false')
+            element.addEventListener('click', handleClick)
+        })
     })
 }
 

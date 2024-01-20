@@ -15,6 +15,8 @@ export default {
     basicSetting: '基本設定',
     experimental: '実験的な機能です',
     renderStyle: 'テーマスタイル',
+    draggable: '会話ドラッグ',
+    disableDrag: 'ドラッグを無効にする',
     importAndExport: 'インポート/エクスポート',
     importDialog: '対話のインポート',
     importButton: 'ファイルを選択',
@@ -68,7 +70,7 @@ export default {
 
 ![](./img/splitmessage.webp)
 
-<p>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
+<p style='text-align: center'>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
 
 ## 🌟その他
 

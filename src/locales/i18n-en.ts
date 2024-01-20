@@ -15,6 +15,8 @@ export default {
     basicSetting: 'Basic Settings',
     experimental: 'Experimental Feature',
     renderStyle: 'Theme Style',
+    draggable: 'Dialogue drag and drop',
+    disableDrag: 'Disable drag and drop',
     importAndExport: 'Import/Export',
     importDialog: 'Import History',
     importButton: 'Select a file',
@@ -68,7 +70,7 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 
 ![](./img/splitmessage.webp)
 
-<p>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
+<p style='text-align: center'>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
 
 ## 🌟 Others
 

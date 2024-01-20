@@ -135,12 +135,7 @@
 .student-list__button {
     @include center;
     background: white;
-    border: {
-        width: 7px;
-        color: white;
-        style: solid;
-        radius: 5px;
-    }
+    border-radius: 5px;
     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
     margin: 15px 20px;
     width: 20%;
@@ -261,5 +256,5 @@ img {
 
 #chatcard {
     grid-area: 2 / 3 / 3 / 4;
-    background-color: white;
+    background-color: var(--theme_bg_color);
 }

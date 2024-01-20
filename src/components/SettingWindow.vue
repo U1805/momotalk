@@ -46,6 +46,9 @@ const changeTheme = () => {
                             @change="store.setData();changeTheme();" />momotalk</label>
                     <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
                             @change="store.setData();changeTheme();" />yuzutalk</label>
+                    <h2>{{ $t('draggable') }}</h2>
+                    <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
+                        @change="store.setData()"/>{{ $t('disableDrag') }}</label>
                     <h2>{{ $t('importAndExport') }}</h2>
                     <label>{{ $t('exportDialog') }}: </label>
                     <button @click="exportJson">{{ $t('exportButton') }}</button><br />

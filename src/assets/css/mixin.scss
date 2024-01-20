@@ -100,3 +100,13 @@ $chatborder-color: #cdd3dc;
     fill: currentColor;
     color: rgba(0, 0, 0, 0.26);
 }
+
+.vuepress-markdown-body{
+    background-color: var(--theme_bg_color) !important;
+
+    img{
+        width: 100%;
+        border: 2px solid $chatborder-color;
+        border-radius: 20px;
+    }
+}

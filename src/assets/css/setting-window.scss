@@ -102,9 +102,20 @@
 
 .radio {
     display: inline-flex;
+    align-items: center;
     margin-right: 20px;
 
     input {
+        width: auto;
+        margin: 5px;
+    }
+}
+
+.checkbox{
+    display: inline-flex;   
+    align-items: center;
+    input{
+        width: auto;
         margin: 5px;
     }
 }

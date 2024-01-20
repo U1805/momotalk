@@ -261,6 +261,7 @@ $bar-height: calc($chatfooter-height/2);
     width: 100%;
     height: $bar-height;
     cursor: pointer;
+    background-color: white;
 }
 
 .g-scroll {

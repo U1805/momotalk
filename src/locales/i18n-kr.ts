@@ -15,6 +15,8 @@ export default {
     basicSetting: '기본 설정',
     experimental: '실험 기능',
     renderStyle: '테마 스타일',
+    draggable: '대화 드래그',
+    disableDrag: '드래그 사용 안 함',
     importAndExport: '대화/대화',
     importDialog: '대화 가져오기',
     importButton: '파일 선택',

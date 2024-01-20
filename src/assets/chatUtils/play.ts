@@ -33,7 +33,7 @@ const play = async (
             sendText(item.Type, text)
             await waitTime(100)
             // reply
-            const buttons = document.querySelectorAll('div.choice span > span')
+            const buttons = document.querySelectorAll('div.choice span > span') as NodeListOf<HTMLElement>
             text = (await waitClick(buttons)) as string
             item = data.find((ele) => ele[storyLng] === text)
             talkHistory.deleteTalkByIndex(-1)
@@ -53,7 +53,7 @@ const play = async (
         if (item.Type === 2) {
             // momotalk story
             await waitTime(100)
-            const buttons2 = document.querySelectorAll('.box-story')
+            const buttons2 = document.querySelectorAll('.box-story span') as NodeListOf<HTMLElement>
             await waitClick(buttons2)
         } else {
             await waitTime(1500)
