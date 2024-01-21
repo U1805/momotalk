@@ -25,4 +25,4 @@ function getRole(name: string, avatar: string) {
     return student
 }
 
-export { getRole }
+export { getRole, getId }

@@ -2,22 +2,6 @@ import axios from 'axios'
 import { studentInfo } from './interface'
 import { Traditionalized } from './tw_cn'
 
-const prefixTable: { [key: string]: string[] } = {
-    // 删除部分单字，如 '春' 可以被 '新春' 匹配到，'车' 可以被 '单车' 匹配到，'营''山' 同理
-    bunnygirl: ['兔', '兔女郎'],
-    casual: ['私服', '滑板'],
-    cheerleader: ['啦', '拉', '啦啦队', '拉拉队', '应援', '应援服'],
-    christmas: ['圣', '圣诞'],
-    gym: ['体', '体操', '体操服', '运', '运动', '运动服'],
-    hotspring: ['温', '温泉'],
-    maid: ['妹', '妹抖', '女仆'],
-    newyear: ['新', '新春', '新年', '正月'],
-    riding: ['单车', '骑行'],
-    swimsuit: ['水', '泳', '泳装'],
-    young: ['幼', '幼女'],
-    camping: ['野', '露', '露营', '野营', '登山']
-}
-
 function proxy(url: string): string
 function proxy(url: string[]): string[]
 
@@ -41,14 +25,15 @@ const getSchaleSchoolIcon = (school: string) => {
 }
 
 const getData = async (file: string) => {
-    let data: any[] = []
+    let data: any
     await axios.get(proxy(file)).then((res) => (data = res.data))
     return data
 }
 
 const getSchale = async (lng: string) => {
-    const local = await getData('/api/Momotalk/students.json')
-    const schale = await getData(`https://schale.gg/data/${lng}/students.min.json`)
+    const schale      = await getData(`https://schale.gg/data/${lng}/students.min.json`) as any []
+    const local       = await getData('/api/Momotalk/students.json') as any[]
+    const prefixTable = await getData('/api/Momotalk/prefixTable.json') as { [key: string]: string[] }
     const results: studentInfo[] = []
     for (const schaleItem of schale) {
         const localItem = local.find((ele) => ele.Id === schaleItem.Id)
@@ -74,7 +59,7 @@ const getSchale = async (lng: string) => {
             newStudent.Bio = Traditionalized(localItem.Bio['zh'])
 
         // generating nicknames: add prefix
-        if (localItem && localItem.related) {
+        if (localItem && localItem.related && prefixTable.hasOwnProperty(localItem.related[1])) {
             const relatedInfo: [number, string] = localItem.related
             const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])!
             var prefixs = prefixTable[relatedInfo[1]]
@@ -91,7 +76,7 @@ const getSchale = async (lng: string) => {
 }
 
 const getLocal = async (lng: string) => {
-    const local = await getData('/api/Momotalk/students2.json')
+    const local = await getData('/api/Momotalk/students2.json') as any[]
     const results: studentInfo[] = []
     for (const localItem of local) {
         const newStudent: studentInfo = {
@@ -119,12 +104,12 @@ const getStudents = async (lng: string) => {
 }
 
 const getMessage = async (storyid: string, story: string) => {
-    const res = await getData(`/api/Stories/${storyid}/${story}.json`)
+    const res = await getData(`/api/Stories/${storyid}/${story}.json`) as any[]
     return res
 }
 
 const getStickers = async (student: number) => {
-    const res = await getData(`/api/Stories/${student}/Stickers.json`)
+    const res = await getData(`/api/Stories/${student}/Stickers.json`) as any[]
     return res
 }
 

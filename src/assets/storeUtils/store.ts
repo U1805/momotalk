@@ -16,7 +16,7 @@ export const store = reactive({
     showPlayerDialog: false,
     showSettingDialog: false,
     storyKey: '10005',
-    storyList: {} as {[key:string]: string[]},
+    storyList: {} as { [key: string]: string[] },
     storyFile: '1000501',
 
     setData() {
@@ -31,18 +31,14 @@ export const store = reactive({
     getData() {
         talkHistory.getData()
         selectList.getData()
-        var data = localStorage.getItem('language')
-        this.language = data != null ? JSON.parse(data) : 'zh'
+        const data = ['language', 'arona-apikey', 'arona-host', 'render-theme', 'draggable']
+            .map((x) => localStorage.getItem(x))
+        this.language  = data[0] != null ? JSON.parse(data[0]) : 'zh'
         i18n.global.locale = this.language as any
-        data = localStorage.getItem('arona-apikey')
-        this.apikey = data != null ? JSON.parse(data) : ''
-        data = localStorage.getItem('arona-host')
-        this.host = data != null ? JSON.parse(data) : 'https://api.openai.com/v1/chat/completions'
-        data = localStorage.getItem('render-theme')
-        this.theme = data != null ? JSON.parse(data) : 'momotalk'
-        data = localStorage.getItem('draggable')
-        this.draggable = data != null ? JSON.parse(data) : window.matchMedia('(max-width: 1150px)').matches
-        
+        this.apikey    = data[1] != null ? JSON.parse(data[1]) : ''
+        this.host      = data[2] != null ? JSON.parse(data[2]) : 'https://api.openai.com/v1/chat/completions'
+        this.theme     = data[3] != null ? JSON.parse(data[3]) : 'momotalk'
+        this.draggable = data[4] != null ? JSON.parse(data[4]) : window.matchMedia('(max-width: 1150px)').matches
     },
     resetData() {
         talkHistory.resetData()

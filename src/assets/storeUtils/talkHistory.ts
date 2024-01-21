@@ -121,7 +121,7 @@ export const talkHistory = reactive({
             historyState.push(this.talkHistory)
     },
     getData() {
-        const data = [localStorage.getItem('talkHistory'), localStorage.getItem('talkId')]
+        const data = ['talkHistory', 'talkId'].map(x => localStorage.getItem(x))
         this.talkHistory = data[0] != null ? JSON.parse(data[0]) : ([] as Talk[])
         this.talkId = data[1] != null ? JSON.parse(data[1]) : 0
         historyState.push(this.talkHistory)

@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { store } from '@/assets/storeUtils/store'
 import { importJson, exportJson } from '@/assets/storeUtils/file'
+import { importCard, exportCard } from '@/assets/chatUtils/play'
 import IconClose from './icons/IconClose.vue';
 import IconGithub from './icons/IconGithub.vue'
+import IconLog from './icons/IconLog.vue';
 
 const showPage = (num: number) => {
     const pageElements = document.querySelectorAll('.page');
@@ -41,43 +43,45 @@ const changeTheme = () => {
             <div class="featured">
                 <div class="page">
                     <p class="dialog-content">
-                    <h2>{{ $t('renderStyle') }}</h2>
-                    <label class="radio"><input type="radio" value="momotalk" name="style" v-model="store.theme"
-                            @change="store.setData();changeTheme();" />momotalk</label>
-                    <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
-                            @change="store.setData();changeTheme();" />yuzutalk</label>
-                    <h2>{{ $t('draggable') }}</h2>
-                    <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
-                        @change="store.setData()"/>{{ $t('disableDrag') }}</label>
-                    <h2>{{ $t('importAndExport') }}</h2>
-                    <label>{{ $t('exportDialog') }}: </label>
-                    <button @click="exportJson">{{ $t('exportButton') }}</button><br />
-                    <label>{{ $t('importDialog') }}: </label>
-                    <button @click="importJson">{{ $t('importButton') }}</button><br />
+                        <h2>{{ $t('renderStyle') }}</h2>
+                        <label class="radio"><input type="radio" value="momotalk" name="style" v-model="store.theme"
+                                @change="store.setData();changeTheme();" />momotalk</label>
+                        <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
+                                @change="store.setData();changeTheme();" />yuzutalk</label>
+                        <h2>{{ $t('draggable') }}</h2>
+                        <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
+                            @change="store.setData()"/>{{ $t('disableDrag') }}</label>
+                        <h2>{{ $t('importAndExport') }}</h2>
+                        <label>{{ $t('exportDialog') }}: </label>
+                        <button @click="exportJson">{{ $t('exportButton') }}</button><br />
+                        <label>{{ $t('importDialog') }}: </label>
+                        <button @click="importJson">{{ $t('importButton') }}</button><br />
                     </p>
                     <p class="dialog-content">
-                        <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB">
-                            <IconGithub />
-                        </a>
+                        <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
+                        <a href="https://github.com/U1805/momotalk/blob/main/docs/update_log.md" class="icon-log" title="LOG"><IconLog /></a>
                     </p>
                 </div>
                 <div class="page">
                     <p class="dialog-content">
-                    <h2>{{ $t('chatToArona') }}</h2>
-                    <label>{{ $t('warnSave') }}</label><br />
-                    <label>{{ $t('warnCost') }}</label><br />
-                    <label>API Key: </label>
-                    <input type="text" placeholder="sk-xxxxxxxxxxxxx" v-model="store.apikey" @change="store.setData"><br />
-                    <label>{{ $t('host') }}: </label>
-                    <input type="text" v-model="store.host" @change="store.setData">
-                    <label>{{ $t('clickToStart') }}</label>
+                        <label>{{ $t('warnSave') }}</label><br />
+                        <h2>{{ $t('sharedFile') }}</h2>
+                        <span style="display: flex;justify-content: space-evenly">
+                        <button class="button-half" @click="exportCard">{{ $t('exportButton') }}</button><br />
+                        <button class="button-half" @click="importCard">{{ $t('importButton') }}</button><br />
+                        </span>
+                        <h2>{{ $t('chatToArona') }}</h2>
+                        <label>{{ $t('warnCost') }}</label><br />
+                        <label>API Key: </label>
+                        <input type="text" placeholder="sk-xxxxxxxxxxxxx" v-model="store.apikey" @change="store.setData"><br />
+                        <label>{{ $t('host') }}: </label>
+                        <input type="text" v-model="store.host" @change="store.setData">
+                        <label>{{ $t('clickToStart') }}</label>
                     </p>
                     <p class="dialog-content">
-                        <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB">
-                            <IconGithub />
-                        </a>
-                        <a href="./Arona" title="talk to A.R.O.N.A">
-                            <img class="arona-chat" src="/Arona.webp"></a>
+                        <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
+                        <a href="https://github.com/U1805/momotalk/blob/main/docs/update_log.md" class="icon-log" title="LOG"><IconLog /></a>
+                        <a href="./Arona" title="talk to A.R.O.N.A"><img class="arona-chat" src="/Arona.webp"></a>
                     </p>
                 </div>
             </div>
