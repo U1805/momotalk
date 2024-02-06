@@ -22,7 +22,8 @@ const showPage = (num: number) => {
 const changeTheme = () => {
     if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
         store.theme = 'momotalk';
-    document.body.className = store.theme;
+    var fullScreen = store.fullScreen ? 'full-screen' : 'not-full-screen'
+    document.body.className = store.theme + ' ' + fullScreen
 }
 </script>
 
@@ -48,6 +49,8 @@ const changeTheme = () => {
                                 @change="store.setData();changeTheme();" />momotalk</label>
                         <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
                                 @change="store.setData();changeTheme();" />yuzutalk</label>
+                        <label class="checkbox"><input type="checkbox" value="false" v-model="store.fullScreen" 
+                            @change="store.setData();changeTheme();"/>{{ $t('fullScreen') }}</label>
                         <h2>{{ $t('draggable') }}</h2>
                         <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
                             @change="store.setData()"/>{{ $t('disableDrag') }}</label>

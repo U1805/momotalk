@@ -268,7 +268,7 @@ $bar-height: calc($chatfooter-height/2);
     position: absolute;
     left: -$bar-height;
     width: $bar-height;
-    height: calc(($view-width - $sider-width) / 2);
+    height: calc((var(--view-width) - $sider-width) / 2);
     transform-origin: 100% 0;
     transform: rotate(-90deg);
     overflow: scroll;

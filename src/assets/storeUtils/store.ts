@@ -6,6 +6,7 @@ import { selectList } from './selectList'
 export const store = reactive({
     language: 'zh',
     theme: 'momotalk',
+    fullScreen: false,
     draggable: window.matchMedia('(max-width: 1150px)').matches,
     apikey: '',
     host: 'https://api.openai.com/v1/chat/completions',
@@ -27,11 +28,12 @@ export const store = reactive({
         localStorage.setItem('arona-host', JSON.stringify(this.host))
         localStorage.setItem('render-theme', JSON.stringify(this.theme))
         localStorage.setItem('draggable', JSON.stringify(this.draggable))
+        localStorage.setItem('full-screen', JSON.stringify(this.fullScreen))
     },
     getData() {
         talkHistory.getData()
         selectList.getData()
-        const data = ['language', 'arona-apikey', 'arona-host', 'render-theme', 'draggable']
+        const data = ['language', 'arona-apikey', 'arona-host', 'render-theme', 'draggable', 'full-screen']
             .map((x) => localStorage.getItem(x))
         this.language  = data[0] != null ? JSON.parse(data[0]) : 'zh'
         i18n.global.locale = this.language as any
@@ -39,6 +41,7 @@ export const store = reactive({
         this.host      = data[2] != null ? JSON.parse(data[2]) : 'https://api.openai.com/v1/chat/completions'
         this.theme     = data[3] != null ? JSON.parse(data[3]) : 'momotalk'
         this.draggable = data[4] != null ? JSON.parse(data[4]) : window.matchMedia('(max-width: 1150px)').matches
+        this.fullScreen = data[5] != null ? JSON.parse(data[5]) : false
     },
     resetData() {
         talkHistory.resetData()

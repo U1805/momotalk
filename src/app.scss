@@ -14,7 +14,7 @@
     display: grid;
     grid: {
         template-columns: $sider-width repeat(2, 1fr);
-        template-rows: $header-height calc($view-height - $header-height);
+        template-rows: $header-height calc(var(--view-height) - $header-height);
         column-gap: 0px;
         row-gap: 0px;
     }
@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc($view-height - $header-height - $listheader-height);
+    height: calc(var(--view-height) - $header-height - $listheader-height);
     @include hide-scrollbar;
 }
 

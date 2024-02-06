@@ -15,6 +15,7 @@ export default {
     basicSetting: '基本設定',
     experimental: '実験的な機能です',
     renderStyle: 'テーマスタイル',
+    fullScreen: 'フルスクリーン',
     draggable: '会話ドラッグ',
     disableDrag: 'ドラッグを無効にする',
     importAndExport: 'インポート/エクスポート',

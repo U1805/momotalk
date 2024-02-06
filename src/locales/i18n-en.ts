@@ -15,6 +15,7 @@ export default {
     basicSetting: 'Basic Settings',
     experimental: 'Experimental Feature',
     renderStyle: 'Theme Style',
+    fullScreen: 'Full Screen',
     draggable: 'Dialogue drag and drop',
     disableDrag: 'Disable drag and drop',
     importAndExport: 'Import/Export',

@@ -15,6 +15,7 @@ export default {
     basicSetting: '기본 설정',
     experimental: '실험 기능',
     renderStyle: '테마 스타일',
+    fullScreen: '전체 화면',
     draggable: '대화 드래그',
     disableDrag: '드래그 사용 안 함',
     importAndExport: '대화/대화',

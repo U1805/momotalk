@@ -14,6 +14,7 @@ export default {
     basicSetting: '基本设置',
     experimental: '实验性功能',
     renderStyle: '主题样式',
+    fullScreen: '全屏',
     draggable: '对话拖拽',
     disableDrag: '禁用拖拽',
     importAndExport: '导入/导出',

@@ -7,8 +7,8 @@
 }
 
 #app {
-    width: $view-width;
-    height: $view-height;
+    width: var(--view-width);
+    height: var(--view-height);
     margin: 0 auto;
     font-weight: normal;
 }

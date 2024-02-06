@@ -1,13 +1,13 @@
 .talk-wrapper {
     height: 100%;
-    width: calc(($view-width - $sider-width) / 2);
+    width: calc((var(--view-width) - $sider-width) / 2);
 }
 
 .talk-list {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc($view-height - $header-height - $chatfooter-height);
+    height: calc(var(--view-height) - $header-height - $chatfooter-height);
     background-color: var(--theme_bg_color);
     @include hide-scrollbar;
     overflow-x: hidden;

@@ -205,8 +205,10 @@ const changeLanguage = async () => {
 
 // theme
 const changeTheme = () => {
-    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') store.theme = 'momotalk'
-    document.body.className = store.theme
+    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
+        store.theme = 'momotalk'
+    var fullScreen = store.fullScreen ? 'full-screen' : 'not-full-screen'
+    document.body.className = store.theme + ' ' + fullScreen
 }
 changeTheme()
 

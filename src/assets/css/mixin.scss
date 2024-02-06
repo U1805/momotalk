@@ -1,5 +1,5 @@
-$view-height: 80vh;
-$view-width: 80vw;
+// $view-height: 80vh;
+// $view-width: 80vw;
 $header-height: 60px;
 $sider-width: 75px;
 $listheader-height: 75px;
@@ -27,6 +27,8 @@ $chatborder-color: #cdd3dc;
     --theme_title_color: rgb(252, 150, 171);
     /* 发送栏 */
     --theme_send_bar_color: #eeeeee;
+    --view-height: 80vh;
+    --view-width: 80vw;
 }
 
 .momotalk {
@@ -39,6 +41,16 @@ $chatborder-color: #cdd3dc;
     --theme_bg_color: rgb(255, 247, 225);;
     --theme_title_color: rgb(255, 220, 66);
     --theme_send_bar_color: rgb(247, 247, 247);
+}
+
+.not-full-screen {
+    --view-height: 80vh;
+    --view-width: 80vw;
+}
+
+.full-screen {
+    --view-height: 100vh;
+    --view-width: 100vw;
 }
 
 @mixin font-heavy($size) {
