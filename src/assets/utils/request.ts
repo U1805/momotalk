@@ -10,7 +10,7 @@ function proxy(url: string | string[]) {
         if (url.indexOf('nocookie') !== -1 || url.indexOf('api.kivo.wiki') !== -1)
             return 'https://wsrv.nl/?url=' + url + '&output=webp'
         else
-            return url.replace('/api', 'https://cdn.jsdelivr.net/gh/BlueArcbox/resources')
+            return url.replace('/api', 'https://BlueArcbox.github.io/resources')
     } else {
         return url.map((ele) => proxy(ele))
     }
@@ -57,6 +57,9 @@ const getSchale = async (lng: string) => {
             newStudent.Bio = localItem.Bio['jp']
         if (localItem && lng == 'tw' && !localItem.Bio['tw'])
             newStudent.Bio = Traditionalized(localItem.Bio['zh'])
+        // fix zh name
+        if (localItem && lng == 'zh' && localItem.Name)
+            newStudent.Name = localItem.Name
 
         // generating nicknames: add prefix
         if (localItem && localItem.related && prefixTable.hasOwnProperty(localItem.related[1])) {
