@@ -36,7 +36,7 @@
                         <div class="sticker-wrapper" v-if="typeof selected !== 'number' || selected === 1">
                             <div class="stk">
                                 <div v-for="(sticker, index) in stickerList" :key="index">
-                                    <img :src="sticker" @click="_sticker(sticker)" />
+                                    <img v-lazy="sticker" @click="_sticker(sticker)" />
                                 </div>
                             </div>
                             <div class="tab">
@@ -131,7 +131,7 @@ import { onMounted, ref, watch } from 'vue'
 
 import i18n from '@/locales/i18n'
 import { baseStudent } from '@/assets/utils/interface'
-import { stickers } from '@/assets/utils/stickers'
+import { stickers, stickers2, stickers3 } from '@/assets/utils/stickers'
 import { getMessage, getStickers, proxy } from '@/assets/utils/request'
 import { getRole } from '@/assets/chatUtils/role'
 import { readFile } from '@/assets/imgUtils/readFile'
@@ -164,16 +164,16 @@ const _sticker = (sticker: string)=>{
 }
 
 // 贴图
-const stickerList = ref<string[]>(stickers)
+const stickerList = ref<string[]>(proxy(stickers))
 const stickerTab = ref<number>(1)
 const switchSticker = async (selected: baseStudent | number) => {
     if (typeof selected === 'number') {
         if (selected === -1) {
             stickerTab.value = 1
-            stickerList.value = stickers
+            stickerList.value = proxy(stickers)
         }
         if (selected === 1) {
-            stickerList.value = []
+            stickerList.value = proxy(stickers2)
             stickerTab.value = 2
         }
     } else {
@@ -181,12 +181,12 @@ const switchSticker = async (selected: baseStudent | number) => {
         let t_sticker: string[]
         try {
             t_sticker = await getStickers(selected.Id)
+            stickerList.value = proxy(t_sticker)
         } catch (err) {
-            stickerList.value = []
+            stickerList.value = proxy(stickers3)
             console.error('sticker file does not exist!')
             return
         }
-        stickerList.value = proxy(t_sticker)
     }
 }
 

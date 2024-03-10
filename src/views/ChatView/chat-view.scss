@@ -44,13 +44,29 @@ $bar-icon-height: calc($bar-height * 0.67);
     margin: 0 8px;
     height: $bar-icon-height;
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid #aaa;
     line-height: 28px;
     resize: none;
+    
+    font-family: sans-serif;
+    @include font-light(20px);
+    @include center;
+
+    background-repeat: no-repeat;
+    border: 2px solid #dce5ec;
+    border-radius: 20px;
+    outline: none;
+
     &:focus::placeholder{
         opacity: 0;
         transition: opacity 0.2s ease-in-out;
+    }
+
+    &:focus-visible {
+        border: 2px solid #ffb342;
+    }
+
+    &::placeholder {
+        color: #9e9ea7;
     }
 }
 

@@ -6,7 +6,6 @@ import MessageIcon from './components/icons/IconMessage.vue'
 import DownloadIcon from './components/icons/IconDownload.vue'
 import ListIcon from './components/icons/IconList.vue'
 import ResetIcon from './components/icons/IconReset.vue'
-import SearchIcon from './components/icons/IconSearch.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
 import PlayerDialog from '@/components/PlayerWindow.vue'
 import SettingDialog from '@/components/SettingWindow.vue'
@@ -54,7 +53,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
         <div id="listcard">
             <div id="listcard__header">
                 <div class="search-group">
-                    <SearchIcon class="icon search-group__icon" />
+                    <!-- <SearchIcon class="icon search-group__icon" /> -->
                     <input
                         type="text"
                         placeholder="Type / to search"
@@ -84,7 +83,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                         @click.stop=""
                         @click="showAvatars(item)"
                     >
-                        <img :src="item.Avatars[item.cnt]" />
+                        <img v-lazy="item.Avatars[item.cnt]" />
                         <button
                             :class="item === studentShowAvatars ? 'minus' : 'add'"
                             v-if="item.Avatars.length > 2"
@@ -98,7 +97,7 @@ import SettingDialog from '@/components/SettingWindow.vue'
                         @click.stop=""
                         @click=" searchSchool = searchSchool === item.School ? '' : item.School "
                     >
-                        <img :src="getSchaleSchoolIcon(item.School)" />
+                        <img v-lazy="getSchaleSchoolIcon(item.School)" />
                     </div>
                     <div
                         class="list-item__avatars"
@@ -107,7 +106,8 @@ import SettingDialog from '@/components/SettingWindow.vue'
                     >
                         <img
                             v-for="(avatar, index) in item.Avatars"
-                            :src="avatar"
+                            :key="index"
+                            v-lazy="avatar"
                             @click="selectAvatar(item, index)"
                         />
                     </div>

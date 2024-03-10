@@ -62,10 +62,10 @@ const getSchale = async (lng: string) => {
             newStudent.Name = localItem.Name
 
         // generating nicknames: add prefix
-        if (localItem && localItem.related && prefixTable.hasOwnProperty(localItem.related[1])) {
+        if (localItem && localItem.related && Object.prototype.hasOwnProperty.call(prefixTable, localItem.related[1])) {
             const relatedInfo: [number, string] = localItem.related
             const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])!
-            var prefixs = prefixTable[relatedInfo[1]]
+            const prefixs = prefixTable[relatedInfo[1]]
             for (const prefix of prefixs) {
                 newStudent.Nickname.push(prefix + relatedItem!.Name)
                 newStudent.Nickname.push(

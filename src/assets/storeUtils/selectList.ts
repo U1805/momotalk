@@ -17,7 +17,7 @@ export const selectList = reactive({
         for (const item of this.selectList) {
             if (item.Id === student.Id && item.Avatar === student.Avatar) return
         }
-        this.selectList.push(student)
+        this.selectList.unshift(student) // push to beginning
         this.setData()
     },
 

@@ -107,28 +107,32 @@
 }
 
 .search-group {
-    font-size: 25px;
-    height: 40px;
-    color: #9e9ea7;
-    margin: 10px 16px;
+    margin: 10px 0px 10px 16px;
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid #aaa;
-    background-color: white;
     @include center;
 
     &__text {
-        width: 100%;
-        margin: 0;
-        border: transparent;
-        @include font-light(18px);
-        font-family: sans-serif;
+        &:focus-visible {
+            border: 2px solid #ffb342;
+        }
+
         &::placeholder {
             color: #9e9ea7;
         }
-        &:focus {
-            outline: none;
-        }
+        
+        height: 40px;
+        width: 100%;
+        background-color: white;
+        @include font-light(20px);
+        @include center;
+
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024' width='20' height='20'%3E%3Cpath d='M694.857 475.429q0-105.715-75.143-180.858T438.857 219.43 258 294.57 182.857 475.43 258 656.286t180.857 75.143 180.857-75.143 75.143-180.857zM987.43 950.857q0 29.714-21.715 51.429T914.286 1024q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714T154 760.286 68.286 631.714 36.57 475.43t31.715-156.286T154 190.57t128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.715 128.572 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.142 21.143 51.428z' fill='%239AA0A6'/%3E%3C/svg%3E");
+        background-position: 10px, 50%;
+        background-repeat: no-repeat;
+        border: 2px solid #dce5ec;
+        border-radius: 20px;
+        outline: none;
+        padding: 0 8px 0 38px;
     }
 }
 
@@ -177,7 +181,7 @@
     &__avatar {
         grid-area: 1 / 1 / 3 / 2;
         cursor: pointer;
-        .add{
+        .add {
             @include circle(25px);
             position: relative;
             left: 55px;
@@ -193,16 +197,17 @@
                 height: 80%;
                 transition: transform 200ms ease 0s;
             }
-            &::before, &::after{
+            &::before,
+            &::after {
                 display: block;
-                content: "";
+                content: '';
                 position: absolute;
                 inset: 0px;
                 margin: auto;
                 background-color: white;
             }
         }
-        .minus{
+        .minus {
             @extend .add;
             &::after {
                 width: 4px;
@@ -243,7 +248,7 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 16px;
-        img{
+        img {
             margin-right: 16px;
         }
     }

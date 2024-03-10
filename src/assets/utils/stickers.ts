@@ -1,6 +1,4 @@
-import { proxy } from './request'
-
-let stickers = [
+export const stickers = [
     '/api/Stickers/01.webp',
     '/api/Stickers/02.webp',
     '/api/Stickers/03.webp',
@@ -43,6 +41,38 @@ let stickers = [
     '/api/Stickers/40.webp'
 ]
 
-stickers = proxy(stickers)
+export const stickers2 = [
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_53_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_83_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_84_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_85_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_86_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_87_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_88_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_89_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_90_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_91_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_92_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_93_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_94_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_95_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_96_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_100_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_103_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_104_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_105_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_106_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_107_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_109_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_110_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_111_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_112_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_141_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_142_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_143_Jp.png',
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_144_Jp.png'
+]
 
-export { stickers }
+export const stickers3 = [
+    'https://api.kivo.wiki/assets/images/gallery/16/ClanChat_Emoji_83_Jp.png'
+] 
