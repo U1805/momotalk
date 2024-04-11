@@ -27,11 +27,11 @@
 - **多言語対応**: 中国語(簡体字&繁体字)、日本語、韓国語、英語に対応。🌐
 - **モモトークを再生**: ゲームからモモトークのストーリーを読むためにも使用できます。▶️
 
-[試してみる!](https://u1805.github.io/momotalk)
+[試してみる！](https://u1805.github.io/momotalk)
 
 ## 試験的な機能
 
-> このセクションにはまだ安定していない機能が含まれています。
+> この項目にはまだ安定していない機能が含まれています。
 
 - **A.R.O.N.A**: バーチャルアシスタントのアロナとの対話の体験を提供します。 💬
 
@@ -44,9 +44,9 @@
 
 [クイックスタート](./How-to-use.md)
 
-## Starの履歴
+## Starの推移
 
-[![Star History Chart](https://api.star-history.com/svg?repos=U1805/momotalk)](https://star-history.com/#U1805/momotalk)
+[![スターの推移チャート](https://api.star-history.com/svg?repos=U1805/momotalk)](https://star-history.com/#U1805/momotalk)
 
 ## クレジット
 
@@ -57,14 +57,14 @@
 - [blacktunes/juus-maker](https://github.com/blacktunes/juus-maker)
 - [ClosureTalk/closure-talk](https://github.com/ClosureTalk/closure-talk)
 
-キャラクターのメタデータとアセットは以下から:
+キャラクターのメタデータとアセット:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
 
-ARONAのプロンプト：
+ARONAのプロンプト:
 
 - [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
@@ -72,4 +72,4 @@ ARONAのプロンプト：
 
 このアプリケーションはYostar & NEXON Gamesとは関連がありません。
 
-使用されている全ての情報とアセットは、それぞれの著者の財産および著作権に属します。
+使用されている全ての情報と素材は、それぞれの著者の財産および著作権に属します。
