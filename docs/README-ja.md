@@ -10,7 +10,7 @@
 
 <div align="center">
   <strong>ブルーアーカイブの見た目のWebのチャット作成ツールです。</strong><br>
-  <sub>自由なアイデアで創作しましょう！</sub>
+  <sub>自由なアイデアで創作しよう！</sub>
 </div>
 
 [English](../README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md) | [日本語](./README-ja.md)
@@ -57,7 +57,7 @@
 - [blacktunes/juus-maker](https://github.com/blacktunes/juus-maker)
 - [ClosureTalk/closure-talk](https://github.com/ClosureTalk/closure-talk)
 
-キャラクターのメタデータとアセット:
+キャラクターのメタデータとアセットは以下を用いています:
 
 - [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
 - [bluearchive.fandom](https://bluearchive.fandom.com)
