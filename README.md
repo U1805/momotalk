@@ -13,7 +13,7 @@
   <sub>Set your Creative Idea free!</sub>
 </div>
 
-[English](./README.md) | [简体中文](./docs/README-zh_cn.md) | [繁體中文](./docs/README-zh_tw.md)
+[English](./README.md) | [简体中文](./docs/README-zh_cn.md) | [繁體中文](./docs/README-zh_tw.md) | [日本語](./docs/README-ja.md)
 
 
 ## Feature
