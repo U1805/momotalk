@@ -13,7 +13,7 @@
   <sub>来创造脑洞大开的故事吧！</sub>
 </div>
 
-[English](../README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md)
+[English](../README.md) | [简体中文](./README-zh_cn.md) | [繁體中文](./README-zh_tw.md) | [日本語](./README-ja.md)
 
 ## 特性
 
