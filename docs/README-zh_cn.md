@@ -41,7 +41,7 @@
 
 ## 使用
 
-[How To Use](./How-to-use.md)
+[How To Use](./How-to-use-zh_cn.md)
 
 ## Star
 

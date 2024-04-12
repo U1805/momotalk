@@ -2,6 +2,16 @@
 
 ## Update log 更新历史
 
+### Apr 12, 2024:
+
+文档：新增日语说明  
+样式：支持全屏显示  
+特性：图片懒加载，缩短打开时间
+
+docs: Addition of Japanese Instructions  
+style: Support Full Screen Display  
+feat: Lazy Loading of Images, Shorten Opening Time
+
 ### Jan 22, 2024:
 
 特性：支持 markdown 设置字体样式  

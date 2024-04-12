@@ -41,7 +41,7 @@
 
 ## 使用方法
 
-[HOW TO USE](./How-to-use.md)
+[HOW TO USE](./How-to-use-zh_tw.md)
 
 ## 給個星星
 
