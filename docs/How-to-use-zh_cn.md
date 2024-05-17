@@ -105,8 +105,8 @@
 
 ## 🌟 其他
 
-本应用适配移动端，但是因为能力有限，基本就是看看得了的程度，更推荐电脑操作 💻📱
+本应用适配移动端 💻📱
 
-游戏黑话(角色别名)搜索也是，如果发现有遗漏或者写错的，**欢迎提 [issue](https://github.com/U1805/momotalk/issues) 或 [pr](https://github.com/U1805/momotalk/pulls) 补充**，当然对功能和代码的好想法和优化也欢迎欢迎 ❤️
+如果游戏黑话(角色别名)搜索发现有遗漏或者写错的，**欢迎提 [issue](https://github.com/U1805/momotalk/issues) 或 [pr](https://github.com/U1805/momotalk/pulls) 补充**，当然对功能和代码的好想法和优化也欢迎欢迎 ❤️
 
 ![thanks](../public/img/kyk.gif)

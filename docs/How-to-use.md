@@ -96,7 +96,7 @@ Normally, messages from a single student are continuous. If you wish to interrup
 <p>via <a href="https://twitter.com/YuzuTalkJP/status/1421448297030381569">Yuzutalk</a> </p>
 </div>
 
-## ⚙️ Settings Interface Interface
+## ⚙️ Settings Interface
 
 Click on the gear icon in the upper right corner to access the settings. You can switch to the **Yuzutalk theme**, enable **full-screen** mode, and import or export your conversations.
 
@@ -108,7 +108,7 @@ In the experimental features, there is also an option to export your conversatio
 
 ## 🌟 Others
 
-The application is adapted for mobile devices, but due to limited capabilities, it's recommended to use it on a computer for a better experience 💻📱
+The application is adapted for mobile devices 💻📱
 
 If you notice any omissions or mistakes, **please feel free to raise an [issue](https://github.com/U1805/momotalk/issues) or submit a [pull request](https://github.com/U1805/momotalk/pulls) for correction**. Of course, ideas and optimizations for features and code are also very much welcomed ❤️
 
