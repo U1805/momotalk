@@ -7,7 +7,7 @@ function proxy(url: string[]): string[]
 
 function proxy(url: string | string[]) {
     if (typeof url === 'string') {
-        if (url.indexOf('nocookie') !== -1 || url.indexOf('api.kivo.wiki') !== -1)
+        if (url.indexOf('nocookie') !== -1 || url.indexOf('kivo.wiki') !== -1)
             return 'https://wsrv.nl/?url=' + url + '&output=webp'
         else
             return url.replace('/api', 'https://BlueArcbox.github.io/resources')
