@@ -9,6 +9,14 @@ import ResetIcon from './components/icons/IconReset.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
 import PlayerDialog from '@/components/PlayerWindow.vue'
 import SettingDialog from '@/components/SettingWindow.vue'
+
+// true "vh" on mobile 
+let vh = window.innerHeight * 0.01
+  document.documentElement.style.setProperty('--vh', `${vh}px`)
+  window.addEventListener('resize', () => {
+     let vh = window.innerHeight * 0.01
+     document.documentElement.style.setProperty('--vh', `${vh}px`)
+ })
 </script>
 
 <template>

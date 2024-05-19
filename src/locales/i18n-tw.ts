@@ -75,7 +75,7 @@ export default {
 
 ## 其他
 
-本應用適配移動端，但是因能力有限，基本上是瀏覽功能，更建議使用電腦 💻📱
+本應用適配移動端 💻📱
 
 如果發現有遺漏或錯誤，歡迎提 [issue](https://github.com/U1805/momotalk/issues) 或 [pr](https://github.com/U1805/momotalk/pulls) 補充，當然對功能和代碼的好想法和優化也歡迎提出 ❤️
 

@@ -76,7 +76,7 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 
 ## 🌟 Others
 
-This application is compatible with mobile devices, but due to limited capabilities, it's recommend to use on computers 💻📱.
+This application is compatible with mobile devices 💻📱.
 
 If you find any omissions or errors, **feel free to submit an [issue](https://github.com/U1805/momotalk/issues) or [pull request](https://github.com/U1805/momotalk/pulls)**. Of course, we welcome ideas and optimizations for functionality and code ❤️.
 

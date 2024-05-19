@@ -2,7 +2,7 @@
     #root {
         grid-template-columns: 100vw 100vw;
         grid-template-rows: $header-height 1fr $sider-width;
-        height: 100vh;
+        height: calc(var(--vh) * 100);
         scroll-snap-type: x mandatory;
         overflow-x: scroll;
     }
@@ -28,7 +28,7 @@
     #listcard {
         grid-area: 2/1/2/2;
         #listbody {
-            height: calc(100vh - $header-height - $listheader-height - $sider-width);
+            height: calc(var(--vh) * 100 - $header-height - $listheader-height - $sider-width);
         }
         scroll-snap-align: center;
     }
@@ -45,7 +45,7 @@
         width: 100vw;
     }
     .talk-list {
-        height: calc(100vh - $header-height - $chatfooter-height);
+        height: calc(var(--vh) * 100 - $header-height - $chatfooter-height);
     }
     .g-scroll,
     .g-wrap,
