@@ -11,40 +11,50 @@ class myReExp {
 
     constructor() {
         this.typeList = [
-            'head1', 'head2', 'head3', 'bold', 'italic', 'bold italic', 'deleted', 'style',
+            'head1', 'head2', 'head3', 'head4', 'head5', 'head6', 
+            'bold', 'italic', 'bold italic', 'deleted', 'style',
             'fix#', 'fix*', 'fix~'
         ]
         this.reMdList = [
             /^(?<!\\)#\s+(.*)$/gm,
             /^(?<!\\)##\s+(.*)$/gm,
             /^(?<!\\)###\s+(.*)$/gm,
+            /^(?<!\\)####\s+(.*)$/gm,
+            /^(?<!\\)#####\s+(.*)$/gm,
+            /^(?<!\\)######\s+(.*)$/gm,
             /(?<!\\)(\*\*)(.*?)(?<!\\)(\*\*)/gm,
             /(?<!\\)(\*)(.*?)(?<!\\)(\*)/gm,
             /(?<!\\)(\*\*\*)(.*?)(?<!\\)(\*\*\*)/gm,
-            /(?<!\\)\~\~(.*?)(?<!\\)\~\~/gm,
+            /(?<!\\)(~~)(.*?)(?<!\\)(~~)/gm,
             /\[(.*)\]\((.*)\)/gm,
-            /\\#/gm, /\\\*/gm, /\\\~/gm
+            /\\#/gm, /\\\*/gm, /\\~/gm
         ]
         this.strHtmlList = [
             '<h1>$1</h1>',
             '<h2>$1</h2>',
             '<h3>$1</h3>',
+            '<h4>$1</h4>',
+            '<h5>$1</h5>',
+            '<h6>$1</h6>',
             '<span style="font-weight:bolder;">$2</span>',
             '<span style="font-style:italic;">$2</span>',
             '<span style="font-style:italic;font-weight:bolder;">$2</span>',
-            '<del>$1</del>',
+            '<span style="text-decoration:line-through;">$2</span>',
             '<span style="$1">$2</span>',
             '#', '*', '~'
         ]
         this.reHtmlList = [
-            /(?<!\\)\#/gm, /(?<!\\)\*/gm, /(?<!\\)\~/gm,
+            /(?<!\\)#/gm, /(?<!\\)\*/gm, /(?<!\\)~/gm,
             /^<h1>(.*)<\/h1>$/gm,
             /^<h2>(.*)<\/h2>$/gm,
             /^<h3>(.*)<\/h3>$/gm,
+            /^<h4>(.*)<\/h4>$/gm,
+            /^<h5>(.*)<\/h5>$/gm,
+            /^<h6>(.*)<\/h6>$/gm,
             /<span style="font-weight:bolder;">(.*)<\/span>/gm,
             /<span style="font-style:italic;">(.*)<\/span>/gm,
             /<span style="font-style:italic;font-weight:bolder;">(.*)<\/span>/gm,
-            /<del>(.*)<\/del>/gm,
+            /<span style="text-decoration:line-through;">(.*)<\/span>/gm,
             /<span style="(.*)">(.*)<\/span>/gm
         ]
         this.strMdList = [
@@ -52,6 +62,9 @@ class myReExp {
             '# $1',
             '## $1',
             '### $1',
+            '#### $1',
+            '##### $1',
+            '###### $1',
             '**$1**',
             '*$1*',
             '***$1***',
