@@ -16,6 +16,7 @@ export default {
     experimental: '実験的な機能です',
     renderStyle: 'テーマスタイル',
     fullScreen: 'フルスクリーン',
+    zoom: 'ズーム',
     draggable: '会話ドラッグ',
     disableDrag: 'ドラッグを無効にする',
     importAndExport: 'インポート/エクスポート',
@@ -25,6 +26,8 @@ export default {
     exportButton: 'ダウンロード',
     sharedFile: '共有ファイル',
     chatToArona: 'アロナとチャット',
+    warnZoom: 
+        "⚠️ お使いのブラウザは現在ズームされています。画像のダウンロードを続行すると、レイアウトが崩れる可能性があります。\n• ズームが必要な場合は、右上隅の設定 ⚙️ からズーム機能をご利用ください。\n• ダウンロードを続行しますか？",
     warnSave: '実験的な機能を使用するには、現在の対話を保存してください',
     warnCost: '❗この機能は大量の Token を消費します',
     host: 'ホストを転送',

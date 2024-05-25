@@ -12,11 +12,11 @@ import SettingDialog from '@/components/SettingWindow.vue'
 
 // true "vh" on mobile 
 let vh = window.innerHeight * 0.01
-  document.documentElement.style.setProperty('--vh', `${vh}px`)
-  window.addEventListener('resize', () => {
-     let vh = window.innerHeight * 0.01
-     document.documentElement.style.setProperty('--vh', `${vh}px`)
- })
+document.documentElement.style.setProperty('--vh', `${vh}px`)
+window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+})
 </script>
 
 <template>
@@ -215,8 +215,11 @@ const changeLanguage = async () => {
 const changeTheme = () => {
     if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
         store.theme = 'momotalk'
+    if (store.zoom < 0.5 || store.zoom >1.5)
+        store.zoom = 1
     var fullScreen = store.fullScreen ? 'full-screen' : 'not-full-screen'
     document.body.className = store.theme + ' ' + fullScreen
+    document.body.style.setProperty('--zoom', store.zoom.toString())
 }
 changeTheme()
 

@@ -16,6 +16,7 @@ export default {
     experimental: '실험 기능',
     renderStyle: '테마 스타일',
     fullScreen: '전체 화면',
+    zoom: '화면 확대',
     draggable: '대화 드래그',
     disableDrag: '드래그 사용 안 함',
     importAndExport: '대화/대화',
@@ -25,6 +26,8 @@ export default {
     exportButton: '다운로드',
     sharedFile: '파일 공유',
     chatToArona: '아로나와 대화하기',
+    warnZoom: 
+        "⚠️ 현재 브라우저가 확대되어 있습니다. 이미지를 다운로드하면 서식이 오류가 발생할 수 있습니다. \n• 확대가 필요한 경우, 오른쪽 상단의 설정 ⚙️ 에서 확대 기능을 사용하십시오. \n• 계속해서 다운로드하시겠습니까?",
     warnSave: '실험 기능을 사용하려면 현재 대화를 저장해야 합니다. 먼저 저장해주세요.',
     warnCost: '❗이 기능은 TOKEN 을 대량으로 사용합니다.',
     host: '호스트 전달',

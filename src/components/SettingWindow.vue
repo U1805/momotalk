@@ -21,9 +21,12 @@ const showPage = (num: number) => {
 
 const changeTheme = () => {
     if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
-        store.theme = 'momotalk';
+        store.theme = 'momotalk'
+    if (store.zoom < 0.5 || store.zoom >1.5)
+        store.zoom = 1
     var fullScreen = store.fullScreen ? 'full-screen' : 'not-full-screen'
     document.body.className = store.theme + ' ' + fullScreen
+    document.body.style.setProperty('--zoom', store.zoom.toString())
 }
 </script>
 
@@ -43,14 +46,21 @@ const changeTheme = () => {
             </ul>
             <div class="featured">
                 <div class="page">
-                    <p class="dialog-content">
+                    <div class="dialog-content">
                         <h2>{{ $t('renderStyle') }}</h2>
+                        <span style="display: flex; justify-content: space-around">
                         <label class="radio"><input type="radio" value="momotalk" name="style" v-model="store.theme"
                                 @change="store.setData();changeTheme();" />momotalk</label>
                         <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
                                 @change="store.setData();changeTheme();" />yuzutalk</label>
                         <label class="checkbox"><input type="checkbox" value="false" v-model="store.fullScreen" 
                             @change="store.setData();changeTheme();"/>{{ $t('fullScreen') }}</label>
+                        </span>
+                        <span style="display: flex; justify-content: space-around">
+                        <label class="range">{{ $t('zoom') }}
+                            <input type="range" min="0.5" max="1.5" step="0.01" v-model="store.zoom"
+                            @change="store.setData();changeTheme();"/>{{ Number(store.zoom).toFixed(2) }}</label>
+                        </span>
                         <h2>{{ $t('draggable') }}</h2>
                         <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
                             @change="store.setData()"/>{{ $t('disableDrag') }}</label>
@@ -59,14 +69,14 @@ const changeTheme = () => {
                         <button @click="exportJson">{{ $t('exportButton') }}</button><br />
                         <label>{{ $t('importDialog') }}: </label>
                         <button @click="importJson">{{ $t('importButton') }}</button><br />
-                    </p>
-                    <p class="dialog-content">
+                    </div>
+                    <div class="dialog-content">
                         <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
                         <a href="https://github.com/U1805/momotalk/blob/main/docs/update_log.md" class="icon-log" title="LOG"><IconLog /></a>
-                    </p>
+                    </div>
                 </div>
                 <div class="page">
-                    <p class="dialog-content">
+                    <div class="dialog-content">
                         <label>{{ $t('warnSave') }}</label><br />
                         <h2>{{ $t('sharedFile') }}</h2>
                         <span style="display: flex;justify-content: space-evenly">
@@ -80,12 +90,12 @@ const changeTheme = () => {
                         <label>{{ $t('host') }}: </label>
                         <input type="text" v-model="store.host" @change="store.setData">
                         <label>{{ $t('clickToStart') }}</label>
-                    </p>
-                    <p class="dialog-content">
+                    </div>
+                    <div class="dialog-content">
                         <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
                         <a href="https://github.com/U1805/momotalk/blob/main/docs/update_log.md" class="icon-log" title="LOG"><IconLog /></a>
                         <a href="./Arona" title="talk to A.R.O.N.A"><img class="arona-chat" src="/Arona.webp"></a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

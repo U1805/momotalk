@@ -15,6 +15,7 @@ export default {
     experimental: '實驗性功能',
     renderStyle: '主題風格',
     fullScreen: '全屏',
+    zoom: '縮放',
     draggable: '對話拖拽',
     disableDrag: '禁用拖拽',
     importAndExport: '導入/導出',
@@ -24,6 +25,8 @@ export default {
     exportButton: '點我下載',
     sharedFile: '分享文檔',
     chatToArona: '與阿羅娜聊天',
+    warnZoom: 
+        "⚠️ 發現您的瀏覽器目前處於縮放狀態，繼續下載圖片可能導致排版錯誤。\n• 如需縮放，請使用右上角設置 ⚙️ 中的縮放功能。\n• 是否要繼續下載？",
     warnSave: '實驗功能需要清空當前對話，請先行保存',
     warnCost: '❗此功能會大量消耗 Token',
     host: '轉發 Host',

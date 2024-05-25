@@ -16,6 +16,7 @@ export default {
     experimental: 'Experimental Feature',
     renderStyle: 'Theme Style',
     fullScreen: 'Full Screen',
+    zoom: 'Sreen Zoom',
     draggable: 'Dialogue drag and drop',
     disableDrag: 'Disable drag and drop',
     importAndExport: 'Import/Export',
@@ -25,6 +26,8 @@ export default {
     exportButton: 'Download',
     sharedFile: 'Shared File',
     chatToArona: 'Chat with Arona',
+    warnZoom: 
+        "⚠️ Your browser is currently zoomed in. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
     warnSave: 'Experimental feature requires clearing the current conversation, please export first',
     warnCost: '❗This feature will consume a significant amount of Tokens',
     host: 'Forward Host',
