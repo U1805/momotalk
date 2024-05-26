@@ -3,8 +3,10 @@ import i18n from '@/locales/i18n'
 
 const download = () => {
     // 检查浏览器缩放，缩放可能导致文字溢出 Check browser zoom, which may cause the last overflow
-    if (window.outerWidth / window.innerWidth !== 1){
-        const ans = confirm(i18n.global.t('warnZoom'))
+    // TODO: this way does not work on firefox. looking forward to a better detection method.
+    const radio = window.outerWidth / window.innerWidth  
+    if (Math.abs(radio - 1) > 0.05){
+        const ans = confirm(i18n.global.t('warnZoom').replace("%radio%", (radio*100).toFixed(0)+"%"))
         if (!ans) return
     }
     const node = document.getElementsByClassName('talk-list')[0]

@@ -27,7 +27,7 @@ export default {
     sharedFile: 'Shared File',
     chatToArona: 'Chat with Arona',
     warnZoom: 
-        "⚠️ Your browser is currently zoomed in. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
+        "⚠️ Your browser is currently zoomed in %radio%. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
     warnSave: 'Experimental feature requires clearing the current conversation, please export first',
     warnCost: '❗This feature will consume a significant amount of Tokens',
     host: 'Forward Host',
