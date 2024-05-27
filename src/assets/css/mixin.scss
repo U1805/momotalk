@@ -55,19 +55,19 @@ $chatborder-color: #cdd3dc;
 
 @mixin font-heavy($size) {
     font-size: $size;
-    font-family: 'Blueaka', sans-serif;
+    font-family: 'Blueaka', 'Blueaka-kr-light', sans-serif;
     font-weight: 1000;
 }
 @mixin font-regular($size) {
     font-size: $size;
-    font-family: 'Blueaka', sans-serif;
+    font-family: 'Blueaka', 'Blueaka-kr-light', sans-serif;
     font-weight: 600;
 }
 
 @mixin font-light($size) {
     font-size: $size;
-    font-family: 'Blueaka', sans-serif;
-    font-weight: 300px;
+    font-family: 'Blueaka', 'Blueaka-kr-medium', sans-serif;
+    font-weight: 300;
 }
 
 @mixin center {

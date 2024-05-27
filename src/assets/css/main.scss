@@ -7,24 +7,15 @@
 }
 
 @font-face {
-    font-family: 'Blueaka';
-    src: url('../fonts/Gyeonggi_Title_Medium.woff') format('woff');
+    font-family: 'Blueaka-kr-light';
+    src: url('../fonts/Gyeonggi_Title_Light.woff');
     unicode-range: U+AC00-D7A3; /* Korean unicode range */
-    font-weight: 300px;
 }
 
 @font-face {
-    font-family: 'Blueaka';
-    src: url('../fonts/Gyeonggi_Title_Medium.woff') format('woff');
+    font-family: 'Blueaka-kr-medium';
+    src: url('../fonts/Gyeonggi_Title_Medium.woff');
     unicode-range: U+AC00-D7A3; /* Korean unicode range */
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: 'Blueaka';
-    src: url('../fonts/Gyeonggi_Title_Bold.woff') format('woff');
-    unicode-range: U+AC00-D7A3; /* Korean unicode range */
-    font-weight: 1000;
 }
 
 #app {
