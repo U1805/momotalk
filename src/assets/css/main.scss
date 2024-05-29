@@ -9,13 +9,13 @@
 @font-face {
     font-family: 'Blueaka-kr-light';
     src: url('../fonts/Gyeonggi_Title_Light.woff');
-    unicode-range: U+AC00-D7A3; /* Korean unicode range */
+    unicode-range: U+AC00-D7A3, U+3131-318E; /* Korean unicode range */
 }
 
 @font-face {
     font-family: 'Blueaka-kr-medium';
     src: url('../fonts/Gyeonggi_Title_Medium.woff');
-    unicode-range: U+AC00-D7A3; /* Korean unicode range */
+    unicode-range: U+AC00-D7A3, U+3131-318E; /* Korean unicode range */
 }
 
 #app {
