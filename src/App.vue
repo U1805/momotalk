@@ -23,7 +23,7 @@ window.addEventListener('resize', () => {
     <PlayerDialog></PlayerDialog>
     <SettingDialog></SettingDialog>
     <div id="root">
-        <div id="header">
+        <header id="header" role="banner">
             <div id="header__left">
                 <MomoIcon class="icon momo" />
                 <span id="header__title">MomoTalk</span>
@@ -34,9 +34,9 @@ window.addEventListener('resize', () => {
             <div id="header__right">
                 <SettingIcon class="icon setting" @click="store.showSettingDialog = true" />
             </div>
-        </div>
+        </header>
 
-        <div id="sidebar">
+        <nav id="sidebar" role="navigation">
             <div id="sidebar__up">
                 <RouterLink to="/" title="Info">
                     <StudentIcon class="icon info" />
@@ -56,28 +56,29 @@ window.addEventListener('resize', () => {
                     <LanguageIcon class="icon language" />
                 </div>
             </div>
-        </div>
+        </nav>
 
-        <div id="listcard">
-            <div id="listcard__header">
+        <section id="listcard">
+            <header id="listcard__header">
                 <div class="search-group">
-                    <!-- <SearchIcon class="icon search-group__icon" /> -->
                     <input
                         type="text"
                         placeholder="Type / to search"
                         class="search-group__text"
                         v-model="searchText"
                         id="searchBox"
+                        aria-label="Search"
                     />
                 </div>
-                <div
+                <button
                     class="student-list__button"
                     @click="switchStudentList"
                     title="Switch Student List"
+                    aria-label="Switch Student List"
                 >
                     <ListIcon class="icon list" />
-                </div>
-            </div>
+                </button>
+            </header>
             <div id="listbody">
                 <div
                     class="list-item"
@@ -90,11 +91,15 @@ window.addEventListener('resize', () => {
                         class="list-item__avatar"
                         @click.stop=""
                         @click="showAvatars(item)"
+                        role="button"
+                        tabindex="0"
+                        @keydown.enter="showAvatars(item)"
                     >
-                        <img v-lazy="item.Avatars[item.cnt]" />
+                        <img v-lazy="item.Avatars[item.cnt]" :alt="`${item.Name}'s avatar`" />
                         <button
                             :class="item === studentShowAvatars ? 'minus' : 'add'"
                             v-if="item.Avatars.length > 2"
+                            aria-label="Toggle Avatar View"
                         ></button>
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
@@ -104,8 +109,11 @@ window.addEventListener('resize', () => {
                         v-if="item.School"
                         @click.stop=""
                         @click=" searchSchool = searchSchool === item.School ? '' : item.School "
+                        role="button"
+                        tabindex="0"
+                        @keydown.enter=" searchSchool = searchSchool === item.School ? '' : item.School "
                     >
-                        <img v-lazy="getSchaleSchoolIcon(item.School)" />
+                        <img v-lazy="getSchaleSchoolIcon(item.School)" :alt="`${item.School} icon`" />
                     </div>
                     <div
                         class="list-item__avatars"
@@ -117,11 +125,12 @@ window.addEventListener('resize', () => {
                             :key="index"
                             v-lazy="avatar"
                             @click="selectAvatar(item, index)"
+                            :alt="`${item.Name}'s avatar ${index + 1}`"
                         />
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <RouterView id="chatcard" @deactive="deactiveStudent()" 
             :studentInfo="studentSelected" :student="student"/>
     </div>
