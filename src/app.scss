@@ -138,6 +138,7 @@
 
 .student-list__button {
     @include center;
+    border: 0;
     background: white;
     border-radius: 5px;
     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
