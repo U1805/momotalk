@@ -52,7 +52,7 @@ window.addEventListener('resize', () => {
                 <div style="cursor: pointer" @click="download" title="Download">
                     <DownloadIcon class="icon download" />
                 </div>
-                <div style="cursor: pointer" @click="changeLanguage" title="Switch Language" >
+                <div style="cursor: pointer" @click="changeLanguage" title="Switch Language">
                     <LanguageIcon class="icon language" />
                 </div>
             </div>
@@ -61,78 +61,38 @@ window.addEventListener('resize', () => {
         <section id="listcard">
             <header id="listcard__header">
                 <div class="search-group">
-                    <input
-                        type="text"
-                        placeholder="Type / to search"
-                        class="search-group__text"
-                        v-model="searchText"
-                        id="searchBox"
-                        aria-label="Search"
-                    />
+                    <input type="text" placeholder="Type / to search" class="search-group__text" v-model="searchText"
+                        id="searchBox" aria-label="Search" />
                 </div>
-                <button
-                    class="student-list__button"
-                    @click="switchStudentList"
-                    title="Switch Student List"
-                    aria-label="Switch Student List"
-                >
+                <button class="student-list__button" @click="switchStudentList" title="Switch Student List"
+                    aria-label="Switch Student List">
                     <ListIcon class="icon list" />
                 </button>
             </header>
             <div id="listbody">
-                <div
-                    class="list-item"
-                    v-for="(item, index) in dataDisplay"
-                    :key="index"
-                    :class="{ active: item === studentSelected }"
-                    @click="selectStudent(item)"
-                >
-                    <div
-                        class="list-item__avatar"
-                        @click.stop=""
-                        @click="showAvatars(item)"
-                        role="button"
-                        tabindex="0"
-                        @keydown.enter="showAvatars(item)"
-                    >
+                <div class="list-item" v-for="(item, index) in dataDisplay" :key="index"
+                    :class="{ active: item === studentSelected }" @click="selectStudent(item)">
+                    <div class="list-item__avatar" @click.stop="" @click="showAvatars(item)" role="button" tabindex="0"
+                        @keydown.enter="showAvatars(item)">
                         <img v-lazy="item.Avatars[item.cnt]" :alt="`${item.Name}'s avatar`" />
-                        <button
-                            :class="item === studentShowAvatars ? 'minus' : 'add'"
-                            v-if="item.Avatars.length > 2"
-                            aria-label="Toggle Avatar View"
-                        ></button>
+                        <button :class="item === studentShowAvatars ? 'minus' : 'add'" v-if="item.Avatars.length > 2"
+                            aria-label="Toggle Avatar View"></button>
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
-                    <div
-                        class="list-item__mark"
-                        v-if="item.School"
-                        @click.stop=""
-                        @click=" searchSchool = searchSchool === item.School ? '' : item.School "
-                        role="button"
-                        tabindex="0"
-                        @keydown.enter=" searchSchool = searchSchool === item.School ? '' : item.School "
-                    >
+                    <div class="list-item__mark" v-if="item.School" @click.stop=""
+                        @click=" searchSchool = searchSchool === item.School ? '' : item.School" role="button"
+                        tabindex="0" @keydown.enter=" searchSchool = searchSchool === item.School ? '' : item.School">
                         <img v-lazy="getSchaleSchoolIcon(item.School)" :alt="`${item.School} icon`" />
                     </div>
-                    <div
-                        class="list-item__avatars"
-                        @click.stop=""
-                        v-show="item === studentShowAvatars"
-                    >
-                        <img
-                            v-for="(avatar, index) in item.Avatars"
-                            :key="index"
-                            v-lazy="avatar"
-                            @click="selectAvatar(item, index)"
-                            :alt="`${item.Name}'s avatar ${index + 1}`"
-                        />
+                    <div class="list-item__avatars" @click.stop="" v-show="item === studentShowAvatars">
+                        <img v-for="(avatar, index) in item.Avatars" :key="index" v-lazy="avatar"
+                            @click="selectAvatar(item, index)" :alt="`${item.Name}'s avatar ${index + 1}`" />
                     </div>
                 </div>
             </div>
         </section>
-        <RouterView id="chatcard" @deactive="deactiveStudent()" 
-            :studentInfo="studentSelected" :student="student"/>
+        <RouterView id="chatcard" @deactive="deactiveStudent()" :studentInfo="studentSelected" :student="student" />
     </div>
 </template>
 
@@ -164,16 +124,27 @@ const switchStudentList = () => {
 }
 
 // search and filter
+const debounce = (func: Function, delay: number) => {
+    let timer: any = null
+    return (...args: any) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => func(...args), delay);
+    }
+}
+
 const searchText = ref<string>('')
 const searchSchool = ref<string>('')
+const debounceSearch = debounce(() => {
+    dataDisplay.value = search(
+        database.value[dataDisplayIndex.value],
+        searchText.value,
+        searchSchool.value
+    )
+}, 300) // 防抖
 watch(
     () => [searchText.value, searchSchool.value],
     () => {
-        dataDisplay.value = search(
-            database.value[dataDisplayIndex.value],
-            searchText.value,
-            searchSchool.value
-        )
+        debounceSearch()
         deactiveStudent()
     }
 )
@@ -198,7 +169,7 @@ const showAvatars = (item: any) => {
     if (studentShowAvatars.value !== item) studentShowAvatars.value = item
     else studentShowAvatars.value = null
 }
-const selectAvatar = (item:studentInfo, index: number) => {
+const selectAvatar = (item: studentInfo, index: number) => {
     studentSelected.value = item
     studentSelected.value.cnt = index
     student.value = {
@@ -222,9 +193,9 @@ const changeLanguage = async () => {
 
 // theme
 const changeTheme = () => {
-    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk') 
+    if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk')
         store.theme = 'momotalk'
-    if (store.zoom < 0.5 || store.zoom >1.5)
+    if (store.zoom < 0.5 || store.zoom > 1.5)
         store.zoom = 1
     var fullScreen = store.fullScreen ? 'full-screen' : 'not-full-screen'
     document.body.className = store.theme + ' ' + fullScreen
