@@ -2,13 +2,34 @@
 
 ## Update log 更新历史
 
+##  Aug 17, 2024:
+
+特性：懒加载添加缓存，优化重复请求  
+修复：Sensei 第二页表情加载失败 #37  
+修复：部分样式在暗黑模式下显示不正常 #26  
+修复：移动端下方功能按钮被遮挡 #28  
+更新：缩放功能 #30  
+更新：Markdown 标题 h4~h6 #29  
+更新：改善可访问性和语义 #36  
+样式：添加 Blue Archive 韩国字体 #33  
+
+feat: Lazy loading cache, optimized access  
+feat: Zoom #30  
+feat: Markdown headers h4~h6 #29  
+fix: Sensei page 2 emoji loading failure #37  
+fix: Some styles display incorrectly in dark mode #26  
+fix: Buttons below are obstructed on mobile #28  
+chore: Improve accessibility and semantics #36  
+style: Add fonts of Blue Archive Korean #33  
+
+
 ### Apr 12, 2024:
 
-文档：新增日语说明  
+文档：新增日语说明 #22 #23  
 样式：支持全屏显示  
 特性：图片懒加载，缩短打开时间
 
-docs: Addition of Japanese Instructions  
+docs: Addition of Japanese Instructions #22 #23  
 style: Support Full Screen Display  
 feat: Lazy Loading of Images, Shorten Opening Time
 
@@ -36,16 +57,16 @@ chore: update student stickers
 
 ### Dec 30, 2023:
 
-特性：支持对话历史导入导出  
-特性：支持插入编辑  
+特性：支持对话历史导入导出 #17  
+特性：支持插入编辑 #18  
 特性：新增 AI 阿罗娜聊天功能  
 特性：支持拼音搜索角色  
 特性：支持繁体中文昵称搜索角色  
 特性：新增角色差分  
 特性：Shift+Enter=软换行  
 
-feat: export/import chat history  
-feat: Allow inserting message  
+feat: export/import chat history #17  
+feat: Allow inserting message #18  
 feat: chat with ARONA(AI)  
 feat: support search by pinyin  
 feat: support Traditional Chinese nicknames  

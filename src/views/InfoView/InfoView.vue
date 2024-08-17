@@ -16,7 +16,7 @@ const emits = defineEmits(['deactive'])
                 <PlayIcon class="icon play" />
             </RouterLink>
             <div class="student-info__avatar">
-                <img :src="props.studentInfo.Avatars[props.studentInfo.cnt]" />
+                <img v-lazy="props.studentInfo.Avatars[props.studentInfo.cnt]" />
             </div>
             <div class="student-info__name">{{ props.studentInfo.Name }}</div>
             <div class="student-info__bio">{{ props.studentInfo.Bio }}</div>

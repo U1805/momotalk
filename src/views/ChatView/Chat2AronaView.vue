@@ -2,14 +2,14 @@
     <main class="talk-wrapper">
         <!-- 聊天主界面 -->
         <div class="talk-list" id="talkList">
-            <div v-for="element in talkHistory.talkHistory" :class="{
+            <div v-for="element, index in talkHistory.talkHistory" :key="index" :class="{
                 student: element.type === 0,
                 sensei: element.type === 1,
 
                 first: element.type <= 1 && element.flag > 0
             }">
                 <div class="avatar" v-if="element.type === 0 && element.flag > 0">
-                    <img :src="element.Avatar" />
+                    <img v-lazy="element.Avatar" />
                 </div>
                 <div class="name" v-if="element.type === 0 && element.flag > 0">
                     {{ element.Name }}

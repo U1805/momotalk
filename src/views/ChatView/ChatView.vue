@@ -29,7 +29,7 @@
                             class="item"
                             title="Send a Sticker"
                         >
-                            <img :src="selected.Avatar" />
+                            <img v-lazy="selected.Avatar" />
                         </div>
                     </div>
                     <template #content>
@@ -92,7 +92,7 @@
                             @click="selectChar(student)"
                             title="Select the student"
                         >
-                            <img :src="student.Avatar" />
+                            <img v-lazy="student.Avatar" />
                             <CloseIcon
                                 class="delete-button"
                                 @click="deleteStudent(student.Id)"
