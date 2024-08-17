@@ -10,10 +10,10 @@ function Traditionalized(cc: string[]): string[]
 
 function Traditionalized(cc: string | string[]) {
     if (typeof cc === 'string') {
-        var str = ''
-        var ss = JTPYStr()
-        var tt = FTPYStr()
-        for (var i = 0; i < cc.length; i++) {
+        let str = ''
+        const ss = JTPYStr()
+        const tt = FTPYStr()
+        for (let i = 0; i < cc.length; i++) {
             if (cc.charCodeAt(i) > 10000 && ss.indexOf(cc.charAt(i)) != -1)
                 str += tt.charAt(ss.indexOf(cc.charAt(i)))
             else str += cc.charAt(i)
@@ -29,10 +29,10 @@ function Simplized(cc: string[]): string[]
 
 function Simplized(cc: string | string[]) {
     if (typeof cc === 'string') {
-        var str = ''
-        var ss = JTPYStr()
-        var tt = FTPYStr()
-        for (var i = 0; i < cc.length; i++) {
+        let str = ''
+        const ss = JTPYStr()
+        const tt = FTPYStr()
+        for (let i = 0; i < cc.length; i++) {
             if (cc.charCodeAt(i) > 10000 && tt.indexOf(cc.charAt(i)) != -1)
                 str += ss.charAt(tt.indexOf(cc.charAt(i)))
             else str += cc.charAt(i)

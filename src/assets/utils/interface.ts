@@ -15,13 +15,16 @@ interface studentInfo {
     cnt: number
 }
 
-// "Id": 10000,
-// "Name": "阿露",
-// "Birthday": "3月12日",
-// "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/d/de/Aru_Icon.png"],
-// "Bio": "什么都能解决哦！",
-// "Nickname": ["Aru", "社长", "亚瑠", "阿鲁"],
-// "cnt": 0
+/* Aru: studentInfo = {
+    "Id": 10000,
+    "Name": "阿露",
+    "Birthday": "3月12日",
+    "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/d/de/Aru_Icon.png"],
+    "Bio": "什么都能解决哦！",
+    "Nickname": ["Aru", "社长", "亚瑠", "阿鲁"],
+    "cnt": 0
+}*/
+
 
 interface Talk extends baseStudent {
     type: number // 0: student| 1: sensei| 2: story| 3: choice| 4:system
@@ -30,4 +33,10 @@ interface Talk extends baseStudent {
     flag: number
 }
 
-export { baseStudent, studentInfo, Talk }
+interface ProxyConfig {
+    domainReplacements: { [key: string]: string }
+    proxyDomains: { [key: string]: string }
+    proxyParams: string
+}
+
+export { baseStudent, studentInfo, Talk, ProxyConfig }
