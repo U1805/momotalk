@@ -16,7 +16,11 @@
                 </div>
 
                 <div class="container">
-                    <div class="box"><span>{{ element.content }}</span></div>
+                    <div class="box">
+                        <typing-animation class="loading"
+                            v-if="store.typing > 0 && element.Id === talkHistory.talkId - 1"></typing-animation>
+                        <span v-else>{{ element.content }}</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,6 +45,7 @@
 <script setup lang="ts">
 import ProfileIcon from '@/components/icons/IconProfile.vue'
 import SendIcon from '@/components/icons/IconSend.vue'
+import TypingAnimation from '@/components/TypingAnimation.vue'
 import { onMounted } from 'vue'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
