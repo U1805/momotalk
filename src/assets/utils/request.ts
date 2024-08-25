@@ -23,15 +23,15 @@ function memorize(target: any, propertyKey: string, descriptor: PropertyDescript
 }
 
 class Resource {
-    private config: ProxyConfig | null = null
+    config: ProxyConfig | null = null
 
     @memorize
     async loadConfig() {
-        let configUrl = '/api/Momotalk/proxyConfig.json'
+        let configUrl = '/api/Momotalk/imageDomain.json'
         configUrl = configUrl.replace('/api', 'https://BlueArcbox.github.io/resources')
 
         const response = await axios.get<ProxyConfig>(configUrl)
-        return response.data
+        this.config = response.data
     }
 
     proxy(url: string): string
@@ -48,22 +48,21 @@ class Resource {
         }
 
         // 替换域名
-        for (const [oldDomain, newDomain] of Object.entries(
-            this.config.domainReplacements
-        )) {
+        for (const [oldDomain, newDomain] of Object.entries(this.config.domain)) {
             if (url.startsWith(oldDomain)) {
                 url = url.replace(oldDomain, newDomain)
             }
         }
 
         // 添加代理
-        for (const [targetDomain, proxyDomain] of Object.entries(
-            this.config.proxyDomains
-        )) {
+        Object.keys(this.config?.proxy).forEach((targetDomain) => {
             if (url.indexOf(targetDomain) !== -1) {
-                url = `${proxyDomain}${encodeURIComponent(url)}${this.config.proxyParams}`
+                const proxyDomain = this.config?.proxy[targetDomain]['domain']
+                const proxyParams = this.config?.proxy[targetDomain]['param']
+
+                url = `${proxyDomain}${encodeURIComponent(url as string)}${proxyParams}`
             }
-        }
+        })
 
         return url
     }
@@ -71,98 +70,125 @@ class Resource {
     @memorize
     async getData(file: string) {
         if (!this.config) {
-            this.config = await this.loadConfig()
+            throw new Error('Config not loaded. Call loadConfig before using getData.')
         }
         const response = await axios.get(this.proxy(file))
         return response.data
     }
+
+    @memorize
+    getSchale() {
+        if (!this.config) {
+            throw new Error('Config not loaded. Call loadConfig before using getSchale.')
+        }
+        return this.config.schale
+    }
 }
 
 const resourceInstance = new Resource()
+await resourceInstance.loadConfig()
 const getData = (file: string) => resourceInstance.getData(file)
 const proxy = (url: string[]) => resourceInstance.proxy(url)
+const schale_url = resourceInstance.getSchale()
 
 /*
 数据请求方法
 */
 const getSchaleImg = (collection: string) => {
-    return `https://schale.gg/images/student/collection/${collection}.webp`
+    return `${schale_url}/images/student/collection/${collection}.webp`
 }
 
 const getSchaleSchoolIcon = (school: string) => {
-    return `https://schale.gg/images/schoolicon/School_Icon_${school.toUpperCase()}_W.png`
+    return `${schale_url}/images/schoolicon/${school}.png`
 }
 
 const getMessage = async (storyid: string, story: string) => {
-    const res = (await getData(`/api/Stories/${storyid}/${story}.json`)) as any[]
-    return res
+    return (await getData(`/api/Stories/${storyid}/${story}.json`)) as any[]
 }
 
 const getStickers = async (student: number) => {
-    const res = (await getData(`/api/Stories/${student}/Stickers.json`)) as any[]
-    return res
+    return (await getData(`/api/Stories/${student}/Stickers.json`)) as any[]
 }
 
 const getSchale = async (lng: string) => {
-    const schale = (await getData(
-        `https://schale.gg/data/${lng}/students.min.json`
-    )) as any[]
-    const local = (await getData('/api/Momotalk/students.json')) as any[]
-    const prefixTable = (await getData('/api/Momotalk/prefixTable.json')) as {
-        [key: string]: string[]
-    }
-    const results: studentInfo[] = []
-    for (const schaleItem of schale) {
-        const localItem = local.find((ele) => ele.Id === schaleItem.Id)
+    const [local, schale, prefixTable] = await Promise.all([
+        getData('/api/Momotalk/students.json'),
+        getData(`${schale_url}/data/${lng}/students.min.json`),
+        getData('/api/Momotalk/prefixTable.json')
+    ])
 
-        const newStudent: studentInfo = {
-            Id: schaleItem.Id,
-            Name: schaleItem.Name,
-            Birthday: schaleItem.Birthday,
-            Avatars: proxy([
-                getSchaleImg(schaleItem.Id),
-                ...(localItem ? localItem.Avatar : [])
-            ]),
-            Bio: localItem && localItem.Bio[lng] ? localItem.Bio[lng] : '',
-            Nickname: [schaleItem.PathName, ...(localItem ? localItem.Nickname : [])],
-            School: localItem && localItem.School ? localItem.School : schaleItem.School,
-            cnt: 0
-        }
+    const orderedKeys = _getOrderedKeys(schale, local)
+
+    return orderedKeys.map((key: string) => {
+        const schaleItem = schale[key]
+        const localItem = local.find((ele: any) => ele.Id === key)
+        const newStudent = _createStudentObject(schaleItem, localItem, lng) as studentInfo
 
         // filling empty bio
         if (localItem && lng == 'en' && !localItem.Bio['en'])
             newStudent.Bio = localItem.Bio['jp']
         if (localItem && lng == 'tw' && !localItem.Bio['tw'])
             newStudent.Bio = Traditionalized(localItem.Bio['zh'])
+
         // fix zh name
         if (localItem && lng == 'zh' && localItem.Name) newStudent.Name = localItem.Name
 
         // generating nicknames: add prefix
-        if (
-            localItem &&
-            localItem.related &&
-            Object.prototype.hasOwnProperty.call(prefixTable, localItem.related[1])
-        ) {
-            const relatedInfo: [number, string] = localItem.related
-            const relatedItem = results.find((ele) => ele.Id === relatedInfo[0])!
-            const prefixs = prefixTable[relatedInfo[1]]
-            for (const prefix of prefixs) {
-                newStudent.Nickname.push(prefix + relatedItem!.Name)
-                newStudent.Nickname.push(
-                    ...relatedItem.Nickname.map((nickname) => prefix + nickname)
-                )
-            }
+        _generateNickname(newStudent, localItem, schale, local, prefixTable)
+
+        return newStudent
+    })
+}
+
+const _getOrderedKeys = (schale: { [key: string]: any }, local: any[]) => {
+    const orderedIds = local.map((item: any) => item.Id)
+
+    const localIdSet = new Set(orderedIds)
+    const additionalIds = Object.values(schale)
+        .filter((studentInfo) => !localIdSet.has(studentInfo.Id))
+        .map((studentInfo) => studentInfo.Id)
+
+    return [...orderedIds, ...additionalIds]
+}
+
+const _createStudentObject = (schaleItem: any, localItem: any, lng: string) => ({
+    Id: schaleItem.Id,
+    Name: schaleItem.Name,
+    Birthday: schaleItem.Birthday,
+    Avatars: proxy([getSchaleImg(schaleItem.Id), ...(localItem?.Avatar || [])]),
+    Bio: localItem?.Bio[lng] || '',
+    Nickname: [schaleItem.PathName, ...(localItem?.Nickname || [])],
+    School: localItem?.School || schaleItem.School,
+    cnt: 0
+})
+
+const _generateNickname = (
+    student: studentInfo,
+    localItem: any,
+    schale: { [key: string]: any },
+    local: any[],
+    prefixTable: { [key: string]: string[] }
+) => {
+    if (localItem?.related && prefixTable[localItem.related[1]]) {
+        const [relatedId, relationType] = localItem.related
+        const relatedSchaleItem = schale[relatedId]
+        const relatedLocalItem = local.find((ele: any) => ele.Id === relatedId)
+        const nicknames = relatedLocalItem?.Nickname ? relatedLocalItem.Nickname : []
+        const prefixes = prefixTable[relationType]
+        for (const prefix of prefixes) {
+            student.Nickname.push(
+                prefix + relatedSchaleItem.Name,
+                prefix + relatedSchaleItem.PathName,
+                ...nicknames.map((nickname: string) => prefix + nickname)
+            )
         }
-        results.push(newStudent)
     }
-    return results
 }
 
 const getLocal = async (lng: string) => {
     const local = (await getData('/api/Momotalk/students2.json')) as any[]
-    const results: studentInfo[] = []
-    for (const localItem of local) {
-        const newStudent: studentInfo = {
+    return local.map((localItem) => {
+        return {
             Id: localItem.Id,
             Name: localItem.Name[lng] ? localItem.Name[lng] : localItem.Name['en'],
             Birthday: '???',
@@ -174,10 +200,8 @@ const getLocal = async (lng: string) => {
             Nickname: localItem.Nickname,
             School: localItem.School ? localItem.School : '',
             cnt: 0
-        }
-        results.push(newStudent)
-    }
-    return results
+        } as studentInfo
+    })
 }
 
 const getStudents = async (lng: string) => {

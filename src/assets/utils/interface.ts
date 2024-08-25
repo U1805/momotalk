@@ -25,7 +25,6 @@ interface studentInfo {
     "cnt": 0
 }*/
 
-
 interface Talk extends baseStudent {
     type: number // 0: student| 1: sensei| 2: story| 3: choice| 4:system
     content: string
@@ -34,9 +33,9 @@ interface Talk extends baseStudent {
 }
 
 interface ProxyConfig {
-    domainReplacements: { [key: string]: string }
-    proxyDomains: { [key: string]: string }
-    proxyParams: string
+    schale: string
+    domain: { [key: string]: string }
+    proxy: { [key: string]: { domain: string; param: string } }
 }
 
 export { baseStudent, studentInfo, Talk, ProxyConfig }
