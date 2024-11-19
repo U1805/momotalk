@@ -4,9 +4,9 @@ export default {
     customRoleInfo: 'Enter a custom character name',
     storyEvent: 'Story Event',
     reply: 'Reply',
-    playerTitle: 'Momotalk Story Player',
+    playerTitle: 'MomoTalk Story Player',
     playerContent:
-        "Click 'Confirm' to start playing the student Momotalk event\n💥Note: This will clear the conversation history",
+        "Click 'Confirm' to start playing the student MomoTalk event\n💥Note: This will clear the conversation history",
     confirm: 'Confirm',
     cancel: 'Cancel',
     selectStory: 'Select an episode',
