@@ -29,12 +29,6 @@
 
 [試してみる！](https://u1805.github.io/momotalk)
 
-## 試験的な機能
-
-> この項目には不安定な機能が含まれています。
-
-- **A.R.O.N.A**: バーチャルアシスタントのアロナとの対話の体験を提供します。 💬
-
 ## プレビュー
 
 ![生徒](./assets/演示1.webp)
@@ -63,10 +57,6 @@
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
-
-ARONAのプロンプト:
-
-- [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
 ## Copyrights
 

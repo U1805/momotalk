@@ -42,7 +42,7 @@ const changeTheme = () => {
             <ul class="pagination">
                 <li @click="showPage(1)" class="page-btn active" id="page-1">{{ $t('basicSetting') }}</li>
                 <li>&nbsp;/&nbsp;</li>
-                <li @click="showPage(2)" class="page-btn" id="page-2">{{ $t('experimental') }}</li>
+                <li @click="showPage(2)" class="page-btn" id="page-2">{{ $t('sharefile') }}</li>
             </ul>
             <div class="featured">
                 <div class="page">
@@ -53,22 +53,18 @@ const changeTheme = () => {
                                 @change="store.setData();changeTheme();" />momotalk</label>
                         <label class="radio"><input type="radio" value="yuzutalk" name="style" v-model="store.theme"
                                 @change="store.setData();changeTheme();" />yuzutalk</label>
-                        <label class="checkbox"><input type="checkbox" value="false" v-model="store.fullScreen" 
-                            @change="store.setData();changeTheme();"/>{{ $t('fullScreen') }}</label>
                         </span>
                         <span style="display: flex; justify-content: space-around">
                         <label class="range">{{ $t('zoom') }}
                             <input type="range" min="0.5" max="1.5" step="0.01" v-model="store.zoom"
                             @change="store.setData();changeTheme();"/>{{ Number(store.zoom).toFixed(2) }}</label>
                         </span>
+                        <label class="checkbox"><input type="checkbox" value="false" v-model="store.fullScreen" 
+                            @change="store.setData();changeTheme();"/>{{ $t('fullScreen') }}</label>
                         <h2>{{ $t('draggable') }}</h2>
                         <label class="checkbox"><input type="checkbox" value="false" v-model="store.draggable" 
                             @change="store.setData()"/>{{ $t('disableDrag') }}</label>
-                        <h2>{{ $t('importAndExport') }}</h2>
-                        <label>{{ $t('exportDialog') }}: </label>
-                        <button @click="exportJson">{{ $t('exportButton') }}</button><br />
-                        <label>{{ $t('importDialog') }}: </label>
-                        <button @click="importJson">{{ $t('importButton') }}</button><br />
+                        
                     </div>
                     <div class="dialog-content">
                         <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
@@ -77,24 +73,20 @@ const changeTheme = () => {
                 </div>
                 <div class="page">
                     <div class="dialog-content">
-                        <label>{{ $t('warnSave') }}</label><br />
+                        <h2>{{ $t('importAndExport') }}</h2>
+                        <span style="display: flex;justify-content: space-evenly">
+                        <button class="button-half" @click="exportJson">{{ $t('exportButton') }}</button><br />
+                        <button class="button-half" @click="importJson">{{ $t('importButton') }}</button><br />
+                        </span>
                         <h2>{{ $t('sharedFile') }}</h2>
                         <span style="display: flex;justify-content: space-evenly">
                         <button class="button-half" @click="exportCard">{{ $t('exportButton') }}</button><br />
                         <button class="button-half" @click="importCard">{{ $t('importButton') }}</button><br />
                         </span>
-                        <h2>{{ $t('chatToArona') }}</h2>
-                        <label>{{ $t('warnCost') }}</label><br />
-                        <label>API Key: </label>
-                        <input type="text" placeholder="sk-xxxxxxxxxxxxx" v-model="store.apikey" @change="store.setData"><br />
-                        <label>{{ $t('host') }}: </label>
-                        <input type="text" v-model="store.host" @change="store.setData">
-                        <label>{{ $t('clickToStart') }}</label>
                     </div>
                     <div class="dialog-content">
                         <a href="https://github.com/U1805/momotalk" class="icon-github" title="GITHUB"><IconGithub /></a>
                         <a href="https://github.com/U1805/momotalk/blob/main/docs/update_log.md" class="icon-log" title="LOG"><IconLog /></a>
-                        <a href="./Arona" title="talk to A.R.O.N.A"><img class="arona-chat" src="/Arona.webp"></a>
                     </div>
                 </div>
             </div>

@@ -28,12 +28,6 @@
 
 [快來試試看！](https://u1805.github.io/momotalk)
 
-## 實驗特性
-
-> 這部分特性功能仍不穩定
-
-- **A.R.O.N.A**: 提供與虛擬助手彩奈(阿洛娜)的互動體驗. 💬
-
 ## 預覽
 
 ![student](./assets/演示1.webp)
@@ -62,10 +56,6 @@
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
-
-AI 彩奈提示詞：
-
-- [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
 ## 版權聲明
 

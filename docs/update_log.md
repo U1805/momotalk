@@ -2,6 +2,16 @@
 
 ## Update log 更新历史
 
+##  Nov 19, 2024:
+
+特性：移除 AI 阿罗娜聊天功能   
+更新：Momotalk 单词拼写统一为 MomoTalk #40    
+样式：播放动画时隐藏删除/插入按钮   
+
+feat: Remove the experimental feature "arona-ai"   
+chore: Fix text "Momotalk" to "MomoTalk"   
+style: Hide delete/insert buttons during playing.
+
 ##  Aug 17, 2024:
 
 特性：懒加载添加缓存，优化重复请求  

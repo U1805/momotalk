@@ -28,12 +28,6 @@
 
 [等不及了快端上来吧！](https://u1805.github.io/momotalk)
 
-## 实验特性
-
-> 这部分特性功能仍不稳定
-
-- **A.R.O.N.A**: 提供与虚拟助手阿罗娜的互动体验. 💬
-
 ## 预览
 
 ![student](./assets/演示1.webp)
@@ -62,10 +56,6 @@
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
-
-AI 阿罗娜提示词：
-
-- [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
 ## 版权
 

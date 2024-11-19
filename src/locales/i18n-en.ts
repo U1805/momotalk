@@ -13,25 +13,18 @@ export default {
     selectLanguage: 'Select a language',
     setting: '⚙️ Settings',
     basicSetting: 'Basic Settings',
-    experimental: 'Experimental Feature',
+    sharefile: 'Import & Export',
     renderStyle: 'Theme Style',
     fullScreen: 'Full Screen',
     zoom: 'Sreen Zoom',
     draggable: 'Dialogue drag and drop',
     disableDrag: 'Disable drag and drop',
-    importAndExport: 'Import/Export',
-    importDialog: 'Import History',
+    importAndExport: 'Dialogue Content File',
     importButton: 'Select a file',
-    exportDialog: 'Export History',
-    exportButton: 'Download',
-    sharedFile: 'Shared File',
-    chatToArona: 'Chat with Arona',
+    exportButton: 'Click to Download',
+    sharedFile: 'Shared File (Playable Dialogue)',
     warnZoom: 
         "⚠️ Your browser is currently zoomed in %radio%. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
-    warnSave: 'Experimental feature requires clearing the current conversation, please export first',
-    warnCost: '❗This feature will consume a significant amount of Tokens',
-    host: 'Forward Host',
-    clickToStart: 'Click below to start chatting with Arona',
     help: `
 # How to use 
 
@@ -67,7 +60,7 @@ Below the sidebar, there are three buttons: "**Switch Language**," "**Reset**," 
 - **Drag and Drop**: Hold and move messages up and down to adjust their order.
 - **Delete**: When the cursor is *hovering* over an element, the delete button \`x\` appears.
 - **Insert**: When the cursor is *hovering* over an element, the insert button \`↲\` appears, then the message will be inserted here.
-- **Keyboard Shortcuts**: Undo with \`Ctrl+Z\`, redo with \`Ctrl+Shift+Z\`, line break \`Ctrl+Shift+Enter\`
+- **Keyboard Shortcuts**: Undo with \`Ctrl+Z\`, redo with \`Ctrl+Shift+Z\`, line break \`Shift+Enter\`
 
 ![](./img/edit.webp)
 

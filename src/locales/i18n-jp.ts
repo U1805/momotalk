@@ -13,25 +13,18 @@ export default {
     selectLanguage: '言語を選択',
     setting: '⚙️ 設定',
     basicSetting: '基本設定',
-    experimental: '実験的な機能です',
+    sharefile: 'インポート & エクスポート',
     renderStyle: 'テーマスタイル',
     fullScreen: 'フルスクリーン',
     zoom: 'ズーム',
     draggable: '会話ドラッグ',
     disableDrag: 'ドラッグを無効にする',
-    importAndExport: 'インポート/エクスポート',
-    importDialog: '対話のインポート',
+    importAndExport: '会話内容ファイル',
     importButton: 'ファイルを選択',
-    exportDialog: '対話のエクスポート',
     exportButton: 'ダウンロード',
-    sharedFile: '共有ファイル',
-    chatToArona: 'アロナとチャット',
+    sharedFile: '共有ファイル（再生可能な会話）',
     warnZoom: 
         "⚠️ お使いのブラウザは現在ズームされています(%radio%)。画像のダウンロードを続行すると、レイアウトが崩れる可能性があります。\n• ズームが必要な場合は、右上隅の設定 ⚙️ からズーム機能をご利用ください。\n• ダウンロードを続行しますか？",
-    warnSave: '実験的な機能を使用するには、現在の対話を保存してください',
-    warnCost: '❗この機能は大量の Token を消費します',
-    host: 'ホストを転送',
-    clickToStart: '下のアロナをクリックしてチャットを開始',
     help: `
 # 使用方法 · How to use
 
@@ -67,7 +60,7 @@ export default {
 - **ドラッグアンドドロップ**：メッセージを上下にドラッグしてメッセージの順序を調整できます。
 - **削除**：カーソルを要素上に置いたときに「x」の削除ボタンが表示されます。
 - **挿入**：カーソルを要素上に置いたときに「↲」の削除ボタンが表示され、送信メッセージがここに挿入されます。 
-- **ショートカットキー**：元に戻す \`Ctrl+Z\`、やり直し \`Ctrl+Shift+Z\`、ソフト改行 \`Ctrl+Shift+Enter\`
+- **ショートカットキー**：元に戻す \`Ctrl+Z\`、やり直し \`Ctrl+Shift+Z\`、ソフト改行 \`Shift+Enter\`
 
 ![](./img/edit.webp)
 

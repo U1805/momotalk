@@ -29,12 +29,6 @@
 
 [Try it!](https://u1805.github.io/momotalk)
 
-## Experimental Feature
-
-> This section contains features that are still unstable.
-
-- **A.R.O.N.A**: Provides an interactive experience with the virtual assistant ARONA. 💬
-
 ## Preview
 
 ![student](./docs/assets/演示1.webp)
@@ -63,10 +57,6 @@ Character metadata and assets from:
 - [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
-
-ARONA prompts：
-
-- [ZiChenStudio/ChatGPT-Arona](https://github.com/ZiChenStudio/ChatGPT-Arona)
 
 ## Copyrights
 

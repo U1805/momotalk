@@ -12,25 +12,18 @@ export default {
     selectLanguage: '选择语言',
     setting: '⚙️ 设置',
     basicSetting: '基本设置',
-    experimental: '实验性功能',
+    sharefile: '导入&导出',
     renderStyle: '主题样式',
     fullScreen: '全屏',
     zoom: '缩放',
     draggable: '对话拖拽',
     disableDrag: '禁用拖拽',
-    importAndExport: '导入/导出',
-    importDialog: '导入对话',
+    importAndExport: '对话内容文件',
     importButton: '选择文件',
-    exportDialog: '导出对话',
     exportButton: '点我下载',
-    sharedFile: '分享文件',
-    chatToArona: '与阿罗娜聊天',
+    sharedFile: '分享文件（可播放对话）',
     warnZoom: 
         "⚠️ 发现您的浏览器处于缩放状态(%radio%)，继续下载图片可能导致排版错误。\n• 如果需要缩放，请使用右上角设置 ⚙️ 中的缩放功能。\n• 是否要继续下载？",
-    warnSave: '实验功能需要清空当前对话，请先行保存',
-    warnCost: '❗此功能会大量消耗 Token',
-    host: '转发 Host',
-    clickToStart: '点击下面的阿罗娜开始聊天',
     help: `
 # 食用说明 · How to use 
 
@@ -66,7 +59,7 @@ export default {
 - **拖拽**：按住消息上下移动可以调整消息之间的顺序
 - **删除**：当光标 *停留* 在元素上时，出现 \`x\` 删除按钮
 - **插入**：当光标 *停留* 在元素上时，出现 \`↲\` 插入按钮，之后发送消息会插入到此处
-- **快捷键**：撤销 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`，软换行 \`Ctrl+Shift+Enter\`
+- **快捷键**：撤销 \`Ctrl+Z\`，重做 \`Ctrl+Shift+Z\`，软换行 \`Shift+Enter\`
 
 ![](./img/edit.webp)
 

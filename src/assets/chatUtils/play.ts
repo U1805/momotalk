@@ -19,6 +19,7 @@ const play = async (
     // 隐藏发送栏
     const talklist = document.getElementById('talkList') as HTMLDivElement
     talklist.setAttribute('style', 'height:100%')
+    talklist.className = talklist.className.replace("show-action", "hidden-action")
 
     const student = getRole(data[0][storyLng], getSchaleImg(data[0]['CharacterId']))
     let item = data[1]
@@ -62,6 +63,7 @@ const play = async (
 
     // 恢复发送栏
     talklist.setAttribute('style', '')
+    talklist.className = talklist.className.replace("hidden-action", "show-action")
     return true
 }
 
@@ -70,6 +72,7 @@ const play2 = async (items: Talk[]) => {
     // 隐藏发送栏
     const talklist = document.getElementById('talkList') as HTMLDivElement
     talklist.setAttribute('style', 'height:100%')
+    talklist.className = talklist.className.replace("show-action", "hidden-action")
 
     talkHistory.resetData()
     let text: string = '', selected: baseStudent | number, studentId = getId()
@@ -104,6 +107,7 @@ const play2 = async (items: Talk[]) => {
 
     // 恢复发送栏
     talklist.setAttribute('style', '')
+    talklist.className = talklist.className.replace("hidden-action", "show-action")
 }
 
 const exportCard = async () => {

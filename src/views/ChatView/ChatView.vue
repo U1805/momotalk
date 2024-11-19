@@ -1,7 +1,7 @@
 <template>
     <main class="talk-wrapper">
         <!-- 聊天主界面 -->
-        <div class="talk-list" id="talkList">
+        <div class="talk-list show-action" id="talkList">
             <chat-draggable :tasks="talkHistory.talkHistory" />
         </div>
         <!-- 聊天主界面 -->

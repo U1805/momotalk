@@ -258,12 +258,14 @@
     }
 }
 
-.box:hover + .action-block,
-.box-choice:hover + .action-block,
-.box-story:hover + .action-block,
-.box-message:hover + .action-block,
-.action-block:hover {
-    opacity: 1;
+.show-action{
+    .box:hover + .action-block,
+    .box-choice:hover + .action-block,
+    .box-story:hover + .action-block,
+    .box-message:hover + .action-block,
+    .action-block:hover {
+        opacity: 1;
+    }
 }
 
 .insert-indicator{

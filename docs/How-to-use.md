@@ -100,7 +100,7 @@ Normally, messages from a single student are continuous. If you wish to interrup
 
 Click on the gear icon in the upper right corner to access the settings. You can switch to the **Yuzutalk theme**, enable **full-screen** mode, and import or export your conversations.
 
-In the experimental features, there is also an option to export your conversations as a **sharefile**. This file allows others to watch your story in animated form. Please prepare the **Chat with Arona** feature using the openai-api on your own.
+There is also an option to export your conversations as a **sharefile**. This file allows others to watch your story in animated form.
 
 <p align="center">
 <img src="./assets/setting.webp" alt="setting" style="width:50%">
