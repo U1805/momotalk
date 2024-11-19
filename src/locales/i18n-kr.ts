@@ -4,9 +4,9 @@ export default {
     customRoleInfo: '사용자 지정 캐릭터 이름을 입력하세요',
     storyEvent: '이야기 이벤트',
     reply: '답장',
-    playerTitle: 'Momotalk 스토리 플레이어',
+    playerTitle: 'MomoTalk 스토리 플레이어',
     playerContent:
-        '학생 Momotalk 이벤트를 시작하려면 `확인`을 클릭하세요\n💥참고: 이로 인해 대화 기록이 지워집니다',
+        '학생 MomoTalk 이벤트를 시작하려면 `확인`을 클릭하세요\n💥참고: 이로 인해 대화 기록이 지워집니다',
     confirm: '확인',
     cancel: '취소',
     selectStory: '에피소드 선택',

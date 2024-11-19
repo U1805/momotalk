@@ -1,4 +1,4 @@
-# Momotalk Editor
+# MomoTalk Editor
 
 ## Update log 更新历史
 

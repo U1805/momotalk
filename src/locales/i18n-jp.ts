@@ -4,9 +4,9 @@ export default {
     customRoleInfo: 'カスタムキャラクター名を入力してください',
     storyEvent: '絆イベント',
     reply: '返信する',
-    playerTitle: 'Momotalk ストーリー',
+    playerTitle: 'MomoTalk ストーリー',
     playerContent:
-        '確認ボタンを押して\n生徒の Momotalk イベントを再生します\n💥注意：会話履歴が削除されます',
+        '確認ボタンを押して\n生徒の MomoTalk イベントを再生します\n💥注意：会話履歴が削除されます',
     confirm: '確認',
     cancel: 'キャンセル',
     selectStory: 'イベントを選択',

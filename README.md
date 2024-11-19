@@ -1,4 +1,4 @@
-<h1 align="center">Momotalk Editor</h1>
+<h1 align="center">MomoTalk Editor</h1>
 
 <div align="center">
     <img src="https://img.shields.io/github/last-commit/u1805/momotalk/main">
@@ -25,7 +25,7 @@
 - **Easy to Share**: save the conversation as an image and share your friends. 🖼️
 - **Fast restart**: your conversation won't be lost the next time you open browser. 📌
 - **Multiple Languages**: support Chinese(Simplified & Traditional), Japanese, Korean, and English. 🌐
-- **Momotalk Player**: you can also use it to read Momotalk stories from game. ▶️
+- **MomoTalk Player**: you can also use it to read Momotalk stories from game. ▶️
 
 [Try it!](https://u1805.github.io/momotalk)
 

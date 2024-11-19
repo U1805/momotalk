@@ -1,4 +1,4 @@
-<h1 align="center">Momotalk 編輯器</h1>
+<h1 align="center">MomoTalk 編輯器</h1>
 
 <div align="center">
     <img src="https://img.shields.io/github/last-commit/u1805/momotalk/main">
@@ -24,7 +24,7 @@
 - **方便分享**: 對話可以保存為圖片方便分享給小夥伴. 🖼️
 - **保留歷史記錄**: 重啟瀏覽器也可以繼續上一次的對話. 📌
 - **多語言支援**: 支援中文（簡體和繁體）、日文、韓文和英文. 🌐
-- **Momotalk 播放器**: 能夠播放遊戲中的 Momotalk 對話劇情. ▶️
+- **MomoTalk 播放器**: 能夠播放遊戲中的 Momotalk 對話劇情. ▶️
 
 [快來試試看！](https://u1805.github.io/momotalk)
 
