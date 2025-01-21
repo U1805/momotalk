@@ -83,7 +83,7 @@ window.addEventListener('resize', () => {
                     <div class="list-item__mark" v-if="item.School" @click.stop=""
                         @click=" searchSchool = searchSchool === item.School ? '' : item.School" role="button"
                         tabindex="0" @keydown.enter=" searchSchool = searchSchool === item.School ? '' : item.School">
-                        <img v-lazy="getSchaleSchoolIcon(item.School)" :alt="`${item.School} icon`" />
+                        <img v-lazy="getSchoolIcon(item.School)" :alt="`${item.School} icon`" />
                     </div>
                     <div class="list-item__avatars" @click.stop="" v-show="item === studentShowAvatars">
                         <img v-for="(avatar, index) in item.Avatars" :key="index" v-lazy="avatar"
@@ -101,7 +101,7 @@ import { ref, watch } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import i18n from '@/locales/i18n'
 import { baseStudent, studentInfo } from '@/assets/utils/interface'
-import { getStudents, getSchaleSchoolIcon } from '@/assets/utils/request'
+import { getStudents, getSchoolIcon } from '@/assets/utils/request'
 import { download } from '@/assets/imgUtils/download'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'

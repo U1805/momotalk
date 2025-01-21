@@ -15,15 +15,28 @@ interface studentInfo {
     cnt: number
 }
 
-/* Aru: studentInfo = {
-    "Id": 10000,
-    "Name": "阿露",
-    "Birthday": "3月12日",
-    "Avatar": ["https://static.wikia.nocookie.net/blue-archive/images/d/de/Aru_Icon.png"],
-    "Bio": "什么都能解决哦！",
-    "Nickname": ["Aru", "社长", "亚瑠", "阿鲁"],
-    "cnt": 0
-}*/
+interface LocalStudent {
+    Id: number
+    Bio: Record<string, string>
+    Avatar: string[]
+    Nickname: string[]
+    Fixed: Array<{
+        ItemName: keyof studentInfo
+        ItemValue: string
+    }>
+    Related: {
+        ItemId: number
+        ItemType: string
+    } | null
+}
+
+interface SchaleStudent {
+    Id: number
+    Name: string
+    Birthday: string
+    PathName: string
+    School: string
+}
 
 interface Talk extends baseStudent {
     type: number // 0: student| 1: sensei| 2: story| 3: choice| 4:system
@@ -34,8 +47,8 @@ interface Talk extends baseStudent {
 
 interface ProxyConfig {
     schale: string
-    domain: { [key: string]: string }
-    proxy: { [key: string]: { domain: string; param: string } }
+    domain: Record<string, string>
+    proxy: Record<string, { domain: string; param: string }>
 }
 
-export { baseStudent, studentInfo, Talk, ProxyConfig }
+export { baseStudent, studentInfo, LocalStudent, SchaleStudent, Talk, ProxyConfig }

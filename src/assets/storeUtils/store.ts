@@ -16,7 +16,7 @@ export const store = reactive({
     showPlayerDialog: false,
     showSettingDialog: false,
     storyKey: '10005',
-    storyList: {} as { [key: string]: string[] },
+    storyList: {} as Record<string, string>,
     storyFile: '1000501',
 
     setData() {
