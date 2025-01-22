@@ -31,23 +31,21 @@ const getStudentsPart1 = async (lng: string) => {
     const tools = {
         getOrderedKeys: () => {
             const orderedIds = local.map((item) => item.Id)
-            const schaleIds = Object.values(schale).map((studentInfo) => studentInfo.Id);
+            const schaleIds = Object.values(schale).map((studentInfo) => studentInfo.Id)
             const localIdSet = new Set(orderedIds)
-            const schaleSet = new Set(schaleIds);
-            
-            // localIdSet ∩ schaleSet
-            const filteredLocalIds = orderedIds.filter((id) => schaleSet.has(id));
-            // schaleSet - localIdSet
-            const additionalIds = schaleIds.filter((id) => !localIdSet.has(id));
+            const schaleSet = new Set(schaleIds)
 
-            return [...filteredLocalIds, ...additionalIds];
+            const filteredLocalIds = orderedIds.filter((id) => schaleSet.has(id))
+            const additionalIds = schaleIds.filter((id) => !localIdSet.has(id))
+
+            return [...filteredLocalIds, ...additionalIds]
         },
 
         initStudentObject: (schaleItem: SchaleStudent): studentInfo => ({
             Id: schaleItem.Id,
             Name: schaleItem.Name,
             Birthday: schaleItem.Birthday,
-            Avatars: proxy([getSchaleImg(schaleItem.Id)]),
+            Avatars: [getSchaleImg(schaleItem.Id)],
             Bio: '',
             Nickname: [schaleItem.PathName.replace('_', ' ')],
             School: schaleItem.School,
@@ -56,7 +54,8 @@ const getStudentsPart1 = async (lng: string) => {
 
         fixStudentFields: (student: studentInfo, localItem: LocalStudent) => {
             // filling avatar
-            student.Avatars.push(...proxy(localItem.Avatar))
+            student.Avatars.push(...localItem.Avatar)
+            student.Avatars = proxy(student.Avatars)
 
             // filling empty bio
             if (localItem.Bio[lng]) student.Bio = localItem.Bio[lng]
@@ -64,10 +63,15 @@ const getStudentsPart1 = async (lng: string) => {
             if (lng == 'tw' && !localItem.Bio['tw'])
                 student.Bio = Traditionalized(localItem.Bio['zh'])
 
-            // fixing item fileds (for name, only fix zh)
+            // fixing item fileds
+            type ValidLanguage = 'en' | 'zh' | 'tw' | 'jp' | 'kr'
             for (const fixeditem of localItem.Fixed) {
-                if (fixeditem.ItemName == 'Name' && lng != 'zh') continue
-                ;(student[fixeditem.ItemName] as string) = fixeditem.ItemValue
+                if (
+                    !fixeditem.ItemLanguage ||
+                    fixeditem.ItemLanguage.includes(lng as ValidLanguage)
+                ) {
+                    student[fixeditem.ItemName] = fixeditem.ItemValue
+                }
             }
         },
 

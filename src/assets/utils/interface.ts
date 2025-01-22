@@ -15,14 +15,19 @@ interface studentInfo {
     cnt: number
 }
 
+type KeysOfType<T, U> = {
+    [K in keyof T]: T[K] extends U ? K : never
+}[keyof T]
+
 interface LocalStudent {
     Id: number
     Bio: Record<string, string>
     Avatar: string[]
     Nickname: string[]
     Fixed: Array<{
-        ItemName: keyof studentInfo
+        ItemName: KeysOfType<studentInfo, string>
         ItemValue: string
+        ItemLanguage?: Array<'zh' | 'tw' | 'jp' | 'kr' | 'en'>
     }>
     Related: {
         ItemId: number
