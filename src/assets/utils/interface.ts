@@ -15,32 +15,18 @@ interface studentInfo {
     cnt: number
 }
 
-type KeysOfType<T, U> = {
-    [K in keyof T]: T[K] extends U ? K : never
-}[keyof T]
-
 interface LocalStudent {
     Id: number
-    Bio: Record<string, string>
+    Name: Record<string, string>
+    Birthday: string
     Avatar: string[]
+    Bio: Record<string, string>
     Nickname: string[]
-    Fixed: Array<{
-        ItemName: KeysOfType<studentInfo, string>
-        ItemValue: string
-        ItemLanguage?: Array<'zh' | 'tw' | 'jp' | 'kr' | 'en'>
-    }>
+    School: string
     Related: {
         ItemId: number
         ItemType: string
     } | null
-}
-
-interface SchaleStudent {
-    Id: number
-    Name: string
-    Birthday: string
-    PathName: string
-    School: string
 }
 
 interface Talk extends baseStudent {
@@ -51,9 +37,8 @@ interface Talk extends baseStudent {
 }
 
 interface ProxyConfig {
-    schale: string
     domain: Record<string, string>
     proxy: Record<string, { domain: string; param: string }>
 }
 
-export { baseStudent, studentInfo, LocalStudent, SchaleStudent, Talk, ProxyConfig }
+export { baseStudent, studentInfo, LocalStudent, Talk, ProxyConfig }

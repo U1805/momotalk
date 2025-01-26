@@ -74,12 +74,4 @@ export class Resource {
         const response = await axios.get(this.proxy(file))
         return response.data
     }
-
-    @memorize
-    getSchale() {
-        if (!this.config) {
-            throw new Error('Config not loaded. Call loadConfig before using getSchale.')
-        }
-        return this.config.schale
-    }
 }

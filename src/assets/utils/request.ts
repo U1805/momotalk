@@ -1,22 +1,52 @@
 import { Resource } from './cache'
-import { studentInfo, LocalStudent, SchaleStudent } from './interface'
+import { studentInfo, LocalStudent } from './interface'
 import { Traditionalized } from './tw_cn'
 
 const resourceInstance = new Resource()
 await resourceInstance.loadConfig()
 const getData = <T>(file: string): Promise<T> => resourceInstance.getData(file)
+const proxy1 = (url: string) => resourceInstance.proxy(url)
 const proxy = (url: string[]) => resourceInstance.proxy(url)
-const schale_url = resourceInstance.getSchale()
+
+const MONTHS_EN = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+]
+
+type SupportedLanguage = 'zh' | 'tw' | 'jp' | 'kr' | 'en'
+
+const getOrdinalSuffix = (day: number): string => {
+    if (day > 3 && day < 21) return 'th'
+    switch (day % 10) {
+        case 1: return 'st'
+        case 2: return 'nd'
+        case 3: return 'rd'
+        default: return 'th'
+    }
+}
+
+const DATE_FORMATS = (birthday: string, lng: SupportedLanguage) => {
+    const TOOL = {
+        zh: (month: number, day: number) => `${month}月${day}日`,
+        tw: (month: number, day: number) => `${month}月${day}日`,
+        jp: (month: number, day: number) => `${month}月${day}日`,
+        kr: (month: number, day: number) => `${month}월 ${day}일`,
+        en: (month: number, day: number) =>
+            `${MONTHS_EN[month - 1]} ${day}${getOrdinalSuffix(day)}`
+    }
+    const [month, day] = birthday.split('/').map(Number)
+    return TOOL[lng](month, day)
+}
 
 /*
 数据请求方法
 */
-const getSchaleImg = (student: number) => {
-    return `${schale_url}/images/student/collection/${student}.webp`
+const getAvatarImg = (student: number) => {
+    return proxy1(`/api/Avatars/Kivo/Released/${student}.webp`)
 }
 
 const getSchoolIcon = (school: string) => {
-    return `${schale_url}/images/schoolicon/${school}.png`
+    return proxy1(`/api/Schools/${school}.png`)
 }
 
 const getMessage = async (student: string, storyid: string) => {
@@ -29,50 +59,23 @@ const getStickers = async (student: number) => {
 
 const getStudentsPart1 = async (lng: string) => {
     const tools = {
-        getOrderedKeys: () => {
-            const orderedIds = local.map((item) => item.Id)
-            const schaleIds = Object.values(schale).map((studentInfo) => studentInfo.Id)
-            const localIdSet = new Set(orderedIds)
-            const schaleSet = new Set(schaleIds)
-
-            const filteredLocalIds = orderedIds.filter((id) => schaleSet.has(id))
-            const additionalIds = schaleIds.filter((id) => !localIdSet.has(id))
-
-            return [...filteredLocalIds, ...additionalIds]
-        },
-
-        initStudentObject: (schaleItem: SchaleStudent): studentInfo => ({
-            Id: schaleItem.Id,
-            Name: schaleItem.Name,
-            Birthday: schaleItem.Birthday,
-            Avatars: [getSchaleImg(schaleItem.Id)],
-            Bio: '',
-            Nickname: [schaleItem.PathName.replace('_', ' ')],
-            School: schaleItem.School,
+        initStudentObject: (localItem: LocalStudent): studentInfo => ({
+            Id: localItem.Id,
+            Name: tools.fixStudentField(localItem, "Name"),
+            Birthday: DATE_FORMATS(localItem.Birthday, lng as SupportedLanguage),
+            Avatars: proxy(localItem.Avatar),
+            Bio: tools.fixStudentField(localItem, "Bio"),
+            Nickname: localItem.Nickname,
+            School: localItem.School || "ETC",
             cnt: 0
         }),
 
-        fixStudentFields: (student: studentInfo, localItem: LocalStudent) => {
-            // filling avatar
-            student.Avatars.push(...localItem.Avatar)
-            student.Avatars = proxy(student.Avatars)
-
-            // filling empty bio
-            if (localItem.Bio[lng]) student.Bio = localItem.Bio[lng]
-            if (lng == 'en' && !localItem.Bio['en']) student.Bio = localItem.Bio['jp']
-            if (lng == 'tw' && !localItem.Bio['tw'])
-                student.Bio = Traditionalized(localItem.Bio['zh'])
-
-            // fixing item fileds
-            type ValidLanguage = 'en' | 'zh' | 'tw' | 'jp' | 'kr'
-            for (const fixeditem of localItem.Fixed) {
-                if (
-                    !fixeditem.ItemLanguage ||
-                    fixeditem.ItemLanguage.includes(lng as ValidLanguage)
-                ) {
-                    student[fixeditem.ItemName] = fixeditem.ItemValue
-                }
-            }
+        fixStudentField: (localItem: LocalStudent, field: "Name" | "Bio") => {
+            // filling empty name
+            if (lng == 'en' && !localItem[field]['en']) return localItem[field]['jp']
+            if (lng == 'tw' && !localItem[field]['tw'])
+                return Traditionalized(localItem[field]['zh'])
+            return localItem[field][lng]
         },
 
         fillNickname: (student: studentInfo, localItem: LocalStudent) => {
@@ -80,14 +83,13 @@ const getStudentsPart1 = async (lng: string) => {
 
             if (localItem.Related && prefixTable[localItem.Related.ItemType]) {
                 const relatedId = localItem.Related.ItemId
-                const relatedSchaleItem = schale[relatedId]
                 const relatedLocalItem = local.find((ele) => ele.Id === relatedId)
                 const nicknames = relatedLocalItem?.Nickname || []
                 const prefixes = prefixTable[localItem.Related.ItemType]
                 for (const prefix of prefixes) {
                     student.Nickname.push(
-                        prefix + relatedSchaleItem.Name,
-                        prefix + relatedSchaleItem.PathName,
+                        localItem.Nickname[0] + " " + localItem.Related.ItemType,
+                        prefix + tools.fixStudentField(localItem, "Name"),
                         ...nicknames.map((nickname) => prefix + nickname)
                     )
                 }
@@ -95,24 +97,13 @@ const getStudentsPart1 = async (lng: string) => {
         }
     }
 
-    const [local, schale, prefixTable] = await Promise.all([
+    const [local, prefixTable] = await Promise.all([
         getData<LocalStudent[]>('/api/Momotalk/students.json'),
-        getData<Record<string, SchaleStudent>>(
-            `${schale_url}/data/${lng}/students.min.json`
-        ),
         getData<Record<string, string[]>>('/api/Momotalk/prefixTable.json')
     ])
 
-    const orderedKeys = tools.getOrderedKeys()
-
-    return orderedKeys.map((key) => {
-        const schaleItem = schale[key.toString()]
-        const localItem = local.find((ele) => ele.Id === key)
-        const newStudent = tools.initStudentObject(schaleItem)
-
-        if (!localItem) return newStudent
-
-        tools.fixStudentFields(newStudent, localItem)
+    return local.map((localItem) => {
+        const newStudent = tools.initStudentObject(localItem)
         tools.fillNickname(newStudent, localItem)
         return newStudent
     })
@@ -143,4 +134,4 @@ const getStudents = async (lng: string) => {
     return [data1, data2]
 }
 
-export { getStudents, getMessage, getSchaleImg, getSchoolIcon, getStickers, proxy }
+export { getStudents, getMessage, getSchoolIcon, getAvatarImg, getStickers, proxy }

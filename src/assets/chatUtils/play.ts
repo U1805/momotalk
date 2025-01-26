@@ -1,7 +1,7 @@
 import { sendText } from './send'
 import { getId, getRole } from './role'
 import { baseStudent, Talk } from '../utils/interface'
-import { getMessage, getSchaleImg } from '../utils/request'
+import { getMessage, getAvatarImg } from '../utils/request'
 import { waitClick, waitTime } from '../utils/wait'
 import { store } from '../storeUtils/store'
 import { talkHistory } from '../storeUtils/talkHistory'
@@ -21,7 +21,7 @@ const play = async (
     talklist.setAttribute('style', 'height:100%')
     talklist.className = talklist.className.replace("show-action", "hidden-action")
 
-    const student = getRole(data[0][storyLng], getSchaleImg(data[0]['CharacterId']))
+    const student = getRole(data[0][storyLng], getAvatarImg(data[0]['CharacterId']))
     let item = data[1]
     talkHistory.resetData()
     let text: string = '', selected: baseStudent | number

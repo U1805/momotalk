@@ -53,10 +53,9 @@
 
 キャラクターのメタデータとアセットは以下を用いています:
 
-- [lonqie/SchaleDB](https://github.com/lonqie/SchaleDB)
-- [bluearchive.fandom](https://bluearchive.fandom.com)
 - [kivo.wiki](https://kivo.wiki/)
 - [ba.gamekee](https://ba.gamekee.com/)
+- [bluearchive.fandom](https://bluearchive.fandom.com)
 
 ## Copyrights
 
