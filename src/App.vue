@@ -119,10 +119,11 @@ import { RouterLink, RouterView } from 'vue-router'
 import i18n from '@/locales/i18n'
 import { baseStudent, studentInfo } from '@/assets/requestUtils/interface'
 import { getStudents, getSchoolIcon } from '@/assets/requestUtils/request'
+import { birthday_sort, SupportedLanguage } from '@/assets/requestUtils/dateFormat'
 import { download } from '@/assets/imgUtils/download'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
-import { search, debounce } from '@/assets/utils/search'
+import { debounce, search } from '@/assets/utils/search'
 import Popper from 'vue3-popper'
 
 store.getData()
@@ -139,10 +140,10 @@ const dataDisplay = ref<studentInfo[]>(database.value)
 const showPopper = ref<boolean>(false)
 const filter_condition = ref(
     {
-        sort_type: '',                    // 排序类型 名字 生日 学校 社团
-        sort_asc: true,                   // 排序顺序 true 升序 false 降序
-        filter_star: 0,                   // 稀有度   0 1 2 3
-        filter_released: true,            // 已实装 true false
+        sort_type: '',          // 排序类型 名字 生日 学校 社团
+        sort_asc: true,         // 排序顺序 true 升序 false 降序
+        filter_star: 0,         // 稀有度   0 1 2 3
+        filter_released: true,  // 已实装 true false
     }
 )
 const filter_condition_copy = ref(filter_condition.value)
@@ -161,40 +162,36 @@ const popperConfirm = () => {
 const searchText = ref<string>('')
 const searchSchool = ref<string>('')
 
-const dataFilter = () => {
-    dataDisplay.value = database.value.filter((item) => {
-        if (filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) return false
-        if (item.Released !== filter_condition.value.filter_released) return false
-        return true
-    })
-}
-const dataSort = () => {
-    if (filter_condition.value.sort_type === '') {
-        if (!filter_condition.value.sort_asc) dataDisplay.value = dataDisplay.value.reverse()
-        return
-    }
-    dataDisplay.value = dataDisplay.value.sort((a, b) => {
-        // TODO: if sort_type == "Birthday" 
-        // student who has birthday today(or in 3 days) will be at the top, and her school will be show as a birthday cake icon
-        const aValue = a[filter_condition.value.sort_type as keyof studentInfo] as string
-        const bValue = b[filter_condition.value.sort_type as keyof studentInfo] as string
-        return filter_condition.value.sort_asc ?
-            aValue.localeCompare(bValue) :
-            bValue.localeCompare(aValue)
-    })
-}
-const dataSearch = debounce(() => {
-    dataDisplay.value = search(
-        dataDisplay.value,
-        searchText.value,
-        searchSchool.value
-    )
+const processData = debounce(() => {
+    dataDisplay.value = database.value
+        // filter
+        .filter(item => {
+            if (filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) return false
+            if (item.Released !== filter_condition.value.filter_released) return false
+            return true
+        })
+        // search
+        .filter(item => search([item], searchText.value, searchSchool.value).length > 0)
+        // sort
+        .sort((a, b) => {
+            if (filter_condition.value.sort_type === '') {
+                return filter_condition.value.sort_asc ? 0 : -1
+            }
+
+            if (filter_condition.value.sort_type === 'Birthday') {
+                return filter_condition.value.sort_asc ?
+                    birthday_sort(a, b, store.language as SupportedLanguage) :
+                    birthday_sort(b, a, store.language as SupportedLanguage)
+            }
+
+            const aValue = a[filter_condition.value.sort_type as keyof studentInfo] as string
+            const bValue = b[filter_condition.value.sort_type as keyof studentInfo] as string
+            return filter_condition.value.sort_asc ?
+                aValue.localeCompare(bValue) :
+                bValue.localeCompare(aValue)
+        })
 }, 300) // 防抖
-const processData = () => {
-    dataFilter()
-    dataSearch()
-    dataSort()
-}
+
 processData()
 watch(filter_condition, () => {
     processData()

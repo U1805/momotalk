@@ -19,7 +19,8 @@ const search = (data: studentInfo[], key: string, filter: string) => {
     if (!processedKey && !processedFilter) return data
     
     return data.filter(item => {
-        if (!processedKey) return processString(item.School).includes(processedFilter)
+        if (processedFilter && !processString(item.School).includes(processedFilter)) return false
+        if (!processedKey) return true
 
         // 检查名字(简体、繁体、拼音)
         const name = processString(item.Name)
