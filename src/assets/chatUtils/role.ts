@@ -1,4 +1,4 @@
-import { baseStudent } from '../utils/interface'
+import { baseStudent } from '../requestUtils/interface'
 import { selectList } from '../storeUtils/selectList'
 
 function getRandomInt(max: number) {

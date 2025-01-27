@@ -112,7 +112,7 @@ import { readFile } from '@/assets/imgUtils/readFile'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
 import { saveEdit } from '@/assets/storeUtils/saveEdit'
-import { Talk } from '@/assets/utils/interface'
+import { Talk } from '@/assets/requestUtils/interface'
 
 export default {
     props: {
@@ -166,5 +166,5 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '@/assets/css/chat-draggable.scss';
+@import '@/views/ChatView/chat-draggable.scss';
 </style>

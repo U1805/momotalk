@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { Talk } from '../utils/interface'
+import { Talk } from '../requestUtils/interface'
 import { historyState } from './historyState'
 
 const isSameChar_ = (talk0: Talk, talk1: Talk) => {

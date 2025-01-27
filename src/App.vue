@@ -4,11 +4,13 @@ import SettingIcon from './components/icons/IconSetting.vue'
 import StudentIcon from './components/icons/IconStudent.vue'
 import MessageIcon from './components/icons/IconMessage.vue'
 import DownloadIcon from './components/icons/IconDownload.vue'
-import ListIcon from './components/icons/IconList.vue'
+import ListUpIcon from './components/icons/IconListUp.vue'
+import ListDownIcon from './components/icons/IconListDown.vue'
 import ResetIcon from './components/icons/IconReset.vue'
 import LanguageIcon from './components/icons/IconLanguage.vue'
-import PlayerDialog from '@/components/PlayerWindow.vue'
-import SettingDialog from '@/components/SettingWindow.vue'
+import PlayerDialog from '@/views/DialogView/PlayerWindow.vue'
+import SettingDialog from '@/views/DialogView/SettingWindow.vue'
+import FilterDialog from '@/views/DialogView/FilterWindows.vue'
 
 // true "vh" on mobile 
 let vh = window.innerHeight * 0.01
@@ -60,14 +62,29 @@ window.addEventListener('resize', () => {
 
         <section id="listcard">
             <header id="listcard__header">
-                <div class="search-group">
-                    <input type="text" placeholder="Type / to search" class="search-group__text" v-model="searchText"
-                        id="searchBox" aria-label="Search" />
-                </div>
-                <button class="student-list__button" @click="switchStudentList" title="Switch Student List"
-                    aria-label="Switch Student List">
-                    <ListIcon class="icon list" />
-                </button>
+                <Popper placement="bottom" :show="showPopper" style="width: 100%;">
+                    <span id="listcard__header-content">
+                        <div class="search-group">
+                            <input type="text" placeholder="Type / to search" class="search-group__text"
+                                v-model="searchText" id="searchBox" aria-label="Search" />
+                        </div>
+                        <button class="student-list__button button1" title="Switch Student List" @click="popperTrigger"
+                            aria-label="Switch Student List">
+                            <span>{{ filter_condition.sort_type ? $t(filter_condition.sort_type.toLowerCase()) :
+                                $t('default') }}</span>
+                        </button>
+                        <button class="student-list__button button2" title="Switch Student List"
+                            aria-label="Switch Student List" @click="sortOrderTrigger">
+                            <ListUpIcon v-if="filter_condition.sort_asc" class="icon list" />
+                            <ListDownIcon v-else class="icon list" />
+                        </button>
+                    </span>
+                    <template #content>
+                        <FilterDialog :filter_condition="filter_condition"
+                            :filter_condition_copy="filter_condition_copy" @popperConfirm="popperConfirm"
+                            @popperTrigger="popperTrigger"></FilterDialog>
+                    </template>
+                </Popper>
             </header>
             <div id="listbody">
                 <div class="list-item" v-for="(item, index) in dataDisplay" :key="index" :id="item.Id"
@@ -100,54 +117,98 @@ window.addEventListener('resize', () => {
 import { ref, watch } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import i18n from '@/locales/i18n'
-import { baseStudent, studentInfo } from '@/assets/utils/interface'
-import { getStudents, getSchoolIcon } from '@/assets/utils/request'
+import { baseStudent, studentInfo } from '@/assets/requestUtils/interface'
+import { getStudents, getSchoolIcon } from '@/assets/requestUtils/request'
 import { download } from '@/assets/imgUtils/download'
 import { store } from '@/assets/storeUtils/store'
 import { talkHistory } from '@/assets/storeUtils/talkHistory'
-import { search } from './assets/utils/search'
+import { search, debounce } from '@/assets/utils/search'
+import Popper from 'vue3-popper'
 
 store.getData()
 
-// student data
-const database = ref<studentInfo[][]>(await getStudents(store.language))
-const dataDisplayIndex = ref<number>(0)
-const dataDisplay = ref<studentInfo[]>(database.value[dataDisplayIndex.value])
-watch(dataDisplayIndex, async (flag: number) => {
-    dataDisplay.value = database.value[flag]
-})
-const switchStudentList = () => {
-    dataDisplayIndex.value = (dataDisplayIndex.value + 1) % database.value.length
-    searchText.value = ''
-    searchSchool.value = ''
-    deactiveStudent()
-}
+/************************* */
+/*  student data           */
+/************************* */
+const database = ref<studentInfo[]>(await getStudents(store.language))
+const dataDisplay = ref<studentInfo[]>(database.value)
 
-// search and filter
-const debounce = (func: Function, delay: number) => {
-    let timer: any = null
-    return (...args: any) => {
-        clearTimeout(timer);
-        timer = setTimeout(() => func(...args), delay);
+/************************* */
+/* filter and sort popper  */
+/************************* */
+const showPopper = ref<boolean>(false)
+const filter_condition = ref(
+    {
+        sort_type: '',         // 排序类型 名字 生日 学校 社团
+        sort_asc: true,        // 排序顺序 true 升序 false 降序
+        filter_star: 0,        // 稀有度   0 1 2 3
+        filter_released: true, // 已实装 true false
     }
+)
+const filter_condition_copy = ref(filter_condition.value)
+const popperTrigger = () => {
+    showPopper.value = !showPopper.value
+    filter_condition_copy.value = JSON.parse(JSON.stringify(filter_condition.value))
+}
+const popperConfirm = () => {
+    showPopper.value = false
+    filter_condition.value = filter_condition_copy.value
 }
 
+/************************* */
+/* filter, search and sort */
+/************************* */
 const searchText = ref<string>('')
 const searchSchool = ref<string>('')
-const debounceSearch = debounce(() => {
+
+const dataFilter = () => {
+    dataDisplay.value = database.value.filter((item) => {
+        if (filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) return false
+        // if (item.Released !== filter_condition.value.filter_released) return false
+        return true
+    })
+}
+const dataSort = () => {
+    if (filter_condition.value.sort_type === '') {
+        if (!filter_condition.value.sort_asc) dataDisplay.value = dataDisplay.value.reverse()
+        return
+    }
+    dataDisplay.value = dataDisplay.value.sort((a, b) => {
+        return filter_condition.value.sort_asc ?
+            a[filter_condition.value.sort_type].localeCompare(b[filter_condition.value.sort_type]) :
+            b[filter_condition.value.sort_type].localeCompare(a[filter_condition.value.sort_type])
+    })
+}
+const dataSearch = debounce(() => {
     dataDisplay.value = search(
-        database.value[dataDisplayIndex.value],
+        dataDisplay.value,
         searchText.value,
         searchSchool.value
     )
 }, 300) // 防抖
+const processData = () => {
+    dataFilter()
+    dataSearch()
+    dataSort()
+}
+watch(filter_condition, () => {
+    processData()
+})
 watch(
     () => [searchText.value, searchSchool.value],
     () => {
-        debounceSearch()
+        processData()
         deactiveStudent()
     }
 )
+
+/************************* */
+/* sort order              */
+/************************* */
+const sortOrderTrigger = () => {
+    filter_condition.value.sort_asc = !filter_condition.value.sort_asc
+    processData()
+}
 
 // item in list
 const studentSelected = ref<studentInfo | null>(null)
@@ -186,7 +247,7 @@ const changeLanguage = async () => {
     store.language = languageList[(currentLngIdx + 1) % languageList.length]
     i18n.global.locale = store.language as any
     database.value = await getStudents(store.language)
-    dataDisplay.value = database.value[dataDisplayIndex.value]
+    processData()
     store.setData()
     deactiveStudent()
 }

@@ -1,41 +1,49 @@
-import { studentInfo } from './interface'
+import { studentInfo } from '../requestUtils/interface'
 import { Traditionalized } from './tw_cn'
 import pinyin from 'tiny-pinyin'
+// 缓存处理过的字符串
+const processedCache = new Map<string, string>()
+
+// 预处理字符串,移除符号并转小写
+const processString = (str: string): string => {
+    if (!str) return ''
+    if (!processedCache.has(str)) {
+        processedCache.set(str, str.toLowerCase().trim().replace(/[\(\)（）\[\]「」『』∗*＊【】\s]/g, ''))
+    }
+    return processedCache.get(str)!
+}
 
 const search = (data: studentInfo[], key: string, filter: string) => {
-    // https://www.cnblogs.com/caozhenfei/p/14882122.html
+    const processedKey = processString(key)
+    if (!processedKey) return data
+    
+    return data.filter(item => {
+        if (!processedKey) return true
 
-    const reg_text = new RegExp(
-        key
-            .toLowerCase()
-            .trim()
-            .replaceAll('(', '\\(')
-            .replaceAll(')', '\\)')
-            .replaceAll('（', '\\(')
-            .replaceAll('）', '\\)')
-    )
-    const reg_school = new RegExp(filter)
-
-    return data.filter((item) => {
-        if (reg_school.test(item.School)) {
-            // 部分匹配，罗马音+昵称+名字
-            if (reg_text.test(item.Name.toLowerCase())) return item
-            for (const nickname of item.Nickname) {
-                if (reg_text.test(nickname.toLowerCase())) return item
-            }
-            // 匹配繁体
-            if (reg_text.test(Traditionalized(item.Name).toLowerCase())) return item
-            for (const nickname of Traditionalized(item.Nickname)) {
-                if (reg_text.test(nickname.toLowerCase())) return item
-            }
-            // 匹配拼音
-            if (!pinyin.isSupported()) return false
-            if (reg_text.test(pinyin.convertToPinyin(item.Name, '', true))) return item
-            // for (const nickname of item.Nickname) {
-            //     if (reg_text.test(pinyin.convertToPinyin(nickname, '', true))) return item
-            // }
+        // 检查名字(简体、繁体、拼音)
+        const name = processString(item.Name)
+        if (name.includes(processedKey) || 
+            processString(Traditionalized(item.Name)).includes(processedKey) ||
+            (pinyin.isSupported() && pinyin.convertToPinyin(name, '', true).includes(processedKey))) {
+            return true
         }
+
+        // 检查昵称(简体、繁体)
+        return item.Nickname.some(nick => {
+            const processedNick = processString(nick)
+            return processedNick.includes(processedKey) || 
+                   processString(Traditionalized(nick)).includes(processedKey)
+        })
     })
 }
 
-export { search }
+// 防抖
+const debounce = (func: Function, delay: number) => {
+    let timer: any = null
+    return (...args: any) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => func(...args), delay);
+    }
+}
+
+export { search, debounce }

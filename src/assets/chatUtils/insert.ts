@@ -1,6 +1,6 @@
 import { readFile } from '../imgUtils/readFile'
 import i18n from '@/locales/i18n'
-import { baseStudent, Talk } from '../utils/interface'
+import { baseStudent, Talk } from '../requestUtils/interface'
 import { talkHistory } from '../storeUtils/talkHistory'
 import { store } from '../storeUtils/store'
 import { myReExp } from '../utils/markdown'

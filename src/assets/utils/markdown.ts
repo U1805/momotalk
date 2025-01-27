@@ -1,5 +1,5 @@
 import { talkHistory } from '../storeUtils/talkHistory'
-import { Talk } from './interface'
+import { Talk } from '../requestUtils/interface'
 
 class myReExp {
     typeList: string[]

@@ -2,9 +2,9 @@
 import { store } from '@/assets/storeUtils/store'
 import { importJson, exportJson } from '@/assets/storeUtils/file'
 import { importCard, exportCard } from '@/assets/chatUtils/play'
-import IconClose from './icons/IconClose.vue';
-import IconGithub from './icons/IconGithub.vue'
-import IconLog from './icons/IconLog.vue';
+import IconClose from '@/components/icons/IconClose.vue';
+import IconGithub from '@/components/icons/IconGithub.vue'
+import IconLog from '@/components/icons/IconLog.vue';
 
 const showPage = (num: number) => {
     const pageElements = document.querySelectorAll('.page');
@@ -95,6 +95,169 @@ const changeTheme = () => {
 </template>
 
 <style scoped lang="scss">
-@import '@/assets/css/dialog.scss';
-@import '@/assets/css/setting-window.scss';
+.dialog-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    @include center;
+}
+
+.dialog-box {
+    user-select: none;
+    background: #fff;
+    width: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+
+.featured {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 0 24px;
+        width: 100%;
+        flex-shrink: 0;
+        transition: transform cubic-bezier(0.18, 0.89, 0.32, 1.28) 512ms;
+    }
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    line-height: 1;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+
+    .page-btn {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        &.active{
+            font-weight:bold;
+        }
+    }
+}
+
+.dialog-header {
+    @include font-heavy(20px);
+    padding-top: 20px;
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.dialog-content {
+    @include font-light(12px);
+    white-space: pre-wrap;
+    line-height: 35px;
+    padding: 24px 32px 0px;
+
+    button {
+        @include font-light(12px);
+        width: 100%;
+        border-radius: 0.5rem;
+        line-height: 2rem;
+        color: rgb(255, 255, 255);
+        border: 1px solid $grey;
+        background-color: $grey-active;
+        cursor: pointer;
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        &.button-half{
+            width: 40%;
+            margin: 10px 0;
+            color: $grey-active;
+            background-color: white;
+        }
+    }
+
+    input {
+        @include font-light(12px);
+        width: 100%;
+        border-radius: 0.5rem;
+        line-height: 2rem;
+        border: 1px solid $grey;
+    }
+
+    .icon-github,
+    .icon-log {
+        font-size: 35px;
+        margin-right: 20px;
+        fill: $grey;
+    }
+
+    .arona-chat {
+        height: 35px;
+        filter: grayscale(30%);
+    }
+}
+
+.icon-button {
+    @include center;
+    border: 0;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.15s ease;
+
+    svg {
+        width: 24px;
+        height: 24px;
+        stroke: $font-black;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: #dfdad7;
+    }
+}
+
+.radio {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+
+    input {
+        width: auto;
+        margin: 5px;
+    }
+}
+
+.checkbox{
+    display: inline-flex;   
+    align-items: center;
+    input{
+        width: auto;
+        margin: 5px;
+    }
+}
+
+.range{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    input{
+        width: 60%;
+        margin: 5px;
+    }
+}
 </style>

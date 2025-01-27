@@ -38,6 +38,10 @@
         background-color: var(--theme_bg_color);
         scroll-snap-align: center;
     }
+
+    .popper-content {
+        width: 95vw;
+    }
 }
 
 @media screen and (max-width: 1150px) {

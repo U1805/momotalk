@@ -103,6 +103,12 @@
     &__header {
         @include center;
         border-bottom: 2px solid $list-active-color;
+        width: 100%;
+
+        &-content {
+            @include center;
+            width: 100%;
+        }
     }
 }
 
@@ -119,7 +125,7 @@
         &::placeholder {
             color: #9e9ea7;
         }
-        
+
         height: 40px;
         width: 100%;
         background-color: white;
@@ -142,13 +148,71 @@
     background: white;
     border-radius: 5px;
     box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
-    margin: 15px 20px;
-    width: 20%;
     height: 40px;
     @include font-regular(15px);
     cursor: pointer;
     transform: skew(-15deg);
     overflow: hidden;
+
+    &.button1 {
+        @include font-regular(15px);
+        position: relative;
+        width: 28%;
+        height: 40px;
+        margin: 15px 5px 15px 20px;
+        font-size: large;
+        background: white;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+        cursor: pointer;
+        transform: skew(-15deg);
+        overflow: hidden;
+
+        span {
+            transform: skew(15deg);
+        }
+    }
+
+    &.button2 {
+        @include font-regular(15px);
+        width: 20%;
+        height: 40px;
+        margin: 15px 20px 15px 5px;
+        background: white;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px;
+        cursor: pointer;
+        transform: skew(-15deg);
+        overflow: hidden;
+
+        svg {
+            transform: skew(15deg);
+        }
+    }
+
+    &.button1::after {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        display: block;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0px 10px 10px 0px;
+        border-color: transparent rgb(76, 91, 112) transparent transparent;
+        content: '';
+    }
+
+    &:active {
+        transform: scale(0.95) skew(-15deg);
+    }
+
+    &:hover {
+        background-color: $button-color-active;
+        transition: 0.4s;
+    }
 }
 
 #listbody {

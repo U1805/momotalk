@@ -18,11 +18,13 @@
         @include setColor(#fff);
         cursor: pointer;
     }
-    &.close,
     &.download,
     &.info,
     &.list {
         height: 35px;
+    }
+    &.close {
+        height: 28px;
     }
     &.message {
         height: 30px;

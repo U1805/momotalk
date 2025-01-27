@@ -1,4 +1,4 @@
-import { Talk } from '../utils/interface'
+import { Talk } from '../requestUtils/interface'
 
 const deepcopy = (obj:Object)=>{
     return JSON.parse(JSON.stringify(obj))

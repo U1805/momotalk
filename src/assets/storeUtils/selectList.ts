@@ -1,5 +1,5 @@
 import { reactive } from 'vue'
-import { baseStudent } from '../utils/interface'
+import { baseStudent } from '../requestUtils/interface'
 
 export const selectList = reactive({
     selectList: [] as baseStudent[],

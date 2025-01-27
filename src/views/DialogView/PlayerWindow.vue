@@ -55,7 +55,26 @@ const playMomotalk = async (confirm: boolean) => {
 </template>
 
 <style scoped lang="scss">
-@import '@/assets/css/dialog.scss';
+.dialog-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    @include center;
+}
+
+.dialog-box {
+    user-select: none;
+    background: #fff;
+    width: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 250px;
+}
+
 
 .dialog-header {
     @include center;
