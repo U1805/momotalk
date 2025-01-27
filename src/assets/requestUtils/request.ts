@@ -70,7 +70,9 @@ const getStudents = async (lng: string) => {
             if (lng == 'kr' && !localItem[field]['kr'])
                 return localItem[field]['jp'] || ''
             if (lng == 'tw' && !localItem[field]['tw'])
-                return Traditionalized(localItem[field]['zh']) || ''
+                return localItem[field]['zh']
+                    ? Traditionalized(localItem[field]['zh'])
+                    : ''
             return localItem[field][lng] || ''
         },
 

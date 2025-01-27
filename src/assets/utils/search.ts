@@ -15,10 +15,11 @@ const processString = (str: string): string => {
 
 const search = (data: studentInfo[], key: string, filter: string) => {
     const processedKey = processString(key)
-    if (!processedKey) return data
+    const processedFilter = processString(filter)
+    if (!processedKey && !processedFilter) return data
     
     return data.filter(item => {
-        if (!processedKey) return true
+        if (!processedKey) return processString(item.School).includes(processedFilter)
 
         // 检查名字(简体、繁体、拼音)
         const name = processString(item.Name)
