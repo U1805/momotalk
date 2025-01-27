@@ -2,13 +2,21 @@
 
 ## Update log 更新历史
 
+## Jan 26, 2025:
+
+重构：移除 SchaleDB 相关依赖  
+功能：增加相关学生跳转功能
+
+refactor: Remove SchaleDB related dependencies  
+feat: Add related student function
+
 ##  Nov 19, 2024:
 
-特性：移除 AI 阿罗娜聊天功能   
+重构：移除 AI 阿罗娜聊天功能   
 更新：Momotalk 单词拼写统一为 MomoTalk #40    
 样式：播放动画时隐藏删除/插入按钮   
 
-feat: Remove the experimental feature "arona-ai"   
+refactor: Remove the experimental feature "arona-ai"   
 chore: Fix text "Momotalk" to "MomoTalk"   
 style: Hide delete/insert buttons during playing.
 

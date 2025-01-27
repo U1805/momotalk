@@ -1,5 +1,7 @@
 export default {
     selectInfo: '請選擇學生',
+    relatedStudentTitle: '相關學生',
+    noRelatedStudent: '暫無相關學生',
     imageUploadAlert: '不建議上傳大於1MB的圖片！',
     customRoleInfo: '輸入自訂角色名稱',
     storyEvent: '羈絆劇情',

@@ -12,6 +12,11 @@ interface studentInfo {
     Bio: string
     Nickname: string[]
     School: string
+    RelatedStudent: Array<{
+        Id: number
+        Name: string
+        Avatar: string
+    }>
     cnt: number
 }
 

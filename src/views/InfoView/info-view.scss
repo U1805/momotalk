@@ -2,20 +2,20 @@
     @include center;
     @include font-heavy(20px);
     color: $font-grey;
+    overflow: hidden;
 
     > div {
         display: grid;
+        width: 100%;
         margin: 20px 40px;
-        grid: {
-            template-rows: 0px 160px 40px minmax(40px, 1fr) 55px;
-        }
+        grid-template-rows: 0px 160px 40px minmax(40px, 1fr) 55px;
     }
 
     &__play {
-        grid-row: 1 / 2;
-        width: 100%;
         display: flex;
         justify-content: center;
+        width: 100%;
+        grid-row: 1 / 2;
     }
 
     &__avatar {
@@ -24,6 +24,7 @@
 
         img {
             @include circle(150px);
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
         }
     }
 
@@ -53,5 +54,41 @@
         width: fit-content;
         margin: 5px auto auto;
         padding: 4px;
+    }
+
+    &__related {
+        margin-top: 20px;
+        overflow: hidden;
+
+        &-title {
+            @include center;
+            background-color: #DAEDFC;
+            border-left: 2px solid $chatborder-color;
+            border-right: 2px solid $chatborder-color;
+            border-top: 2px solid $chatborder-color;
+            border-radius: 6px 6px 0 0;
+            color: #5787B0;
+            padding: 3px 10px;
+            width: 100%;
+        }
+
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 2px solid $chatborder-color;
+            border-left: 2px solid $chatborder-color;
+            border-right: 2px solid $chatborder-color;
+            border-radius: 0 0 6px 6px;
+            padding: 0 5px;
+        
+            .student-info__related-avatar {
+                @include center;
+                margin: 5px 7px;
+                img {
+                    @include circle(100px);
+                    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
     }
 }

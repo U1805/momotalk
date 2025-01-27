@@ -1,5 +1,7 @@
 export default {
     selectInfo: '请选择学生',
+    relatedStudentTitle: '相关学生',
+    noRelatedStudent: '暂无相关学生',
     imageUploadAlert: '目前不建议上传大于 1MB 的图片哦！',
     customRoleInfo: '请输入自定义角色名',
     storyEvent: '羁绊剧情',

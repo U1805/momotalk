@@ -61,17 +61,18 @@ const getStudentsPart1 = async (lng: string) => {
     const tools = {
         initStudentObject: (localItem: LocalStudent): studentInfo => ({
             Id: localItem.Id,
-            Name: tools.fixStudentField(localItem, "Name"),
+            Name: tools.fixStudentField(localItem, 'Name'),
             Birthday: DATE_FORMATS(localItem.Birthday, lng as SupportedLanguage),
             Avatars: proxy(localItem.Avatar),
-            Bio: tools.fixStudentField(localItem, "Bio"),
+            Bio: tools.fixStudentField(localItem, 'Bio'),
             Nickname: localItem.Nickname,
-            School: localItem.School || "ETC",
+            School: localItem.School || 'ETC',
+            RelatedStudent: [],
             cnt: 0
         }),
 
-        fixStudentField: (localItem: LocalStudent, field: "Name" | "Bio") => {
-            // filling empty name
+        fixStudentField: (localItem: LocalStudent, field: 'Name' | 'Bio') => {
+            // filling empty name or bio
             if (lng == 'en' && !localItem[field]['en']) return localItem[field]['jp']
             if (lng == 'tw' && !localItem[field]['tw'])
                 return Traditionalized(localItem[field]['zh'])
@@ -88,12 +89,31 @@ const getStudentsPart1 = async (lng: string) => {
                 const prefixes = prefixTable[localItem.Related.ItemType]
                 for (const prefix of prefixes) {
                     student.Nickname.push(
-                        localItem.Nickname[0] + " " + localItem.Related.ItemType,
-                        prefix + tools.fixStudentField(localItem, "Name"),
+                        localItem.Nickname[0] + ' ' + localItem.Related.ItemType,
+                        prefix + tools.fixStudentField(localItem, 'Name'),
                         ...nicknames.map((nickname) => prefix + nickname)
                     )
                 }
             }
+        },
+
+        fillRelatedStudent: (student: studentInfo, localItem: LocalStudent) => {
+            const relatedStudents = !localItem.Related
+                ? local.filter((ele) => ele.Related?.ItemId === student.Id)
+                : [
+                      local.find((ele) => ele.Id === localItem.Related!.ItemId)!,
+                      ...local.filter(
+                          (ele) =>
+                              ele.Related?.ItemId === localItem.Related!.ItemId &&
+                              ele.Id !== localItem.Id
+                      )
+                  ]
+
+            student.RelatedStudent = relatedStudents.map((ele) => ({
+                Id: ele.Id,
+                Name: tools.fixStudentField(ele, 'Name'),
+                Avatar: proxy1(ele.Avatar[0])
+            }))
         }
     }
 
@@ -105,6 +125,7 @@ const getStudentsPart1 = async (lng: string) => {
     return local.map((localItem) => {
         const newStudent = tools.initStudentObject(localItem)
         tools.fillNickname(newStudent, localItem)
+        tools.fillRelatedStudent(newStudent, localItem)
         return newStudent
     })
 }
@@ -123,6 +144,7 @@ const getStudentsPart2 = async (lng: string) => {
             Bio: localItem.Bio[lng] ? localItem.Bio[lng] : localItem.Bio['en'],
             Nickname: localItem.Nickname,
             School: localItem.School ? localItem.School : '',
+            RelatedStudent: [],
             cnt: 0
         } as studentInfo
     })

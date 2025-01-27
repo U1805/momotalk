@@ -70,7 +70,7 @@ window.addEventListener('resize', () => {
                 </button>
             </header>
             <div id="listbody">
-                <div class="list-item" v-for="(item, index) in dataDisplay" :key="index"
+                <div class="list-item" v-for="(item, index) in dataDisplay" :key="index" :id="item.Id"
                     :class="{ active: item === studentSelected }" @click="selectStudent(item)">
                     <div class="list-item__avatar" @click.stop="" @click="showAvatars(item)" role="button" tabindex="0"
                         @keydown.enter="showAvatars(item)">

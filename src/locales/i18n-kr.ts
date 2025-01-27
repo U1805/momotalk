@@ -1,5 +1,7 @@
 export default {
     selectInfo: '학생을 선택해주세요',
+    relatedStudentTitle: '관련 학생',
+    noRelatedStudent: '관련 학생이 없습니다',
     imageUploadAlert: '1MB보다 큰 이미지를 업로드하는 것은 권장되지 않습니다!',
     customRoleInfo: '사용자 지정 캐릭터 이름을 입력하세요',
     storyEvent: '이야기 이벤트',

@@ -1,5 +1,7 @@
 export default {
     selectInfo: '生徒を選択してください',
+    relatedStudentTitle: '関連する生徒',
+    noRelatedStudent: '関連する生徒なし',
     imageUploadAlert: '1MB以上の画像をアップロードすることはお勧めしません！',
     customRoleInfo: 'カスタムキャラクター名を入力してください',
     storyEvent: '絆イベント',
