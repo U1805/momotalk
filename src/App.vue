@@ -87,7 +87,7 @@ window.addEventListener('resize', () => {
                 </Popper>
             </header>
             <div id="listbody">
-                <div class="list-item" v-for="(item, index) in dataDisplay" :key="index" :id="item.Id"
+                <div class="list-item" v-for="(item, index) in dataDisplay" :key="index" :id="item.Id.toString()"
                     :class="{ active: item === studentSelected }" @click="selectStudent(item)">
                     <div class="list-item__avatar" @click.stop="" @click="showAvatars(item)" role="button" tabindex="0"
                         @keydown.enter="showAvatars(item)">
@@ -139,10 +139,10 @@ const dataDisplay = ref<studentInfo[]>(database.value)
 const showPopper = ref<boolean>(false)
 const filter_condition = ref(
     {
-        sort_type: '',         // 排序类型 名字 生日 学校 社团
-        sort_asc: true,        // 排序顺序 true 升序 false 降序
-        filter_star: 0,        // 稀有度   0 1 2 3
-        filter_released: true, // 已实装 true false
+        sort_type: '',                    // 排序类型 名字 生日 学校 社团
+        sort_asc: true,                   // 排序顺序 true 升序 false 降序
+        filter_star: 0,                   // 稀有度   0 1 2 3
+        filter_released: true,            // 已实装 true false
     }
 )
 const filter_condition_copy = ref(filter_condition.value)
@@ -164,7 +164,7 @@ const searchSchool = ref<string>('')
 const dataFilter = () => {
     dataDisplay.value = database.value.filter((item) => {
         if (filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) return false
-        // if (item.Released !== filter_condition.value.filter_released) return false
+        if (item.Released !== filter_condition.value.filter_released) return false
         return true
     })
 }
@@ -174,9 +174,13 @@ const dataSort = () => {
         return
     }
     dataDisplay.value = dataDisplay.value.sort((a, b) => {
+        // TODO: if sort_type == "Birthday" 
+        // student who has birthday today(or in 3 days) will be at the top, and her school will be show as a birthday cake icon
+        const aValue = a[filter_condition.value.sort_type as keyof studentInfo] as string
+        const bValue = b[filter_condition.value.sort_type as keyof studentInfo] as string
         return filter_condition.value.sort_asc ?
-            a[filter_condition.value.sort_type].localeCompare(b[filter_condition.value.sort_type]) :
-            b[filter_condition.value.sort_type].localeCompare(a[filter_condition.value.sort_type])
+            aValue.localeCompare(bValue) :
+            bValue.localeCompare(aValue)
     })
 }
 const dataSearch = debounce(() => {
@@ -191,6 +195,7 @@ const processData = () => {
     dataSearch()
     dataSort()
 }
+processData()
 watch(filter_condition, () => {
     processData()
 })

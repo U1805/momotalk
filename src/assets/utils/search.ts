@@ -8,7 +8,7 @@ const processedCache = new Map<string, string>()
 const processString = (str: string): string => {
     if (!str) return ''
     if (!processedCache.has(str)) {
-        processedCache.set(str, str.toLowerCase().trim().replace(/[\(\)（）\[\]「」『』∗*＊【】\s]/g, ''))
+        processedCache.set(str, str.toLowerCase().trim().replace(/[\(\)（）\[\]「」『』∗*＊【】_-\s]/g, ''))
     }
     return processedCache.get(str)!
 }

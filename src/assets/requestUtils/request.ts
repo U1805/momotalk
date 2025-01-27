@@ -17,6 +17,23 @@ const getAvatarImg = (student: number) => {
 }
 
 const getSchoolIcon = (school: string) => {
+    if (
+        ![
+            'Abydos',
+            'Arius',
+            'ETC',
+            'Gehenna',
+            'Hyakkiyako',
+            'Millennium',
+            'RedWinter',
+            'Shanhaijing',
+            'SRT',
+            'Tokiwadai',
+            'Trinity',
+            'Valkyrie'
+        ].includes(school)
+    )
+        return proxy1(`/api/Schools/ETC.png`)
     return proxy1(`/api/Schools/${school}.png`)
 }
 
@@ -32,22 +49,29 @@ const getStudents = async (lng: string) => {
     const tools = {
         initStudentObject: (localItem: LocalStudent): studentInfo => ({
             Id: localItem.Id,
-            Name: tools.fixStudentField(localItem, 'Name'),
-            Birthday: dateFormat(localItem.Birthday, lng as SupportedLanguage),
             Avatars: proxy(localItem.Avatar),
+            Name: tools.fixStudentField(localItem, 'Name'),
             Bio: tools.fixStudentField(localItem, 'Bio'),
             Nickname: localItem.Nickname,
+            Birthday: dateFormat(localItem.Birthday, lng as SupportedLanguage) || '???',
+            Age: localItem.Age || '',
             School: localItem.School || 'ETC',
+            Club: localItem.Club || '',
+            Star: localItem.Star || 0,
+            Released: localItem.Released || false,
             RelatedStudent: [],
             cnt: 0
         }),
 
         fixStudentField: (localItem: LocalStudent, field: 'Name' | 'Bio') => {
             // filling empty name or bio
-            if (lng == 'en' && !localItem[field]['en']) return localItem[field]['jp']
+            if (lng == 'en' && !localItem[field]['en'])
+                return localItem[field]['jp'] || ''
+            if (lng == 'kr' && !localItem[field]['kr'])
+                return localItem[field]['jp'] || ''
             if (lng == 'tw' && !localItem[field]['tw'])
-                return Traditionalized(localItem[field]['zh'])
-            return localItem[field][lng]
+                return Traditionalized(localItem[field]['zh']) || ''
+            return localItem[field][lng] || ''
         },
 
         fillNickname: (student: studentInfo, localItem: LocalStudent) => {
@@ -58,9 +82,9 @@ const getStudents = async (lng: string) => {
                 const prefixes = prefixTable[localItem.Related.ItemType]
                 for (const prefix of prefixes) {
                     student.Nickname.push(
-                        localItem.Nickname[0] + ' ' + localItem.Related.ItemType,
+                        localItem.Nickname[0] + localItem.Related.ItemType,
                         prefix + tools.fixStudentField(localItem, 'Name') + prefix,
-                        ...nicknames.map((nickname) => prefix + nickname + prefix),
+                        ...nicknames.map((nickname) => prefix + nickname + prefix)
                     )
                 }
             }

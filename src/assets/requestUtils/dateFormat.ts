@@ -17,6 +17,7 @@ const getOrdinalSuffix = (day: number): string => {
 }
 
 export const dateFormat = (birthday: string, lng: SupportedLanguage) => {
+    if (!birthday) return '???'
     const TOOL = {
         zh: (month: number, day: number) => `${month}月${day}日`,
         tw: (month: number, day: number) => `${month}月${day}日`,

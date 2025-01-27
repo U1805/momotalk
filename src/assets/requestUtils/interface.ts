@@ -6,12 +6,16 @@ interface baseStudent {
 
 interface studentInfo {
     Id: number
-    Name: string
-    Birthday: string
     Avatars: string[]
+    Name: string
     Bio: string
     Nickname: string[]
+    Birthday: string
+    Age: string
     School: string
+    Club: string
+    Star: number
+    Released: boolean
     RelatedStudent: Array<{
         Id: number
         Name: string
@@ -22,12 +26,16 @@ interface studentInfo {
 
 interface LocalStudent {
     Id: number
-    Name: Record<string, string>
-    Birthday: string
     Avatar: string[]
+    Name: Record<string, string>
     Bio: Record<string, string>
     Nickname: string[]
+    Birthday: string
+    Age: string
     School: string
+    Club: string
+    Star: number
+    Released: boolean
     Related: {
         ItemId: number
         ItemType: string
