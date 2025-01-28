@@ -156,11 +156,6 @@ const popperConfirm = () => {
     showPopper.value = false
     filter_condition.value = filter_condition_copy.value
 }
-const filter_school = (item: studentInfo) => {
-    if (filter_condition.value.search_school === item.School)
-        filter_condition.value.search_school = ''
-    else filter_condition.value.search_school = item.School
-}
 
 /************************* */
 /* filter, search and sort */
@@ -170,7 +165,7 @@ const processData = debounce(() => {
         // filter
         .filter(item => {
             if ((filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) ||
-                (filter_condition.value.search_school && item.School !== filter_condition.value.search_school) ||
+                (filter_condition.value.search_school && !item.School.includes(filter_condition.value.search_school)) ||
                 (item.Released !== filter_condition.value.filter_released)) return false
             return true
         })
@@ -179,7 +174,7 @@ const processData = debounce(() => {
         // sort
         .sort((a, b) => {
             if (filter_condition.value.sort_type === '') {
-                return filter_condition.value.sort_asc ? 1 : -1
+                return filter_condition.value.sort_asc ? -1 : 1
             }
 
             if (filter_condition.value.sort_type === 'Birthday') {
@@ -205,6 +200,14 @@ watch(
     },
     { deep: true }
 )
+
+// ========================= Filter School with Flag Birthday Start =========================
+const filter_school = (item: studentInfo) => {
+    if (filter_condition.value.search_school === item.School.replaceAll("-Birthday", ""))
+        filter_condition.value.search_school = ''
+    else filter_condition.value.search_school = item.School.replaceAll("-Birthday", "")
+}
+// ========================= Filter School with Flag Birthday End =========================
 
 /************************* */
 /* sort order              */

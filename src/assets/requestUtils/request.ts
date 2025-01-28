@@ -17,6 +17,9 @@ const getAvatarImg = (student: number) => {
 }
 
 const getSchoolIcon = (school: string) => {
+    // ========================= Flag Birthday Icon Start =========================
+    if (school.includes("-Birthday")) return `/momotalk/birthday.svg`
+    // ========================= Flag Birthday Icon End =========================
     if (
         ![
             'Abydos',

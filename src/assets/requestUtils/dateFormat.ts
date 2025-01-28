@@ -1,3 +1,4 @@
+import { studentInfo } from "./interface"
 
 const MONTHS_EN = [
     'January', 'February', 'March', 'April', 'May', 'June',
@@ -59,8 +60,8 @@ export const dateFormatReverse = (date: string, lng: SupportedLanguage): string 
     return `${month}/${day}`
 }
 
-export const birthday_sort = (a: any, b: any, lng: SupportedLanguage) => {
-    // 将 MM/DD 格式转换为今年的日期以进行比较
+export const birthday_sort = (a: studentInfo, b: studentInfo, lng: SupportedLanguage) => {
+    // 转换为今年的日期以进行比较
     const today = new Date()
     const currentYear = today.getFullYear()
     
@@ -77,7 +78,14 @@ export const birthday_sort = (a: any, b: any, lng: SupportedLanguage) => {
 
     const aDate = getDateFromBirthday(a.Birthday)
     const bDate = getDateFromBirthday(b.Birthday)
-    
+
+    // ========================= Flag Birthday Start =========================
+    const diffDays = Math.ceil((aDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
+    if (diffDays >= 0 && diffDays < 3) { // 检查是否未来3天内过生日
+        a.School = a.School.replaceAll("-Birthday", "") + "-Birthday"
+    }
+    // ========================= Flag Birthday End =========================
+
     // 如果日期已经过了，使用明年的日期
     if (aDate < today) aDate.setFullYear(currentYear + 1)
     if (bDate < today) bDate.setFullYear(currentYear + 1)
