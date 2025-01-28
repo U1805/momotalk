@@ -13,15 +13,11 @@ const processString = (str: string): string => {
     return processedCache.get(str)!
 }
 
-const search = (data: studentInfo[], key: string, filter: string) => {
+const search = (data: studentInfo[], key: string) => {
     const processedKey = processString(key)
-    const processedFilter = processString(filter)
-    if (!processedKey && !processedFilter) return data
+    if (!processedKey) return data
     
     return data.filter(item => {
-        if (processedFilter && !processString(item.School).includes(processedFilter)) return false
-        if (!processedKey) return true
-
         // 检查名字(简体、繁体、拼音)
         const name = processString(item.Name)
         if (name.includes(processedKey) || 

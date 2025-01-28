@@ -66,15 +66,15 @@ window.addEventListener('resize', () => {
                     <span id="listcard__header-content">
                         <div class="search-group">
                             <input type="text" placeholder="Type / to search" class="search-group__text"
-                                v-model="searchText" id="searchBox" aria-label="Search" />
+                                v-model="filter_condition.search_text" id="searchBox" aria-label="Search" />
                         </div>
-                        <button class="student-list__button button1" title="Switch Student List" @click="popperTrigger"
-                            aria-label="Switch Student List">
+                        <button class="student-list__button button1" title="Filter" aria-label="Filter"
+                            @click="popperTrigger">
                             <span>{{ filter_condition.sort_type ? $t(filter_condition.sort_type.toLowerCase()) :
                                 $t('default') }}</span>
                         </button>
-                        <button class="student-list__button button2" title="Switch Student List"
-                            aria-label="Switch Student List" @click="sortOrderTrigger">
+                        <button class="student-list__button button2" title="Sort" aria-label="Sort"
+                            @click="sortOrderTrigger">
                             <ListUpIcon v-if="filter_condition.sort_asc" class="icon list" />
                             <ListDownIcon v-else class="icon list" />
                         </button>
@@ -97,9 +97,8 @@ window.addEventListener('resize', () => {
                     </div>
                     <span class="list-item__name">{{ item.Name }}</span>
                     <span class="list-item__bio">{{ item.Bio }}</span>
-                    <div class="list-item__mark" v-if="item.School" @click.stop=""
-                        @click=" searchSchool = searchSchool === item.School ? '' : item.School" role="button"
-                        tabindex="0" @keydown.enter=" searchSchool = searchSchool === item.School ? '' : item.School">
+                    <div class="list-item__mark" v-if="item.School" @click.stop="" @click="filter_school(item)"
+                        role="button" tabindex="0" @keydown.enter=" filter_school(item)">
                         <img v-lazy="getSchoolIcon(item.School)" :alt="`${item.School} icon`" />
                     </div>
                     <div class="list-item__avatars" @click.stop="" v-show="item === studentShowAvatars">
@@ -142,8 +141,10 @@ const filter_condition = ref(
     {
         sort_type: '',          // 排序类型 名字 生日 学校 社团
         sort_asc: true,         // 排序顺序 true 升序 false 降序
-        filter_star: 0,         // 稀有度   0 1 2 3
+        filter_star: 0,         // 稀有度 0 1 2 3
         filter_released: true,  // 已实装 true false
+        search_text: '',        // 搜索内容
+        search_school: '',      // 搜索学校
     }
 )
 const filter_condition_copy = ref(filter_condition.value)
@@ -155,27 +156,30 @@ const popperConfirm = () => {
     showPopper.value = false
     filter_condition.value = filter_condition_copy.value
 }
+const filter_school = (item: studentInfo) => {
+    if (filter_condition.value.search_school === item.School)
+        filter_condition.value.search_school = ''
+    else filter_condition.value.search_school = item.School
+}
 
 /************************* */
 /* filter, search and sort */
 /************************* */
-const searchText = ref<string>('')
-const searchSchool = ref<string>('')
-
 const processData = debounce(() => {
     dataDisplay.value = database.value
         // filter
         .filter(item => {
-            if (filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) return false
-            if (item.Released !== filter_condition.value.filter_released) return false
+            if ((filter_condition.value.filter_star > 0 && item.Star !== filter_condition.value.filter_star) ||
+                (filter_condition.value.search_school && item.School !== filter_condition.value.search_school) ||
+                (item.Released !== filter_condition.value.filter_released)) return false
             return true
         })
         // search
-        .filter(item => search([item], searchText.value, searchSchool.value).length > 0)
+        .filter(item => search([item], filter_condition.value.search_text).length > 0)
         // sort
         .sort((a, b) => {
             if (filter_condition.value.sort_type === '') {
-                return filter_condition.value.sort_asc ? 0 : -1
+                return filter_condition.value.sort_asc ? 1 : -1
             }
 
             if (filter_condition.value.sort_type === 'Birthday') {
@@ -187,21 +191,19 @@ const processData = debounce(() => {
             const aValue = a[filter_condition.value.sort_type as keyof studentInfo] as string
             const bValue = b[filter_condition.value.sort_type as keyof studentInfo] as string
             return filter_condition.value.sort_asc ?
-                aValue.localeCompare(bValue) :
-                bValue.localeCompare(aValue)
+                aValue.localeCompare(bValue, 'zh-CN') : // "zh-CN" to fix the sort order when lng = "zh" or "tw"
+                bValue.localeCompare(aValue, 'zh-CN')
         })
 }, 300) // 防抖
 
 processData()
-watch(filter_condition, () => {
-    processData()
-})
 watch(
-    () => [searchText.value, searchSchool.value],
+    () => filter_condition.value,
     () => {
         processData()
         deactiveStudent()
-    }
+    },
+    { deep: true }
 )
 
 /************************* */
@@ -212,7 +214,9 @@ const sortOrderTrigger = () => {
     processData()
 }
 
-// item in list
+/************************* */
+/*  select student         */
+/************************* */
 const studentSelected = ref<studentInfo | null>(null)
 const student = ref<baseStudent | null>(null)
 const selectStudent = (item: studentInfo) => {
@@ -226,7 +230,10 @@ const selectStudent = (item: studentInfo) => {
 const deactiveStudent = () => {
     student.value = null
 }
-// multi-avatar student
+
+/************************* */
+/* multi-avatar student   */
+/************************* */
 const studentShowAvatars = ref<studentInfo | null>(null)
 const showAvatars = (item: any) => {
     if (studentShowAvatars.value !== item) studentShowAvatars.value = item
@@ -242,7 +249,9 @@ const selectAvatar = (item: studentInfo, index: number) => {
     }
 }
 
-// languages
+/************************* */
+/*  switch language        */
+/************************* */
 const changeLanguage = async () => {
     const languageList = i18n.global.availableLocales
     const currentLngIdx = languageList.findIndex((ele) => ele === store.language)
@@ -254,7 +263,9 @@ const changeLanguage = async () => {
     deactiveStudent()
 }
 
-// theme
+/************************* */
+/*  switch theme           */
+/************************* */
 const changeTheme = () => {
     if (store.theme !== 'momotalk' && store.theme !== 'yuzutalk')
         store.theme = 'momotalk'
@@ -266,7 +277,9 @@ const changeTheme = () => {
 }
 changeTheme()
 
-// shortcuts
+/************************* */
+/*  shortcuts             */
+/************************* */
 document.onkeyup = (e) => {
     // 在输入框中不激活快捷键
     if (e.key === '/' && document.activeElement?.id !== 'textarea') {
