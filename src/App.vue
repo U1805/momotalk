@@ -174,7 +174,9 @@ const processData = debounce(() => {
         // sort
         .sort((a, b) => {
             if (filter_condition.value.sort_type === '') {
-                return filter_condition.value.sort_asc ? -1 : 1
+                return filter_condition.value.sort_asc ? 
+                database.value.indexOf(a) - database.value.indexOf(b) : 
+                database.value.indexOf(b) - database.value.indexOf(a)
             }
 
             if (filter_condition.value.sort_type === 'Birthday') {

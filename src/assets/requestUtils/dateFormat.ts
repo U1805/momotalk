@@ -62,8 +62,9 @@ export const dateFormatReverse = (date: string, lng: SupportedLanguage): string 
 
 export const birthday_sort = (a: studentInfo, b: studentInfo, lng: SupportedLanguage) => {
     // 转换为今年的日期以进行比较
-    const today = new Date()
-    const currentYear = today.getFullYear()
+    const now = new Date()
+    const today = now.setHours(0, 0, 0, 0)
+    const currentYear = now.getFullYear()
     
     const getDateFromBirthday = (birthday: string) => {
         birthday = dateFormatReverse(birthday, lng)
@@ -73,22 +74,22 @@ export const birthday_sort = (a: studentInfo, b: studentInfo, lng: SupportedLang
             return yesterday
         }
         const [month, day] = birthday.split('/').map(Number)
-        return new Date(currentYear, month - 1, day - 1)
+        return new Date(currentYear, month - 1, day)
     }
 
     const aDate = getDateFromBirthday(a.Birthday)
     const bDate = getDateFromBirthday(b.Birthday)
 
     // ========================= Flag Birthday Start =========================
-    const diffDays = Math.ceil((aDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
+    const diffDays = Math.ceil((aDate.getTime() - today) / (1000 * 60 * 60 * 24))
     if (diffDays >= 0 && diffDays < 3) { // 检查是否未来3天内过生日
         a.School = a.School.replaceAll("-Birthday", "") + "-Birthday"
     }
     // ========================= Flag Birthday End =========================
 
     // 如果日期已经过了，使用明年的日期
-    if (aDate < today) aDate.setFullYear(currentYear + 1)
-    if (bDate < today) bDate.setFullYear(currentYear + 1)
+    if (aDate.getTime() < today) aDate.setFullYear(currentYear + 1)
+    if (bDate.getTime() < today) bDate.setFullYear(currentYear + 1)
 
     return aDate.getTime() - bDate.getTime()
 }
