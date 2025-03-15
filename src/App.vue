@@ -309,7 +309,7 @@ document.onkeyup = (e) => {
 let dpr = window.devicePixelRatio
 const tryDownload = (dpr) => {
     const showZoomWarning = (ratio) => {
-        const ans = i18n.global.t('warnZoom').replace("%radio%", (ratio * 100).toFixed(0) + "%")
+        const ans = i18n.global.t('warnZoom').replace("%ratio%", (ratio * 100).toFixed(0) + "%")
         return confirm(ans)
     }
     let ratio

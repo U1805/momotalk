@@ -36,7 +36,7 @@ export default {
     exportButton: 'Click to Download',
     sharedFile: 'Shared File (Playable Dialogue)',
     warnZoom: 
-        "⚠️ Your browser is currently zoomed in %radio%. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
+        "⚠️ Your browser is currently zoomed in %ratio%. Continuing to download images may result in formatting errors. \n• If zooming is needed, please use the zoom function in the settings ⚙️ at the top right corner. \n• Do you want to continue downloading?",
     help: `
 # How to use 
 
