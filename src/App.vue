@@ -51,7 +51,7 @@ window.addEventListener('resize', () => {
                 <div style="cursor: pointer" @click="store.resetData()" title="Reset">
                     <ResetIcon class="icon reset" />
                 </div>
-                <div style="cursor: pointer" @click="download" title="Download">
+                <div style="cursor: pointer" @click="tryDownload(dpr)" title="Download">
                     <DownloadIcon class="icon download" />
                 </div>
                 <div style="cursor: pointer" @click="changeLanguage" title="Switch Language">
@@ -299,6 +299,36 @@ document.onkeyup = (e) => {
         e.preventDefault()
         talkHistory.redo()
     }
+}
+
+/************************* */
+/*  check dpr change       */
+/*  and download           */
+/************************* */
+// initialize dpr
+let dpr = window.devicePixelRatio
+const tryDownload = (dpr) => {
+    const showZoomWarning = (ratio) => {
+        const ans = i18n.global.t('warnZoom').replace("%radio%", (ratio * 100).toFixed(0) + "%")
+        return confirm(ans)
+    }
+    let ratio
+    let requiresWarning = false
+
+    // 检查浏览器缩放，缩放可能导致文字溢出 Check browser zoom, which may cause the last overflow
+    if (navigator.userAgent.includes('WebKit')) {
+        ratio = window.outerWidth / window.innerWidth
+        requiresWarning = Math.abs(ratio - 1) > 0.05
+    } else {
+        ratio = window.devicePixelRatio
+        requiresWarning = ratio !== dpr
+    }
+
+    if (requiresWarning && !showZoomWarning(ratio)) {
+        return
+    }
+
+    download()
 }
 </script>
 
