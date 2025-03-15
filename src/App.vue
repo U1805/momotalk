@@ -307,8 +307,8 @@ document.onkeyup = (e) => {
 /************************* */
 // initialize dpr
 let dpr = window.devicePixelRatio
-const tryDownload = (dpr) => {
-    const showZoomWarning = (ratio) => {
+const tryDownload = (dpr:number) => {
+    const showZoomWarning = (ratio:number) => {
         const ans = i18n.global.t('warnZoom').replace("%ratio%", (ratio * 100).toFixed(0) + "%")
         return confirm(ans)
     }
