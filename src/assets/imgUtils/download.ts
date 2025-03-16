@@ -14,10 +14,20 @@ const download = () => {
         domtoimage
             .toPng(node, { width, height })
             .then(function (dataUrl: string) {
-                const link = document.createElement('a')
-                link.download = `Momotalk-${Date.now()}.png`
-                link.href = dataUrl
-                link.click()
+
+                // https://github.com/tsayen/dom-to-image/issues/343#issuecomment-975656269
+                domtoimage
+                .toPng(node, { width, height })
+                .then(function (dataUrl2: string) {
+                    const link = document.createElement('a')
+                    link.download = `Momotalk-${Date.now()}.png`
+                    link.href = dataUrl2
+                    link.click()
+                })
+                .catch(function (error: Error) {
+                    console.error('oops, screenshot went wrong!', error)
+                })
+
             })
             .catch(function (error: Error) {
                 console.error('oops, screenshot went wrong!', error)
