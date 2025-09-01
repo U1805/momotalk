@@ -24,7 +24,7 @@
                     :class="props.filter_condition_copy.sort_type === 'Club' ? 'active' : ''"><span>{{ $t('club') }}</span></button>
             </div>
         </div>
-        <div class="popper-content__line"><span>筛选</span></div>
+        <div class="popper-content__line"><span>{{ $t('filter') }}</span></div>
         <div class="popper-content__button-group">
             <div>
                 <button
